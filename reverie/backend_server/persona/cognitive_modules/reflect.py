@@ -1,8 +1,8 @@
 """
-Author: Joon Sung Park (joonspk@stanford.edu)
+作者: Joon Sung Park (joonspk@stanford.edu)
 
-File: reflect.py
-Description: This defines the "Reflect" module for generative agents. 
+文件: reflect.py
+描述: 此文件定义了生成式代理的“反思”模块。
 """
 import sys
 sys.path.append('../../')
@@ -23,7 +23,7 @@ def generate_focal_points(persona, n=3):
   
   nodes = [[i.last_accessed, i]
             for i in persona.a_mem.seq_event + persona.a_mem.seq_thought
-            if "idle" not in i.embedding_key]
+            if "idle" not in i.embedding_key] # "idle" is a keyword, do not translate
 
   nodes = sorted(nodes, key=lambda x: x[0])
   nodes = [i for created, i in nodes]
@@ -52,18 +52,18 @@ def generate_insights_and_evidence(persona, nodes, n=5):
       ret[thought] = evidence_node_id
     return ret
   except: 
-    return {"this is blank": "node_1"} 
+    return {"这里是空的": "node_1"} # "node_1" is an ID, do not translate.
 
 
 def generate_action_event_triple(act_desp, persona): 
-  """TODO 
+  """待办
 
-  INPUT: 
-    act_desp: the description of the action (e.g., "sleeping")
-    persona: The Persona class instance
-  OUTPUT: 
-    a string of emoji that translates action description.
-  EXAMPLE OUTPUT: 
+  输入:
+    act_desp: 动作的描述 (例如："sleeping" - 睡觉)
+    persona: Persona 类实例
+  输出:
+    一个用于翻译动作描述的表情符号字符串。 (注意：此描述似乎与pronunciatio重复，事件三元组应为SPO)
+  输出示例:
     "🧈🍞"
   """
   if debug: print ("GNS FUNCTION: <generate_action_event_triple>")
@@ -73,7 +73,7 @@ def generate_action_event_triple(act_desp, persona):
 def generate_poig_score(persona, event_type, description): 
   if debug: print ("GNS FUNCTION: <generate_poig_score>")
 
-  if "is idle" in description: 
+  if "处于空闲状态" in description: 
     return 1
 
   if event_type == "event" or event_type == "thought": 
@@ -98,25 +98,24 @@ def generate_memo_on_convo(persona, all_utt):
 
 def run_reflect(persona):
   """
-  Run the actual reflection. We generate the focal points, retrieve any 
-  relevant nodes, and generate thoughts and insights. 
+  运行实际的反思过程。我们生成焦点，检索任何相关节点，并生成想法和见解。
 
-  INPUT: 
-    persona: Current Persona object
-  Output: 
-    None
+  输入:
+    persona: 当前的 Persona 对象
+  输出:
+    无
   """
-  # Reflection requires certain focal points. Generate that first. 
+  # 反思需要特定的焦点。首先生成这些焦点。
   focal_points = generate_focal_points(persona, 3)
-  # Retrieve the relevant Nodes object for each of the focal points. 
-  # <retrieved> has keys of focal points, and values of the associated Nodes. 
+  # 检索每个焦点的相关 Nodes 对象。
+  # <retrieved> 的键是焦点，值是相关的 Nodes。
   retrieved = new_retrieve(persona, focal_points)
 
-  # For each of the focal points, generate thoughts and save it in the 
-  # agent's memory. 
+  # 对于每个焦点，生成想法并将其保存在
+  # 代理的记忆中。
   for focal_pt, nodes in retrieved.items(): 
     xx = [i.embedding_key for i in nodes]
-    for xxx in xx: print (xxx)
+    for xxx in xx: print (xxx) # DEBUG
 
     thoughts = generate_insights_and_evidence(persona, nodes, 5)
     for thought, evidence in thoughts.items(): 
@@ -134,20 +133,18 @@ def run_reflect(persona):
 
 def reflection_trigger(persona): 
   """
-  Given the current persona, determine whether the persona should run a 
-  reflection. 
+  给定当前角色，判断该角色是否应该进行反思。
   
-  Our current implementation checks for whether the sum of the new importance
-  measure has reached the set (hyper-parameter) threshold.
+  我们目前的实现是检查新的重要性指标总和是否已达到设定的（超参数）阈值。
 
-  INPUT: 
-    persona: Current Persona object
-  Output: 
-    True if we are running a new reflection. 
-    False otherwise. 
+  输入:
+    persona: 当前的 Persona 对象
+  输出:
+    如果运行新的反思，则为 True。
+    否则为 False。
   """
-  print (persona.scratch.name, "persona.scratch.importance_trigger_curr::", persona.scratch.importance_trigger_curr)
-  print (persona.scratch.importance_trigger_max)
+  print (persona.scratch.name, "persona.scratch.importance_trigger_curr::", persona.scratch.importance_trigger_curr) # DEBUG
+  print (persona.scratch.importance_trigger_max) # DEBUG
 
   if (persona.scratch.importance_trigger_curr <= 0 and 
       [] != persona.a_mem.seq_event + persona.a_mem.seq_thought): 
@@ -157,12 +154,12 @@ def reflection_trigger(persona):
 
 def reset_reflection_counter(persona): 
   """
-  We reset the counters used for the reflection trigger. 
+  我们重置用于反思触发器的计数器。
 
-  INPUT: 
-    persona: Current Persona object
-  Output: 
-    None
+  输入:
+    persona: 当前的 Persona 对象
+  输出:
+    无
   """
   persona_imt_max = persona.scratch.importance_trigger_max
   persona.scratch.importance_trigger_curr = persona_imt_max
@@ -171,14 +168,13 @@ def reset_reflection_counter(persona):
 
 def reflect(persona):
   """
-  The main reflection module for the persona. We first check if the trigger 
-  conditions are met, and if so, run the reflection and reset any of the 
-  relevant counters. 
+  角色的主要反思模块。我们首先检查是否满足触发条件，
+  如果满足，则运行反思并重置任何相关的计数器。
 
-  INPUT: 
-    persona: Current Persona object
-  Output: 
-    None
+  输入:
+    persona: 当前的 Persona 对象
+  输出:
+    无
   """
   if reflection_trigger(persona): 
     run_reflect(persona)
@@ -190,7 +186,7 @@ def reflect(persona):
   if persona.scratch.chatting_end_time: 
     # print("DEBUG", persona.scratch.curr_time + datetime.timedelta(0,10))
     if persona.scratch.curr_time + datetime.timedelta(0,10) == persona.scratch.chatting_end_time: 
-      # print ("KABOOOOOMMMMMMM")
+      # print ("KABOOOOOMMMMMMM") # DEBUG
       all_utt = ""
       if persona.scratch.chat: 
         for row in persona.scratch.chat:  
@@ -206,15 +202,14 @@ def reflect(persona):
       # memo_thought = generate_memo_on_convo(target_persona, all_utt)
       # print ("target memo: aosdhfpsaoish90m     ::", f"For {target_persona.scratch.name} {memo_thought}")
       
-
-      # make sure you set the fillings as well
+      # 确保你也设置了填充内容 (make sure you set the fillings as well)
 
       # print (persona.a_mem.get_last_chat(persona.scratch.chatting_with).node_id)
 
       evidence = [persona.a_mem.get_last_chat(persona.scratch.chatting_with).node_id]
 
       planning_thought = generate_planning_thought_on_convo(persona, all_utt)
-      planning_thought = f"For {persona.scratch.name}'s planning: {planning_thought}"
+      planning_thought = f"关于 {persona.scratch.name} 的计划: {planning_thought}"
 
       created = persona.scratch.curr_time
       expiration = persona.scratch.curr_time + datetime.timedelta(days=30)
@@ -230,7 +225,7 @@ def reflect(persona):
 
 
       memo_thought = generate_memo_on_convo(persona, all_utt)
-      memo_thought = f"{persona.scratch.name} {memo_thought}"
+      memo_thought = f"{persona.scratch.name} {memo_thought}" # Assuming memo_thought is a complete sentence following the name.
 
       created = persona.scratch.curr_time
       expiration = persona.scratch.curr_time + datetime.timedelta(days=30)

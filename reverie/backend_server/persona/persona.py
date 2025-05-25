@@ -1,12 +1,11 @@
 """
-Author: Joon Sung Park (joonspk@stanford.edu)
+作者: Joon Sung Park (joonspk@stanford.edu)
 
-File: persona.py
-Description: Defines the Persona class that powers the agents in Reverie. 
+文件: persona.py
+描述: 定义了为 Reverie 中的代理提供支持的 Persona 类。
 
-Note (May 1, 2023) -- this is effectively GenerativeAgent class. Persona was
-the term we used internally back in 2022, taking from our Social Simulacra 
-paper.
+注意 (2023年5月1日) -- 这实际上就是 GenerativeAgent 类。Persona 是
+我们在2022年内部使用的术语，源于我们的 Social Simulacra 论文。
 """
 import math
 import sys
@@ -29,35 +28,33 @@ from persona.cognitive_modules.converse import *
 
 class Persona: 
   def __init__(self, name, folder_mem_saved=False):
-    # PERSONA BASE STATE 
-    # <name> is the full name of the persona. This is a unique identifier for
-    # the persona within Reverie. 
+    # 角色基本状态
+    # <name> 是角色的全名。这是 Reverie 中角色的唯一标识符。
     self.name = name
 
-    # PERSONA MEMORY 
-    # If there is already memory in folder_mem_saved, we load that. Otherwise,
-    # we create new memory instances. 
-    # <s_mem> is the persona's spatial memory. 
+    # 角色记忆
+    # 如果 folder_mem_saved 中已有记忆，则加载它。否则，我们创建新的记忆实例。
+    # <s_mem> 是角色的空间记忆。
     f_s_mem_saved = f"{folder_mem_saved}/bootstrap_memory/spatial_memory.json"
     self.s_mem = MemoryTree(f_s_mem_saved)
-    # <s_mem> is the persona's associative memory. 
+    # <a_mem> 是角色的联想记忆。
     f_a_mem_saved = f"{folder_mem_saved}/bootstrap_memory/associative_memory"
     self.a_mem = AssociativeMemory(f_a_mem_saved)
-    # <scratch> is the persona's scratch (short term memory) space. 
+    # <scratch> 是角色的暂存（短期记忆）空间。
     scratch_saved = f"{folder_mem_saved}/bootstrap_memory/scratch.json"
     self.scratch = Scratch(scratch_saved)
 
 
   def save(self, save_folder): 
     """
-    Save persona's current state (i.e., memory). 
+    保存角色的当前状态（即记忆）。
 
-    INPUT: 
-      save_folder: The folder where we wil be saving our persona's state. 
-    OUTPUT: 
-      None
+    输入:
+      save_folder: 我们将保存角色状态的文件夹。
+    输出:
+      无
     """
-    # Spatial memory contains a tree in a json format. 
+    # 空间记忆包含一个 JSON 格式的树。
     # e.g., {"double studio": 
     #         {"double studio": 
     #           {"bedroom 2": 
@@ -65,105 +62,93 @@ class Persona:
     f_s_mem = f"{save_folder}/spatial_memory.json"
     self.s_mem.save(f_s_mem)
     
-    # Associative memory contains a csv with the following rows: 
+    # 联想记忆包含一个 CSV 文件，包含以下行：
     # [event.type, event.created, event.expiration, s, p, o]
     # e.g., event,2022-10-23 00:00:00,,Isabella Rodriguez,is,idle
     f_a_mem = f"{save_folder}/associative_memory"
     self.a_mem.save(f_a_mem)
 
-    # Scratch contains non-permanent data associated with the persona. When 
-    # it is saved, it takes a json form. When we load it, we move the values
-    # to Python variables. 
+    # 暂存空间包含与角色相关的非永久性数据。当它被保存时，它采用 JSON 格式。当我们加载它时，我们将值移动到 Python 变量中。
     f_scratch = f"{save_folder}/scratch.json"
     self.scratch.save(f_scratch)
 
 
   def perceive(self, maze):
     """
-    This function takes the current maze, and returns events that are 
-    happening around the persona. Importantly, perceive is guided by 
-    two key hyper-parameter for the  persona: 1) att_bandwidth, and 
-    2) retention. 
+    此函数接收当前迷宫，并返回角色周围发生的事件。重要的是，感知由角色的两个关键超参数引导：
+    1) att_bandwidth (注意力带宽)，以及 2) retention (记忆保留度)。
 
-    First, <att_bandwidth> determines the number of nearby events that the 
-    persona can perceive. Say there are 10 events that are within the vision
-    radius for the persona -- perceiving all 10 might be too much. So, the 
-    persona perceives the closest att_bandwidth number of events in case there
-    are too many events. 
+    首先，<att_bandwidth> 决定了角色可以感知的附近事件的数量。
+    假设在角色的视觉半径内有10个事件——感知所有10个可能太多了。
+    因此，如果事件过多，角色会感知最近的 att_bandwidth 个事件。
 
-    Second, the persona does not want to perceive and think about the same 
-    event at each time step. That's where <retention> comes in -- there is 
-    temporal order to what the persona remembers. So if the persona's memory
-    contains the current surrounding events that happened within the most 
-    recent retention, there is no need to perceive that again. xx
+    其次，角色不希望在每个时间步都感知和思考相同的事件。
+    这就是 <retention> 发挥作用的地方——角色记忆的内容有时间顺序。
+    因此，如果角色的记忆中包含了在最近的 retention 时间内发生的当前周围事件，
+    则无需再次感知。xx
 
-    INPUT: 
-      maze: Current <Maze> instance of the world. 
-    OUTPUT: 
-      a list of <ConceptNode> that are perceived and new. 
-        See associative_memory.py -- but to get you a sense of what it 
-        receives as its input: "s, p, o, desc, persona.scratch.curr_time"
+    输入:
+      maze: 世界的当前 <Maze> 实例。
+    输出:
+      一个 <ConceptNode> (概念节点) 列表，包含感知到的新事件。
+        参见 associative_memory.py —— 但为了让你了解它接收的输入内容： "s, p, o, desc, persona.scratch.curr_time"
     """
     return perceive(self, maze)
 
 
   def retrieve(self, perceived):
     """
-    This function takes the events that are perceived by the persona as input
-    and returns a set of related events and thoughts that the persona would 
-    need to consider as context when planning. 
+    此函数将角色感知到的事件作为输入，
+    并返回一组相关的事件和想法，角色在规划时需要将这些作为上下文来考虑。
 
-    INPUT: 
-      perceive: a list of <ConceptNode> that are perceived and new.  
-    OUTPUT: 
-      retrieved: dictionary of dictionary. The first layer specifies an event,
-                 while the latter layer specifies the "curr_event", "events", 
-                 and "thoughts" that are relevant.
+    输入:
+      perceive: 一个 <ConceptNode> (概念节点) 列表，包含感知到的新事件。
+    输出:
+      retrieved: 字典的字典。第一层指定一个事件，
+                 而后者层指定相关的 "curr_event" (当前事件), "events" (事件),
+                 和 "thoughts" (想法)。
     """
     return retrieve(self, perceived)
 
 
   def plan(self, maze, personas, new_day, retrieved):
     """
-    Main cognitive function of the chain. It takes the retrieved memory and 
-    perception, as well as the maze and the first day state to conduct both 
-    the long term and short term planning for the persona. 
+    认知链的主要功能。它接收检索到的记忆和感知，
+    以及迷宫和第一天的状态，以便为角色进行长期和短期规划。
 
-    INPUT: 
-      maze: Current <Maze> instance of the world. 
-      personas: A dictionary that contains all persona names as keys, and the 
-                Persona instance as values. 
-      new_day: This can take one of the three values. 
-        1) <Boolean> False -- It is not a "new day" cycle (if it is, we would
-           need to call the long term planning sequence for the persona). 
-        2) <String> "First day" -- It is literally the start of a simulation,
-           so not only is it a new day, but also it is the first day. 
-        2) <String> "New day" -- It is a new day. 
-      retrieved: dictionary of dictionary. The first layer specifies an event,
-                 while the latter layer specifies the "curr_event", "events", 
-                 and "thoughts" that are relevant.
-    OUTPUT 
-      The target action address of the persona (persona.scratch.act_address).
+    输入:
+      maze: 世界的当前 <Maze> 实例。
+      personas: 一个字典，其中包含所有角色名称作为键，Persona 实例作为值。
+      new_day: 可以是以下三个值之一。
+        1) <布尔值> False -- 不是 "新的一天" 周期（如果是，我们需要
+           为角色调用长期规划序列）。
+        2) <字符串> "First day" -- 这确实是模拟的开始，
+           所以它不仅是新的一天，也是第一天。
+        3) <字符串> "New day" -- 这是新的一天。 
+      retrieved: 字典的字典。第一层指定一个事件，
+                 而后者层指定相关的 "curr_event" (当前事件), "events" (事件),
+                 和 "thoughts" (想法)。
+    输出
+      角色的目标动作地址 (persona.scratch.act_address)。
     """
     return plan(self, maze, personas, new_day, retrieved)
 
 
   def execute(self, maze, personas, plan):
     """
-    This function takes the agent's current plan and outputs a concrete 
-    execution (what object to use, and what tile to travel to). 
+    此函数接收代理的当前计划并输出一个具体的执行方案
+    （使用什么对象，以及移动到哪个瓦片）。
 
-    INPUT: 
-      maze: Current <Maze> instance of the world. 
-      personas: A dictionary that contains all persona names as keys, and the 
-                Persona instance as values. 
-      plan: The target action address of the persona  
-            (persona.scratch.act_address).
-    OUTPUT: 
-      execution: A triple set that contains the following components: 
-        <next_tile> is a x,y coordinate. e.g., (58, 9)
-        <pronunciatio> is an emoji.
-        <description> is a string description of the movement. e.g., 
+    输入:
+      maze: 世界的当前 <Maze> 实例。
+      personas: 一个字典，其中包含所有角色名称作为键，Persona 实例作为值。
+      plan: 角色的目标动作地址
+            (persona.scratch.act_address)。
+    输出:
+      execution: 一个包含以下组件的三元组：
+        <next_tile> 是一个 x,y 坐标。例如：(58, 9)
+        <pronunciatio> 是一个表情符号。
+        <description> 是动作的字符串描述。例如：
         writing her next novel (editing her novel) 
         @ double studio:double studio:common room:sofa
     """
@@ -172,60 +157,55 @@ class Persona:
 
   def reflect(self):
     """
-    Reviews the persona's memory and create new thoughts based on it. 
+    回顾角色的记忆并基于此产生新的想法。
 
-    INPUT: 
-      None
-    OUTPUT: 
-      None
+    输入:
+      无
+    输出:
+      无
     """
     reflect(self)
 
 
   def move(self, maze, personas, curr_tile, curr_time):
     """
-    This is the main cognitive function where our main sequence is called. 
+    这是调用我们主序列的主要认知功能。
 
-    INPUT: 
-      maze: The Maze class of the current world. 
-      personas: A dictionary that contains all persona names as keys, and the 
-                Persona instance as values. 
-      curr_tile: A tuple that designates the persona's current tile location 
-                 in (row, col) form. e.g., (58, 39)
-      curr_time: datetime instance that indicates the game's current time. 
-    OUTPUT: 
-      execution: A triple set that contains the following components: 
-        <next_tile> is a x,y coordinate. e.g., (58, 9)
-        <pronunciatio> is an emoji.
-        <description> is a string description of the movement. e.g., 
+    输入:
+      maze: 当前世界的 Maze 类。
+      personas: 一个字典，其中包含所有角色名称作为键，Persona 实例作为值。
+      curr_tile: 一个元组，以 (行, 列) 形式指定角色的当前瓦片位置。例如：(58, 39)
+      curr_time: 表示游戏当前时间的 datetime 实例。
+    输出:
+      execution: 一个包含以下组件的三元组：
+        <next_tile> 是一个 x,y 坐标。例如：(58, 9)
+        <pronunciatio> 是一个表情符号。
+        <description> 是动作的字符串描述。例如：
         writing her next novel (editing her novel) 
         @ double studio:double studio:common room:sofa
     """
-    # Updating persona's scratch memory with <curr_tile>. 
+    # 用 <curr_tile> 更新角色的暂存记忆。
     self.scratch.curr_tile = curr_tile
 
-    # We figure out whether the persona started a new day, and if it is a new
-    # day, whether it is the very first day of the simulation. This is 
-    # important because we set up the persona's long term plan at the start of
-    # a new day. 
+    # 我们判断角色是否开始了新的一天，如果是新的一天，是否是模拟的第一天。这很重要，因为我们在新的一天开始时为角色设定长期计划。
     new_day = False
     if not self.scratch.curr_time: 
-      new_day = "First day"
+      new_day = "First day" # Do not translate
     elif (self.scratch.curr_time.strftime('%A %B %d')
           != curr_time.strftime('%A %B %d')):
-      new_day = "New day"
+      new_day = "New day" # Do not translate
     self.scratch.curr_time = curr_time
 
-    # Main cognitive sequence begins here. 
+    # 主要认知序列从这里开始。
     perceived = self.perceive(maze)
     retrieved = self.retrieve(perceived)
     plan = self.plan(maze, personas, new_day, retrieved)
     self.reflect()
 
-    # <execution> is a triple set that contains the following components: 
-    # <next_tile> is a x,y coordinate. e.g., (58, 9)
-    # <pronunciatio> is an emoji. e.g., "\ud83d\udca4"
-    # <description> is a string description of the movement. e.g., 
+    # <execution> 是一个包含以下组件的三元组：
+    # <next_tile> 是一个 x,y 坐标。例如：(58, 9)
+    # <pronunciatio> 是一个表情符号。例如："\ud83d\udca4"
+    # <description> 是动作的字符串描述。例如：
     #   writing her next novel (editing her novel) 
     #   @ double studio:double studio:common room:sofa
     return self.execute(maze, personas, plan)

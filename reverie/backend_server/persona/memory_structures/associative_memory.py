@@ -1,11 +1,10 @@
 """
-Author: Joon Sung Park (joonspk@stanford.edu)
+作者: Joon Sung Park (joonspk@stanford.edu)
 
-File: associative_memory.py
-Description: Defines the core long-term memory module for generative agents.
+文件: associative_memory.py
+描述: 定义了生成式代理的核心长期记忆模块。
 
-Note (May 1, 2023) -- this class is the Memory Stream module in the generative
-agents paper. 
+注意 (2023年5月1日) -- 此类是生成式代理论文中的记忆流模块。
 """
 import sys
 sys.path.append('../../')
@@ -25,7 +24,7 @@ class ConceptNode:
     self.node_id = node_id
     self.node_count = node_count
     self.type_count = type_count
-    self.type = node_type # thought / event / chat
+    self.type = node_type # 想法 / 事件 / 聊天
     self.depth = depth
 
     self.created = created
@@ -153,27 +152,27 @@ class AssociativeMemory:
   def add_event(self, created, expiration, s, p, o, 
                       description, keywords, poignancy, 
                       embedding_pair, filling):
-    # Setting up the node ID and counts.
+    # 设置节点 ID 和计数。
     node_count = len(self.id_to_node.keys()) + 1
     type_count = len(self.seq_event) + 1
-    node_type = "event"
+    node_type = "event" # Do not translate
     node_id = f"node_{str(node_count)}"
     depth = 0
 
-    # Node type specific clean up. 
+    # 特定节点类型的清理。
     if "(" in description: 
       description = (" ".join(description.split()[:3]) 
                      + " " 
                      +  description.split("(")[-1][:-1])
 
-    # Creating the <ConceptNode> object.
+    # 创建 <ConceptNode> 对象。
     node = ConceptNode(node_id, node_count, type_count, node_type, depth,
                        created, expiration, 
                        s, p, o, 
                        description, embedding_pair[0], 
                        poignancy, keywords, filling)
 
-    # Creating various dictionary cache for fast access. 
+    # 创建各种字典缓存以实现快速访问。
     self.seq_event[0:0] = [node]
     keywords = [i.lower() for i in keywords]
     for kw in keywords: 
@@ -183,8 +182,8 @@ class AssociativeMemory:
         self.kw_to_event[kw] = [node]
     self.id_to_node[node_id] = node 
 
-    # Adding in the kw_strength
-    if f"{p} {o}" != "is idle":  
+    # 添加关键词强度 (kw_strength)
+    if f"{p} {o}" != "is idle":  # "is idle" is a keyword, do not translate
       for kw in keywords: 
         if kw in self.kw_strength_event: 
           self.kw_strength_event[kw] += 1
@@ -199,10 +198,10 @@ class AssociativeMemory:
   def add_thought(self, created, expiration, s, p, o, 
                         description, keywords, poignancy, 
                         embedding_pair, filling):
-    # Setting up the node ID and counts.
+    # 设置节点 ID 和计数。
     node_count = len(self.id_to_node.keys()) + 1
     type_count = len(self.seq_thought) + 1
-    node_type = "thought"
+    node_type = "thought" # Do not translate
     node_id = f"node_{str(node_count)}"
     depth = 1 
     try: 
@@ -211,13 +210,13 @@ class AssociativeMemory:
     except: 
       pass
 
-    # Creating the <ConceptNode> object.
+    # 创建 <ConceptNode> 对象。
     node = ConceptNode(node_id, node_count, type_count, node_type, depth,
                        created, expiration, 
                        s, p, o, 
                        description, embedding_pair[0], poignancy, keywords, filling)
 
-    # Creating various dictionary cache for fast access. 
+    # 创建各种字典缓存以实现快速访问。
     self.seq_thought[0:0] = [node]
     keywords = [i.lower() for i in keywords]
     for kw in keywords: 
@@ -227,8 +226,8 @@ class AssociativeMemory:
         self.kw_to_thought[kw] = [node]
     self.id_to_node[node_id] = node 
 
-    # Adding in the kw_strength
-    if f"{p} {o}" != "is idle":  
+    # 添加关键词强度 (kw_strength)
+    if f"{p} {o}" != "is idle":  # "is idle" is a keyword, do not translate
       for kw in keywords: 
         if kw in self.kw_strength_thought: 
           self.kw_strength_thought[kw] += 1
@@ -243,20 +242,20 @@ class AssociativeMemory:
   def add_chat(self, created, expiration, s, p, o, 
                      description, keywords, poignancy, 
                      embedding_pair, filling): 
-    # Setting up the node ID and counts.
+    # 设置节点 ID 和计数。
     node_count = len(self.id_to_node.keys()) + 1
     type_count = len(self.seq_chat) + 1
-    node_type = "chat"
+    node_type = "chat" # Do not translate
     node_id = f"node_{str(node_count)}"
     depth = 0
 
-    # Creating the <ConceptNode> object.
+    # 创建 <ConceptNode> 对象。
     node = ConceptNode(node_id, node_count, type_count, node_type, depth,
                        created, expiration, 
                        s, p, o, 
                        description, embedding_pair[0], poignancy, keywords, filling)
 
-    # Creating various dictionary cache for fast access. 
+    # 创建各种字典缓存以实现快速访问。
     self.seq_chat[0:0] = [node]
     keywords = [i.lower() for i in keywords]
     for kw in keywords: 
@@ -281,21 +280,21 @@ class AssociativeMemory:
   def get_str_seq_events(self): 
     ret_str = ""
     for count, event in enumerate(self.seq_event): 
-      ret_str += f'{"Event", len(self.seq_event) - count, ": ", event.spo_summary(), " -- ", event.description}\n'
+      ret_str += f'{"事件", len(self.seq_event) - count, ": ", event.spo_summary(), " -- ", event.description}\n'
     return ret_str
 
 
   def get_str_seq_thoughts(self): 
     ret_str = ""
     for count, event in enumerate(self.seq_thought): 
-      ret_str += f'{"Thought", len(self.seq_thought) - count, ": ", event.spo_summary(), " -- ", event.description}'
+      ret_str += f'{"想法", len(self.seq_thought) - count, ": ", event.spo_summary(), " -- ", event.description}'
     return ret_str
 
 
   def get_str_seq_chats(self): 
     ret_str = ""
     for count, event in enumerate(self.seq_chat): 
-      ret_str += f"with {event.object.content} ({event.description})\n"
+      ret_str += f"与 {event.object.content} ({event.description})\n"
       ret_str += f'{event.created.strftime("%B %d, %Y, %H:%M:%S")}\n'
       for row in event.filling: 
         ret_str += f"{row[0]}: {row[1]}\n"
