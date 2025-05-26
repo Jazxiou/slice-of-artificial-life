@@ -12,23 +12,23 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+# 项目内部的路径构建方式如下: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
+# 快速启动开发设置 - 不适用于生产环境
+# 参见 https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
+# 安全警告: 生产环境中使用的密钥必须保密！
 SECRET_KEY = 'c7l%1%b=2sh$o9zqvd4i*h8*__^@-5sm-y)m(1ib2t92)43@62'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# 安全警告: 不要在生产环境中启用调试模式！
 DEBUG = True
 
 ALLOWED_HOSTS = []
 
 
-# Application definition
+# 应用定义
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -74,7 +74,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'frontend_server.wsgi.application'
 
 
-# Database
+# 数据库
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
@@ -85,7 +85,7 @@ DATABASES = {
 }
 
 
-# Password validation
+# 密码验证
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -104,7 +104,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-# Internationalization
+# 国际化
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
@@ -118,7 +118,7 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
+# 静态文件 (CSS, JavaScript, 图片)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'

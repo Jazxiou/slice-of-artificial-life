@@ -1,6 +1,6 @@
 """
-Author: Joon Sung Park (joonspk@stanford.edu)
-File: views.py
+作者: Joon Sung Park (joonspk@stanford.edu)
+文件: views.py
 """
 import os
 import string
@@ -32,7 +32,7 @@ def demo(request, sim_code, step, play_speed="2"):
   if play_speed not in play_speed_opt: play_speed = 2
   else: play_speed = play_speed_opt[play_speed]
 
-  # Loading the basic meta information about the simulation.
+  # 加载关于模拟的基本元信息。
   meta = dict() 
   with open (meta_file) as json_file: 
     meta = json.load(json_file)
@@ -44,12 +44,12 @@ def demo(request, sim_code, step, play_speed="2"):
     start_datetime += datetime.timedelta(seconds=sec_per_step)
   start_datetime = start_datetime.strftime("%Y-%m-%dT%H:%M:%S")
 
-  # Loading the movement file
+  # 加载移动文件
   raw_all_movement = dict()
   with open(move_file) as json_file: 
     raw_all_movement = json.load(json_file)
  
-  # Loading all names of the personas
+  # 加载所有角色的名称
   persona_names = dict()
   persona_names = []
   persona_names_set = set()
@@ -59,15 +59,13 @@ def demo(request, sim_code, step, play_speed="2"):
                        "initial": p[0] + p.split(" ")[-1][0]}]
     persona_names_set.add(p)
 
-  # <all_movement> is the main movement variable that we are passing to the 
-  # frontend. Whereas we use ajax scheme to communicate steps to the frontend
-  # during the simulation stage, for this demo, we send all movement 
-  # information in one step. 
+  # <all_movement> 是我们传递给前端的主要移动变量。
+  # 在模拟阶段，我们使用 ajax 方案与前端通信步骤，但在此演示中，
+  # 我们一步发送所有移动信息。
   all_movement = dict()
 
-  # Preparing the initial step. 
-  # <init_prep> sets the locations and descriptions of all agents at the
-  # beginning of the demo determined by <step>. 
+  # 准备初始步骤。
+  # <init_prep> 设置由 <step> 决定的演示开始时所有代理的位置和描述。
   init_prep = dict() 
   for int_key in range(step+1): 
     key = str(int_key)
@@ -80,7 +78,7 @@ def demo(request, sim_code, step, play_speed="2"):
     persona_init_pos[p.replace(" ","_")] = init_prep[p]["movement"]
   all_movement[step] = init_prep
 
-  # Finish loading <all_movement>
+  # 完成加载 <all_movement>
   for int_key in range(step+1, len(raw_all_movement.keys())): 
     all_movement[int_key] = raw_all_movement[str(int_key)]
 
@@ -240,15 +238,14 @@ def path_tester(request):
 
 def process_environment(request): 
   """
-  <FRONTEND to BACKEND> 
-  This sends the frontend visual world information to the backend server. 
-  It does this by writing the current environment representation to 
-  "storage/environment.json" file. 
+  <前端到后端>
+  此函数将前端可视化世界信息发送到后端服务器。
+  它通过将当前环境表示写入 "storage/environment.json" 文件来完成此操作。
 
-  ARGS:
-    request: Django request
-  RETURNS: 
-    HttpResponse: string confirmation message. 
+  参数:
+    request: Django 请求
+  返回:
+    HttpResponse: 字符串确认消息。
   """
   # f_curr_sim_code = "temp_storage/curr_sim_code.json"
   # with open(f_curr_sim_code) as json_file:  
@@ -262,21 +259,19 @@ def process_environment(request):
   with open(f"storage/{sim_code}/environment/{step}.json", "w") as outfile:
     outfile.write(json.dumps(environment, indent=2))
 
-  return HttpResponse("received")
+  return HttpResponse("已接收")
 
 
 def update_environment(request): 
   """
-  <BACKEND to FRONTEND> 
-  This sends the backend computation of the persona behavior to the frontend
-  visual server. 
-  It does this by reading the new movement information from 
-  "storage/movement.json" file.
+  <后端到前端>
+  此函数将角色行为的后端计算结果发送到前端可视化服务器。
+  它通过从 "storage/movement.json" 文件读取新的移动信息来完成此操作。
 
-  ARGS:
-    request: Django request
-  RETURNS: 
-    HttpResponse
+  参数:
+    request: Django 请求
+  返回:
+    JsonResponse
   """
   # f_curr_sim_code = "temp_storage/curr_sim_code.json"
   # with open(f_curr_sim_code) as json_file:  
@@ -297,13 +292,13 @@ def update_environment(request):
 
 def path_tester_update(request): 
   """
-  Processing the path and saving it to path_tester_env.json temp storage for 
-  conducting the path tester. 
+  处理路径并将其保存到 path_tester_env.json 临时存储中，
+  以便进行路径测试。
 
-  ARGS:
-    request: Django request
-  RETURNS: 
-    HttpResponse: string confirmation message. 
+  参数:
+    request: Django 请求
+  返回:
+    HttpResponse: 字符串确认消息。
   """
   data = json.loads(request.body)
   camera = data["camera"]
@@ -311,7 +306,7 @@ def path_tester_update(request):
   with open(f"temp_storage/path_tester_env.json", "w") as outfile:
     outfile.write(json.dumps(camera, indent=2))
 
-  return HttpResponse("received")
+  return HttpResponse("已接收")
 
 
 

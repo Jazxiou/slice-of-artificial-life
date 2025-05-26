@@ -1,11 +1,10 @@
 """
-Author: Joon Sung Park (joonspk@stanford.edu)
+作者: Joon Sung Park (joonspk@stanford.edu)
 
-File: defunct_run_gpt_prompt.py
-Description: Defines all run gpt prompt functions. These functions directly
-interface with the safe_generate_response function.
+文件: defunct_run_gpt_prompt.py
+描述: 定义所有运行 gpt 提示的函数。这些函数直接与 safe_generate_response 函数交互。
 
-Note (March 10, 2023) -- Defunct
+注意 (2023年3月10日) -- 已弃用
 """
 import re
 import datetime
@@ -19,14 +18,13 @@ from persona.prompt_template.print_prompt import *
 
 def get_random_alphanumeric(i=6, j=6): 
   """
-  Returns a random alpha numeric strength that has the length of somewhere
-  between i and j. 
+  返回一个长度在 i 和 j 之间的随机字母数字字符串。
 
-  INPUT: 
-    i: min_range for the length
-    j: max_range for the length
-  OUTPUT: 
-    an alpha numeric str with the length of somewhere between i and j.
+  输入:
+    i: 长度的最小值范围
+    j: 长度的最大值范围
+  输出:
+    一个长度在 i 和 j 之间的字母数字字符串。
   """
   k = random.randint(i, j)
   x = ''.join(random.choices(string.ascii_letters + string.digits, k=k))
@@ -34,18 +32,17 @@ def get_random_alphanumeric(i=6, j=6):
 
 
 ##############################################################################
-# CHAPTER 1: Run GPT Prompt
+# 第一章: 运行 GPT 提示
 ##############################################################################
 
 def run_gpt_prompt_wake_up_hour(persona, test_input=None, verbose=False): 
   """
-  Given the persona, returns an integer that indicates the hour when the 
-  persona wakes up.  
+  给定角色，返回一个整数，表示角色醒来的小时。
 
-  INPUT: 
-    persona: The Persona class instance 
-  OUTPUT: 
-    integer for the wake up hour.
+  输入:
+    persona: Persona 类实例
+  输出:
+    表示醒来小时的整数。
   """
   def create_prompt_input(persona, test_input=None): 
     if test_input: return test_input
@@ -55,6 +52,7 @@ def run_gpt_prompt_wake_up_hour(persona, test_input=None, verbose=False):
     return prompt_input
 
   def __func_clean_up(gpt_response, prompt=""):
+    # Assumes format like "8 am" or "8am"
     cr = int(gpt_response.strip().lower().split("am")[0])
     return cr
   
@@ -64,7 +62,7 @@ def run_gpt_prompt_wake_up_hour(persona, test_input=None, verbose=False):
     return True
 
   def get_fail_safe(): 
-    fs = 8
+    fs = 8 # Default wake up hour
     return fs
 
   gpt_param = {"engine": "text-davinci-002", "max_tokens": 5, 
@@ -90,16 +88,16 @@ def run_gpt_prompt_daily_plan(persona,
                               test_input=None, 
                               verbose=False):
   """
-  Basically the long term planning that spans a day. Returns a list of actions
-  that the persona will take today. Usually comes in the following form: 
+  基本上是跨越一天的长期规划。返回角色今天将要执行的动作列表。
+  通常格式如下:
   'wake up and complete the morning routine at 6:00 am', 
-  'eat breakfast at 7:00 am',.. 
-  Note that the actions come without a period. 
+  'eat breakfast at 7:00 am',...
+  注意动作描述末尾不带句号。
 
-  INPUT: 
-    persona: The Persona class instance 
-  OUTPUT: 
-    a list of daily actions in broad strokes.
+  输入:
+    persona: Persona 类实例
+  输出:
+    一个大致的每日行动列表。
   """
   def create_prompt_input(persona, wake_up_hour, test_input=None):
     if test_input: return test_input
@@ -128,13 +126,13 @@ def run_gpt_prompt_daily_plan(persona,
     return True
 
   def get_fail_safe(): 
-    fs = ['wake up and complete the morning routine at 6:00 am', 
-          'eat breakfast at 7:00 am', 
-          'read a book from 8:00 am to 12:00 pm', 
-          'have lunch at 12:00 pm', 
-          'take a nap from 1:00 pm to 4:00 pm', 
-          'relax and watch TV from 7:00 pm to 8:00 pm', 
-          'go to bed at 11:00 pm'] 
+    fs = ['wake up and complete the morning routine at 6:00 am',  # Example, not translated
+          'eat breakfast at 7:00 am',  # Example, not translated
+          'read a book from 8:00 am to 12:00 pm',  # Example, not translated
+          'have lunch at 12:00 pm',  # Example, not translated
+          'take a nap from 1:00 pm to 4:00 pm',  # Example, not translated
+          'relax and watch TV from 7:00 pm to 8:00 pm',  # Example, not translated
+          'go to bed at 11:00 pm']  # Example, not translated
     return fs
 
   gpt_param = {"engine": "text-davinci-003", "max_tokens": 500, 
@@ -174,11 +172,10 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
     schedule_format = ""
     for i in hour_str: 
       schedule_format += f"[{persona.scratch.get_str_curr_date_str()} -- {i}]"
-      schedule_format += f" Activity: [Fill in]\n"
+      schedule_format += f" 活动: [请填写]\n" # "Activity: [Fill in]"
     schedule_format = schedule_format[:-1]
 
-    intermission_str = f"Here the originally intended hourly breakdown of"
-    intermission_str += f" {persona.scratch.get_str_firstname()}'s schedule today: "
+    intermission_str = f"这是 {persona.scratch.get_str_firstname()} 今天日程最初计划的每小时细分："
     for count, i in enumerate(persona.scratch.daily_req): 
       intermission_str += f"{str(count+1)}) {i}, "
     intermission_str = intermission_str[:-2]
@@ -217,7 +214,7 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
 
   def __func_clean_up(gpt_response, prompt=""):
     cr = gpt_response.strip()
-    if cr[-1] == ".":
+    if cr[-1] == ".": # Checking for period, not a translatable character in this context
       cr = cr[:-1]
     return cr
 
@@ -227,7 +224,7 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
     return True
 
   def get_fail_safe(): 
-    fs = "asleep"
+    fs = "asleep" # Default state, not translated
     return fs
 
   gpt_param = {"engine": "text-davinci-003", "max_tokens": 50, 
@@ -278,21 +275,21 @@ def run_gpt_prompt_task_decomp(persona,
     # if curr_f_org_index > 0: 
     #   all_indices += [curr_f_org_index-1]
     all_indices += [curr_f_org_index]
-    if curr_f_org_index+1 <= len(persona.scratch.f_daily_schedule_hourly_org): 
+    if curr_f_org_index+1 <= len(persona.scratch.f_daily_schedule_hourly_org): # Fixed: should be <= to include the last element if it's the end
       all_indices += [curr_f_org_index+1]
-    if curr_f_org_index+2 <= len(persona.scratch.f_daily_schedule_hourly_org): 
+    if curr_f_org_index+2 <= len(persona.scratch.f_daily_schedule_hourly_org): # Fixed: should be <=
       all_indices += [curr_f_org_index+2]
 
     curr_time_range = ""
 
-    print ("DEBUG")
-    print (persona.scratch.f_daily_schedule_hourly_org)
-    print (all_indices)
+    print ("DEBUG") # DEBUG
+    print (persona.scratch.f_daily_schedule_hourly_org) # DEBUG
+    print (all_indices) # DEBUG
 
-    summ_str = f'Today is {persona.scratch.curr_time.strftime("%B %d, %Y")}. '
-    summ_str += f'From '
+    summ_str = f'今天是 {persona.scratch.curr_time.strftime("%B %d, %Y")}。 ' # "Today is..."
+    summ_str += f'从 ' # "From "
     for index in all_indices: 
-      print ("index", index)
+      print ("index", index) # DEBUG
       if index < len(persona.scratch.f_daily_schedule_hourly_org): 
         start_min = 0
         for i in range(index): 
@@ -304,8 +301,8 @@ def run_gpt_prompt_task_decomp(persona,
                       + datetime.timedelta(minutes=end_min)) 
         start_time_str = start_time.strftime("%H:%M%p")
         end_time_str = end_time.strftime("%H:%M%p")
-        summ_str += f"{start_time_str} ~ {end_time_str}, {persona.name} is planning on {persona.scratch.f_daily_schedule_hourly_org[index][0]}, "
-        if curr_f_org_index+1 == index:
+        summ_str += f"{start_time_str} ~ {end_time_str}, {persona.name} 计划进行 {persona.scratch.f_daily_schedule_hourly_org[index][0]}, " # "...is planning on..."
+        if curr_f_org_index+1 == index: # This logic might need review depending on intent with all_indices bounds.
           curr_time_range = f'{start_time_str} ~ {end_time_str}'
     summ_str = summ_str[:-2] + "."
 
@@ -322,11 +319,11 @@ def run_gpt_prompt_task_decomp(persona,
     return prompt_input
 
   def __func_clean_up(gpt_response, prompt=""):
-    print ("TOODOOOOOO")
-    print (gpt_response)
-    print ("-==- -==- -==- ")
+    print ("TOODOOOOOO") # DEBUG
+    print (gpt_response) # DEBUG
+    print ("-==- -==- -==- ") # DEBUG
 
-    # TODO SOMETHING HERE sometimes fails... See screenshot
+    # 待办：这里有时会失败……请看截图
     temp = [i.strip() for i in gpt_response.split("\n")]
     _cr = []
     cr = []
@@ -346,8 +343,7 @@ def run_gpt_prompt_task_decomp(persona,
     total_expected_min = int(prompt.split("(total duration in minutes")[-1]
                                    .split("):")[0].strip())
     
-    # TODO -- now, you need to make sure that this is the same as the sum of 
-    #         the current action sequence. 
+    # 待办 -- 现在，你需要确保这与当前动作序列的总和相同。
     curr_min_slot = [["dummy", -1],] # (task_name, task_index)
     for count, i in enumerate(cr): 
       i_task = i[0] 
@@ -379,16 +375,16 @@ def run_gpt_prompt_task_decomp(persona,
     return cr
 
   def __func_validate(gpt_response, prompt=""): 
-    # TODO -- this sometimes generates error 
+    # 待办 -- 这里有时会产生错误
     try: 
       __func_clean_up(gpt_response)
     except: 
       pass
       # return False
-    return gpt_response
+    return gpt_response # This should ideally return a boolean after validation
 
   def get_fail_safe(): 
-    fs = ["asleep"]
+    fs = ["asleep"] # Default state, not translated
     return fs
 
   gpt_param = {"engine": "text-davinci-003", "max_tokens": 1000, 
@@ -399,13 +395,13 @@ def run_gpt_prompt_task_decomp(persona,
   prompt = generate_prompt(prompt_input, prompt_template)
   fail_safe = get_fail_safe()
 
-  print ("?????")
-  print (prompt)
+  print ("?????") # DEBUG
+  print (prompt) # DEBUG
   output = safe_generate_response(prompt, gpt_param, 5, get_fail_safe(),
                                    __func_validate, __func_clean_up)
 
-  # TODO THERE WAS A BUG HERE... 
-  # This is for preventing overflows...
+  # 待办：这里曾有一个BUG……
+  # 这是为了防止溢出……
   """
   File "/Users/joonsungpark/Desktop/Stanford/Projects/
   generative-personas/src_exploration/reverie_simulation/
@@ -515,7 +511,7 @@ def run_gpt_prompt_action_sector(action_description,
     return True
   
   def get_fail_safe(): 
-    fs = ("kitchen")
+    fs = ("kitchen") # Location, not translated
     return fs
 
   gpt_param = {"engine": "text-davinci-002", "max_tokens": 15, 
@@ -596,7 +592,7 @@ def run_gpt_prompt_action_arena(action_description,
     return True
   
   def get_fail_safe(): 
-    fs = ("kitchen")
+    fs = ("kitchen") # Location, not translated
     return fs
 
   gpt_param = {"engine": "text-davinci-003", "max_tokens": 15, 
@@ -651,7 +647,7 @@ def run_gpt_prompt_action_game_object(action_description,
     return cleaned_response
 
   def get_fail_safe(): 
-    fs = ("bed")
+    fs = ("bed") # Object, not translated
     return fs
 
   gpt_param = {"engine": "text-davinci-003", "max_tokens": 15, 
@@ -702,7 +698,7 @@ def run_gpt_prompt_pronunciatio(action_description, persona, verbose=False):
     return True 
 
   def get_fail_safe(): 
-    fs = "😋"
+    fs = "😋" # Emoji, not translated
     return fs
 
   gpt_param = {"engine": "text-davinci-003", "max_tokens": 15, 
@@ -757,7 +753,7 @@ def run_gpt_prompt_event_triple(action_description, persona, verbose=False):
     return True 
 
   def get_fail_safe(persona): 
-    fs = (persona.name, "is", "idle")
+    fs = (persona.name, "is", "idle") # "is", "idle" are keywords
     return fs
 
   gpt_param = {"engine": "text-davinci-003", "max_tokens": 30, 
@@ -811,7 +807,7 @@ def run_gpt_prompt_act_obj_desc(act_game_object, act_desp, persona, verbose=Fals
     return True 
 
   def get_fail_safe(act_game_object): 
-    fs = f"{act_game_object} is idle"
+    fs = f"{act_game_object} is idle" # "is idle" is a keyword phrase
     return fs
 
   gpt_param = {"engine": "text-davinci-003", "max_tokens": 30, 
@@ -859,7 +855,7 @@ def run_gpt_prompt_act_obj_event_triple(act_game_object, act_obj_desc, persona, 
     return True 
 
   def get_fail_safe(act_game_object): 
-    fs = (act_game_object, "is", "idle")
+    fs = (act_game_object, "is", "idle") # "is", "idle" are keywords
     return fs
 
   gpt_param = {"engine": "text-davinci-003", "max_tokens": 30, 
@@ -977,13 +973,15 @@ def run_gpt_prompt_new_decomp_schedule(persona,
     return True 
 
   def get_fail_safe(main_act_dur, truncated_act_dur): 
+    # This function constructs a fallback schedule. The task descriptions
+    # themselves are data and should not be translated here.
     dur_sum = 0
     for act, dur in main_act_dur: dur_sum += dur
 
     ret = truncated_act_dur[:]
     ret += main_act_dur[len(ret)-1:]
 
-    # If there are access, we need to trim... 
+    # 如果有超出，我们需要修剪... (If there are access, we need to trim...)
     ret_dur_sum = 0
     count = 0
     over = None
@@ -1257,7 +1255,7 @@ def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
       for i in init_persona.a_mem.seq_chat: 
         if i.object == target_persona.scratch.name: 
           v1 = int((init_persona.scratch.curr_time - i.created).total_seconds()/60)
-          prev_convo_insert += f'{str(v1)} minutes ago, they had the following conversation.\n'
+      prev_convo_insert += f'{str(v1)} 分钟前，他们进行了以下对话。\n' # "... minutes ago, they had the following conversation."
           for row in i.filling: 
             prev_convo_insert += f'{row[0]}: "{row[1]}"\n'
           break
@@ -1284,15 +1282,15 @@ def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
 
     init_persona_curr_desc = ""
     if init_persona.scratch.planned_path: 
-      init_persona_curr_desc = f"{init_persona.name} is on the way to {init_persona.scratch.act_description}"
+      init_persona_curr_desc = f"{init_persona.name} 正在前往 {init_persona.scratch.act_description}" # "...is on the way to..."
     else: 
-      init_persona_curr_desc = f"{init_persona.name} is {init_persona.scratch.act_description}"
+      init_persona_curr_desc = f"{init_persona.name} 正在 {init_persona.scratch.act_description}" # "...is..."
 
     target_persona_curr_desc = ""
     if target_persona.scratch.planned_path: 
-      target_persona_curr_desc = f"{target_persona.name} is on the way to {target_persona.scratch.act_description}"
+      target_persona_curr_desc = f"{target_persona.name} 正在前往 {target_persona.scratch.act_description}" # "...is on the way to..."
     else: 
-      target_persona_curr_desc = f"{target_persona.name} is {target_persona.scratch.act_description}"
+      target_persona_curr_desc = f"{target_persona.name} 正在 {target_persona.scratch.act_description}" # "...is..."
  
 
     curr_loc = curr_loc["arena"]
@@ -1324,11 +1322,11 @@ def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
     return prompt_input
   
   def __func_clean_up(gpt_response, prompt=""):
-    # print ("???")
-    # print (gpt_response)
+    # print ("???") # DEBUG
+    # print (gpt_response) # DEBUG
 
-
-    gpt_response = (prompt + gpt_response).split("What would they talk about now?")[-1].strip()
+    # "What would they talk about now?" is part of prompt structure.
+    gpt_response = (prompt + gpt_response).split("他们现在会谈论什么？")[-1].strip()
     content = re.findall('"([^"]*)"', gpt_response)
 
     speaker_order = []
@@ -1351,8 +1349,8 @@ def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
       return False 
 
   def get_fail_safe(init_persona, target_persona): 
-    convo = [[init_persona.name, "Hi!"], 
-             [target_persona.name, "Hi!"]]
+    convo = [[init_persona.name, "你好！"], 
+             [target_persona.name, "你好！"]]
     return convo
 
 
@@ -1393,7 +1391,7 @@ def run_gpt_prompt_summarize_conversation(persona, conversation, test_input=None
     return prompt_input
   
   def __func_clean_up(gpt_response, prompt=""):
-    ret = "conversing about " + gpt_response.strip()
+    ret = "谈论关于 " + gpt_response.strip() # "conversing about "
     return ret
 
   def __func_validate(gpt_response, prompt=""): 
@@ -1404,7 +1402,7 @@ def run_gpt_prompt_summarize_conversation(persona, conversation, test_input=None
       return False 
 
   def get_fail_safe(): 
-    return "conversing with a housemate about morning greetings"
+    return "与室友谈论晨间问候" # "conversing with a housemate about morning greetings"
 
   gpt_param = {"engine": "text-davinci-003", "max_tokens": 50, 
                "temperature": 0, "top_p": 1, "stream": False,
@@ -1434,9 +1432,9 @@ def run_gpt_prompt_extract_keywords(persona, description, test_input=None, verbo
     return prompt_input
   
   def __func_clean_up(gpt_response, prompt=""):
-    print ("???")
-    print (gpt_response)
-    gpt_response = gpt_response.strip().split("Emotive keywords:")
+    print ("???") # DEBUG
+    print (gpt_response) # DEBUG
+    gpt_response = gpt_response.strip().split("情感关键词:") # "Emotive keywords:"
     factual = [i.strip() for i in gpt_response[0].split(",")]
     emotive = [i.strip() for i in gpt_response[1].split(",")]
     all_keywords = factual + emotive

@@ -1,8 +1,8 @@
 """
-Author: Joon Sung Park (joonspk@stanford.edu)
+作者: Joon Sung Park (joonspk@stanford.edu)
 
-File: converse.py
-Description: An extra cognitive module for generating conversations. 
+文件: converse.py
+描述: 一个用于生成对话的额外认知模块。
 """
 import math
 import sys
@@ -74,15 +74,13 @@ def generate_agent_chat(maze,
 
 
 def agent_chat_v1(maze, init_persona, target_persona): 
-  # Chat version optimized for speed via batch generation
+  # 通过批量生成优化聊天速度的版本
   curr_context = (f"{init_persona.scratch.name} " + 
-              f"was {init_persona.scratch.act_description} " + 
-              f"when {init_persona.scratch.name} " + 
-              f"saw {target_persona.scratch.name} " + 
-              f"in the middle of {target_persona.scratch.act_description}.\n")
+              f"正 {init_persona.scratch.act_description} " + 
+              f"时，看到了 {target_persona.scratch.name} " + 
+              f"正 {target_persona.scratch.act_description}。\n")
   curr_context += (f"{init_persona.scratch.name} " +
-              f"is thinking of initating a conversation with " +
-              f"{target_persona.scratch.name}.")
+              f"正在考虑与 {target_persona.scratch.name} 发起对话。")
 
   summarized_ideas = []
   part_pairs = [(init_persona, target_persona), 
@@ -104,15 +102,13 @@ def agent_chat_v1(maze, init_persona, target_persona):
 
 
 def generate_one_utterance(maze, init_persona, target_persona, retrieved, curr_chat): 
-  # Chat version optimized for speed via batch generation
+  # 通过批量生成优化聊天速度的版本
   curr_context = (f"{init_persona.scratch.name} " + 
-              f"was {init_persona.scratch.act_description} " + 
-              f"when {init_persona.scratch.name} " + 
-              f"saw {target_persona.scratch.name} " + 
-              f"in the middle of {target_persona.scratch.act_description}.\n")
+              f"正 {init_persona.scratch.act_description} " + 
+              f"时，看到了 {target_persona.scratch.name} " + 
+              f"正 {target_persona.scratch.act_description}。\n")
   curr_context += (f"{init_persona.scratch.name} " +
-              f"is initiating a conversation with " +
-              f"{target_persona.scratch.name}.")
+              f"正在与 {target_persona.scratch.name} 发起对话。")
 
   print ("July 23 5")
   x = run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retrieved, curr_context, curr_chat)[0]
@@ -125,16 +121,16 @@ def generate_one_utterance(maze, init_persona, target_persona, retrieved, curr_c
 
 def agent_chat_v2(maze, init_persona, target_persona): 
   curr_chat = []
-  print ("July 23")
+  print ("July 23") # DEBUG
 
   for i in range(8): 
     focal_points = [f"{target_persona.scratch.name}"]
     retrieved = new_retrieve(init_persona, focal_points, 50)
     relationship = generate_summarize_agent_relationship(init_persona, target_persona, retrieved)
-    print ("-------- relationshopadsjfhkalsdjf", relationship)
+    print ("-------- relationshopadsjfhkalsdjf", relationship) # DEBUG
     last_chat = ""
-    for i in curr_chat[-4:]:
-      last_chat += ": ".join(i) + "\n"
+    for i_chat in curr_chat[-4:]: # Renamed 'i' to 'i_chat' to avoid conflict with outer loop variable
+      last_chat += ": ".join(i_chat) + "\n"
     if last_chat: 
       focal_points = [f"{relationship}", 
                       f"{target_persona.scratch.name} is {target_persona.scratch.act_description}", 
@@ -153,10 +149,10 @@ def agent_chat_v2(maze, init_persona, target_persona):
     focal_points = [f"{init_persona.scratch.name}"]
     retrieved = new_retrieve(target_persona, focal_points, 50)
     relationship = generate_summarize_agent_relationship(target_persona, init_persona, retrieved)
-    print ("-------- relationshopadsjfhkalsdjf", relationship)
+    print ("-------- relationshopadsjfhkalsdjf", relationship) # DEBUG
     last_chat = ""
-    for i in curr_chat[-4:]:
-      last_chat += ": ".join(i) + "\n"
+    for i_chat in curr_chat[-4:]: # Renamed 'i' to 'i_chat'
+      last_chat += ": ".join(i_chat) + "\n"
     if last_chat: 
       focal_points = [f"{relationship}", 
                       f"{init_persona.scratch.name} is {init_persona.scratch.act_description}", 
@@ -171,10 +167,10 @@ def agent_chat_v2(maze, init_persona, target_persona):
     if end:
       break
 
-  print ("July 23 PU")
+  print ("July 23 PU") # DEBUG
   for row in curr_chat: 
-    print (row)
-  print ("July 23 FIN")
+    print (row) # DEBUG
+  print ("July 23 FIN") # DEBUG
 
   return curr_chat
 
@@ -192,7 +188,7 @@ def generate_summarize_ideas(persona, nodes, question):
 
 
 def generate_next_line(persona, interlocutor_desc, curr_convo, summarized_idea):
-  # Original chat -- line by line generation 
+  # 原始聊天 --逐行生成
   prev_convo = ""
   for row in curr_convo: 
     prev_convo += f'{row[0]}: {row[1]}\n'
@@ -209,14 +205,14 @@ def generate_inner_thought(persona, whisper):
   return inner_thought
 
 def generate_action_event_triple(act_desp, persona): 
-  """TODO 
+  """待办
 
-  INPUT: 
-    act_desp: the description of the action (e.g., "sleeping")
-    persona: The Persona class instance
-  OUTPUT: 
-    a string of emoji that translates action description.
-  EXAMPLE OUTPUT: 
+  输入:
+    act_desp: 动作的描述 (例如，“正在睡觉”)
+    persona: Persona 类实例
+  输出:
+    一个用于翻译动作描述的表情符号字符串。
+  输出示例:
     "🧈🍞"
   """
   if debug: print ("GNS FUNCTION: <generate_action_event_triple>")
@@ -226,20 +222,19 @@ def generate_action_event_triple(act_desp, persona):
 def generate_poig_score(persona, event_type, description): 
   if debug: print ("GNS FUNCTION: <generate_poig_score>")
 
-  if "is idle" in description: 
+  if "处于空闲状态" in description: 
     return 1
 
   if event_type == "event" or event_type == "thought": 
     return run_gpt_prompt_event_poignancy(persona, description)[0]
   elif event_type == "chat": 
     return run_gpt_prompt_chat_poignancy(persona, 
-                           persona.scratch.act_description)[0]
-
+                           persona.scratch.act_description)[0] # This description is likely agent's own action, not user chat.
 
 def load_history_via_whisper(personas, whispers):
   for count, row in enumerate(whispers): 
     persona = personas[row[0]]
-    whisper = row[1]
+    whisper = row[1] # This is the user's whisper text.
 
     thought = generate_inner_thought(persona, whisper)
 
@@ -247,7 +242,8 @@ def load_history_via_whisper(personas, whispers):
     expiration = persona.scratch.curr_time + datetime.timedelta(days=30)
     s, p, o = generate_action_event_triple(thought, persona)
     keywords = set([s, p, o])
-    thought_poignancy = generate_poig_score(persona, "event", whisper)
+    # Poignancy score is based on the user's whisper, not the generated inner thought.
+    thought_poignancy = generate_poig_score(persona, "event", whisper) 
     thought_embedding_pair = (thought, get_embedding(thought))
     persona.a_mem.add_thought(created, expiration, s, p, o, 
                               thought, keywords, thought_poignancy, 
@@ -257,15 +253,15 @@ def load_history_via_whisper(personas, whispers):
 def open_convo_session(persona, convo_mode): 
   if convo_mode == "analysis": 
     curr_convo = []
-    interlocutor_desc = "Interviewer"
+    interlocutor_desc = "采访者"
 
     while True: 
-      line = input("Enter Input: ")
-      if line == "end_convo": 
+      line = input("请输入内容: ")
+      if line == "结束对话": 
         break
 
       if int(run_gpt_generate_safety_score(persona, line)[0]) >= 8: 
-        print (f"{persona.scratch.name} is a computational agent, and as such, it may be inappropriate to attribute human agency to the agent in your communication.")        
+        print (f"{persona.scratch.name} 是一个计算代理，因此，在您的交流中将人类的能动性归因于该代理可能不恰当。")        
 
       else: 
         retrieved = new_retrieve(persona, [line], 50)[line]
@@ -277,7 +273,7 @@ def open_convo_session(persona, convo_mode):
 
 
   elif convo_mode == "whisper": 
-    whisper = input("Enter Input: ")
+    whisper = input("请输入耳语内容: ")
     thought = generate_inner_thought(persona, whisper)
 
     created = persona.scratch.curr_time

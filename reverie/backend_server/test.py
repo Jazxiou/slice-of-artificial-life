@@ -1,8 +1,8 @@
 """
-Author: Joon Sung Park (joonspk@stanford.edu)
+作者: Joon Sung Park (joonspk@stanford.edu)
 
-File: gpt_structure.py
-Description: Wrapper functions for calling OpenAI APIs.
+文件: gpt_structure.py (注意：实际文件名是 test.py)
+描述: 调用 OpenAI API 的封装函数。
 """
 import json
 import random
@@ -14,17 +14,14 @@ openai.api_key = openai_api_key
 
 def ChatGPT_request(prompt): 
   """
-  Given a prompt and a dictionary of GPT parameters, make a request to OpenAI
-  server and returns the response. 
-  ARGS:
-    prompt: a str prompt
-    gpt_parameter: a python dictionary with the keys indicating the names of  
-                   the parameter and the values indicating the parameter 
-                   values.   
-  RETURNS: 
-    a str of GPT-3's response. 
+  给定一个提示和 GPT 参数字典，向 OpenAI 服务器发出请求并返回响应。
+  参数:
+    prompt: 一个字符串提示
+    gpt_parameter: 一个 Python 字典，其键指示参数名称，值指示参数值。
+  返回:
+    GPT-3 响应的字符串。
   """
-  # temp_sleep()
+  # 临时休眠()
   try: 
     completion = openai.ChatCompletion.create(
     model="gpt-3.5-turbo", 
@@ -33,31 +30,31 @@ def ChatGPT_request(prompt):
     return completion["choices"][0]["message"]["content"]
   
   except: 
-    print ("ChatGPT ERROR")
-    return "ChatGPT ERROR"
+    print ("ChatGPT ERROR") # Error message, kept in English
+    return "ChatGPT ERROR" # Error message, kept in English
 
 prompt = """
 ---
-Character 1: Maria Lopez is working on her physics degree and streaming games on Twitch to make some extra money. She visits Hobbs Cafe for studying and eating just about everyday.
-Character 2: Klaus Mueller is writing a research paper on the effects of gentrification in low-income communities.
+角色1: Maria Lopez 正在攻读物理学位，并在 Twitch 上直播游戏以赚取额外收入。她几乎每天都去 Hobbs Cafe 学习和吃饭。
+角色2: Klaus Mueller 正在撰写一篇关于中产阶级化对低收入社区影响的研究论文。
 
-Past Context: 
-138 minutes ago, Maria Lopez and Klaus Mueller were already conversing about conversing about Maria's research paper mentioned by Klaus This context takes place after that conversation.
+过去背景: 
+138 分钟前，Maria Lopez 和 Klaus Mueller 已经在谈论 Klaus 提到的 Maria 的研究论文。此对话发生在那次谈话之后。
 
-Current Context: Maria Lopez was attending her Physics class (preparing for the next lecture) when Maria Lopez saw Klaus Mueller in the middle of working on his research paper at the library (writing the introduction).
-Maria Lopez is thinking of initating a conversation with Klaus Mueller.
-Current Location: library in Oak Hill College
+当前背景: Maria Lopez 正在上她的物理课（为下一堂课做准备）时，在 Oak Hill College 的图书馆看到 Klaus Mueller 正在写他的研究论文（撰写引言部分）。
+Maria Lopez 正考虑与 Klaus Mueller 发起一次对话。
+当前位置: library in Oak Hill College
 
-(This is what is in Maria Lopez's head: Maria Lopez should remember to follow up with Klaus Mueller about his thoughts on her research paper. Beyond this, Maria Lopez doesn't necessarily know anything more about Klaus Mueller) 
+(这是 Maria Lopez 心里想的：Maria Lopez 应该记得就 Klaus Mueller 对她研究论文的看法进行后续交流。除此之外，Maria Lopez 不一定更了解 Klaus Mueller) 
 
-(This is what is in Klaus Mueller's head: Klaus Mueller should remember to ask Maria Lopez about her research paper, as she found it interesting that he mentioned it. Beyond this, Klaus Mueller doesn't necessarily know anything more about Maria Lopez) 
+(这是 Klaus Mueller 心里想的：Klaus Mueller 应该记得问 Maria Lopez 关于她的研究论文，因为他提到这篇论文时她觉得很有趣。除此之外，Klaus Mueller 不一定更了解 Maria Lopez) 
 
-Here is their conversation. 
+这是他们的对话。
 
 Maria Lopez: "
 ---
-Output the response to the prompt above in json. The output should be a list of list where the inner lists are in the form of ["<Name>", "<Utterance>"]. Output multiple utterances in ther conversation until the conversation comes to a natural conclusion.
-Example output json:
+以上述提示为准，以 json 格式输出回应。输出应该是一个列表的列表，其中内部列表的形式为 ["<姓名>", "<话语>"]。在对话中输出多轮话语，直到对话自然结束。
+输出 json 示例:
 {"output": "[["Jane Doe", "Hi!"], ["John Doe", "Hello there!"] ... ]"}
 """
 

@@ -1,9 +1,9 @@
 """
-Author: Joon Sung Park (joonspk@stanford.edu)
+作者: Joon Sung Park (joonspk@stanford.edu)
 
-File: spatial_memory.py
-Description: Defines the MemoryTree class that serves as the agents' spatial
-memory that aids in grounding their behavior in the game world. 
+文件: spatial_memory.py
+描述: 定义了 MemoryTree 类，作为代理的空间记忆，
+辅助将其行为锚定在游戏世界中。
 """
 import json
 import sys
@@ -43,17 +43,16 @@ class MemoryTree:
 
   def get_str_accessible_sectors(self, curr_world): 
     """
-    Returns a summary string of all the arenas that the persona can access 
-    within the current sector. 
+    返回一个摘要字符串，包含角色在当前世界（world）中可以访问的所有区域（sector）。
 
-    Note that there are places a given persona cannot enter. This information
-    is provided in the persona sheet. We account for this in this function. 
+    请注意，某些地方特定角色无法进入。此信息在角色表中提供。
+    我们在此函数中考虑了这一点。
 
-    INPUT
-      None
-    OUTPUT 
-      A summary string of all the arenas that the persona can access. 
-    EXAMPLE STR OUTPUT
+    输入
+      curr_world: 当前世界名称
+    输出
+      一个摘要字符串，包含角色可以访问的所有区域。
+    输出字符串示例
       "bedroom, kitchen, dining room, office, bathroom"
     """
     x = ", ".join(list(self.tree[curr_world].keys()))
@@ -62,17 +61,16 @@ class MemoryTree:
 
   def get_str_accessible_sector_arenas(self, sector): 
     """
-    Returns a summary string of all the arenas that the persona can access 
-    within the current sector. 
+    返回一个摘要字符串，包含角色在当前区域（sector）中可以访问的所有竞技场（arena）。
 
-    Note that there are places a given persona cannot enter. This information
-    is provided in the persona sheet. We account for this in this function. 
+    请注意，某些地方特定角色无法进入。此信息在角色表中提供。
+    我们在此函数中考虑了这一点。
 
-    INPUT
-      None
-    OUTPUT 
-      A summary string of all the arenas that the persona can access. 
-    EXAMPLE STR OUTPUT
+    输入
+      sector: 当前区域的字符串表示 (例如 "world_name:sector_name")
+    输出
+      一个摘要字符串，包含角色可以访问的所有竞技场。
+    输出字符串示例
       "bedroom, kitchen, dining room, office, bathroom"
     """
     curr_world, curr_sector = sector.split(":")
@@ -84,16 +82,15 @@ class MemoryTree:
 
   def get_str_accessible_arena_game_objects(self, arena):
     """
-    Get a str list of all accessible game objects that are in the arena. If 
-    temp_address is specified, we return the objects that are available in
-    that arena, and if not, we return the objects that are in the arena our
-    persona is currently in. 
+    获取竞技场（arena）中所有可访问游戏对象的字符串列表。如果
+    指定了 temp_address，我们返回该竞技场中可用的对象；
+    如果没有指定，则返回我们角色当前所在竞技场中的对象。
 
-    INPUT
-      temp_address: optional arena address
-    OUTPUT 
-      str list of all accessible game objects in the gmae arena. 
-    EXAMPLE STR OUTPUT
+    输入
+      arena: 竞技场地址 (例如 "world:sector:arena")
+    输出
+      游戏竞技场中所有可访问游戏对象的字符串列表。
+    输出字符串示例
       "phone, charger, bed, nightstand"
     """
     curr_world, curr_sector, curr_arena = arena.split(":")

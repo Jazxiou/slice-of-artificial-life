@@ -1,8 +1,8 @@
 """
-Author: Joon Sung Park (joonspk@stanford.edu)
+作者: Joon Sung Park (joonspk@stanford.edu)
 
-File: gpt_structure.py
-Description: Wrapper functions for calling OpenAI APIs.
+文件: gpt_structure.py
+描述: 调用 OpenAI API 的封装函数。
 """
 import json
 import random
@@ -27,20 +27,17 @@ def ChatGPT_single_request(prompt):
 
 
 # ============================================================================
-# #####################[SECTION 1: CHATGPT-3 STRUCTURE] ######################
+# #####################[第一节: CHATGPT-3 结构] ######################
 # ============================================================================
 
 def GPT4_request(prompt): 
   """
-  Given a prompt and a dictionary of GPT parameters, make a request to OpenAI
-  server and returns the response. 
-  ARGS:
-    prompt: a str prompt
-    gpt_parameter: a python dictionary with the keys indicating the names of  
-                   the parameter and the values indicating the parameter 
-                   values.   
-  RETURNS: 
-    a str of GPT-3's response. 
+  给定一个提示和 GPT 参数字典，向 OpenAI 服务器发出请求并返回响应。
+  参数:
+    prompt: 一个字符串提示
+    gpt_parameter: 一个 Python 字典，其键指示参数名称，值指示参数值。
+  返回:
+    GPT-3 响应的字符串。 (注：应为 GPT-4)
   """
   temp_sleep()
 
@@ -52,23 +49,20 @@ def GPT4_request(prompt):
     return completion["choices"][0]["message"]["content"]
   
   except: 
-    print ("ChatGPT ERROR")
-    return "ChatGPT ERROR"
+    print ("ChatGPT ERROR") # Kept in English as an error identifier
+    return "ChatGPT ERROR"  # Kept in English as an error identifier
 
 
 def ChatGPT_request(prompt): 
   """
-  Given a prompt and a dictionary of GPT parameters, make a request to OpenAI
-  server and returns the response. 
-  ARGS:
-    prompt: a str prompt
-    gpt_parameter: a python dictionary with the keys indicating the names of  
-                   the parameter and the values indicating the parameter 
-                   values.   
-  RETURNS: 
-    a str of GPT-3's response. 
+  给定一个提示和 GPT 参数字典，向 OpenAI 服务器发出请求并返回响应。
+  参数:
+    prompt: 一个字符串提示
+    gpt_parameter: 一个 Python 字典，其键指示参数名称，值指示参数值。
+  返回:
+    GPT-3 响应的字符串。
   """
-  # temp_sleep()
+  # 临时休眠()
   try: 
     completion = openai.ChatCompletion.create(
     model="gpt-3.5-turbo", 
@@ -89,13 +83,13 @@ def GPT4_safe_generate_response(prompt,
                                    func_validate=None,
                                    func_clean_up=None,
                                    verbose=False): 
-  prompt = 'GPT-3 Prompt:\n"""\n' + prompt + '\n"""\n'
-  prompt += f"Output the response to the prompt above in json. {special_instruction}\n"
-  prompt += "Example output json:\n"
-  prompt += '{"output": "' + str(example_output) + '"}'
+  prompt = 'GPT-3 提示:\n"""\n' + prompt + '\n"""\n' # "GPT-3 Prompt:"
+  prompt += f"请将对上述提示的回应以 json 格式输出。{special_instruction}\n" # "Output the response to the prompt above in json."
+  prompt += "输出 json 示例:\n" # "Example output json:"
+  prompt += '{"output": "' + str(example_output) + '"}' # "output" is a key, not translated.
 
   if verbose: 
-    print ("CHAT GPT PROMPT")
+    print ("CHAT GPT PROMPT") # DEBUG: "CHAT GPT PROMPT"
     print (prompt)
 
   for i in range(repeat): 
@@ -110,9 +104,9 @@ def GPT4_safe_generate_response(prompt,
         return func_clean_up(curr_gpt_response, prompt=prompt)
       
       if verbose: 
-        print ("---- repeat count: \n", i, curr_gpt_response)
+        print ("---- 重试次数: \n", i, curr_gpt_response) # "---- repeat count: \n"
         print (curr_gpt_response)
-        print ("~~~~")
+        print ("~~~~") # Separator, not translated
 
     except: 
       pass
@@ -128,14 +122,14 @@ def ChatGPT_safe_generate_response(prompt,
                                    func_validate=None,
                                    func_clean_up=None,
                                    verbose=False): 
-  # prompt = 'GPT-3 Prompt:\n"""\n' + prompt + '\n"""\n'
+  # prompt = 'GPT-3 提示:\n"""\n' + prompt + '\n"""\n' # "GPT-3 Prompt:"
   prompt = '"""\n' + prompt + '\n"""\n'
-  prompt += f"Output the response to the prompt above in json. {special_instruction}\n"
-  prompt += "Example output json:\n"
-  prompt += '{"output": "' + str(example_output) + '"}'
+  prompt += f"请将对上述提示的回应以 json 格式输出。{special_instruction}\n" # "Output the response to the prompt above in json."
+  prompt += "输出 json 示例:\n" # "Example output json:"
+  prompt += '{"output": "' + str(example_output) + '"}' # "output" is a key, not translated.
 
   if verbose: 
-    print ("CHAT GPT PROMPT")
+    print ("CHAT GPT PROMPT") # DEBUG: "CHAT GPT PROMPT"
     print (prompt)
 
   for i in range(repeat): 
@@ -146,17 +140,17 @@ def ChatGPT_safe_generate_response(prompt,
       curr_gpt_response = curr_gpt_response[:end_index]
       curr_gpt_response = json.loads(curr_gpt_response)["output"]
 
-      # print ("---ashdfaf")
-      # print (curr_gpt_response)
-      # print ("000asdfhia")
+      # print ("---ashdfaf") # DEBUG
+      # print (curr_gpt_response) # DEBUG
+      # print ("000asdfhia") # DEBUG
       
       if func_validate(curr_gpt_response, prompt=prompt): 
         return func_clean_up(curr_gpt_response, prompt=prompt)
       
       if verbose: 
-        print ("---- repeat count: \n", i, curr_gpt_response)
+        print ("---- 重试次数: \n", i, curr_gpt_response) # "---- repeat count: \n"
         print (curr_gpt_response)
-        print ("~~~~")
+        print ("~~~~") # Separator, not translated
 
     except: 
       pass
@@ -171,7 +165,7 @@ def ChatGPT_safe_generate_response_OLD(prompt,
                                    func_clean_up=None,
                                    verbose=False): 
   if verbose: 
-    print ("CHAT GPT PROMPT")
+    print ("CHAT GPT PROMPT") # DEBUG: "CHAT GPT PROMPT"
     print (prompt)
 
   for i in range(repeat): 
@@ -180,31 +174,28 @@ def ChatGPT_safe_generate_response_OLD(prompt,
       if func_validate(curr_gpt_response, prompt=prompt): 
         return func_clean_up(curr_gpt_response, prompt=prompt)
       if verbose: 
-        print (f"---- repeat count: {i}")
+        print (f"---- 重试次数: {i}") # "---- repeat count: "
         print (curr_gpt_response)
-        print ("~~~~")
+        print ("~~~~") # Separator, not translated
 
     except: 
       pass
-  print ("FAIL SAFE TRIGGERED") 
+  print ("FAIL SAFE TRIGGERED") # System status message, kept in English for potential grepping, or "故障安全已触发"
   return fail_safe_response
 
 
 # ============================================================================
-# ###################[SECTION 2: ORIGINAL GPT-3 STRUCTURE] ###################
+# ###################[第二节: 原始 GPT-3 结构] ###################
 # ============================================================================
 
 def GPT_request(prompt, gpt_parameter): 
   """
-  Given a prompt and a dictionary of GPT parameters, make a request to OpenAI
-  server and returns the response. 
-  ARGS:
-    prompt: a str prompt
-    gpt_parameter: a python dictionary with the keys indicating the names of  
-                   the parameter and the values indicating the parameter 
-                   values.   
-  RETURNS: 
-    a str of GPT-3's response. 
+  给定一个提示和 GPT 参数字典，向 OpenAI 服务器发出请求并返回响应。
+  参数:
+    prompt: 一个字符串提示
+    gpt_parameter: 一个 Python 字典，其键指示参数名称，值指示参数值。
+  返回:
+    GPT-3 响应的字符串。
   """
   temp_sleep()
   try: 
@@ -226,17 +217,14 @@ def GPT_request(prompt, gpt_parameter):
 
 def generate_prompt(curr_input, prompt_lib_file): 
   """
-  Takes in the current input (e.g. comment that you want to classifiy) and 
-  the path to a prompt file. The prompt file contains the raw str prompt that
-  will be used, which contains the following substr: !<INPUT>! -- this 
-  function replaces this substr with the actual curr_input to produce the 
-  final promopt that will be sent to the GPT3 server. 
-  ARGS:
-    curr_input: the input we want to feed in (IF THERE ARE MORE THAN ONE
-                INPUT, THIS CAN BE A LIST.)
-    prompt_lib_file: the path to the promopt file. 
-  RETURNS: 
-    a str prompt that will be sent to OpenAI's GPT server.  
+  接收当前输入（例如，您想要分类的评论）和提示文件的路径。
+  提示文件包含将使用的原始字符串提示，其中包含以下子字符串：!<INPUT>!
+  ——此函数将此子字符串替换为实际的 curr_input，以生成将发送到 GPT-3 服务器的最终提示。
+  参数:
+    curr_input: 我们要输入的输入（如果多于一个输入，这可以是一个列表。）
+    prompt_lib_file: 提示文件的路径。
+  返回:
+    将发送到 OpenAI GPT 服务器的字符串提示。
   """
   if type(curr_input) == type("string"): 
     curr_input = [curr_input]
@@ -276,7 +264,7 @@ def safe_generate_response(prompt,
 def get_embedding(text, model="text-embedding-ada-002"):
   text = text.replace("\n", " ")
   if not text: 
-    text = "this is blank"
+    text = "此处为空白" # "this is blank"
   return openai.Embedding.create(
           input=[text], model=model)['data'][0]['embedding']
 
