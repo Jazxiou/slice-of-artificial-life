@@ -1,4 +1,4 @@
-###FOR PUSHING STATIC TO AWS 
+###用于将静态文件推送到 AWS
 
 
 
@@ -15,7 +15,7 @@
 
 
 
-###FOR GENERAL USES
+###通用配置
 
 
 

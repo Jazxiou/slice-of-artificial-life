@@ -1,9 +1,9 @@
 """
-Author: Joon Sung Park (joonspk@stanford.edu)
+作者: Joon Sung Park (joonspk@stanford.edu)
 
-File: path_finder.py
-Description: Implements various path finding functions for generative agents.
-Some of the functions are defunct. 
+文件: path_finder.py
+描述: 实现用于生成式代理的各种路径查找函数。
+其中一些函数已失效。
 """
 import numpy as np
 
@@ -37,26 +37,25 @@ def path_finder_v1(maze, start, end, collision_block_char, verbose=False):
 
   def solve_maze(maze, start, verbose=False):
     path = []
-    # We use a Python list as a stack - then we have push operations as
-    # append, and pop as pop.
+    # 我们使用 Python 列表作为堆栈 - 然后我们将 append 作为入栈操作，pop 作为出栈操作。
     stack = []
-    # Add the entry point (as a tuple)
+    # 添加入口点 (作为元组)
     stack.append(start)
-    # Go through the stack as long as there are elements
+    # 只要堆栈中还有元素，就继续遍历
     while len(stack) > 0:
       pos_r, pos_c = stack.pop()
       if verbose: 
-        print("Current position", pos_r, pos_c)
-      if maze[pos_r][pos_c] == 'E':
+        print("Current position", pos_r, pos_c) # DEBUG: "Current position"
+      if maze[pos_r][pos_c] == 'E': # 'E' is an internal marker
         path += [(pos_r, pos_c)]
         return path
-      if maze[pos_r][pos_c] == 'X':
-        # Already visited
+      if maze[pos_r][pos_c] == 'X': # 'X' is an internal marker
+        # 已访问
         continue
-      # Mark position as visited
-      maze[pos_r][pos_c] = 'X'
+      # 标记位置为已访问
+      maze[pos_r][pos_c] = 'X' # 'X' is an internal marker
       path += [(pos_r, pos_c)]
-      # Check for all possible positions and add if possible
+      # 检查所有可能的位置，如果可能则添加
       if is_valid_position(maze, pos_r - 1, pos_c):
         stack.append((pos_r - 1, pos_c))
       if is_valid_position(maze, pos_r + 1, pos_c):
@@ -66,15 +65,15 @@ def path_finder_v1(maze, start, end, collision_block_char, verbose=False):
       if is_valid_position(maze, pos_r, pos_c + 1):
         stack.append((pos_r, pos_c + 1))
 
-      # To follow the maze
+      # 跟踪迷宫（用于调试）
       if verbose: 
-        print('Stack:' , stack)
+        print('Stack:' , stack) # DEBUG: "Stack:"
         print_maze(maze)
 
-    # We didn't find a path, hence we do not need to return the path
+    # 我们没有找到路径，因此不需要返回路径
     return False
 
-  # clean maze
+  # 清理迷宫（将碰撞字符替换为'#'）
   new_maze = []
   for row in maze: 
     new_row = []
@@ -162,10 +161,10 @@ def path_finder_v2(a, start, end, collision_block_char, verbose=False):
 
 
 def path_finder(maze, start, end, collision_block_char, verbose=False):
-  # EMERGENCY PATCH
+  # 紧急补丁
   start = (start[1], start[0])
   end = (end[1], end[0])
-  # END EMERGENCY PATCH
+  # 紧急补丁结束
 
   path = path_finder_v2(maze, start, end, collision_block_char, verbose)
 
@@ -196,8 +195,8 @@ def closest_coordinate(curr_coordinate, target_coordinates):
 
 
 def path_finder_2(maze, start, end, collision_block_char, verbose=False):
-  # start => persona_a
-  # end => persona_b
+  # start => 角色A
+  # end => 角色B
   start = list(start)
   end = list(end)
 
@@ -221,8 +220,8 @@ def path_finder_2(maze, start, end, collision_block_char, verbose=False):
 
 
 def path_finder_3(maze, start, end, collision_block_char, verbose=False):
-  # start => persona_a
-  # end => persona_b
+  # start => 角色A
+  # end => 角色B
 
   curr_path = path_finder(maze, start, end, collision_block_char, verbose=False)
   if len(curr_path) <= 2: 

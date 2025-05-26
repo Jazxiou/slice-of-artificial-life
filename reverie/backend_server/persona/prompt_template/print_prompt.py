@@ -1,8 +1,8 @@
 """
-Author: Joon Sung Park (joonspk@stanford.edu)
+作者: Joon Sung Park (joonspk@stanford.edu)
 
-File: print_prompt.py
-Description: For printing prompts when the setting for verbose is set to True.
+文件: print_prompt.py
+描述: 用于在详细模式设置为 True 时打印提示信息。
 """
 import sys
 sys.path.append('../')
@@ -17,7 +17,7 @@ from persona.prompt_template.gpt_structure import *
 from utils import *
 
 ##############################################################################
-#                    PERSONA Chapter 1: Prompt Structures                    #
+#                    角色 第1章: 提示结构                    #
 ##############################################################################
 
 def print_run_prompts(prompt_template=None, 
@@ -27,15 +27,15 @@ def print_run_prompts(prompt_template=None,
                       prompt=None, 
                       output=None): 
   print (f"=== {prompt_template}")
-  print ("~~~ persona    ---------------------------------------------------")
+  print ("~~~ 角色    ---------------------------------------------------")
   print (persona.name, "\n")
-  print ("~~~ gpt_param ----------------------------------------------------")
+  print ("~~~ gpt参数 ----------------------------------------------------")
   print (gpt_param, "\n")
-  print ("~~~ prompt_input    ----------------------------------------------")
+  print ("~~~ 提示输入    ----------------------------------------------")
   print (prompt_input, "\n")
-  print ("~~~ prompt    ----------------------------------------------------")
+  print ("~~~ 提示    ----------------------------------------------------")
   print (prompt, "\n")
-  print ("~~~ output    ----------------------------------------------------")
+  print ("~~~ 输出    ----------------------------------------------------")
   print (output, "\n") 
-  print ("=== END ==========================================================")
+  print ("=== 结束 ==========================================================")
   print ("\n\n\n")

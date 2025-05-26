@@ -1,9 +1,9 @@
 """
-WSGI config for frontend_server project.
+frontend_server 项目的 WSGI 配置。
 
-It exposes the WSGI callable as a module-level variable named ``application``.
+它将 WSGI 可调用对象公开为名为 ``application`` 的模块级变量。
 
-For more information on this file, see
+有关此文件的更多信息，请参阅
 https://docs.djangoproject.com/en/2.2/howto/deployment/wsgi/
 """
 

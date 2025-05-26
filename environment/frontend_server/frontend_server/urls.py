@@ -1,17 +1,17 @@
-"""frontend_server URL Configuration
+"""frontend_server URL 配置
 
-The `urlpatterns` list routes URLs to views. For more information please see:
+`urlpatterns` 列表将 URL 路由到视图。更多信息请参见：
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+示例:
+函数视图
+    1. 添加导入: from my_app import views
+    2. 向 urlpatterns 添加一个 URL: path('', views.home, name='home')
+基于类的视图
+    1. 添加导入: from other_app.views import Home
+    2. 向 urlpatterns 添加一个 URL: path('', Home.as_view(), name='home')
+包含另一个 URLconf
+    1. 导入 include() 函数: from django.urls import include, path
+    2. 向 urlpatterns 添加一个 URL: path('blog/', include('blog.urls'))
 """
 from django.conf.urls import include, url
 from django.urls import path
