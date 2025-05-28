@@ -1,141 +1,236 @@
 
 
-# Generative Agents: Interactive Simulacra of Human Behavior 
+# Generative Agents Collaboratively Mission-Planning 
 
 <p align="center" width="100%">
 <img src="cover.png" alt="Smallville" style="width: 80%; min-width: 300px; display: block; margin: auto;">
 </p>
 
-This repository accompanies our research paper titled "[Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)." It contains our core simulation module for  generative agents—computational agents that simulate believable human behaviors—and their game environment. Below, we document the steps for setting up the simulation environment on your local machine and for replaying the simulation as a demo animation.
+This repository is an evolution of the repository based on the paper "[Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)."
 
-## <img src="https://joonsungpark.s3.amazonaws.com:443/static/assets/characters/profile/Isabella_Rodriguez.png" alt="Generative Isabella">   Setting Up the Environment 
-To set up your environment, you will need to generate a `utils.py` file that contains your OpenAI API key and download the necessary packages.
+_______________________________________
+## Index:
+1. [Setup](#setting-up-the-environment)
+2. [Execution](#running-a-simulation)
+3. [Cost-Tracking](#cost-tracking)
+4. [Customizing the Map](#customizing-the-map)
+_______________________________________
 
-### Step 1. Generate Utils File
-In the `reverie/backend_server` folder (where `reverie.py` is located), create a new file titled `utils.py` and copy and paste the content below into the file:
+## Setting Up The Environment
+
+### Step 1. Conda Env
+
+Note: If you change the environment name from `simulacra`, you'll need to update the name in the upcoming bash scripts as well.
+```bash
+    conda create -n simulacra python=3.9.12 pip
+    conda activate simulacra
+    pip install -r requirements.txt
 ```
-# Copy and paste your OpenAI API Key
-openai_api_key = "<Your OpenAI API>"
-# Put your name
-key_owner = "<Name>"
-
-maze_assets_loc = "../../environment/frontend_server/static_dirs/assets"
-env_matrix = f"{maze_assets_loc}/the_ville/matrix"
-env_visuals = f"{maze_assets_loc}/the_ville/visuals"
-
-fs_storage = "../../environment/frontend_server/storage"
-fs_temp_storage = "../../environment/frontend_server/temp_storage"
-
-collision_block_id = "32125"
-
-# Verbose 
-debug = True
-```
-Replace `<Your OpenAI API>` with your OpenAI API key, and `<name>` with your name.
- 
-### Step 2. Install requirements.txt
-Install everything listed in the `requirements.txt` file (I strongly recommend first setting up a virtualenv as usual). A note on Python version: we tested our environment on Python 3.9.12. 
-
-## <img src="https://joonsungpark.s3.amazonaws.com:443/static/assets/characters/profile/Klaus_Mueller.png" alt="Generative Klaus">   Running a Simulation 
-To run a new simulation, you will need to concurrently start two servers: the environment server and the agent simulation server.
-
-### Step 1. Starting the Environment Server
-Again, the environment is implemented as a Django project, and as such, you will need to start the Django server. To do this, first navigate to `environment/frontend_server` (this is where `manage.py` is located) in your command line. Then run the following command:
-
-    python manage.py runserver
-
-Then, on your favorite browser, go to [http://localhost:8000/](http://localhost:8000/). If you see a message that says, "Your environment server is up and running," your server is running properly. Ensure that the environment server continues to run while you are running the simulation, so keep this command-line tab open! (Note: I recommend using either Chrome or Safari. Firefox might produce some frontend glitches, although it should not interfere with the actual simulation.)
-
-### Step 2. Starting the Simulation Server
-Open up another command line (the one you used in Step 1 should still be running the environment server, so leave that as it is). Navigate to `reverie/backend_server` and run `reverie.py`.
-
-    python reverie.py
-This will start the simulation server. A command-line prompt will appear, asking the following: "Enter the name of the forked simulation: ". To start a 3-agent simulation with Isabella Rodriguez, Maria Lopez, and Klaus Mueller, type the following:
-    
-    base_the_ville_isabella_maria_klaus
-The prompt will then ask, "Enter the name of the new simulation: ". Type any name to denote your current simulation (e.g., just "test-simulation" will do for now).
-
-    test-simulation
-Keep the simulator server running. At this stage, it will display the following prompt: "Enter option: "
-
-### Step 3. Running and Saving the Simulation
-On your browser, navigate to [http://localhost:8000/simulator_home](http://localhost:8000/simulator_home). You should see the map of Smallville, along with a list of active agents on the map. You can move around the map using your keyboard arrows. Please keep this tab open. To run the simulation, type the following command in your simulation server in response to the prompt, "Enter option":
-
-    run <step-count>
-Note that you will want to replace `<step-count>` above with an integer indicating the number of game steps you want to simulate. For instance, if you want to simulate 100 game steps, you should input `run 100`. One game step represents 10 seconds in the game.
 
 
-Your simulation should be running, and you will see the agents moving on the map in your browser. Once the simulation finishes running, the "Enter option" prompt will re-appear. At this point, you can simulate more steps by re-entering the run command with your desired game steps, exit the simulation without saving by typing `exit`, or save and exit by typing `fin`.
+### Step 2. OpenAI Config
 
-The saved simulation can be accessed the next time you run the simulation server by providing the name of your simulation as the forked simulation. This will allow you to restart your simulation from the point where you left off.
+Create a file called `openai_config.json` in the root directory.
 
-### Step 4. Replaying a Simulation
-You can replay a simulation that you have already run simply by having your environment server running and navigating to the following address in your browser: `http://localhost:8000/replay/<simulation-name>/<starting-time-step>`. Please make sure to replace `<simulation-name>` with the name of the simulation you want to replay, and `<starting-time-step>` with the integer time-step from which you wish to start the replay.
-
-For instance, by visiting the following link, you will initiate a pre-simulated example, starting at time-step 1:  
-[http://localhost:8000/replay/July1_the_ville_isabella_maria_klaus-step-3-20/1/](http://localhost:8000/replay/July1_the_ville_isabella_maria_klaus-step-3-20/1/)
-
-### Step 5. Demoing a Simulation
-You may have noticed that all character sprites in the replay look identical. We would like to clarify that the replay function is primarily intended for debugging purposes and does not prioritize optimizing the size of the simulation folder or the visuals. To properly demonstrate a simulation with appropriate character sprites, you will need to compress the simulation first. To do this, open the `compress_sim_storage.py` file located in the `reverie` directory using a text editor. Then, execute the `compress` function with the name of the target simulation as its input. By doing so, the simulation file will be compressed, making it ready for demonstration.
-
-To start the demo, go to the following address on your browser: `http://localhost:8000/demo/<simulation-name>/<starting-time-step>/<simulation-speed>`. Note that `<simulation-name>` and `<starting-time-step>` denote the same things as mentioned above. `<simulation-speed>` can be set to control the demo speed, where 1 is the slowest, and 5 is the fastest. For instance, visiting the following link will start a pre-simulated example, beginning at time-step 1, with a medium demo speed:  
-[http://localhost:8000/demo/July1_the_ville_isabella_maria_klaus-step-3-20/1/3/](http://localhost:8000/demo/July1_the_ville_isabella_maria_klaus-step-3-20/1/3/)
-
-### Tips
-We've noticed that OpenAI's API can hang when it reaches the hourly rate limit. When this happens, you may need to restart your simulation. For now, we recommend saving your simulation often as you progress to ensure that you lose as little of the simulation as possible when you do need to stop and rerun it. Running these simulations, at least as of early 2023, could be somewhat costly, especially when there are many agents in the environment.
-
-## <img src="https://joonsungpark.s3.amazonaws.com:443/static/assets/characters/profile/Maria_Lopez.png" alt="Generative Maria">   Simulation Storage Location
-All simulations that you save will be located in `environment/frontend_server/storage`, and all compressed demos will be located in `environment/frontend_server/compressed_storage`. 
-
-## <img src="https://joonsungpark.s3.amazonaws.com:443/static/assets/characters/profile/Sam_Moore.png" alt="Generative Sam">   Customization
-
-There are two ways to optionally customize your simulations. 
-
-### Author and Load Agent History
-First is to initialize agents with unique history at the start of the simulation. To do this, you would want to 1) start your simulation using one of the base simulations, and 2) author and load agent history. More specifically, here are the steps:
-
-#### Step 1. Starting Up a Base Simulation 
-There are two base simulations included in the repository: `base_the_ville_n25` with 25 agents, and `base_the_ville_isabella_maria_klaus` with 3 agents. Load one of the base simulations by following the steps until step 2 above. 
-
-#### Step 2. Loading a History File 
-Then, when prompted with "Enter option: ", you should load the agent history by responding with the following command:
-
-    call -- load history the_ville/<history_file_name>.csv
-Note that you will need to replace `<history_file_name>` with the name of an existing history file. There are two history files included in the repo as examples: `agent_history_init_n25.csv` for `base_the_ville_n25` and `agent_history_init_n3.csv` for `base_the_ville_isabella_maria_klaus`. These files include semicolon-separated lists of memory records for each of the agents—loading them will insert the memory records into the agents' memory stream.
-
-#### Step 3. Further Customization 
-To customize the initialization by authoring your own history file, place your file in the following folder: `environment/frontend_server/static_dirs/assets/the_ville`. The column format for your custom history file will have to match the example history files included. Therefore, we recommend starting the process by copying and pasting the ones that are already in the repository.
-
-### Create New Base Simulations
-For a more involved customization, you will need to author your own base simulation files. The most straightforward approach would be to copy and paste an existing base simulation folder, renaming and editing it according to your requirements. This process will be simpler if you decide to keep the agent names unchanged. However, if you wish to change their names or increase the number of agents that the Smallville map can accommodate, you might need to directly edit the map using the [Tiled](https://www.mapeditor.org/) map editor.
-
-
-## <img src="https://joonsungpark.s3.amazonaws.com:443/static/assets/characters/profile/Eddy_Lin.png" alt="Generative Eddy">   Authors and Citation 
-
-**Authors:** Joon Sung Park, Joseph C. O'Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, Michael S. Bernstein
-
-Please cite our paper if you use the code or data in this repository. 
-```
-@inproceedings{Park2023GenerativeAgents,  
-author = {Park, Joon Sung and O'Brien, Joseph C. and Cai, Carrie J. and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S.},  
-title = {Generative Agents: Interactive Simulacra of Human Behavior},  
-year = {2023},  
-publisher = {Association for Computing Machinery},  
-address = {New York, NY, USA},  
-booktitle = {In the 36th Annual ACM Symposium on User Interface Software and Technology (UIST '23)},  
-keywords = {Human-AI interaction, agents, generative AI, large language models},  
-location = {San Francisco, CA, USA},  
-series = {UIST '23}
+OpenAI example:
+```json
+{
+    "client": "openai", 
+    "model": "gpt-4o-mini",
+    "model-key": "<API-KEY>",
+    "model-costs": {
+        "input":  0.5,
+        "output": 1.5
+    },
+    "embeddings-client": "openai",
+    "embeddings": "text-embedding-3-small",
+    "embeddings-key": "<API-KEY>",
+    "embeddings-costs": {
+        "input": 0.02,
+        "output": 0.0
+    },
+    "experiment-name": "simulacra-test",
+    "cost-upperbound": 10
 }
 ```
 
-## <img src="https://joonsungpark.s3.amazonaws.com:443/static/assets/characters/profile/Wolfgang_Schulz.png" alt="Generative Wolfgang">   Acknowledgements
+Azure example:
+```json
+{
+    "client": "azure", 
+    "model": "gpt-4o-mini",
+    "model-key": "<API-KEY>",
+    "model-endpoint": "<MODEL-ENDPOINT>",
+    "model-api-version": "<API-VERSION>",
+    "model-costs": {
+        "input":  0.5,
+        "output": 1.5
+    },
+    "embeddings-client": "azure",
+    "embeddings": "text-embedding-3-small",
+    "embeddings-key": "<API-KEY>",
+    "embeddings-endpoint": "<EMBEDDING-MODEL-ENDPOINT>",
+    "embeddings-api-version": "<API-VERSION>",
+    "embeddings-costs": {
+        "input": 0.02,
+        "output": 0.0
+    },
+    "experiment-name": "simulacra-test",
+    "cost-upperbound": 10
+}
+```
 
-We encourage you to support the following three amazing artists who have designed the game assets for this project, especially if you are planning to use the assets included here for your own project: 
-* Background art: [PixyMoon (@_PixyMoon\_)](https://twitter.com/_PixyMoon_)
-* Furniture/interior design: [LimeZu (@lime_px)](https://twitter.com/lime_px)
-* Character design: [ぴぽ (@pipohi)](https://twitter.com/pipohi)
+Feel free to change and test also other models (and change accordingly the input and output costs). Note that this repo uses OpenAI's Structured Outputs feature, which is currently only available for certain models, like the GPT-4o series. Check the OpenAI docs for more info. \
+The generation and the embedding models are configured separately to be able to use different clients.\
+Change also the `cost-upperbound` according to your needs (the cost computation is done using "[openai-cost-logger](https://github.com/drudilorenzo/openai-cost-logger)" and the costs are specified per million tokens).
 
-In addition, we thank Lindsay Popowski, Philip Guo, Michael Terry, and the Center for Advanced Study in the Behavioral Sciences (CASBS) community for their insights, discussions, and support. Lastly, all locations featured in Smallville are inspired by real-world locations that Joon has frequented as an undergraduate and graduate student---he thanks everyone there for feeding and supporting him all these years.
+Next, you will (for now) also need to set up the `utils.py` file as described in the [original repo's README](README_origin.md). After creating the file as described there, add these lines to it and change them as necessary:
+
+```
+use_openai = True
+# If you're not using OpenAI, define api_model
+api_model = ""
+```
+
+## Running a simulation
+
+> All of the following scripts accept two optional arguments to customize the conda setup:
+> - `--conda_path`: Path to your conda activate script (default: `/home/${USER}/anaconda3/bin/activate`)
+> - `--env_name`: Name of the conda environment to use (default: `simulacra`)
+>
+> Example with custom conda setup:
+> ```bash
+> ./run_frontend.sh --conda_path /path/to/conda/activate --env_name my_env [other args...]
+> ```
+
+### Step 1. Starting the Environment Server
+If you're running the backend in headless mode (see below), you can skip this step.
+
+```bash
+    ./run_frontend.sh [--conda_path PATH] [--env_name ENV] [PORT-NUMBER]
+```
+ >Note: omit the port number to use the default 8000.
+
+### Step 2. Starting the Simulation Server
+
+#### Option 1: Running the server manually
+```bash
+    ./run_backend.sh [--conda_path PATH] [--env_name ENV] <ORIGIN> <TARGET>
+```
+Example:
+```bash
+    ./run_backend.sh base_the_ville_isabella_maria_klaus simulation-test
+```
+
+See the [original README](README_origin.md) for commands to pass to the server when running it manually. In addition to the commands listed there, you can also use the command `headless` in place of `run` (i.e. `headless 360` rather than `run 360`) to run in headless mode.
+
+#### Option 2. Automatic Execution
+The following script offer a range of enhanced features:
+- **Automatic Saving**: The simulation automatically saves progress every 200 steps, ensuring you never lose data.
+- **Error Recovery**: In the event of an error, the simulation automatically resumes by stepping back and restarting from the last successful point. This is crucial as the model relies on formatted answers, which can sometimes cause exceptions.
+- **Automatic Tab Opening**: A new browser tab will automatically open when necessary.
+- **Headless Mode**: The scripts support running simulations in headless mode, enabling execution on a server without a UI.
+- **Configurable Port Number**: You can configure the port number as needed.
+
+For more details, refer to: [run_backend_automatic.sh](run_backend_automatic.sh) and [automatic_execution.py](reverie/backend_server/automatic_execution.py).
+```bash
+    ./run_backend_automatic.sh [--conda_path <PATH>] [--env_name <ENV>] -o <ORIGIN> -t <TARGET> -s <STEP> --ui <True|None|False> -p <PORT> --browser_path <BROWSER-PATH> [--load_history <HISTORY-FILE>]
+```
+
+Arguments taken by `run_backend_automatic.sh`:
+- `--conda_path`: (Optional) Path to your conda activate script
+- `--env_name`: (Optional) Name of the conda environment to use
+- `-o <ORIGIN>`: The name of an existing simulation to use as the base for the new simulation.
+- `-t <TARGET>`: The new simulation name (Note: you cannot have multiple simulations of the same name).
+- `-s <STEP>`: The step number to end on (NOT necessarily the number of steps to run for!).
+- `--ui <True|None|False>`: Whether to run the UI or run the simulation headless (no UI). There are two different headless modes: "None" runs in pure headless mode (no browser needed), whereas "False" runs in Chrome's builtin headless mode (needs [headless-chrome](https://developer.chrome.com/blog/headless-chrome) installed). Prefer "None" over "False" in normal cases.
+- `-p <PORT>`: The port to run the simulation on.
+- `--browser_path <BROWSER-PATH>`: The path to the UI in the browser.
+- `--load_history <HISTORY-FILE>`: (Optional) Load an agent history file. Start path with "./" to make it relative to the project root, otherwise it's interpreted as relative to the maze assets folder (`environment/frontend_server/static_dirs/assets/`).
+
+Example:
+```bash
+    ./run_backend_automatic.sh -o base_the_ville_isabella_maria_klaus -t test_1 -s 4 --ui None
+```
+
+### Endpoint list
+- [http://localhost:8000/](http://localhost:8000/) - check if the server is running
+- [http://localhost:8000/simulator_home](http://localhost:8000/simulator_home) - watch the live simulation
+- `http://localhost:8000/replay/<simulation-name>/<starting-time-step>` - replay a simulation
+
+For a more detailed explanation see the [original readme](README_origin.md).
 
 
+## Cost Tracking
+
+For the cost tracking is used the package "[openai-cost-logger](https://github.com/drudilorenzo/openai-cost-logger)". Given the possible high cost of a simulation,  you can set a cost upperbound in the config file to be able to raise an exception and stop the execution when it is reached.
+
+See all the details of your expenses using the notebook "[cost_viz.ipynb](utils/cost_viz.ipynb)."
+
+## Cost Assessment
+
+### 1. base_the_ville_isabella_maria_klaus
+
+- **Model**: "gpt-3.5-turbo-0125"
+- **Embeddings**: "text-embedding-3-small"
+- **N. Agents**: 3
+- **Steps**: ~5000
+- **Final Cost**: ~0.31 USD
+
+### 2. base_the_ville_n25
+
+- See the simulation saved: [skip-morning-s-14](environment/frontend_server/storage/skip-morning-s-14)
+- **Model**: "gpt-3.5-turbo-0125"
+- **Embeddings**: "text-embedding-3-small"
+- **N. Agents**: 25
+- **Steps**: ~3000 (until ~8 a.m.)
+- **Final Cost**: ~1.3 USD
+
+### 3. base_the_ville_n25
+
+- **Model**: "gpt-3.5-turbo-0125"
+- **Embeddings**: "text-embedding-3-small"
+- **N. Agents**: 25
+- **Steps**: ~8650 (full day)
+- **Final Cost**: ~18.5 USD
+
+## Customizing the Map
+
+The default simulation map, "The Ville", is a small town with locations such as a college, apartments, a cafe, a market, etc. The full list of locations and objects in this map are contained in the following files: [`sector_blocks.csv`](environment/frontend_server/static_dirs/assets/the_ville/matrix/special_blocks/sector_blocks.csv), [`arena_blocks.csv`](environment/frontend_server/static_dirs/assets/the_ville/matrix/special_blocks/arena_blocks.csv), and [`game_object_blocks.csv`](environment/frontend_server/static_dirs/assets/the_ville/matrix/special_blocks/game_object_blocks.csv). These are organized in a rough hierarchy: sector blocks roughly define buildings, arena blocks define rooms in buildings, and game object blocks define objects or areas in rooms.
+
+To fully overhaul the map for your own customized simulation, you'd probably need to use the Tiled map editor as described in the [original repo's README](README_origin.md). This repo has added a shortcut method of customizing the map: renaming locations and objects that already exist in the Ville map.
+
+To use this feature, add a `block_remaps` property to your simulation's `meta.json` file. Here's an example of remapping the supply store to be a fire station instead:
+
+```json
+{
+  "fork_sim_code": "base_the_ville_isabella_maria_klaus",
+  "start_date": "February 13, 2023",
+  "curr_time": "February 13, 2023, 00:00:00",
+  "sec_per_step": 10,
+  "maze_name": "the_ville",
+  "persona_names": [
+    "Isabella Rodriguez",
+    "Maria Lopez",
+    "Klaus Mueller"
+  ],
+  "step": 0,
+  "block_remaps": {
+    "sector": {
+      "Harvey Oak Supply Store": "Fire station"
+    },
+    "arena": {
+      "supply store": "fire station"
+    },
+    "game_object": {
+      "supply store product shelf": "fire truck",
+      "supply store counter": "common area",
+      "behind the supply store counter": "bunks"
+    }
+  }
+}
+```
+
+When using this feature, reference the existing blocks in the blocks CSVs listed above. **Make sure to spell and case everything exactly as they are in those files!**
+
+After remapping locations and objects in `meta.json`, you'll also need to rename them in each agent's `spatial_memory.json` file too, if they're referenced. This file defines what locations the agent is already aware of when the simulation starts. For instance, here's a link to Isabella's spatial memory file for the `base_the_ville_isabella_maria_klaus` simulation: [`spatial_memory.json`](environment/frontend_server/storage/base_the_ville_isabella_maria_klaus/personas/Isabella%20Rodriguez/bootstrap_memory/spatial_memory.json). Also, if a particular location is referenced in an agent's `scratch.json`, you'll need to update that too: [`scratch.json`](environment/frontend_server/storage/base_the_ville_isabella_maria_klaus/personas/Isabella%20Rodriguez/bootstrap_memory/scratch.json).
