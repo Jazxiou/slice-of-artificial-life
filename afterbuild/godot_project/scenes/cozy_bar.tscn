@@ -1,6 +1,7 @@
-[gd_scene load_steps=214 format=4 uid="uid://buhrkf3qrgfxx"]
+[gd_scene load_steps=217 format=4 uid="uid://buhrkf3qrgfxx"]
 
 [ext_resource type="Script" uid="uid://c3sjt5afgoic5" path="res://scripts/dialogue_client.gd" id="1_6ieo7"]
+[ext_resource type="Theme" uid="uid://d3wgmhhnuxm0m" path="res://ui_theme.tres" id="1_theme"]
 [ext_resource type="Texture2D" uid="uid://cbhnfgjc5qpaq" path="res://assets/sprites/tiles/Cozy_bar/WoodenTable.png" id="2_6ieo7"]
 [ext_resource type="Texture2D" uid="uid://1ute6mgfqoce" path="res://assets/sprites/tiles/Cozy_bar/tilesetformattedupdate1.png" id="2_l1gog"]
 [ext_resource type="Texture2D" uid="uid://40dtb2ke51or" path="res://assets/sprites/tiles/Cozy_bar/walls.png" id="2_qhmbj"]
@@ -30456,6 +30457,9 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dog"]
 size = Vector2(48, 30)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5u45j"]
+size = Vector2(32, 49)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wall_horizontal"]
 size = Vector2(652, 20)
 
@@ -31087,6 +31091,9 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_me8ii"]
 size = Vector2(24, 24)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ek8yi"]
+size = Vector2(28, 59)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_lbiss"]
 atlas = ExtResource("10_lt322")
 region = Rect2(0, 128, 64, 64)
@@ -31464,6 +31471,12 @@ animation = &"look up"
 position = Vector2(-2, 4)
 shape = SubResource("RectangleShape2D_dog")
 
+[node name="Interaction Area" type="Area2D" parent="dog"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="dog/Interaction Area"]
+position = Vector2(-2, 4.5)
+shape = SubResource("RectangleShape2D_5u45j")
+
 [node name="InvisibleWalls" type="Node2D" parent="."]
 
 [node name="TopWall" type="StaticBody2D" parent="InvisibleWalls"]
@@ -31509,7 +31522,11 @@ shape = SubResource("RectangleShape2D_s282g")
 
 [node name="ActionExecutor" type="Node" parent="Alice"]
 
-[node name="Area2D" type="Area2D" parent="Alice"]
+[node name="Interaction Area" type="Area2D" parent="Alice"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Alice/Interaction Area"]
+position = Vector2(-1, 5.5)
+shape = SubResource("RectangleShape2D_5u45j")
 
 [node name="sam" type="CharacterBody2D" parent="."]
 z_index = 1
@@ -31530,7 +31547,11 @@ shape = SubResource("RectangleShape2D_me8ii")
 
 [node name="ActionExecutor" type="Node" parent="sam"]
 
-[node name="Area2D" type="Area2D" parent="sam"]
+[node name="Interaction Area" type="Area2D" parent="sam"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="sam/Interaction Area"]
+position = Vector2(-1, 0.5)
+shape = SubResource("RectangleShape2D_ek8yi")
 
 [node name="bob" type="CharacterBody2D" parent="."]
 z_index = 1
@@ -31552,7 +31573,11 @@ shape = SubResource("RectangleShape2D_bob")
 
 [node name="ActionExecutor" type="Node" parent="bob"]
 
-[node name="Area2D" type="Area2D" parent="bob"]
+[node name="Interaction Area" type="Area2D" parent="bob"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bob/Interaction Area"]
+position = Vector2(0, 4.5)
+shape = SubResource("RectangleShape2D_5u45j")
 
 [node name="StateManager" type="Node" parent="."]
 
@@ -31566,105 +31591,109 @@ position = Vector2(315, 49)
 
 [node name="MemoryPanel" type="Panel" parent="UILayer"]
 visible = false
-offset_left = 5.0
-offset_top = 90.0
-offset_right = 185.0
-offset_bottom = 210.0
+offset_left = 10.0
+offset_top = 70.0
+offset_right = 210.0
+offset_bottom = 200.0
+theme = ExtResource("1_theme")
 
 [node name="ScrollContainer" type="ScrollContainer" parent="UILayer/MemoryPanel"]
-visible = false
 layout_mode = 0
-offset_left = 3.0
-offset_top = -18.0
-offset_right = 173.0
-offset_bottom = 92.0
+offset_left = 5.0
+offset_top = 5.0
+offset_right = 195.0
+offset_bottom = 125.0
 
 [node name="MemoryText" type="RichTextLabel" parent="UILayer/MemoryPanel/ScrollContainer"]
-custom_minimum_size = Vector2(160, 400)
+custom_minimum_size = Vector2(180, 300)
 layout_mode = 2
-theme_override_font_sizes/normal_font_size = 8
-bbcode_enabled = true
+theme_override_font_sizes/normal_font_size = 6
 fit_content = true
 
 [node name="CloseButton" type="Button" parent="UILayer/MemoryPanel"]
 layout_mode = 0
-offset_left = 160.0
-offset_top = 3.0
-offset_right = 175.0
-offset_bottom = 18.0
-theme_override_font_sizes/font_size = 8
+offset_left = 180.0
+offset_top = 5.0
+offset_right = 195.0
+offset_bottom = 20.0
+theme_override_font_sizes/font_size = 6
 text = "X"
 
 [node name="ViewBobMemoryButton" type="Button" parent="UILayer"]
-offset_left = 5.0
-offset_top = 10.0
-offset_right = 85.0
-offset_bottom = 30.0
-theme_override_font_sizes/font_size = 8
+offset_left = 12.0
+offset_top = 4.0
+offset_right = 112.0
+offset_bottom = 24.0
+theme = ExtResource("1_theme")
+theme_override_font_sizes/font_size = 9
 text = "Bob's Memory"
 
 [node name="ClearBobMemoryButton" type="Button" parent="UILayer"]
-modulate = Color(1, 0.8, 0.8, 1)
-offset_left = 90.0
-offset_top = 10.0
-offset_right = 150.0
-offset_bottom = 30.0
+offset_left = 112.0
+offset_top = 4.0
+offset_right = 162.0
+offset_bottom = 24.0
+theme = ExtResource("1_theme")
 theme_override_font_sizes/font_size = 8
 text = "Clear"
 
 [node name="ViewAliceMemoryButton" type="Button" parent="UILayer"]
-offset_left = 5.0
-offset_top = 35.0
-offset_right = 85.0
-offset_bottom = 55.0
-theme_override_font_sizes/font_size = 8
+offset_left = 12.0
+offset_top = 24.0
+offset_right = 112.0
+offset_bottom = 44.0
+theme = ExtResource("1_theme")
+theme_override_font_sizes/font_size = 9
 text = "Alice's Memory"
 
 [node name="ClearAliceMemoryButton" type="Button" parent="UILayer"]
-modulate = Color(1, 0.8, 0.8, 1)
-offset_left = 90.0
-offset_top = 35.0
-offset_right = 150.0
-offset_bottom = 55.0
+offset_left = 112.0
+offset_top = 24.0
+offset_right = 162.0
+offset_bottom = 44.0
+theme = ExtResource("1_theme")
 theme_override_font_sizes/font_size = 8
 text = "Clear"
 
 [node name="ViewSamMemoryButton" type="Button" parent="UILayer"]
-offset_left = 5.0
-offset_top = 60.0
-offset_right = 85.0
-offset_bottom = 80.0
-theme_override_font_sizes/font_size = 8
+offset_left = 12.0
+offset_top = 44.0
+offset_right = 112.0
+offset_bottom = 64.0
+theme = ExtResource("1_theme")
+theme_override_font_sizes/font_size = 9
 text = "Sam's Memory"
 
 [node name="ClearSamMemoryButton" type="Button" parent="UILayer"]
-modulate = Color(1, 0.8, 0.8, 1)
-offset_left = 90.0
-offset_top = 60.0
-offset_right = 150.0
-offset_bottom = 80.0
+offset_left = 112.0
+offset_top = 44.0
+offset_right = 162.0
+offset_bottom = 64.0
+theme = ExtResource("1_theme")
 theme_override_font_sizes/font_size = 8
 text = "Clear"
 
 [node name="SpeechBubbleExample" type="Panel" parent="UILayer"]
 visible = false
-modulate = Color(1, 1, 1, 0.9)
+modulate = Color(1, 1, 1, 0.95)
 offset_left = 200.0
-offset_top = 100.0
-offset_right = 360.0
-offset_bottom = 160.0
+offset_top = 150.0
+offset_right = 340.0
+offset_bottom = 200.0
+theme = ExtResource("1_theme")
 
 [node name="ScrollContainer" type="ScrollContainer" parent="UILayer/SpeechBubbleExample"]
 layout_mode = 0
 offset_left = 5.0
 offset_top = 5.0
-offset_right = 155.0
-offset_bottom = 55.0
+offset_right = 135.0
+offset_bottom = 45.0
 
 [node name="BubbleText" type="RichTextLabel" parent="UILayer/SpeechBubbleExample/ScrollContainer"]
-custom_minimum_size = Vector2(140, 0)
+custom_minimum_size = Vector2(125, 0)
 layout_mode = 2
-theme_override_colors/default_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/normal_font_size = 8
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/normal_font_size = 6
 text = "Example speech bubble text"
 fit_content = true
+autowrap_mode = 2

@@ -45,6 +45,162 @@ func _ready():
 	# Setup UI from scene nodes
 	setup_ui_from_scene()
 
+func apply_button_group_style(button: Button, position: String = "middle", is_danger: bool = false):
+	"""Apply button style for grouped buttons"""
+	var style_normal = StyleBoxFlat.new()
+	var style_hover = StyleBoxFlat.new()
+	var style_pressed = StyleBoxFlat.new()
+	
+	# Set corner radius based on position
+	var top_radius = 0
+	var bottom_radius = 0
+	
+	if position == "top":
+		top_radius = 8
+		bottom_radius = 0
+	elif position == "bottom":
+		top_radius = 0
+		bottom_radius = 8
+	else:  # middle
+		top_radius = 0
+		bottom_radius = 0
+	
+	# Normal state
+	if is_danger:
+		style_normal.bg_color = Color(1, 0.9, 0.9, 1)
+	else:
+		style_normal.bg_color = Color(0.95, 0.95, 0.95, 1)
+	style_normal.corner_radius_top_left = top_radius
+	style_normal.corner_radius_top_right = top_radius
+	style_normal.corner_radius_bottom_left = bottom_radius
+	style_normal.corner_radius_bottom_right = bottom_radius
+	style_normal.border_width_left = 1
+	style_normal.border_width_right = 1
+	style_normal.border_width_top = 1
+	style_normal.border_width_bottom = 1
+	style_normal.border_color = Color(0.3, 0.3, 0.3, 0.5)
+	
+	# Hover state
+	if is_danger:
+		style_hover.bg_color = Color(1, 0.85, 0.85, 1)
+	else:
+		style_hover.bg_color = Color(0.9, 0.9, 0.9, 1)
+	style_hover.corner_radius_top_left = top_radius
+	style_hover.corner_radius_top_right = top_radius
+	style_hover.corner_radius_bottom_left = bottom_radius
+	style_hover.corner_radius_bottom_right = bottom_radius
+	style_hover.border_width_left = 1
+	style_hover.border_width_right = 1
+	style_hover.border_width_top = 1
+	style_hover.border_width_bottom = 1
+	style_hover.border_color = Color(0.2, 0.2, 0.2, 0.6)
+	
+	# Pressed state
+	if is_danger:
+		style_pressed.bg_color = Color(1, 0.8, 0.8, 1)
+	else:
+		style_pressed.bg_color = Color(0.85, 0.85, 0.85, 1)
+	style_pressed.corner_radius_top_left = top_radius
+	style_pressed.corner_radius_top_right = top_radius
+	style_pressed.corner_radius_bottom_left = bottom_radius
+	style_pressed.corner_radius_bottom_right = bottom_radius
+	style_pressed.border_width_left = 1
+	style_pressed.border_width_right = 1
+	style_pressed.border_width_top = 1
+	style_pressed.border_width_bottom = 1
+	style_pressed.border_color = Color(0.2, 0.2, 0.2, 0.7)
+	
+	# Remove middle borders to avoid double lines
+	if position == "middle" or position == "bottom":
+		style_normal.border_width_top = 0
+		style_hover.border_width_top = 0
+		style_pressed.border_width_top = 0
+	
+	button.add_theme_stylebox_override("normal", style_normal)
+	button.add_theme_stylebox_override("hover", style_hover)
+	button.add_theme_stylebox_override("pressed", style_pressed)
+	
+	# Remove the modulate color since we're using stylebox colors
+	if not is_danger:
+		button.modulate = Color.WHITE
+
+func apply_button_style(button: Button, is_danger: bool = false):
+	"""Apply nice visual style to buttons"""
+	var style_normal = StyleBoxFlat.new()
+	var style_hover = StyleBoxFlat.new()
+	var style_pressed = StyleBoxFlat.new()
+	
+	# Normal state
+	if is_danger:
+		style_normal.bg_color = Color(1, 0.9, 0.9, 1)
+	else:
+		style_normal.bg_color = Color(0.95, 0.95, 0.95, 1)
+	style_normal.corner_radius_top_left = 8
+	style_normal.corner_radius_top_right = 8
+	style_normal.corner_radius_bottom_left = 8
+	style_normal.corner_radius_bottom_right = 8
+	style_normal.border_width_left = 1
+	style_normal.border_width_right = 1
+	style_normal.border_width_top = 1
+	style_normal.border_width_bottom = 2
+	style_normal.border_color = Color(0.3, 0.3, 0.3, 0.5)
+	
+	# Hover state
+	if is_danger:
+		style_hover.bg_color = Color(1, 0.85, 0.85, 1)
+	else:
+		style_hover.bg_color = Color(0.9, 0.9, 0.9, 1)
+	style_hover.corner_radius_top_left = 8
+	style_hover.corner_radius_top_right = 8
+	style_hover.corner_radius_bottom_left = 8
+	style_hover.corner_radius_bottom_right = 8
+	style_hover.border_width_left = 1
+	style_hover.border_width_right = 1
+	style_hover.border_width_top = 1
+	style_hover.border_width_bottom = 2
+	style_hover.border_color = Color(0.2, 0.2, 0.2, 0.6)
+	
+	# Pressed state
+	if is_danger:
+		style_pressed.bg_color = Color(1, 0.8, 0.8, 1)
+	else:
+		style_pressed.bg_color = Color(0.85, 0.85, 0.85, 1)
+	style_pressed.corner_radius_top_left = 8
+	style_pressed.corner_radius_top_right = 8
+	style_pressed.corner_radius_bottom_left = 8
+	style_pressed.corner_radius_bottom_right = 8
+	style_pressed.border_width_left = 1
+	style_pressed.border_width_right = 1
+	style_pressed.border_width_top = 2
+	style_pressed.border_width_bottom = 1
+	style_pressed.border_color = Color(0.2, 0.2, 0.2, 0.7)
+	
+	button.add_theme_stylebox_override("normal", style_normal)
+	button.add_theme_stylebox_override("hover", style_hover)
+	button.add_theme_stylebox_override("pressed", style_pressed)
+	
+	# Remove the modulate color since we're using stylebox colors
+	if not is_danger:
+		button.modulate = Color.WHITE
+
+func apply_panel_style(panel: Panel, bg_color: Color = Color(1, 1, 1, 0.95)):
+	"""Apply rounded corner style to panels"""
+	var style_box = StyleBoxFlat.new()
+	style_box.bg_color = bg_color
+	style_box.corner_radius_top_left = 12
+	style_box.corner_radius_top_right = 12
+	style_box.corner_radius_bottom_left = 12
+	style_box.corner_radius_bottom_right = 12
+	style_box.border_width_left = 2
+	style_box.border_width_right = 2
+	style_box.border_width_top = 2
+	style_box.border_width_bottom = 2
+	style_box.border_color = Color(0.2, 0.2, 0.2, 0.3)
+	style_box.shadow_size = 3
+	style_box.shadow_color = Color(0, 0, 0, 0.2)
+	style_box.shadow_offset = Vector2(2, 2)
+	panel.add_theme_stylebox_override("panel", style_box)
+
 func setup_ui_from_scene():
 	"""Connect UI elements from the scene"""
 	var ui_layer = get_node_or_null("UILayer")
@@ -297,6 +453,14 @@ func update_streaming_bubble(npc_name: String, partial_text: String):
 		if example:
 			bubble = example.duplicate()
 			bubble.name = bubble_name
+			
+			# Attach the streaming_bubble script if not already attached
+			if not bubble.has_method("point_to_character"):
+				var script_path = "res://scripts/streaming_bubble.gd"
+				var script = load(script_path)
+				if script:
+					bubble.set_script(script)
+			
 			ui_layer.add_child(bubble)
 		else:
 			# Fallback: create bubble programmatically
@@ -317,7 +481,22 @@ func update_streaming_bubble(npc_name: String, partial_text: String):
 		var npc = npcs.get(npc_name)
 		if npc:
 			var npc_pos = npc.global_position
-			bubble.position = Vector2(npc_pos.x - 80, npc_pos.y - 100)
+			bubble.position = Vector2(npc_pos.x - 70, npc_pos.y - 90)
+			
+			# Update arrow to point at character - convert to screen coordinates
+			if bubble.has_method("point_to_character"):
+				# Convert world position to screen position for UI layer
+				var screen_pos: Vector2
+				var cam = get_viewport().get_camera_2d()
+				if cam:
+					# Godot 4.x method for world to screen conversion
+					var viewport_transform = get_viewport().get_canvas_transform()
+					var camera_transform = cam.get_canvas_transform()
+					screen_pos = viewport_transform * camera_transform * npc_pos
+				else:
+					# Fallback: use viewport canvas transform directly
+					screen_pos = get_viewport().get_canvas_transform() * npc_pos
+				bubble.point_to_character(screen_pos)
 		
 		bubble.visible = true
 
@@ -357,11 +536,30 @@ func create_streaming_bubble_in_layer(ui_layer: CanvasLayer, npc_name: String, t
 	bubble.size = Vector2(bubble_container_width, bubble_container_height)
 	bubble.modulate = Color(1, 1, 1, 0.9)
 	
+	# Attach the streaming_bubble script for arrow functionality
+	var script_path = "res://scripts/streaming_bubble.gd"
+	var script = load(script_path)
+	if script:
+		bubble.set_script(script)
+	
 	# Position bubble above NPC
 	var npc = npcs.get(npc_name)
 	if npc:
 		var npc_pos = npc.global_position
-		bubble.position = Vector2(npc_pos.x - 80, npc_pos.y - 100)
+		bubble.position = Vector2(npc_pos.x - 70, npc_pos.y - 90)
+		
+		# Convert to screen coordinates for arrow
+		var screen_pos: Vector2
+		var cam = get_viewport().get_camera_2d()
+		if cam:
+			var viewport_transform = get_viewport().get_canvas_transform()
+			var camera_transform = cam.get_canvas_transform()
+			screen_pos = viewport_transform * camera_transform * npc_pos
+		else:
+			screen_pos = get_viewport().get_canvas_transform() * npc_pos
+		
+		# Add arrow pointing to character after adding to tree
+		call_deferred("_setup_bubble_arrow", bubble, screen_pos)
 	else:
 		bubble.position = Vector2(200, 100)
 	
@@ -373,6 +571,7 @@ func create_streaming_bubble_in_layer(ui_layer: CanvasLayer, npc_name: String, t
 	
 	# Create text label
 	var bubble_text = RichTextLabel.new()
+	bubble_text.name = "Label"  # Important for the script to find it
 	bubble_text.custom_minimum_size = Vector2(140, 0)
 	bubble_text.bbcode_enabled = false
 	bubble_text.fit_content = true
@@ -392,6 +591,11 @@ func create_streaming_bubble_in_layer(ui_layer: CanvasLayer, npc_name: String, t
 	bubble.modulate.a = 0
 	var tween = create_tween()
 	tween.tween_property(bubble, "modulate:a", 1.0, 0.3)
+
+func _setup_bubble_arrow(bubble: Panel, npc_pos: Vector2):
+	"""Setup arrow after bubble is in tree"""
+	if bubble and bubble.has_method("point_to_character"):
+		bubble.point_to_character(npc_pos)
 
 func show_custom_input_dialog(npc_name: String):
 	"""Show custom message input dialog"""
@@ -538,9 +742,26 @@ func _on_clear_memory_button_pressed(npc_name: String = "Bob"):
 	
 	# Show confirmation dialog
 	var confirm_dialog = ConfirmationDialog.new()
-	confirm_dialog.dialog_text = "Are you sure you want to clear " + npc_name + "'s memories?\nThis cannot be undone!"
-	confirm_dialog.title = "Confirm Clear Memories"
-	confirm_dialog.size = Vector2(400, 150)
+	confirm_dialog.dialog_text = "Clear " + npc_name + "'s memories?"
+	confirm_dialog.title = "Confirm"
+	confirm_dialog.size = Vector2(250, 100)
+	
+	# Get the internal label and set its font size properly
+	var label = confirm_dialog.get_label()
+	if label:
+		label.add_theme_font_size_override("font_size", 10)
+		# Center the text
+		label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+	
+	# Also set button font sizes smaller
+	var ok_button = confirm_dialog.get_ok_button()
+	if ok_button:
+		ok_button.add_theme_font_size_override("font_size", 10)
+	
+	var cancel_button = confirm_dialog.get_cancel_button()
+	if cancel_button:
+		cancel_button.add_theme_font_size_override("font_size", 10)
 	
 	# Connect confirmation signal with NPC name
 	confirm_dialog.confirmed.connect(_on_clear_memory_confirmed.bind(npc_name))

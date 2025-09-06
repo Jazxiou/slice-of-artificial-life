@@ -13,14 +13,12 @@ config_version=5
 config/name="Live with AI"
 run/main_scene="res://scenes/cozy_bar.tscn"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon=""
 
 [display]
 
 window/size/viewport_width=672
 window/size/viewport_height=400
 window/stretch/mode="canvas_items"
-window/stretch/aspect="keep"
 
 [input]
 
