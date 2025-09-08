@@ -31601,7 +31601,7 @@ tile_map_data = PackedByteArray("AADXADAAAwAAAAAAAADvADwAAwACAAAAAAD2AGUAAwADAAE
 tile_set = SubResource("TileSet_0b1vl")
 navigation_enabled = false
 
-[node name="dog" type="CharacterBody2D" parent="."]
+[node name="dog" type="CharacterBody2D" parent="." groups=["npcs"]]
 z_index = 1
 y_sort_enabled = true
 position = Vector2(430, 358)
@@ -31651,7 +31651,7 @@ position = Vector2(669, 208.8)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InvisibleWalls/RightWall"]
 shape = SubResource("RectangleShape2D_wall_vertical")
 
-[node name="Alice" type="CharacterBody2D" parent="." node_paths=PackedStringArray("dog")]
+[node name="Alice" type="CharacterBody2D" parent="." groups=["npcs"]]
 z_index = 1
 y_sort_enabled = true
 position = Vector2(85, 285)
@@ -31659,7 +31659,6 @@ collision_layer = 2
 wall_min_slide_angle = 0.0
 script = ExtResource("18_s282g")
 speed = 30
-dog = NodePath("../dog")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Alice"]
 sprite_frames = SubResource("SpriteFrames_4j87i")
@@ -31686,11 +31685,15 @@ shape = SubResource("RectangleShape2D_5u45j")
 path_desired_distance = 4.0
 target_desired_distance = 4.0
 
-[node name="Timer" type="Timer" parent="Alice"]
+[node name="PathFindingTimer" type="Timer" parent="Alice"]
 wait_time = 2.0
 autostart = true
 
-[node name="sam" type="CharacterBody2D" parent="."]
+[node name="DicisionTimer" type="Timer" parent="Alice"]
+wait_time = 10.0
+autostart = true
+
+[node name="sam" type="CharacterBody2D" parent="." groups=["npcs"]]
 z_index = 1
 position = Vector2(448, 279)
 
@@ -31715,7 +31718,7 @@ shape = SubResource("RectangleShape2D_me8ii")
 position = Vector2(-1, 0.5)
 shape = SubResource("RectangleShape2D_ek8yi")
 
-[node name="bob" type="CharacterBody2D" parent="."]
+[node name="bob" type="CharacterBody2D" parent="." groups=["npcs"]]
 z_index = 1
 y_sort_enabled = true
 position = Vector2(317, 136)
@@ -31743,7 +31746,7 @@ shape = SubResource("RectangleShape2D_5u45j")
 
 [node name="StateManager" type="Node" parent="."]
 
-[node name="BarCounter" type="StaticBody2D" parent="."]
+[node name="Bar" type="StaticBody2D" parent="."]
 position = Vector2(318, 185)
 
 [node name="LiquorShelf" type="StaticBody2D" parent="."]
@@ -31869,4 +31872,5 @@ tile_map_data = PackedByteArray("AAApAAcAAgBgADIAAAApAAgAAgBgAC8AAAApAAkAAgBgADA
 tile_set = SubResource("TileSet_7q6y5")
 navigation_enabled = false
 
-[connection signal="timeout" from="Alice/Timer" to="Alice" method="_on_timer_timeout"]
+[connection signal="timeout" from="Alice/PathFindingTimer" to="Alice" method="_on_path_finding_timer_timeout"]
+[connection signal="timeout" from="Alice/DicisionTimer" to="Alice" method="_on_dicision_timer_timeout"]

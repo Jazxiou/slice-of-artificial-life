@@ -44,9 +44,7 @@ class DialogueServer:
         self.cache_dirty = {}
         self.load_all_memories()
         
-        # Load valid actions from decision config
-        self.current_level = "level_1"
-        self.valid_actions = self.decision_config[self.current_level]["valid_actions"]
+        # No more levels, just direct config
         
     def canonicalize_npc_name(self, name: str) -> str:
         """Prevent NPC memory mixing by standardizing names"""
@@ -100,22 +98,20 @@ class DialogueServer:
             logger.error(f"Decision config not found at {config_path}, using defaults")
             # Return minimal default config
             return {
-                "level_1": {
-                    "valid_actions": ["idle", "walk", "serve", "chat", "clean"],
-                    "system_prompts": {
-                        "strict": "You are a decision bot. Reply with EXACTLY one word from the list. No explanations. No punctuation."
-                    },
-                    "npc_prompts": {
-                        "default": {
-                            "template": "You are {npc}. Choose ONE action.\nOptions: {actions}\nContext: {context}\nReply with ONLY the action word:"
-                        }
-                    },
-                    "generation_params": {
-                        "max_tokens": 10,
-                        "temperature": 0.3,
-                        "top_k": 10,
-                        "top_p": 0.5
+                "valid_actions": ["idle", "walk", "serve", "chat", "clean"],
+                "system_prompts": {
+                    "strict": "You are a decision bot. Reply with EXACTLY the format: action|target. No explanations. No spaces."
+                },
+                "npc_prompts": {
+                    "default": {
+                        "template": "You are {npc}. Choose an action and target.\nActions: {actions}\nTargets: {targets}\nContext: {context}\nReply ONLY with format: action|target"
                     }
+                },
+                "generation_params": {
+                    "max_tokens": 15,
+                    "temperature": 0.3,
+                    "top_k": 10,
+                    "top_p": 0.5
                 }
             }
     
@@ -229,8 +225,7 @@ class DialogueServer:
         
         if session_key not in self.decision_sessions:
             # Get system prompt from config
-            level_config = self.decision_config[self.current_level]
-            system_prompt = level_config["system_prompts"]["strict"]
+            system_prompt = self.decision_config["system_prompts"]["strict"]
             
             # Create new independent session
             session_context = self.model.chat_session(system_prompt=system_prompt)
@@ -242,7 +237,7 @@ class DialogueServer:
                 "system_prompt": system_prompt
             }
             
-            logger.info(f"Created decision session for {npc_name} with level {self.current_level}")
+            logger.info(f"Created decision session for {npc_name}")
         
         return self.decision_sessions[session_key]["session"]
     
@@ -307,16 +302,13 @@ class DialogueServer:
         logger.info(f"[DECISION] {npc_name}: '{log_entry['raw_response']}' -> {log_entry['processed_action']} (valid: {log_entry['valid']})")
     
     def make_simple_decision(self, npc_name: str, context: str) -> Dict:
-        """Level 2: Action with target decision"""
-        
-        # Force to level 2
-        self.current_level = "level_2"
+        """Action with target decision"""
         
         # Get independent decision session
         session = self.get_or_create_decision_session(npc_name)
         
-        # Get config for level 2
-        level_config = self.decision_config["level_2"]
+        # Get config (no more levels, just direct config)
+        level_config = self.decision_config
         
         # Get NPC-specific targets
         npc_targets = level_config.get("npc_specific_targets", {})
@@ -599,15 +591,14 @@ class DialogueServer:
                         npc_name = self.canonicalize_npc_name(data.get("npc", "Bob"))
                         context = data.get("context", "")
                         
-                        logger.info(f"[DECISION REQUEST L2] {npc_name}: {context}")
+                        logger.info(f"[DECISION REQUEST] {npc_name}: {context}")
                         
-                        # Make Level 2 decision
+                        # Make decision
                         result = self.make_simple_decision(npc_name, context)
                         
-                        # Send Level 2 response
+                        # Send response
                         await websocket.send(json.dumps({
                             "type": "decision_result",
-                            "level": 2,
                             "action": result["action"],
                             "target": result.get("target", "self"),
                             "npc": npc_name,
@@ -726,8 +717,9 @@ class DialogueServer:
         print(f"Model: {self.config['model_file']}")
         print(f"Device: {self.config['device'].upper()}")
         print(f"WebSocket Port: {port}")
-        print(f"Decision Level: 1 (Single Word)")
-        print(f"Valid Actions: {', '.join(self.valid_actions)}")
+        print(f"Decision Format: action|target")
+        if "valid_actions" in self.decision_config:
+            print(f"Valid Actions: {', '.join(self.decision_config['valid_actions'])}")
         print("="*60)
         print("Waiting for connections...")
         print("Message types: 'dialogue' (default) or 'decision'\n")
