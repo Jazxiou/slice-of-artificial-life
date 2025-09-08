@@ -307,13 +307,23 @@ class DialogueServer:
         logger.info(f"[DECISION] {npc_name}: '{log_entry['raw_response']}' -> {log_entry['processed_action']} (valid: {log_entry['valid']})")
     
     def make_simple_decision(self, npc_name: str, context: str) -> Dict:
-        """Level 1: Single word decision with detailed logging"""
+        """Level 2: Action with target decision"""
+        
+        # Force to level 2
+        self.current_level = "level_2"
         
         # Get independent decision session
         session = self.get_or_create_decision_session(npc_name)
         
-        # Get config for current level
-        level_config = self.decision_config[self.current_level]
+        # Get config for level 2
+        level_config = self.decision_config["level_2"]
+        
+        # Get NPC-specific targets
+        npc_targets = level_config.get("npc_specific_targets", {})
+        if npc_name in npc_targets:
+            valid_targets = npc_targets[npc_name]
+        else:
+            valid_targets = npc_targets.get("default", ["bar", "table", "player"])
         
         # Get NPC-specific actions
         npc_actions = level_config.get("npc_specific_actions", {})
@@ -322,28 +332,36 @@ class DialogueServer:
         else:
             valid_actions = npc_actions.get("default", level_config["valid_actions"])
         
-        # Get NPC-specific prompt template or use default
+        # Get NPC-specific prompt template
         npc_prompts = level_config["npc_prompts"]
         if npc_name in npc_prompts:
             prompt_template = npc_prompts[npc_name]["template"]
+            examples = npc_prompts[npc_name].get("examples", "")
         else:
             prompt_template = npc_prompts["default"]["template"]
+            examples = ""
         
-        # Build prompt from template
+        # Build prompt
         actions_str = ", ".join(valid_actions)
+        targets_str = ", ".join(valid_targets)
         prompt = prompt_template.format(
             npc=npc_name,
             actions=actions_str,
+            targets=targets_str,
             context=context
         )
         
-        # Get generation parameters from config
+        # Add examples if available
+        if examples:
+            prompt = f"{prompt}\n{examples}"
+        
+        # Get generation parameters
         gen_params = level_config["generation_params"]
         
         # Record start time
         start_time = time.time()
         
-        # Generate response (no streaming for decisions)
+        # Generate response
         raw_response = session.generate(
             prompt,
             max_tokens=gen_params["max_tokens"],
@@ -355,8 +373,8 @@ class DialogueServer:
         
         elapsed_time = time.time() - start_time
         
-        # Process output
-        processed_action = self.process_decision_output(raw_response, valid_actions)
+        # Process Level 2 output
+        processed_result = self.process_level2_output(raw_response, valid_actions, valid_targets, level_config)
         
         # Create detailed log
         decision_log = {
@@ -366,21 +384,202 @@ class DialogueServer:
             "context": context,
             "prompt": prompt,
             "raw_response": raw_response,
-            "processed_action": processed_action,
+            "processed_action": processed_result["action"],
+            "processed_target": processed_result["target"],
             "response_time": elapsed_time,
-            "valid": processed_action in valid_actions,
-            "valid_actions": valid_actions,  # Log what actions were available
-            "level": 1  # Decision complexity level
+            "valid": processed_result["valid"],
+            "valid_actions": valid_actions,
+            "valid_targets": valid_targets,
+            "level": 2
         }
         
         # Save log
         self.save_decision_log(npc_name, decision_log)
         
         return {
-            "action": processed_action,
+            "action": processed_result["action"],
+            "target": processed_result["target"],
             "raw": raw_response,
-            "time": elapsed_time
+            "time": elapsed_time,
+            "valid": processed_result["valid"]
         }
+    
+    def make_level2_decision(self, npc_name: str, context: str) -> Dict:
+        """Level 2: Action with target decision"""
+        
+        # Switch to level 2 temporarily
+        previous_level = self.current_level
+        self.current_level = "level_2"
+        
+        # Get independent decision session
+        session = self.get_or_create_decision_session(npc_name)
+        
+        # Get config for level 2
+        level_config = self.decision_config["level_2"]
+        
+        # Get NPC-specific targets
+        npc_targets = level_config.get("npc_specific_targets", {})
+        if npc_name in npc_targets:
+            valid_targets = npc_targets[npc_name]
+        else:
+            valid_targets = npc_targets.get("default", ["bar", "table", "player"])
+        
+        # Get valid actions (could be NPC-specific later)
+        valid_actions = level_config["valid_actions"]
+        
+        # Get NPC-specific prompt template
+        npc_prompts = level_config["npc_prompts"]
+        if npc_name in npc_prompts:
+            prompt_template = npc_prompts[npc_name]["template"]
+            examples = npc_prompts[npc_name].get("examples", "")
+        else:
+            prompt_template = npc_prompts["default"]["template"]
+            examples = ""
+        
+        # Build prompt
+        actions_str = ", ".join(valid_actions)
+        targets_str = ", ".join(valid_targets)
+        prompt = prompt_template.format(
+            npc=npc_name,
+            actions=actions_str,
+            targets=targets_str,
+            context=context
+        )
+        
+        # Add examples if available
+        if examples:
+            prompt = f"{prompt}\n{examples}"
+        
+        # Get generation parameters
+        gen_params = level_config["generation_params"]
+        
+        # Record start time
+        start_time = time.time()
+        
+        # Generate response
+        raw_response = session.generate(
+            prompt,
+            max_tokens=gen_params["max_tokens"],
+            temp=gen_params["temperature"],
+            top_k=gen_params["top_k"],
+            top_p=gen_params["top_p"],
+            streaming=False
+        )
+        
+        elapsed_time = time.time() - start_time
+        
+        # Process Level 2 output
+        processed_result = self.process_level2_output(raw_response, valid_actions, valid_targets, level_config)
+        
+        # Create detailed log
+        decision_log = {
+            "timestamp": time.time(),
+            "datetime": datetime.now().isoformat(),
+            "npc": npc_name,
+            "context": context,
+            "prompt": prompt,
+            "raw_response": raw_response,
+            "processed_action": processed_result["action"],
+            "processed_target": processed_result["target"],
+            "response_time": elapsed_time,
+            "valid": processed_result["valid"],
+            "valid_actions": valid_actions,
+            "valid_targets": valid_targets,
+            "level": 2
+        }
+        
+        # Save log
+        self.save_decision_log(npc_name, decision_log)
+        
+        # Restore level
+        self.current_level = previous_level
+        
+        return {
+            "action": processed_result["action"],
+            "target": processed_result["target"],
+            "raw": raw_response,
+            "time": elapsed_time,
+            "valid": processed_result["valid"]
+        }
+    
+    def process_level2_output(self, raw_response: str, valid_actions: List[str], valid_targets: List[str], level_config: Dict) -> Dict:
+        """Process Level 2 output (action|target format)"""
+        
+        # Clean the output
+        clean = raw_response.strip().lower()
+        
+        # Get separator
+        separator = level_config.get("separator", "|")
+        
+        # Default result
+        result = {
+            "action": "idle",
+            "target": "self",
+            "valid": False
+        }
+        
+        # Try to split by separator
+        if separator in clean:
+            parts = clean.split(separator)
+            if len(parts) >= 2:
+                action_part = parts[0].strip()
+                target_part = parts[1].strip()
+                
+                # Remove punctuation
+                action_part = action_part.translate(str.maketrans('', '', string.punctuation))
+                target_part = target_part.translate(str.maketrans('', '', string.punctuation))
+                
+                # Process action
+                action_mappings = level_config.get("action_mappings", {})
+                if action_part in valid_actions:
+                    result["action"] = action_part
+                elif action_part in action_mappings and action_mappings[action_part] in valid_actions:
+                    result["action"] = action_mappings[action_part]
+                    logger.info(f"Mapped action '{action_part}' to '{result['action']}'")
+                
+                # Process target (case-insensitive check for names)
+                target_mappings = level_config.get("target_mappings", {})
+                
+                # First check exact match
+                if target_part in valid_targets:
+                    result["target"] = target_part
+                # Then check case-insensitive match for proper names
+                elif target_part.capitalize() in valid_targets:
+                    result["target"] = target_part.capitalize()
+                    logger.info(f"Capitalized target '{target_part}' to '{result['target']}'")
+                # Check mappings
+                elif target_part in target_mappings and target_mappings[target_part] in valid_targets:
+                    result["target"] = target_mappings[target_part]
+                    logger.info(f"Mapped target '{target_part}' to '{result['target']}'")
+                
+                # Check if both are valid
+                if result["action"] != "idle" and result["target"] != "self":
+                    result["valid"] = True
+        else:
+            # Fallback: try to extract first word as action
+            words = clean.split()
+            if words:
+                first_word = words[0].translate(str.maketrans('', '', string.punctuation))
+                action_mappings = level_config.get("action_mappings", {})
+                
+                if first_word in valid_actions:
+                    result["action"] = first_word
+                elif first_word in action_mappings and action_mappings[first_word] in valid_actions:
+                    result["action"] = action_mappings[first_word]
+                
+                # Try to find a target in remaining words
+                if len(words) > 1:
+                    for word in words[1:]:
+                        word_clean = word.translate(str.maketrans('', '', string.punctuation))
+                        if word_clean in valid_targets:
+                            result["target"] = word_clean
+                            result["valid"] = (result["action"] != "idle")
+                            break
+        
+        if not result["valid"]:
+            logger.warning(f"Invalid Level 2 output: '{raw_response}' -> {result['action']}|{result['target']}")
+        
+        return result
     
     async def handle_websocket(self, websocket):
         """Handle WebSocket connections from Godot"""
@@ -400,16 +599,19 @@ class DialogueServer:
                         npc_name = self.canonicalize_npc_name(data.get("npc", "Bob"))
                         context = data.get("context", "")
                         
-                        logger.info(f"[DECISION REQUEST] {npc_name}: {context}")
+                        logger.info(f"[DECISION REQUEST L2] {npc_name}: {context}")
                         
-                        # Make decision
+                        # Make Level 2 decision
                         result = self.make_simple_decision(npc_name, context)
                         
-                        # Send response
+                        # Send Level 2 response
                         await websocket.send(json.dumps({
                             "type": "decision_result",
+                            "level": 2,
                             "action": result["action"],
+                            "target": result.get("target", "self"),
                             "npc": npc_name,
+                            "valid": result.get("valid", False),
                             "debug": {
                                 "raw": result["raw"],
                                 "time": result["time"]
