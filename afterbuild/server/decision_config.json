@@ -1,0 +1,114 @@
+{
+  "level_1": {
+    "name": "Single Word Actions",
+    "description": "Basic action selection without parameters",
+    
+    "valid_actions": ["idle", "walk", "serve", "chat", "clean"],
+    
+    "npc_specific_actions": {
+      "Bob": ["idle", "walk", "serve", "chat", "clean"],
+      "Alice": ["idle", "walk", "chat", "think", "observe"],
+      "Sam": ["idle", "walk", "chat", "play", "rest"],
+      "default": ["idle", "walk", "chat"]
+    },
+    
+    "action_mappings": {
+      "watch": "observe",
+      "look": "observe",
+      "see": "observe",
+      "view": "observe",
+      "gaze": "observe",
+      "listen": "observe",
+      "hear": "observe",
+      "wait": "idle",
+      "stand": "idle",
+      "pause": "idle",
+      "leave": "idle",
+      "exit": "idle",
+      "quit": "idle",
+      "stop": "idle",
+      "greet": "chat",
+      "talk": "chat",
+      "speak": "chat",
+      "converse": "chat",
+      "answer": "chat",
+      "respond": "chat",
+      "reply": "chat",
+      "ask": "chat",
+      "write": "think",
+      "read": "think",
+      "ponder": "think",
+      "consider": "think",
+      "reflect": "think",
+      "perform": "play",
+      "music": "play",
+      "sing": "play",
+      "tune": "play",
+      "relax": "rest",
+      "sleep": "rest",
+      "nap": "rest",
+      "wipe": "clean",
+      "wash": "clean",
+      "tidy": "clean",
+      "move": "walk",
+      "go": "walk",
+      "approach": "walk",
+      "sign": "chat",
+      "accept": "chat",
+      "decline": "idle",
+      "refuse": "idle",
+      "adjust": "idle",
+      "fix": "idle",
+      "none": "idle"
+    },
+    
+    "system_prompts": {
+      "strict": "You are a decision bot. Reply with EXACTLY one word from the list. No explanations. No punctuation.",
+      "simple": "Choose one action word only.",
+      "focused": "Select the most appropriate action. Reply with just the action word."
+    },
+    
+    "npc_prompts": {
+      "Bob": {
+        "template": "You are Bob the bartender. Choose ONE action.\nOptions: {actions}\nContext: {context}\nReply with ONLY the action word:",
+        "personality_hint": "Bob is professional and customer-focused"
+      },
+      "Alice": {
+        "template": "You are Alice, a thoughtful regular. Choose ONE action.\nOptions: {actions}\nContext: {context}\nReply with ONLY the action word:",
+        "personality_hint": "Alice is contemplative and observant"
+      },
+      "Sam": {
+        "template": "You are Sam the musician. Choose ONE action.\nOptions: {actions}\nContext: {context}\nReply with ONLY the action word:",
+        "personality_hint": "Sam is energetic and social"
+      },
+      "default": {
+        "template": "You are {npc}. Choose ONE action.\nOptions: {actions}\nContext: {context}\nReply with ONLY the action word:",
+        "personality_hint": ""
+      }
+    },
+    
+    "generation_params": {
+      "max_tokens": 10,
+      "temperature": 0.3,
+      "top_k": 10,
+      "top_p": 0.5,
+      "repeat_penalty": 1.0
+    }
+  },
+  
+  "level_2": {
+    "name": "Action with Target",
+    "description": "Action selection with target specification",
+    "valid_actions": ["walk", "chat", "serve", "clean", "play", "rest"],
+    "valid_targets": ["bar", "stage", "table", "player", "Bob", "Alice", "Sam", "door"],
+    "separator": "|",
+    "template": "Choose action and target. Format: action|target"
+  },
+  
+  "level_3": {
+    "name": "Action Sequences",
+    "description": "Planning multiple actions in sequence",
+    "max_sequence_length": 3,
+    "template": "Plan your next actions. Format: action1|target1->action2|target2"
+  }
+}

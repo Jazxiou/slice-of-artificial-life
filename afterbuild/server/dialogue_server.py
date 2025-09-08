@@ -2,6 +2,7 @@
 """
 Dialogue Server - Direct WebSocket server for NPC dialogue system
 Handles all dialogue functionality in a single process
+Now with Level 1 decision making system
 """
 
 import json
@@ -9,8 +10,10 @@ import logging
 import asyncio
 import websockets
 import time
+import string
 from pathlib import Path
-from typing import Dict, Optional
+from typing import Dict, Optional, List
+from datetime import datetime
 from gpt4all import GPT4All
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
@@ -20,20 +23,30 @@ logger = logging.getLogger(__name__)
 class DialogueServer:
     """Single server handling all dialogue functionality"""
     
-    def __init__(self, config_path: str = "config.json"):
+    def __init__(self, config_path: str = "config.json", decision_config_path: str = "decision_config.json"):
         """Initialize with configuration"""
         self.config = self.load_config(config_path)
+        self.decision_config = self.load_decision_config(decision_config_path)
         self.model = None
         self.npc_sessions = {}  # Store chat sessions for each NPC
+        self.decision_sessions = {}  # Store decision sessions (separate from dialogue)
         
         # Memory directory
         self.memory_dir = Path("../npc_memories")
         self.memory_dir.mkdir(exist_ok=True)
         
+        # Decision log directory
+        self.decision_log_dir = Path("../decision_logs")
+        self.decision_log_dir.mkdir(exist_ok=True)
+        
         # Memory cache for faster access
         self.memory_cache = {}
         self.cache_dirty = {}
         self.load_all_memories()
+        
+        # Load valid actions from decision config
+        self.current_level = "level_1"
+        self.valid_actions = self.decision_config[self.current_level]["valid_actions"]
         
     def canonicalize_npc_name(self, name: str) -> str:
         """Prevent NPC memory mixing by standardizing names"""
@@ -74,6 +87,37 @@ class DialogueServer:
                 json.dump(default_config, f, indent=2)
             logger.info(f"Created default config at {config_path}")
             return default_config
+    
+    def load_decision_config(self, config_path: str) -> dict:
+        """Load decision configuration from JSON file"""
+        config_file = Path(config_path)
+        if config_file.exists():
+            with open(config_file, 'r') as f:
+                decision_config = json.load(f)
+                logger.info(f"Loaded decision config from {config_path}")
+                return decision_config
+        else:
+            logger.error(f"Decision config not found at {config_path}, using defaults")
+            # Return minimal default config
+            return {
+                "level_1": {
+                    "valid_actions": ["idle", "walk", "serve", "chat", "clean"],
+                    "system_prompts": {
+                        "strict": "You are a decision bot. Reply with EXACTLY one word from the list. No explanations. No punctuation."
+                    },
+                    "npc_prompts": {
+                        "default": {
+                            "template": "You are {npc}. Choose ONE action.\nOptions: {actions}\nContext: {context}\nReply with ONLY the action word:"
+                        }
+                    },
+                    "generation_params": {
+                        "max_tokens": 10,
+                        "temperature": 0.3,
+                        "top_k": 10,
+                        "top_p": 0.5
+                    }
+                }
+            }
     
     def load_all_memories(self):
         """Load all NPC memories into cache at startup"""
@@ -179,6 +223,165 @@ class DialogueServer:
         
         return self.npc_sessions[npc_name]
     
+    def get_or_create_decision_session(self, npc_name: str):
+        """Get or create a decision-only session (separate from dialogue)"""
+        session_key = f"{npc_name}_decision"
+        
+        if session_key not in self.decision_sessions:
+            # Get system prompt from config
+            level_config = self.decision_config[self.current_level]
+            system_prompt = level_config["system_prompts"]["strict"]
+            
+            # Create new independent session
+            session_context = self.model.chat_session(system_prompt=system_prompt)
+            session = session_context.__enter__()
+            
+            self.decision_sessions[session_key] = {
+                "session": session,
+                "session_context": session_context,
+                "system_prompt": system_prompt
+            }
+            
+            logger.info(f"Created decision session for {npc_name} with level {self.current_level}")
+        
+        return self.decision_sessions[session_key]["session"]
+    
+    def process_decision_output(self, raw_response: str, valid_actions: List[str]) -> str:
+        """Process LLM output to extract valid action"""
+        # Clean the output
+        clean = raw_response.strip().lower()
+        
+        # Take only the first word
+        first_word = clean.split()[0] if clean else "idle"
+        
+        # Remove punctuation
+        first_word = first_word.translate(str.maketrans('', '', string.punctuation))
+        
+        # Check if valid for this NPC
+        if first_word in valid_actions:
+            return first_word
+        
+        # Check action mappings from config
+        level_config = self.decision_config.get(self.current_level, {})
+        action_mappings = level_config.get("action_mappings", {})
+        
+        if first_word in action_mappings:
+            mapped_action = action_mappings[first_word]
+            if mapped_action in valid_actions:
+                logger.info(f"Mapped '{first_word}' to '{mapped_action}'")
+                return mapped_action
+        
+        # Try fuzzy matching
+        for action in valid_actions:
+            if action in first_word or first_word in action:
+                logger.info(f"Fuzzy matched '{first_word}' to '{action}'")
+                return action
+        
+        # Default fallback
+        logger.warning(f"Invalid action '{raw_response}' -> defaulting to 'idle'")
+        return "idle"
+    
+    def save_decision_log(self, npc_name: str, log_entry: Dict):
+        """Save decision log for debugging"""
+        # Organize logs by date
+        today = datetime.now().strftime("%Y-%m-%d")
+        log_file = self.decision_log_dir / f"{npc_name}_{today}.json"
+        
+        # Load existing logs
+        logs = []
+        if log_file.exists():
+            try:
+                with open(log_file, 'r') as f:
+                    logs = json.load(f)
+            except:
+                logs = []
+        
+        # Append new log
+        logs.append(log_entry)
+        
+        # Save
+        with open(log_file, 'w') as f:
+            json.dump(logs, f, indent=2, ensure_ascii=False)
+        
+        # Console output for real-time debugging
+        logger.info(f"[DECISION] {npc_name}: '{log_entry['raw_response']}' -> {log_entry['processed_action']} (valid: {log_entry['valid']})")
+    
+    def make_simple_decision(self, npc_name: str, context: str) -> Dict:
+        """Level 1: Single word decision with detailed logging"""
+        
+        # Get independent decision session
+        session = self.get_or_create_decision_session(npc_name)
+        
+        # Get config for current level
+        level_config = self.decision_config[self.current_level]
+        
+        # Get NPC-specific actions
+        npc_actions = level_config.get("npc_specific_actions", {})
+        if npc_name in npc_actions:
+            valid_actions = npc_actions[npc_name]
+        else:
+            valid_actions = npc_actions.get("default", level_config["valid_actions"])
+        
+        # Get NPC-specific prompt template or use default
+        npc_prompts = level_config["npc_prompts"]
+        if npc_name in npc_prompts:
+            prompt_template = npc_prompts[npc_name]["template"]
+        else:
+            prompt_template = npc_prompts["default"]["template"]
+        
+        # Build prompt from template
+        actions_str = ", ".join(valid_actions)
+        prompt = prompt_template.format(
+            npc=npc_name,
+            actions=actions_str,
+            context=context
+        )
+        
+        # Get generation parameters from config
+        gen_params = level_config["generation_params"]
+        
+        # Record start time
+        start_time = time.time()
+        
+        # Generate response (no streaming for decisions)
+        raw_response = session.generate(
+            prompt,
+            max_tokens=gen_params["max_tokens"],
+            temp=gen_params["temperature"],
+            top_k=gen_params["top_k"],
+            top_p=gen_params["top_p"],
+            streaming=False
+        )
+        
+        elapsed_time = time.time() - start_time
+        
+        # Process output
+        processed_action = self.process_decision_output(raw_response, valid_actions)
+        
+        # Create detailed log
+        decision_log = {
+            "timestamp": time.time(),
+            "datetime": datetime.now().isoformat(),
+            "npc": npc_name,
+            "context": context,
+            "prompt": prompt,
+            "raw_response": raw_response,
+            "processed_action": processed_action,
+            "response_time": elapsed_time,
+            "valid": processed_action in valid_actions,
+            "valid_actions": valid_actions,  # Log what actions were available
+            "level": 1  # Decision complexity level
+        }
+        
+        # Save log
+        self.save_decision_log(npc_name, decision_log)
+        
+        return {
+            "action": processed_action,
+            "raw": raw_response,
+            "time": elapsed_time
+        }
+    
     async def handle_websocket(self, websocket):
         """Handle WebSocket connections from Godot"""
         logger.info("WebSocket client connected")
@@ -188,6 +391,33 @@ class DialogueServer:
                 try:
                     # Parse message
                     data = json.loads(message)
+                    
+                    # Check message type
+                    message_type = data.get("type", "dialogue")
+                    
+                    # Handle decision requests
+                    if message_type == "decision":
+                        npc_name = self.canonicalize_npc_name(data.get("npc", "Bob"))
+                        context = data.get("context", "")
+                        
+                        logger.info(f"[DECISION REQUEST] {npc_name}: {context}")
+                        
+                        # Make decision
+                        result = self.make_simple_decision(npc_name, context)
+                        
+                        # Send response
+                        await websocket.send(json.dumps({
+                            "type": "decision_result",
+                            "action": result["action"],
+                            "npc": npc_name,
+                            "debug": {
+                                "raw": result["raw"],
+                                "time": result["time"]
+                            }
+                        }))
+                        continue
+                    
+                    # Handle dialogue requests (existing code)
                     npc_name = data.get("npc", "")
                     user_message = data.get("message", "")
                     
@@ -267,9 +497,19 @@ class DialogueServer:
                 session_context = npc_data.get("session_context")
                 if session_context:
                     session_context.__exit__(None, None, None)
-                logger.info(f"Closed session for {npc_name}")
+                logger.info(f"Closed dialogue session for {npc_name}")
             except Exception as e:
-                logger.error(f"Error closing session for {npc_name}: {e}")
+                logger.error(f"Error closing dialogue session for {npc_name}: {e}")
+        
+        # Close all decision sessions
+        for session_key, session_data in self.decision_sessions.items():
+            try:
+                session_context = session_data.get("session_context")
+                if session_context:
+                    session_context.__exit__(None, None, None)
+                logger.info(f"Closed decision session for {session_key}")
+            except Exception as e:
+                logger.error(f"Error closing decision session for {session_key}: {e}")
     
     async def start_server(self):
         """Start WebSocket server"""
@@ -279,13 +519,16 @@ class DialogueServer:
         port = self.config.get("websocket_port", 9999)
         
         print("\n" + "="*60)
-        print("DIALOGUE SERVER")
+        print("DIALOGUE & DECISION SERVER")
         print("="*60)
         print(f"Model: {self.config['model_file']}")
         print(f"Device: {self.config['device'].upper()}")
         print(f"WebSocket Port: {port}")
+        print(f"Decision Level: 1 (Single Word)")
+        print(f"Valid Actions: {', '.join(self.valid_actions)}")
         print("="*60)
-        print("Waiting for connections...\n")
+        print("Waiting for connections...")
+        print("Message types: 'dialogue' (default) or 'decision'\n")
         
         async with websockets.serve(self.handle_websocket, "127.0.0.1", port):
             await asyncio.Future()  # Run forever
