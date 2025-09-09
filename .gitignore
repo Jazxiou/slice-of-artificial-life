@@ -100,3 +100,56 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+#new
+.venv/
+*.pyc
+__pycache__/
+.pytest_cache/
+models/gpt4all/
+.claude/
+CLAUDE.local.md
+CLAUDE.md
+codex.tar.gz
+llms/
+nul
+.flake8
+memory_cache/
+
+# Debug and session files
+debug_system/*.json
+debug_system/*_session.json
+debug_system/*_traces.json
+
+# Temporary files
+*.tmp
+*.temp
+*_backup
+*_old
+
+# AI service logs
+ai_service.log
+ai_bridge.log
+
+# Removed optimizer files (now integrated into existing modules)
+memory_optimizer.py
+network_optimizer.py
+performance_optimizer.py
+demo_performance_suite.py
+
+# Config files
+ai_service/config.py
+Modelfile.qwen3
+ai_config.json
+
+# Old documentation
+README_OLD.md
+*GUIDE_OLD.md
+*REFERENCE_OLD.md
+
+# Session data and temporary monitoring files
+session_data.json
+.last_save
+parser_metrics.json
+temp_data/
+logs/
