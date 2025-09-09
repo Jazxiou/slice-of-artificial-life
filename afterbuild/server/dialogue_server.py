@@ -302,12 +302,13 @@ class DialogueServer:
         logger.info(f"[DECISION] {npc_name}: '{log_entry['raw_response']}' -> {log_entry['processed_action']} (valid: {log_entry['valid']})")
     
     def make_simple_decision(self, npc_name: str, context: str) -> Dict:
-        """Action with target decision"""
+        """Action with target decision (stateless)"""
         
-        # Get independent decision session
-        session = self.get_or_create_decision_session(npc_name)
+        # Create fresh session for each decision (stateless)
+        system_prompt = self.decision_config.get("system_prompts", {}).get("strict", 
+            "You are a decision bot. Reply with EXACTLY the format: action|target. No explanations. No spaces.")
         
-        # Get config (no more levels, just direct config)
+        # Get config directly from decision_config
         level_config = self.decision_config
         
         # Get NPC-specific targets
@@ -353,20 +354,22 @@ class DialogueServer:
         # Record start time
         start_time = time.time()
         
-        # Generate response
-        raw_response = session.generate(
-            prompt,
-            max_tokens=gen_params["max_tokens"],
-            temp=gen_params["temperature"],
-            top_k=gen_params["top_k"],
-            top_p=gen_params["top_p"],
-            streaming=False
-        )
+        # Generate response using stateless chat session
+        # Each request creates a new session context
+        with self.model.chat_session(system_prompt=system_prompt) as session:
+            raw_response = session.generate(
+                prompt,
+                max_tokens=gen_params["max_tokens"],
+                temp=gen_params["temperature"],
+                top_k=gen_params["top_k"],
+                top_p=gen_params["top_p"],
+                streaming=False
+            )
         
         elapsed_time = time.time() - start_time
         
-        # Process Level 2 output
-        processed_result = self.process_level2_output(raw_response, valid_actions, valid_targets, level_config)
+        # Process output
+        processed_result = self.process_decision_output_with_target(raw_response, valid_actions, valid_targets, level_config)
         
         # Create detailed log
         decision_log = {
@@ -381,8 +384,7 @@ class DialogueServer:
             "response_time": elapsed_time,
             "valid": processed_result["valid"],
             "valid_actions": valid_actions,
-            "valid_targets": valid_targets,
-            "level": 2
+            "valid_targets": valid_targets
         }
         
         # Save log
@@ -396,106 +398,8 @@ class DialogueServer:
             "valid": processed_result["valid"]
         }
     
-    def make_level2_decision(self, npc_name: str, context: str) -> Dict:
-        """Level 2: Action with target decision"""
-        
-        # Switch to level 2 temporarily
-        previous_level = self.current_level
-        self.current_level = "level_2"
-        
-        # Get independent decision session
-        session = self.get_or_create_decision_session(npc_name)
-        
-        # Get config for level 2
-        level_config = self.decision_config["level_2"]
-        
-        # Get NPC-specific targets
-        npc_targets = level_config.get("npc_specific_targets", {})
-        if npc_name in npc_targets:
-            valid_targets = npc_targets[npc_name]
-        else:
-            valid_targets = npc_targets.get("default", ["bar", "table", "player"])
-        
-        # Get valid actions (could be NPC-specific later)
-        valid_actions = level_config["valid_actions"]
-        
-        # Get NPC-specific prompt template
-        npc_prompts = level_config["npc_prompts"]
-        if npc_name in npc_prompts:
-            prompt_template = npc_prompts[npc_name]["template"]
-            examples = npc_prompts[npc_name].get("examples", "")
-        else:
-            prompt_template = npc_prompts["default"]["template"]
-            examples = ""
-        
-        # Build prompt
-        actions_str = ", ".join(valid_actions)
-        targets_str = ", ".join(valid_targets)
-        prompt = prompt_template.format(
-            npc=npc_name,
-            actions=actions_str,
-            targets=targets_str,
-            context=context
-        )
-        
-        # Add examples if available
-        if examples:
-            prompt = f"{prompt}\n{examples}"
-        
-        # Get generation parameters
-        gen_params = level_config["generation_params"]
-        
-        # Record start time
-        start_time = time.time()
-        
-        # Generate response
-        raw_response = session.generate(
-            prompt,
-            max_tokens=gen_params["max_tokens"],
-            temp=gen_params["temperature"],
-            top_k=gen_params["top_k"],
-            top_p=gen_params["top_p"],
-            streaming=False
-        )
-        
-        elapsed_time = time.time() - start_time
-        
-        # Process Level 2 output
-        processed_result = self.process_level2_output(raw_response, valid_actions, valid_targets, level_config)
-        
-        # Create detailed log
-        decision_log = {
-            "timestamp": time.time(),
-            "datetime": datetime.now().isoformat(),
-            "npc": npc_name,
-            "context": context,
-            "prompt": prompt,
-            "raw_response": raw_response,
-            "processed_action": processed_result["action"],
-            "processed_target": processed_result["target"],
-            "response_time": elapsed_time,
-            "valid": processed_result["valid"],
-            "valid_actions": valid_actions,
-            "valid_targets": valid_targets,
-            "level": 2
-        }
-        
-        # Save log
-        self.save_decision_log(npc_name, decision_log)
-        
-        # Restore level
-        self.current_level = previous_level
-        
-        return {
-            "action": processed_result["action"],
-            "target": processed_result["target"],
-            "raw": raw_response,
-            "time": elapsed_time,
-            "valid": processed_result["valid"]
-        }
-    
-    def process_level2_output(self, raw_response: str, valid_actions: List[str], valid_targets: List[str], level_config: Dict) -> Dict:
-        """Process Level 2 output (action|target format)"""
+    def process_decision_output_with_target(self, raw_response: str, valid_actions: List[str], valid_targets: List[str], level_config: Dict) -> Dict:
+        """Process decision output (action|target format)"""
         
         # Clean the output
         clean = raw_response.strip().lower()
@@ -624,6 +528,8 @@ class DialogueServer:
                     npc_name = self.canonicalize_npc_name(npc_name)
                     logger.info(f"[{npc_name}] Received: {user_message}")
                     
+                    # Alice can have both decision and dialogue modes
+                    # Dialogue sessions are separate from decision sessions
                     # Get session
                     npc_data = self.get_or_create_session(npc_name)
                     session = npc_data["session"]
