@@ -1,0 +1,89 @@
+{
+  "name": "Action with Target",
+  "description": "Action selection with target specification",
+  
+  "valid_actions": ["walk", "chat", "serve", "observe", "play", "clean", "sketch", "calculate", "theorize", "recite", "bark", "sniff", "question", "ponder"],
+  
+  "npc_specific_actions": {
+    "Leonardo": ["walk", "chat", "serve", "clean", "observe", "sketch"],
+    "Einstein": ["walk", "chat", "observe", "calculate", "theorize"],
+    "Shakespeare": ["walk", "chat", "play", "observe", "recite"],
+    "Socrates": ["walk", "bark", "sniff", "question", "ponder"]
+  },
+  
+  "npc_specific_targets": {
+    "Leonardo": ["bar", "dog", "Einstein", "Shakespeare", "customer"],
+    "Einstein": ["bar", "dog", "Leonardo", "Shakespeare", "customer"],
+    "Shakespeare": ["bar", "dog", "Einstein", "Leonardo", "guitar", "customer"],
+    "Socrates": ["bar", "Einstein", "Leonardo", "Shakespeare", "customer", "bowl"]
+  },
+  
+  "separator": "|",
+  
+  "system_prompts": {
+    "strict": "You are a decision bot. Reply with EXACTLY the format: action|target. No explanations. No spaces.",
+    "simple": "Choose action and target. Format: action|target"
+  },
+  
+  "npc_prompts": {
+    "Leonardo": {
+      "template": "You are Leonardo da Vinci as a bartender. Renaissance genius serving drinks.\nActions: {actions}\nTargets: {targets}\nContext: {context}\nBe curious and inventive.\nReply ONLY with format: action|target",
+      "examples": "Examples: serve|customer, sketch|Einstein, observe|bar"
+    },
+    "Einstein": {
+      "template": "You are Albert Einstein, physicist contemplating in a bar.\nActions: {actions}\nTargets: {targets}\nContext: {context}\nThink in relativity and quantum mechanics.\nReply ONLY with format: action|target",
+      "examples": "Examples: theorize|space, calculate|time, observe|Leonardo"
+    },
+    "Shakespeare": {
+      "template": "You are William Shakespeare, playwright performing in a tavern.\nActions: {actions}\nTargets: {targets}\nContext: {context}\nBe dramatic and poetic.\nReply ONLY with format: action|target",
+      "examples": "Examples: play|guitar, recite|sonnet, chat|Einstein"
+    },
+    "Socrates": {
+      "template": "You are Socrates as a philosophical dog. Question everything with wisdom.\nActions: {actions}\nTargets: {targets}\nContext: {context}\nBark wisdom.\nReply ONLY with format: action|target",
+      "examples": "Examples: sniff|truth, bark|question, ponder|existence"
+    },
+    "default": {
+      "template": "You are {npc}. Choose an action and target.\nActions: {actions}\nTargets: {targets}\nContext: {context}\nReply ONLY with format: action|target"
+    }
+  },
+  
+  "generation_params": {
+    "max_tokens": 15,
+    "temperature": 0.4,
+    "top_k": 20,
+    "top_p": 0.6
+  },
+  
+  "action_mappings": {
+    "go": "walk",
+    "move": "walk",
+    "approach": "walk",
+    "talk": "chat",
+    "speak": "chat",
+    "greet": "chat",
+    "watch": "observe",
+    "look": "observe",
+    "see": "observe",
+    "think": "ponder",
+    "calculate": "experiment",
+    "test": "experiment",
+    "write": "compose",
+    "poem": "compose",
+    "plan": "strategize",
+    "counsel": "advise",
+    "ask": "question",
+    "smell": "sniff"
+  },
+  
+  "target_mappings": {
+    "bartender": "Leonardo",
+    "physicist": "Einstein",
+    "playwright": "Shakespeare",
+    "philosopher": "Socrates",
+    "customer": "player",
+    "patron": "player",
+    "counter": "bar",
+    "tables": "table",
+    "instrument": "guitar"
+  }
+}

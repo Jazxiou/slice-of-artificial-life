@@ -1,0 +1,147 @@
+# AI Service Configuration
+# This file defines all configuration for the AI service
+
+version: "2.1.0"
+
+# Dual Model Configuration
+dual_model:
+  # Ultra-fast response model (for greetings and quick responses)
+  ultra_fast_model: "qwen3-1.7b"
+  ultra_fast_model_path: "Qwen/Qwen3-1.7B"  # HuggingFace model ID
+  
+  # Standard model (for normal dialogue and reasoning)
+  standard_model: "qwen3-4b"
+  standard_model_path: "Qwen/Qwen3-4B"  # HuggingFace model ID
+  
+  # Task type mapping to models
+  task_mapping:
+    greeting: "ultra_fast"      # Greetings and farewells
+    quick: "ultra_fast"          # Quick facts and responses
+    simple_query: "ultra_fast"   # Simple questions
+    reactive: "ultra_fast"       # Quick responses
+    dialogue: "standard"         # Normal conversation
+    reasoning: "standard"        # Complex reasoning  
+    planning: "standard"         # Planning tasks
+    reflection: "standard"       # Memory and reflection
+  
+  # Performance targets
+  performance_targets:
+    ultra_fast_model_ms: 500    # Target: <0.5 seconds
+    standard_model_ms: 2000     # Target: <2 seconds
+
+# Model Configuration (backward compatibility)
+model:
+  # Active model selection: auto, qwen, or specific model name
+  active_model: "dual"  # Use dual model strategy
+  
+  # Directory containing GGUF model files
+  models_dir: "models/llms"
+  
+  # Supported models mapping (using HuggingFace model IDs)
+  supported_models:
+    qwen3-1.7b: "Qwen/Qwen3-1.7B"
+    qwen3-4b: "Qwen/Qwen3-4B"
+  
+  # Enable automatic model detection
+  auto_detect: true
+  
+  # Generation parameters
+  max_tokens: 200
+  temperature: 0.1
+  top_p: 0.9
+  repeat_penalty: 1.1
+  max_retries: 3
+  n_ctx: 16384          # Increased context window
+  n_ctx_per_seq: 16384  # Per-sequence context limit
+  n_batch: 512          # Batch size for processing
+  n_threads: 4          # CPU threads for inference
+  n_gpu_layers: 0       # GPU layers (0 for CPU-only)
+  
+  # Memory and performance optimizations
+  use_mlock: false      # Don't lock memory to prevent swapping
+  use_mmap: true        # Use memory mapping for better efficiency
+  low_vram: true        # Enable low VRAM mode
+  f16_kv: true          # Use half precision for key-value cache
+  
+  # Fallback chain for model failures
+  fallback_chain:
+    - "qwen3"
+    - "qwen"
+    - "simple"
+  enable_fallback: true
+  
+  # Performance settings
+  force_cpu: false
+  preload_models: true
+  model_cache_size: 2
+
+# Embedding Configuration
+embedding:
+  # Model path: auto or specific path
+  model_path: "auto"
+  model_name: "all-MiniLM-L6-v2"
+  embedding_dim: 384
+  normalize: true
+  batch_size: 32
+  
+  # Cache settings
+  enable_cache: true
+  cache_max_size: 10000
+  cache_ttl: 3600
+  
+  # Performance settings
+  device: "auto"  # auto, cpu, cuda
+  preload_warmup: true
+  warmup_samples: 100
+  
+  # Concurrency settings
+  max_concurrent_requests: 10
+  request_timeout: 30.0
+
+# Monitoring Configuration
+monitoring:
+  enable_monitoring: true
+  enable_health_check: true
+  health_check_interval: 60
+  
+  # Performance tracking
+  track_inference_time: true
+  track_memory_usage: true
+  track_error_rate: true
+  
+  # Logging
+  log_level: "INFO"
+  log_file: "ai_service.log"
+  log_rotation: "daily"
+  log_max_size_mb: 100
+  
+  # Metrics export
+  export_metrics: true
+  metrics_export_interval: 300
+  metrics_export_path: "metrics/"
+
+# Service Configuration  
+service:
+  host: "127.0.0.1"
+  port: 8055
+  enable_cors: true
+  cors_origins:
+    - "*"
+  
+  # API settings
+  api_prefix: "/api/v1"
+  enable_docs: true
+  docs_url: "/docs"
+  
+  # Security settings
+  enable_auth: false
+  api_key: null
+  rate_limit: 100  # requests per minute
+
+# Metadata
+metadata:
+  description: "Enhanced AI Service for Godot integration"
+  author: "AI Service Team"
+  contact: "support@example.com"
+
+
