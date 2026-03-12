@@ -167,16 +167,17 @@ def generate_task_decomp(persona, task, duration):
 def generate_action_sector(act_desp, persona, maze): 
   """TODO 
   Given the persona and the task description, choose the action_sector. 
-
+  
   Persona state: identity stable set, n-1 day schedule, daily plan
-
+  
   INPUT: 
     act_desp: description of the new action (e.g., "sleeping")
     persona: The Persona class instance 
+    maze: The Maze instance containing the environment layout
   OUTPUT: 
-    action_arena (e.g., "bedroom 2")
+    action_sector (e.g., "double studio")
   EXAMPLE OUTPUT: 
-    "bedroom 2"
+    "double studio"
   """
   if debug: print ("GNS FUNCTION: <generate_action_sector>")
   return run_gpt_prompt_action_sector(act_desp, persona, maze)[0]
