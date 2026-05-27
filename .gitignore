@@ -95,6 +95,20 @@ celerybeat-schedule
 venv/
 ENV/
 
+# Local virtual environments
+.venv/
+.venv39/
+
+# Generated simulation outputs in this repository layout
+environment/frontend_server/storage/ollama_n3_smoketest/
+environment/frontend_server/storage/ollama_n3_smoketest_v2/
+environment/frontend_server/storage/ollama_n3_smoketest_v3_run1/
+environment/frontend_server/storage/ollama_n3_smoketest_v3_run5/
+environment/frontend_server/storage/ollama_n3_smoketest_v4_postfix/
+
+# Temporary run artifacts
+environment/frontend_server/temp_storage/curr_step.json
+
 # Spyder project settings
 .spyderproject
 
