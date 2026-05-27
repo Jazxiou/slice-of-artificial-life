@@ -34,6 +34,7 @@ from global_methods import *
 from utils import *
 from maze import *
 from persona.persona import *
+from persona.prompt_template.gpt_structure import get_embedding
 
 ##############################################################################
 #                                  REVERIE                                   #
@@ -152,6 +153,99 @@ class ReverieServer:
     curr_step["step"] = self.step
     with open(f"{fs_temp_storage}/curr_step.json", "w") as outfile: 
       outfile.write(json.dumps(curr_step, indent=2))
+
+    # Optional experiment mode for attribution-bias studies.
+    self.jw_experiment_enabled = (os.getenv("JW_EXPERIMENT", "0") == "1")
+    self.jw_rewardee = os.getenv("JW_REWARDEE", "Isabella Rodriguez")
+    self.jw_punished = os.getenv("JW_PUNISHED", "Maria Lopez")
+    self.jw_observer = os.getenv("JW_OBSERVER", "Klaus Mueller")
+
+
+  def _safe_embedding_pair(self, persona, text):
+    """Return a robust embedding pair for memory insertion."""
+    try:
+      return (text, get_embedding(text))
+    except:
+      # Fallback to any existing embedding key/vector from this persona.
+      if persona.a_mem.embeddings:
+        key = next(iter(persona.a_mem.embeddings.keys()))
+        return (key, persona.a_mem.embeddings[key])
+      # Last resort: a tiny constant vector to avoid hard crash.
+      return (text, [0.0])
+
+
+  def _inject_just_world_events(self, descriptions):
+    """Inject arbitrary reward/punishment events for experiment conditions."""
+    if not self.jw_experiment_enabled:
+      return
+
+    required = [self.jw_rewardee, self.jw_punished]
+    if any(name not in self.personas for name in required):
+      return
+
+    rewardee = self.personas[self.jw_rewardee]
+    punished = self.personas[self.jw_punished]
+
+    # Use observed action descriptions to ensure both agents are compared on
+    # the same action context in the memory narrative.
+    shared_context = "a similar task"
+    if self.jw_rewardee in descriptions and self.jw_punished in descriptions:
+      shared_context = (
+        f"the same task context ({descriptions[self.jw_rewardee]} / "
+        f"{descriptions[self.jw_punished]})"
+      )
+
+    reward_desc = (
+      f"{self.jw_rewardee} received major praise and a bonus for {shared_context}"
+    )
+    punish_desc = (
+      f"{self.jw_punished} received criticism and no reward for {shared_context}"
+    )
+
+    for persona, desc in [(rewardee, reward_desc), (punished, punish_desc)]:
+      created = self.curr_time
+      expiration = self.curr_time + datetime.timedelta(days=7)
+      s = persona.scratch.name
+      p = "receives"
+      o = "evaluation"
+      keywords = {"evaluation", "reward", "penalty", "performance"}
+      poignancy = 9
+      embedding_pair = self._safe_embedding_pair(persona, desc)
+      persona.a_mem.add_event(
+        created,
+        expiration,
+        s,
+        p,
+        o,
+        desc,
+        keywords,
+        poignancy,
+        embedding_pair,
+        filling=None,
+      )
+
+    if self.jw_observer in self.personas:
+      observer = self.personas[self.jw_observer]
+      observer_desc = (
+        f"{self.jw_observer} observed {self.jw_rewardee} being rewarded while "
+        f"{self.jw_punished} was punished for comparable effort"
+      )
+      created = self.curr_time
+      expiration = self.curr_time + datetime.timedelta(days=7)
+      keywords = {"observation", "reward", "penalty", "comparison"}
+      embedding_pair = self._safe_embedding_pair(observer, observer_desc)
+      observer.a_mem.add_event(
+        created,
+        expiration,
+        observer.scratch.name,
+        "observes",
+        "social outcome",
+        observer_desc,
+        keywords,
+        9,
+        embedding_pair,
+        filling=None,
+      )
 
 
   def save(self): 
@@ -370,6 +464,7 @@ class ReverieServer:
           # This is where the core brains of the personas are invoked. 
           movements = {"persona": dict(), 
                        "meta": dict()}
+          action_descriptions = {}
           for persona_name, persona in self.personas.items(): 
             # <next_tile> is a x,y coordinate. e.g., (58, 9)
             # <pronunciatio> is an emoji. e.g., "\ud83d\udca4"
@@ -385,6 +480,11 @@ class ReverieServer:
             movements["persona"][persona_name]["description"] = description
             movements["persona"][persona_name]["chat"] = (persona
                                                           .scratch.chat)
+            action_descriptions[persona_name] = description
+
+          # Inject arbitrary outcomes after equivalent behavior to test
+          # attribution effects during later reflection.
+          self._inject_just_world_events(action_descriptions)
 
           # Include the meta information about the current stage in the 
           # movements dictionary. 
