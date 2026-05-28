@@ -104,3 +104,26 @@
 - Diagnosis: piping all CLI inputs in one shot is not reliable for longer runs in this environment, even though it worked for the shorter `run 1` verification.
 - Follow-up: interactive line-by-line launches (`jw_control_run20_b`, `jw_treatment_run20_b`) successfully entered live generation work (`generate_wake_up_hour`, schedule/task decomposition traces), which indicates the control path is running and the earlier `step: 0` issue is input-delivery related rather than a newly introduced runtime crash.
 - Remaining work: let the interactive `run 20` pair finish, then compare downstream reflection/associative-memory content for attribution differences beyond the treatment injection itself.
+
+## Headless Long-Run A/B Verification (May 28, 2026)
+- Implemented a non-interactive CLI path in `reverie.py`:
+	- `--origin`, `--target`, `--run-steps`, `--offline-auto-advance`, `--save-and-exit`
+	- Added offline environment auto-advance (synthesizes `environment/{step}.json` from movement outputs) to support multi-step backend-only execution without frontend coordination.
+- Fixed a long-run crash in `perceive.py` where local-model poignancy calls could return `None`:
+	- Added safe fallback parsing in `generate_poig_score` (defaults to score 5 on invalid output).
+- Fresh long runs completed successfully:
+	- Control: `jw_control_run20_d`
+	- Treatment: `jw_treatment_run20_d`
+	- Both persisted at `step: 20` with matching `curr_time: February 13, 2023, 00:03:20`.
+- A/B evidence in persisted memory:
+	- Treatment contains repeated just-world injections across steps:
+		- Isabella "received major praise and a bonus..."
+		- Maria "received criticism and no reward..."
+		- Klaus observer event about rewarded Isabella vs punished Maria.
+	- Control contains none of these injection strings.
+	- Keyword-strength contrast for Klaus (`kw_strength_event`):
+		- Treatment: `reward: 20`, `penalty: 20`, `comparison: 20`, `observation: 20`
+		- Control: no reward/penalty/comparison/observation keyword accumulation.
+- Interpretation:
+	- Treatment manipulation now survives and accumulates over a 20-step run, while control remains free of the injected social-outcome traces.
+	- This confirms stable long-run manipulation persistence suitable for downstream attribution-analysis experiments.

@@ -27,6 +27,7 @@ import math
 import os
 import shutil
 import traceback
+import argparse
 
 from selenium import webdriver
 
@@ -370,7 +371,21 @@ class ReverieServer:
       time.sleep(self.server_sleep * 10)
 
 
-  def start_server(self, int_counter): 
+  def _write_next_environment_from_movements(self, base_env, movements):
+    """Create the next environment file from backend movement outputs."""
+    next_env = json.loads(json.dumps(base_env))
+    for persona_name, movement in movements["persona"].items():
+      if persona_name in next_env:
+        next_env[persona_name]["x"] = movement["movement"][0]
+        next_env[persona_name]["y"] = movement["movement"][1]
+
+    next_env_file = f"{fs_storage}/{self.sim_code}/environment/{self.step}.json"
+    os.makedirs(os.path.dirname(next_env_file), exist_ok=True)
+    with open(next_env_file, "w") as outfile:
+      outfile.write(json.dumps(next_env, indent=2))
+
+
+  def start_server(self, int_counter, offline_auto_advance=False): 
     """
     The main backend server of Reverie. 
     This function retrieves the environment file from the frontend to 
@@ -508,6 +523,11 @@ class ReverieServer:
           self.curr_time += datetime.timedelta(seconds=self.sec_per_step)
 
           int_counter -= 1
+
+          # In headless/offline mode there is no frontend to produce the next
+          # environment file, so synthesize it from the planned movements.
+          if offline_auto_advance and int_counter > 0:
+            self._write_next_environment_from_movements(new_env, movements)
           
       # Sleep so we don't burn our machines. 
       time.sleep(self.server_sleep)
@@ -706,11 +726,34 @@ if __name__ == '__main__':
   #                    "July1_the_ville_isabella_maria_klaus-step-3-21")
   # rs.open_server()
 
-  origin = input("Enter the name of the forked simulation: ").strip()
-  target = input("Enter the name of the new simulation: ").strip()
+  parser = argparse.ArgumentParser(description="Run Reverie simulation server")
+  parser.add_argument("--origin", type=str,
+                      help="forked simulation code")
+  parser.add_argument("--target", type=str,
+                      help="new simulation code")
+  parser.add_argument("--run-steps", type=int, default=None,
+                      help="number of steps to run non-interactively")
+  parser.add_argument("--offline-auto-advance", action="store_true",
+                      help="generate next environment files from movements")
+  parser.add_argument("--save-and-exit", action="store_true",
+                      help="save and exit after non-interactive run")
+  args = parser.parse_args()
 
-  rs = ReverieServer(origin, target)
-  rs.open_server()
+  if args.origin and args.target:
+    rs = ReverieServer(args.origin.strip(), args.target.strip())
+    if args.run_steps is not None:
+      rs.start_server(args.run_steps,
+                      offline_auto_advance=args.offline_auto_advance)
+      if args.save_and_exit:
+        rs.save()
+    else:
+      rs.open_server()
+  else:
+    origin = input("Enter the name of the forked simulation: ").strip()
+    target = input("Enter the name of the new simulation: ").strip()
+
+    rs = ReverieServer(origin, target)
+    rs.open_server()
 
 
 
