@@ -78,3 +78,29 @@
 - Tune model choice and prompt adherence for completion-style calls (likely try gemma4:latest or gpt-oss:20b).
 - Add stricter output post-processing in GPT_request for legacy prompt chains that expect short fragments.
 - Re-run the 3-agent smoke test (run 1-5) and validate that activity strings are coherent and not meta-commentary.
+
+## A/B Stability Unblock and Verification (May 27, 2026)
+- Applied additional runtime hardening after follow-on crashes during A/B runs:
+	- Hardened task decomposition cleanup in `run_gpt_prompt.py` to parse noisy numbering/duration tokens from local model output.
+	- Added save guards in `scratch.py` for missing `curr_time`/`act_start_time` during early-step persistence.
+	- Added movement output directory creation in `reverie.py` before writing movement step files.
+- Re-ran paired simulations after fixes:
+	- Control: `jw_control_run1_c`
+	- Treatment: `jw_treatment_run1_c` with `JW_EXPERIMENT=1`, `JW_REWARDEE=Isabella Rodriguez`, `JW_PUNISHED=Maria Lopez`, `JW_OBSERVER=Klaus Mueller`
+- Persistence check:
+	- Both control and treatment now save cleanly with `step: 1` in `reverie/meta.json`.
+- Injection check:
+	- Treatment contains injected just-world event traces in associative memory files:
+		- Isabella: "received major praise and a bonus ..."
+		- Maria: "received criticism and no reward ..."
+		- Klaus observer event: "observed Isabella Rodriguez being rewarded while Maria Lopez was punished for comparable effort"
+	- Control has no matching reward/penalty observer injection strings.
+- Conclusion:
+	- A/B setup now executes to a persisted state and treatment-only manipulation is confirmed present in stored memory artifacts.
+	- Next step for effect testing is multi-step runs (e.g., run 20-50) and attribution-content comparison across reflections/thought traces.
+
+## Longer-Run Execution Note (May 28, 2026)
+- Initial non-interactive `run 20` attempts (`jw_control_run20_a`, `jw_treatment_run20_a`) created bootstrap artifacts but remained at `step: 0`.
+- Diagnosis: piping all CLI inputs in one shot is not reliable for longer runs in this environment, even though it worked for the shorter `run 1` verification.
+- Follow-up: interactive line-by-line launches (`jw_control_run20_b`, `jw_treatment_run20_b`) successfully entered live generation work (`generate_wake_up_hour`, schedule/task decomposition traces), which indicates the control path is running and the earlier `step: 0` issue is input-delivery related rather than a newly introduced runtime crash.
+- Remaining work: let the interactive `run 20` pair finish, then compare downstream reflection/associative-memory content for attribution differences beyond the treatment injection itself.

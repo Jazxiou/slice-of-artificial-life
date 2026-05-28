@@ -361,25 +361,41 @@ def run_gpt_prompt_task_decomp(persona,
     print (gpt_response)
     print ("-==- -==- -==- ")
 
-    # TODO SOMETHING HERE sometimes fails... See screenshot
-    temp = [i.strip() for i in gpt_response.split("\n")]
-    _cr = []
+    temp = [i.strip() for i in gpt_response.split("\n") if i.strip()]
     cr = []
-    for count, i in enumerate(temp): 
-      if count != 0: 
-        _cr += [" ".join([j.strip () for j in i.split(" ")][3:])]
-      else: 
-        _cr += [i]
-    for count, i in enumerate(_cr): 
-      k = [j.strip() for j in i.split("(duration in minutes:")]
-      task = k[0]
-      if task[-1] == ".": 
-        task = task[:-1]
-      duration = int(k[1].split(",")[0].strip())
-      cr += [[task, duration]]
+    for i in temp:
+      # Remove list numbering such as "1)", "2.", or "3 -".
+      row = re.sub(r"^\s*\d+\s*[\)\.\-:]\s*", "", i)
+
+      # Primary parse path for expected output format.
+      duration_match = re.search(r"duration in minutes\s*:\s*(\d+)", row)
+      task = row
+      duration = None
+
+      if duration_match:
+        duration = int(duration_match.group(1))
+        task = row.split("(duration in minutes")[0].strip()
+      else:
+        # Fallback parse for variants such as "(5)" or "5 minutes".
+        generic_match = re.search(r"\((\d+)\)?", row)
+        if not generic_match:
+          generic_match = re.search(r"(\d+)\s*minutes", row)
+        if generic_match:
+          duration = int(generic_match.group(1))
+          task = row.split("(")[0].strip()
+
+      if not duration or duration <= 0:
+        continue
+
+      task = task.rstrip(" .:-")
+      if task:
+        cr += [[task, duration]]
 
     total_expected_min = int(prompt.split("(total duration in minutes")[-1]
                                    .split("):")[0].strip())
+
+    if not cr:
+      return [["asleep", total_expected_min]]
     
     # TODO -- now, you need to make sure that this is the same as the sum of 
     #         the current action sequence. 
@@ -395,7 +411,7 @@ def run_gpt_prompt_task_decomp(persona,
     curr_min_slot = curr_min_slot[1:]   
 
     if len(curr_min_slot) > total_expected_min: 
-      last_task = curr_min_slot[60]
+      last_task = curr_min_slot[total_expected_min - 1]
       for i in range(1, 6): 
         curr_min_slot[-1 * i] = last_task
     elif len(curr_min_slot) < total_expected_min: 
