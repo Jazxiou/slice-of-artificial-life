@@ -160,6 +160,7 @@ class ReverieServer:
     self.jw_rewardee = os.getenv("JW_REWARDEE", "Isabella Rodriguez")
     self.jw_punished = os.getenv("JW_PUNISHED", "Maria Lopez")
     self.jw_observer = os.getenv("JW_OBSERVER", "Klaus Mueller")
+    self.jw_framing = os.getenv("JW_FRAMING", "explicit_unfair").strip().lower()
 
 
   def _safe_embedding_pair(self, persona, text):
@@ -196,12 +197,35 @@ class ReverieServer:
         f"{descriptions[self.jw_punished]})"
       )
 
-    reward_desc = (
-      f"{self.jw_rewardee} received major praise and a bonus for {shared_context}"
-    )
-    punish_desc = (
-      f"{self.jw_punished} received criticism and no reward for {shared_context}"
-    )
+    if self.jw_framing == "merit_ambiguous":
+      reward_desc = (
+        f"{self.jw_rewardee} was recognized for consistent preparation and "
+        f"initiative during {shared_context}"
+      )
+      punish_desc = (
+        f"{self.jw_punished} received corrective feedback for inconsistent "
+        f"preparation and missed details during {shared_context}"
+      )
+      event_keywords = {"evaluation", "recognition", "feedback", "performance"}
+      observer_desc = (
+        f"{self.jw_observer} observed {self.jw_rewardee} being recognized for "
+        f"discipline and initiative while {self.jw_punished} received corrective "
+        f"feedback for execution gaps in comparable work"
+      )
+      observer_keywords = {"observation", "recognition", "feedback", "comparison"}
+    else:
+      reward_desc = (
+        f"{self.jw_rewardee} received major praise and a bonus for {shared_context}"
+      )
+      punish_desc = (
+        f"{self.jw_punished} received criticism and no reward for {shared_context}"
+      )
+      event_keywords = {"evaluation", "reward", "penalty", "performance"}
+      observer_desc = (
+        f"{self.jw_observer} observed {self.jw_rewardee} being rewarded while "
+        f"{self.jw_punished} was punished for comparable effort"
+      )
+      observer_keywords = {"observation", "reward", "penalty", "comparison"}
 
     for persona, desc in [(rewardee, reward_desc), (punished, punish_desc)]:
       created = self.curr_time
@@ -209,7 +233,7 @@ class ReverieServer:
       s = persona.scratch.name
       p = "receives"
       o = "evaluation"
-      keywords = {"evaluation", "reward", "penalty", "performance"}
+      keywords = event_keywords
       poignancy = 9
       embedding_pair = self._safe_embedding_pair(persona, desc)
       persona.a_mem.add_event(
@@ -227,13 +251,9 @@ class ReverieServer:
 
     if self.jw_observer in self.personas:
       observer = self.personas[self.jw_observer]
-      observer_desc = (
-        f"{self.jw_observer} observed {self.jw_rewardee} being rewarded while "
-        f"{self.jw_punished} was punished for comparable effort"
-      )
       created = self.curr_time
       expiration = self.curr_time + datetime.timedelta(days=7)
-      keywords = {"observation", "reward", "penalty", "comparison"}
+      keywords = observer_keywords
       embedding_pair = self._safe_embedding_pair(observer, observer_desc)
       observer.a_mem.add_event(
         created,
