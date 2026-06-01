@@ -5,6 +5,13 @@ Date: May 28, 2026
 ## Objective
 Verify a just-world-fallacy A/B setup in Generative Agents using local Ollama models, and confirm that treatment-only social outcome manipulation persists in saved artifacts.
 
+## Current Setting
+- Base simulation: Smallville / Generative Agents local runtime.
+- Experimental control: `JW_EXPERIMENT=1` with observer-targeted event injection.
+- Current framing mode: `JW_FRAMING=merit_ambiguous`.
+- Current semantic direction: social-outcome events emphasize recognition, discipline, initiative, and corrective feedback rather than explicit unfairness language.
+- Current status: merit-framing run100 completed and was committed with its artifacts.
+
 ## Final Status
 - Completed: local runtime stabilization and long-run A/B execution.
 - Completed: persisted control/treatment pair at 20 steps.
@@ -88,3 +95,19 @@ The experiment infrastructure is now stable enough for long-run offline A/B exec
 1. Compare reflection/thought text for causal-attribution language shifts.
 2. Run multiple seeds/replicates and compute simple frequency metrics (e.g., blame/merit terms per run).
 3. Add a small evaluator script to produce repeatable treatment-vs-control summary tables.
+4. Run the prompt/event ablation matrix below to separate natural model behavior from our injected structure.
+
+## Suggested Options
+To distinguish natural LLM behavior from our changes, the cleanest follow-up is a 2x2 ablation:
+
+| Option | Event Injection | Attribution-Oriented Prompts | What It Tells Us |
+| --- | --- | --- | --- |
+| 1 | Off | Off | Baseline Smallville behavior with no experiment steering. |
+| 2 | Off | On | Pure prompt effect without injected social-outcome framing. |
+| 3 | On | Off | Pure event-injection effect with ordinary prompts. |
+| 4 | On | On | Current setup: combined effect of injection plus attribution prompts. |
+
+Recommended interpretation rule:
+- If option 2 changes thoughts substantially, the prompt is doing most of the work.
+- If option 3 changes thoughts substantially, the injected events are doing most of the work.
+- If option 4 is much stronger than either 2 or 3 alone, there is an interaction between prompting and memory injection.
