@@ -99,4 +99,11 @@ ENV/
 .spyderproject
 
 # Rope project settings
-.ropeproject
+.ropeprojecttraces/
+!traces/.gitkeep
+
+# Traces
+traces/
+
+# Temporary
+environment/frontend_server/storage
