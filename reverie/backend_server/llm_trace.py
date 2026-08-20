@@ -29,10 +29,19 @@ How to run:
 """
 
 import atexit
+import gzip
 import hashlib
 import json
 import os
 import threading
+
+
+def _open_trace(path, mode):
+    """Open a trace even if compressed."""
+    if str(path).endswith(".gz"):
+        return gzip.open(path, mode + "t", encoding="utf-8", compresslevel=6)
+    return open(path, mode, encoding="utf-8")
+
 
 MODE = os.environ.get("LLM_TRACE", "off").lower()
 TRACE_FILE = os.environ.get("LLM_TRACE_FILE", "traces/run.jsonl")
@@ -82,7 +91,7 @@ class _Recorder:
         folder = os.path.dirname(os.path.abspath(path))
         if folder:
             os.makedirs(folder, exist_ok=True)
-        open(self.path, "w").close()  # start a fresh file for each run
+        _open_trace(self.path, "w").close()  # start a fresh file for each run
         self.calls = 0
         self.seconds = 0.0
         self.failures = 0
@@ -92,7 +101,7 @@ class _Recorder:
         self.step_seconds = 0.0
 
     def _write(self, record):
-        with _lock, open(self.path, "a", encoding="utf-8") as f:
+        with _lock, _open_trace(self.path, "a") as f:
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
     def llm(self, prompt, response, seconds, model, params):
@@ -185,7 +194,7 @@ class _Replayer:
         self.by_template = {}
         self.cursor = {}
         self.embeddings = {}
-        with open(path, "r", encoding="utf-8") as f:
+        with _open_trace(path, "r") as f:
             for line in f:
                 line = line.strip()
                 if not line:

@@ -17,12 +17,15 @@ Usage:
 
 import argparse
 import collections
+import gzip
 import json
 
 
 def load(path):
+    """Read a trace, can also handle the gzipped form"""
     records = []
-    with open(path, "r", encoding="utf-8") as f:
+    opener = (lambda: gzip.open(path, "rt", encoding="utf-8")) if str(path).endswith(".gz") else (lambda: open(path, "r", encoding="utf-8"))
+    with opener() as f:
         for line in f:
             line = line.strip()
             if line:

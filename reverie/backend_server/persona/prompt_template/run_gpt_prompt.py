@@ -179,8 +179,17 @@ def run_gpt_prompt_wake_up_hour(persona, test_input=None, verbose=False):
         return prompt_input
 
     def __func_clean_up(gpt_response, prompt=""):
-        cr = int(gpt_response.strip().lower().split("am")[0])
-        return cr
+        # Was int(everything before "am"). For example that would work
+        # for "6am" but fails on "6:00 am". Fixed.
+        match = re.search(r"(\d{1,2})", gpt_response)
+        if not match:
+            raise ValueError(f"no hour in {gpt_response!r}")
+        hour = int(match.group(1))
+        if "pm" in gpt_response.lower() and hour < 12:
+            hour += 12
+        if not 0 <= hour <= 23:
+            raise ValueError(f"hour out of range in {gpt_response!r}")
+        return hour
 
     def __func_validate(gpt_response, prompt=""):
         try:
