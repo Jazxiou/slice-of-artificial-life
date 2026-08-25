@@ -57,3 +57,33 @@ debug = True
 # Steps between automatic checkpoints. One simulated day is 8640 steps,
 # so this saves at every midnight. Set to 0 to disable.
 autosave_every = 8640
+
+# === Decay and Retention ===
+# Lives in `reverie/backend_server/memory_ext/retention.py`. When flags
+# are False, the simulation will behave as the baseline.
+
+# Option 1. Score recency by elapsed simulated time since a memory was
+# recalled. Everything else here depends on this being on.
+recency_time_based = False
+
+# Option 1b. Read the saved access history back when a checkpoint is
+# loaded. If off then every checkpoint resets each memory's access time
+# to its creation time (baseline mechanic).
+recency_access_persisted = False
+
+# Option 1c. Let importance lengthen a memory's half-life.
+importance_coupled_decay = False
+
+# Option 1d. Each recall lengthens the half-life a little, with
+# diminishing returns and a cap. Needs `recency_access_persisted`.
+rehearsal_strengthening = False
+
+# Parameters
+recency_halflife_hours = 24.0
+decay_shape = "exponential"  # "exponential" or "power_law"
+power_law_exponent = 1.0  # used only when decay_shape == "power_law"
+importance_halflife_multiplier = 4.0  # half-life at importance 10 relative to
+# importance 1
+rehearsal_halflife_multiplier = 3.0  # maximum of the rehearsal bonus
+rehearsal_saturation = 8.0  # amount of recalls needed for half of that
+# bonus

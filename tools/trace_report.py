@@ -48,6 +48,14 @@ def main():
         print("No model calls in this trace.")
         return
 
+    # Which conditon produced a trace (if recorded).
+    header = next((r for r in records if r.get("type") == "run"), None)
+    summary = (header or {}).get("memory_config", {}).get("summary")
+    print(
+        f"CONDITION: {summary}" if summary
+        else "CONDITION: not recorded (trace predates the run header)"
+    )
+
     total_seconds = sum(r["seconds"] for r in calls)
     print(
         f"{len(calls)} model calls, {total_seconds / 60:.1f} minutes of model time ({total_seconds / 3600:.2f} hours)"

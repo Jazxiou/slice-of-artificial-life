@@ -99,6 +99,21 @@ class _Recorder:
         self.stages = {}
         self.steps = 0
         self.step_seconds = 0.0
+        self._write_header()
+
+    def _write_header(self):
+        """
+        For the first line of the trace list which conditions produced
+        it.
+        """
+        config = {}
+        try:
+            from memory_ext import retention
+
+            config = retention.config()
+        except Exception:
+            pass  # a trace can still be read without the header
+        self._write({"type": "run", "memory_config": config})
 
     def _write(self, record):
         with _lock, _open_trace(self.path, "a") as f:

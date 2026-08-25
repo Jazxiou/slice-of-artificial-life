@@ -14,6 +14,7 @@ import time
 
 import llm_trace
 from global_methods import *
+from memory_ext import retention
 from numpy import dot
 from numpy.linalg import norm
 from persona.prompt_template.gpt_structure import *
@@ -271,7 +272,10 @@ def _new_retrieve(persona, focal_points, n_count=30):
         nodes = [i for created, i in nodes]
 
         # Calculating the component dictionaries and normalizing them.
-        recency_out = extract_recency(persona, nodes)
+        if retention.enabled():
+            recency_out = retention.recency_scores(persona, nodes)
+        else:
+            recency_out = extract_recency(persona, nodes)
         recency_out = normalize_dict_floats(recency_out, 0, 1)
         importance_out = extract_importance(persona, nodes)
         importance_out = normalize_dict_floats(importance_out, 0, 1)
@@ -311,6 +315,7 @@ def _new_retrieve(persona, focal_points, n_count=30):
 
         for n in master_nodes:
             n.last_accessed = persona.scratch.curr_time
+            retention.note_retrieval(n)  # counts the recall
 
         retrieved[focal_pt] = master_nodes
 
