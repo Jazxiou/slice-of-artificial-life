@@ -95,6 +95,7 @@ class _Recorder:
         self.calls = 0
         self.seconds = 0.0
         self.failures = 0
+        self.cached = 0
         # Wall-clock
         self.stages = {}
         self.steps = 0
@@ -119,10 +120,12 @@ class _Recorder:
         with _lock, _open_trace(self.path, "a") as f:
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
-    def llm(self, prompt, response, seconds, model, params):
+    def llm(self, prompt, response, seconds, model, params, cached=False):
         self.calls += 1
         self.seconds += seconds
-        self._write({
+        if cached:
+            self.cached += 1
+        record = {
             "type": "llm",
             "template": current_template(),
             "key": _key(prompt),
@@ -131,7 +134,10 @@ class _Recorder:
             "seconds": round(seconds, 3),
             "prompt": prompt,
             "response": response,
-        })
+        }
+        if cached:
+            record["cached"] = True
+        self._write(record)
 
     def failure(self, prompt, exc, seconds, model, params):
         """Record failures (calls that were not answered)."""

@@ -94,16 +94,40 @@ def main():
     wasted = len(all_keys) - unique_keys
     print("REPEATED WORK")
     print(f"  {unique_keys} distinct questions were asked {len(all_keys)} times.")
+
+    served = [r for r in calls if r.get("cached")]
+    if served:
+        # What was saved in cache.
+        mean = {}
+        for name, t in by_template.items():
+            real = [r for r in calls if r.get("template") == name and not r.get("cached")]
+            mean[name] = (sum(r["seconds"] for r in real) / len(real)) if real else 0.0
+        saved = sum(mean.get(r.get("template"), 0.0) for r in served)
+        print(
+            f"  {len(served)} of those ({100*len(served)/len(all_keys):.0f}%) were answered from the "
+            f"in-run cache, at no cost."
+        )
+        print(
+            f"  That saved about {saved/60:.1f} minutes, or {100*saved/(total_seconds+saved):.0f}% of "
+            f"what the run would otherwise have spent."
+        )
     if wasted:
         repeat_seconds = sum(t["s"] * (1 - len(t["keys"]) / t["n"]) for t in by_template.values() if t["n"])
-        print(
-            f"  {wasted} calls ({100*wasted/len(all_keys):.0f}%) re-asked something already asked, "
-            f"costing about {repeat_seconds/60:.1f} minutes."
-        )
-        print(
-            f"  Caching answers by question would remove roughly "
-            f"{100*repeat_seconds/total_seconds:.0f}% of the run's model time."
-        )
+        still = wasted - len(served)
+        if served:
+            print(
+                f"  {still} repeats remain, costing about {repeat_seconds/60:.1f} minutes. These are the "
+                f"prompts sampled at a non-zero temperature, which are deliberately not cached."
+            )
+        else:
+            print(
+                f"  {wasted} calls ({100*wasted/len(all_keys):.0f}%) re-asked something already asked, "
+                f"costing about {repeat_seconds/60:.1f} minutes."
+            )
+            print(
+                f"  Caching answers by question would remove roughly "
+                f"{100*repeat_seconds/total_seconds:.0f}% of the run's model time."
+            )
     print()
 
     # === Question 3 ===

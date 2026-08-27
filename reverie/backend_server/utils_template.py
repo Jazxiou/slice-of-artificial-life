@@ -38,6 +38,21 @@ completion_style_system_prompt = (
     "Do not add greetings, explanations, preamble, commentary or markdown formatting."
 )
 
+# === Sampling ===
+# Prompts with a right answer (an importance rating, an emoji for an
+# action, a location from a list) run deterministically. Dialogue and
+# thoughts written about it are sampled, so conversation still differs.
+chat_deterministic_temperature = 0.0
+chat_varied_temperature = 0.8
+# A retry has to be allowed to differ (or it would be identical,
+# defeating the purpose).
+retry_temperature = 0.7
+
+# === Answer Cache ===
+# Remembers answers to temperature-zero questions for that run.
+answer_cache = True
+answer_cache_max = 50000
+
 # === Paths ===
 # Relative to reverie/backend_server/ so the simulation must be started
 # from that directory.

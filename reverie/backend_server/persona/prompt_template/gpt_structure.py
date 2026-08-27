@@ -54,6 +54,42 @@ COMPLETION_STYLE_SYSTEM_PROMPT = _cfg(
 )
 USE_COMPLETION_STYLE_SYSTEM_PROMPT = _cfg("use_completion_style_system_prompt", True)
 
+CHAT_VARIED_TEMPLATES = {
+    "v3_ChatGPT/iterative_convo_v1.txt",  # the dialogue itself
+    "v3_ChatGPT/agent_chat_v1.txt",  # a whole conversation
+    "v3_ChatGPT/memo_on_convo_v1.txt",  # what an agent privately thinks about a chat
+}
+CHAT_DETERMINISTIC_TEMPERATURE = _cfg("chat_deterministic_temperature", 0.0)
+CHAT_VARIED_TEMPERATURE = _cfg("chat_varied_temperature", 0.8)
+# Retries need to be allowed to differ (a temp of zero wouldnt allow
+# that). First attempt is deterministic and any attempt after is
+# sampled.
+RETRY_TEMPERATURE = _cfg("retry_temperature", 0.7)
+
+
+def chat_sampling(attempt=0):
+    """
+    Sampling parameters for the current prompt, chosen by which
+    template it came from and by whether this is a first attempt or a
+    retry.
+    """
+    if llm_trace.current_template() in CHAT_VARIED_TEMPLATES:
+        return {"temperature": CHAT_VARIED_TEMPERATURE, "top_p": 1}
+    temperature = CHAT_DETERMINISTIC_TEMPERATURE if attempt == 0 else RETRY_TEMPERATURE
+    return {"temperature": temperature, "top_p": 1}
+
+
+def retry_parameters(gpt_parameter):
+    """
+    Only prompts at temperature zero are touched.
+    """
+    if gpt_parameter.get("temperature"):
+        return gpt_parameter
+    escalated = dict(gpt_parameter)
+    escalated["temperature"] = RETRY_TEMPERATURE
+    return escalated
+
+
 _client = None
 _embedding_model = None
 
@@ -69,6 +105,28 @@ def get_client():
     return _client
 
 
+# === Answer Cache ===
+# Caching is restricted to calls made at temperature zero.
+ANSWER_CACHE = _cfg("answer_cache", True)
+ANSWER_CACHE_MAX = _cfg("answer_cache_max", 50000)
+_answer_cache = {}
+
+
+def answer_cache_size():
+    return len(_answer_cache)
+
+
+def forget_answer(prompt, model=None):
+    """
+    Drop a cached answer because the caller rejected it.
+
+    Without this, a first attempt that produced an unparseable reply
+    would keep being served from the cache every time that question
+    came around again.
+    """
+    _answer_cache.pop((model or LLM_MODEL, prompt), None)
+
+
 def _chat(prompt, model=None, **kwargs):
     """
     Every LLM call in the system goes through here for a
@@ -78,6 +136,15 @@ def _chat(prompt, model=None, **kwargs):
     # contacting anything.
     if llm_trace.is_replaying():
         return llm_trace.replayer.llm(prompt)
+
+    cache_key = None
+    if ANSWER_CACHE and kwargs.get("temperature") == 0:
+        cache_key = (model or LLM_MODEL, prompt)
+        if cache_key in _answer_cache:
+            cached = _answer_cache[cache_key]
+            if llm_trace.is_recording():
+                llm_trace.recorder.llm(prompt, cached, 0.0, model or LLM_MODEL, kwargs, cached=True)
+            return cached
 
     messages = []
     if USE_COMPLETION_STYLE_SYSTEM_PROMPT:
@@ -95,6 +162,10 @@ def _chat(prompt, model=None, **kwargs):
 
     content = completion.choices[0].message.content
     content = content if content is not None else ""
+
+    # Only successful answers are cached, and only up to a cap.
+    if cache_key is not None and len(_answer_cache) < ANSWER_CACHE_MAX:
+        _answer_cache[cache_key] = content
 
     if llm_trace.is_recording():
         llm_trace.recorder.llm(prompt, content, time.time() - started, model or LLM_MODEL, kwargs)
@@ -186,7 +257,7 @@ def GPT4_request(prompt):
         return "ChatGPT ERROR"
 
 
-def ChatGPT_request(prompt):
+def ChatGPT_request(prompt, attempt=0):
     """
     OLD:
     Given a prompt and a dictionary of GPT parameters, make a request to OpenAI
@@ -200,7 +271,7 @@ def ChatGPT_request(prompt):
       a str of GPT-3's response.
     """
     try:
-        return _chat(prompt)
+        return _chat(prompt, **chat_sampling(attempt))
     except Exception as exc:
         print(f"[LLM ERROR] ChatGPT_request: {type(exc).__name__}: {exc}")
         return "ChatGPT ERROR"
@@ -297,8 +368,10 @@ def ChatGPT_safe_generate_response(
         print(prompt)
 
     for i in range(repeat):
+        if i:
+            forget_answer(prompt)  # the previous answer was rejected
         try:
-            curr_gpt_response = ChatGPT_request(prompt).strip()
+            curr_gpt_response = ChatGPT_request(prompt, attempt=i).strip()
             if not reply_is_english(curr_gpt_response):
                 print("[language] reply contained non-Latin script; asking again")
                 continue
@@ -330,8 +403,10 @@ def ChatGPT_safe_generate_response_OLD(
         print(prompt)
 
     for i in range(repeat):
+        if i:
+            forget_answer(prompt)  # the previous answer was rejected
         try:
-            curr_gpt_response = ChatGPT_request(prompt).strip()
+            curr_gpt_response = ChatGPT_request(prompt, attempt=i).strip()
             if not reply_is_english(curr_gpt_response):
                 print("[language] reply contained non-Latin script; asking again")
                 continue
@@ -441,7 +516,10 @@ def safe_generate_response(
         print(prompt)
 
     for i in range(repeat):
-        curr_gpt_response = GPT_request(prompt, gpt_parameter)
+        if i:
+            forget_answer(prompt)  # the previous answer was rejected
+        # Retry by changing parameters to avoid identical replies.
+        curr_gpt_response = GPT_request(prompt, gpt_parameter if not i else retry_parameters(gpt_parameter))
         if not reply_is_english(curr_gpt_response):
             print("[language] reply contained non-Latin script; asking again")
             continue

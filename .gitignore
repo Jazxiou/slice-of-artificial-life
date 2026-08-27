@@ -99,8 +99,9 @@ ENV/
 .spyderproject
 
 # Rope project settings
-.ropeprojecttraces/
-!traces/.gitkeep
+.ropeproject
+
+results/
 
 # Traces
 traces/
