@@ -33,6 +33,7 @@ import llm_trace
 import numpy
 from global_methods import *
 from maze import *
+from memory_ext import persona as persona_ext
 from memory_ext import retention
 from persona.persona import *
 from utils import *
@@ -189,6 +190,7 @@ class ReverieServer:
         reverie_meta["step"] = self.step
         # Record which condition produced this save.
         reverie_meta["memory_config"] = retention.config()
+        reverie_meta["persona_config"] = persona_ext.config()
         reverie_meta_f = f"{sim_folder}/reverie/meta.json"
         with open(reverie_meta_f, "w") as outfile:
             outfile.write(json.dumps(reverie_meta, indent=2))
@@ -459,7 +461,8 @@ class ReverieServer:
         print("clarify that these agents lack human-like agency, consciousness,")
         print("and independent decision-making.\n---")
 
-        print(f"[condition] {retention.describe()}\n---")
+        print(f"[condition] {retention.describe()}")
+        print(f"[condition] {persona_ext.describe()}\n---")
 
         # <sim_folder> points to the current simulation folder.
         sim_folder = f"{fs_storage}/{self.sim_code}"
@@ -639,6 +642,7 @@ if __name__ == "__main__":
 
     # Say which settings of the ablation ladder is active.
     print(retention.describe())
+    print(persona_ext.describe())
 
     origin = input("Enter the name of the forked simulation: ").strip()
     target = input("Enter the name of the new simulation: ").strip()

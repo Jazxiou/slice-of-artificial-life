@@ -17,7 +17,7 @@ import datetime
 import json
 
 from global_methods import *
-from memory_ext import retention
+from memory_ext import longevity, retention
 
 
 class ConceptNode:
@@ -168,7 +168,7 @@ class AssociativeMemory:
             json.dump(r, outfile)
 
         with open(out_json + "/embeddings.json", "w") as outfile:
-            json.dump(self.embeddings, outfile)
+            json.dump(longevity.compact(self.embeddings), outfile)
 
     def add_event(self, created, expiration, s, p, o, description, keywords, poignancy, embedding_pair, filling):
         # Setting up the node ID and counts.

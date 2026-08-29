@@ -13,6 +13,7 @@ sys.path.append("../../")
 from operator import itemgetter
 
 from global_methods import *
+from memory_ext import longevity
 from persona.prompt_template.gpt_structure import *
 from persona.prompt_template.run_gpt_prompt import *
 
@@ -119,6 +120,11 @@ def perceive(persona, maze):
         # then we add that event to the a_mem and return it.
         latest_events = persona.a_mem.get_summarized_latest_events(persona.scratch.retention)
         if p_event not in latest_events:
+            # Town guardrail (flag `idle_memory_dedup`, off in every measured condition): an object seen
+            # idle is remembered at most once per hour. Half of a run's store is idle observations, and
+            # scored retrieval filters them out anyway.
+            if longevity.skip_idle_store(persona.a_mem, p_event, persona.scratch.curr_time):
+                continue
             # We start by managing keywords.
             keywords = set()
             sub = p_event[0]

@@ -14,7 +14,7 @@ import time
 
 import llm_trace
 from global_methods import *
-from memory_ext import retention
+from memory_ext import retention, retrieval
 from numpy import dot
 from numpy.linalg import norm
 from persona.prompt_template.gpt_structure import *
@@ -277,8 +277,15 @@ def _new_retrieve(persona, focal_points, n_count=30):
         else:
             recency_out = extract_recency(persona, nodes)
         recency_out = normalize_dict_floats(recency_out, 0, 1)
-        importance_out = extract_importance(persona, nodes)
-        importance_out = normalize_dict_floats(importance_out, 0, 1)
+        # The second conditional handed to the contribution. Importance is a 1-to-10 rating whose scale
+        # differs by the kind of memory being rated: measured over a three-day run the median event scores
+        # 1 and the median reflection 7, so normalising across everything makes this term prefer
+        # abstractions rather than weigh significance
+        if retrieval.IMPORTANCE_WITHIN_TYPE:
+            importance_out = retrieval.importance_scores(persona, nodes)
+        else:
+            importance_out = extract_importance(persona, nodes)
+            importance_out = normalize_dict_floats(importance_out, 0, 1)
         relevance_out = extract_relevance(persona, nodes, focal_pt)
         relevance_out = normalize_dict_floats(relevance_out, 0, 1)
 

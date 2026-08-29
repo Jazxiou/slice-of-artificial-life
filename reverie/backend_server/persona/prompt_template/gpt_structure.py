@@ -42,6 +42,10 @@ LLM_MODEL = _cfg("llm_model", "qwen2.5:14b")
 EMBEDDING_MODEL = _cfg("embedding_model", "all-MiniLM-L6-v2")
 API_KEY = _cfg("openai_api_key", "not-needed")
 
+# How many seconds to wait for one reply.
+LLM_TIMEOUT_SECONDS = _cfg("llm_timeout_seconds", 120)
+LLM_MAX_RETRIES = _cfg("llm_max_retries", 1)
+
 # Upstream's davinci prompts expect a bare continuation, not a chatty
 # reply. Without this a model usually prefaces answers with "Sure! Here
 # is..." etc. and the output parsers would fail.
@@ -65,6 +69,14 @@ CHAT_VARIED_TEMPERATURE = _cfg("chat_varied_temperature", 0.8)
 # that). First attempt is deterministic and any attempt after is
 # sampled.
 RETRY_TEMPERATURE = _cfg("retry_temperature", 0.7)
+# A ceiling on the reply, which the chat path had none of. Upstream's `gpt_param` dicts declare one
+# per prompt (15 tokens for an emoji, 30 for an event triple) and the chat path discards them along
+# with everything else in those dicts, so a chat call could generate until the model chose to stop.
+# On a three-day run one emoji request returned 24,781 characters, roughly six thousand tokens from a
+# prompt whose median reply is seventeen characters; it took 120 seconds, and a longer one in an
+# earlier run took 600. The longest *legitimate* chat reply in that same run was 846 characters, so
+# this cap sits well above every real answer and only truncates a model that has stopped answering.
+CHAT_MAX_TOKENS = _cfg("chat_max_tokens", 512)
 
 
 def chat_sampling(attempt=0):
@@ -74,9 +86,9 @@ def chat_sampling(attempt=0):
     retry.
     """
     if llm_trace.current_template() in CHAT_VARIED_TEMPLATES:
-        return {"temperature": CHAT_VARIED_TEMPERATURE, "top_p": 1}
+        return {"temperature": CHAT_VARIED_TEMPERATURE, "top_p": 1, "max_tokens": CHAT_MAX_TOKENS}
     temperature = CHAT_DETERMINISTIC_TEMPERATURE if attempt == 0 else RETRY_TEMPERATURE
-    return {"temperature": temperature, "top_p": 1}
+    return {"temperature": temperature, "top_p": 1, "max_tokens": CHAT_MAX_TOKENS}
 
 
 def retry_parameters(gpt_parameter):
@@ -101,7 +113,9 @@ def get_client():
     """
     global _client
     if _client is None:
-        _client = OpenAI(base_url=LLM_BASE_URL, api_key=API_KEY)
+        _client = OpenAI(
+            base_url=LLM_BASE_URL, api_key=API_KEY, timeout=LLM_TIMEOUT_SECONDS, max_retries=LLM_MAX_RETRIES
+        )
     return _client
 
 
@@ -218,10 +232,25 @@ def temp_sleep(seconds=0.1):
     time.sleep(seconds)
 
 
-def ChatGPT_single_request(prompt):
+def ChatGPT_single_request(prompt, label=None):
+    """
+    A one-off call with no template file behind it. Every use is in `revise_identity`, which writes a
+    character's identity from prose assembled in code rather than from a prompt file.
+
+    Two things were wrong with that and both were invisible. The call sent *no* sampling parameters, so
+    the four prompts that decide who each agent is ran at whatever temperature the server happened to
+    default to. And with no template file there was no template name, so `llm_trace` kept the last one
+    it had seen and filed all 29 of these calls under `wake_up_hour`, which is simply the prompt that
+    runs immediately before them.
+
+    They are generative prose, not extraction, so they sit on the varied side of the split. 0.8 is also
+    what Ollama defaults to, which means stating it here records the behaviour rather than changing it.
+    """
     temp_sleep()
+    if label:
+        llm_trace.note_template(label)
     try:
-        return _chat(prompt)
+        return _chat(prompt, temperature=CHAT_VARIED_TEMPERATURE, top_p=1, max_tokens=CHAT_MAX_TOKENS)
     except Exception as exc:
         print(f"[LLM ERROR] ChatGPT_single_request: {type(exc).__name__}: {exc}")
         return "ChatGPT ERROR"

@@ -107,14 +107,15 @@ class _Recorder:
         For the first line of the trace list which conditions produced
         it.
         """
-        config = {}
+        config, persona_config = {}, {}
         try:
-            from memory_ext import retention
+            from memory_ext import longevity, persona, retention, retrieval
 
-            config = retention.config()
+            config, persona_config = retention.config(), persona.config()
+            config = dict(config, **retrieval.config(), **longevity.config())
         except Exception:
             pass  # a trace can still be read without the header
-        self._write({"type": "run", "memory_config": config})
+        self._write({"type": "run", "memory_config": config, "persona_config": persona_config})
 
     def _write(self, record):
         with _lock, _open_trace(self.path, "a") as f:
@@ -175,6 +176,12 @@ class _Recorder:
         at each checkpoint.
         """
         self._write({"type": "world", "step": step, "when": when, "memories": memory_counts})
+
+    def drift(self, agent, record):
+        """
+        One agent's identity drift for one simulated day, and whether anything was done about it.
+        """
+        self._write({"type": "drift", "agent": agent, **record})
 
     def embedding(self, text, vector, seconds):
         # Count and time every embedding even when the vectors are not
@@ -307,6 +314,12 @@ def world(step_index, when, memory_counts):
     """Record how large each agent's memory is."""
     if recorder:
         recorder.world(step_index, when, memory_counts)
+
+
+def drift(agent, record):
+    """Record one agent's daily identity drift."""
+    if recorder:
+        recorder.drift(agent, record)
 
 
 def report():

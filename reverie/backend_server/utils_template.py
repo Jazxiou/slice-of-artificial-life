@@ -24,6 +24,12 @@ llm_model = "qwen2.5:14b"
 openai_api_key = "not-needed"
 key_owner = "your-name"
 
+# How long to wait for one reply before giving up on it. A timeout
+# raises, is recorded as a failure in the trace, and is retried.
+llm_timeout_seconds = 120
+# How many times to retry
+llm_max_retries = 1
+
 # === Embeddings ===
 # Computed locally with this sentence-transformers.
 embedding_model = "all-MiniLM-L6-v2"
@@ -35,7 +41,9 @@ embedding_model = "all-MiniLM-L6-v2"
 use_completion_style_system_prompt = True
 completion_style_system_prompt = (
     "You are completing a text. Continue directly with the requested content only. "
-    "Do not add greetings, explanations, preamble, commentary or markdown formatting."
+    "Do not add greetings, explanations, preamble, commentary or markdown formatting. "
+    "Write only in English. Never use Chinese, Japanese or Korean characters, "
+    "not even for a single word."
 )
 
 # === Sampling ===
@@ -47,6 +55,9 @@ chat_varied_temperature = 0.8
 # A retry has to be allowed to differ (or it would be identical,
 # defeating the purpose).
 retry_temperature = 0.7
+# A ceiling on the length of a chat reply. Should only truncate a model
+# that has stopped answering the question.
+chat_max_tokens = 512
 
 # === Answer Cache ===
 # Remembers answers to temperature-zero questions for that run.
@@ -102,3 +113,56 @@ importance_halflife_multiplier = 4.0  # half-life at importance 10 relative to
 rehearsal_halflife_multiplier = 3.0  # maximum of the rehearsal bonus
 rehearsal_saturation = 8.0  # amount of recalls needed for half of that
 # bonus
+
+# === How Importance is Compared ===
+# Lives in `reverie/backend_server/memory_ext/retrieval.py`. Off by
+# default.
+
+# Importance is a 1-to-10 rating the model gives a memory when it is
+# written. Baseline's median event scored 1 and the median reflection
+# scored 7. This normalises importance within each kind of memory, so a
+# striking observation competes with other observations. Reflections
+# stay retrievable, they simply stop crowding out episodes.
+importance_within_type = False
+
+# === Town Guardrails (TOWN RUNS ONLY) ===
+# Lives in `reverie/backend_server/memory_ext/longevity.py`.
+
+# An object seen idle is remembered at most once per hour, instead of
+# every time it drifts out of the perception window. Half of a run's
+# score was idle observations, and scored retrieval filters them out
+# anyway. People standing idle are never deduplicated, only objects,
+# because reactions can target a person's event.
+idle_memory_dedup = False  # Keep False if not running a live town.
+idle_dedup_ttl_hours = 1.0
+
+# Write embedding vectors rounded to six decimals. The model computes
+# them in float32, which has about seven significant digits; the JSON
+# writer stores full float64 verbosity, which is precision the numbers
+# never had. Cuts the largest file in every saved simulation
+# several-fold.
+compact_embeddings = False  # Keep False if not running a live town.
+
+# === Persona Re-anchoring ===
+# Lives in `reverie/backend_server/memory_ext/persona.py`.
+
+# Re-anchoring measures how far each day's rewrite has moved from the
+# seed and corrects it only when it has moved too far, so that
+# believable change is left alone.
+persona_reanchor = False
+
+# Measure the daily drift even in the control condition.
+persona_drift_measured = True
+
+# Cosine distance from the anchor at which a correction fires. 0 is the
+# anchor itself, 1 is unrelated.
+reanchor_drift_threshold = 0.35
+
+# Correct a status that stopped being a description of a person and
+# has become an account of one day. The test is textual (a date,
+# a weekday, or a word like "today")
+reanchor_genre_test = True
+
+# Put the seed's own words in front of the rewriter rather than only
+# its traits.
+reanchor_verbatim_seed = True

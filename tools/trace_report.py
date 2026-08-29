@@ -19,12 +19,31 @@ import argparse
 import collections
 import gzip
 import json
+import math
+import statistics
+
+
+def percentile(values, fraction):
+    """
+    The value below which `fraction` of the sorted list falls,
+    nearest-rank (no interpolation).
+
+    Nearest-rank is used because these are measured call durations and
+    every printed number should be a duration that actually occurred.
+    """
+    ordered = sorted(values)
+    index = min(len(ordered) - 1, max(0, math.ceil(fraction * len(ordered)) - 1))
+    return ordered[index]
 
 
 def load(path):
     """Read a trace, can also handle the gzipped form"""
     records = []
-    opener = (lambda: gzip.open(path, "rt", encoding="utf-8")) if str(path).endswith(".gz") else (lambda: open(path, "r", encoding="utf-8"))
+    opener = (
+        (lambda: gzip.open(path, "rt", encoding="utf-8"))
+        if str(path).endswith(".gz")
+        else (lambda: open(path, "r", encoding="utf-8"))
+    )
     with opener() as f:
         for line in f:
             line = line.strip()
@@ -51,10 +70,7 @@ def main():
     # Which conditon produced a trace (if recorded).
     header = next((r for r in records if r.get("type") == "run"), None)
     summary = (header or {}).get("memory_config", {}).get("summary")
-    print(
-        f"CONDITION: {summary}" if summary
-        else "CONDITION: not recorded (trace predates the run header)"
-    )
+    print(f"CONDITION: {summary}" if summary else "CONDITION: not recorded (trace predates the run header)")
 
     total_seconds = sum(r["seconds"] for r in calls)
     print(
@@ -65,28 +81,68 @@ def main():
     print()
 
     # === Question 1 ===
-    by_template = collections.defaultdict(lambda: {"n": 0, "s": 0.0, "keys": set()})
+    by_template = collections.defaultdict(lambda: {"n": 0, "s": 0.0, "keys": set(), "each": []})
     for r in calls:
         t = by_template[r.get("template", "unknown")]
         t["n"] += 1
         t["s"] += r["seconds"]
         t["keys"].add(r["key"])
 
+        # Cache hits cost zero by construction, so they are excluded
+        # from the per-call timings.
+        if not r.get("cached"):
+            t["each"].append(r["seconds"])
+
+    # The mean is reported alongside the median and the 90th
+    # percentile.
     print("WHERE THE TIME WENT")
+    print("(median, p90, mean and max describe calls that actually reached the model)")
     print(
         f"{'prompt template':42s} {'calls':>6s} {'unique':>7s} {'repeat':>7s} "
-        f"{'minutes':>8s} {'% time':>7s} {'s/call':>7s}"
+        f"{'minutes':>8s} {'% time':>7s} {'median':>7s} {'p90':>7s} {'mean':>7s} {'max':>8s}"
     )
-    print("-" * 90)
+    print("-" * 112)
     for name, t in sorted(by_template.items(), key=lambda kv: -kv[1]["s"]):
         unique = len(t["keys"])
         repeat = 100 * (1 - unique / t["n"]) if t["n"] else 0
-        print(
+        row = (
             f"{name[:42]:42s} {t['n']:6d} {unique:7d} {repeat:6.0f}% "
-            f"{t['s']/60:8.1f} {100*t['s']/total_seconds:6.1f}%
-            {t['s']/t['n']:7.2f}"
+            f"{t['s'] / 60:8.1f} {100 * t['s'] / total_seconds:6.1f}%"
         )
+        if t["each"]:
+            row += (
+                f" {statistics.median(t['each']):7.2f} {percentile(t['each'], 0.9):7.2f} "
+                f"{sum(t['each']) / len(t['each']):7.2f} {max(t['each']):8.1f}"
+            )
+        print(row)
     print()
+
+    # Name the outliers
+    def template_median(name):
+        each = by_template[name]["each"]
+        return statistics.median(each) if each else 0.0
+
+    stalled = sorted(
+        (
+            r
+            for r in calls
+            if not r.get("cached") and r["seconds"] > max(30.0, 20 * template_median(r.get("template", "unknown")))
+        ),
+        key=lambda r: -r["seconds"],
+    )
+    if stalled:
+        lost = sum(r["seconds"] for r in stalled)
+        print("STALLED CALLS (over 30s, and over twenty times the median for the same prompt)")
+        for r in stalled[:5]:
+            name = r.get("template", "unknown")
+            print(
+                f"  {r['seconds']:8.1f}s  (median {template_median(name):.2f}s)  {name[:44]}  -> {r['response'][:40]!r}"
+            )
+        print(
+            f"  {len(stalled)} such call(s), {lost / 60:.1f} minutes, {100 * lost / total_seconds:.0f}% of "
+            f"the run's model time. Cap these with llm_timeout_seconds in utils.py."
+        )
+        print()
 
     # === Question 2 ===
     all_keys = [r["key"] for r in calls]
@@ -104,11 +160,11 @@ def main():
             mean[name] = (sum(r["seconds"] for r in real) / len(real)) if real else 0.0
         saved = sum(mean.get(r.get("template"), 0.0) for r in served)
         print(
-            f"  {len(served)} of those ({100*len(served)/len(all_keys):.0f}%) were answered from the "
+            f"  {len(served)} of those ({100 * len(served) / len(all_keys):.0f}%) were answered from the "
             f"in-run cache, at no cost."
         )
         print(
-            f"  That saved about {saved/60:.1f} minutes, or {100*saved/(total_seconds+saved):.0f}% of "
+            f"  That saved about {saved / 60:.1f} minutes, or {100 * saved / (total_seconds + saved):.0f}% of "
             f"what the run would otherwise have spent."
         )
     if wasted:
@@ -116,17 +172,17 @@ def main():
         still = wasted - len(served)
         if served:
             print(
-                f"  {still} repeats remain, costing about {repeat_seconds/60:.1f} minutes. These are the "
+                f"  {still} repeats remain, costing about {repeat_seconds / 60:.1f} minutes. These are the "
                 f"prompts sampled at a non-zero temperature, which are deliberately not cached."
             )
         else:
             print(
-                f"  {wasted} calls ({100*wasted/len(all_keys):.0f}%) re-asked something already asked, "
-                f"costing about {repeat_seconds/60:.1f} minutes."
+                f"  {wasted} calls ({100 * wasted / len(all_keys):.0f}%) re-asked something already asked, "
+                f"costing about {repeat_seconds / 60:.1f} minutes."
             )
             print(
                 f"  Caching answers by question would remove roughly "
-                f"{100*repeat_seconds/total_seconds:.0f}% of the run's model time."
+                f"{100 * repeat_seconds / total_seconds:.0f}% of the run's model time."
             )
     print()
 

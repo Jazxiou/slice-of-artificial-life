@@ -21,7 +21,9 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from evaluation import administer, probes, score
+from persona.prompt_template.gpt_structure import get_embedding
+
+from evaluation import administer, persona_score, probes, score
 
 
 def _generate(prompt):
@@ -125,7 +127,29 @@ def main():
                 interview.append({**question, **given})
             print(f"  interview: {len(interview)} answers recorded")
 
-        results["agents"][name] = {"probes": scored, "summary": summary, "interview": interview}
+        if interview:
+            # Grade the interview too.
+            anchor, has_seed = persona_score.anchor_of(probes.load_scratch(f"{sim_folder}/personas/{name}"))
+            if not has_seed:
+                print(
+                    "  [persona] no seed_currently in this checkpoint; anchoring to the current state, "
+                    "which will understate drift"
+                )
+            interview = persona_score.score_interview(interview, anchor, _generate)
+            persona_summary = persona_score.summarise(interview)
+            identity = persona_score.score_identity(
+                probes.load_scratch(f"{sim_folder}/personas/{name}"), get_embedding, _generate
+            )
+            persona_score.report(persona_summary, identity)
+            results["agents"][name] = {
+                "probes": scored,
+                "summary": summary,
+                "interview": interview,
+                "persona_summary": persona_summary,
+                "identity": identity,
+            }
+        else:
+            results["agents"][name] = {"probes": scored, "summary": summary, "interview": interview}
 
     os.makedirs(os.path.dirname(os.path.abspath(args.out)) or ".", exist_ok=True)
     with open(args.out, "w") as f:
