@@ -256,3 +256,46 @@ def test_rates_break_down_by_age():
     s = score.summarise(scored)
     assert s["by_age"]["6h"]["recall"] == 1.0
     assert s["by_age"]["3 days"]["recall"] == 0.0
+
+
+def test_the_battery_runner_puts_the_backend_on_the_path_by_itself():
+    """
+    The same ordering bug persona_score had, one file over. run.py imported `persona` relying on the
+    modules imported just above it having put the backend directory on the path as a side effect; on one
+    machine that ordering did not hold and the battery died with `No module named 'persona'` before
+    asking a single question. The probe runs in a subprocess (conftest puts the backend on the path, so
+    an in-process check proves nothing) and stubs out run.py's sibling imports, because administer and
+    persona_score each add the backend path themselves and would mask a regression: with the stubs in
+    place, the persona import at the top of run.py succeeds only if run.py added the path on its own.
+    """
+    import os
+    import subprocess
+    import sys
+    import textwrap
+
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    probe = (
+        textwrap.dedent("""
+      import importlib.util, os, sys, types
+      root = %r
+      sys.path.insert(0, root)
+      backend = os.path.join(root, "reverie", "backend_server")
+      if not os.path.exists(os.path.join(backend, "utils.py")):
+          spec = importlib.util.spec_from_file_location(
+              "utils", os.path.join(backend, "utils_template.py"))
+          utils = importlib.util.module_from_spec(spec)
+          sys.modules["utils"] = utils
+          spec.loader.exec_module(utils)
+      import evaluation
+      for name in ("administer", "persona_score", "probes", "score"):
+          stub = types.ModuleType("evaluation." + name)
+          sys.modules["evaluation." + name] = stub
+          setattr(evaluation, name, stub)
+      import evaluation.run
+      print("ok")
+  """)
+        % root
+    )
+    out = subprocess.run([sys.executable, "-c", probe], capture_output=True, text=True, cwd=root)
+
+    assert out.stdout.strip() == "ok", out.stderr

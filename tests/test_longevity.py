@@ -31,6 +31,8 @@ def flags_off(monkeypatch):
     monkeypatch.setattr(longevity, "IDLE_MEMORY_DEDUP", False)
     monkeypatch.setattr(longevity, "IDLE_DEDUP_TTL_HOURS", 1.0)
     monkeypatch.setattr(longevity, "COMPACT_EMBEDDINGS", False)
+    monkeypatch.setattr(longevity, "MEMORY_EVICTION", False)
+    monkeypatch.setattr(longevity, "EVICTION_MAX_NODES", 10000)
 
 
 # --- with the flags off, the baseline is untouched ---------------------------------------------------
@@ -165,11 +167,171 @@ def test_keys_and_order_are_preserved(monkeypatch):
 # --- the condition is recorded -----------------------------------------------------------------------
 
 
-def test_the_run_header_names_all_three_settings():
-    assert set(longevity.config()) == {"idle_memory_dedup", "idle_dedup_ttl_hours", "compact_embeddings"}
+def test_the_run_header_names_every_setting():
+    assert set(longevity.config()) == {
+        "idle_memory_dedup",
+        "idle_dedup_ttl_hours",
+        "compact_embeddings",
+        "memory_eviction",
+        "eviction_max_nodes",
+    }
 
 
 def test_the_description_says_what_is_on(monkeypatch):
     assert "baseline" in longevity.describe()
     monkeypatch.setattr(longevity, "IDLE_MEMORY_DEDUP", True)
     assert "once per 1h" in longevity.describe()
+
+
+# --- eviction ----------------------------------------------------------------------------------------
+# These use the real AssociativeMemory, because what eviction promises is structural: contiguous ids,
+# intact filling links, rebuilt indexes, and a store that still saves and loads. A stub could not fail
+# those promises, so it could not test them.
+
+from persona.memory_structures.associative_memory import AssociativeMemory  # noqa: E402
+
+MIDNIGHT = datetime.datetime(2023, 2, 16, 0, 0, 0)  # three days after NOW
+
+
+def empty_store(tmp_path, name="assoc"):
+    d = tmp_path / name
+    d.mkdir()
+    (d / "embeddings.json").write_text("{}")
+    (d / "nodes.json").write_text("{}")
+    (d / "kw_strength.json").write_text(json.dumps({"kw_strength_event": {}, "kw_strength_thought": {}}))
+    return AssociativeMemory(str(d))
+
+
+def add_events(mem, n, created=NOW, poignancy=4, prefix="thing"):
+    nodes = []
+    for i in range(n):
+        nodes.append(
+            mem.add_event(
+                created,
+                None,
+                "Klaus Mueller",
+                "is",
+                f"doing {prefix} {i}",
+                f"Klaus Mueller is doing {prefix} {i}",
+                {prefix},
+                poignancy,
+                (f"emb {prefix} {i}", [0.1, 0.2]),
+                [],
+            )
+        )
+    return nodes
+
+
+def eviction_on(monkeypatch, cap):
+    monkeypatch.setattr(longevity, "MEMORY_EVICTION", True)
+    monkeypatch.setattr(longevity, "EVICTION_MAX_NODES", cap)
+
+
+def test_with_the_flag_off_nothing_is_ever_evicted(tmp_path):
+    mem = empty_store(tmp_path)
+    add_events(mem, 12)
+    assert longevity.maybe_evict(mem, MIDNIGHT) is None
+    assert len(mem.id_to_node) == 12
+
+
+def test_under_the_cap_nothing_happens(tmp_path, monkeypatch):
+    eviction_on(monkeypatch, cap=20)
+    mem = empty_store(tmp_path)
+    add_events(mem, 12)
+    assert longevity.maybe_evict(mem, MIDNIGHT) is None
+    assert len(mem.id_to_node) == 12
+
+
+def test_over_the_cap_the_weakest_go_first_and_the_store_lands_at_ninety_percent(tmp_path, monkeypatch):
+    eviction_on(monkeypatch, cap=10)
+    mem = empty_store(tmp_path)
+    add_events(mem, 3, poignancy=1, prefix="dull")  # same age throughout, so poignancy decides
+    add_events(mem, 9, poignancy=8, prefix="vivid")
+
+    record = longevity.maybe_evict(mem, MIDNIGHT)
+
+    assert record["before"] == 12 and record["after"] == 9
+    descriptions = {n.description for n in mem.id_to_node.values()}
+    assert not any("dull" in d for d in descriptions)
+    assert sum("vivid" in d for d in descriptions) == 9
+
+
+def test_the_last_simulated_day_is_untouchable(tmp_path, monkeypatch):
+    """However weak it scores, nothing from the last 24 hours goes: perception's novelty window,
+    conversation context and today's plan all read recent memory and must never find it missing."""
+    eviction_on(monkeypatch, cap=5)
+    mem = empty_store(tmp_path)
+    add_events(mem, 8, created=MIDNIGHT - datetime.timedelta(hours=6), poignancy=1)
+
+    assert longevity.maybe_evict(mem, MIDNIGHT) is None
+    assert len(mem.id_to_node) == 8
+
+
+def test_cited_evidence_is_never_evicted_and_its_link_survives_the_renumbering(tmp_path, monkeypatch):
+    eviction_on(monkeypatch, cap=10)
+    mem = empty_store(tmp_path)
+    dull = add_events(mem, 3, poignancy=1, prefix="dull")
+    add_events(mem, 8, poignancy=8, prefix="vivid")
+    mem.add_thought(
+        NOW,
+        None,
+        "Klaus Mueller",
+        "reflects on",
+        "his dull work",
+        "Klaus Mueller finds his repetitive work draining",
+        {"reflection"},
+        9,
+        ("emb reflection", [0.3, 0.4]),
+        [dull[0].node_id],
+    )
+
+    longevity.maybe_evict(mem, MIDNIGHT)
+
+    reflection = [n for n in mem.id_to_node.values() if n.type == "thought"][0]
+    cited = mem.id_to_node[reflection.filling[0]]
+    assert cited.description == dull[0].description  # the evidence survived, and the link resolves
+    assert sum("dull" in n.description for n in mem.id_to_node.values()) == 1
+
+
+def test_the_rebuilt_store_still_saves_and_loads(tmp_path, monkeypatch):
+    """The loader requires contiguous ids; this is the round trip that would explode if they were not."""
+    eviction_on(monkeypatch, cap=10)
+    mem = empty_store(tmp_path)
+    add_events(mem, 3, poignancy=1, prefix="dull")
+    nodes = add_events(mem, 9, poignancy=8, prefix="vivid")
+    nodes[0].rehearsal_count = 5  # access history must survive the rebuild too
+
+    longevity.maybe_evict(mem, MIDNIGHT)
+
+    out = tmp_path / "saved"
+    out.mkdir()
+    mem.save(str(out))
+    reloaded = AssociativeMemory(str(out))
+    assert len(reloaded.id_to_node) == 9
+    survivor = [n for n in reloaded.id_to_node.values() if n.description == nodes[0].description][0]
+    assert json.load(open(out / "nodes.json"))[survivor.node_id]["rehearsal_count"] == 5
+
+
+def test_embeddings_no_survivor_names_are_dropped(tmp_path, monkeypatch):
+    eviction_on(monkeypatch, cap=10)
+    mem = empty_store(tmp_path)
+    add_events(mem, 3, poignancy=1, prefix="dull")
+    add_events(mem, 9, poignancy=8, prefix="vivid")
+
+    longevity.maybe_evict(mem, MIDNIGHT)
+
+    assert not any("dull" in key for key in mem.embeddings)
+    assert sum("vivid" in key for key in mem.embeddings) == 9
+
+
+def test_keyword_strengths_forget_with_the_store(tmp_path, monkeypatch):
+    eviction_on(monkeypatch, cap=10)
+    mem = empty_store(tmp_path)
+    add_events(mem, 3, poignancy=1, prefix="dull")
+    add_events(mem, 9, poignancy=8, prefix="vivid")
+    assert mem.kw_strength_event["dull"] == 3
+
+    longevity.maybe_evict(mem, MIDNIGHT)
+
+    assert "dull" not in mem.kw_strength_event
+    assert mem.kw_strength_event["vivid"] == 9

@@ -101,10 +101,7 @@ ENV/
 # Rope project settings
 .ropeproject
 
-results/
-
-# Traces
-traces/
-
 # Temporary
 environment/frontend_server/storage
+traces/
+results/

@@ -19,7 +19,11 @@ import os
 import random
 import sys
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BACKEND = os.path.join(ROOT, "reverie", "backend_server")
+for _path in (ROOT, BACKEND):
+    if _path not in sys.path:
+        sys.path.insert(0, _path)
 
 from persona.prompt_template.gpt_structure import get_embedding
 

@@ -333,3 +333,84 @@ def path_tester_update(request):
         outfile.write(json.dumps(camera, indent=2))
 
     return HttpResponse("received")
+
+
+# ---------------------------------------------------------------------------------------------------
+# THE LIVE TOWN (the Ville Viewer). New views on new URLs; the stock pages above are untouched.
+# ---------------------------------------------------------------------------------------------------
+
+
+def livetown(request):
+    """
+    The Ville Viewer: the live town's own page.
+    Same handshake as the stock `home` view (the backend announces itself through
+    `temp_storage/curr_sim_code.json` / `curr_step.json`, and this page then drives the world clock
+    through `process_environment` / `update_environment`), but rendering the new interface. Both
+    pages read `curr_step.json` without removing it, deliberately differing from `home` there: the
+    file marks "a backend is waiting", and either page may be the one that answers it, or be
+    refreshed, without stranding the other.
+    """
+    f_curr_sim_code = "temp_storage/curr_sim_code.json"
+    f_curr_step = "temp_storage/curr_step.json"
+
+    if not check_if_file_exists(f_curr_step):
+        return render(request, "home/error_start_backend.html", {})
+
+    with open(f_curr_sim_code) as json_file:
+        sim_code = json.load(json_file)["sim_code"]
+    with open(f_curr_step) as json_file:
+        step = json.load(json_file)["step"]
+
+    persona_names = persona_list(sim_code)
+    persona_names_set = set(p["original"] for p in persona_names)
+
+    persona_init_pos = []
+    file_count = []
+    for i in find_filenames(f"storage/{sim_code}/environment", ".json"):
+        x = i.split("/")[-1].strip()
+        if x[0] != ".":
+            file_count += [int(x.split(".")[0])]
+    curr_json = f"storage/{sim_code}/environment/{str(max(file_count))}.json"
+    with open(curr_json) as json_file:
+        persona_init_pos_dict = json.load(json_file)
+        for key, val in persona_init_pos_dict.items():
+            if key in persona_names_set:
+                persona_init_pos += [[key, val["x"], val["y"]]]
+
+    context = {
+        "sim_code": sim_code,
+        "step": step,
+        "persona_names": persona_names,
+        "persona_init_pos": persona_init_pos,
+        "atlas_json": static("assets/characters/atlas.json"),
+        "camera_sprite": static("assets/characters/Yuriko_Yamamoto.png"),
+    }
+    return render(request, "home/livetown.html", context)
+
+
+def livetown_snapshot(request, persona_name):
+    """
+    <BACKEND to FRONTEND, slow feed> One character's viewer snapshot (memories, relationships,
+    identity), refreshed by the backend every few simulated minutes. `{}` until the first one lands.
+    """
+    path = f"temp_storage/livetown/{persona_name}.json"
+    if not check_if_file_exists(path):
+        return JsonResponse({})
+    with open(path) as json_file:
+        return JsonResponse(json.load(json_file))
+
+
+def livetown_control(request):
+    """
+    <FRONTEND to BACKEND> The viewer's save-and-exit / exit buttons.
+    Writes the one small control file the live town's backend polls between steps
+    (`run_livetown.py`). Only the two known actions are ever written; anything else is refused, so a
+    broken client cannot make the backend act on words this contract does not contain.
+    """
+    data = json.loads(request.body)
+    action = data.get("action")
+    if action not in ("save_exit", "exit"):
+        return JsonResponse({"ok": False, "error": "unknown action"}, status=400)
+    with open("temp_storage/livetown_control.json", "w") as outfile:
+        outfile.write(json.dumps({"action": action}))
+    return JsonResponse({"ok": True, "action": action})

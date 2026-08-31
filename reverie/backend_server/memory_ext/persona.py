@@ -97,17 +97,77 @@ Here is a status written for them today, after several days of events:
 
 !<PROPOSED>!
 
-The status has drifted from the character. Rewrite it so that it is still true to who they originally
-are, while keeping anything that genuinely happened to them.
+Today is !<TODAY>!. The status has drifted from the character. Rewrite it so that it is still true to
+who they originally are, while keeping anything that genuinely happened to them.
 
 Three rules:
   - Keep the concerns and pursuits that define them. If the original says they are working on
-    something, they are still working on it, even if they were busy with other things today.
+    something, they are still working on it, even if they were busy with other things today.!<EVENT>!
   - Write a standing description of the person as they are now, in the third person. Do not write an
     account of one day, and do not include a date or a schedule.
   - Do not invent anything that is not in either text above.
 
 Write two or three sentences and nothing else."""
+
+
+_MONTHS = {
+    m: i + 1
+    for i, m in enumerate((
+        "january",
+        "february",
+        "march",
+        "april",
+        "may",
+        "june",
+        "july",
+        "august",
+        "september",
+        "october",
+        "november",
+        "december",
+    ))
+}
+
+_ANCHOR_DATE = re.compile(
+    r"\b(january|february|march|april|may|june|july|august|september|october|november|december)"
+    r"\s+(\d{1,2})(?:st|nd|rd|th)?(?:,?\s*(\d{4}))?",
+    re.I,
+)
+
+
+def anchor_event_guidance(scratch):
+    """
+    The calendar's verdict on the anchor's dated event: ("upcoming"|"past", sentence), or (None, "").
+    Decided here rather than in the prompt because the model cannot be trusted with the day boundary:
+    asked in words, it treated "today is the 14th" as "the 14th is over". Dates are compared at day
+    granularity, and a date equal to today counts as upcoming, because a rewrite happens at midnight,
+    before anything scheduled for the day has taken place. An anchor with several dates is judged by
+    the latest one: the character is "after" their written events only when every one of them is.
+    """
+    when = getattr(scratch, "curr_time", None)
+    if not isinstance(when, datetime.datetime):
+        return None, ""
+    dates = []
+    for match in _ANCHOR_DATE.finditer(anchor_of(scratch)):
+        year = int(match.group(3)) if match.group(3) else when.year
+        try:
+            dates.append(datetime.date(year, _MONTHS[match.group(1).lower()], int(match.group(2))))
+        except ValueError:
+            continue
+    if not dates:
+        return None, ""
+    event = max(dates)
+    named = f"{event.strftime('%B')} {event.day}"
+    if event >= when.date():
+        return "upcoming", (
+            f" Note: the {named} event in the original description has NOT happened"
+            f" yet, so they are still preparing for it."
+        )
+    return "past", (
+        f" The one exception: the {named} event in the original description has already"
+        f" taken place, so write them as a person after that event, not as one still"
+        f" preparing for it."
+    )
 
 
 _DAY_MARKER = re.compile(
@@ -245,8 +305,16 @@ def reanchor(scratch, proposed, embed, generate):
         ([f"distance>{REANCHOR_DRIFT_THRESHOLD}"] if too_far else []) + (["dated"] if dated else [])
     )
 
+    # "Wednesday, February 15, 2023": the year included because the seeds date their events with one.
+    today = f"{when.strftime('%A, %B')} {when.day}, {when.year}" if isinstance(when, datetime.datetime) else "not known"
+    verdict, event_line = anchor_event_guidance(scratch)
+    record["anchor_event"] = verdict
     rewritten = generate(
-        REANCHOR_PROMPT.replace("!<ANCHOR>!", anchor_of(scratch)).replace("!<PROPOSED>!", proposed)
+        REANCHOR_PROMPT
+        .replace("!<ANCHOR>!", anchor_of(scratch))
+        .replace("!<PROPOSED>!", proposed)
+        .replace("!<TODAY>!", today)
+        .replace("!<EVENT>!", event_line)
     ).strip()
     if not rewritten:
         print("[reanchor] the rewrite came back empty; keeping the drifted status")

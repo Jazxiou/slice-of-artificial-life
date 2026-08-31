@@ -16,6 +16,7 @@ sys.path.append("../../")
 
 import llm_trace
 from global_methods import *
+from memory_ext import longevity
 from memory_ext import persona as persona_ext
 from persona.cognitive_modules.converse import *
 from persona.cognitive_modules.retrieve import *
@@ -1081,6 +1082,11 @@ def plan(persona, maze, personas, new_day, retrieved):
     # PART 1: Generate the hourly schedule.
     if new_day:
         _long_term_planning(persona, new_day)
+        # Midnight housekeeping: with `memory_eviction` on (town runs only, never a measured condition),
+        # a store past its cap loses its weakest stale memories overnight. A no-op when the flag is off.
+        evicted = longevity.maybe_evict(persona.a_mem, persona.scratch.curr_time)
+        if evicted:
+            llm_trace.evicted(persona.scratch.name, evicted)
 
     # PART 2: If the current action has expired, we want to create a new plan.
     if persona.scratch.act_check_finished():

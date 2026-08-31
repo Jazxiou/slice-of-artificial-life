@@ -84,6 +84,25 @@ debug = True
 # so this saves at every midnight. Set to 0 to disable.
 autosave_every = 8640
 
+# === Sims-style Needs (WORLD LAYER) ===
+# Lives in `reverie/backend_server/world_ext/needs.py`.
+
+# Six needs decaying on the simulated clock, refilled by what the
+# character is actually doing, with "Social" refilled ONLY by real
+# conversation. A need in the red forces a mood (tired / bored /
+# irritable / lonely) and adds one sentence to the identity block,
+# so the deficit reaches planning and dialogue.
+world_needs = False  # Keep False unless running the live town
+needs_red_threshold = 25.0
+
+# Mood (world_ext/emotion.py). A need in the red overrides the model's
+# word until the bar recovers
+world_emotion = False
+
+# Relationships (world_ext/relationships.py). Per-side friendship and
+# romance.
+world_relationships = False
+
 # === Decay and Retention ===
 # Lives in `reverie/backend_server/memory_ext/retention.py`. When flags
 # are False, the simulation will behave as the baseline.
@@ -142,6 +161,12 @@ idle_dedup_ttl_hours = 1.0
 # never had. Cuts the largest file in every saved simulation
 # several-fold.
 compact_embeddings = False  # Keep False if not running a live town.
+
+# Real forgetting for towns that run for weeks. Once a store outgrows
+# its cap it is trimmed to 90% of it overnight, weakest memories first,
+# where "weakest" is the retention module's own judgement.
+memory_eviction = False  # Keep False if not running a live town.
+eviction_max_nodes = 10000
 
 # === Persona Re-anchoring ===
 # Lives in `reverie/backend_server/memory_ext/persona.py`.

@@ -37,6 +37,7 @@ from memory_ext import persona as persona_ext
 from memory_ext import retention
 from persona.persona import *
 from utils import *
+from world_ext import snapshot as world_snapshot
 
 # Steps between automatic checkpoints. One simulated day is 8640.
 # Set to 0 to disable.
@@ -67,7 +68,12 @@ class ReverieServer:
         # reverie/meta/json's fork variable.
         self.sim_code = sim_code
         sim_folder = f"{fs_storage}/{self.sim_code}"
-        copyanything(fork_folder, sim_folder)
+        # Forking copies the source simulation into a new folder. The live town (run_livetown.py) instead
+        # reopens its own folder session after session, passing the same name for both arguments, and
+        # reopening must not copy a folder onto itself. Every stock run passes two different names, so
+        # nothing changes on that path.
+        if fork_sim_code != sim_code:
+            copyanything(fork_folder, sim_folder)
 
         # Make sure the two folders the step loop writes into exist.
         for needed in ("movement", "environment"):
@@ -76,9 +82,14 @@ class ReverieServer:
         with open(f"{sim_folder}/reverie/meta.json") as json_file:
             reverie_meta = json.load(json_file)
 
-        with open(f"{sim_folder}/reverie/meta.json", "w") as outfile:
-            reverie_meta["fork_sim_code"] = fork_sim_code
-            outfile.write(json.dumps(reverie_meta, indent=2))
+        if fork_sim_code != sim_code:
+            with open(f"{sim_folder}/reverie/meta.json", "w") as outfile:
+                reverie_meta["fork_sim_code"] = fork_sim_code
+                outfile.write(json.dumps(reverie_meta, indent=2))
+        else:
+            # Reopened in place: keep the ancestry the folder already records (the base it was first
+            # created from), rather than making the save its own parent.
+            self.fork_sim_code = reverie_meta.get("fork_sim_code", sim_code)
 
         # LOADING REVERIE'S GLOBAL VARIABLES
         # The start datetime of the Reverie:
@@ -105,6 +116,11 @@ class ReverieServer:
         # literally translates to the number of moves our personas made in terms
         # of the number of tiles.
         self.step = reverie_meta["step"]
+
+        # Live town hook (run_livetown.py): a caller may install a callable here that is asked, after
+        # each completed step, whether the loop should stop. That is how the viewer's save-and-exit and
+        # exit buttons reach an open-ended run. None in every stock run, so `run N` is unchanged.
+        self.stop_requested = None
 
         # SETTING UP PERSONAS IN REVERIE
         # <personas> is a dictionary that takes the persona's full name as its
@@ -407,6 +423,11 @@ class ReverieServer:
                         movements["persona"][persona_name]["pronunciatio"] = pronunciatio
                         movements["persona"][persona_name]["description"] = description
                         movements["persona"][persona_name]["chat"] = persona.scratch.chat
+                        # World layer: the viewer's per-step feed (needs and mood). None with the flags off,
+                        # so a baseline run's movement files stay byte-identical.
+                        world = world_snapshot.step_payload(persona.scratch)
+                        if world:
+                            movements["persona"][persona_name]["world"] = world
 
                     # Include the meta information about the current stage in the
                     # movements dictionary.
@@ -429,6 +450,10 @@ class ReverieServer:
                     self.step += 1
                     self.curr_time += datetime.timedelta(seconds=self.sec_per_step)
 
+                    # World layer: the viewer's slow feed, one small file per character every few simulated
+                    # minutes (memories, relationships, identity). A no-op with the flag off.
+                    world_snapshot.write_if_due(self.step, self.curr_time, self.personas)
+
                     # Checkpoint periodically.
                     if AUTOSAVE_EVERY and self.step % AUTOSAVE_EVERY == 0:
                         self.save()
@@ -440,6 +465,9 @@ class ReverieServer:
                         )
 
                     int_counter -= 1
+
+                    if self.stop_requested and self.stop_requested():
+                        break
 
             # Sleep so we don't burn our machines.
             time.sleep(self.server_sleep)

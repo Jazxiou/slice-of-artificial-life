@@ -13,6 +13,9 @@ import sys
 sys.path.append("../../")
 
 from global_methods import *
+from world_ext import emotion as world_emotion
+from world_ext import needs as world_needs
+from world_ext import relationships as world_relationships
 
 
 class Scratch:
@@ -189,6 +192,9 @@ class Scratch:
             self.seed_currently = scratch_load.get("seed_currently") or scratch_load["currently"]
             # Measure drift.
             self.drift_log = scratch_load.get("drift_log", [])
+            world_needs.load(self, scratch_load)
+            world_emotion.load(self, scratch_load)
+            world_relationships.load(self, scratch_load)
             self.lifestyle = scratch_load["lifestyle"]
             self.living_area = scratch_load["living_area"]
 
@@ -266,6 +272,9 @@ class Scratch:
         scratch["currently"] = self.currently
         scratch["seed_currently"] = getattr(self, "seed_currently", self.currently)
         scratch["drift_log"] = getattr(self, "drift_log", [])
+        world_needs.save(self, scratch)
+        world_emotion.save(self, scratch)
+        world_relationships.save(self, scratch)
         scratch["lifestyle"] = self.lifestyle
         scratch["living_area"] = self.living_area
 
@@ -413,6 +422,8 @@ class Scratch:
         commonset += f"Lifestyle: {self.lifestyle}\n"
         commonset += f"Daily plan requirement: {self.daily_plan_req}\n"
         commonset += f"Current Date: {self.curr_time.strftime('%A %B %d')}\n"
+        # World layer, a need in the red adds one plain sentence here.
+        commonset += world_needs.iss_line(self)
         return commonset
 
     def get_str_name(self):

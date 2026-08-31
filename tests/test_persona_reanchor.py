@@ -491,3 +491,98 @@ def test_a_time_the_character_was_written_with_does_not_count(monkeypatch):
 
 def test_times_are_normalised_before_they_are_compared():
     assert reanchor.clock_times("from 5pm to 7:00 PM") == {"5pm", "7pm"}
+
+
+def test_the_rewriter_is_told_todays_date(monkeypatch):
+    """
+    The anchor is a snapshot, and a snapshot can contain a dated intention that expires mid-run:
+    Isabella's seed has her planning a party "on February 14th, 2023", and in the second treatment run
+    the correction on the 15th faithfully restored her preparations for a party that had already
+    happened. The rewrite therefore has to know what day it is, or it cannot know the past from the
+    future.
+    """
+    monkeypatch.setattr(reanchor, "PERSONA_REANCHOR", True)
+    s = scratch()
+    s.curr_time = datetime.datetime(2023, 2, 15, 0, 0)
+    write = rewriter()
+    reanchor.reanchor(s, DRIFTED_UNDATED, embedder(0.80), write)
+
+    assert "Today is Wednesday, February 15, 2023." in write.calls[0]
+
+
+def test_a_missing_clock_does_not_stop_a_correction(monkeypatch):
+    monkeypatch.setattr(reanchor, "PERSONA_REANCHOR", True)
+    write = rewriter()
+    text, record = reanchor.reanchor(scratch(), DRIFTED_UNDATED, embedder(0.80), write)
+
+    assert record["corrected"] is True
+    assert "Today is not known." in write.calls[0]
+
+
+# --- the calendar's verdict on the anchor's dated event is made by code, not the model --------------
+# The third treatment run showed why. At midnight of February 14 the model was told "an event on a
+# date now in the past has happened"; it rounded "today is the 14th" to "the 14th is over", declared
+# the party a success eighteen hours before it was due, and the party was silently never hosted.
+# Which side of today a date falls on is exactly the kind of judgement code gets right every time
+# and a small model gets right most of the time, so it moved into code.
+
+DATED_SEED = (
+    "Isabella Rodriguez is planning on having a Valentine's Day party at Hobbs Cafe "
+    "with her customers on February 14th, 2023 at 5pm."
+)
+
+
+def dated_scratch(day):
+    s = scratch(seed=DATED_SEED)
+    s.name = "Isabella Rodriguez"
+    s.curr_time = datetime.datetime(2023, 2, day, 0, 0)
+    return s
+
+
+def test_the_day_before_the_event_is_upcoming():
+    verdict, line = reanchor.anchor_event_guidance(dated_scratch(13))
+    assert verdict == "upcoming"
+    assert "has NOT happened yet" in line
+
+
+def test_the_day_of_the_event_is_still_upcoming():
+    """The exact regression: a rewrite happens at midnight, before anything scheduled that day."""
+    verdict, line = reanchor.anchor_event_guidance(dated_scratch(14))
+    assert verdict == "upcoming"
+    assert "February 14" in line and "has NOT happened yet" in line
+
+
+def test_the_day_after_the_event_is_past():
+    verdict, line = reanchor.anchor_event_guidance(dated_scratch(15))
+    assert verdict == "past"
+    assert "already taken place" in line
+
+
+def test_an_anchor_without_a_date_gets_no_event_rule_at_all():
+    monkeypatch_free = scratch()  # Klaus's seed carries no date
+    monkeypatch_free.curr_time = datetime.datetime(2023, 2, 15, 0, 0)
+    verdict, line = reanchor.anchor_event_guidance(monkeypatch_free)
+    assert verdict is None and line == ""
+
+
+def test_an_explicit_year_is_believed_over_the_clock():
+    s = dated_scratch(15)
+    s.seed_currently = s.currently = "planning a reunion on February 14th, 2024."
+    verdict, _ = reanchor.anchor_event_guidance(s)
+    assert verdict == "upcoming"  # 2024 is ahead of the 2023 clock, whatever the day says
+
+
+def test_the_correction_prompt_carries_the_calendar_verdict(monkeypatch):
+    monkeypatch.setattr(reanchor, "PERSONA_REANCHOR", True)
+    write = rewriter()
+    s = dated_scratch(14)
+    text, record = reanchor.reanchor(s, DRIFTED_UNDATED, embedder(0.80), write)
+    assert "has NOT happened yet" in write.calls[0]
+    assert record["anchor_event"] == "upcoming"
+
+    write2 = rewriter()
+    s2 = dated_scratch(15)
+    text, record2 = reanchor.reanchor(s2, DRIFTED_UNDATED, embedder(0.80), write2)
+    assert "already taken place" in write2.calls[0]
+    assert "has NOT happened yet" not in write2.calls[0]
+    assert record2["anchor_event"] == "past"

@@ -110,9 +110,21 @@ class _Recorder:
         config, persona_config = {}, {}
         try:
             from memory_ext import longevity, persona, retention, retrieval
+            from world_ext import emotion as world_emotion
+            from world_ext import needs as world_needs
+            from world_ext import relationships as world_relationships
+            from world_ext import snapshot as world_snapshot
 
             config, persona_config = retention.config(), persona.config()
-            config = dict(config, **retrieval.config(), **longevity.config())
+            config = dict(
+                config,
+                **retrieval.config(),
+                **longevity.config(),
+                **world_needs.config(),
+                **world_emotion.config(),
+                **world_relationships.config(),
+                **world_snapshot.config(),
+            )
         except Exception:
             pass  # a trace can still be read without the header
         self._write({"type": "run", "memory_config": config, "persona_config": persona_config})
@@ -182,6 +194,14 @@ class _Recorder:
         One agent's identity drift for one simulated day, and whether anything was done about it.
         """
         self._write({"type": "drift", "agent": agent, **record})
+
+    def evicted(self, agent, record):
+        """
+        One overnight eviction sweep: how big the store was, how big it is now, and under what cap.
+        Written at most once per agent per simulated day, and only when a sweep actually ran, so a town
+        trace shows exactly when forgetting happened and how much it took.
+        """
+        self._write({"type": "evicted", "agent": agent, **record})
 
     def embedding(self, text, vector, seconds):
         # Count and time every embedding even when the vectors are not
@@ -320,6 +340,12 @@ def drift(agent, record):
     """Record one agent's daily identity drift."""
     if recorder:
         recorder.drift(agent, record)
+
+
+def evicted(agent, record):
+    """Record one overnight memory-eviction sweep. Ignored when tracing is off."""
+    if recorder:
+        recorder.evicted(agent, record)
 
 
 def report():

@@ -1,0 +1,820 @@
+{% load staticfiles %}<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Ville</title>
+<!--
+  The Ville Viewer: the live town's own page (design doc: ville-viewer-and-world-layer.md).
+  Deliberately a standalone page, forked from home.html + main_script.html rather than sharing
+  them: the stock pages are the frozen baseline's UI and must keep behaving exactly as upstream
+  shipped them, while this page carries the new chrome (roster, HUD, agent card, conversation
+  drawer, skins) and the new data (needs, mood, relationships, identity, memory tiles). The engine
+  underneath is the same three-phase lockstep as main_script.html: POST the world to
+  process_environment, poll update_environment for the backend's move, animate it, repeat. That
+  transport is what makes this page a drop-in for run_livetown.py with no new plumbing.
+  Everything loads from vendored/local assets; the page works with the network cable pulled.
+-->
+<script src="{% static 'vendor/phaser-3.55.2/phaser.min.js' %}"></script>
+<style>
+  /* ---- skins: every colour the chrome uses is a variable, per the mockup ---- */
+  :root, body[data-skin="slate"] {
+    --bg: #10151c; --panel: #1a212bee; --panel-solid: #1a212b; --line: #2c3644;
+    --text: #e6e9ee; --text-dim: #97a3b4; --accent: #7aa2f7; --font: 'Courier New', monospace;
+    --green: #58b368; --amber: #e0a63f; --red: #d65a4a;
+  }
+  body[data-skin="parchment"] {
+    --bg: #26201a; --panel: #f3e9d2f2; --panel-solid: #f3e9d2; --line: #d3c4a3;
+    --text: #382d26; --text-dim: #7d6f5c; --accent: #8b5e34;
+  }
+  body[data-skin="plumbob"] {
+    --bg: #0d1512; --panel: #12201aee; --panel-solid: #12201a; --line: #1f3a2d;
+    --text: #d9f2e4; --text-dim: #7fa892; --accent: #34d17b;
+  }
+  /* mood families: fixed palette, one colour per Ekman family (word chips + rail dots) */
+  :root { --mood-joy:#e8b93f; --mood-neutral:#8fa3b8; --mood-sadness:#6c8fd6; --mood-fear:#9b7bd4;
+          --mood-anger:#d6684f; --mood-surprise:#4fc3c8; --mood-disgust:#7fae55; }
+
+  html, body { margin:0; padding:0; height:100%; background:var(--bg); overflow:hidden;
+               font-family:var(--font); color:var(--text); }
+  #game-container { position:fixed; inset:0; }
+  #game-container canvas { display:block; }
+
+  .panel { background:var(--panel); border:1px solid var(--line); border-radius:10px;
+           backdrop-filter: blur(2px); }
+  .ui { position:fixed; z-index:10; }
+  button { font-family:var(--font); background:transparent; color:var(--text); font-size:15px;
+           border:1px solid var(--line); border-radius:6px; padding:5px 12px; cursor:pointer; }
+  button:hover { border-color:var(--accent); color:var(--accent); }
+  button.on { background:var(--accent); color:var(--panel-solid); border-color:var(--accent); }
+
+  /* ---- top HUD ---- */
+  #hud { top:12px; left:50%; transform:translateX(-50%); display:flex; gap:18px;
+         align-items:center; padding:8px 18px; white-space:nowrap; }
+  #hud .clock { font-size:28px; letter-spacing:1px; }
+  #hud .date, #hud .step { color:var(--text-dim); font-size:15px; }
+
+  /* ---- system cluster (top right): skins + the two exit buttons ---- */
+  #system { top:12px; right:12px; display:flex; gap:8px; align-items:center; padding:6px 10px; }
+  #system .skin-dot { width:16px; height:16px; border-radius:50%; border:1px solid var(--line);
+                      cursor:pointer; padding:0; }
+  #skin-slate { background:#1a212b; } #skin-parchment { background:#f3e9d2; }
+  #skin-plumbob { background:#34d17b; }
+  #btn-save-exit { border-color:var(--accent); }
+  #btn-exit { color:var(--text-dim); }
+
+  /* ---- left rail: the roster ---- */
+  #roster { top:12px; left:12px; bottom:12px; width:264px; overflow-y:auto; padding:8px; }
+  #roster h1 { font-size:16px; letter-spacing:2px; color:var(--text-dim); margin:4px 6px 8px; }
+  .who { display:flex; align-items:center; gap:9px; padding:6px 7px; border-radius:8px;
+         cursor:pointer; border:1px solid transparent; }
+  .who:hover { border-color:var(--line); }
+  .who.selected { border-color:var(--accent); background:color-mix(in srgb, var(--accent) 12%, transparent); }
+  .who img { width:40px; height:40px; border-radius:6px; image-rendering:pixelated;
+             border:1px solid var(--line); }
+  .who .nm { font-size:16px; line-height:1.25; }
+  .who .md { font-size:13.5px; color:var(--text-dim); }
+  .who .dot { width:10px; height:10px; border-radius:50%; margin-left:auto; flex:none;
+              background:var(--line); }
+
+  /* ---- agent card (bottom left) ---- */
+  #agent-card { left:288px; bottom:12px; width:470px; max-height:60vh; display:none;
+                flex-direction:column; }
+  #agent-card.open { display:flex; }
+  #card-head { display:flex; gap:10px; padding:10px 12px 6px; align-items:center; }
+  #card-head img { width:54px; height:54px; border-radius:8px; image-rendering:pixelated;
+                   border:1px solid var(--line); }
+  #card-name { font-size:20px; }
+  #card-mood { display:inline-block; font-size:13.5px; padding:2px 9px; border-radius:11px;
+               color:#10151c; background:var(--mood-neutral); margin-top:3px; }
+  #card-close { margin-left:auto; border:none; font-size:16px; }
+  #card-doing { padding:0 12px 8px; font-size:14.5px; color:var(--text-dim); line-height:1.5; }
+  #card-doing b { color:var(--text); font-weight:normal; }
+  #tabs { display:flex; gap:2px; padding:0 10px; }
+  #tabs button { font-size:13.5px; letter-spacing:1px; border-radius:6px 6px 0 0;
+                 border-bottom:none; padding:6px 10px; }
+  #tab-body { border-top:1px solid var(--line); padding:10px 12px; overflow-y:auto;
+              font-size:14.5px; min-height:140px; }
+
+  .bar-row { display:flex; align-items:center; gap:9px; margin:7px 0; }
+  .bar-row label { width:110px; font-size:13px; letter-spacing:1px; color:var(--text-dim); }
+  .bar { flex:1; height:12px; background:color-mix(in srgb, var(--line) 60%, transparent);
+         border-radius:6px; overflow:hidden; }
+  .bar i { display:block; height:100%; border-radius:6px; background:var(--green);
+           transition:width .6s; }
+  .bar-row output { width:36px; text-align:right; font-size:13.5px; color:var(--text-dim); }
+
+  .tile { display:flex; gap:8px; padding:6px 8px; border:1px solid var(--line); border-radius:8px;
+          margin-bottom:6px; align-items:flex-start; }
+  .tile .em { font-size:17px; line-height:1.4; }
+  .tile .tx { flex:1; line-height:1.45; }
+  .tile .meta { font-size:12px; color:var(--text-dim); margin-top:2px; letter-spacing:0.5px; }
+  .tile[data-cat="conversation"] { border-left:3px solid var(--mood-surprise); }
+  .tile[data-cat="reflection"]   { border-left:3px solid var(--mood-fear); }
+  .tile[data-cat="plan"]         { border-left:3px solid var(--mood-joy); }
+  .tile[data-cat="social"]       { border-left:3px solid var(--mood-anger); }
+  .tile[data-cat="place"]        { border-left:3px solid var(--mood-sadness); }
+  .tile[data-cat="event"]        { border-left:3px solid var(--mood-neutral); }
+
+  .rel-row { margin:8px 0; }
+  .bar.signed { position:relative; }
+  .bar.signed::after { content:""; position:absolute; left:50%; top:-2px; bottom:-2px; width:1px;
+                       background:var(--text-dim); opacity:0.55; }
+  .bar.signed i { position:absolute; top:0; transition:none; }
+  .rel-row .rn { font-size:14.5px; margin-bottom:3px; }
+  .rel-row .bar-row { margin:2px 0; }
+
+  #tab-body h4 { font-size:12px; letter-spacing:2px; color:var(--text-dim); margin:10px 0 4px; }
+  #tab-body h4:first-child { margin-top:0; }
+  #tab-body p { margin:0 0 6px; line-height:1.5; }
+  .drift-entry { font-size:12px; color:var(--text-dim); padding:2px 0; }
+  .drift-entry b { color:var(--accent); font-weight:normal; }
+
+  /* ---- conversation drawer (right) ---- */
+  #drawer { top:64px; right:12px; bottom:12px; width:380px; transform:translateX(420px);
+            transition:transform .3s; display:flex; flex-direction:column; }
+  #drawer.open { transform:none; }
+  #drawer header { display:flex; padding:10px 12px; font-size:14.5px; letter-spacing:1px;
+                   color:var(--text-dim); border-bottom:1px solid var(--line); }
+  #drawer header button { margin-left:auto; border:none; padding:0 4px; }
+  #chat-log { overflow-y:auto; padding:10px; flex:1; }
+  .utt { display:flex; gap:8px; margin-bottom:9px; }
+  .utt img { width:30px; height:30px; border-radius:6px; image-rendering:pixelated; flex:none; }
+  .utt .bub { background:color-mix(in srgb, var(--line) 45%, transparent); border-radius:8px;
+              padding:7px 10px; font-size:14.5px; line-height:1.5; }
+  .utt .bub b { display:block; font-size:12px; color:var(--text-dim); font-weight:normal;
+                letter-spacing:1px; margin-bottom:2px; }
+  #drawer-tab { top:64px; right:12px; padding:6px 10px; font-size:14.5px; }
+
+  /* ---- closing overlay ---- */
+  #closed { position:fixed; inset:0; z-index:50; display:none; align-items:center;
+            justify-content:center; background:#000000cc; text-align:center; line-height:2; }
+  #closed.open { display:flex; }
+</style>
+</head>
+<body data-skin="slate">
+
+<div id="step" style="display:none">{{step}}</div>
+<div id="sim_code" style="display:none">{{sim_code}}</div>
+<div id="persona_init_pos" style="display:none">
+  {% for i in persona_init_pos %}<span>{{i.0}},{{i.1}},{{i.2}}</span>{% endfor %}
+</div>
+<div id="persona_profiles" style="display:none">
+  {% for p in persona_names %}<span data-name="{{p.original}}" data-img="{{p.profile}}"></span>{% endfor %}
+</div>
+
+<div id="game-container"></div>
+
+<div id="roster" class="ui panel"><h1>THE VILLE · {{sim_code}}</h1></div>
+
+<div id="hud" class="ui panel">
+  <span class="clock" id="hud-clock">--:--</span>
+  <span class="date" id="hud-date"></span>
+  <span class="step">step <span id="hud-step">{{step}}</span></span>
+  <button id="btn-follow">FOLLOW CAM</button>
+</div>
+
+<div id="system" class="ui panel">
+  <button class="skin-dot" id="skin-slate" title="slate"></button>
+  <button class="skin-dot" id="skin-parchment" title="parchment"></button>
+  <button class="skin-dot" id="skin-plumbob" title="plumbob"></button>
+  <button id="btn-save-exit">SAVE + EXIT</button>
+  <button id="btn-exit">EXIT</button>
+</div>
+
+<div id="agent-card" class="ui panel">
+  <div id="card-head">
+    <img id="card-img" src="" alt="">
+    <div><div id="card-name"></div><span id="card-mood">calm</span></div>
+    <button id="card-close">✕</button>
+  </div>
+  <div id="card-doing"><b id="card-action"></b><br><span id="card-address"></span></div>
+  <div id="tabs">
+    <button data-tab="needs" class="on">NEEDS</button>
+    <button data-tab="memories">MEMORIES</button>
+    <button data-tab="relationships">RELATIONSHIPS</button>
+    <button data-tab="identity">IDENTITY</button>
+  </div>
+  <div id="tab-body"></div>
+</div>
+
+<button id="drawer-tab" class="ui panel">💬 conversation</button>
+<div id="drawer" class="ui panel">
+  <header>CONVERSATION <button id="drawer-close">✕</button></header>
+  <div id="chat-log"><p style="color:var(--text-dim);font-size:13px;padding:4px">
+    Nothing yet. The drawer opens when two characters start talking, and holds the conversation
+    until the next one begins.</p></div>
+</div>
+
+<div id="closed"><div class="panel" style="padding:28px 36px" id="closed-msg"></div></div>
+
+<script type="text/javascript">
+// =====================================================================================
+// ENGINE (forked from main_script.html: the same three-phase lockstep, restyled)
+// =====================================================================================
+let step = parseInt(document.getElementById('step').innerHTML);
+let sim_code = document.getElementById('sim_code').innerHTML;
+
+let spans = document.getElementById('persona_init_pos').getElementsByTagName('span');
+let persona_names = {};
+for (var i = 0; i < spans.length; i++) {
+  let x = spans[i].innerText.split(",");
+  persona_names[x[0]] = [parseInt(x[1]), parseInt(x[2])];
+}
+let profiles = {};
+document.querySelectorAll('#persona_profiles span').forEach(function (s) {
+  profiles[s.dataset.name] = s.dataset.img;
+});
+
+const config = {
+  type: Phaser.AUTO,
+  width: window.innerWidth,
+  height: window.innerHeight,
+  parent: "game-container",
+  pixelArt: true,
+  physics: { default: "arcade", arcade: { gravity: { y: 0 } } },
+  scale: { mode: Phaser.Scale.RESIZE },
+  scene: { preload: preload, create: create, update: update } };
+
+const game = new Phaser.Game(config);
+let cursors, player, camera;
+var personas = {};
+var pronunciatios = {};     // the thought-bubble chip: the action emoji over each head
+let scene = null;           // the Phaser scene, captured in create(); playback timers spawn into it
+let bubbles = [];           // every live speech bubble, tracked so overlap can be resolved per frame
+let playbacks = {};         // conversation key -> playback state (one bubble at a time, in order)
+let played = new Set();     // conversation keys already performed, so a finished one never restarts
+let pre_anims_direction_dict = {};
+let curr_maze = "the_ville";
+let tile_width = 32;
+let movement_speed = 32;
+let timer_max = 0;
+let timer = timer_max;
+let phase = "update";
+let execute_movement;
+let execute_count_max = tile_width / movement_speed;
+let execute_count = execute_count_max;
+let movement_target = {};
+
+function preload() {
+  this.load.image("blocks_1", "{% static 'assets/the_ville/visuals/map_assets/blocks/blocks_1.png' %}");
+  this.load.image("walls", "{% static 'assets/the_ville/visuals/map_assets/v1/Room_Builder_32x32.png' %}");
+  this.load.image("interiors_pt1", "{% static 'assets/the_ville/visuals/map_assets/v1/interiors_pt1.png' %}");
+  this.load.image("interiors_pt2", "{% static 'assets/the_ville/visuals/map_assets/v1/interiors_pt2.png' %}");
+  this.load.image("interiors_pt3", "{% static 'assets/the_ville/visuals/map_assets/v1/interiors_pt3.png' %}");
+  this.load.image("interiors_pt4", "{% static 'assets/the_ville/visuals/map_assets/v1/interiors_pt4.png' %}");
+  this.load.image("interiors_pt5", "{% static 'assets/the_ville/visuals/map_assets/v1/interiors_pt5.png' %}");
+  this.load.image("CuteRPG_Field_B", "{% static 'assets/the_ville/visuals/map_assets/cute_rpg_word_VXAce/tilesets/CuteRPG_Field_B.png' %}");
+  this.load.image("CuteRPG_Field_C", "{% static 'assets/the_ville/visuals/map_assets/cute_rpg_word_VXAce/tilesets/CuteRPG_Field_C.png' %}");
+  this.load.image("CuteRPG_Harbor_C", "{% static 'assets/the_ville/visuals/map_assets/cute_rpg_word_VXAce/tilesets/CuteRPG_Harbor_C.png' %}");
+  this.load.image("CuteRPG_Village_B", "{% static 'assets/the_ville/visuals/map_assets/cute_rpg_word_VXAce/tilesets/CuteRPG_Village_B.png' %}");
+  this.load.image("CuteRPG_Forest_B", "{% static 'assets/the_ville/visuals/map_assets/cute_rpg_word_VXAce/tilesets/CuteRPG_Forest_B.png' %}");
+  this.load.image("CuteRPG_Desert_C", "{% static 'assets/the_ville/visuals/map_assets/cute_rpg_word_VXAce/tilesets/CuteRPG_Desert_C.png' %}");
+  this.load.image("CuteRPG_Mountains_B", "{% static 'assets/the_ville/visuals/map_assets/cute_rpg_word_VXAce/tilesets/CuteRPG_Mountains_B.png' %}");
+  this.load.image("CuteRPG_Desert_B", "{% static 'assets/the_ville/visuals/map_assets/cute_rpg_word_VXAce/tilesets/CuteRPG_Desert_B.png' %}");
+  this.load.image("CuteRPG_Forest_C", "{% static 'assets/the_ville/visuals/map_assets/cute_rpg_word_VXAce/tilesets/CuteRPG_Forest_C.png' %}");
+  this.load.tilemapTiledJSON("map", "{% static 'assets/the_ville/visuals/the_ville_jan7.json' %}");
+  {% for p in persona_names %}
+  this.load.atlas("{{ p.underscore }}", "{{ p.sprite }}", "{{ atlas_json }}");
+  {% endfor %}
+  this.load.atlas("atlas", "{{ camera_sprite }}", "{{ atlas_json }}");
+}
+
+function create() {
+  scene = this;
+  const map = this.make.tilemap({ key: "map" });
+  const collisions = map.addTilesetImage("blocks", "blocks_1");
+  const walls = map.addTilesetImage("Room_Builder_32x32", "walls");
+  const interiors_pt1 = map.addTilesetImage("interiors_pt1", "interiors_pt1");
+  const interiors_pt2 = map.addTilesetImage("interiors_pt2", "interiors_pt2");
+  const interiors_pt3 = map.addTilesetImage("interiors_pt3", "interiors_pt3");
+  const interiors_pt4 = map.addTilesetImage("interiors_pt4", "interiors_pt4");
+  const interiors_pt5 = map.addTilesetImage("interiors_pt5", "interiors_pt5");
+  const CuteRPG_Field_B = map.addTilesetImage("CuteRPG_Field_B", "CuteRPG_Field_B");
+  const CuteRPG_Field_C = map.addTilesetImage("CuteRPG_Field_C", "CuteRPG_Field_C");
+  const CuteRPG_Harbor_C = map.addTilesetImage("CuteRPG_Harbor_C", "CuteRPG_Harbor_C");
+  const CuteRPG_Village_B = map.addTilesetImage("CuteRPG_Village_B", "CuteRPG_Village_B");
+  const CuteRPG_Forest_B = map.addTilesetImage("CuteRPG_Forest_B", "CuteRPG_Forest_B");
+  const CuteRPG_Desert_C = map.addTilesetImage("CuteRPG_Desert_C", "CuteRPG_Desert_C");
+  const CuteRPG_Mountains_B = map.addTilesetImage("CuteRPG_Mountains_B", "CuteRPG_Mountains_B");
+  const CuteRPG_Desert_B = map.addTilesetImage("CuteRPG_Desert_B", "CuteRPG_Desert_B");
+  const CuteRPG_Forest_C = map.addTilesetImage("CuteRPG_Forest_C", "CuteRPG_Forest_C");
+
+  let tileset_group_1 = [CuteRPG_Field_B, CuteRPG_Field_C, CuteRPG_Harbor_C, CuteRPG_Village_B,
+                         CuteRPG_Forest_B, CuteRPG_Desert_C, CuteRPG_Mountains_B, CuteRPG_Desert_B,
+                         CuteRPG_Forest_C, interiors_pt1, interiors_pt2, interiors_pt3,
+                         interiors_pt4, interiors_pt5, walls];
+  map.createLayer("Bottom Ground", tileset_group_1, 0, 0);
+  map.createLayer("Exterior Ground", tileset_group_1, 0, 0);
+  map.createLayer("Exterior Decoration L1", tileset_group_1, 0, 0);
+  map.createLayer("Exterior Decoration L2", tileset_group_1, 0, 0);
+  map.createLayer("Interior Ground", tileset_group_1, 0, 0);
+  map.createLayer("Wall", [CuteRPG_Field_C, walls], 0, 0);
+  map.createLayer("Interior Furniture L1", tileset_group_1, 0, 0);
+  map.createLayer("Interior Furniture L2 ", tileset_group_1, 0, 0);
+  map.createLayer("Foreground L1", tileset_group_1, 0, 0).setDepth(2);
+  map.createLayer("Foreground L2", tileset_group_1, 0, 0).setDepth(2);
+  const collisionsLayer = map.createLayer("Collisions", collisions, 0, 0);
+  collisionsLayer.setCollisionByProperty({ collide: true });
+  collisionsLayer.setDepth(-1);
+
+  player = this.physics.add.sprite(800, 288, "atlas", "down").setSize(30, 40).setOffset(0, 0);
+  player.setDepth(-1);
+  camera = this.cameras.main;
+  camera.startFollow(player);
+  camera.setBounds(0, 0, map.widthInPixels, map.heightInPixels);
+  cursors = this.input.keyboard.createCursorKeys();
+
+  for (let name of Object.keys(persona_names)) {
+    let pos = [persona_names[name][0] * tile_width + tile_width / 2,
+               persona_names[name][1] * tile_width + tile_width];
+    let sprite = this.physics.add.sprite(pos[0], pos[1], name.replace(/ /g, "_"), "down")
+                     .setSize(30, 40).setOffset(0, 32);
+    sprite.setInteractive({ useHandCursor: true });
+    sprite.on("pointerdown", function () { select(name); });
+    personas[name] = sprite;
+    // The thought-bubble chip: the Sims-style at-a-glance indicator, emoji only (a spectator
+    // should not need a legend, and the name lives in the rail and the card).
+    pronunciatios[name] = this.add.text(sprite.body.x - 6, sprite.body.y - 60, "💭",
+        { font: "26px monospace", fill: "#000000", padding: { x: 7, y: 5 },
+          backgroundColor: "#ffffffdd" }).setDepth(3);
+  }
+
+  const anims = this.anims;
+  for (let name of Object.keys(persona_names)) {
+    let key = name.replace(/ /g, "_");
+    ["left", "right", "down", "up"].forEach(function (dir) {
+      anims.create({ key: key + "-" + dir + "-walk",
+        frames: anims.generateFrameNames(key, { prefix: dir + "-walk.", start: 0, end: 3, zeroPad: 3 }),
+        frameRate: 4, repeat: -1 });
+    });
+  }
+}
+
+function update(time, delta) {
+  update_bubbles(delta || 16);
+  const camera_speed = 400;
+  player.body.setVelocity(0);
+  if (cursors.left.isDown)  player.body.setVelocityX(-camera_speed);
+  if (cursors.right.isDown) player.body.setVelocityX(camera_speed);
+  if (cursors.up.isDown)    player.body.setVelocityY(-camera_speed);
+  if (cursors.down.isDown)  player.body.setVelocityY(camera_speed);
+  // Any arrow key means the spectator wants the wheel back.
+  if (ui.follow && (cursors.left.isDown || cursors.right.isDown ||
+                    cursors.up.isDown || cursors.down.isDown)) unfollow();
+
+  if (phase == "process") {
+    let data = { "step": step, "sim_code": sim_code, "environment": {} };
+    for (let name of Object.keys(personas)) {
+      data["environment"][name] = { "maze": curr_maze,
+        "x": Math.ceil(personas[name].body.position.x / tile_width),
+        "y": Math.ceil(personas[name].body.position.y / tile_width) };
+    }
+    var xo = new XMLHttpRequest();
+    xo.overrideMimeType("application/json");
+    xo.open('POST', "{% url 'process_environment' %}", true);
+    xo.send(JSON.stringify(data));
+    phase = "update";
+  }
+
+  else if (phase == "update") {
+    if (timer <= 0) {
+      var xo = new XMLHttpRequest();
+      xo.overrideMimeType("application/json");
+      xo.open('POST', "{% url 'update_environment' %}", true);
+      xo.addEventListener("load", function () {
+        if (this.readyState === 4 && xo.status === 200) {
+          if (JSON.parse(xo.responseText)["<step>"] == step) {
+            execute_movement = JSON.parse(xo.responseText);
+            phase = "execute";
+          }
+          timer = timer_max;
+        }
+      });
+      xo.send(JSON.stringify({ "step": step, "sim_code": sim_code }));
+    }
+    timer = timer - 1;
+  }
+
+  else {
+    for (let name of Object.keys(personas)) {
+      let sprite = personas[name];
+      let move = execute_movement["persona"][name];
+
+      if (execute_count == execute_count_max) {
+        movement_target[name] = [move["movement"][0] * tile_width,
+                                 move["movement"][1] * tile_width];
+      }
+
+      if (execute_count > 0) {
+        let dir = "";
+        if (sprite.body.x < movement_target[name][0])      { sprite.body.x += movement_speed; dir = "r"; }
+        else if (sprite.body.x > movement_target[name][0]) { sprite.body.x -= movement_speed; dir = "l"; }
+        else if (sprite.body.y < movement_target[name][1]) { sprite.body.y += movement_speed; dir = "d"; }
+        else if (sprite.body.y > movement_target[name][1]) { sprite.body.y -= movement_speed; dir = "u"; }
+        if (dir) pre_anims_direction_dict[name] = dir;
+
+        pronunciatios[name].x = sprite.body.x - 6;
+        pronunciatios[name].y = sprite.body.y - 60;
+
+        let key = name.replace(/ /g, "_");
+        if (dir == "l") sprite.anims.play(key + "-left-walk", true);
+        else if (dir == "r") sprite.anims.play(key + "-right-walk", true);
+        else if (dir == "u") sprite.anims.play(key + "-up-walk", true);
+        else if (dir == "d") sprite.anims.play(key + "-down-walk", true);
+        else {
+          sprite.anims.stop();
+          let last = pre_anims_direction_dict[name];
+          if (last == "l") sprite.setTexture(key, "left");
+          else if (last == "r") sprite.setTexture(key, "right");
+          else if (last == "u") sprite.setTexture(key, "up");
+          else if (last == "d") sprite.setTexture(key, "down");
+        }
+      } else {
+        for (let n of Object.keys(personas)) {
+          personas[n].body.x = movement_target[n][0];
+          personas[n].body.y = movement_target[n][1];
+        }
+        phase = "process";
+        execute_count = execute_count_max + 1;
+        step = step + 1;
+      }
+    }
+
+    if (execute_count == execute_count_max) on_step(execute_movement);
+    execute_count = execute_count - 1;
+  }
+}
+
+// =====================================================================================
+// CHROME (the new interface; everything below is DOM, no Phaser)
+// =====================================================================================
+let ui = { selected: null, follow: false, tab: "needs", got_step: false,
+           world: {}, actions: {}, convo_key: "", snapshot: null };
+
+const NEEDS_ORDER = ["sleep", "hunger", "fun", "hygiene", "bladder", "social"];
+const MOOD_VAR = { joy: "--mood-joy", neutral: "--mood-neutral", sadness: "--mood-sadness",
+                   fear: "--mood-fear", anger: "--mood-anger", surprise: "--mood-surprise",
+                   disgust: "--mood-disgust" };
+
+// ---- roster ----
+const roster = document.getElementById("roster");
+for (let name of Object.keys(persona_names).sort()) {
+  let row = document.createElement("div");
+  row.className = "who";
+  row.id = "who__" + name.replace(/ /g, "_");
+  row.innerHTML = '<img src="' + profiles[name] + '">' +
+                  '<div><div class="nm">' + name + '</div><div class="md"></div></div>' +
+                  '<span class="dot"></span>';
+  row.onclick = function () { select(name); };
+  roster.appendChild(row);
+}
+
+function select(name) {
+  ui.selected = name;
+  ui.snapshot = null;
+  document.querySelectorAll(".who").forEach(function (r) { r.classList.remove("selected"); });
+  document.getElementById("who__" + name.replace(/ /g, "_")).classList.add("selected");
+  document.getElementById("agent-card").classList.add("open");
+  document.getElementById("card-img").src = profiles[name];
+  document.getElementById("card-name").innerText = name;
+  render_card();
+  fetch_snapshot();
+  if (ui.follow) camera.startFollow(personas[name], true, 0.08, 0.08);
+}
+
+document.getElementById("card-close").onclick = function () {
+  ui.selected = null;
+  document.getElementById("agent-card").classList.remove("open");
+  document.querySelectorAll(".who").forEach(function (r) { r.classList.remove("selected"); });
+  if (ui.follow) unfollow();
+};
+
+// ---- follow cam ----
+const followBtn = document.getElementById("btn-follow");
+followBtn.onclick = function () { ui.follow ? unfollow() : follow(); };
+function follow() {
+  if (!ui.selected) return;
+  ui.follow = true;
+  followBtn.classList.add("on");
+  camera.startFollow(personas[ui.selected], true, 0.08, 0.08);
+}
+function unfollow() {
+  ui.follow = false;
+  followBtn.classList.remove("on");
+  player.body.x = camera.midPoint.x;   // hand the wheel back where the spectator left off
+  player.body.y = camera.midPoint.y;
+  camera.startFollow(player);
+}
+
+// ---- tabs ----
+document.querySelectorAll("#tabs button").forEach(function (b) {
+  b.onclick = function () {
+    ui.tab = b.dataset.tab;
+    document.querySelectorAll("#tabs button").forEach(function (x) { x.classList.remove("on"); });
+    b.classList.add("on");
+    render_card();
+  };
+});
+
+// ---- speech bubble playback ----
+// A conversation arrives whole in one step's data, so showing it is a staging problem: one bubble
+// at a time, each held for a length-scaled beat, then floating up and fading as the reply arrives.
+// A playback runs at its own pace to the end of the transcript, even after the speakers have moved
+// on to other things, so no conversation is ever cut off mid-performance. Bubbles can never
+// overlap: the newest line stays anchored at its speaker and anything older is pushed up above it,
+// so the fading previous line floats over the fresh one, never under it.
+
+function convo_key(chat) {
+  return chat.map(function (u) { return u[0] + "|" + u[1]; }).join("~");
+}
+
+function start_playback(key, lines) {
+  played.add(key);
+  playbacks[key] = { lines: lines, idx: 0, timer: null, current: null };
+  spawn_next(key);
+}
+
+function spawn_next(key) {
+  let p = playbacks[key];
+  if (!p) return;
+  if (p.current) { p.current.state = "fading"; p.current = null; }
+  if (p.idx >= p.lines.length || !scene) { delete playbacks[key]; return; }
+  let who = p.lines[p.idx][0], text = p.lines[p.idx][1];
+  p.idx += 1;
+  if (!personas[who]) { spawn_next(key); return; }
+  let bubble = { who: who, state: "hold", rise: 0, alpha: 1,
+                 txt: scene.add.text(0, 0, text,
+                     { font: "18px monospace", fill: "#111111", padding: { x: 10, y: 8 },
+                       backgroundColor: "#fffff2", wordWrap: { width: 290 } }).setDepth(4) };
+  bubbles.push(bubble);
+  p.current = bubble;
+  refresh_chip(who);
+  let hold = Math.min(9000, 2600 + 45 * text.length);
+  p.timer = setTimeout(function () { spawn_next(key); }, hold);
+}
+
+function refresh_chip(who) {
+  let talking = bubbles.some(function (b) { return b.who == who && b.state == "hold"; });
+  if (pronunciatios[who]) pronunciatios[who].setVisible(!talking);
+}
+
+function update_bubbles(delta) {
+  for (let b of bubbles) {
+    let sprite = personas[b.who];
+    if (!sprite) continue;
+    if (b.state == "fading") {
+      b.rise += delta * 0.045;
+      b.alpha -= delta / 1600;
+    }
+    b.txt.setAlpha(Math.max(0, b.alpha));
+    b.txt.x = sprite.body.x + 22;
+    b.txt.y = sprite.body.y - 96 - b.txt.height - b.rise;
+  }
+  // Stacking, oldest bubble on top: bubbles[] is in spawn order, so working backwards from the
+  // newest, each older bubble is pushed above any newer one it would cover. The newest line never
+  // moves off its speaker; the fading previous line floats above it. The retry loop settles
+  // chains (a push can create a new touch higher up); a handful of bubbles keeps it cheap.
+  for (let i = bubbles.length - 2; i >= 0; i--) {
+    let moved = true, guard = 0;
+    while (moved && guard++ < 8) {
+      moved = false;
+      for (let j = i + 1; j < bubbles.length; j++) {
+        let a = bubbles[i].txt.getBounds(), c = bubbles[j].txt.getBounds();
+        if (Phaser.Geom.Intersects.RectangleToRectangle(a, c)) {
+          bubbles[i].txt.y = c.y - a.height - 8;
+          moved = true;
+        }
+      }
+    }
+  }
+  bubbles = bubbles.filter(function (b) {
+    if (b.alpha <= 0) { b.txt.destroy(); refresh_chip(b.who); return false; }
+    return true;
+  });
+}
+
+// ---- per-step updates (called once per completed backend step) ----
+function on_step(movement) {
+  let meta_time = movement["meta"]["curr_time"];       // "February 13, 2023, 14:23:20"
+  let parts = meta_time.split(", ");
+  document.getElementById("hud-clock").innerText = (parts[2] || "").slice(0, 5);
+  document.getElementById("hud-date").innerText = parts[0];
+  document.getElementById("hud-step").innerText = step;
+
+  ui.got_step = true;
+  let convos = {};                 // conversations present this step: key -> {lines, who}
+  for (let name of Object.keys(personas)) {
+    let move = movement["persona"][name];
+    ui.actions[name] = move["description"] || "";
+    if (move["world"]) ui.world[name] = move["world"];
+
+    // The thought-bubble chip and the rail row. Chip visibility belongs to the bubble engine.
+    pronunciatios[name].setText(move["pronunciatio"] || "💭");
+    let row = document.getElementById("who__" + name.replace(/ /g, "_"));
+    let w = ui.world[name];
+    if (w && w.mood) {
+      row.querySelector(".md").innerText = w.mood.word;
+      row.querySelector(".dot").style.background =
+        getComputedStyle(document.body).getPropertyValue(MOOD_VAR[w.mood.family] || "--mood-neutral");
+    }
+
+    if (move["chat"] && move["chat"].length) {
+      let key = convo_key(move["chat"]);
+      if (!convos[key]) convos[key] = { lines: move["chat"], who: [] };
+      convos[key].who.push(name);
+    }
+  }
+
+  // Perform conversations that just began. A playback already running is left alone: it finishes
+  // the whole transcript at its own pace, even when its speakers have moved on to other things.
+  for (let key of Object.keys(convos)) {
+    if (!played.has(key)) start_playback(key, convos[key].lines);
+  }
+
+  // The drawer shows the selected character's conversation when they are in one, otherwise the
+  // conversation it is already showing while it lasts, otherwise the newest; and it holds the
+  // last conversation on screen until the next begins.
+  let keys = Object.keys(convos);
+  if (keys.length) {
+    let pick = keys.find(function (k) {
+      return ui.selected && convos[k].who.indexOf(ui.selected) >= 0; });
+    if (!pick) pick = keys.indexOf(ui.convo_key) >= 0 ? ui.convo_key : keys[0];
+    if (pick != ui.convo_key) {
+      ui.convo_key = pick;
+      let log = document.getElementById("chat-log");
+      log.innerHTML = "";
+      for (let u of convos[pick].lines) {
+        let el = document.createElement("div");
+        el.className = "utt";
+        el.innerHTML = '<img src="' + (profiles[u[0]] || "") + '">' +
+                       '<div class="bub"><b>' + u[0] + '</b>' + u[1] + '</div>';
+        log.appendChild(el);
+      }
+      document.getElementById("drawer").classList.add("open");
+    }
+  }
+
+  if (ui.selected) render_card();
+}
+
+// ---- the agent card ----
+function render_card() {
+  if (!ui.selected) return;
+  let name = ui.selected;
+  let w = ui.world[name];
+
+  let action = (ui.actions[name] || "").split("@");
+  document.getElementById("card-action").innerText = action[0] || "…";
+  document.getElementById("card-address").innerText = (action[1] || "").trim();
+
+  let chip = document.getElementById("card-mood");
+  if (w && w.mood) {
+    chip.innerText = w.mood.word;
+    chip.style.background =
+      getComputedStyle(document.body).getPropertyValue(MOOD_VAR[w.mood.family] || "--mood-neutral");
+  } else { chip.innerText = "·"; }
+
+  let body = document.getElementById("tab-body");
+  if (ui.tab == "needs") {
+    if (!w || !w.needs) {
+      body.innerHTML = ui.got_step
+        ? '<p style="color:var(--text-dim)">The world layer is off for this run.</p>'
+        : '<p style="color:var(--text-dim)">Waiting for the simulation to take its first ' +
+          'step… the needs bars appear as soon as it does.</p>';
+      return;
+    }
+    body.innerHTML = NEEDS_ORDER.map(function (n) {
+      let v = Math.round(w.needs[n]);
+      let colour = v < 25 ? "var(--red)" : (v < 50 ? "var(--amber)" : "var(--green)");
+      return '<div class="bar-row"><label>' + n.toUpperCase() + '</label>' +
+             '<span class="bar"><i style="width:' + v + '%;background:' + colour + '"></i></span>' +
+             '<output>' + v + '</output></div>';
+    }).join("");
+  }
+  else if (ui.tab == "memories") {
+    let snap = ui.snapshot;
+    if (!snap || !snap.memories) { body.innerHTML = loading(); return; }
+    body.innerHTML = snap.memories.map(function (m) {
+      let dots = "●".repeat(Math.max(1, Math.min(10, m.poignancy)));
+      return '<div class="tile" data-cat="' + m.category + '"><span class="em">' + m.emoji +
+             '</span><div class="tx">' + m.description +
+             '<div class="meta">' + m.category.toUpperCase() + ' · ' + m.created +
+             ' · <span title="poignancy ' + m.poignancy + '">' + dots + '</span></div></div></div>';
+    }).join("");
+  }
+  else if (ui.tab == "relationships") {
+    let snap = ui.snapshot;
+    if (!snap) { body.innerHTML = loading(); return; }
+    let rel = snap.relationships || {};
+    let names = Object.keys(rel).sort(function (a, b) {
+      return (Math.abs(rel[b].friendship) + Math.abs(rel[b].romance)) -
+             (Math.abs(rel[a].friendship) + Math.abs(rel[a].romance)); });
+    if (!names.length) {
+      body.innerHTML = '<p style="color:var(--text-dim)">No one yet: the scores appear as ' +
+                       name.split(" ")[0] + ' talks to people.</p>';
+      return;
+    }
+    body.innerHTML = '<p style="color:var(--text-dim)">How ' + name.split(" ")[0] +
+      ' feels about them; they keep their own scores. The scale runs -100 to 100.</p>' +
+      names.map(function (other) {
+      return '<div class="rel-row"><div class="rn">' + other + '</div>' +
+        '<div class="bar-row"><label>FRIENDSHIP</label>' +
+        signed_bar(rel[other].friendship, 'var(--accent)') + '<output>' +
+        Math.round(rel[other].friendship) + '</output></div>' +
+        '<div class="bar-row"><label>ROMANCE</label>' +
+        signed_bar(rel[other].romance, 'var(--mood-anger)') + '<output>' +
+        Math.round(rel[other].romance) + '</output></div></div>';
+    }).join("");
+  }
+  else if (ui.tab == "identity") {
+    let snap = ui.snapshot;
+    if (!snap || !snap.identity) { body.innerHTML = loading(); return; }
+    let id = snap.identity;
+    let drift = (id.drift_log || []).slice().reverse().map(function (d) {
+      return '<div class="drift-entry">' + d.day + ' · drift ' +
+             (d.drift == null ? "?" : Number(d.drift).toFixed(2)) +
+             (d.corrected ? ' · <b>re-anchored</b>' : '') + '</div>';
+    }).join("");
+    body.innerHTML =
+      '<h4>AS WRITTEN</h4><p>' + id.seed + '</p>' +
+      '<h4>RIGHT NOW</h4><p>' + id.currently + '</p>' +
+      '<h4>TRAITS</h4><p>' + id.innate + '</p>' +
+      (drift ? '<h4>DRIFT, DAY BY DAY</h4>' + drift : '');
+  }
+}
+function signed_bar(value, colour) {
+  // Centre-zero: positive fills rightward from the middle, negative leftward. 100 is half the bar.
+  let width = Math.min(50, Math.abs(value) / 2);
+  let left = value >= 0 ? 50 : 50 - width;
+  return '<span class="bar signed"><i style="left:' + left + '%;width:' + width +
+         '%;background:' + colour + '"></i></span>';
+}
+
+function loading() {
+  return '<p style="color:var(--text-dim)">Waiting for the first snapshot ' +
+         '(the backend writes one every few simulated minutes)…</p>';
+}
+
+// ---- the slow feed: one snapshot fetch every few real seconds, selected character only ----
+function fetch_snapshot() {
+  if (!ui.selected) return;
+  let name = ui.selected;
+  fetch("/livetown_snapshot/" + name.replace(/ /g, "_") + "/")
+    .then(function (r) { return r.json(); })
+    .then(function (snap) {
+      if (ui.selected == name && snap && snap.name) { ui.snapshot = snap; render_card(); }
+    })
+    .catch(function () {});
+}
+setInterval(fetch_snapshot, 4000);
+
+// ---- drawer ----
+document.getElementById("drawer-close").onclick = function () {
+  document.getElementById("drawer").classList.remove("open");
+};
+document.getElementById("drawer-tab").onclick = function () {
+  document.getElementById("drawer").classList.toggle("open");
+};
+
+// ---- skins ----
+["slate", "parchment", "plumbob"].forEach(function (skin) {
+  document.getElementById("skin-" + skin).onclick = function () {
+    document.body.dataset.skin = skin;
+    try { localStorage.setItem("livetown_skin", skin); } catch (e) {}
+    render_card();
+  };
+});
+try {
+  let saved = localStorage.getItem("livetown_skin");
+  if (saved) document.body.dataset.skin = saved;
+} catch (e) {}
+
+// ---- save-and-exit / exit: the buttons behind run_livetown's control file ----
+function town_control(action, message) {
+  fetch("{% url 'livetown_control' %}", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ "action": action }) })
+  .then(function (r) { return r.json(); })
+  .then(function (out) {
+    if (out.ok) {
+      document.getElementById("closed-msg").innerText = message;
+      document.getElementById("closed").classList.add("open");
+    }
+  })
+  .catch(function () { alert("Could not reach the server."); });
+}
+document.getElementById("btn-save-exit").onclick = function () {
+  if (confirm("Save the town and stop the backend?"))
+    town_control("save_exit",
+      "Saved. The town is closing; launching it again picks up exactly here.");
+};
+document.getElementById("btn-exit").onclick = function () {
+  if (confirm("Exit WITHOUT saving? The next launch resumes from the last checkpoint " +
+              "(midnight autosave or last save-and-exit)."))
+    town_control("exit", "The town is closing without saving; the next launch resumes " +
+                         "from the last checkpoint.");
+};
+</script>
+</body>
+</html>
