@@ -1,0 +1,100 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        19
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\ude0a",
+      "description": "Isabella is continuing to manage customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (serving customers their meals and checking on them for satisfaction) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        75,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Klaus Mueller discussing their plans to meet at Hobbs Cafe tomorrow to discuss his research on gentrification, incorporating real-life stories and thought-provoking questions for her Twitch audience. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus! How's your lunch going? I was hoping we could talk about our plans for tomorrow at Hobbs Cafe. Are you still free to meet up and discuss your research on gentrification?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Maria! My lunch is great, thanks. Of course, I'm free to meet and discuss my research tomorrow. Looking forward to our talk and sharing insights on how gentrification impacts communities."
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, I think it'll be really beneficial to bring some real-life stories into our discussion. It will help make your research more relatable for my audience on Twitch. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "I completely agree, Maria. Sharing real-life stories could really help illustrate the effects of gentrification and inspire action among viewers. Can we also brainstorm some thought-provoking questions during our meeting to engage the audience on Twitch?"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds like a great idea, Klaus. Let's aim to come up with some engaging questions that encourage our audience to think critically about gentrification and its effects on communities. Shall we start drafting those once we meet?"
+        ],
+        [
+          "Klaus Mueller",
+          "That works for me. I'll bring some key data and stories to our meeting as well, so we can start drafting those questions right away."
+        ],
+        [
+          "Maria Lopez",
+          "Perfect, Klaus. I'll make sure to have my notes on how we can structure the Twitch stream and any ideas for introducing your research in an engaging way. See you tomorrow at 3 PM sharp!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Maria. I'll see you tomorrow at 3 PM then. Looking forward to our meeting and making a difference together."
+        ]
+      ]
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Klaus Mueller discussing their plans to meet at Hobbs Cafe tomorrow to discuss his research on gentrification, incorporating real-life stories and thought-provoking questions for her Twitch audience. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus! How's your lunch going? I was hoping we could talk about our plans for tomorrow at Hobbs Cafe. Are you still free to meet up and discuss your research on gentrification?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Maria! My lunch is great, thanks. Of course, I'm free to meet and discuss my research tomorrow. Looking forward to our talk and sharing insights on how gentrification impacts communities."
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, I think it'll be really beneficial to bring some real-life stories into our discussion. It will help make your research more relatable for my audience on Twitch. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "I completely agree, Maria. Sharing real-life stories could really help illustrate the effects of gentrification and inspire action among viewers. Can we also brainstorm some thought-provoking questions during our meeting to engage the audience on Twitch?"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds like a great idea, Klaus. Let's aim to come up with some engaging questions that encourage our audience to think critically about gentrification and its effects on communities. Shall we start drafting those once we meet?"
+        ],
+        [
+          "Klaus Mueller",
+          "That works for me. I'll bring some key data and stories to our meeting as well, so we can start drafting those questions right away."
+        ],
+        [
+          "Maria Lopez",
+          "Perfect, Klaus. I'll make sure to have my notes on how we can structure the Twitch stream and any ideas for introducing your research in an engaging way. See you tomorrow at 3 PM sharp!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Maria. I'll see you tomorrow at 3 PM then. Looking forward to our meeting and making a difference together."
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 12:33:20"
+  }
+}

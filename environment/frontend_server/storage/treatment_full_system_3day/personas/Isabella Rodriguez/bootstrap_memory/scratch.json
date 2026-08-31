@@ -1,0 +1,1061 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 2023, 23:59:50",
+  "curr_tile": [
+    82,
+    16
+  ],
+  "daily_plan_req": "Isabella Rodriguez opens Hobbs Cafe at 8am everyday, and works at the counter until 8pm, at which point she closes the cafe.",
+  "name": "Isabella Rodriguez",
+  "first_name": "Isabella",
+  "last_name": "Rodriguez",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "Isabella Rodriguez is a cafe owner of Hobbs Cafe who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "Isabella Rodriguez continues to ensure Hobbs Cafe remains a welcoming space for everyone, following the success of the Valentine's Day celebration by diligently handling post-event tasks such as cleaning up, sending out thank you notes, and reviewing event photos and videos for future promotion. She maintains her focus on creating enjoyable experiences at the cafe while reaching out to collaborators like Maria Lopez and Klaus Mueller about potential follow-up activities.",
+  "seed_currently": "Isabella Rodriguez is planning on having a Valentine's Day party at Hobbs Cafe with her customers on February 14th, 2023 at 5pm. She is gathering party material, and is telling everyone to join the party at Hobbs Cafe on February 14th, 2023, from 5pm to 7pm.",
+  "drift_log": [
+    {
+      "day": "2023-02-14",
+      "drift": 0.16893661605511867,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "today",
+        "8am",
+        "8pm"
+      ],
+      "reason": "dated",
+      "anchor_event": "upcoming",
+      "drift_after": 0.17731694877524085,
+      "dated_after": []
+    },
+    {
+      "day": "2023-02-15",
+      "drift": 0.2287935430651451,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "today",
+        "tuesday"
+      ],
+      "reason": "dated",
+      "anchor_event": "past",
+      "drift_after": 0.1192227638901786,
+      "dated_after": []
+    }
+  ],
+  "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 95,
+  "importance_ele_n": 47,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "open Hobbs Cafe at 8:00 am",
+    "work at the counter until 8:00 pm, managing customer interactions, checking inventory, preparing coffee and food orders",
+    "close the cafe at 8:00 pm",
+    "clean up and complete end-of-day tasks from 8:00 pm to 9:00 pm",
+    "have dinner around 9:30 pm",
+    "review feedback and event photos/videos for promotion until 10:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "getting ready for the day by completing her morning routine. This includes preparing breakfast, taking a shower, and getting dressed (making coffee and preparing breakfast)",
+      20
+    ],
+    [
+      "getting ready for the day by completing her morning routine. This includes preparing breakfast, taking a shower, and getting dressed (taking a shower)",
+      15
+    ],
+    [
+      "getting ready for the day by completing her morning routine. This includes preparing breakfast, taking a shower, and getting dressed (getting dressed)",
+      10
+    ],
+    [
+      "getting ready for the day by completing her morning routine. This includes preparing breakfast, taking a shower, and getting dressed (brushing her teeth and doing hair care)",
+      10
+    ],
+    [
+      "getting ready for the day by completing her morning routine. This includes preparing breakfast, taking a shower, and getting dressed (putting on makeup and finalizing her appearance)",
+      5
+    ],
+    [
+      "getting ready to open Hobbs Cafe. This includes setting up the coffee machine, arranging pastries and other food items, and preparing for the day's customers (setting up the coffee machine)",
+      15
+    ],
+    [
+      "getting ready to open Hobbs Cafe. This includes setting up the coffee machine, arranging pastries and other food items, and preparing for the day's customers (arranging pastries and other food items on display)",
+      15
+    ],
+    [
+      "getting ready to open Hobbs Cafe. This includes setting up the coffee machine, arranging pastries and other food items, and preparing for the day's customers (checking inventory levels for supplies)",
+      5
+    ],
+    [
+      "getting ready to open Hobbs Cafe. This includes setting up the coffee machine, arranging pastries and other food items, and preparing for the day's customers (preparing the cash register and point of sale system)",
+      5
+    ],
+    [
+      "getting ready to open Hobbs Cafe. This includes setting up the coffee machine, arranging pastries and other food items, and preparing for the day's customers (setting out condiments and creamers for coffee)",
+      5
+    ],
+    [
+      "getting ready to open Hobbs Cafe. This includes setting up the coffee machine, arranging pastries and other food items, and preparing for the day's customers (organizing napkins, straws, and other disposables)",
+      5
+    ],
+    [
+      "getting ready to open Hobbs Cafe. This includes setting up the coffee machine, arranging pastries and other food items, and preparing for the day's customers (cleaning the counters and tables to ensure a clean environment for customers)",
+      10
+    ],
+    [
+      "opening Hobbs Cafe. This includes greeting the first customers of the day, serving coffee and pastries, and ensuring everything in the cafe runs smoothly (setting up the coffee machine)",
+      5
+    ],
+    [
+      "opening Hobbs Cafe. This includes greeting the first customers of the day, serving coffee and pastries, and ensuring everything in the cafe runs smoothly (arranging pastries and other food items on display)",
+      10
+    ],
+    [
+      "opening Hobbs Cafe. This includes greeting the first customers of the day, serving coffee and pastries, and ensuring everything in the cafe runs smoothly (checking inventory levels for supplies)",
+      5
+    ],
+    [
+      "opening Hobbs Cafe. This includes greeting the first customers of the day, serving coffee and pastries, and ensuring everything in the cafe runs smoothly (turning on the lights and opening the cafe doors)",
+      5
+    ],
+    [
+      "opening Hobbs Cafe. This includes greeting the first customers of the day, serving coffee and pastries, and ensuring everything in the cafe runs smoothly (preparing signage and menus for customer visibility)",
+      5
+    ],
+    [
+      "opening Hobbs Cafe. This includes greeting the first customers of the day, serving coffee and pastries, and ensuring everything in the cafe runs smoothly (cleaning any remaining surfaces from setup)",
+      5
+    ],
+    [
+      "opening Hobbs Cafe. This includes greeting the first customers of the day, serving coffee and pastries, and ensuring everything in the cafe runs smoothly (greeting the first customers of the day with a warm welcome)",
+      10
+    ],
+    [
+      "opening Hobbs Cafe. This includes greeting the first customers of the day, serving coffee and pastries, and ensuring everything in the cafe runs smoothly (taking orders for coffee and pastries from early morning customers)",
+      15
+    ],
+    [
+      "managing customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (greeting the first customers as they enter the cafe)",
+      5
+    ],
+    [
+      "managing customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (taking orders for coffee and pastries from the initial group of customers)",
+      10
+    ],
+    [
+      "managing customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (preparing drinks and food items as per customer requests)",
+      10
+    ],
+    [
+      "managing customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (serving prepared orders to customers with a warm smile)",
+      5
+    ],
+    [
+      "managing customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (checking on the cafe's inventory levels and restocking supplies as needed)",
+      10
+    ],
+    [
+      "managing customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (engaging in friendly conversation with customers to make them feel at home)",
+      5
+    ],
+    [
+      "managing customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (addressing any customer inquiries or concerns promptly and courteously)",
+      15
+    ],
+    [
+      "meeting with a local artist to discuss potential collaborations and events at Hobbs Cafe. This includes discussing art exhibits, live music nights, and other creative activities that can enhance the cafe's offerings and appeal to new customers (welcoming the local artist to Hobbs Cafe)",
+      5
+    ],
+    [
+      "meeting with a local artist to discuss potential collaborations and events at Hobbs Cafe. This includes discussing art exhibits, live music nights, and other creative activities that can enhance the cafe's offerings and appeal to new customers (and the artist are discussing potential art exhibits for the cafe walls)",
+      15
+    ],
+    [
+      "meeting with a local artist to discuss potential collaborations and events at Hobbs Cafe. This includes discussing art exhibits, live music nights, and other creative activities that can enhance the cafe's offerings and appeal to new customers (on the way to They are brainstorming ideas for live music nights at Hobbs Cafe)",
+      0
+    ],
+    [
+      "meeting with a local artist to discuss potential collaborations and events at Hobbs Cafe. This includes discussing art exhibits, live music nights, and other creative activities that can enhance the cafe's offerings and appeal to new customers (conversing about Isabella Rodriguez and Maria Lopez discussing plans to integrate art exhibits, live music nights, interactive workshops, and special menus into their cafe to enhance the atmosphere and engage with both local artists and the community.)",
+      17
+    ],
+    [
+      "meeting with a local artist to discuss potential collaborations and events at Hobbs Cafe. This includes discussing art exhibits, live music nights, and other creative activities that can enhance the cafe's offerings and appeal to new customers (explaining the cafe's customer base and preferences to the artist)",
+      8
+    ],
+    [
+      "meeting with a local artist to discuss potential collaborations and events at Hobbs Cafe. This includes discussing art exhibits, live music nights, and other creative activities that can enhance the cafe's offerings and appeal to new customers (They are discussing how to attract new customers through creative events)",
+      12
+    ],
+    [
+      "meeting with a local artist to discuss potential collaborations and events at Hobbs Cafe. This includes discussing art exhibits, live music nights, and other creative activities that can enhance the cafe's offerings and appeal to new customers (The pair is planning a schedule for upcoming art exhibits and music nights)",
+      15
+    ],
+    [
+      "meeting with a local artist to discuss potential collaborations and events at Hobbs Cafe. This includes discussing art exhibits, live music nights, and other creative activities that can enhance the cafe's offerings and appeal to new customers (taking notes on potential collaborations with other local artists)",
+      8
+    ],
+    [
+      "meeting with a local artist to discuss potential collaborations and events at Hobbs Cafe. This includes discussing art exhibits, live music nights, and other creative activities that can enhance the cafe's offerings and appeal to new customers (They are reviewing the cafe's budget to accommodate new events)",
+      10
+    ],
+    [
+      "meeting with a local artist to discuss potential collaborations and events at Hobbs Cafe. This includes discussing art exhibits, live music nights, and other creative activities that can enhance the cafe's offerings and appeal to new customers (finalizing plans for upcoming events and thanking the artist)",
+      30
+    ],
+    [
+      "Isabella is continuing to manage customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (welcoming customers as they enter the cafe)",
+      5
+    ],
+    [
+      "Isabella is continuing to manage customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (taking customer orders for lunch and drinks)",
+      10
+    ],
+    [
+      "Isabella is continuing to manage customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (on the way to preparing food orders in the kitchen or coordinating with staff to ensure timely delivery)",
+      0
+    ],
+    [
+      "Isabella is continuing to manage customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (conversing about Klaus Mueller checking in on Isabella Rodriguez during her busy Valentine's Day event and offering assistance if needed.)",
+      9
+    ],
+    [
+      "Isabella is continuing to manage customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (serving customers their meals and checking on them for satisfaction)",
+      11
+    ],
+    [
+      "Isabella is continuing to manage customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (engaging in friendly conversation with regulars to maintain a welcoming atmosphere)",
+      5
+    ],
+    [
+      "Isabella is continuing to manage customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (handling customer inquiries about menu items and cafe offerings)",
+      5
+    ],
+    [
+      "Isabella is continuing to manage customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (managing the cash register for transactions and ensuring accurate record-keeping)",
+      5
+    ],
+    [
+      "Isabella is continuing to manage customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (cleaning tables and maintaining a tidy dining area)",
+      5
+    ],
+    [
+      "Isabella is continuing to manage customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (on the way to restocking supplies such as napkins, condiments, and coffee beans to ensure customer needs are met)",
+      0
+    ],
+    [
+      "Isabella is continuing to manage customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (conversing about Isabella Rodriguez and Maria Lopez discussing plans to add live music nights, art exhibits, and interactive workshops to their cafe, including reaching out to local artists and musicians and collaborating with Klaus.)",
+      14
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (arriving at the meeting location)",
+      5
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (greeting and introducing herself to the local business owner)",
+      5
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (discussing Hobbs Cafe's offerings and customer base)",
+      15
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (asking about the other business\u2019s products or services and target audience)",
+      15
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (exploring potential cross-promotion ideas with the local business owner)",
+      30
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (suggesting joint event possibilities to enhance both businesses' visibility)",
+      30
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (discussing logistics and timelines for potential collaborations)",
+      20
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (taking notes on the discussion points and ideas generated)",
+      15
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (proposing next steps for moving forward with partnership opportunities)",
+      12
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (confirming contact information and follow-up details with the local business owner)",
+      10
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (taking a break to refresh and gather thoughts)",
+      13
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (reviewing notes from the meeting to ensure accuracy)",
+      15
+    ],
+    [
+      "Isabella is continuing to manage customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe (drafting an email summary of the meeting for follow-up and then returning to her duties at the cafe)",
+      46
+    ],
+    [
+      "Isabella is meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (arranging the meeting space at Hobbs Cafe)",
+      5
+    ],
+    [
+      "Isabella is meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (preparing promotional materials for the cafe)",
+      10
+    ],
+    [
+      "Isabella is meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (reviewing notes on potential partnership ideas)",
+      10
+    ],
+    [
+      "Isabella is meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (greeting the local business owner and welcoming them to Hobbs Cafe)",
+      5
+    ],
+    [
+      "Isabella is meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (discussing the cafe's offerings and customer base with the business owner)",
+      10
+    ],
+    [
+      "Isabella is meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (explaining potential benefits of a partnership for both businesses)",
+      10
+    ],
+    [
+      "Isabella is meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (listening to the local business owner's ideas and feedback)",
+      5
+    ],
+    [
+      "Isabella is meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (proposing specific cross-promotion strategies)",
+      5
+    ],
+    [
+      "working at the counter, managing customer interactions, checking inventory, preparing coffee and food orders (welcoming customers as they enter the cafe)",
+      5
+    ],
+    [
+      "working at the counter, managing customer interactions, checking inventory, preparing coffee and food orders (taking customer orders for coffee and food)",
+      10
+    ],
+    [
+      "working at the counter, managing customer interactions, checking inventory, preparing coffee and food orders (preparing coffee drinks)",
+      10
+    ],
+    [
+      "working at the counter, managing customer interactions, checking inventory, preparing coffee and food orders (on the way to making sandwiches and pastries)",
+      0
+    ],
+    [
+      "working at the counter, managing customer interactions, checking inventory, preparing coffee and food orders (conversing about Isabella Rodriguez and Maria Lopez discussing ideas for new events at Isabella's cafe, including interactive workshops, live music nights, and involving local artists and students from Oak Hill College.)",
+      13
+    ],
+    [
+      "working at the counter, managing customer interactions, checking inventory, preparing coffee and food orders (making sandwiches and pastries)",
+      2
+    ],
+    [
+      "working at the counter, managing customer interactions, checking inventory, preparing coffee and food orders (checking inventory levels for supplies)",
+      5
+    ],
+    [
+      "working at the counter, managing customer interactions, checking inventory, preparing coffee and food orders (restocking the coffee machine with beans and water)",
+      5
+    ],
+    [
+      "working at the counter, managing customer interactions, checking inventory, preparing coffee and food orders (cleaning up used cups and plates from tables)",
+      10
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (meeting the local business owner at the cafe)",
+      5
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (introduces herself and welcomes the business owner to Hobbs Cafe)",
+      5
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (explains the purpose of the meeting and outlines potential benefits for both businesses)",
+      10
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (The business owner shares their ideas and expectations for a partnership)",
+      10
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (on the way to discusses cross-promotion strategies that could attract more customers to both establishments)",
+      0
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (conversing about Klaus Mueller and Isabella Rodriguez discussing their successful Valentine's Day event at Hobbs Cafe and planning future collaborations.)",
+      10
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (They brainstorm joint event possibilities such as co-hosting a community gathering or hosting a special day for mutual clients)",
+      10
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (outlines the next steps and timelines for implementing any agreed-upon initiatives)",
+      5
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events (They finalize details on how to proceed with potential collaboration efforts)",
+      5
+    ],
+    [
+      "closing Hobbs Cafe. This includes turning off the coffee machine, locking up the cafe, and ensuring all safety measures are in place for the night (turning off the coffee machines and other electrical appliances)",
+      5
+    ],
+    [
+      "closing Hobbs Cafe. This includes turning off the coffee machine, locking up the cafe, and ensuring all safety measures are in place for the night (on the way to cleaning the counters and tables)",
+      0
+    ],
+    [
+      "closing Hobbs Cafe. This includes turning off the coffee machine, locking up the cafe, and ensuring all safety measures are in place for the night (waiting to start turning off the coffee machines and other electrical appliances)",
+      5
+    ],
+    [
+      "closing Hobbs Cafe. This includes turning off the coffee machine, locking up the cafe, and ensuring all safety measures are in place for the night (cleaning the counters and tables)",
+      5
+    ],
+    [
+      "closing Hobbs Cafe. This includes turning off the coffee machine, locking up the cafe, and ensuring all safety measures are in place for the night (sweeping the floor)",
+      5
+    ],
+    [
+      "closing Hobbs Cafe. This includes turning off the coffee machine, locking up the cafe, and ensuring all safety measures are in place for the night (wiping down chairs and seating areas)",
+      5
+    ],
+    [
+      "closing Hobbs Cafe. This includes turning off the coffee machine, locking up the cafe, and ensuring all safety measures are in place for the night (locking up all entrances and exits)",
+      5
+    ],
+    [
+      "closing Hobbs Cafe. This includes turning off the coffee machine, locking up the cafe, and ensuring all safety measures are in place for the night (checking the security system to ensure it's functioning properly)",
+      5
+    ],
+    [
+      "closing Hobbs Cafe. This includes turning off the coffee machine, locking up the cafe, and ensuring all safety measures are in place for the night (setting up any necessary overnight safety measures such as alarms or cameras)",
+      10
+    ],
+    [
+      "closing Hobbs Cafe. This includes turning off the coffee machine, locking up the cafe, and ensuring all safety measures are in place for the night (reviewing the day\u2019s sales and inventory levels)",
+      10
+    ],
+    [
+      "closing Hobbs Cafe. This includes turning off the coffee machine, locking up the cafe, and ensuring all safety measures are in place for the night (ensuring all windows are closed and locked securely)",
+      5
+    ],
+    [
+      "cleaning up and completing end-of-day tasks at Hobbs Cafe. This includes organizing inventory, cleaning the cafe space, and preparing for the next day's operations (turning off all lights and electrical appliances not needed overnight)",
+      5
+    ],
+    [
+      "cleaning up and completing end-of-day tasks at Hobbs Cafe. This includes organizing inventory, cleaning the cafe space, and preparing for the next day's operations (cleaning the coffee machine and wiping down counters)",
+      10
+    ],
+    [
+      "cleaning up and completing end-of-day tasks at Hobbs Cafe. This includes organizing inventory, cleaning the cafe space, and preparing for the next day's operations (sweeping and mopping the floors)",
+      15
+    ],
+    [
+      "cleaning up and completing end-of-day tasks at Hobbs Cafe. This includes organizing inventory, cleaning the cafe space, and preparing for the next day's operations (organizing inventory and restocking supplies)",
+      10
+    ],
+    [
+      "cleaning up and completing end-of-day tasks at Hobbs Cafe. This includes organizing inventory, cleaning the cafe space, and preparing for the next day's operations (cleaning tables and chairs thoroughly)",
+      10
+    ],
+    [
+      "cleaning up and completing end-of-day tasks at Hobbs Cafe. This includes organizing inventory, cleaning the cafe space, and preparing for the next day's operations (wiping down the refrigerator and ensuring it\u2019s clean inside and out)",
+      5
+    ],
+    [
+      "cleaning up and completing end-of-day tasks at Hobbs Cafe. This includes organizing inventory, cleaning the cafe space, and preparing for the next day's operations (locking up the cafe securely for the night)",
+      5
+    ],
+    [
+      "reviewing feedback and event photos/videos for promotion to use in future marketing efforts. This includes analyzing customer reviews, editing photos and videos from recent events, and planning social media posts to attract more customers to Hobbs Cafe (reviewing customer feedback on social media platforms)",
+      15
+    ],
+    [
+      "reviewing feedback and event photos/videos for promotion to use in future marketing efforts. This includes analyzing customer reviews, editing photos and videos from recent events, and planning social media posts to attract more customers to Hobbs Cafe (reading through comments and reviews from the Valentine's Day event)",
+      10
+    ],
+    [
+      "reviewing feedback and event photos/videos for promotion to use in future marketing efforts. This includes analyzing customer reviews, editing photos and videos from recent events, and planning social media posts to attract more customers to Hobbs Cafe (selecting high-quality photos and videos for promotion)",
+      10
+    ],
+    [
+      "reviewing feedback and event photos/videos for promotion to use in future marketing efforts. This includes analyzing customer reviews, editing photos and videos from recent events, and planning social media posts to attract more customers to Hobbs Cafe (editing selected photos to enhance their quality)",
+      25
+    ],
+    [
+      "Isabella is preparing to go to bed after a long day at Hobbs Cafe. She reflects on the day's events, feels satisfied with her interactions and collaborations, and looks forward to continuing to enhance the cafe's offerings. She ensures all necessary tasks (writing down notes or ideas for future cafe improvements)",
+      10
+    ],
+    [
+      "Isabella is preparing to go to bed after a long day at Hobbs Cafe. She reflects on the day's events, feels satisfied with her interactions and collaborations, and looks forward to continuing to enhance the cafe's offerings. She ensures all necessary tasks (cleaning up her workspace at Hobbs Cafe)",
+      10
+    ],
+    [
+      "Isabella is preparing to go to bed after a long day at Hobbs Cafe. She reflects on the day's events, feels satisfied with her interactions and collaborations, and looks forward to continuing to enhance the cafe's offerings. She ensures all necessary tasks (checking the fridge and pantry)",
+      5
+    ],
+    [
+      "Isabella is preparing to go to bed after a long day at Hobbs Cafe. She reflects on the day's events, feels satisfied with her interactions and collaborations, and looks forward to continuing to enhance the cafe's offerings. She ensures all necessary tasks (locking up the cafe securely)",
+      5
+    ],
+    [
+      "Isabella is preparing to go to bed after a long day at Hobbs Cafe. She reflects on the day's events, feels satisfied with her interactions and collaborations, and looks forward to continuing to enhance the cafe's offerings. She ensures all necessary tasks (walking to her home)",
+      10
+    ],
+    [
+      "Isabella is preparing to go to bed after a long day at Hobbs Cafe. She reflects on the day's events, feels satisfied with her interactions and collaborations, and looks forward to continuing to enhance the cafe's offerings. She ensures all necessary tasks (entering her home and greeting any housemates or pets)",
+      5
+    ],
+    [
+      "Isabella is preparing to go to bed after a long day at Hobbs Cafe. She reflects on the day's events, feels satisfied with her interactions and collaborations, and looks forward to continuing to enhance the cafe's offerings. She ensures all necessary tasks (changing into comfortable sleepwear)",
+      5
+    ],
+    [
+      "Isabella is preparing to go to bed after a long day at Hobbs Cafe. She reflects on the day's events, feels satisfied with her interactions and collaborations, and looks forward to continuing to enhance the cafe's offerings. She ensures all necessary tasks (brushing her teeth and washing her face)",
+      10
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "getting ready for the day by completing her morning routine. This includes preparing breakfast, taking a shower, and getting dressed",
+      60
+    ],
+    [
+      "getting ready to open Hobbs Cafe. This includes setting up the coffee machine, arranging pastries and other food items, and preparing for the day's customers",
+      60
+    ],
+    [
+      "opening Hobbs Cafe. This includes greeting the first customers of the day, serving coffee and pastries, and ensuring everything in the cafe runs smoothly",
+      60
+    ],
+    [
+      "managing customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe",
+      60
+    ],
+    [
+      "meeting with a local artist to discuss potential collaborations and events at Hobbs Cafe. This includes discussing art exhibits, live music nights, and other creative activities that can enhance the cafe's offerings and appeal to new customers",
+      120
+    ],
+    [
+      "Isabella is continuing to manage customer interactions at Hobbs Cafe. She ensures each person feels welcome and assists them with their orders, maintaining the friendly atmosphere of the cafe",
+      60
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events",
+      240
+    ],
+    [
+      "Isabella is meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events",
+      60
+    ],
+    [
+      "working at the counter, managing customer interactions, checking inventory, preparing coffee and food orders",
+      60
+    ],
+    [
+      "meeting with a local business owner to explore partnership opportunities that could benefit both businesses, such as cross-promotion and joint events",
+      60
+    ],
+    [
+      "closing Hobbs Cafe. This includes turning off the coffee machine, locking up the cafe, and ensuring all safety measures are in place for the night",
+      60
+    ],
+    [
+      "cleaning up and completing end-of-day tasks at Hobbs Cafe. This includes organizing inventory, cleaning the cafe space, and preparing for the next day's operations",
+      60
+    ],
+    [
+      "reviewing feedback and event photos/videos for promotion to use in future marketing efforts. This includes analyzing customer reviews, editing photos and videos from recent events, and planning social media posts to attract more customers to Hobbs Cafe",
+      60
+    ],
+    [
+      "Isabella is preparing to go to bed after a long day at Hobbs Cafe. She reflects on the day's events, feels satisfied with her interactions and collaborations, and looks forward to continuing to enhance the cafe's offerings. She ensures all necessary tasks",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Isabella Rodriguez's apartment:bathroom:bathroom sink",
+  "act_start_time": "February 15, 2023, 23:53:00",
+  "act_duration": 10,
+  "act_description": "Isabella is preparing to go to bed after a long day at Hobbs Cafe. She reflects on the day's events, feels satisfied with her interactions and collaborations, and looks forward to continuing to enhance the cafe's offerings. She ensures all necessary tasks (brushing her teeth and washing her face)",
+  "act_pronunciatio": "\ud83d\ude0b",
+  "act_event": [
+    "Isabella Rodriguez",
+    "brush",
+    "teeth"
+  ],
+  "act_obj_description": "clean and unused",
+  "act_obj_pronunciatio": "\ud83e\uddf9\ud83c\udfe0",
+  "act_obj_event": [
+    "bathroom sink",
+    "be",
+    "clean_and_unused"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Klaus Mueller": -778,
+    "Maria Lopez": -1192
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -1,0 +1,164 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "working at Hobbs Cafe (taking a short break to relax) @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        120,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Klaus Mueller discussing their respective projects, Maria's upcoming live stream and Klaus's research on gentrification, while offering mutual support and encouragement. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I didn't expect to see you here. How's your research coming along?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria, thanks for asking. I'm making progress on my paper about gentrification but there are a lot of nuanced points to consider so it's been challenging yet interesting. How about you? Are you all set for your stream?"
+        ],
+        [
+          "Maria Lopez",
+          "Yeah, I've got everything ready for today. Just wrapping up some last-minute prep. What kind of challenges are you facing in your research?"
+        ],
+        [
+          "Klaus Mueller",
+          "One challenge is finding data that reflects the voices of residents instead of just economic impacts. It\u2019s crucial for my argument but it can be hard to find. What time do you start your stream?"
+        ],
+        [
+          "Maria Lopez",
+          "My stream starts at noon today. And that sounds like really important work you're doing, Klaus. I wish you luck finding those resident voices in your research! Maybe I'll tune into your thoughts sometime if you put it up on a blog or something?"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks Maria, I appreciate that. Maybe I'll do that once my paper is done, put some of my findings on a blog. It could be useful for others researching similar topics. And don't forget to take plenty of breaks during your stream!"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Klaus! And thanks for the reminder about breaks. I always get so caught up in what I'm doing that I forget to rest. Have a good day with your research!"
+        ],
+        [
+          "Klaus Mueller",
+          "You're welcome, Maria. And if you need any breaks or help setting up anything for your stream today, just let me know. I'll be around here in the library most of the day."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks Klaus, I appreciate your offer. I'll definitely keep that in mind if I need any help or just want to take a break from streaming. Have an amazing day researching!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. If there\u2019s anything you need, just ping me. I'll probably be here until a bit after dinner time if that works for your streaming schedule."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Klaus. Maybe we can catch up more after my stream if you're still around!"
+        ],
+        [
+          "Klaus Mueller",
+          "That would be great, Maria. I'll be here in the library after your stream wraps up if you'd like to chat or just take a break together."
+        ],
+        [
+          "Maria Lopez",
+          "Sure thing, Klaus. It was nice talking to you and getting a break from my prep work."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. I'll be here if you need anything, and looking forward to chatting after your stream!"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks Klaus, I'll be sure to find you after my stream. Have a great rest of your day!"
+        ],
+        [
+          "Klaus Mueller",
+          "You too, Maria. Make sure you enjoy your stream and don't stress about everything being perfect."
+        ]
+      ]
+    },
+    "Klaus Mueller": {
+      "movement": [
+        122,
+        45
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Klaus Mueller discussing their respective projects, Maria's upcoming live stream and Klaus's research on gentrification, while offering mutual support and encouragement. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I didn't expect to see you here. How's your research coming along?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria, thanks for asking. I'm making progress on my paper about gentrification but there are a lot of nuanced points to consider so it's been challenging yet interesting. How about you? Are you all set for your stream?"
+        ],
+        [
+          "Maria Lopez",
+          "Yeah, I've got everything ready for today. Just wrapping up some last-minute prep. What kind of challenges are you facing in your research?"
+        ],
+        [
+          "Klaus Mueller",
+          "One challenge is finding data that reflects the voices of residents instead of just economic impacts. It\u2019s crucial for my argument but it can be hard to find. What time do you start your stream?"
+        ],
+        [
+          "Maria Lopez",
+          "My stream starts at noon today. And that sounds like really important work you're doing, Klaus. I wish you luck finding those resident voices in your research! Maybe I'll tune into your thoughts sometime if you put it up on a blog or something?"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks Maria, I appreciate that. Maybe I'll do that once my paper is done, put some of my findings on a blog. It could be useful for others researching similar topics. And don't forget to take plenty of breaks during your stream!"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Klaus! And thanks for the reminder about breaks. I always get so caught up in what I'm doing that I forget to rest. Have a good day with your research!"
+        ],
+        [
+          "Klaus Mueller",
+          "You're welcome, Maria. And if you need any breaks or help setting up anything for your stream today, just let me know. I'll be around here in the library most of the day."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks Klaus, I appreciate your offer. I'll definitely keep that in mind if I need any help or just want to take a break from streaming. Have an amazing day researching!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. If there\u2019s anything you need, just ping me. I'll probably be here until a bit after dinner time if that works for your streaming schedule."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Klaus. Maybe we can catch up more after my stream if you're still around!"
+        ],
+        [
+          "Klaus Mueller",
+          "That would be great, Maria. I'll be here in the library after your stream wraps up if you'd like to chat or just take a break together."
+        ],
+        [
+          "Maria Lopez",
+          "Sure thing, Klaus. It was nice talking to you and getting a break from my prep work."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. I'll be here if you need anything, and looking forward to chatting after your stream!"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks Klaus, I'll be sure to find you after my stream. Have a great rest of your day!"
+        ],
+        [
+          "Klaus Mueller",
+          "You too, Maria. Make sure you enjoy your stream and don't stress about everything being perfect."
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 11:56:50"
+  }
+}

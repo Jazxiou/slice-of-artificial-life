@@ -1,0 +1,791 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 2023, 23:59:50",
+  "curr_tile": [
+    123,
+    55
+  ],
+  "daily_plan_req": "Maria Lopez spends at least 3 hours a day Twitch streaming or gaming.",
+  "name": "Maria Lopez",
+  "first_name": "Maria",
+  "last_name": "Lopez",
+  "age": 21,
+  "innate": "energetic, enthusiastic, inquisitive",
+  "learned": "Maria Lopez is a student at Oak Hill College studying physics and a part time Twitch game streamer who loves to connect with people and explore new ideas.",
+  "currently": "Maria Lopez is a vibrant student at Oak Hill College where she studies physics, balancing her academic commitments with her passion for streaming games on Twitch to connect with people and explore new ideas. She frequently visits Hobbs Cafe, using it as both a study spot and a place to meet friends like Isabella to discuss projects such as the Valentine\u2019s Day event, while also collaborating remotely with Klaus Mueller on community issues related to gentrification through her online platform.",
+  "seed_currently": "Maria Lopez is working on her physics degree and streaming games on Twitch to make some extra money. She visits Hobbs Cafe for studying and eating just about everyday.",
+  "drift_log": [
+    {
+      "day": "2023-02-14",
+      "drift": 0.31909698303335465,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "thursday",
+        "today",
+        "10:30am",
+        "12:30pm",
+        "3pm"
+      ],
+      "reason": "dated",
+      "anchor_event": null,
+      "drift_after": 0.2259711730065902,
+      "dated_after": []
+    },
+    {
+      "day": "2023-02-15",
+      "drift": 0.2921669043428513,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "thursday",
+        "2:30pm",
+        "6pm",
+        "7:30pm"
+      ],
+      "reason": "dated",
+      "anchor_event": null,
+      "drift_after": 0.18641890379413129,
+      "dated_after": []
+    }
+  ],
+  "lifestyle": "Maria Lopez goes to bed around 2am, awakes up around 9am, eats dinner around 6pm. She likes to hang out at Hobbs Cafe if it's before 6pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Maria Lopez's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.99,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 109,
+  "importance_ele_n": 28,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 9:00 am",
+    "visit Hobbs Cafe for studying or meeting friends by 11:00 am",
+    "spend time streaming games on Twitch from 2:00 pm to 5:00 pm",
+    "have dinner around 6:00 pm",
+    "collaborate with Klaus Mueller via her online platform about community issues until 8:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      540
+    ],
+    [
+      "waking up and completing her morning routine (getting out of bed)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (going to the bathroom to use the toilet and wash her face)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (brushing her teeth)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (drinking a glass of water)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (getting dressed for the day)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (checking her phone for any messages or notifications)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (making her bed)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (preparing breakfast)",
+      15
+    ],
+    [
+      "studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event (walking to Hobbs Cafe)",
+      15
+    ],
+    [
+      "studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event (on the way to ordering coffee and a snack)",
+      0
+    ],
+    [
+      "studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event (conversing about Isabella Rodriguez and Maria Lopez discussing plans to integrate art exhibits, live music nights, interactive workshops, and special menus into their cafe to enhance the atmosphere and engage with both local artists and the community.)",
+      17
+    ],
+    [
+      "studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event (finding a quiet spot at the cafe)",
+      5
+    ],
+    [
+      "studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event (setting up her laptop and notes for studying)",
+      10
+    ],
+    [
+      "studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event (reviewing physics lecture notes)",
+      20
+    ],
+    [
+      "studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event (taking a short break to chat with the barista)",
+      5
+    ],
+    [
+      "studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event (meeting Isabella for project discussion)",
+      48
+    ],
+    [
+      "Maria is studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event (reviewing notes and materials for her physics class)",
+      15
+    ],
+    [
+      "Maria is studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event (discussing project ideas with Isabella)",
+      15
+    ],
+    [
+      "Maria is studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event (brainstorming event details for Valentine\u2019s Day)",
+      15
+    ],
+    [
+      "Maria is studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event (on the way to taking notes on the discussions and planning next steps)",
+      0
+    ],
+    [
+      "Maria is studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event (conversing about Maria Lopez and Klaus Mueller discussing their plans to meet at Hobbs Cafe tomorrow to discuss his research on gentrification, incorporating real-life stories and thought-provoking questions for her Twitch audience.)",
+      7
+    ],
+    [
+      "Maria is studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event (on the way to taking notes on recent discussions and planning next steps)",
+      0
+    ],
+    [
+      "Maria is studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event (conversing about Isabella Rodriguez and Maria Lopez discussing plans to add live music nights, art exhibits, and interactive workshops to their cafe, including reaching out to local artists and musicians and collaborating with Klaus.)",
+      14
+    ],
+    [
+      "Maria is having lunch at Hobbs Cafe or taking a short break to relax before her planned gaming stream (ordering food and drinks)",
+      15
+    ],
+    [
+      "Maria is having lunch at Hobbs Cafe or taking a short break to relax before her planned gaming stream (eating her lunch)",
+      30
+    ],
+    [
+      "Maria is having lunch at Hobbs Cafe or taking a short break to relax before her planned gaming stream (taking a short break to relax before her planned gaming stream)",
+      9
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (setting up her streaming equipment)",
+      15
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (checking her social media for any updates or messages from followers)",
+      10
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (reviewing the game she plans to stream and preparing any necessary materials)",
+      15
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (starts streaming and introduces herself to her audience)",
+      5
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (plays the first part of the game while engaging with viewers through chat)",
+      20
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (takes a short break from streaming to grab a drink or snack)",
+      5
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (resumes streaming and continues playing the game while interacting with viewers)",
+      20
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (pauses the stream briefly to address any technical issues that arise)",
+      5
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (plays another segment of the game and continues engaging with her audience)",
+      20
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (takes a short break from streaming to stretch or walk around)",
+      5
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (resumes streaming and plays more of the game while chatting with viewers)",
+      20
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (pauses briefly to address a viewer's question or comment directly)",
+      5
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (continues playing the game and interacting with her audience for another segment)",
+      20
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (wraps up the stream by thanking viewers and announcing upcoming streams or events)",
+      10
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (signs off from Twitch and tidies up her streaming setup)",
+      5
+    ],
+    [
+      "Maria is streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (setting up her streaming equipment)",
+      5
+    ],
+    [
+      "Maria is streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (starting the stream and introducing herself to the audience)",
+      5
+    ],
+    [
+      "Maria is streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (playing a game and engaging with viewers through chat)",
+      10
+    ],
+    [
+      "Maria is streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (taking a short break from gaming to answer questions from her community)",
+      5
+    ],
+    [
+      "Maria is streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (resuming the stream and playing another game)",
+      10
+    ],
+    [
+      "Maria is streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (hosting a giveaway for viewers who participate actively)",
+      5
+    ],
+    [
+      "Maria is streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (sharing tips on how to improve gaming skills with her audience)",
+      5
+    ],
+    [
+      "Maria is streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (playing another game and engaging with the community)",
+      10
+    ],
+    [
+      "Maria is streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming (wrapping up the stream by thanking viewers for joining)",
+      5
+    ],
+    [
+      "having dinner at Hobbs Cafe or another nearby restaurant (walking to Hobbs Cafe)",
+      5
+    ],
+    [
+      "having dinner at Hobbs Cafe or another nearby restaurant (looking at the menu and deciding what to order)",
+      5
+    ],
+    [
+      "having dinner at Hobbs Cafe or another nearby restaurant (placing her order with the waiter/waitress)",
+      5
+    ],
+    [
+      "having dinner at Hobbs Cafe or another nearby restaurant (waiting for her food to arrive)",
+      15
+    ],
+    [
+      "having dinner at Hobbs Cafe or another nearby restaurant (on the way to eating her meal and enjoying it)",
+      0
+    ],
+    [
+      "having dinner at Hobbs Cafe or another nearby restaurant (conversing about Isabella Rodriguez and Maria Lopez discussing ideas for new events at Isabella's cafe, including interactive workshops, live music nights, and involving local artists and students from Oak Hill College.)",
+      13
+    ],
+    [
+      "having dinner at Hobbs Cafe or another nearby restaurant (continuing to eat her meal and enjoying it)",
+      7
+    ],
+    [
+      "having dinner at Hobbs Cafe or another nearby restaurant (chatting with friends or other patrons at the cafe)",
+      10
+    ],
+    [
+      "collaborating remotely with Klaus Mueller on community issues related to gentrification through her online platform (reviewing previous notes and documents about the community issues)",
+      15
+    ],
+    [
+      "collaborating remotely with Klaus Mueller on community issues related to gentrification through her online platform (on the way to setting up her online platform for collaboration with Klaus Mueller)",
+      0
+    ],
+    [
+      "collaborating remotely with Klaus Mueller on community issues related to gentrification through her online platform (conversing about preparing for an upcoming Twitch stream where they will discuss stories and questions related to gentrification with Maria Lopez and Klaus Mueller.)",
+      9
+    ],
+    [
+      "collaborating remotely with Klaus Mueller on community issues related to gentrification through her online platform (discussing initial ideas and concerns with Klaus through video call)",
+      6
+    ],
+    [
+      "collaborating remotely with Klaus Mueller on community issues related to gentrification through her online platform (sharing research findings on gentrification impacts)",
+      15
+    ],
+    [
+      "collaborating remotely with Klaus Mueller on community issues related to gentrification through her online platform (brainstorming solutions for community support)",
+      20
+    ],
+    [
+      "collaborating remotely with Klaus Mueller on community issues related to gentrification through her online platform (taking a short break to stretch and hydrate)",
+      5
+    ],
+    [
+      "collaborating remotely with Klaus Mueller on community issues related to gentrification through her online platform (drafting an action plan for the next steps)",
+      15
+    ],
+    [
+      "collaborating remotely with Klaus Mueller on community issues related to gentrification through her online platform (reviewing the draft with Klaus for feedback)",
+      10
+    ],
+    [
+      "collaborating remotely with Klaus Mueller on community issues related to gentrification through her online platform (making adjustments based on Klaus's suggestions)",
+      10
+    ],
+    [
+      "collaborating remotely with Klaus Mueller on community issues related to gentrification through her online platform (finalizing the action plan document)",
+      10
+    ],
+    [
+      "collaborating remotely with Klaus Mueller on community issues related to gentrification through her online platform (saving and sharing the finalized document with Klaus)",
+      5
+    ],
+    [
+      "relaxing or catching up on personal interests and hobbies after a busy day of studying, streaming, and collaborating (reading a book about physics)",
+      30
+    ],
+    [
+      "relaxing or catching up on personal interests and hobbies after a busy day of studying, streaming, and collaborating (watching an educational video related to her studies)",
+      15
+    ],
+    [
+      "relaxing or catching up on personal interests and hobbies after a busy day of studying, streaming, and collaborating (browsing social media and connecting with friends online)",
+      15
+    ],
+    [
+      "reviewing her schedule and planning for the next day before going to bed (reviewing her class schedule)",
+      15
+    ],
+    [
+      "reviewing her schedule and planning for the next day before going to bed (checking her Twitch streaming calendar)",
+      10
+    ],
+    [
+      "reviewing her schedule and planning for the next day before going to bed (planning her study sessions for the next day)",
+      15
+    ],
+    [
+      "reviewing her schedule and planning for the next day before going to bed (scheduling collaboration time with Klaus on gentrification issues)",
+      10
+    ],
+    [
+      "reviewing her schedule and planning for the next day before going to bed (setting reminders and alarms for upcoming events)",
+      10
+    ],
+    [
+      "Maria is reviewing her schedule and planning for the next day before going to bed (reviewing her class schedule)",
+      15
+    ],
+    [
+      "Maria is reviewing her schedule and planning for the next day before going to bed (checking her Twitch streaming calendar)",
+      10
+    ],
+    [
+      "Maria is reviewing her schedule and planning for the next day before going to bed (planning her study sessions for the next day)",
+      15
+    ],
+    [
+      "Maria is reviewing her schedule and planning for the next day before going to bed (scheduling time for gaming and streaming)",
+      10
+    ],
+    [
+      "Maria is reviewing her schedule and planning for the next day before going to bed (setting reminders for upcoming assignments and projects)",
+      5
+    ],
+    [
+      "Maria is reviewing her schedule and planning for the next day before going to bed (writing down any additional tasks or notes)",
+      5
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      540
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event",
+      120
+    ],
+    [
+      "Maria is studying at Hobbs Cafe or meeting friends like Isabella to discuss projects such as the Valentine\u2019s Day event",
+      60
+    ],
+    [
+      "Maria is having lunch at Hobbs Cafe or taking a short break to relax before her planned gaming stream",
+      60
+    ],
+    [
+      "streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming",
+      180
+    ],
+    [
+      "Maria is streaming games on Twitch as part of her daily commitment to engage with her audience and share her love for gaming",
+      60
+    ],
+    [
+      "having dinner at Hobbs Cafe or another nearby restaurant",
+      60
+    ],
+    [
+      "collaborating remotely with Klaus Mueller on community issues related to gentrification through her online platform",
+      120
+    ],
+    [
+      "relaxing or catching up on personal interests and hobbies after a busy day of studying, streaming, and collaborating",
+      60
+    ],
+    [
+      "reviewing her schedule and planning for the next day before going to bed",
+      60
+    ],
+    [
+      "Maria is reviewing her schedule and planning for the next day before going to bed",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:Maria Lopez's room:desk",
+  "act_start_time": "February 15, 2023, 23:55:00",
+  "act_duration": 5,
+  "act_description": "Maria is reviewing her schedule and planning for the next day before going to bed (writing down any additional tasks or notes)",
+  "act_pronunciatio": "\ud83d\udcdd",
+  "act_event": [
+    "Maria Lopez",
+    "write",
+    "tasks"
+  ],
+  "act_obj_description": "organized with papers and a planner spread out, pen and notebook beside the planner",
+  "act_obj_pronunciatio": "\ud83d\udcdd\ud83d\udcc5",
+  "act_obj_event": [
+    "desk",
+    "be organized with",
+    "papers and a planner"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Klaus Mueller": -916,
+    "Isabella Rodriguez": -1192
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}
