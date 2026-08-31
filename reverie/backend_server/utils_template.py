@@ -9,6 +9,17 @@ all and documented the file in prose only.
 
 Defaults below target a LOCAL model served over an OpenAI-compatible
 endpoint, so no key is needed.
+
+The flags ship ON: a copied, unedited utils.py runs the complete
+system, world layer included.
+
+The CONTROL (repaired baseline) sets every flag in the world-layer,
+research-contribution and town-guardrail sections to False.
+
+The TREATMENT sets only the six contribution flags to True
+(recency_time_based, recency_access_persisted,
+importance_coupled_decay, rehearsal_strengthening,
+importance_within_type, persona_reanchor) with everything else False.
 """
 
 # === Language Model ===
@@ -92,36 +103,64 @@ autosave_every = 8640
 # conversation. A need in the red forces a mood (tired / bored /
 # irritable / lonely) and adds one sentence to the identity block,
 # so the deficit reaches planning and dialogue.
-world_needs = False  # Keep False unless running the live town
+world_needs = True  # Keep False unless running the live town
 needs_red_threshold = 25.0
 
 # Mood (world_ext/emotion.py). A need in the red overrides the model's
 # word until the bar recovers
-world_emotion = False
+world_emotion = True  # keep False unless running the live town
 
 # Relationships (world_ext/relationships.py). Per-side friendship and
 # romance.
-world_relationships = False
+world_relationships = True  # keep False unless running the live town
 
-# === Decay and Retention ===
+# Viewer Feeds (world_ext/snapshot.py). Display Ville Viewer's card.
+world_snapshots = True
+snapshot_every = 30
+
+# === Town Guardrails (TOWN RUNS ONLY) ===
+# Lives in `reverie/backend_server/memory_ext/longevity.py`.
+
+# An object seen idle is remembered at most once per hour, instead of
+# every time it drifts out of the perception window. Half of a run's
+# score was idle observations, and scored retrieval filters them out
+# anyway. People standing idle are never deduplicated, only objects,
+# because reactions can target a person's event.
+idle_memory_dedup = True  # Keep False if not running a live town.
+idle_dedup_ttl_hours = 1.0
+
+# Write embedding vectors rounded to six decimals. The model computes
+# them in float32, which has about seven significant digits; the JSON
+# writer stores full float64 verbosity, which is precision the numbers
+# never had. Cuts the largest file in every saved simulation
+# several-fold.
+compact_embeddings = True  # Keep False if not running a live town.
+
+# Real forgetting for towns that run for weeks. Once a store outgrows
+# its cap it is trimmed to 90% of it overnight, weakest memories first,
+# where "weakest" is the retention module's own judgement.
+memory_eviction = True  # Keep False if not running a live town.
+eviction_max_nodes = 10000
+
+# === Decay and Retention (RESEARCH CONTRIBUTION)===
 # Lives in `reverie/backend_server/memory_ext/retention.py`. When flags
 # are False, the simulation will behave as the baseline.
 
 # Option 1. Score recency by elapsed simulated time since a memory was
 # recalled. Everything else here depends on this being on.
-recency_time_based = False
+recency_time_based = True
 
 # Option 1b. Read the saved access history back when a checkpoint is
 # loaded. If off then every checkpoint resets each memory's access time
 # to its creation time (baseline mechanic).
-recency_access_persisted = False
+recency_access_persisted = True
 
 # Option 1c. Let importance lengthen a memory's half-life.
-importance_coupled_decay = False
+importance_coupled_decay = True
 
 # Option 1d. Each recall lengthens the half-life a little, with
 # diminishing returns and a cap. Needs `recency_access_persisted`.
-rehearsal_strengthening = False
+rehearsal_strengthening = True
 
 # Parameters
 recency_halflife_hours = 24.0
@@ -133,8 +172,8 @@ rehearsal_halflife_multiplier = 3.0  # maximum of the rehearsal bonus
 rehearsal_saturation = 8.0  # amount of recalls needed for half of that
 # bonus
 
-# === How Importance is Compared ===
-# Lives in `reverie/backend_server/memory_ext/retrieval.py`. Off by
+# === How Importance is Compared (RESEARCH CONTRIBUTION) ===
+# Lives in `reverie/backend_server/memory_ext/retrieval.py`. On by
 # default.
 
 # Importance is a 1-to-10 rating the model gives a memory when it is
@@ -142,39 +181,15 @@ rehearsal_saturation = 8.0  # amount of recalls needed for half of that
 # scored 7. This normalises importance within each kind of memory, so a
 # striking observation competes with other observations. Reflections
 # stay retrievable, they simply stop crowding out episodes.
-importance_within_type = False
+importance_within_type = True
 
-# === Town Guardrails (TOWN RUNS ONLY) ===
-# Lives in `reverie/backend_server/memory_ext/longevity.py`.
-
-# An object seen idle is remembered at most once per hour, instead of
-# every time it drifts out of the perception window. Half of a run's
-# score was idle observations, and scored retrieval filters them out
-# anyway. People standing idle are never deduplicated, only objects,
-# because reactions can target a person's event.
-idle_memory_dedup = False  # Keep False if not running a live town.
-idle_dedup_ttl_hours = 1.0
-
-# Write embedding vectors rounded to six decimals. The model computes
-# them in float32, which has about seven significant digits; the JSON
-# writer stores full float64 verbosity, which is precision the numbers
-# never had. Cuts the largest file in every saved simulation
-# several-fold.
-compact_embeddings = False  # Keep False if not running a live town.
-
-# Real forgetting for towns that run for weeks. Once a store outgrows
-# its cap it is trimmed to 90% of it overnight, weakest memories first,
-# where "weakest" is the retention module's own judgement.
-memory_eviction = False  # Keep False if not running a live town.
-eviction_max_nodes = 10000
-
-# === Persona Re-anchoring ===
+# === Persona Re-anchoring (RESEARCH CONTRIBUTION) ===
 # Lives in `reverie/backend_server/memory_ext/persona.py`.
 
 # Re-anchoring measures how far each day's rewrite has moved from the
 # seed and corrects it only when it has moved too far, so that
 # believable change is left alone.
-persona_reanchor = False
+persona_reanchor = True
 
 # Measure the daily drift even in the control condition.
 persona_drift_measured = True

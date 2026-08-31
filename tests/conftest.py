@@ -24,9 +24,9 @@ if str(ROOT) not in sys.path:
 # `utils.py` is gitignored, because it can hold a real API key, so a fresh checkout has only the
 # committed template. The tests need importable configuration and nothing else, so when the real file
 # is absent the template is loaded under the name `utils`. Nothing is written to disk: running an
-# actual simulation still needs the documented `cp utils_template.py utils.py` step. Loading the
-# template also means the tests see the shipped defaults, which is what "an unconfigured install
-# behaves as the repaired baseline" has to be checked against.
+# actual simulation still needs the documented `cp utils_template.py utils.py` step. The template
+# ships with every flag on (the town configuration), so the suite never assumes a default: every
+# test pins the flags it depends on, and the frozen-baseline tests force theirs off explicitly.
 if not (BACKEND / "utils.py").exists():
     spec = importlib.util.spec_from_file_location("utils", BACKEND / "utils_template.py")
     utils = importlib.util.module_from_spec(spec)

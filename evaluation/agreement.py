@@ -9,7 +9,7 @@ answer to the second.
 
 Two steps.
 
-    uv run python evaluation/agreement.py --sample results/baseline_3_day3.json
+    uv run python evaluation/agreement.py --sample results/control_baseline_3day.json
     ... open results/handscore.md, write a grade after each "Your grade:", save ...
     uv run python evaluation/agreement.py --score results/handscore.md
 

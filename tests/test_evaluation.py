@@ -22,7 +22,7 @@ import pytest
 
 from evaluation import probes, score
 
-REFERENCE = pathlib.Path(__file__).resolve().parents[1] / "environment/frontend_server/storage/baseline_3_day"
+REFERENCE = pathlib.Path(__file__).resolve().parents[1] / "environment/frontend_server/storage/control_baseline_3day"  #!
 AGENT = "Isabella Rodriguez"
 NOW = datetime.datetime(2023, 2, 15, 23, 59, 50)
 
