@@ -1,0 +1,972 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        73,
+        30
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "taking a break to eat lunch @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 65.9,
+          "hunger": 68.0,
+          "fun": 98.9,
+          "hygiene": 89.2,
+          "bladder": 19.7,
+          "social": 86.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Rajiv Patel": {
+      "movement": [
+        38,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Francisco Lopez and Rajiv Patel discussing how to integrate painting, music, community workshops, and improv comedy into Sam\u2019s campaign through their web series and art collaborations. @ <persona> Francisco Lopez",
+      "chat": [
+        [
+          "Francisco Lopez",
+          "Hey Rajiv, great to see you! I was just thinking about our discussion earlier. Any new ideas on how we can bring painting and music into my web series themes for Sam\u2019s campaign?"
+        ],
+        [
+          "Rajiv Patel",
+          "Hi Francisco! I've been thinking about it too. Maybe we could create a series of paintings that reflect key moments or themes from your web series, and then compose music that complements each piece to enhance the emotional impact during Sam\u2019s campaign events."
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds amazing, Rajiv! We could even have a live performance at one of Sam\u2019s campaign stops where we blend scenes from my web series with your paintings and music. It would really bring the message to life."
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds fantastic, Francisco. I think we should also consider involving the community more by hosting workshops where people can create their own art inspired by your web series and our collaboration. This could be a great way to engage supporters directly."
+        ],
+        [
+          "Francisco Lopez",
+          "I love that idea, Rajiv! We could have workshops at different locations around town where people can paint and make music. It would be a fun way to get everyone involved in supporting Sam\u2019s campaign. Plus, we could use the artwork created during these sessions as part of our visual campaign materials."
+        ],
+        [
+          "Rajiv Patel",
+          "Absolutely, Francisco. We should also think about organizing a panel discussion or Q&A session during my solo show to delve deeper into how art and community engagement can support Sam\u2019s campaign. It could be a great platform for us to share our vision and involve more people."
+        ],
+        [
+          "Francisco Lopez",
+          "That\u2019s a brilliant idea, Rajiv. Let's definitely plan for both the workshops and the panel discussion. Maybe we can also include improv comedy segments to entertain people and break the ice during these events?"
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds like a comprehensive plan, Francisco. Let\u2019s schedule those workshops and panel discussion soon. I think we should also reach out to Latoya and Jennifer to integrate their respective art forms into our collaborative efforts."
+        ],
+        [
+          "Francisco Lopez",
+          "Sounds good, Rajiv. Let\u2019s sync up on dates and locations for those workshops and the panel discussion soon. And I\u2019ll reach out to Latoya and Jennifer right away."
+        ],
+        [
+          "Rajiv Patel",
+          "Great, let\u2019s make sure to finalize all details and start promoting these events. I think it will be a powerful way to unite different forms of art and community involvement in support of Sam\u2019s campaign."
+        ],
+        [
+          "Francisco Lopez",
+          "Definitely, Rajiv. Let\u2019s start planning and reach out to Hailey too for her thoughts on incorporating a podcast into our events. She has some great ideas on making these initiatives go viral."
+        ],
+        [
+          "Rajiv Patel",
+          "Sounds like a plan, Francisco. I\u2019ll draft an email to Latoya and Jennifer outlining our ideas so far and coordinating logistics for the workshops and panel discussion. And let\u2019s touch base again soon to finalize everything."
+        ],
+        [
+          "Francisco Lopez",
+          "Sounds great, Rajiv. I'll stay in touch with Hailey to incorporate her podcast ideas and see how we can best connect them with your solo show and my web series for maximum impact."
+        ],
+        [
+          "Rajiv Patel",
+          "Sounds good, Francisco. I'll also reach out to Hailey and Latoya separately to discuss their specific contributions and how we can ensure a cohesive message across all platforms."
+        ],
+        [
+          "Francisco Lopez",
+          "Sounds awesome, Rajiv. Let\u2019s make sure to keep everyone in the loop and coordinate well for a successful campaign initiative."
+        ],
+        [
+          "Rajiv Patel",
+          "Sounds like we have a lot to plan for, Francisco. Let\u2019s aim to finalize everything by next week so we can start promoting our events and workshops. I\u2019ll send out the draft email to everyone soon."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 80.9,
+          "hunger": 86.9,
+          "fun": 50.6,
+          "hygiene": 53.7,
+          "bladder": 19.7,
+          "social": 62.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        74,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Giorgio Rossi and Abigail Chen discussing potential collaboration on integrating mathematical analysis, social media analytics, and improv comedy techniques into civic engagement initiatives. @ <persona> Giorgio Rossi",
+      "chat": [
+        [
+          "Giorgio Rossi",
+          "Hi Abigail, I see you're enjoying your meal and planning out some interesting projects. It sounds fascinating how you're integrating humor into conflict resolution scenes for both your animation project and Adam\u2019s book. Have you thought about applying those improv techniques to civic engagement discussions? Perhaps we could collaborate on enhancing voter demographic strategies using mathematical analysis and social media analytics."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds like an intriguing idea, Giorgio! I think there are many parallels between using humor and improv in conflict resolution and enhancing civic engagement. Perhaps we can explore how our respective projects might complement each other, especially in terms of analyzing voter demographics and creating interactive experiences that foster meaningful discussions."
+        ],
+        [
+          "Giorgio Rossi",
+          "I agree, Abigail. It would be interesting to see how we could use mathematical models and social media data to identify key demographics and then apply your expertise in improv comedy to make these discussions more engaging and effective. Perhaps we could start by setting up a meeting or even organizing an event that combines both approaches."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds like an excellent plan, Giorgio. How about we start by brainstorming some initial ideas for our joint project during a coffee meeting next week? We could also consider planning an event that utilizes both mathematical models and improv techniques to engage voters and encourage constructive dialogue."
+        ],
+        [
+          "Giorgio Rossi",
+          "I think that's a great idea, Abigail. Let's aim to schedule our coffee meeting for next Wednesday at 3 PM. And we can start thinking about potential venues and guest speakers who might be interested in this unique blend of mathematical analysis and improv comedy techniques. It could really set the stage for an innovative approach to civic engagement."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds great, Giorgio. I'll bring some initial thoughts on how we can blend our projects for maximum impact and also look into potential venues for our event. Looking forward to our coffee meeting next Wednesday!"
+        ],
+        [
+          "Giorgio Rossi",
+          "That works for me, Abigail. I'll make sure to prepare some preliminary data and insights from my research that could be relevant for our joint project. Let's also think about inviting experts in both math and improv comedy who can provide valuable perspectives."
+        ],
+        [
+          "Abigail Chen",
+          "Perfect, Giorgio. I'll also reach out to some improv comedy groups and conflict resolution experts who could contribute to our event. It will be great to see how we can use humor and interactive methods to make complex civic issues more accessible and engaging for everyone."
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds excellent, Abigail. Let\u2019s also brainstorm on how we can leverage social media analytics to gauge public interest and tailor our event content accordingly. I'll prepare some preliminary data for that as well."
+        ],
+        [
+          "Abigail Chen",
+          "That\u2019s a fantastic suggestion, Giorgio. Leveraging social media analytics will surely help us tailor our event to better engage participants. I\u2019ll also gather some insights from my animation and conflict resolution projects that might inspire interactive elements for your research on voter demographics."
+        ],
+        [
+          "Giorgio Rossi",
+          "Absolutely, Abigail. Let\u2019s aim to make our event not only informative but also engaging and interactive. I\u2019ll start compiling some preliminary data and insights from my research that could be useful for both our projects. Looking forward to our meeting next week!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Giorgio. I'll make sure to review my notes on integrating humor and improv into civic engagement discussions for our meeting next Wednesday. It should be a productive session."
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds good, Abigail. Let's also consider inviting some community members and local leaders to provide real-world perspectives on civic engagement issues. This could add another layer of insight and practical value to our collaboration."
+        ],
+        [
+          "Abigail Chen",
+          "That\u2019s a wonderful idea, Giorgio. Inviting community members and local leaders will definitely enrich our discussion and help us tailor our event more effectively to meet real-world needs."
+        ],
+        [
+          "Giorgio Rossi",
+          "I think inviting community members and local leaders is a wise move, Abigail. We could also look into potential partnerships with local organizations to amplify our reach and impact. Let\u2019s start drafting a list of contacts for next week's meeting."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds like a great strategy, Giorgio. I'll prepare some ideas for potential local organizations to partner with and also outline initial concepts for how we can use humor and interactive elements in our event. Looking forward to next Wednesday!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 75.9,
+          "hunger": 73.9,
+          "fun": 99.9,
+          "hygiene": 53.7,
+          "bladder": 19.7,
+          "social": 76.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Francisco Lopez": {
+      "movement": [
+        39,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Francisco Lopez and Rajiv Patel discussing how to integrate painting, music, community workshops, and improv comedy into Sam\u2019s campaign through their web series and art collaborations. @ <persona> Rajiv Patel",
+      "chat": [
+        [
+          "Francisco Lopez",
+          "Hey Rajiv, great to see you! I was just thinking about our discussion earlier. Any new ideas on how we can bring painting and music into my web series themes for Sam\u2019s campaign?"
+        ],
+        [
+          "Rajiv Patel",
+          "Hi Francisco! I've been thinking about it too. Maybe we could create a series of paintings that reflect key moments or themes from your web series, and then compose music that complements each piece to enhance the emotional impact during Sam\u2019s campaign events."
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds amazing, Rajiv! We could even have a live performance at one of Sam\u2019s campaign stops where we blend scenes from my web series with your paintings and music. It would really bring the message to life."
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds fantastic, Francisco. I think we should also consider involving the community more by hosting workshops where people can create their own art inspired by your web series and our collaboration. This could be a great way to engage supporters directly."
+        ],
+        [
+          "Francisco Lopez",
+          "I love that idea, Rajiv! We could have workshops at different locations around town where people can paint and make music. It would be a fun way to get everyone involved in supporting Sam\u2019s campaign. Plus, we could use the artwork created during these sessions as part of our visual campaign materials."
+        ],
+        [
+          "Rajiv Patel",
+          "Absolutely, Francisco. We should also think about organizing a panel discussion or Q&A session during my solo show to delve deeper into how art and community engagement can support Sam\u2019s campaign. It could be a great platform for us to share our vision and involve more people."
+        ],
+        [
+          "Francisco Lopez",
+          "That\u2019s a brilliant idea, Rajiv. Let's definitely plan for both the workshops and the panel discussion. Maybe we can also include improv comedy segments to entertain people and break the ice during these events?"
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds like a comprehensive plan, Francisco. Let\u2019s schedule those workshops and panel discussion soon. I think we should also reach out to Latoya and Jennifer to integrate their respective art forms into our collaborative efforts."
+        ],
+        [
+          "Francisco Lopez",
+          "Sounds good, Rajiv. Let\u2019s sync up on dates and locations for those workshops and the panel discussion soon. And I\u2019ll reach out to Latoya and Jennifer right away."
+        ],
+        [
+          "Rajiv Patel",
+          "Great, let\u2019s make sure to finalize all details and start promoting these events. I think it will be a powerful way to unite different forms of art and community involvement in support of Sam\u2019s campaign."
+        ],
+        [
+          "Francisco Lopez",
+          "Definitely, Rajiv. Let\u2019s start planning and reach out to Hailey too for her thoughts on incorporating a podcast into our events. She has some great ideas on making these initiatives go viral."
+        ],
+        [
+          "Rajiv Patel",
+          "Sounds like a plan, Francisco. I\u2019ll draft an email to Latoya and Jennifer outlining our ideas so far and coordinating logistics for the workshops and panel discussion. And let\u2019s touch base again soon to finalize everything."
+        ],
+        [
+          "Francisco Lopez",
+          "Sounds great, Rajiv. I'll stay in touch with Hailey to incorporate her podcast ideas and see how we can best connect them with your solo show and my web series for maximum impact."
+        ],
+        [
+          "Rajiv Patel",
+          "Sounds good, Francisco. I'll also reach out to Hailey and Latoya separately to discuss their specific contributions and how we can ensure a cohesive message across all platforms."
+        ],
+        [
+          "Francisco Lopez",
+          "Sounds awesome, Rajiv. Let\u2019s make sure to keep everyone in the loop and coordinate well for a successful campaign initiative."
+        ],
+        [
+          "Rajiv Patel",
+          "Sounds like we have a lot to plan for, Francisco. Let\u2019s aim to finalize everything by next week so we can start promoting our events and workshops. I\u2019ll send out the draft email to everyone soon."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 70.9,
+          "hunger": 98.5,
+          "fun": 75.9,
+          "hygiene": 62.2,
+          "bladder": 2.4,
+          "social": 95.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udcda",
+      "description": "Hailey is working on her novel, conducting research and brainstorming new ideas (brainstorming new plot ideas for the novel) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 85.9,
+          "hunger": 60.0,
+          "fun": 40.5,
+          "hygiene": 53.7,
+          "bladder": 19.7,
+          "social": 57.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Arthur Burton": {
+      "movement": [
+        79,
+        23
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83c\udf7d\ufe0f",
+      "description": "Arthur is taking a short break and having lunch. He reviews customer feedback from the past week to improve his service and cocktails (eating his lunch) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.9,
+          "hunger": 100.0,
+          "fun": 41.9,
+          "hygiene": 53.7,
+          "bladder": 0.0,
+          "social": 54.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ryan Park": {
+      "movement": [
+        69,
+        19
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83c\udf7d\ufe0f",
+      "description": "having lunch (eating his lunch) @ the Ville:Ryan Park's apartment:main room:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 80.9,
+          "hunger": 83.6,
+          "fun": 97.9,
+          "hygiene": 53.7,
+          "bladder": 19.7,
+          "social": 64.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        19
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83d\udd0e",
+      "description": "having lunch at Hobbs Cafe while checking inventory and planning menu items for the Valentine's Day party (checking the inventory levels of ingredients and supplies) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 65.9,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 62.2,
+          "bladder": 19.7,
+          "social": 98.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        75,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Giorgio Rossi and Abigail Chen discussing potential collaboration on integrating mathematical analysis, social media analytics, and improv comedy techniques into civic engagement initiatives. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Giorgio Rossi",
+          "Hi Abigail, I see you're enjoying your meal and planning out some interesting projects. It sounds fascinating how you're integrating humor into conflict resolution scenes for both your animation project and Adam\u2019s book. Have you thought about applying those improv techniques to civic engagement discussions? Perhaps we could collaborate on enhancing voter demographic strategies using mathematical analysis and social media analytics."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds like an intriguing idea, Giorgio! I think there are many parallels between using humor and improv in conflict resolution and enhancing civic engagement. Perhaps we can explore how our respective projects might complement each other, especially in terms of analyzing voter demographics and creating interactive experiences that foster meaningful discussions."
+        ],
+        [
+          "Giorgio Rossi",
+          "I agree, Abigail. It would be interesting to see how we could use mathematical models and social media data to identify key demographics and then apply your expertise in improv comedy to make these discussions more engaging and effective. Perhaps we could start by setting up a meeting or even organizing an event that combines both approaches."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds like an excellent plan, Giorgio. How about we start by brainstorming some initial ideas for our joint project during a coffee meeting next week? We could also consider planning an event that utilizes both mathematical models and improv techniques to engage voters and encourage constructive dialogue."
+        ],
+        [
+          "Giorgio Rossi",
+          "I think that's a great idea, Abigail. Let's aim to schedule our coffee meeting for next Wednesday at 3 PM. And we can start thinking about potential venues and guest speakers who might be interested in this unique blend of mathematical analysis and improv comedy techniques. It could really set the stage for an innovative approach to civic engagement."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds great, Giorgio. I'll bring some initial thoughts on how we can blend our projects for maximum impact and also look into potential venues for our event. Looking forward to our coffee meeting next Wednesday!"
+        ],
+        [
+          "Giorgio Rossi",
+          "That works for me, Abigail. I'll make sure to prepare some preliminary data and insights from my research that could be relevant for our joint project. Let's also think about inviting experts in both math and improv comedy who can provide valuable perspectives."
+        ],
+        [
+          "Abigail Chen",
+          "Perfect, Giorgio. I'll also reach out to some improv comedy groups and conflict resolution experts who could contribute to our event. It will be great to see how we can use humor and interactive methods to make complex civic issues more accessible and engaging for everyone."
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds excellent, Abigail. Let\u2019s also brainstorm on how we can leverage social media analytics to gauge public interest and tailor our event content accordingly. I'll prepare some preliminary data for that as well."
+        ],
+        [
+          "Abigail Chen",
+          "That\u2019s a fantastic suggestion, Giorgio. Leveraging social media analytics will surely help us tailor our event to better engage participants. I\u2019ll also gather some insights from my animation and conflict resolution projects that might inspire interactive elements for your research on voter demographics."
+        ],
+        [
+          "Giorgio Rossi",
+          "Absolutely, Abigail. Let\u2019s aim to make our event not only informative but also engaging and interactive. I\u2019ll start compiling some preliminary data and insights from my research that could be useful for both our projects. Looking forward to our meeting next week!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Giorgio. I'll make sure to review my notes on integrating humor and improv into civic engagement discussions for our meeting next Wednesday. It should be a productive session."
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds good, Abigail. Let's also consider inviting some community members and local leaders to provide real-world perspectives on civic engagement issues. This could add another layer of insight and practical value to our collaboration."
+        ],
+        [
+          "Abigail Chen",
+          "That\u2019s a wonderful idea, Giorgio. Inviting community members and local leaders will definitely enrich our discussion and help us tailor our event more effectively to meet real-world needs."
+        ],
+        [
+          "Giorgio Rossi",
+          "I think inviting community members and local leaders is a wise move, Abigail. We could also look into potential partnerships with local organizations to amplify our reach and impact. Let\u2019s start drafting a list of contacts for next week's meeting."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds like a great strategy, Giorgio. I'll prepare some ideas for potential local organizations to partner with and also outline initial concepts for how we can use humor and interactive elements in our event. Looking forward to next Wednesday!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 70.9,
+          "hunger": 57.8,
+          "fun": 44.3,
+          "hygiene": 86.8,
+          "bladder": 19.7,
+          "social": 63.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Carlos Gomez": {
+      "movement": [
+        94,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcf1\ud83d\udca1",
+      "description": "Carlos is taking a break and having lunch (checking social media for inspiration) @ the Ville:Carlos Gomez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.9,
+          "hunger": 100.0,
+          "fun": 96.8,
+          "hygiene": 62.2,
+          "bladder": 19.7,
+          "social": 32.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        88,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83e\udd1d",
+      "description": "Klaus is having lunch at Hobbs Cafe. He enjoys a variety of dishes but today opts for a vegetarian sandwich and a cup of coffee, reflecting on his morning's progress and planning the afternoon ahead (conversing about Giorgio Rossi and Klaus Mueller discussing potential collaboration on integrating mathematical patterns in nature with research on community engagement and gentrification, planning a meeting to explore how their work might intersect.) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.9,
+          "hunger": 99.9,
+          "fun": 46.2,
+          "hygiene": 85.6,
+          "bladder": 0.0,
+          "social": 51.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        106,
+        47
+      ],
+      "pronunciatio": "\u2615\u23f0",
+      "description": "having lunch (waiting for her order to be prepared) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 85.9,
+          "hunger": 34.1,
+          "fun": 46.8,
+          "hygiene": 62.2,
+          "bladder": 19.7,
+          "social": 57.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ayesha Khan": {
+      "movement": [
+        80,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udf7d\ud83d\udcc5",
+      "description": "having lunch at the campus cafeteria (conversing about Ayesha Khan and Mei Lin discussing their meal preferences, planning to have lunch together next week, and exchanging ideas on a project exploring the connection between Shakespeare's works and different musical styles.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 65.9,
+          "hunger": 100.0,
+          "fun": 71.8,
+          "hygiene": 62.2,
+          "bladder": 19.7,
+          "social": 65.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcd6\u2697\ufe0f",
+      "description": "Wolfgang is studying chemistry and related subjects (studying organic chemistry concepts) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 60.9,
+          "hunger": 94.0,
+          "fun": 63.2,
+          "hygiene": 85.7,
+          "bladder": 19.7,
+          "social": 42.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Mei Lin": {
+      "movement": [
+        119,
+        33
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udf7d\ud83d\udcc5",
+      "description": "Mei is having lunch at the college cafeteria (conversing about Ayesha Khan and Mei Lin discussing their meal preferences, planning to have lunch together next week, and exchanging ideas on a project exploring the connection between Shakespeare's works and different musical styles.) @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.9,
+          "hunger": 100.0,
+          "fun": 58.2,
+          "hygiene": 84.4,
+          "bladder": 62.7,
+          "social": 48.8
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        76,
+        48
+      ],
+      "pronunciatio": "\ud83d\udc8a\ud83c\udff7",
+      "description": "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (providing information about generic alternatives for brand-name drugs) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 72.0,
+          "hunger": 77.2,
+          "fun": 56.4,
+          "hygiene": 85.3,
+          "bladder": 19.7,
+          "social": 52.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        112,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfa7",
+      "description": "Eddy is attending his third class at Oak Hill College (taking notes during the lecture) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.0,
+          "hunger": 57.4,
+          "fun": 90.0,
+          "hygiene": 91.7,
+          "bladder": 19.7,
+          "social": 51.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Tom Moreno": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83e\uddf9\ud83c\udf1f",
+      "description": "managing customer services and helping with orders at The Willow Market and Pharmacy (cleaning up the checkout area again to maintain cleanliness) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.9,
+          "hunger": 18.9,
+          "fun": 23.7,
+          "hygiene": 62.2,
+          "bladder": 19.7,
+          "social": 59.6
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Jane Moreno": {
+      "movement": [
+        88,
+        49
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83e\udd5b",
+      "description": "Jane is going grocery shopping at The Willow Market and Pharmacy (moving to the dairy section) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 65.9,
+          "hunger": 78.7,
+          "fun": 23.7,
+          "hygiene": 62.2,
+          "bladder": 19.7,
+          "social": 33.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Tamara Taylor": {
+      "movement": [
+        55,
+        67
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83c\udf7d\ufe0f",
+      "description": "having lunch with housemate Carmen Ortiz (eating her lunch) @ the Ville:Tamara Taylor and Carmen Ortiz's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 65.9,
+          "hunger": 100.0,
+          "fun": 35.8,
+          "hygiene": 53.7,
+          "bladder": 19.7,
+          "social": 32.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Carmen Ortiz": {
+      "movement": [
+        68,
+        46
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83d\udc81\u200d",
+      "description": "working at Harvey Oak Supply Store (helping a customer with a special order request) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.9,
+          "hunger": 57.4,
+          "fun": 23.7,
+          "hygiene": 67.4,
+          "bladder": 12.8,
+          "social": 46.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Sam Moore": {
+      "movement": [
+        39,
+        40
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about planning strategies and collaborations for Sam Moore's campaign, including artistic contributions from Jennifer Moore and Latoya, potential involvement of Rajiv, Adam Smith, and Isabella Rodriguez, use of social media and interactive community events. @ <persona> Jennifer Moore",
+      "chat": [
+        [
+          "Sam Moore",
+          "Hi Jennifer, how was your lunch today? I just wanted to remind you about our meeting at Hobbs cafe this Wednesday at 2 PM with Latoya. We need to finalize some ideas on how we can integrate our art into my campaign visuals."
+        ],
+        [
+          "Jennifer Moore",
+          "Hi Sam, my lunch was wonderful. I can't wait to see more of Latoya's work and discuss how we can blend our styles for your campaign. I think involving other artists could really add another layer of creativity and community support."
+        ],
+        [
+          "Sam Moore",
+          "Absolutely, I agree. Having diverse artistic elements will definitely make our campaign stand out and resonate more with different groups in the community. Plus, it could inspire other residents to get involved and contribute their talents."
+        ],
+        [
+          "Jennifer Moore",
+          "I was thinking we could reach out to Rajiv and see if he\u2019s interested in collaborating too. His web series has a great message that aligns well with your platform, Sam."
+        ],
+        [
+          "Sam Moore",
+          "That's a great idea, Jennifer. Rajiv\u2019s work has touched on several issues that are close to my heart as well. Let\u2019s draft up an email or text him after we meet with Latoya this Wednesday to gauge his interest and how he might be able to contribute."
+        ],
+        [
+          "Jennifer Moore",
+          "Sounds good, Sam. I'll draft an email to Rajiv after our meeting and we can touch base on how to proceed from there."
+        ],
+        [
+          "Sam Moore",
+          "Perfect, let's make sure to also touch on how we can utilize social media and other digital platforms to showcase our work effectively. We don't want to miss out on reaching potential voters online."
+        ],
+        [
+          "Jennifer Moore",
+          "Agreed, Sam. We should also plan to discuss how we can make our art accessible and engaging for everyone attending community events. Perhaps we could set up interactive stations where people can see the process behind each piece of artwork."
+        ],
+        [
+          "Sam Moore",
+          "That sounds like an excellent way to engage people. We could even incorporate live demonstrations or workshops that tie into community issues, making it both educational and entertaining."
+        ],
+        [
+          "Jennifer Moore",
+          "I think involving interactive stations and live demonstrations could really help bring our campaign messages to life. And we should also consider how we can continue to foster community involvement through these events, perhaps by collecting feedback or suggestions from the attendees."
+        ],
+        [
+          "Sam Moore",
+          "Those are great ideas, Jennifer. Let\u2019s definitely include interactive elements and live demonstrations in our strategy to make sure we are engaging and educating the community as much as possible. We can also think about how we can use these events to build a sense of unity and shared purpose among residents."
+        ],
+        [
+          "Jennifer Moore",
+          "I agree, Sam. Let's brainstorm some interactive ideas and live demonstration topics for our next meeting that can highlight both the artistic collaboration and community engagement aspects of your campaign."
+        ],
+        [
+          "Sam Moore",
+          "Before we wrap up, let\u2019s also discuss how to leverage Adam Smith and Isabella Rodriguez\u2019s expertise in creative engagement methods like improv comedy and gamification. It could be a unique way to make our campaign stand out and bring people together."
+        ],
+        [
+          "Jennifer Moore",
+          "Absolutely, involving Adam and Isabella\u2019s expertise could be very impactful. Let's include that in our meeting agenda as well, Sam. We can explore how improv comedy and gamification can enhance community interaction and make the campaign more memorable."
+        ],
+        [
+          "Sam Moore",
+          "Great, let's make sure to outline our ideas on leveraging creative engagement methods during Wednesday\u2019s meeting. We should also finalize any details about Rajiv's collaboration and how we can utilize social media effectively for our campaign visuals."
+        ],
+        [
+          "Jennifer Moore",
+          "Sounds like we have lots to cover on Wednesday, Sam. I think it would be beneficial to also discuss potential timelines for implementing these ideas and identifying key milestones leading up to the campaign kickoff."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 60.9,
+          "hunger": 89.9,
+          "fun": 98.3,
+          "hygiene": 78.7,
+          "bladder": 49.6,
+          "social": 92.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Jennifer Moore": {
+      "movement": [
+        38,
+        40
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about planning strategies and collaborations for Sam Moore's campaign, including artistic contributions from Jennifer Moore and Latoya, potential involvement of Rajiv, Adam Smith, and Isabella Rodriguez, use of social media and interactive community events. @ <persona> Sam Moore",
+      "chat": [
+        [
+          "Sam Moore",
+          "Hi Jennifer, how was your lunch today? I just wanted to remind you about our meeting at Hobbs cafe this Wednesday at 2 PM with Latoya. We need to finalize some ideas on how we can integrate our art into my campaign visuals."
+        ],
+        [
+          "Jennifer Moore",
+          "Hi Sam, my lunch was wonderful. I can't wait to see more of Latoya's work and discuss how we can blend our styles for your campaign. I think involving other artists could really add another layer of creativity and community support."
+        ],
+        [
+          "Sam Moore",
+          "Absolutely, I agree. Having diverse artistic elements will definitely make our campaign stand out and resonate more with different groups in the community. Plus, it could inspire other residents to get involved and contribute their talents."
+        ],
+        [
+          "Jennifer Moore",
+          "I was thinking we could reach out to Rajiv and see if he\u2019s interested in collaborating too. His web series has a great message that aligns well with your platform, Sam."
+        ],
+        [
+          "Sam Moore",
+          "That's a great idea, Jennifer. Rajiv\u2019s work has touched on several issues that are close to my heart as well. Let\u2019s draft up an email or text him after we meet with Latoya this Wednesday to gauge his interest and how he might be able to contribute."
+        ],
+        [
+          "Jennifer Moore",
+          "Sounds good, Sam. I'll draft an email to Rajiv after our meeting and we can touch base on how to proceed from there."
+        ],
+        [
+          "Sam Moore",
+          "Perfect, let's make sure to also touch on how we can utilize social media and other digital platforms to showcase our work effectively. We don't want to miss out on reaching potential voters online."
+        ],
+        [
+          "Jennifer Moore",
+          "Agreed, Sam. We should also plan to discuss how we can make our art accessible and engaging for everyone attending community events. Perhaps we could set up interactive stations where people can see the process behind each piece of artwork."
+        ],
+        [
+          "Sam Moore",
+          "That sounds like an excellent way to engage people. We could even incorporate live demonstrations or workshops that tie into community issues, making it both educational and entertaining."
+        ],
+        [
+          "Jennifer Moore",
+          "I think involving interactive stations and live demonstrations could really help bring our campaign messages to life. And we should also consider how we can continue to foster community involvement through these events, perhaps by collecting feedback or suggestions from the attendees."
+        ],
+        [
+          "Sam Moore",
+          "Those are great ideas, Jennifer. Let\u2019s definitely include interactive elements and live demonstrations in our strategy to make sure we are engaging and educating the community as much as possible. We can also think about how we can use these events to build a sense of unity and shared purpose among residents."
+        ],
+        [
+          "Jennifer Moore",
+          "I agree, Sam. Let's brainstorm some interactive ideas and live demonstration topics for our next meeting that can highlight both the artistic collaboration and community engagement aspects of your campaign."
+        ],
+        [
+          "Sam Moore",
+          "Before we wrap up, let\u2019s also discuss how to leverage Adam Smith and Isabella Rodriguez\u2019s expertise in creative engagement methods like improv comedy and gamification. It could be a unique way to make our campaign stand out and bring people together."
+        ],
+        [
+          "Jennifer Moore",
+          "Absolutely, involving Adam and Isabella\u2019s expertise could be very impactful. Let's include that in our meeting agenda as well, Sam. We can explore how improv comedy and gamification can enhance community interaction and make the campaign more memorable."
+        ],
+        [
+          "Sam Moore",
+          "Great, let's make sure to outline our ideas on leveraging creative engagement methods during Wednesday\u2019s meeting. We should also finalize any details about Rajiv's collaboration and how we can utilize social media effectively for our campaign visuals."
+        ],
+        [
+          "Jennifer Moore",
+          "Sounds like we have lots to cover on Wednesday, Sam. I think it would be beneficial to also discuss potential timelines for implementing these ideas and identifying key milestones leading up to the campaign kickoff."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 60.9,
+          "hunger": 98.4,
+          "fun": 96.6,
+          "hygiene": 57.1,
+          "bladder": 9.3,
+          "social": 100.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Yuriko Yamamoto": {
+      "movement": [
+        67,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcde",
+      "description": "Yuriko is having a lunch meeting with clients to discuss their tax compliance needs and provide guidance on upcoming changes in tax laws (answering questions from clients about the meeting topics) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.9,
+          "hunger": 100.0,
+          "fun": 30.9,
+          "hygiene": 88.5,
+          "bladder": 19.7,
+          "social": 52.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Adam Smith": {
+      "movement": [
+        55,
+        23
+      ],
+      "pronunciatio": "\u2615\u23f0",
+      "description": "Adam is having lunch (waiting for his order) @ the Ville:The Rose and Crown Pub:pub:bar customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 55.9,
+          "hunger": 100.0,
+          "fun": 92.9,
+          "hygiene": 53.7,
+          "bladder": 19.7,
+          "social": 97.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 12:49:50"
+  }
+}

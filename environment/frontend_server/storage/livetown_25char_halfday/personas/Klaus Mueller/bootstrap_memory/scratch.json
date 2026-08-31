@@ -1,0 +1,606 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    119,
+    24
+  ],
+  "daily_plan_req": "Klaus Mueller goes to the library at Oak Hill College early in the morning, spends his days writing, and eats at Hobbs Cafe.",
+  "name": "Klaus Mueller",
+  "first_name": "Klaus",
+  "last_name": "Mueller",
+  "age": 20,
+  "innate": "kind, inquisitive, passionate",
+  "learned": "Klaus Mueller is a student at Oak Hill College studying sociology. He is passionate about social justice and loves to explore different perspectives.",
+  "currently": "Klaus Mueller is writing a research paper on the effects of gentrification in low-income communities.",
+  "seed_currently": "Klaus Mueller is writing a research paper on the effects of gentrification in low-income communities.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 51.41,
+    "hunger": 84.37,
+    "fun": 51.93,
+    "hygiene": 73.89,
+    "bladder": 0.0,
+    "social": 68.09
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Wolfgang Schulz": {
+      "friendship": 13.0,
+      "romance": 0.0
+    },
+    "Ayesha Khan": {
+      "friendship": 11.0,
+      "romance": 0.0
+    },
+    "Maria Lopez": {
+      "friendship": 73.0,
+      "romance": 46.0
+    },
+    "Giorgio Rossi": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Isabella Rodriguez": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Jennifer Moore": {
+      "friendship": 7.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Klaus Mueller goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 191,
+  "importance_ele_n": 27,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "go to the library at Oak Hill College by 8:30 am",
+    "spend time writing his research paper until around 12:00 pm",
+    "have lunch at Hobbs Cafe from 12:00 to 1:00 pm",
+    "return to the library and continue working on his paper until 5:00 pm",
+    "eat dinner at 5:00 pm",
+    "review some notes or read additional materials related to gentrification after dinner from 6:30 to 8:00 pm",
+    "watch TV from 8:00 to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "washing up and preparing for the day. He then has breakfast before heading out (showering)",
+      20
+    ],
+    [
+      "washing up and preparing for the day. He then has breakfast before heading out (brushing his teeth and washing his face)",
+      5
+    ],
+    [
+      "washing up and preparing for the day. He then has breakfast before heading out (getting dressed for the day)",
+      10
+    ],
+    [
+      "washing up and preparing for the day. He then has breakfast before heading out (on the way to preparing breakfast)",
+      0
+    ],
+    [
+      "washing up and preparing for the day. He then has breakfast before heading out (conversing about Wolfgang Schulz and Klaus Mueller discussing their plans for the day, including work at the library, morning runs, studying chemistry, and dinner together later in the evening.)",
+      4
+    ],
+    [
+      "washing up and preparing for the day. He then has breakfast before heading out (preparing and eating breakfast)",
+      16
+    ],
+    [
+      "washing up and preparing for the day. He then has breakfast before heading out (on the way to packing his bag with necessary items for the day)",
+      0
+    ],
+    [
+      "washing up and preparing for the day. He then has breakfast before heading out (conversing about Klaus and Ayesha arranging a time to meet at the campus caf\u00e9 for coffee after classes.)",
+      2
+    ],
+    [
+      "packing his bag with necessary items for the day",
+      3
+    ],
+    [
+      "heading to the library at Oak Hill College. He plans to start working on his research paper there (walking to the library, checking his notes and making sure he has all necessary materials like books and a laptop)",
+      20
+    ],
+    [
+      "arrives at the library and finds a quiet spot to work",
+      5
+    ],
+    [
+      "sets up his workspace with his laptop and notebooks",
+      5
+    ],
+    [
+      "reviews his research outline and objectives for today's work session",
+      10
+    ],
+    [
+      "begins researching specific case studies on gentrification effects",
+      15
+    ],
+    [
+      "takes a short break to hydrate and stretch",
+      5
+    ],
+    [
+      "Klaus is working on his research paper in the library at Oak Hill College. He plans to spend several hours there before having lunch (reading and taking notes on academic articles related to gentrification effects)",
+      30
+    ],
+    [
+      "Klaus is working on his research paper in the library at Oak Hill College. He plans to spend several hours there before having lunch (organizing his research findings into an outline for the paper)",
+      15
+    ],
+    [
+      "Klaus is working on his research paper in the library at Oak Hill College. He plans to spend several hours there before having lunch (drafting initial sections of the research paper based on his notes and outline)",
+      15
+    ],
+    [
+      "Klaus is still working on his research paper in the library at Oak Hill College. He plans to spend several more hours there before having lunch (on the way to reviewing notes and sources related to gentrification effects on low-income communities)",
+      0
+    ],
+    [
+      "Klaus is still working on his research paper in the library at Oak Hill College. He plans to spend several more hours there before having lunch (conversing about Klaus and Wolfgang deciding on meeting at Hobbs Cafe for dinner at 5 pm to catch up.)",
+      3
+    ],
+    [
+      "Klaus is still working on his research paper in the library at Oak Hill College. He plans to spend several more hours there before having lunch (reviewing notes and sources related to gentrification effects on low-income communities)",
+      27
+    ],
+    [
+      "Klaus is still working on his research paper in the library at Oak Hill College. He plans to spend several more hours there before having lunch (on the way to drafting sections of the research paper based on reviewed materials)",
+      0
+    ],
+    [
+      "Klaus is still working on his research paper in the library at Oak Hill College. He plans to spend several more hours there before having lunch (conversing about Ayesha Khan and Klaus Mueller discussing their respective research on Shakespeare\u2019s plays and gentrification, noting parallels in how language shapes communities and influences public perception.)",
+      8
+    ],
+    [
+      "Klaus is still working on his research paper in the library at Oak Hill College. He plans to spend several more hours there before having lunch (drafting sections of the research paper based on reviewed materials)",
+      22
+    ],
+    [
+      "Klaus is still working on his research paper in the library at Oak Hill College. He plans to spend several more hours there before having lunch (on the way to taking a short break to stretch and hydrate)",
+      0
+    ],
+    [
+      "Klaus is still working on his research paper in the library at Oak Hill College. He plans to spend several more hours there before having lunch (waiting to start drafting sections of the research paper based on reviewed materials)",
+      7
+    ],
+    [
+      "Klaus is still working on his research paper in the library at Oak Hill College. He plans to spend several more hours there before having lunch (drafting sections of the research paper based on reviewed materials and revising previously written sections for clarity and coherence)",
+      53
+    ],
+    [
+      "Klaus is having lunch at Hobbs Cafe. He enjoys a variety of dishes but today opts for a vegetarian sandwich and a cup of coffee, reflecting on his morning's progress and planning the afternoon ahead (walking to Hobbs Cafe)",
+      5
+    ],
+    [
+      "Klaus is having lunch at Hobbs Cafe. He enjoys a variety of dishes but today opts for a vegetarian sandwich and a cup of coffee, reflecting on his morning's progress and planning the afternoon ahead (looking at the menu and deciding on a vegetarian sandwich and coffee)",
+      5
+    ],
+    [
+      "Klaus is having lunch at Hobbs Cafe. He enjoys a variety of dishes but today opts for a vegetarian sandwich and a cup of coffee, reflecting on his morning's progress and planning the afternoon ahead (ordering his food and drink)",
+      5
+    ],
+    [
+      "Klaus is having lunch at Hobbs Cafe. He enjoys a variety of dishes but today opts for a vegetarian sandwich and a cup of coffee, reflecting on his morning's progress and planning the afternoon ahead (waiting for his order to be prepared)",
+      10
+    ],
+    [
+      "Klaus is having lunch at Hobbs Cafe. He enjoys a variety of dishes but today opts for a vegetarian sandwich and a cup of coffee, reflecting on his morning's progress and planning the afternoon ahead (on the way to receiving and setting up his meal on the table)",
+      0
+    ],
+    [
+      "Klaus is having lunch at Hobbs Cafe. He enjoys a variety of dishes but today opts for a vegetarian sandwich and a cup of coffee, reflecting on his morning's progress and planning the afternoon ahead (conversing about Klaus Mueller and Maria Lopez discussing their respective projects on gentrification research and community engagement initiatives, expressing interest in potential collaboration.)",
+      15
+    ],
+    [
+      "Klaus is having lunch at Hobbs Cafe. He enjoys a variety of dishes but today opts for a vegetarian sandwich and a cup of coffee, reflecting on his morning's progress and planning the afternoon ahead (on the way to taking a bite of his sandwich while reflecting on his morning's progress)",
+      0
+    ],
+    [
+      "Klaus is having lunch at Hobbs Cafe. He enjoys a variety of dishes but today opts for a vegetarian sandwich and a cup of coffee, reflecting on his morning's progress and planning the afternoon ahead (conversing about Giorgio Rossi and Klaus Mueller discussing potential collaboration on integrating mathematical patterns in nature with research on community engagement and gentrification, planning a meeting to explore how their work might intersect.)",
+      15
+    ],
+    [
+      "Klaus is having lunch at Hobbs Cafe. He enjoys a variety of dishes but today opts for a vegetarian sandwich and a cup of coffee, reflecting on his morning's progress and planning the afternoon ahead (sipping coffee and planning afternoon tasks for research paper)",
+      5
+    ],
+    [
+      "Klaus is returning to the library at Oak Hill College. He plans to continue working on his research paper until around 5:00 pm (on the way to walking back to the library, checking his notes and making sure he has all necessary materials)",
+      0
+    ],
+    [
+      "Klaus is returning to the library at Oak Hill College. He plans to continue working on his research paper until around 5:00 pm (conversing about Klaus Mueller and Wolfgang Schulz discussing their chemistry studies, potential research collaborations, dinner plans, and ideas for integrating their academic interests into the Valentine's Day party theme at Hobbs Cafe.)",
+      11
+    ],
+    [
+      "Klaus is returning to the library at Oak Hill College. He plans to continue working on his research paper until around 5:00 pm (walking back to the library, checking his notes and making sure he has all necessary materials)",
+      9
+    ],
+    [
+      "Klaus is returning to the library at Oak Hill College. He plans to continue working on his research paper until around 5:00 pm (on the way to finding a quiet spot at the library to work undisturbed, reviewing his research paper outline and notes from earlier in the day)",
+      0
+    ],
+    [
+      "Klaus is returning to the library at Oak Hill College. He plans to continue working on his research paper until around 5:00 pm (conversing about Isabella Rodriguez and Klaus Mueller discussing plans to incorporate chemistry-themed cocktails and educational elements into a Valentine\u2019s Day party at Hobbs Cafe.)",
+      16
+    ],
+    [
+      "Klaus is returning to the library at Oak Hill College. He plans to continue working on his research paper until around 5:00 pm (on the way to walking back to the library, checking his notes and making sure he has all necessary materials)",
+      0
+    ],
+    [
+      "Klaus is returning to the library at Oak Hill College. He plans to continue working on his research paper until around 5:00 pm (conversing about Jennifer Moore and Klaus Mueller discussing plans to integrate mathematical patterns, interactive learning experiences, and improv comedy into Sam\u2019s mayoral campaign events at Hobbs Cafe for Valentine's Day.)",
+      18
+    ],
+    [
+      "Klaus is returning to the library at Oak Hill College. He plans to continue working on his research paper until around 5:00 pm (walking back to the library, checking his notes and making sure he has all necessary materials)",
+      6
+    ],
+    [
+      "Klaus is working on his research paper in the library at Oak Hill College. He plans to continue until around 5:00 pm (finding a quiet spot at the library to work undisturbed, reviewing his research paper outline and notes from earlier in the day)",
+      30
+    ],
+    [
+      "Klaus is working on his research paper in the library at Oak Hill College. He plans to continue until around 5:00 pm (organizing the structure of his argument)",
+      20
+    ],
+    [
+      "Klaus is working on his research paper in the library at Oak Hill College. He plans to continue until around 5:00 pm (on the way to writing an introduction to his paper)",
+      0
+    ],
+    [
+      "Klaus is working on his research paper in the library at Oak Hill College. He plans to continue until around 5:00 pm (conversing about Ayesha Khan and Klaus Mueller discussing how linguistic structures can shape community perceptions in relation to gentrification, planning a meeting to brainstorm ideas further.)",
+      6
+    ],
+    [
+      "Klaus is working on his research paper in the library at Oak Hill College. He plans to continue until around 5:00 pm (writing an introduction to his paper)",
+      34
+    ],
+    [
+      "Klaus is working on his research paper in the library at Oak Hill College. He plans to continue until around 5:00 pm (on the way to taking a short break and getting a drink from the library caf\u00e9)",
+      0
+    ],
+    [
+      "Klaus is working on his research paper in the library at Oak Hill College. He plans to continue until around 5:00 pm (waiting to start writing an introduction to his paper)",
+      20
+    ],
+    [
+      "Klaus is working on his research paper in the library at Oak Hill College. He plans to continue until around 5:00 pm (on the way to on the way to writing an introduction to his paper)",
+      0
+    ],
+    [
+      "Klaus is working on his research paper in the library at Oak Hill College. He plans to continue until around 5:00 pm (waiting to start waiting to start writing an introduction to his paper)",
+      19
+    ],
+    [
+      "Klaus is working on his research paper in the library at Oak Hill College. He plans to continue until around 5:00 pm (writing an introduction to his paper and reviewing previous work to ensure consistency and flow)",
+      51
+    ],
+    [
+      "Klaus is finishing up his work for the day and preparing to leave the library. He packs his belongings and heads out, looking forward to dinner (reviewing his notes one last time for any missed details or corrections)",
+      5
+    ],
+    [
+      "Klaus is finishing up his work for the day and preparing to leave the library. He packs his belongings and heads out, looking forward to dinner (organizing his research papers and notes into folders)",
+      5
+    ],
+    [
+      "Klaus is finishing up his work for the day and preparing to leave the library. He packs his belongings and heads out, looking forward to dinner (packing his laptop and other materials into his backpack)",
+      10
+    ],
+    [
+      "Klaus is finishing up his work for the day and preparing to leave the library. He packs his belongings and heads out, looking forward to dinner (checking the library for any items he might have forgotten to return or misplaced)",
+      5
+    ],
+    [
+      "Klaus is finishing up his work for the day and preparing to leave the library. He packs his belongings and heads out, looking forward to dinner (saving all his work and closing down his laptop)",
+      5
+    ],
+    [
+      "Klaus is finishing up his work for the day and preparing to leave the library. He packs his belongings and heads out, looking forward to dinner (placing his backpack on the library desk and gathering any trash he has generated)",
+      5
+    ],
+    [
+      "Klaus is finishing up his work for the day and preparing to leave the library. He packs his belongings and heads out, looking forward to dinner (walking to the library exit and checking out with the librarian if necessary)",
+      10
+    ],
+    [
+      "Klaus is finishing up his work for the day and preparing to leave the library. He packs his belongings and heads out, looking forward to dinner (heading towards the main entrance of the college campus)",
+      5
+    ],
+    [
+      "Klaus is finishing up his work for the day and preparing to leave the library. He packs his belongings and heads out, looking forward to dinner (stopping by a water fountain to refill his bottle for later use)",
+      10
+    ],
+    [
+      "reviewing some notes or reading additional materials related to gentrification. He plans to deepen his understanding of the topic and gather more insights for his research paper",
+      60
+    ],
+    [
+      "Klaus is reviewing some notes or reading additional materials related to gentrification. He plans to deepen his understanding of the topic and gather more insights for his research paper",
+      60
+    ],
+    [
+      "watching TV. He relaxes after a long day of work and watches his favorite show",
+      60
+    ],
+    [
+      "reviewing some notes or reading additional materials related to gentrification. He plans to deepen his understanding of the topic and gather more insights for his research paper until he goes to bed",
+      60
+    ],
+    [
+      "Klaus is getting ready for bed. He reflects on his day and feels satisfied with the progress he made on his research paper. He then brushes his teeth, changes into comfortable sleepwear, and settles in for the night",
+      120
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "washing up and preparing for the day. He then has breakfast before heading out",
+      60
+    ],
+    [
+      "Klaus is heading to the library at Oak Hill College. He plans to start working on his research paper there",
+      60
+    ],
+    [
+      "Klaus is working on his research paper in the library at Oak Hill College. He plans to spend several hours there before having lunch",
+      60
+    ],
+    [
+      "Klaus is still working on his research paper in the library at Oak Hill College. He plans to spend several more hours there before having lunch",
+      120
+    ],
+    [
+      "Klaus is having lunch at Hobbs Cafe. He enjoys a variety of dishes but today opts for a vegetarian sandwich and a cup of coffee, reflecting on his morning's progress and planning the afternoon ahead",
+      60
+    ],
+    [
+      "Klaus is returning to the library at Oak Hill College. He plans to continue working on his research paper until around 5:00 pm",
+      60
+    ],
+    [
+      "Klaus is working on his research paper in the library at Oak Hill College. He plans to continue until around 5:00 pm",
+      180
+    ],
+    [
+      "Klaus is finishing up his work for the day and preparing to leave the library. He packs his belongings and heads out, looking forward to dinner",
+      60
+    ],
+    [
+      "reviewing some notes or reading additional materials related to gentrification. He plans to deepen his understanding of the topic and gather more insights for his research paper",
+      60
+    ],
+    [
+      "Klaus is reviewing some notes or reading additional materials related to gentrification. He plans to deepen his understanding of the topic and gather more insights for his research paper",
+      60
+    ],
+    [
+      "watching TV. He relaxes after a long day of work and watches his favorite show",
+      60
+    ],
+    [
+      "reviewing some notes or reading additional materials related to gentrification. He plans to deepen his understanding of the topic and gather more insights for his research paper until he goes to bed",
+      60
+    ],
+    [
+      "Klaus is getting ready for bed. He reflects on his day and feels satisfied with the progress he made on his research paper. He then brushes his teeth, changes into comfortable sleepwear, and settles in for the night",
+      120
+    ]
+  ],
+  "act_address": "the Ville:Oak Hill College:library:library table",
+  "act_start_time": "February 13, 2023, 16:21:00",
+  "act_duration": 51,
+  "act_description": "Klaus is working on his research paper in the library at Oak Hill College. He plans to continue until around 5:00 pm (writing an introduction to his paper and reviewing previous work to ensure consistency and flow)",
+  "act_pronunciatio": "\u270d\ufe0f\ud83d\udcd6",
+  "act_event": [
+    "Klaus Mueller",
+    "write",
+    "introduction"
+  ],
+  "act_obj_description": "occupied with books, papers, and a laptop",
+  "act_obj_pronunciatio": "\ud83d\udcd6\ud83d\udcbb",
+  "act_obj_event": [
+    "library table",
+    "be occupied with",
+    "books papers and a laptop"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Wolfgang Schulz": 432,
+    "Ayesha Khan": 102,
+    "Maria Lopez": -708,
+    "Giorgio Rossi": -618,
+    "Isabella Rodriguez": -360,
+    "Jennifer Moore": -228
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -1,0 +1,866 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    73,
+    22
+  ],
+  "daily_plan_req": "Isabella Rodriguez opens Hobbs Cafe at 8am everyday, and stands at the counter until 8pm, at which point she closes the cafe.",
+  "name": "Isabella Rodriguez",
+  "first_name": "Isabella",
+  "last_name": "Rodriguez",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "Isabella Rodriguez is a cafe owner of Hobbs Cafe who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "Isabella Rodriguez is planning on having a Valentine's Day party at Hobbs Cafe with her customers on February 14th, 2023 at 5pm. She is gathering party material, and is telling everyone to join the party at Hobbs Cafe on *February 14th, 2023, from 5pm to 7pm*.",
+  "seed_currently": "Isabella Rodriguez is planning on having a Valentine's Day party at Hobbs Cafe with her customers on February 14th, 2023 at 5pm. She is gathering party material, and is telling everyone to join the party at Hobbs Cafe on *February 14th, 2023, from 5pm to 7pm*.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 46.41,
+    "hunger": 94.47,
+    "fun": 97.75,
+    "hygiene": 50.58,
+    "bladder": 0.0,
+    "social": 100.0
+  },
+  "mood": {
+    "family": "neutral",
+    "word": "calm"
+  },
+  "relationships": {
+    "Sam Moore": {
+      "friendship": 9.0,
+      "romance": 0.0
+    },
+    "Giorgio Rossi": {
+      "friendship": 9.0,
+      "romance": 0.0
+    },
+    "Wolfgang Schulz": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Ayesha Khan": {
+      "friendship": 12.0,
+      "romance": 0.0
+    },
+    "Ryan Park": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Arthur Burton": {
+      "friendship": 59.0,
+      "romance": 0.0
+    },
+    "Adam Smith": {
+      "friendship": 8.0,
+      "romance": 0.0
+    },
+    "Maria Lopez": {
+      "friendship": 67.0,
+      "romance": 0.0
+    },
+    "Jennifer Moore": {
+      "friendship": 11.0,
+      "romance": 0.0
+    },
+    "Klaus Mueller": {
+      "friendship": 10.0,
+      "romance": 0.0
+    },
+    "Abigail Chen": {
+      "friendship": 10.0,
+      "romance": 0.0
+    },
+    "Eddy Lin": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Hailey Johnson": {
+      "friendship": 10.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 96,
+  "importance_ele_n": 53,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "Make breakfast for herself at 7:00 am",
+    "open Hobbs Cafe at 8:00 am",
+    "organize Valentine's Day party materials throughout the day starting from 9:00 am",
+    "have lunch at 12:00 pm",
+    "continue preparing for the party and interact with customers until closing time at 8:00 pm",
+    "spend some free time after work, likely planning last-minute details or resting before the big day at around 9:00 pm to 10:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing her morning routine (getting out of bed)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (going to the bathroom to use the toilet and wash her face)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (brushing her teeth)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (drinking a glass of water)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (putting on comfortable clothes for the day)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (making her bed)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (checking her phone for any messages or notifications related to the cafe)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (planning out her day and writing down tasks on a notepad)",
+      15
+    ],
+    [
+      "making breakfast for herself (making coffee)",
+      10
+    ],
+    [
+      "making breakfast for herself (preparing eggs)",
+      10
+    ],
+    [
+      "making breakfast for herself (toasting bread)",
+      5
+    ],
+    [
+      "making breakfast for herself (slicing fruit for a breakfast plate)",
+      5
+    ],
+    [
+      "making breakfast for herself (brewing tea)",
+      10
+    ],
+    [
+      "making breakfast for herself (setting the table with plates and utensils)",
+      5
+    ],
+    [
+      "making breakfast for herself (arranging her breakfast on a plate)",
+      5
+    ],
+    [
+      "making breakfast for herself (sitting down to eat breakfast)",
+      10
+    ],
+    [
+      "opening Hobbs Cafe for the day (unlocking and opening the front door of Hobbs Cafe)",
+      5
+    ],
+    [
+      "opening Hobbs Cafe for the day (turning on the lights and setting up the main counter area)",
+      10
+    ],
+    [
+      "opening Hobbs Cafe for the day (on the way to checking that all equipment is functioning properly)",
+      0
+    ],
+    [
+      "opening Hobbs Cafe for the day (conversing about preparing for Valentine's Day party and discussing campaign insights, between Isabella Rodriguez and Sam Moore.)",
+      7
+    ],
+    [
+      "opening Hobbs Cafe for the day (checking that all equipment is functioning properly)",
+      10
+    ],
+    [
+      "opening Hobbs Cafe for the day (preparing coffee and tea supplies for the morning rush)",
+      10
+    ],
+    [
+      "opening Hobbs Cafe for the day (on the way to setting out pastries and other breakfast items)",
+      0
+    ],
+    [
+      "opening Hobbs Cafe for the day (conversing about Isabella Rodriguez and Giorgio Rossi discussing preparations for a busy day, inviting each other to an upcoming Valentine\u2019s Day party, exchanging views on the mayor election candidates, and planning a meeting to further discuss their analysis of the candidates over coffee.)",
+      10
+    ],
+    [
+      "opening Hobbs Cafe for the day (arranging seating areas to accommodate customers comfortably, reviewing the day's schedule and tasks for herself)",
+      8
+    ],
+    [
+      "organizing Valentine's Day party materials and decorations for Hobbs Cafe (sorting through existing supplies)",
+      15
+    ],
+    [
+      "organizing Valentine's Day party materials and decorations for Hobbs Cafe (ordering additional decorations online)",
+      10
+    ],
+    [
+      "organizing Valentine's Day party materials and decorations for Hobbs Cafe (on the way to setting up a Valentine's Day display window)",
+      0
+    ],
+    [
+      "organizing Valentine's Day party materials and decorations for Hobbs Cafe (conversing about Isabella and Wolfgang discussing Valentine's Day party plans and scheduling a meeting over coffee on Wednesday.)",
+      5
+    ],
+    [
+      "organizing Valentine's Day party materials and decorations for Hobbs Cafe (setting up a Valentine's Day display window)",
+      15
+    ],
+    [
+      "organizing Valentine's Day party materials and decorations for Hobbs Cafe (on the way to arranging tables and chairs for the event)",
+      0
+    ],
+    [
+      "organizing Valentine's Day party materials and decorations for Hobbs Cafe (conversing about Isabella Rodriguez and Ayesha Khan discussing preparations and decorations for an upcoming Valentine's Day party at Hobbs Cafe.)",
+      9
+    ],
+    [
+      "organizing Valentine's Day party materials and decorations for Hobbs Cafe (on the way to arranging tables and chairs for the event)",
+      0
+    ],
+    [
+      "organizing Valentine's Day party materials and decorations for Hobbs Cafe (conversing about Isabella Rodriguez inviting Ryan Park to her Valentine's Day open party at Hobbs Cafe and discussing potential contributions to the event.)",
+      10
+    ],
+    [
+      "preparing special Valentine's Day menu items for the cafe (on the way to creating a list of ingredients needed for the Valentine's Day menu)",
+      0
+    ],
+    [
+      "preparing special Valentine's Day menu items for the cafe (conversing about planning special Valentine's Day cocktails for an upcoming party at Hobbs Cafe, with Isabella Rodriguez and Arthur Burton discussing flavors, timing, and preparation.)",
+      9
+    ],
+    [
+      "preparing special Valentine's Day menu items for the cafe (checking inventory and ordering additional supplies if necessary)",
+      15
+    ],
+    [
+      "preparing special Valentine's Day menu items for the cafe (preparing special Valentine\u2019s Day drinks such as heart-shaped lattes and red velvet mochas)",
+      12
+    ],
+    [
+      "preparing special Valentine's Day menu items for the cafe (baking chocolate-covered strawberries for the menu)",
+      10
+    ],
+    [
+      "preparing special Valentine's Day menu items for the cafe (on the way to making chocolate-dipped pretzel rods for the menu)",
+      0
+    ],
+    [
+      "preparing special Valentine's Day menu items for the cafe (conversing about Isabella Rodriguez and Sam Moore discussing plans to incorporate Valentine\u2019s Day themed drinks into Sam's campaign events as a community engagement strategy, including complimentary tastings during meet-and-greets and featuring them at larger gatherings.)",
+      13
+    ],
+    [
+      "preparing special Valentine's Day menu items for the cafe (on the way to making chocolate-dipped pretzel rods for the menu)",
+      0
+    ],
+    [
+      "preparing special Valentine's Day menu items for the cafe (conversing about planning how to integrate improv comedy techniques into Valentine\u2019s Day events and Sam Moore's campaign activities at Hobbs Cafe, with the aim of enhancing civic engagement and conflict resolution skills.)",
+      20
+    ],
+    [
+      "arranging all prepared Valentine\u2019s Day items on display plates and platters",
+      7
+    ],
+    [
+      "preparing for the Valentine's Day party by setting up tables and arranging chairs in Hobbs Cafe (on the way to arranging tables to fit the cafe layout)",
+      0
+    ],
+    [
+      "preparing for the Valentine's Day party by setting up tables and arranging chairs in Hobbs Cafe (conversing about integrating improv comedy techniques into Valentine's Day events and Sam Moore's campaign activities to enhance civic engagement, with plans to collaborate on social media promotion and live-streaming.)",
+      15
+    ],
+    [
+      "preparing for the Valentine's Day party by setting up tables and arranging chairs in Hobbs Cafe (placing Valentine's Day decorations on each table)",
+      12
+    ],
+    [
+      "preparing for the Valentine's Day party by setting up tables and arranging chairs in Hobbs Cafe (setting up a special area for desserts and snacks)",
+      7
+    ],
+    [
+      "final check of all Valentine's Day menu items and setup before opening the cafe",
+      4
+    ],
+    [
+      "having lunch at Hobbs Cafe while checking inventory and planning menu items for the Valentine's Day party (on the way to taking a break to have lunch)",
+      0
+    ],
+    [
+      "having lunch at Hobbs Cafe while checking inventory and planning menu items for the Valentine's Day party (conversing about planning a Valentine's Day party and a subsequent coffee meeting to discuss mayor election candidates, incorporating improv comedy techniques and interactive games based on voter demographics to enhance civic engagement and conflict resolution skills among guests.)",
+      19
+    ],
+    [
+      "having lunch at Hobbs Cafe while checking inventory and planning menu items for the Valentine's Day party (checking the inventory levels of ingredients and supplies)",
+      15
+    ],
+    [
+      "having lunch at Hobbs Cafe while checking inventory and planning menu items for the Valentine's Day party (on the way to planning special Valentine's Day menu items)",
+      0
+    ],
+    [
+      "having lunch at Hobbs Cafe while checking inventory and planning menu items for the Valentine's Day party (conversing about planning unique cocktail flavors and interactive games for an upcoming Valentine's Day party at Hobbs Cafe, with Isabella Rodriguez and Arthur Burton discussing menu ideas and meeting schedules.)",
+      13
+    ],
+    [
+      "having lunch at Hobbs Cafe while checking inventory and planning menu items for the Valentine's Day party (ordering additional supplies for the party)",
+      8
+    ],
+    [
+      "having lunch at Hobbs Cafe while checking inventory and planning menu items for the Valentine's Day party (on the way to reviewing the cafe layout and seating arrangements for the event)",
+      0
+    ],
+    [
+      "having lunch at Hobbs Cafe while checking inventory and planning menu items for the Valentine's Day party (conversing about planning community engagement activities and events, including Valentine\u2019s Day-themed offerings at Hobbs Cafe, interactive workshops, and incorporating elements from Francisco Lopez\u2019s web series and Rajiv\u2019s solo show, for Sam\u2019s campaign with Isabella Rodriguez and Jennifer Moore.)",
+      14
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (on the way to taking customer orders)",
+      0
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (conversing about Isabella Rodriguez and Klaus Mueller discussing plans to incorporate chemistry-themed cocktails and educational elements into a Valentine\u2019s Day party at Hobbs Cafe.)",
+      16
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (preparing drinks for customers)",
+      15
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (on the way to making coffee and tea)",
+      0
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (conversing about Isabella and Abigail discussing plans to integrate interactive sound and visual elements into Isabella's Valentine's Day party, including chemistry-themed cocktails and educational animations.)",
+      16
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (making coffee and tea)",
+      14
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (on the way to preparing drinks for customers)",
+      0
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (conversing about Eddy Lin and Isabella Rodriguez discussing how to integrate music into visual storytelling elements, specifically for a Valentine's Day party with chemistry-themed cocktails.)",
+      15
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (interacting with customers to gather feedback on menu items)",
+      15
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (planning special Valentine's Day drinks)",
+      15
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (preparing ingredients for the Valentine's Day menu)",
+      15
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (arranging tables and chairs to accommodate more guests)",
+      15
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (decorating with heart-shaped balloons and ribbons)",
+      15
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (on the way to creating a special Valentine's Day menu board)",
+      0
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (conversing about planning and integrating elements from Francisco Lopez\u2019s web series and Rajiv\u2019s solo show into Valentine's Day party activities at Hobbs Cafe, including screenings, live performances, interactive art stations, and background music, with Isabella Rodriguez and Jennifer Moore coordinating the details.)",
+      15
+    ],
+    [
+      "preparing special Valentine's Day menu items and setting up additional decorations in Hobbs Cafe (preparing a special chocolate fondue for the party)",
+      20
+    ],
+    [
+      "preparing special Valentine's Day menu items and setting up additional decorations in Hobbs Cafe (on the way to arranging heart-shaped plates and cutlery)",
+      0
+    ],
+    [
+      "preparing special Valentine's Day menu items and setting up additional decorations in Hobbs Cafe (conversing about Hailey Johnson and Isabella Rodriguez discussing Valentine\u2019s Day plans, community events, and potential collaboration for Hailey's podcast featuring Hobbs Cafe's unique menu offerings.)",
+      13
+    ],
+    [
+      "preparing special Valentine's Day menu items and setting up additional decorations in Hobbs Cafe (on the way to hanging red and pink balloons around the cafe)",
+      0
+    ],
+    [
+      "preparing special Valentine's Day menu items and setting up additional decorations in Hobbs Cafe (conversing about planning interactive poetry stations and visual elements for an upcoming Valentine's Day event, with Ayesha curating a selection of poems and quotes from Shakespeare and contemporary poets while Isabella prepares chocolate fondue and coordinates with Abigail on animations.)",
+      12
+    ],
+    [
+      "preparing special Valentine's Day menu items and setting up additional decorations in Hobbs Cafe (on the way to setting up a love note station with cards and pens)",
+      0
+    ],
+    [
+      "preparing special Valentine's Day menu items and setting up additional decorations in Hobbs Cafe (conversing about collaborating on Valentine's Day packages and promotions between Hobbs Cafe and Harvey Oak Supply Store, including meeting plans and supply needs.)",
+      11
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (welcoming customers and greeting them warmly)",
+      4
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (taking orders for drinks and snacks)",
+      5
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (preparing special Valentine's Day menu items)",
+      10
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (setting up additional decorations around the cafe)",
+      15
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (interacting with customers and engaging them in conversation)",
+      10
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (checking on customer satisfaction and addressing any concerns)",
+      10
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (preparing more Valentine's Day menu items)",
+      20
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (arranging flowers for the cafe\u2019s centerpiece)",
+      10
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (restocking supplies and ensuring everything is ready for the party)",
+      10
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (interacting with customers and taking orders)",
+      15
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (making final preparations for Valentine's Day decorations)",
+      10
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party (ensuring all staff are prepared for the party)",
+      5
+    ],
+    [
+      "Isabella is spending some free time after a busy day, likely planning last-minute details for the Valentine's Day party or simply resting to prepare for the big event tomorrow",
+      60
+    ],
+    [
+      "closing Hobbs Cafe for the night and tidying up the premises",
+      60
+    ],
+    [
+      "Isabella is spending some free time after a busy day, likely planning last-minute details for the Valentine's Day party or simply resting to prepare for the big event tomorrow",
+      120
+    ],
+    [
+      "Isabella is getting ready for bed and reflecting on the day's activities, ensuring she is well-rested for the Valentine's Day party tomorrow",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -4
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -4
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      4
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      1
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "making breakfast for herself",
+      60
+    ],
+    [
+      "opening Hobbs Cafe for the day",
+      60
+    ],
+    [
+      "organizing Valentine's Day party materials and decorations for Hobbs Cafe",
+      60
+    ],
+    [
+      "preparing special Valentine's Day menu items for the cafe",
+      60
+    ],
+    [
+      "preparing for the Valentine's Day party by setting up tables and arranging chairs in Hobbs Cafe",
+      60
+    ],
+    [
+      "having lunch at Hobbs Cafe while checking inventory and planning menu items for the Valentine's Day party",
+      60
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party",
+      180
+    ],
+    [
+      "preparing special Valentine's Day menu items and setting up additional decorations in Hobbs Cafe",
+      60
+    ],
+    [
+      "Isabella is interacting with customers and taking orders while continuing to prepare for the Valentine's Day party",
+      120
+    ],
+    [
+      "Isabella is spending some free time after a busy day, likely planning last-minute details for the Valentine's Day party or simply resting to prepare for the big event tomorrow",
+      60
+    ],
+    [
+      "closing Hobbs Cafe for the night and tidying up the premises",
+      60
+    ],
+    [
+      "Isabella is spending some free time after a busy day, likely planning last-minute details for the Valentine's Day party or simply resting to prepare for the big event tomorrow",
+      120
+    ],
+    [
+      "Isabella is getting ready for bed and reflecting on the day's activities, ensuring she is well-rested for the Valentine's Day party tomorrow",
+      60
+    ]
+  ],
+  "act_address": "<persona> Carmen Ortiz",
+  "act_start_time": "February 13, 2023, 16:35:10",
+  "act_duration": 11,
+  "act_description": "conversing about collaborating on Valentine's Day packages and promotions between Hobbs Cafe and Harvey Oak Supply Store, including meeting plans and supply needs.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Isabella Rodriguez",
+    "chat with",
+    "Carmen Ortiz"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Carmen Ortiz",
+  "chat": [
+    [
+      "Carmen Ortiz",
+      "Hey Isabella, looking amazing in Hobbs Cafe! All these Valentine\u2019s Day decorations are so festive. How's everything coming along?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Thanks Carmen! It\u2019s been such an exciting time getting everything ready. And speaking of being busy, how are things at Harvey Oak Supply Store today?"
+    ],
+    [
+      "Carmen Ortiz",
+      "Oh, it\u2019s been pretty hectic too! I\u2019m glad to see such creativity here. Is there anything you think we could collaborate on for Valentine's Day?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "That\u2019s such a great idea, Carmen! Maybe we could do a special Valentine's Day package at Harvey Oak Supply Store, featuring supplies for customers who want to decorate their homes or offices. We can promote it as part of our community event here too."
+    ],
+    [
+      "Carmen Ortiz",
+      "I love that idea, Isabella! We could also include a special offer for customers who mention they saw it at Hobbs Cafe. It would be great to see people decorating their spaces while enjoying a treat here."
+    ],
+    [
+      "Isabella Rodriguez",
+      "Sounds wonderful, Carmen! Let\u2019s plan to meet up and finalize the details. Perhaps we can set a date later this week?"
+    ],
+    [
+      "Carmen Ortiz",
+      "That works for me, Isabella. How about we meet on Wednesday afternoon to go over everything in detail?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Perfect, let's aim for 3pm on Wednesday then. I'll send you an email with all the specifics of our Valentine\u2019s Day party so we can sync up everything smoothly."
+    ],
+    [
+      "Carmen Ortiz",
+      "Sounds great, Isabella! Looking forward to our meeting on Wednesday at 3pm. Let me know if you need anything from Harvey Oak Supply Store for your event too."
+    ],
+    [
+      "Isabella Rodriguez",
+      "Sure thing, Carmen. Thanks so much for your help and collaboration! I\u2019ll make sure to include all the details about our event in the email. See you on Wednesday at 3pm."
+    ],
+    [
+      "Carmen Ortiz",
+      "Looking forward to it, Isabella. Have a great rest of your day and let me know if you need anything else."
+    ],
+    [
+      "Isabella Rodriguez",
+      "Thanks again, Carmen. I'll make sure to send that email today and include all our collaboration ideas. Can't wait for Wednesday!"
+    ],
+    [
+      "Carmen Ortiz",
+      "Sounds good, Isabella. I'll keep an eye out for supplies that might be useful for your Valentine\u2019s Day event at Hobbs Cafe."
+    ],
+    [
+      "Isabella Rodriguez",
+      "Thanks, Carmen. I'll send that email later today and let you know if we need any special supplies from your store."
+    ],
+    [
+      "Carmen Ortiz",
+      "That would be great, Isabella. Let me know if you need any help or have questions about supplies before Wednesday."
+    ],
+    [
+      "Isabella Rodriguez",
+      "Thanks, Carmen. I appreciate your support and flexibility. I'll draft the email later today and include all our discussion points."
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Sam Moore": -1290,
+    "Giorgio Rossi": -750,
+    "Wolfgang Schulz": -1866,
+    "Ayesha Khan": 750,
+    "Ryan Park": -1644,
+    "Arthur Burton": -660,
+    "Adam Smith": -1164,
+    "Maria Lopez": -1020,
+    "Jennifer Moore": 480,
+    "Klaus Mueller": -360,
+    "Abigail Chen": -204,
+    "Eddy Lin": -48,
+    "Hailey Johnson": 672,
+    "Carmen Ortiz": 800
+  },
+  "chatting_end_time": "February 13, 2023, 16:47:00",
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -1,0 +1,641 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    88,
+    46
+  ],
+  "daily_plan_req": "Tom Moreno opens The Willow Market and Pharmacy at 8am, stands behind the grocery counter, and goes home afterwards to eat dinner with his wife.",
+  "name": "Tom Moreno",
+  "first_name": "Tom",
+  "last_name": "Moreno",
+  "age": 52,
+  "innate": "rude, aggressive, energetic",
+  "learned": "Tom Moreno is a grocery shop keeper at The Willow Market and Pharmacy who loves interacting with customers. He is always willing to help out and make sure everyone is taken care of.",
+  "currently": "Tom Moreno is living with his wife, Jane Moreno, and is managing the day to day operations at the store and helping out customers with their orders. Tom is also really interested in the local mayor election that is coming up next month. You don't like Sam Moore.",
+  "seed_currently": "Tom Moreno is living with his wife, Jane Moreno, and is managing the day to day operations at the store and helping out customers with their orders. Tom is also really interested in the local mayor election that is coming up next month. You don't like Sam Moore.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 51.41,
+    "hunger": 72.57,
+    "fun": 8.11,
+    "hygiene": 50.58,
+    "bladder": 0.0,
+    "social": 64.4
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Jane Moreno": {
+      "friendship": 71.0,
+      "romance": 55.0
+    },
+    "John Lin": {
+      "friendship": 53.0,
+      "romance": 0.0
+    },
+    "Arthur Burton": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Latoya Williams": {
+      "friendship": 10.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Tom Moreno goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Moreno family's house:Tom and Jane Moreno's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 67,
+  "importance_ele_n": 99,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "go to The Willow Market and Pharmacy to open for business at 8:00 am",
+    "manage customer services and help with orders until closing time at 6:00 pm",
+    "go home and eat dinner with his wife at 5:00 pm",
+    "spend the evening discussing local politics and upcoming events with Jane"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine (waking up and stretching)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (going to the bathroom to use the toilet and wash his face)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (brushing his teeth)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (combing his hair)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (putting on a clean shirt and pants for work)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (making coffee to start the day)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (on the way to drinking his morning coffee while planning out tasks for the day)",
+      0
+    ],
+    [
+      "waking up and completing his morning routine (conversing about Tom and Jane discussing their plans for breakfast and preparing for a busy day at work together.)",
+      7
+    ],
+    [
+      "waking up and completing his morning routine (checking emails and messages related to the store)",
+      8
+    ],
+    [
+      "opening The Willow Market and Pharmacy for business (unlocking the shop doors)",
+      5
+    ],
+    [
+      "opening The Willow Market and Pharmacy for business (turning on the lights and setting up the cash register)",
+      10
+    ],
+    [
+      "opening The Willow Market and Pharmacy for business (checking inventory levels for essential items)",
+      10
+    ],
+    [
+      "opening The Willow Market and Pharmacy for business (on the way to restocking shelves with fresh produce and other essentials)",
+      0
+    ],
+    [
+      "opening The Willow Market and Pharmacy for business (conversing about John Lin and Tom Moreno discussing potential mayoral candidates, community needs, and organizing a town hall meeting to gather input from residents.)",
+      11
+    ],
+    [
+      "opening The Willow Market and Pharmacy for business (restocking shelves with fresh produce and other essentials)",
+      4
+    ],
+    [
+      "opening The Willow Market and Pharmacy for business (on the way to organizing the pharmacy section to ensure all medications are easily accessible)",
+      0
+    ],
+    [
+      "opening The Willow Market and Pharmacy for business (conversing about organizing a town hall meeting for community input on the upcoming mayor election, with Arthur and Tom collaborating on planning and outreach efforts.)",
+      9
+    ],
+    [
+      "opening The Willow Market and Pharmacy for business (on the way to organizing the pharmacy section to ensure all medications are easily accessible)",
+      0
+    ],
+    [
+      "opening The Willow Market and Pharmacy for business (conversing about organizing a town hall meeting for the upcoming mayor election, discussing ways to involve and represent the community's diversity through visual campaigns and presentations.)",
+      15
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (welcoming customers as they enter the store)",
+      11
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (helping a customer find an item on the shelf)",
+      15
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (ringing up purchases at the cash register)",
+      10
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (restocking items that are running low)",
+      15
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (answering customer questions about products)",
+      20
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (cleaning up the checkout area)",
+      10
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (assisting another customer who needs help finding items)",
+      15
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (ringing up more purchases at the cash register)",
+      20
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (on the way to restocking shelves again to keep inventory fresh)",
+      0
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (conversing about John Lin and Tom Moreno discussing plans to gather community input and spread awareness for an upcoming town hall meeting, including organizing joint outreach efforts and informational sessions.)",
+      11
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (restocking shelves again to keep inventory fresh)",
+      20
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (helping a customer with dietary restrictions find suitable products)",
+      20
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (taking a short break to hydrate and stretch)",
+      5
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (ringing up additional purchases at the cash register)",
+      10
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (restocking shelves once more for afternoon customers)",
+      15
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (on the way to assisting a customer who needs help with multiple items)",
+      0
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (conversing about planning and promoting an upcoming town hall meeting, with Tom Moreno seeking Jane Moreno's assistance in spreading awareness among their community members.)",
+      9
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (assisting a customer who needs help with multiple items)",
+      11
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (cleaning up the checkout area again to maintain cleanliness)",
+      10
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy (ringing up more purchases at the cash register)",
+      13
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (welcoming customers)",
+      5
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (helping a customer find products)",
+      10
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (ringing up purchases at the cash register)",
+      15
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (on the way to restocking shelves with new inventory)",
+      0
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (conversing about planning and coordinating efforts to spread awareness and gather community feedback for an upcoming town hall meeting, including organizing info sessions and creating flyers with healthcare policies and community concerns.)",
+      12
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (restocking shelves with new inventory)",
+      8
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (answering customer inquiries about products)",
+      5
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (cleaning up the checkout area)",
+      5
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (restocking shelves again)",
+      10
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (helping a customer with a special order request)",
+      15
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (ringing up more purchases at the cash register)",
+      20
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (on the way to taking a short break to use the restroom and grab water)",
+      0
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (conversing about planning strategies to promote an upcoming town hall meeting, including using social media, creating and distributing flyers, and mentioning it in the community newsletter.)",
+      9
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (taking a short break to use the restroom and grab water)",
+      1
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (restocking shelves once more)",
+      10
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (helping another customer find products)",
+      10
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (ringing up purchases again at the cash register)",
+      20
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (on the way to cleaning up the checkout area again)",
+      0
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (waiting to start ringing up purchases again at the cash register)",
+      5
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (restocking shelves for a fourth time)",
+      10
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (helping a customer with another special order request)",
+      20
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (on the way to ringing up purchases again at the cash register)",
+      0
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (conversing about planning and organizing a town hall meeting to gather community input on healthcare policies and medication accessibility, with John Lin and Tom Moreno discussing strategies such as informational sessions at local businesses, schools, and community centers, creating flyers, and reaching out to other organizations for support.)",
+      13
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (ringing up purchases again at the cash register)",
+      17
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (cleaning up the checkout area one last time before closing)",
+      10
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (locking up and securing the store for the night)",
+      5
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (turning off lights and ensuring all doors are locked)",
+      5
+    ],
+    [
+      "going home from The Willow Market and Pharmacy after closing time (locking up the store)",
+      15
+    ],
+    [
+      "going home from The Willow Market and Pharmacy after closing time (counting cash and balancing the register)",
+      30
+    ],
+    [
+      "going home from The Willow Market and Pharmacy after closing time (organizing inventory for the next day)",
+      45
+    ],
+    [
+      "going home from The Willow Market and Pharmacy after closing time (taking out the trash and recycling)",
+      15
+    ],
+    [
+      "going home from The Willow Market and Pharmacy after closing time (walking home from The Willow Market and Pharmacy)",
+      15
+    ],
+    [
+      "spending time at home with his wife, Jane, discussing local politics and upcoming events",
+      180
+    ],
+    [
+      "[(ID:JOKV9A) Monday February 13 -- 10:00 PM] Activity: Tom is relaxing at home, watching the news and catching up on local political updates",
+      60
+    ],
+    [
+      "Tom is preparing for bed and getting ready to sleep",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -4
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "opening The Willow Market and Pharmacy for business",
+      60
+    ],
+    [
+      "managing customer services and helping with orders at The Willow Market and Pharmacy",
+      240
+    ],
+    [
+      "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy",
+      240
+    ],
+    [
+      "going home from The Willow Market and Pharmacy after closing time",
+      120
+    ],
+    [
+      "spending time at home with his wife, Jane, discussing local politics and upcoming events",
+      180
+    ],
+    [
+      "[(ID:JOKV9A) Monday February 13 -- 10:00 PM] Activity: Tom is relaxing at home, watching the news and catching up on local political updates",
+      60
+    ],
+    [
+      "Tom is preparing for bed and getting ready to sleep",
+      60
+    ]
+  ],
+  "act_address": "the Ville:The Willows Market and Pharmacy:store:grocery store counter",
+  "act_start_time": "February 13, 2023, 16:37:00",
+  "act_duration": 17,
+  "act_description": "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (ringing up purchases again at the cash register)",
+  "act_pronunciatio": "\ud83d\udcb8\ud83d\uded2",
+  "act_event": [
+    "Tom Moreno",
+    "ring",
+    "purchases"
+  ],
+  "act_obj_description": "occupied with customer service and order processing",
+  "act_obj_pronunciatio": "\ud83d\udc81\u200d\u2642",
+  "act_obj_event": [
+    "grocery store counter",
+    "be occupied with",
+    "customer service and order processing"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Jane Moreno": 114,
+    "John Lin": 684,
+    "Arthur Burton": -2064,
+    "Latoya Williams": -1968
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

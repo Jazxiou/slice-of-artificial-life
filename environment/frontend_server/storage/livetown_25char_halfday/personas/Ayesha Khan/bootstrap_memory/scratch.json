@@ -1,0 +1,789 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    115,
+    30
+  ],
+  "daily_plan_req": "Ayesha Khan goes to the library at Oak Hill College to take classes from 10am to 2pm, and then spends her days studying at the library.",
+  "name": "Ayesha Khan",
+  "first_name": "Ayesha",
+  "last_name": "Khan",
+  "age": 20,
+  "innate": "curious, determined, independent",
+  "learned": "Ayesha Khan is a college student who loves to explore literature. She is curious and determined to understand the nuances of each work.",
+  "currently": "Ayesha Khan is researching for her senior thesis on the use of language in Shakespeare\u2019s plays. She is also taking classes to learn more about writing.",
+  "seed_currently": "Ayesha Khan is researching for her senior thesis on the use of language in Shakespeare\u2019s plays. She is also taking classes to learn more about writing.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 46.41,
+    "hunger": 79.18,
+    "fun": 99.46,
+    "hygiene": 50.58,
+    "bladder": 0.0,
+    "social": 82.82
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Wolfgang Schulz": {
+      "friendship": 12.0,
+      "romance": 0.0
+    },
+    "Klaus Mueller": {
+      "friendship": 13.0,
+      "romance": 0.0
+    },
+    "Isabella Rodriguez": {
+      "friendship": 10.0,
+      "romance": 0.0
+    },
+    "Eddy Lin": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Abigail Chen": {
+      "friendship": 10.0,
+      "romance": 0.0
+    },
+    "Mei Lin": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Latoya Williams": {
+      "friendship": 10.0,
+      "romance": 0.0
+    },
+    "Carlos Gomez": {
+      "friendship": 7.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Ayesha Khan goes to bed around 10pm, awakes up around 6am, eats dinner around 5pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Ayesha Khan's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 203,
+  "importance_ele_n": 21,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "have breakfast at 7:00 am",
+    "go to the library for classes from 10:00 am to 2:00 pm",
+    "have lunch at the campus cafeteria at 12:00 pm",
+    "spend the afternoon studying and researching in the library until 5:00 pm",
+    "return home to prepare dinner at 5:30 pm",
+    "eat dinner around 6:00 pm",
+    "review her notes and plan for tomorrow from 7:00 pm to 8:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing her morning routine (waking up and stretching)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (going to the bathroom to use the toilet and wash her face)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (brushing her teeth)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (drinking a glass of water)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (putting on comfortable clothes for the day)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (checking her phone for any messages or notifications)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (planning out her day and making a to-do list)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (meditating for 5 minutes)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (doing some light stretching exercises)",
+      5
+    ],
+    [
+      "having breakfast (making coffee)",
+      5
+    ],
+    [
+      "having breakfast (preparing toast and eggs)",
+      10
+    ],
+    [
+      "having breakfast (setting the table)",
+      5
+    ],
+    [
+      "having breakfast (eating breakfast)",
+      20
+    ],
+    [
+      "having breakfast (on the way to washing dishes)",
+      0
+    ],
+    [
+      "having breakfast (conversing about Wolfgang Schulz and Ayesha Khan discussing their daily schedules and planning to have lunch together sometime this week.)",
+      5
+    ],
+    [
+      "having breakfast (on the way to washing dishes)",
+      0
+    ],
+    [
+      "having breakfast (conversing about Klaus and Ayesha arranging a time to meet at the campus caf\u00e9 for coffee after classes.)",
+      2
+    ],
+    [
+      "having breakfast (washing dishes)",
+      3
+    ],
+    [
+      "having breakfast (cleaning the kitchen counter and sink) (washing dishes from breakfast)",
+      20
+    ],
+    [
+      "having breakfast (cleaning the kitchen counter and sink) (cleaning the kitchen counter)",
+      15
+    ],
+    [
+      "having breakfast (cleaning the kitchen counter and sink) (organizing her backpack for classes)",
+      10
+    ],
+    [
+      "having breakfast (cleaning the kitchen counter and sink) (checking her schedule and notes)",
+      10
+    ],
+    [
+      "having breakfast (cleaning the kitchen counter and sink) (making a to-do list for the day)",
+      10
+    ],
+    [
+      "having breakfast (cleaning the kitchen counter and sink) (reviewing class materials from previous days)",
+      20
+    ],
+    [
+      "having breakfast (cleaning the kitchen counter and sink) (taking a short break and having a snack)",
+      15
+    ],
+    [
+      "having breakfast (cleaning the kitchen counter and sink) (catching up on emails related to her thesis)",
+      20
+    ],
+    [
+      "preparing notes for the upcoming classes (on the way to preparing notes for the upcoming classe)",
+      0
+    ],
+    [
+      "preparing notes for the upcoming classes (conversing about Isabella Rodriguez and Ayesha Khan discussing preparations and decorations for an upcoming Valentine's Day party at Hobbs Cafe.)",
+      9
+    ],
+    [
+      "preparing notes for the upcoming classes (finishing up any remaining tasks and packing her bag)",
+      11
+    ],
+    [
+      "attending her classes at the library (taking notes during lectures) (listening to the lecture introduction and taking notes)",
+      5
+    ],
+    [
+      "attending her classes at the library (on the way to listening to the first part of the lecture and taking detailed notes)",
+      0
+    ],
+    [
+      "attending her classes at the library (conversing about Wolfgang Schulz and Ayesha Khan discussing plans to meet for lunch on Wednesday at noon in the cafeteria.)",
+      2
+    ],
+    [
+      "attending her classes at the library (taking notes during lectures) (listening to the first part of the lecture and taking detailed notes)",
+      10
+    ],
+    [
+      "attending her classes at the library (on the way to asking a question about the material covered so far)",
+      0
+    ],
+    [
+      "attending her classes at the library (conversing about Ayesha Khan and Klaus Mueller discussing their respective research on Shakespeare\u2019s plays and gentrification, noting parallels in how language shapes communities and influences public perception.)",
+      8
+    ],
+    [
+      "attending her classes at the library (taking notes during lectures) (asking a question about the material covered so far)",
+      7
+    ],
+    [
+      "attending her classes at the library (taking notes during lectures) (listening to the second part of the lecture and taking notes)",
+      5
+    ],
+    [
+      "attending her classes at the library (on the way to discussing a point with another student during a break between topics)",
+      0
+    ],
+    [
+      "attending her classes at the library (waiting to start asking a question about the material covered so far)",
+      27
+    ],
+    [
+      "attending her classes at the library (on the way to discussing a point with another student during a break between topics)",
+      0
+    ],
+    [
+      "attending her classes at the library (conversing about Ayesha Khan and Eddy Lin discussing potential parallels between Shakespeare\u2019s use of language and rhythm in his plays and how different musical styles can convey philosophical ideas, with plans to collaborate on a project exploring these intersections.)",
+      15
+    ],
+    [
+      "attending her classes at the library (taking notes during lectures) (listening to the second part of the lecture and taking notes)",
+      1
+    ],
+    [
+      "attending her classes at the library (reviewing her notes from earlier parts of the lecture)",
+      5
+    ],
+    [
+      "attending her classes at the library (on the way to participating in class discussions)",
+      0
+    ],
+    [
+      "attending her classes at the library (conversing about Ayesha Khan and Abigail Chen discussing how to incorporate poetry, music, and animation to explore philosophical ideas and emotional resonance in their respective projects, potentially collaborating on a joint presentation.)",
+      17
+    ],
+    [
+      "attending her classes at the library (reviewing notes and preparing questions for clarification)",
+      18
+    ],
+    [
+      "having lunch at the campus cafeteria (choosing her meal)",
+      15
+    ],
+    [
+      "having lunch at the campus cafeteria (waiting in line to pay for her food)",
+      5
+    ],
+    [
+      "having lunch at the campus cafeteria (finding a seat at the cafeteria)",
+      5
+    ],
+    [
+      "having lunch at the campus cafeteria (on the way to eating her meal and drinking water)",
+      0
+    ],
+    [
+      "having lunch at the campus cafeteria (conversing about Ayesha Khan and Mei Lin discussing their meal preferences, planning to have lunch together next week, and exchanging ideas on a project exploring the connection between Shakespeare's works and different musical styles.)",
+      11
+    ],
+    [
+      "having lunch at the campus cafeteria (eating her meal and drinking water)",
+      9
+    ],
+    [
+      "having lunch at the campus cafeteria (on the way to taking notes on class readings during lunch break)",
+      0
+    ],
+    [
+      "having lunch at the campus cafeteria (conversing about Latoya Williams and Ayesha Khan discussing potential collaborations between visual arts, poetry, and music for Latoya's mayoral campaign visuals.)",
+      10
+    ],
+    [
+      "attending her classes at the library (walking to the library)",
+      5
+    ],
+    [
+      "attending her classes at the library (finding a seat and setting up her materials)",
+      5
+    ],
+    [
+      "attending her classes at the library (listening to the lecture on language use in Shakespeare\u2019s plays)",
+      10
+    ],
+    [
+      "attending her classes at the library (taking notes during the lecture)",
+      10
+    ],
+    [
+      "attending her classes at the library (participating in a class discussion about the nuances of language in Shakespeare\u2019s works)",
+      10
+    ],
+    [
+      "attending her classes at the library (taking more detailed notes during the discussion)",
+      25
+    ],
+    [
+      "attending her classes at the library (reviewing her notes and asking questions to clarify any doubts)",
+      10
+    ],
+    [
+      "studying and researching in the library (reviewing her notes on Shakespeare's language use)",
+      30
+    ],
+    [
+      "studying and researching in the library (on the way to reading a chapter from a critical analysis book)",
+      0
+    ],
+    [
+      "studying and researching in the library (conversing about Ayesha Khan and Klaus Mueller discussing how linguistic structures can shape community perceptions in relation to gentrification, planning a meeting to brainstorm ideas further.)",
+      6
+    ],
+    [
+      "studying and researching in the library (reading a chapter from a critical analysis book)",
+      39
+    ],
+    [
+      "studying and researching in the library (on the way to taking notes and summarizing the key points)",
+      0
+    ],
+    [
+      "studying and researching in the library (conversing about Ayesha Khan and Wolfgang Schulz discussing potential collaboration on exploring parallels between Shakespeare's language use and rhetoric in urban planning documents related to gentrification, with plans to meet at Hobbs Cafe during Valentine's Day party.)",
+      11
+    ],
+    [
+      "studying and researching in the library (taking notes and summarizing the key points)",
+      19
+    ],
+    [
+      "studying and researching in the library (on the way to searching for additional scholarly articles online)",
+      0
+    ],
+    [
+      "studying and researching in the library (conversing about Ayesha Khan and Carlos Gomez discussing plans to integrate poetry, music, and animation in their workshops and exploring potential collaborations with Abigail Chen.)",
+      16
+    ],
+    [
+      "studying and researching in the library (searching for additional scholarly articles online)",
+      19
+    ],
+    [
+      "studying and researching in the library (on the way to reading an article on Shakespeare's linguistic techniques)",
+      0
+    ],
+    [
+      "studying and researching in the library (conversing about planning interactive poetry stations and visual elements for an upcoming Valentine's Day event, with Ayesha curating a selection of poems and quotes from Shakespeare and contemporary poets while Isabella prepares chocolate fondue and coordinates with Abigail on animations.)",
+      12
+    ],
+    [
+      "organizing her research materials into folders",
+      18
+    ],
+    [
+      "studying and researching in the library (taking a break to stretch and hydrate)",
+      10
+    ],
+    [
+      "studying and researching in the library (reviewing the organized notes for clarity)",
+      5
+    ],
+    [
+      "returning home to prepare dinner (leaving the library)",
+      5
+    ],
+    [
+      "returning home to prepare dinner (walking to a nearby grocery store)",
+      15
+    ],
+    [
+      "returning home to prepare dinner (selecting ingredients for dinner)",
+      20
+    ],
+    [
+      "returning home to prepare dinner (paying at the checkout counter)",
+      10
+    ],
+    [
+      "returning home to prepare dinner (returning home from the grocery store)",
+      15
+    ],
+    [
+      "returning home to prepare dinner (putting groceries away)",
+      10
+    ],
+    [
+      "returning home to prepare dinner (washing her hands and preparing to cook)",
+      5
+    ],
+    [
+      "returning home to prepare dinner (chopping vegetables for dinner)",
+      40
+    ],
+    [
+      "reviewing her notes and planning for the next day's schedule",
+      120
+    ],
+    [
+      "[(ID:ECNIBU) Monday February 13 -- 09:00 PM] Activity: Ayesha is relaxing and watching a documentary on literature",
+      60
+    ],
+    [
+      "[(ID:ULXFYR) Monday February 13 -- 10:00 PM] Activity: Ayesha is relaxing and reading a book related to her thesis",
+      60
+    ],
+    [
+      "[(ID:LeTd9z) Monday February 13 -- 11:00 PM] Activity: Ayesha is getting ready for bed and reflecting on her day's accomplishments",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -10
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -10
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -5
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "having breakfast",
+      60
+    ],
+    [
+      "[(ID:n7twuN) Monday February 13 -- 08:00 AM] Activity: Ayesha is catching up on emails and preparing for her classes at the library",
+      120
+    ],
+    [
+      "attending her classes at the library",
+      120
+    ],
+    [
+      "having lunch at the campus cafeteria",
+      60
+    ],
+    [
+      "attending her classes at the library",
+      60
+    ],
+    [
+      "studying and researching in the library",
+      180
+    ],
+    [
+      "returning home to prepare dinner",
+      120
+    ],
+    [
+      "reviewing her notes and planning for the next day's schedule",
+      120
+    ],
+    [
+      "[(ID:ECNIBU) Monday February 13 -- 09:00 PM] Activity: Ayesha is relaxing and watching a documentary on literature",
+      60
+    ],
+    [
+      "[(ID:ULXFYR) Monday February 13 -- 10:00 PM] Activity: Ayesha is relaxing and reading a book related to her thesis",
+      60
+    ],
+    [
+      "[(ID:LeTd9z) Monday February 13 -- 11:00 PM] Activity: Ayesha is getting ready for bed and reflecting on her day's accomplishments",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Oak Hill College:library:library table",
+  "act_start_time": "February 13, 2023, 16:35:00",
+  "act_duration": 19,
+  "act_description": "studying and researching in the library (searching for additional scholarly articles online)",
+  "act_pronunciatio": "\ud83d\udd0d\ud83d\udcda",
+  "act_event": [
+    "Ayesha Khan",
+    "search",
+    "scholarly articles"
+  ],
+  "act_obj_description": "occupied with books and a laptop",
+  "act_obj_pronunciatio": "\ud83d\udcd6\ud83d\udcbb",
+  "act_obj_event": [
+    "library table",
+    "be occupied with",
+    "books and a laptop"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Wolfgang Schulz": 276,
+    "Klaus Mueller": 102,
+    "Isabella Rodriguez": 750,
+    "Eddy Lin": -1098,
+    "Abigail Chen": -960,
+    "Mei Lin": -642,
+    "Latoya Williams": -540,
+    "Carlos Gomez": 618
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      117,
+      30
+    ],
+    [
+      118,
+      30
+    ],
+    [
+      119,
+      30
+    ],
+    [
+      119,
+      29
+    ],
+    [
+      119,
+      28
+    ],
+    [
+      119,
+      27
+    ],
+    [
+      119,
+      26
+    ],
+    [
+      119,
+      25
+    ],
+    [
+      119,
+      24
+    ],
+    [
+      119,
+      23
+    ],
+    [
+      119,
+      22
+    ]
+  ]
+}

@@ -1,0 +1,758 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    36,
+    30
+  ],
+  "daily_plan_req": "",
+  "name": "Francisco Lopez",
+  "first_name": "Francisco",
+  "last_name": "Lopez",
+  "age": 23,
+  "innate": "outgoing, friendly, honest",
+  "learned": "Francisco Lopez is an actor and comedian who loves to entertain others. They are always looking for new ways to make people laugh.",
+  "currently": "Francisco Lopez is working on a web series about life in a co-living space. They are also exploring improvisational comedy classes.",
+  "seed_currently": "Francisco Lopez is working on a web series about life in a co-living space. They are also exploring improvisational comedy classes.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 51.41,
+    "hunger": 95.78,
+    "fun": 73.04,
+    "hygiene": 50.58,
+    "bladder": 0.0,
+    "social": 100.0
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Adam Smith": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Abigail Chen": {
+      "friendship": 34.0,
+      "romance": 40.0
+    },
+    "Jennifer Moore": {
+      "friendship": 11.0,
+      "romance": 0.0
+    },
+    "Rajiv Patel": {
+      "friendship": 17.0,
+      "romance": 0.0
+    },
+    "Latoya Williams": {
+      "friendship": 11.0,
+      "romance": 0.0
+    },
+    "Hailey Johnson": {
+      "friendship": 9.0,
+      "romance": 0.0
+    },
+    "Arthur Burton": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Carmen Ortiz": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Wolfgang Schulz": {
+      "friendship": 7.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Francisco Lopez goes to bed around 11pm, awakes up around 7am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Francisco Lopez's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 58,
+  "importance_ele_n": 61,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "have breakfast and review the script for today's shoot at 8:00 am",
+    "meet with the web series production team at 9:30 am to discuss progress and plan next steps",
+    "begin filming scenes for the web series from 11:00 am to 2:00 pm, including a lunch break at noon",
+    "schedule an improvisational comedy class via video call at 3:30 pm to explore new comedic techniques",
+    "go over footage and make notes on performance feedback from director at 4:30 pm to prepare for tomorrow's shoot",
+    "relax with some light reading or a podcast from 5:00 pm to 5:45 pm before preparing dinner",
+    "eat dinner at 6:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing the morning routine (getting out of bed)",
+      5
+    ],
+    [
+      "waking up and completing the morning routine (going to the bathroom to use the toilet and wash hands)",
+      5
+    ],
+    [
+      "waking up and completing the morning routine (brushing teeth)",
+      5
+    ],
+    [
+      "waking up and completing the morning routine (washing face)",
+      5
+    ],
+    [
+      "waking up and completing the morning routine (getting dressed for the day)",
+      10
+    ],
+    [
+      "waking up and completing the morning routine (making coffee or tea)",
+      10
+    ],
+    [
+      "waking up and completing the morning routine (having a quick breakfast)",
+      10
+    ],
+    [
+      "waking up and completing the morning routine (checking emails and messages for the day)",
+      5
+    ],
+    [
+      "waking up and completing the morning routine (stretching or doing light exercise)",
+      5
+    ],
+    [
+      "having breakfast and reviewing the script for today's shoot (making coffee)",
+      5
+    ],
+    [
+      "having breakfast and reviewing the script for today's shoot (preparing breakfast)",
+      10
+    ],
+    [
+      "having breakfast and reviewing the script for today's shoot (on the way to eating breakfast)",
+      0
+    ],
+    [
+      "having breakfast and reviewing the script for today's shoot (conversing about Francisco Lopez and Adam Smith discussing how themes from Francisco's web series about co-living spaces can inspire creative conflict resolution techniques in Adam's book, incorporating elements of improv comedy.)",
+      15
+    ],
+    [
+      "having breakfast and reviewing the script for today's shoot (eating breakfast)",
+      15
+    ],
+    [
+      "having breakfast and reviewing the script for today's shoot (on the way to reviewing the script for today's shoot)",
+      0
+    ],
+    [
+      "having breakfast and reviewing the script for today's shoot (conversing about Abigail Chen and Francisco Lopez discussing preparations for today's shoot and confirming that no immediate updates are needed for the animation project.)",
+      3
+    ],
+    [
+      "having breakfast and reviewing the script for today's shoot (reviewing the script for today's shoot)",
+      7
+    ],
+    [
+      "having breakfast and reviewing the script for today's shoot (taking notes on the script review)",
+      5
+    ],
+    [
+      "meeting with the web series production team to discuss progress and plan next steps (arriving at the meeting location)",
+      5
+    ],
+    [
+      "meeting with the web series production team to discuss progress and plan next steps (greeting team members and settling in)",
+      5
+    ],
+    [
+      "meeting with the web series production team to discuss progress and plan next steps (on the way to reviewing notes from previous meetings)",
+      0
+    ],
+    [
+      "meeting with the web series production team to discuss progress and plan next steps (conversing about Jennifer Moore and Francisco Lopez discussing how to incorporate themes from Francisco's web series on co-living spaces and improv comedy into visual projects for Sam's mayoral campaign, including brainstorming specific scenes and creative ways to engage the community.)",
+      17
+    ],
+    [
+      "meeting with the web series production team to discuss progress and plan next steps (reviewing notes from previous meetings)",
+      8
+    ],
+    [
+      "meeting with the web series production team to discuss progress and plan next steps (discussing the current status of the web series with the production team)",
+      10
+    ],
+    [
+      "meeting with the web series production team to discuss progress and plan next steps (on the way to addressing any outstanding issues or concerns)",
+      0
+    ],
+    [
+      "meeting with the web series production team to discuss progress and plan next steps (conversing about Rajiv Patel and Francisco Lopez discussing potential collaborations between Rajiv's solo show and painting, music with Francisco's web series themes to support Sam's mayoral campaign.)",
+      8
+    ],
+    [
+      "meeting with the web series production team to discuss progress and plan next steps (addressing any outstanding issues or concerns)",
+      2
+    ],
+    [
+      "meeting with the web series production team to discuss progress and plan next steps (planning next steps for upcoming episodes)",
+      5
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming. The originally scheduled 9:30 am meeting has been moved forward due to this unexpected development (reviewing the technical issue notes before the meeting)",
+      5
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming. The originally scheduled 9:30 am meeting has been moved forward due to this unexpected development (attending the emergency meeting and discussing initial thoughts on resolving the technical issue)",
+      10
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming. The originally scheduled 9:30 am meeting has been moved forward due to this unexpected development (on the way to listening to the production team's proposed solutions for addressing the technical problem)",
+      0
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming. The originally scheduled 9:30 am meeting has been moved forward due to this unexpected development (conversing about Latoya Williams and Francisco Lopez discussing how her photography can complement his web series and Sam's campaign visuals, with plans to meet on Wednesday to brainstorm further integration ideas.)",
+      12
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming. The originally scheduled 9:30 am meeting has been moved forward due to this unexpected development (listening to the production team's proposed solutions for addressing the technical problem)",
+      8
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming. The originally scheduled 9:30 am meeting has been moved forward due to this unexpected development (on the way to reviewing potential timelines for implementing the chosen solution)",
+      0
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming. The originally scheduled 9:30 am meeting has been moved forward due to this unexpected development (conversing about collaborating on integrating themes from Francisco's web series into Rajiv's solo show and discussing ways to support Sam's campaign through various media platforms, including a podcast and written pieces.)",
+      12
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming. The originally scheduled 9:30 am meeting has been moved forward due to this unexpected development (discussing contingency plans with the team if initial solutions do not work)",
+      8
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming. The originally scheduled 9:30 am meeting has been moved forward due to this unexpected development (taking notes on action items and responsibilities assigned during the meeting)",
+      5
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 12:00 (on the way to reviewing the technical issue details)",
+      0
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 12:00 (conversing about preparing special Valentine\u2019s Day cocktails at work, including soaking rose petals in vodka and mixing signature drinks for guests.)",
+      9
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 12:00 (reviewing proposed fixes and giving feedback)",
+      6
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 12:00 (on the way to discussing potential solutions with team members)",
+      0
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 12:00 (conversing about Francisco Lopez inviting Carmen Ortiz to participate in a scene of his web series at Harvey Oak Supply Store on Friday between 2 and 4 PM to highlight local businesses and community spirit.)",
+      9
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 12:00 (discussing potential solutions with team members)",
+      6
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 12:00 (evaluating proposed fixes and giving feedback)",
+      15
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 12:00 (summarizing action items for the meeting)",
+      10
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 12:00 (wrapping up the meeting by confirming next steps)",
+      5
+    ],
+    [
+      "Francisco is having a lunch break during the emergency meeting as it has run over from 10:00 am to 12:00 pm (on the way to ordering lunch from a nearby restaurant)",
+      0
+    ],
+    [
+      "Francisco is having a lunch break during the emergency meeting as it has run over from 10:00 am to 12:00 pm (conversing about planning interactive workshops incorporating elements of Francisco's web series into Sam\u2019s campaign visuals, with Jennifer and Francisco discussing logistics and community engagement strategies.)",
+      13
+    ],
+    [
+      "Francisco is having a lunch break during the emergency meeting as it has run over from 10:00 am to 12:00 pm (waiting for the food to arrive and checking emails)",
+      2
+    ],
+    [
+      "Francisco is having a lunch break during the emergency meeting as it has run over from 10:00 am to 12:00 pm (eating lunch and relaxing)",
+      30
+    ],
+    [
+      "Francisco is having a lunch break during the emergency meeting as it has run over from 10:00 am to 12:00 pm (on the way to on the way to taking a short walk around the block to clear his mind)",
+      0
+    ],
+    [
+      "Francisco is having a lunch break during the emergency meeting as it has run over from 10:00 am to 12:00 pm (conversing about Francisco Lopez and Rajiv Patel discussing how to integrate painting, music, community workshops, and improv comedy into Sam\u2019s campaign through their web series and art collaborations.)",
+      16
+    ],
+    [
+      "Francisco is returning to the meeting location early to prepare for the continuation of the emergency meeting. (on the way to Francisco is returning to the meeting location early to prepare for the continuation of the emergency meeting)",
+      0
+    ],
+    [
+      "Francisco is returning to the meeting location early to prepare for the continuation of the emergency meeting. (waiting to start conversing about Francisco Lopez and Rajiv Patel discussing how to integrate painting, music, community workshops, and improv comedy into Sam\u2019s campaign through their web series and art collaborations.)",
+      17
+    ],
+    [
+      "Francisco is attending the emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 2:00 pm (on the way to discussing the technical issue with the team)",
+      0
+    ],
+    [
+      "Francisco is attending the emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 2:00 pm (conversing about Latoya Williams and Francisco Lopez discussing how to integrate photography, web series content, and community events into Sam\u2019s campaign with a focus on Valentine's Day activities in their co-living space.)",
+      19
+    ],
+    [
+      "Francisco is attending the emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 2:00 pm (reviewing previous footage to identify potential solutions)",
+      13
+    ],
+    [
+      "Francisco is attending the emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 2:00 pm (on the way to brainstorming possible fixes for the technical problem)",
+      0
+    ],
+    [
+      "Francisco is attending the emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 2:00 pm (conversing about integrating themes from Francisco's web series into Rajiv's show and planning community events within their co-living space to support Sam's campaign, with Hailey and Francisco discussing ideas for podcasts, written pieces, and a Valentine\u2019s Day event showcasing residents' creative contributions.)",
+      20
+    ],
+    [
+      "Francisco is attending the emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 2:00 pm (brainstorming possible fixes for the technical problem)",
+      17
+    ],
+    [
+      "Francisco is attending the emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 2:00 pm (listening to feedback from other team members on proposed solutions)",
+      23
+    ],
+    [
+      "Francisco is attending the emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 2:00 pm (on the way to taking a break and grabbing some lunch)",
+      0
+    ],
+    [
+      "Francisco is attending the emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 2:00 pm (conversing about Jennifer and Francisco discussing ideas for integrating themes from Francisco's web series into visual materials and interactive elements for Sam\u2019s campaign, including behind-the-scenes clips, community workshops, and social media engagement.)",
+      18
+    ],
+    [
+      "Francisco is attending the emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 2:00 pm (discussing budget implications of implementing new solutions with the team)",
+      17
+    ],
+    [
+      "Francisco is attending the emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 2:00 pm (finalizing decisions on which technical fixes to implement immediately)",
+      36
+    ],
+    [
+      "Francisco is reviewing the footage from today's shoot and making notes on performance feedback from the director to prepare for tomorrow's shoot (reviewing the raw footage of his scenes)",
+      20
+    ],
+    [
+      "Francisco is reviewing the footage from today's shoot and making notes on performance feedback from the director to prepare for tomorrow's shoot (on the way to taking notes on areas for improvement based on director's feedback)",
+      0
+    ],
+    [
+      "Francisco is reviewing the footage from today's shoot and making notes on performance feedback from the director to prepare for tomorrow's shoot (conversing about Wolfgang Schulz and Francisco Lopez discussing their respective fields of filmmaking and sports, focusing on handling feedback constructively and preparing for upcoming events.)",
+      8
+    ],
+    [
+      "Francisco is reviewing the footage from today's shoot and making notes on performance feedback from the director to prepare for tomorrow's shoot (on the way to taking notes on areas for improvement based on director's feedback)",
+      0
+    ],
+    [
+      "Francisco is reviewing the footage from today's shoot and making notes on performance feedback from the director to prepare for tomorrow's shoot (conversing about Rajiv Patel and Francisco Lopez discussing plans to integrate Rajiv's solo show, a live painting session during Francisco\u2019s web series episode, Latoya\u2019s travel photography, and community workshops into Sam\u2019s campaign message.)",
+      18
+    ],
+    [
+      "Francisco is reviewing the footage from today's shoot and making notes on performance feedback from the director to prepare for tomorrow's shoot (on the way to taking notes on areas for improvement based on director's feedback)",
+      0
+    ],
+    [
+      "Francisco is reviewing the footage from today's shoot and making notes on performance feedback from the director to prepare for tomorrow's shoot (conversing about Abigail Chen and Francisco Lopez discussing how to integrate multimedia elements including Rajiv\u2019s solo show, Latoya\u2019s travel photography, Abigail's animations, and Francisco's web series into Sam's mayoral campaign.)",
+      13
+    ],
+    [
+      "Francisco is reviewing the footage from today's shoot and making notes on performance feedback from the director to prepare for tomorrow's shoot (taking notes on areas for improvement based on director's feedback)",
+      5
+    ],
+    [
+      "Francisco is reviewing the footage from today's shoot and making notes on performance feedback from the director to prepare for tomorrow's shoot (analyzing his performance and identifying strengths)",
+      9
+    ],
+    [
+      "relaxing with some light reading or a podcast to unwind after the long meeting (selecting what to read or listen to, settling into a comfortable position for reading or listening, starting the podcast episode or opening the book)",
+      10
+    ],
+    [
+      "relaxing with some light reading or a podcast to unwind after the long meeting (engaging with the content for 10 minutes)",
+      10
+    ],
+    [
+      "relaxing with some light reading or a podcast to unwind after the long meeting (taking a short break to stretch and hydrate)",
+      5
+    ],
+    [
+      "relaxing with some light reading or a podcast to unwind after the long meeting (resuming reading or listening for another 10 minutes)",
+      10
+    ],
+    [
+      "relaxing with some light reading or a podcast to unwind after the long meeting (reflecting on the content and taking notes if necessary)",
+      12
+    ],
+    [
+      "preparing and eating dinner",
+      60
+    ],
+    [
+      "Francisco is catching up on the missed improv class by scheduling a makeup session with the instructor via video call",
+      60
+    ],
+    [
+      "Francisco is catching up on emails and messages related to the web series production after the long emergency meeting",
+      180
+    ],
+    [
+      "Francisco is getting ready for bed and reflecting on the day's events",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -1
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing the morning routine",
+      60
+    ],
+    [
+      "having breakfast and reviewing the script for today's shoot",
+      60
+    ],
+    [
+      "meeting with the web series production team to discuss progress and plan next steps",
+      60
+    ],
+    [
+      "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming. The originally scheduled 9:30 am meeting has been moved forward due to this unexpected development",
+      60
+    ],
+    [
+      "Francisco is attending the emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 12:00",
+      60
+    ],
+    [
+      "Francisco is having a lunch break during the emergency meeting as it has run over from 10:00 am to 12:00 pm",
+      60
+    ],
+    [
+      "Francisco is attending the emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 2:00 pm",
+      180
+    ],
+    [
+      "Francisco is reviewing the footage from today's shoot and making notes on performance feedback from the director to prepare for tomorrow's shoot",
+      60
+    ],
+    [
+      "relaxing with some light reading or a podcast to unwind after the long meeting",
+      60
+    ],
+    [
+      "preparing and eating dinner",
+      60
+    ],
+    [
+      "Francisco is catching up on the missed improv class by scheduling a makeup session with the instructor via video call",
+      60
+    ],
+    [
+      "Francisco is catching up on emails and messages related to the web series production after the long emergency meeting",
+      180
+    ],
+    [
+      "Francisco is getting ready for bed and reflecting on the day's events",
+      60
+    ]
+  ],
+  "act_address": "<persona> Abigail Chen",
+  "act_start_time": "February 13, 2023, 16:43:00",
+  "act_duration": 13,
+  "act_description": "conversing about Abigail Chen and Francisco Lopez discussing how to integrate multimedia elements including Rajiv\u2019s solo show, Latoya\u2019s travel photography, Abigail's animations, and Francisco's web series into Sam's mayoral campaign.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Francisco Lopez",
+    "chat with",
+    "Abigail Chen"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Abigail Chen",
+  "chat": [
+    [
+      "Abigail Chen",
+      "Hey Francisco, I heard you're working on integrating Rajiv's solo show and Latoya\u2019s travel photography into your web series. That sounds like a really exciting project! Could we maybe discuss incorporating some multimedia pieces for Sam's mayoral campaign as well?"
+    ],
+    [
+      "Francisco Lopez",
+      "Definitely, Abigail! I think combining Rajiv\u2019s show, Latoya\u2019s photos, and your animations could create something really unique for Sam's campaign. Let's brainstorm more ideas over coffee sometime this week?"
+    ],
+    [
+      "Abigail Chen",
+      "That sounds great, Francisco. How about we meet tomorrow afternoon at Hobbs Cafe? I can bring some of my recent animation samples to show you how they could fit into Sam\u2019s campaign."
+    ],
+    [
+      "Francisco Lopez",
+      "Sounds good, Abigail. I'll be there around 3 PM. Looking forward to seeing your work and brainstorming some cool ideas for Sam\u2019s campaign."
+    ],
+    [
+      "Abigail Chen",
+      "Perfect, Francisco. Let\u2019s make sure to also touch base with Rajiv and Latoya beforehand so we can all be on the same page for our collaborative efforts."
+    ],
+    [
+      "Francisco Lopez",
+      "Sounds like a plan, Abigail. Let\u2019s coordinate with Rajiv and Latoya to sync our schedules for maximum impact on Sam\u2019s campaign."
+    ],
+    [
+      "Abigail Chen",
+      "Absolutely, Francisco. I'll send out an email to Rajiv and Latoya right away to set up a time for our brainstorming session. Can't wait to see what we come up with!"
+    ],
+    [
+      "Francisco Lopez",
+      "Great, thanks Abigail. Let\u2019s all make sure to share our ideas and get creative with how we can blend Rajiv\u2019s solo show, Latoya\u2019s travel photography, your animations, and my web series in a way that resonates with Sam's campaign message."
+    ],
+    [
+      "Abigail Chen",
+      "Sounds fantastic, Francisco. I'll also mention Hobbs Cafe as our meeting spot for everyone and we can finalize details there."
+    ],
+    [
+      "Francisco Lopez",
+      "Sounds like a plan, Abigail. Let\u2019s all aim to bring our best ideas and see how we can creatively blend these different elements together for Sam\u2019s campaign. See you tomorrow at Hobbs Cafe!"
+    ],
+    [
+      "Abigail Chen",
+      "Awesome, Francisco. It'll be great to see everyone come together and I'm excited about our potential impact on Sam\u2019s campaign. See you tomorrow!"
+    ],
+    [
+      "Francisco Lopez",
+      "Sounds good, Abigail. I'll see you and everyone else at Hobbs Cafe tomorrow then. Let's make this a productive session!"
+    ],
+    [
+      "Abigail Chen",
+      "That sounds perfect, Francisco. I'll make sure to bring some mock-ups of interactive multimedia pieces we can use during our brainstorming session as well."
+    ],
+    [
+      "Francisco Lopez",
+      "Awesome, Abigail. Can't wait to see those mock-ups and brainstorm some innovative ways to enhance Sam\u2019s campaign through our collaborative efforts."
+    ],
+    [
+      "Abigail Chen",
+      "Fantastic, Francisco. I'll also prepare some initial thoughts on integrating humor into conflict resolution scenes for our session, inspired by your web series' comedy elements."
+    ],
+    [
+      "Francisco Lopez",
+      "Sounds great, Abigail! Your initial thoughts on integrating humor into conflict resolution scenes will be really valuable. Let\u2019s make sure to also discuss how we can leverage improvisational comedy techniques from my web series to enhance the campaign's messaging and engagement."
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Adam Smith": -2226,
+    "Abigail Chen": 800,
+    "Jennifer Moore": 120,
+    "Rajiv Patel": 798,
+    "Latoya Williams": -330,
+    "Hailey Johnson": -138,
+    "Arthur Burton": -1224,
+    "Carmen Ortiz": -1128,
+    "Wolfgang Schulz": 606
+  },
+  "chatting_end_time": "February 13, 2023, 16:56:00",
+  "act_path_set": true,
+  "planned_path": []
+}

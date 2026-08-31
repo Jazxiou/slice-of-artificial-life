@@ -1,0 +1,794 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        30,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcf7",
+      "description": "working on her photography projects in the artists' co-living space (selecting the best shots for editing) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.5,
+          "hunger": 36.4,
+          "fun": 99.7,
+          "hygiene": 97.4,
+          "bladder": 38.8,
+          "social": 62.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Rajiv Patel": {
+      "movement": [
+        26,
+        22
+      ],
+      "pronunciatio": "\ud83d\udce7\ud83d\udcf1",
+      "description": "waking up and completing his morning routine (checking emails and messages on his phone) @ the Ville:artist's co-living space:Rajiv Patel's room:easel",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 94.5,
+          "hunger": 55.3,
+          "fun": 38.4,
+          "hygiene": 61.9,
+          "bladder": 38.8,
+          "social": 39.0
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\u270d\ufe0f\ud83d\udd04",
+      "description": "working on her animation project for a client, focusing on character design and movement. She uses this time to refine the details based on feedback received earlier in the morning (adding or modifying elements as per the client\u2019s suggestions) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 89.5,
+          "hunger": 78.9,
+          "fun": 67.1,
+          "hygiene": 61.9,
+          "bladder": 38.8,
+          "social": 43.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Francisco Lopez": {
+      "movement": [
+        19,
+        28
+      ],
+      "pronunciatio": "\ud83d\udea8\ud83e\udd14",
+      "description": "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming. The originally scheduled 9:30 am meeting has been moved forward due to this unexpected development (attending the emergency meeting and discussing initial thoughts on resolving the technical issue) @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.5,
+          "hunger": 100.0,
+          "fun": 73.2,
+          "hygiene": 70.4,
+          "bladder": 21.5,
+          "social": 59.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        29,
+        28
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Hailey is waking up and completing her morning routine (going to the bathroom to brush her teeth and wash her face) @ the Ville:artist's co-living space:Hailey Johnson's bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 99.5,
+          "hunger": 14.4,
+          "fun": 34.6,
+          "hygiene": 46.4,
+          "bladder": 7.7,
+          "social": 34.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Arthur Burton": {
+      "movement": [
+        74,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about planning special Valentine's Day cocktails for an upcoming party at Hobbs Cafe, with Isabella Rodriguez and Arthur Burton discussing flavors, timing, and preparation. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Arthur! I hope you're having a good day. How are things at The Rose and Crown Pub?"
+        ],
+        [
+          "Arthur Burton",
+          "Hi Isabella, thanks for asking! Things are going well. We're planning a special cocktail feature tonight and I wanted to make sure everything is ready. How\u2019s your Valentine\u2019s Day party coming along?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Everything\u2019s coming together nicely, thanks! We\u2019re expecting a lot of people and I\u2019m hoping we can work out a deal where you\u2019ll provide some unique cocktails for our guests. What do you think?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds like a great idea, Isabella! I can definitely put together some special cocktails for your party. What kind of flavors or themes are you thinking about?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I was thinking we could go for something romantic and elegant. Maybe a classic like a martini or perhaps something with rose petals to match the Valentine's theme?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds perfect! How about we create a special Valentine's Day cocktail that combines classic elegance with a romantic twist, like maybe infusing rose petals into a gin and tonic or adding them to a sparkling wine spritzer?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds wonderful, Arthur! I think our guests will love a cocktail that captures the essence of Valentine\u2019s Day. Can you start preparing them for tomorrow evening around 4:30 PM so they are ready when the party starts at 5 PM?"
+        ],
+        [
+          "Arthur Burton",
+          "Absolutely, I'll have those cocktails ready for your party tomorrow. Let me know if you need anything else in preparation for Valentine\u2019s Day at Hobbs Cafe."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds fantastic, Arthur. Your cocktails will definitely add something special to our party. I'll make sure everyone knows about them when they arrive. Thank you so much for your help!"
+        ],
+        [
+          "Arthur Burton",
+          "You're very welcome, Isabella. If there's anything else you need or if you have any changes in mind for the cocktails, just let me know. Have a great day and I'll see you tomorrow evening!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 84.5,
+          "hunger": 99.6,
+          "fun": 36.4,
+          "hygiene": 61.9,
+          "bladder": 4.3,
+          "social": 43.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ryan Park": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Sam Moore and Ryan Park discussing how to integrate technology, particularly social media platforms and mobile apps, into Sam's mayoral campaign to enhance community engagement and involvement. @ <persona> Sam Moore",
+      "chat": [
+        [
+          "Sam Moore",
+          "Good morning, Ryan! I see you're already deep in discussions about your day. How about joining me for a coffee and perhaps we can exchange some ideas on how technology and community engagement could intersect in our town?"
+        ],
+        [
+          "Ryan Park",
+          "Sure, Sam. That sounds like an interesting topic. I'm working on a mobile app project and have been exploring how tech trends can enhance community involvement. Maybe there are synergies we could explore in your campaign."
+        ],
+        [
+          "Sam Moore",
+          "Absolutely, Ryan. I've been thinking about ways to connect more directly with constituents through digital means. Your expertise could be invaluable in helping me understand how we can leverage technology for my mayoral campaign. What are your thoughts on integrating social media platforms and mobile apps into our outreach strategy?"
+        ],
+        [
+          "Ryan Park",
+          "I think social media and mobile apps are fantastic tools for engagement. For your campaign, we could look at developing a dedicated app that allows constituents to easily report issues, participate in forums, and stay updated on local events. Additionally, integrating features like polls or surveys through social platforms can provide you with valuable feedback from the community."
+        ],
+        [
+          "Sam Moore",
+          "That sounds like a great plan, Ryan. Can you give me more details on how we could implement such features and what kind of resources might be needed? I'm particularly interested in ensuring that the tool is user-friendly for all age groups."
+        ],
+        [
+          "Ryan Park",
+          "Certainly, Sam. To start, we could conduct user research to understand what features would be most valuable and easy to use for your constituents. For example, we might create simple interactive prototypes or questionnaires to gather feedback on design ideas before full development. As for resources, we'd need a team of developers and designers, along with potentially hiring an external firm if the scope is large enough."
+        ],
+        [
+          "Sam Moore",
+          "That sounds like a solid approach, Ryan. Let\u2019s schedule a meeting to discuss this further and see if we can move forward with some initial research and prototyping. How does Wednesday afternoon sound for you?"
+        ],
+        [
+          "Ryan Park",
+          "Wednesday afternoon works for me, Sam. I'll make sure to block off time in my schedule and come prepared with some initial ideas and questions for our research."
+        ],
+        [
+          "Sam Moore",
+          "Sounds good, Ryan. I'll see you at Hobbs Cafe on Wednesday then. Let\u2019s aim for 2 PM to allow enough time for a thorough discussion."
+        ],
+        [
+          "Ryan Park",
+          "Sounds great, Sam. I'll bring along some examples of user-friendly mobile apps that could serve as inspiration for our project. See you at 2 PM on Wednesday."
+        ],
+        [
+          "Sam Moore",
+          "Perfect, Ryan. I look forward to seeing those examples and learning more about how we can make our community engagement efforts more effective through technology."
+        ],
+        [
+          "Ryan Park",
+          "Before we wrap up, Sam, I think it would also be beneficial to explore potential partnerships or collaborations with local tech companies. They might offer valuable insights and support for our project. What do you think about reaching out to them as well?"
+        ],
+        [
+          "Sam Moore",
+          "That\u2019s a great suggestion, Ryan. Let's include reaching out to local tech companies in our agenda for Wednesday. They could provide us with additional tools and expertise to enhance our campaign's digital presence."
+        ],
+        [
+          "Ryan Park",
+          "Sounds like a plan, Sam. I can start compiling a list of local tech companies and reach out to them ahead of our meeting. We could also consider inviting key representatives from these firms to collaborate more directly on the project."
+        ],
+        [
+          "Sam Moore",
+          "That sounds like a proactive step, Ryan. I appreciate your enthusiasm and initiative. Let\u2019s make sure to outline some clear objectives for our meeting on Wednesday so we can work efficiently towards integrating technology into our campaign strategy."
+        ],
+        [
+          "Ryan Park",
+          "That sounds like a smart move, Sam. I'll draft an email to some potential tech partners and see if we can get them involved in our planning sessions. Let\u2019s aim for specific goals during Wednesday's meeting so we can make the most of everyone's time and resources."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 94.5,
+          "hunger": 29.6,
+          "fun": 50.1,
+          "hygiene": 61.9,
+          "bladder": 38.8,
+          "social": 52.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about planning special Valentine's Day cocktails for an upcoming party at Hobbs Cafe, with Isabella Rodriguez and Arthur Burton discussing flavors, timing, and preparation. @ <persona> Arthur Burton",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Arthur! I hope you're having a good day. How are things at The Rose and Crown Pub?"
+        ],
+        [
+          "Arthur Burton",
+          "Hi Isabella, thanks for asking! Things are going well. We're planning a special cocktail feature tonight and I wanted to make sure everything is ready. How\u2019s your Valentine\u2019s Day party coming along?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Everything\u2019s coming together nicely, thanks! We\u2019re expecting a lot of people and I\u2019m hoping we can work out a deal where you\u2019ll provide some unique cocktails for our guests. What do you think?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds like a great idea, Isabella! I can definitely put together some special cocktails for your party. What kind of flavors or themes are you thinking about?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I was thinking we could go for something romantic and elegant. Maybe a classic like a martini or perhaps something with rose petals to match the Valentine's theme?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds perfect! How about we create a special Valentine's Day cocktail that combines classic elegance with a romantic twist, like maybe infusing rose petals into a gin and tonic or adding them to a sparkling wine spritzer?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds wonderful, Arthur! I think our guests will love a cocktail that captures the essence of Valentine\u2019s Day. Can you start preparing them for tomorrow evening around 4:30 PM so they are ready when the party starts at 5 PM?"
+        ],
+        [
+          "Arthur Burton",
+          "Absolutely, I'll have those cocktails ready for your party tomorrow. Let me know if you need anything else in preparation for Valentine\u2019s Day at Hobbs Cafe."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds fantastic, Arthur. Your cocktails will definitely add something special to our party. I'll make sure everyone knows about them when they arrive. Thank you so much for your help!"
+        ],
+        [
+          "Arthur Burton",
+          "You're very welcome, Isabella. If there's anything else you need or if you have any changes in mind for the cocktails, just let me know. Have a great day and I'll see you tomorrow evening!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 79.5,
+          "hunger": 96.4,
+          "fun": 79.6,
+          "hygiene": 70.4,
+          "bladder": 38.8,
+          "social": 59.9
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udd0d",
+      "description": "working on his research project to explore mathematical patterns in nature (formulating hypotheses based on observations) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.5,
+          "hunger": 51.8,
+          "fun": 45.4,
+          "hygiene": 94.9,
+          "bladder": 38.8,
+          "social": 47.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Carlos Gomez": {
+      "movement": [
+        94,
+        21
+      ],
+      "pronunciatio": "\u270d\ud83d\udcdd",
+      "description": "working on his poetry collection (writing a rough draft of the new poem) @ the Ville:Carlos Gomez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.5,
+          "hunger": 93.4,
+          "fun": 81.0,
+          "hygiene": 70.4,
+          "bladder": 38.8,
+          "social": 34.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83c\udfe0",
+      "description": "Klaus is still working on his research paper in the library at Oak Hill College. He plans to spend several more hours there before having lunch (reviewing notes and sources related to gentrification effects on low-income communities) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.5,
+          "hunger": 100.0,
+          "fun": 49.1,
+          "hygiene": 93.7,
+          "bladder": 4.3,
+          "social": 40.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        124,
+        51
+      ],
+      "pronunciatio": "\ud83d\udebb\ud83e\uddfc",
+      "description": "waking up and completing her morning routine (going to the bathroom to use the toilet and wash her face) @ the Ville:Dorm for Oak Hill College:woman's bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 99.5,
+          "hunger": 14.4,
+          "fun": 34.6,
+          "hygiene": 46.4,
+          "bladder": 7.7,
+          "social": 34.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ayesha Khan": {
+      "movement": [
+        118,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "preparing notes for the upcoming classes (finishing up any remaining tasks and packing her bag) @ the Ville:Dorm for Oak Hill College:Ayesha Khan's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.5,
+          "hunger": 99.3,
+          "fun": 38.9,
+          "hygiene": 70.4,
+          "bladder": 38.8,
+          "social": 44.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        115,
+        37
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83c\udfaf",
+      "description": "studying chemistry and related subjects (creating flashcards for key terms and formulas) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.5,
+          "hunger": 100.0,
+          "fun": 68.4,
+          "hygiene": 93.9,
+          "bladder": 38.8,
+          "social": 44.8
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Mei Lin": {
+      "movement": [
+        98,
+        51
+      ],
+      "pronunciatio": "\ud83e\uddfe\ud83d\udc4b",
+      "description": "teaching her philosophy course at Oak Hill College (taking attendance and greeting students) @ the Ville:Oak Hill College:classroom:classroom podium",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.5,
+          "hunger": 68.3,
+          "fun": 42.8,
+          "hygiene": 92.6,
+          "bladder": 81.8,
+          "social": 44.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        78,
+        50
+      ],
+      "pronunciatio": "\ud83d\udc8a\u2705",
+      "description": "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (checking prescriptions for accuracy) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 85.6,
+          "hunger": 82.6,
+          "fun": 67.3,
+          "hygiene": 93.4,
+          "bladder": 38.8,
+          "social": 50.1
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        92,
+        64
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfa7",
+      "description": "Eddy is attending his first class at Oak Hill College (taking notes during the lecture) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 87.7,
+          "hunger": 73.8,
+          "fun": 52.1,
+          "hygiene": 99.9,
+          "bladder": 38.8,
+          "social": 44.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Tom Moreno": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\uded2",
+      "description": "managing customer services and helping with orders at The Willow Market and Pharmacy (answering customer questions about products) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.5,
+          "hunger": 35.3,
+          "fun": 34.6,
+          "hygiene": 70.4,
+          "bladder": 38.8,
+          "social": 59.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Jane Moreno": {
+      "movement": [
+        75,
+        65
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Jane is doing household chores like laundry and cleaning (sorting clothes for washing) @ the Ville:Moreno family's house:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.5,
+          "hunger": 95.1,
+          "fun": 34.6,
+          "hygiene": 70.4,
+          "bladder": 38.8,
+          "social": 38.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Tamara Taylor": {
+      "movement": [
+        55,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcd6\u270d",
+      "description": "working on her adult comic book series (outlining the next chapter of the comic book) @ the Ville:Tamara Taylor and Carmen Ortiz's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.5,
+          "hunger": 99.7,
+          "fun": 39.4,
+          "hygiene": 61.9,
+          "bladder": 38.8,
+          "social": 38.7
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Carmen Ortiz": {
+      "movement": [
+        56,
+        33
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\u2615",
+      "description": "working at Harvey Oak Supply Store (taking a break and having a snack) @ the Ville:The Rose and Crown Pub:pub:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.5,
+          "hunger": 44.1,
+          "fun": 34.6,
+          "hygiene": 75.6,
+          "bladder": 31.9,
+          "social": 41.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Sam Moore": {
+      "movement": [
+        76,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Sam Moore and Ryan Park discussing how to integrate technology, particularly social media platforms and mobile apps, into Sam's mayoral campaign to enhance community engagement and involvement. @ <persona> Ryan Park",
+      "chat": [
+        [
+          "Sam Moore",
+          "Good morning, Ryan! I see you're already deep in discussions about your day. How about joining me for a coffee and perhaps we can exchange some ideas on how technology and community engagement could intersect in our town?"
+        ],
+        [
+          "Ryan Park",
+          "Sure, Sam. That sounds like an interesting topic. I'm working on a mobile app project and have been exploring how tech trends can enhance community involvement. Maybe there are synergies we could explore in your campaign."
+        ],
+        [
+          "Sam Moore",
+          "Absolutely, Ryan. I've been thinking about ways to connect more directly with constituents through digital means. Your expertise could be invaluable in helping me understand how we can leverage technology for my mayoral campaign. What are your thoughts on integrating social media platforms and mobile apps into our outreach strategy?"
+        ],
+        [
+          "Ryan Park",
+          "I think social media and mobile apps are fantastic tools for engagement. For your campaign, we could look at developing a dedicated app that allows constituents to easily report issues, participate in forums, and stay updated on local events. Additionally, integrating features like polls or surveys through social platforms can provide you with valuable feedback from the community."
+        ],
+        [
+          "Sam Moore",
+          "That sounds like a great plan, Ryan. Can you give me more details on how we could implement such features and what kind of resources might be needed? I'm particularly interested in ensuring that the tool is user-friendly for all age groups."
+        ],
+        [
+          "Ryan Park",
+          "Certainly, Sam. To start, we could conduct user research to understand what features would be most valuable and easy to use for your constituents. For example, we might create simple interactive prototypes or questionnaires to gather feedback on design ideas before full development. As for resources, we'd need a team of developers and designers, along with potentially hiring an external firm if the scope is large enough."
+        ],
+        [
+          "Sam Moore",
+          "That sounds like a solid approach, Ryan. Let\u2019s schedule a meeting to discuss this further and see if we can move forward with some initial research and prototyping. How does Wednesday afternoon sound for you?"
+        ],
+        [
+          "Ryan Park",
+          "Wednesday afternoon works for me, Sam. I'll make sure to block off time in my schedule and come prepared with some initial ideas and questions for our research."
+        ],
+        [
+          "Sam Moore",
+          "Sounds good, Ryan. I'll see you at Hobbs Cafe on Wednesday then. Let\u2019s aim for 2 PM to allow enough time for a thorough discussion."
+        ],
+        [
+          "Ryan Park",
+          "Sounds great, Sam. I'll bring along some examples of user-friendly mobile apps that could serve as inspiration for our project. See you at 2 PM on Wednesday."
+        ],
+        [
+          "Sam Moore",
+          "Perfect, Ryan. I look forward to seeing those examples and learning more about how we can make our community engagement efforts more effective through technology."
+        ],
+        [
+          "Ryan Park",
+          "Before we wrap up, Sam, I think it would also be beneficial to explore potential partnerships or collaborations with local tech companies. They might offer valuable insights and support for our project. What do you think about reaching out to them as well?"
+        ],
+        [
+          "Sam Moore",
+          "That\u2019s a great suggestion, Ryan. Let's include reaching out to local tech companies in our agenda for Wednesday. They could provide us with additional tools and expertise to enhance our campaign's digital presence."
+        ],
+        [
+          "Ryan Park",
+          "Sounds like a plan, Sam. I can start compiling a list of local tech companies and reach out to them ahead of our meeting. We could also consider inviting key representatives from these firms to collaborate more directly on the project."
+        ],
+        [
+          "Sam Moore",
+          "That sounds like a proactive step, Ryan. I appreciate your enthusiasm and initiative. Let\u2019s make sure to outline some clear objectives for our meeting on Wednesday so we can work efficiently towards integrating technology into our campaign strategy."
+        ],
+        [
+          "Ryan Park",
+          "That sounds like a smart move, Sam. I'll draft an email to some potential tech partners and see if we can get them involved in our planning sessions. Let\u2019s aim for specific goals during Wednesday's meeting so we can make the most of everyone's time and resources."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 74.5,
+          "hunger": 70.5,
+          "fun": 100.0,
+          "hygiene": 86.8,
+          "bladder": 68.7,
+          "social": 58.9
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Jennifer Moore": {
+      "movement": [
+        36,
+        30
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\uddbc",
+      "description": "working on her watercolor paintings (adding details to the background layer of the second piece) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.5,
+          "hunger": 97.2,
+          "fun": 100.0,
+          "hygiene": 65.3,
+          "bladder": 28.4,
+          "social": 67.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Yuriko Yamamoto": {
+      "movement": [
+        32,
+        53
+      ],
+      "pronunciatio": "\ud83d\udc4b",
+      "description": "Yuriko is attending a meeting with her team to discuss progress on the tax compliance project (greeting her team members and taking a seat) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.5,
+          "hunger": 37.5,
+          "fun": 41.8,
+          "hygiene": 96.7,
+          "bladder": 38.8,
+          "social": 34.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Adam Smith": {
+      "movement": [
+        40,
+        25
+      ],
+      "pronunciatio": "\ud83c\udf73\u2615",
+      "description": "having breakfast (eating breakfast) @ the Ville:artist's co-living space:kitchen:toaster",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.5,
+          "hunger": 100.0,
+          "fun": 72.3,
+          "hygiene": 61.9,
+          "bladder": 38.8,
+          "social": 62.4
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 10:06:00"
+  }
+}

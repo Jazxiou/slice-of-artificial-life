@@ -1,0 +1,724 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    31,
+    59
+  ],
+  "daily_plan_req": "",
+  "name": "Yuriko Yamamoto",
+  "first_name": "Yuriko",
+  "last_name": "Yamamoto",
+  "age": 28,
+  "innate": "organized, reliable, detail-oriented",
+  "learned": "Yuriko Yamamoto is a tax lawyer who loves to help people navigate the complex world of taxes. She is very organized and detail-oriented when it comes to her work.",
+  "currently": "Yuriko Yamamoto is working on a tax compliance project for a local business. She is also taking classes to stay up to date on new tax laws. Yuriko is also curious about who will be running for the local mayor election next month.",
+  "seed_currently": "Yuriko Yamamoto is working on a tax compliance project for a local business. She is also taking classes to stay up to date on new tax laws. Yuriko is also curious about who will be running for the local mayor election next month.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 51.41,
+    "hunger": 86.77,
+    "fun": 15.36,
+    "hygiene": 76.84,
+    "bladder": 0.0,
+    "social": 45.41
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Arthur Burton": {
+      "friendship": 9.0,
+      "romance": 0.0
+    },
+    "John Lin": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Carmen Ortiz": {
+      "friendship": 9.0,
+      "romance": 0.0
+    },
+    "Adam Smith": {
+      "friendship": 8.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Yuriko Yamamoto goes to bed around 11pm, awakes up around 7am, eats dinner around 6pm.",
+  "living_area": "the Ville:Yuriko Yamamoto's house:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 213,
+  "importance_ele_n": 22,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "head to the office to work on the tax compliance project at 8:30 am",
+    "have a lunch meeting with clients at 12:00 pm",
+    "continue working until 5:00 pm",
+    "attend an online course on new tax laws from 6:00 pm to 7:00 pm",
+    "watch TV from 7:00 pm to 8:00 pm",
+    "review and organize work documents for the next day from 8:00 pm to 9:00 pm",
+    "have dinner at 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "Yuriko is waking up and completing her morning routine (waking up and turning off the alarm)",
+      5
+    ],
+    [
+      "Yuriko is waking up and completing her morning routine (getting out of bed)",
+      5
+    ],
+    [
+      "Yuriko is waking up and completing her morning routine (going to the bathroom to use the toilet and wash her face)",
+      10
+    ],
+    [
+      "Yuriko is waking up and completing her morning routine (brushing her teeth)",
+      5
+    ],
+    [
+      "Yuriko is waking up and completing her morning routine (drinking a glass of water)",
+      5
+    ],
+    [
+      "Yuriko is waking up and completing her morning routine (stretching and doing some light morning exercises)",
+      10
+    ],
+    [
+      "Yuriko is waking up and completing her morning routine (getting dressed for the day)",
+      10
+    ],
+    [
+      "Yuriko is waking up and completing her morning routine (checking her emails on her phone to see if there are any urgent messages from work or clients)",
+      10
+    ],
+    [
+      "Yuriko is getting ready for work and reviewing her schedule for the day (showering)",
+      20
+    ],
+    [
+      "Yuriko is getting ready for work and reviewing her schedule for the day (getting dressed for work)",
+      15
+    ],
+    [
+      "Yuriko is getting ready for work and reviewing her schedule for the day (preparing her lunch and snacks for the day)",
+      10
+    ],
+    [
+      "Yuriko is getting ready for work and reviewing her schedule for the day (reviewing her schedule for the day on her phone or computer)",
+      10
+    ],
+    [
+      "Yuriko is getting ready for work and reviewing her schedule for the day (packing her work bag with necessary items such as laptop, documents, and lunch)",
+      5
+    ],
+    [
+      "Yuriko is heading to the office to work on her tax compliance project (packing her bag with necessary documents and materials for the day)",
+      5
+    ],
+    [
+      "Yuriko is heading to the office to work on her tax compliance project (checking emails and messages before leaving home)",
+      5
+    ],
+    [
+      "Yuriko is heading to the office to work on her tax compliance project (locking up her apartment securely)",
+      5
+    ],
+    [
+      "Yuriko is heading to the office to work on her tax compliance project (walking to the bus stop or driving to the parking garage)",
+      10
+    ],
+    [
+      "Yuriko is heading to the office to work on her tax compliance project (waiting for the bus or finding a parking spot at her office building)",
+      5
+    ],
+    [
+      "Yuriko is heading to the office to work on her tax compliance project (riding the elevator to her floor and greeting colleagues)",
+      5
+    ],
+    [
+      "Yuriko is heading to the office to work on her tax compliance project (setting up her workstation with necessary documents and technology)",
+      10
+    ],
+    [
+      "Yuriko is heading to the office to work on her tax compliance project (reviewing notes from the previous day's work on the tax compliance project)",
+      10
+    ],
+    [
+      "Yuriko is heading to the office to work on her tax compliance project (preparing for any immediate tasks related to the tax compliance project)",
+      5
+    ],
+    [
+      "Yuriko is attending a meeting with her team to discuss progress on the tax compliance project (walking to the conference room)",
+      5
+    ],
+    [
+      "Yuriko is attending a meeting with her team to discuss progress on the tax compliance project (greeting her team members and taking a seat)",
+      5
+    ],
+    [
+      "Yuriko is attending a meeting with her team to discuss progress on the tax compliance project (reviewing meeting agenda and objectives)",
+      10
+    ],
+    [
+      "Yuriko is attending a meeting with her team to discuss progress on the tax compliance project (discussing progress on the tax compliance project with her team members)",
+      20
+    ],
+    [
+      "Yuriko is attending a meeting with her team to discuss progress on the tax compliance project (on the way to addressing any issues or challenges encountered by the team)",
+      0
+    ],
+    [
+      "Yuriko is attending a meeting with her team to discuss progress on the tax compliance project (conversing about Arthur Burton and Yuriko Yamamoto discussing plans for a private tasting of Valentine's Day cocktails at The Rose and Crown Pub.)",
+      9
+    ],
+    [
+      "Yuriko is attending a meeting with her team to discuss progress on the tax compliance project (addressing any issues or challenges encountered by the team)",
+      10
+    ],
+    [
+      "Yuriko is concluding the meeting and wrapping up any remaining points",
+      1
+    ],
+    [
+      "Yuriko is reviewing documents and preparing for the upcoming lunch meeting with clients (reviewing client files)",
+      15
+    ],
+    [
+      "Yuriko is reviewing documents and preparing for the upcoming lunch meeting with clients (on the way to checking for updates on tax laws)",
+      0
+    ],
+    [
+      "Yuriko is reviewing documents and preparing for the upcoming lunch meeting with clients (conversing about planning and collaborating on organizing town hall meetings and informational sessions to gather community input on mayoral candidates and issues, with John Lin and Yuriko Yamamoto discussing ways to involve various parts of the community through local organizations and schools.)",
+      13
+    ],
+    [
+      "Yuriko is reviewing documents and preparing for the upcoming lunch meeting with clients (checking for updates on tax laws)",
+      7
+    ],
+    [
+      "Yuriko is reviewing documents and preparing for the upcoming lunch meeting with clients (on the way to preparing a summary of the compliance project status)",
+      0
+    ],
+    [
+      "Yuriko is reviewing documents and preparing for the upcoming lunch meeting with clients (conversing about preparations and plans for Valentine's Day events, including a private tasting at The Rose and Crown Pub, between Carmen Ortiz and Yuriko Yamamoto.)",
+      12
+    ],
+    [
+      "Yuriko is reviewing documents and preparing for the upcoming lunch meeting with clients (preparing a summary of the compliance project status)",
+      8
+    ],
+    [
+      "Yuriko is reviewing documents and preparing for the upcoming lunch meeting with clients (on the way to drafting talking points for the meeting)",
+      0
+    ],
+    [
+      "Yuriko is reviewing documents and preparing for the upcoming lunch meeting with clients (conversing about Adam Smith and Yuriko Yamamoto discussing how to integrate improv comedy into community meetings to enhance civic engagement and creative conflict resolution, with plans to involve Francisco Lopez and Jennifer Moore in a pre-workshop session next Tuesday at 4pm.)",
+      15
+    ],
+    [
+      "Yuriko is reviewing documents and preparing for the upcoming lunch meeting with clients (drafting talking points for the meeting)",
+      5
+    ],
+    [
+      "Yuriko is having a lunch meeting with clients to discuss their tax compliance needs and provide guidance on upcoming changes in tax laws (walking to the meeting location or setting up a virtual call)",
+      5
+    ],
+    [
+      "Yuriko is having a lunch meeting with clients to discuss their tax compliance needs and provide guidance on upcoming changes in tax laws (greeting clients and starting the meeting)",
+      5
+    ],
+    [
+      "Yuriko is having a lunch meeting with clients to discuss their tax compliance needs and provide guidance on upcoming changes in tax laws (discussing current tax compliance issues with clients)",
+      10
+    ],
+    [
+      "Yuriko is having a lunch meeting with clients to discuss their tax compliance needs and provide guidance on upcoming changes in tax laws (explaining upcoming changes in tax laws to clients)",
+      10
+    ],
+    [
+      "Yuriko is having a lunch meeting with clients to discuss their tax compliance needs and provide guidance on upcoming changes in tax laws (answering questions from clients about the meeting topics)",
+      10
+    ],
+    [
+      "Yuriko is having a lunch meeting with clients to discuss their tax compliance needs and provide guidance on upcoming changes in tax laws (providing guidance on how to comply with new tax laws)",
+      5
+    ],
+    [
+      "Yuriko is attending a training session for her tax compliance project from 1:00 pm to 2:00 pm (taking notes on the new tax laws being discussed) (arriving at the training session and getting settled)",
+      5
+    ],
+    [
+      "Yuriko is attending a training session for her tax compliance project from 1:00 pm to 2:00 pm (taking notes on the new tax laws being discussed) (taking notes on the introduction of new tax laws)",
+      10
+    ],
+    [
+      "Yuriko is attending a training session for her tax compliance project from 1:00 pm to 2:00 pm (taking notes on the new tax laws being discussed) (participating in a Q&A with the trainer about recent changes)",
+      10
+    ],
+    [
+      "Yuriko is attending a training session for her tax compliance project from 1:00 pm to 2:00 pm (taking notes on the new tax laws being discussed) (reviewing case studies on applying new tax laws)",
+      10
+    ],
+    [
+      "Yuriko is attending a training session for her tax compliance project from 1:00 pm to 2:00 pm (taking notes on the new tax laws being discussed) (taking notes during a group discussion session)",
+      10
+    ],
+    [
+      "Yuriko is attending a training session for her tax compliance project from 1:00 pm to 2:00 pm (taking notes on the new tax laws being discussed) (summarizing key points from the training for future reference)",
+      10
+    ],
+    [
+      "Yuriko is attending a training session for her tax compliance project from 1:00 pm to 2:00 pm (taking notes on the new tax laws being discussed) (packing up her materials and preparing to leave)",
+      5
+    ],
+    [
+      "Yuriko is attending a training session for her tax compliance project from 1:00 pm to 2:00 pm (participating in group discussions and asking questions to clarify points)",
+      30
+    ],
+    [
+      "Yuriko is attending a training session for her tax compliance project from 1:00 pm to 2:00 pm (on the way to on the way to reviewing her notes from the session for accuracy and completeness)",
+      0
+    ],
+    [
+      "Yuriko is attending a training session for her tax compliance project from 1:00 pm to 2:00 pm (conversing about Carmen Ortiz and Yuriko Yamamoto discussing their respective projects, training sessions, and plans to meet up for drinks at The Rose and Crown after work.)",
+      6
+    ],
+    [
+      "Yuriko is attending a training session for her tax compliance project from 1:00 pm to 2:00 pm (reviewing her notes from the session for accuracy and completeness)",
+      9
+    ],
+    [
+      "Yuriko is attending a training session for her tax compliance project from 1:00 pm to 2:00 pm (organizing her materials and preparing for follow-up tasks related to the training)",
+      15
+    ],
+    [
+      "Yuriko is reviewing the progress of her tax compliance project and preparing for any follow-up tasks or meetings later in the day (reviewing the current status of the tax compliance project)",
+      20
+    ],
+    [
+      "Yuriko is reviewing the progress of her tax compliance project and preparing for any follow-up tasks or meetings later in the day (checking for any missing documents or information)",
+      15
+    ],
+    [
+      "Yuriko is reviewing the progress of her tax compliance project and preparing for any follow-up tasks or meetings later in the day (organizing files and updating records)",
+      10
+    ],
+    [
+      "Yuriko is reviewing the progress of her tax compliance project and preparing for any follow-up tasks or meetings later in the day (preparing a summary report of the project's progress)",
+      10
+    ],
+    [
+      "Yuriko is reviewing the progress of her tax compliance project and preparing for any follow-up tasks or meetings later in the day (planning follow-up tasks for the next steps)",
+      5
+    ],
+    [
+      "Yuriko is continuing to work on her tax compliance project and preparing for any follow-up tasks or meetings later in the day (reviewing the progress of the current section of the tax compliance project)",
+      15
+    ],
+    [
+      "Yuriko is continuing to work on her tax compliance project and preparing for any follow-up tasks or meetings later in the day (identifying any issues or discrepancies that need to be addressed)",
+      10
+    ],
+    [
+      "Yuriko is continuing to work on her tax compliance project and preparing for any follow-up tasks or meetings later in the day (preparing a list of follow-up tasks and meetings for the day)",
+      10
+    ],
+    [
+      "Yuriko is continuing to work on her tax compliance project and preparing for any follow-up tasks or meetings later in the day (drafting emails or messages to team members regarding progress updates and next steps)",
+      10
+    ],
+    [
+      "Yuriko is continuing to work on her tax compliance project and preparing for any follow-up tasks or meetings later in the day (reviewing financial documents for accuracy and completeness)",
+      10
+    ],
+    [
+      "Yuriko is continuing to work on her tax compliance project and preparing for any follow-up tasks or meetings later in the day (taking a short break to stretch and hydrate)",
+      5
+    ],
+    [
+      "Yuriko is wrapping up her workday and preparing for any follow-up tasks or meetings scheduled for the next day. She reviews the progress of her tax compliance project and ensures all documentation is in order before leaving the office at 5:00 (reviewing emails for any urgent follow-up tasks)",
+      15
+    ],
+    [
+      "Yuriko is wrapping up her workday and preparing for any follow-up tasks or meetings scheduled for the next day. She reviews the progress of her tax compliance project and ensures all documentation is in order before leaving the office at 5:00 (organizing her calendar for the next day's meetings and tasks)",
+      10
+    ],
+    [
+      "Yuriko is wrapping up her workday and preparing for any follow-up tasks or meetings scheduled for the next day. She reviews the progress of her tax compliance project and ensures all documentation is in order before leaving the office at 5:00 (checking the progress of the tax compliance project)",
+      10
+    ],
+    [
+      "Yuriko is wrapping up her workday and preparing for any follow-up tasks or meetings scheduled for the next day. She reviews the progress of her tax compliance project and ensures all documentation is in order before leaving the office at 5:00 (ensuring all documentation for the tax compliance project is complete and accurate)",
+      15
+    ],
+    [
+      "Yuriko is wrapping up her workday and preparing for any follow-up tasks or meetings scheduled for the next day. She reviews the progress of her tax compliance project and ensures all documentation is in order before leaving the office at 5:00 (preparing a summary report of the day's work on the tax compliance project)",
+      10
+    ],
+    [
+      "Yuriko is attending an online course on new tax laws from 6:00 pm to 7:00 pm",
+      60
+    ],
+    [
+      "Yuriko is watching TV from 7:00 pm to 8:00 pm",
+      60
+    ],
+    [
+      "Yuriko is reviewing and organizing work documents for the next day from 8:00 pm to 9:00 pm",
+      60
+    ],
+    [
+      "Yuriko is having dinner from 9:00 pm to 10:00 pm",
+      60
+    ],
+    [
+      "Yuriko is preparing for bed and getting ready for the next day from 10:00 pm to 11:00 pm",
+      120
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "Yuriko is waking up and completing her morning routine",
+      60
+    ],
+    [
+      "Yuriko is getting ready for work and reviewing her schedule for the day",
+      60
+    ],
+    [
+      "Yuriko is heading to the office to work on her tax compliance project",
+      60
+    ],
+    [
+      "Yuriko is attending a meeting with her team to discuss progress on the tax compliance project",
+      60
+    ],
+    [
+      "Yuriko is reviewing documents and preparing for the upcoming lunch meeting with clients",
+      60
+    ],
+    [
+      "Yuriko is having a lunch meeting with clients to discuss their tax compliance needs and provide guidance on upcoming changes in tax laws",
+      60
+    ],
+    [
+      "Yuriko is attending a training session for her tax compliance project from 1:00 pm to 2:00 pm",
+      120
+    ],
+    [
+      "Yuriko is reviewing the progress of her tax compliance project and preparing for any follow-up tasks or meetings later in the day",
+      60
+    ],
+    [
+      "Yuriko is continuing to work on her tax compliance project and preparing for any follow-up tasks or meetings later in the day",
+      60
+    ],
+    [
+      "Yuriko is wrapping up her workday and preparing for any follow-up tasks or meetings scheduled for the next day. She reviews the progress of her tax compliance project and ensures all documentation is in order before leaving the office at 5:00",
+      60
+    ],
+    [
+      "Yuriko is attending an online course on new tax laws from 6:00 pm to 7:00 pm",
+      60
+    ],
+    [
+      "Yuriko is watching TV from 7:00 pm to 8:00 pm",
+      60
+    ],
+    [
+      "Yuriko is reviewing and organizing work documents for the next day from 8:00 pm to 9:00 pm",
+      60
+    ],
+    [
+      "Yuriko is having dinner from 9:00 pm to 10:00 pm",
+      60
+    ],
+    [
+      "Yuriko is preparing for bed and getting ready for the next day from 10:00 pm to 11:00 pm",
+      120
+    ]
+  ],
+  "act_address": "the Ville:Yuriko Yamamoto's house:main room:desk",
+  "act_start_time": "February 13, 2023, 16:35:00",
+  "act_duration": 10,
+  "act_description": "Yuriko is continuing to work on her tax compliance project and preparing for any follow-up tasks or meetings later in the day (drafting emails or messages to team members regarding progress updates and next steps)",
+  "act_pronunciatio": "\ud83d\udce7\ud83d\udcc5",
+  "act_event": [
+    "Yuriko Yamamoto",
+    "draft",
+    "emails or messages"
+  ],
+  "act_obj_description": "cluttered with papers and open laptops, but organized with specific sections for different tasks related to her tax compliance project",
+  "act_obj_pronunciatio": "\ud83d\udcdd\ud83d\udcbb",
+  "act_obj_event": [
+    "desk",
+    "be",
+    "cluttered"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Arthur Burton": -102,
+    "John Lin": -1176,
+    "Carmen Ortiz": 30,
+    "Adam Smith": -864
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

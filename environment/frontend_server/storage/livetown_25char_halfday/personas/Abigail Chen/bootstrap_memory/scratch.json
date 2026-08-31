@@ -1,0 +1,713 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    36,
+    28
+  ],
+  "daily_plan_req": "",
+  "name": "Abigail Chen",
+  "first_name": "Abigail",
+  "last_name": "Chen",
+  "age": 25,
+  "innate": "open-minded, curious, determined",
+  "learned": "Abigail Chen is a digital artist and animator who loves to explore how technology can be used to express ideas. She is always looking for new ways to combine art and technology.",
+  "currently": "Abigail Chen is working on an animation project for a client. She is also experimenting with different tools and techniques to create interactive art.",
+  "seed_currently": "Abigail Chen is working on an animation project for a client. She is also experimenting with different tools and techniques to create interactive art.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 56.41,
+    "hunger": 50.56,
+    "fun": 100.0,
+    "hygiene": 42.0,
+    "bladder": 0.0,
+    "social": 96.23
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Francisco Lopez": {
+      "friendship": 9.0,
+      "romance": 0.0
+    },
+    "Adam Smith": {
+      "friendship": 10.0,
+      "romance": 0.0
+    },
+    "Carlos Gomez": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Ayesha Khan": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Wolfgang Schulz": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Giorgio Rossi": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Eddy Lin": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Isabella Rodriguez": {
+      "friendship": 10.0,
+      "romance": 0.0
+    },
+    "Latoya Williams": {
+      "friendship": 10.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Abigail Chen goes to bed around midnight, awakes up around 8am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Abigail Chen's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 55,
+  "importance_ele_n": 60,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "start work on animation project at 9:00 am",
+    "take a short break for lunch at 12:00 pm",
+    "continue working until 5:00 pm with breaks as needed",
+    "have dinner at 6:00 pm",
+    "dedicate time from 7:00 to 9:00 pm experimenting with new art tools and techniques",
+    "spend some leisure time browsing online galleries or watching animation tutorials from 9:00 to 10:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine. This includes getting dressed, preparing breakfast, and doing some light stretching and meditation to start the day (waking up and turning off her alarm)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine. This includes getting dressed, preparing breakfast, and doing some light stretching and meditation to start the day (getting out of bed)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine. This includes getting dressed, preparing breakfast, and doing some light stretching and meditation to start the day (going to the bathroom to brush her teeth and wash her face)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine. This includes getting dressed, preparing breakfast, and doing some light stretching and meditation to start the day (choosing an outfit for the day)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine. This includes getting dressed, preparing breakfast, and doing some light stretching and meditation to start the day (getting dressed)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine. This includes getting dressed, preparing breakfast, and doing some light stretching and meditation to start the day (preparing breakfast ingredients)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine. This includes getting dressed, preparing breakfast, and doing some light stretching and meditation to start the day (on the way to cooking her breakfast)",
+      0
+    ],
+    [
+      "waking up and completing her morning routine. This includes getting dressed, preparing breakfast, and doing some light stretching and meditation to start the day (conversing about Abigail Chen and Francisco Lopez discussing preparations for today's shoot and confirming that no immediate updates are needed for the animation project.)",
+      3
+    ],
+    [
+      "waking up and completing her morning routine. This includes getting dressed, preparing breakfast, and doing some light stretching and meditation to start the day (finishing cooking her breakfast)",
+      12
+    ],
+    [
+      "working on her animation project for a client. She starts by reviewing the feedback she received over the weekend and making necessary adjustments to the current scene (reviewing the client's feedback on the previous work)",
+      15
+    ],
+    [
+      "working on her animation project for a client. She starts by reviewing the feedback she received over the weekend and making necessary adjustments to the current scene (on the way to making notes of necessary adjustments based on the feedback)",
+      0
+    ],
+    [
+      "working on her animation project for a client. She starts by reviewing the feedback she received over the weekend and making necessary adjustments to the current scene (conversing about Abigail Chen and Adam Smith discussing potential collaboration between animation and conflict resolution techniques through humor, with plans to meet with Francisco Lopez on Wednesday at 3 PM.)",
+      12
+    ],
+    [
+      "working on her animation project for a client. She starts by reviewing the feedback she received over the weekend and making necessary adjustments to the current scene (opening her animation software and loading the current scene)",
+      8
+    ],
+    [
+      "working on her animation project for a client. She starts by reviewing the feedback she received over the weekend and making necessary adjustments to the current scene (adjusting the lighting and camera angles according to client's preferences)",
+      10
+    ],
+    [
+      "working on her animation project for a client. She starts by reviewing the feedback she received over the weekend and making necessary adjustments to the current scene (refining character movements based on feedback)",
+      15
+    ],
+    [
+      "working on her animation project for a client, focusing on character design and movement. She uses this time to refine the details based on feedback received earlier in the morning (adding or modifying elements as per the client\u2019s suggestions)",
+      5
+    ],
+    [
+      "working on her animation project for a client, focusing on character design and movement. She uses this time to refine the details based on feedback received earlier in the morning (reviewing the feedback she received over the weekend)",
+      5
+    ],
+    [
+      "working on her animation project for a client, focusing on character design and movement. She uses this time to refine the details based on feedback received earlier in the morning (opening her animation software and loading the current scene)",
+      10
+    ],
+    [
+      "working on her animation project for a client, focusing on character design and movement. She uses this time to refine the details based on feedback received earlier in the morning (adjusting the character's movements based on client feedback)",
+      10
+    ],
+    [
+      "working on her animation project for a client, focusing on character design and movement. She uses this time to refine the details based on feedback received earlier in the morning (refining the character's facial expressions to better convey emotions)",
+      10
+    ],
+    [
+      "working on her animation project for a client, focusing on character design and movement. She uses this time to refine the details based on feedback received earlier in the morning (tweaking the lighting and shadows around the character for a more realistic effect)",
+      10
+    ],
+    [
+      "working on her animation project for a client, focusing on character design and movement. She uses this time to refine the details based on feedback received earlier in the morning (adding subtle animations to enhance the character's personality)",
+      5
+    ],
+    [
+      "working on her animation project for a client, focusing on character design and movement. She uses this time to refine the details based on feedback received earlier in the morning (reviewing her work and making final adjustments)",
+      5
+    ],
+    [
+      "working on her animation project for a client, focusing on adding more depth and detail to the background of the scene (reviewing previous work on the background)",
+      5
+    ],
+    [
+      "working on her animation project for a client, focusing on adding more depth and detail to the background of the scene (researching new techniques for adding depth to backgrounds)",
+      10
+    ],
+    [
+      "working on her animation project for a client, focusing on adding more depth and detail to the background of the scene (sketching initial ideas for enhancing the background's detail)",
+      10
+    ],
+    [
+      "working on her animation project for a client, focusing on adding more depth and detail to the background of the scene (on the way to selecting colors and textures that complement the scene)",
+      0
+    ],
+    [
+      "working on her animation project for a client, focusing on adding more depth and detail to the background of the scene (conversing about exploring techniques and ideas for integrating poetry and animation, including humor and improv elements, with a view towards potential collaboration between Carlos Gomez and Abigail Chen.)",
+      14
+    ],
+    [
+      "working on her animation project for a client, focusing on adding more depth and detail to the background of the scene (on the way to selecting colors and textures that complement the scene)",
+      0
+    ],
+    [
+      "working on her animation project for a client, focusing on adding more depth and detail to the background of the scene (conversing about Ayesha Khan and Abigail Chen discussing how to incorporate poetry, music, and animation to explore philosophical ideas and emotional resonance in their respective projects, potentially collaborating on a joint presentation.)",
+      17
+    ],
+    [
+      "working on her animation project for a client, focusing on adding more depth and detail to the background of the scene (on the way to selecting colors and textures that complement the scene)",
+      0
+    ],
+    [
+      "working on her animation project for a client, focusing on adding more depth and detail to the background of the scene (conversing about Abigail Chen and Wolfgang Schulz discussing their respective projects, including Abigail's collaboration with Ayesha on an animation project that integrates poetry and music, and planning a meeting to brainstorm ideas together.)",
+      11
+    ],
+    [
+      "taking a short break for lunch. She enjoys a nutritious meal while listening to music and planning her afternoon tasks (preparing her lunch, including assembling ingredients and cooking or reheating food)",
+      8
+    ],
+    [
+      "taking a short break for lunch. She enjoys a nutritious meal while listening to music and planning her afternoon tasks (on the way to eating her meal slowly, savoring each bite)",
+      0
+    ],
+    [
+      "taking a short break for lunch. She enjoys a nutritious meal while listening to music and planning her afternoon tasks (conversing about Adam Smith and Abigail Chen discussing their animation project, specifically how to integrate humor and improv techniques into conflict resolution scenes, and planning a meeting on Thursday at 3 PM to work on this idea.)",
+      12
+    ],
+    [
+      "taking a short break for lunch. She enjoys a nutritious meal while listening to music and planning her afternoon tasks (on the way to drinking water to stay hydrated and aid digestion, then continuing to plan the rest of her day)",
+      0
+    ],
+    [
+      "taking a short break for lunch. She enjoys a nutritious meal while listening to music and planning her afternoon tasks (conversing about Abigail Chen, Francisco Lopez, and Adam Smith discussing how to integrate humor into conflict resolution scenes in Abigail's animation project and Adam\u2019s book by using improvisational comedy elements from Francisco's web series.)",
+      18
+    ],
+    [
+      "working on her animation project for a client, focusing on integrating sound effects and music into the scene to enhance the overall experience. She collaborates with a sound designer via video call to ensure synchronization between visual and audio elements (setting up a video call with the sound designer to discuss integration points)",
+      12
+    ],
+    [
+      "working on her animation project for a client, focusing on integrating sound effects and music into the scene to enhance the overall experience. She collaborates with a sound designer via video call to ensure synchronization between visual and audio elements (on the way to discussing initial ideas for sound effects and music synchronization)",
+      0
+    ],
+    [
+      "working on her animation project for a client, focusing on integrating sound effects and music into the scene to enhance the overall experience. She collaborates with a sound designer via video call to ensure synchronization between visual and audio elements (conversing about Giorgio Rossi and Abigail Chen discussing potential collaboration on integrating mathematical analysis, social media analytics, and improv comedy techniques into civic engagement initiatives.)",
+      20
+    ],
+    [
+      "working on her animation project for a client, focusing on integrating sound effects and music into the scene to enhance the overall experience. She collaborates with a sound designer via video call to ensure synchronization between visual and audio elements (integrating preliminary sound effects into the animation scene based on feedback from the call)",
+      15
+    ],
+    [
+      "working on her animation project for a client, focusing on integrating sound effects and music into the scene to enhance the overall experience. She collaborates with a sound designer via video call to ensure synchronization between visual and audio elements (on the way to testing the synchronization between visual and audio elements to ensure seamless integration)",
+      0
+    ],
+    [
+      "working on her animation project for a client, focusing on integrating sound effects and music into the scene to enhance the overall experience. She collaborates with a sound designer via video call to ensure synchronization between visual and audio elements (conversing about Eddy Lin and Abigail Chen discussing their plans to collaborate on integrating musical ideas with visual storytelling in animation, including setting up a meeting at Hobbs Cafe to brainstorm further.)",
+      9
+    ],
+    [
+      "reviewing and refining her work for the day, ensuring all tasks are completed according to deadlines and quality standards. She also prepares a brief summary of progress made and any issues encountered during the day's work (on the way to finalizing the integration of sound effects and music into the animation scene)",
+      0
+    ],
+    [
+      "reviewing and refining her work for the day, ensuring all tasks are completed according to deadlines and quality standards. She also prepares a brief summary of progress made and any issues encountered during the day's work (conversing about Isabella and Abigail discussing plans to integrate interactive sound and visual elements into Isabella's Valentine's Day party, including chemistry-themed cocktails and educational animations.)",
+      16
+    ],
+    [
+      "reviewing and refining her work for the day, ensuring all tasks are completed according to deadlines and quality standards. She also prepares a brief summary of progress made and any issues encountered during the day's work (finalizing the integration of sound effects and music into the animation scene)",
+      10
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (reviewing client feedback notes)",
+      15
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (opening the animation software and loading the project file)",
+      5
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (adjusting character movements based on feedback)",
+      20
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (refining dialogue animations to match lip sync with audio)",
+      15
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (checking for consistency in character expressions and body language)",
+      10
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (adding subtle gestures to enhance the characters' emotional delivery)",
+      20
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (testing animations with sound effects to ensure synchronization)",
+      15
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (on the way to making adjustments based on playback tests)",
+      0
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (waiting to start testing animations with sound effects to ensure synchronization)",
+      27
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (fine-tuning transitions between scenes to maintain flow)",
+      18
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (on the way to adding background elements to complement character interactions)",
+      0
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (conversing about Latoya Williams and Abigail Chen discussing potential collaboration on visual elements, including animations and travel photography, for Sam's mayoral campaign through interactive events and multimedia pieces, while also planning a brainstorming session with Francisco and Rajiv to enhance community engagement.)",
+      19
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (on the way to adding background elements to complement character interactions)",
+      0
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (conversing about Abigail Chen and Francisco Lopez discussing how to integrate multimedia elements including Rajiv\u2019s solo show, Latoya\u2019s travel photography, Abigail's animations, and Francisco's web series into Sam's mayoral campaign.)",
+      13
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (adding background elements to complement character interactions)",
+      8
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (integrating additional sound effects for ambiance and mood)",
+      20
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (reviewing the entire sequence for coherence and impact)",
+      5
+    ],
+    [
+      "taking a short break to stretch and hydrate",
+      10
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (making final tweaks to ensure quality standards are met)",
+      20
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (packaging and uploading the revised animation file for review)",
+      5
+    ],
+    [
+      "taking a short break before continuing work on her animation project. She reviews her progress and plans the next steps for refining character interactions",
+      60
+    ],
+    [
+      "experimenting with new art tools and techniques, exploring how emerging technologies can enhance her interactive artwork. She tests out virtual reality software to see if it could be a viable platform for future projects",
+      60
+    ],
+    [
+      "Abigail is browsing through online art galleries and watching animation tutorials to stay inspired and learn new techniques. She spends this time absorbing creative ideas that can be applied to her current project or future endeavors",
+      60
+    ],
+    [
+      "browsing through online art galleries and watching animation tutorials to stay inspired and learn new techniques. She spends this time absorbing creative ideas that can be applied to her current project or future endeavors",
+      60
+    ],
+    [
+      "spending her leisure time browsing through online art galleries and watching animation tutorials. She spends this time absorbing creative ideas that can be applied to her current project or future endeavors",
+      60
+    ],
+    [
+      "preparing for bed. She reviews her accomplishments for the day, sets goals for tomorrow, and practices relaxation techniques before going to sleep at midnight",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -7
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -15
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      10
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine. This includes getting dressed, preparing breakfast, and doing some light stretching and meditation to start the day",
+      60
+    ],
+    [
+      "working on her animation project for a client. She starts by reviewing the feedback she received over the weekend and making necessary adjustments to the current scene",
+      60
+    ],
+    [
+      "working on her animation project for a client, focusing on character design and movement. She uses this time to refine the details based on feedback received earlier in the morning",
+      60
+    ],
+    [
+      "working on her animation project for a client, focusing on adding more depth and detail to the background of the scene",
+      60
+    ],
+    [
+      "taking a short break for lunch. She enjoys a nutritious meal while listening to music and planning her afternoon tasks",
+      60
+    ],
+    [
+      "working on her animation project for a client, focusing on integrating sound effects and music into the scene to enhance the overall experience. She collaborates with a sound designer via video call to ensure synchronization between visual and audio elements",
+      60
+    ],
+    [
+      "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive",
+      240
+    ],
+    [
+      "taking a short break before continuing work on her animation project. She reviews her progress and plans the next steps for refining character interactions",
+      60
+    ],
+    [
+      "experimenting with new art tools and techniques, exploring how emerging technologies can enhance her interactive artwork. She tests out virtual reality software to see if it could be a viable platform for future projects",
+      60
+    ],
+    [
+      "Abigail is browsing through online art galleries and watching animation tutorials to stay inspired and learn new techniques. She spends this time absorbing creative ideas that can be applied to her current project or future endeavors",
+      60
+    ],
+    [
+      "browsing through online art galleries and watching animation tutorials to stay inspired and learn new techniques. She spends this time absorbing creative ideas that can be applied to her current project or future endeavors",
+      60
+    ],
+    [
+      "spending her leisure time browsing through online art galleries and watching animation tutorials. She spends this time absorbing creative ideas that can be applied to her current project or future endeavors",
+      60
+    ],
+    [
+      "preparing for bed. She reviews her accomplishments for the day, sets goals for tomorrow, and practices relaxation techniques before going to sleep at midnight",
+      60
+    ]
+  ],
+  "act_address": "<persona> Francisco Lopez",
+  "act_start_time": "February 13, 2023, 16:43:10",
+  "act_duration": 13,
+  "act_description": "conversing about Abigail Chen and Francisco Lopez discussing how to integrate multimedia elements including Rajiv\u2019s solo show, Latoya\u2019s travel photography, Abigail's animations, and Francisco's web series into Sam's mayoral campaign.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Abigail Chen",
+    "chat with",
+    "Francisco Lopez"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Francisco Lopez",
+  "chat": [
+    [
+      "Abigail Chen",
+      "Hey Francisco, I heard you're working on integrating Rajiv's solo show and Latoya\u2019s travel photography into your web series. That sounds like a really exciting project! Could we maybe discuss incorporating some multimedia pieces for Sam's mayoral campaign as well?"
+    ],
+    [
+      "Francisco Lopez",
+      "Definitely, Abigail! I think combining Rajiv\u2019s show, Latoya\u2019s photos, and your animations could create something really unique for Sam's campaign. Let's brainstorm more ideas over coffee sometime this week?"
+    ],
+    [
+      "Abigail Chen",
+      "That sounds great, Francisco. How about we meet tomorrow afternoon at Hobbs Cafe? I can bring some of my recent animation samples to show you how they could fit into Sam\u2019s campaign."
+    ],
+    [
+      "Francisco Lopez",
+      "Sounds good, Abigail. I'll be there around 3 PM. Looking forward to seeing your work and brainstorming some cool ideas for Sam\u2019s campaign."
+    ],
+    [
+      "Abigail Chen",
+      "Perfect, Francisco. Let\u2019s make sure to also touch base with Rajiv and Latoya beforehand so we can all be on the same page for our collaborative efforts."
+    ],
+    [
+      "Francisco Lopez",
+      "Sounds like a plan, Abigail. Let\u2019s coordinate with Rajiv and Latoya to sync our schedules for maximum impact on Sam\u2019s campaign."
+    ],
+    [
+      "Abigail Chen",
+      "Absolutely, Francisco. I'll send out an email to Rajiv and Latoya right away to set up a time for our brainstorming session. Can't wait to see what we come up with!"
+    ],
+    [
+      "Francisco Lopez",
+      "Great, thanks Abigail. Let\u2019s all make sure to share our ideas and get creative with how we can blend Rajiv\u2019s solo show, Latoya\u2019s travel photography, your animations, and my web series in a way that resonates with Sam's campaign message."
+    ],
+    [
+      "Abigail Chen",
+      "Sounds fantastic, Francisco. I'll also mention Hobbs Cafe as our meeting spot for everyone and we can finalize details there."
+    ],
+    [
+      "Francisco Lopez",
+      "Sounds like a plan, Abigail. Let\u2019s all aim to bring our best ideas and see how we can creatively blend these different elements together for Sam\u2019s campaign. See you tomorrow at Hobbs Cafe!"
+    ],
+    [
+      "Abigail Chen",
+      "Awesome, Francisco. It'll be great to see everyone come together and I'm excited about our potential impact on Sam\u2019s campaign. See you tomorrow!"
+    ],
+    [
+      "Francisco Lopez",
+      "Sounds good, Abigail. I'll see you and everyone else at Hobbs Cafe tomorrow then. Let's make this a productive session!"
+    ],
+    [
+      "Abigail Chen",
+      "That sounds perfect, Francisco. I'll make sure to bring some mock-ups of interactive multimedia pieces we can use during our brainstorming session as well."
+    ],
+    [
+      "Francisco Lopez",
+      "Awesome, Abigail. Can't wait to see those mock-ups and brainstorm some innovative ways to enhance Sam\u2019s campaign through our collaborative efforts."
+    ],
+    [
+      "Abigail Chen",
+      "Fantastic, Francisco. I'll also prepare some initial thoughts on integrating humor into conflict resolution scenes for our session, inspired by your web series' comedy elements."
+    ],
+    [
+      "Francisco Lopez",
+      "Sounds great, Abigail! Your initial thoughts on integrating humor into conflict resolution scenes will be really valuable. Let\u2019s make sure to also discuss how we can leverage improvisational comedy techniques from my web series to enhance the campaign's messaging and engagement."
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Francisco Lopez": 800,
+    "Adam Smith": -786,
+    "Carlos Gomez": -1068,
+    "Ayesha Khan": -960,
+    "Wolfgang Schulz": -888,
+    "Giorgio Rossi": -492,
+    "Eddy Lin": -312,
+    "Isabella Rodriguez": -204,
+    "Latoya Williams": 738
+  },
+  "chatting_end_time": "February 13, 2023, 16:56:00",
+  "act_path_set": true,
+  "planned_path": []
+}

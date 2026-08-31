@@ -1,0 +1,908 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        16,
+        20
+      ],
+      "pronunciatio": "\ud83d\uddc2\ufe0f\ud83d\udcbb",
+      "description": "working on her photography projects in the artists' co-living space (organizing her workspace) @ the Ville:artist's co-living space:Latoya Williams's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 51.8,
+          "hunger": 52.7,
+          "fun": 100.0,
+          "hygiene": 80.8,
+          "bladder": 0.0,
+          "social": 98.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Rajiv Patel": {
+      "movement": [
+        26,
+        22
+      ],
+      "pronunciatio": "\ud83e\uddf9\ud83d\uddbc",
+      "description": "preparing for his solo show by organizing his artwork and arranging the display setup at the co-living space (cleaning and framing selected artworks) @ the Ville:artist's co-living space:Rajiv Patel's room:easel",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 66.8,
+          "hunger": 96.2,
+          "fun": 100.0,
+          "hygiene": 45.2,
+          "bladder": 0.0,
+          "social": 72.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        26
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start testing animations with sound effects to ensure synchronization @ <waiting> 36 26",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 61.8,
+          "hunger": 57.0,
+          "fun": 100.0,
+          "hygiene": 45.2,
+          "bladder": 0.0,
+          "social": 89.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Francisco Lopez": {
+      "movement": [
+        115,
+        23
+      ],
+      "pronunciatio": "\u2705\ud83d\udee0",
+      "description": "Francisco is attending the emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 2:00 pm (finalizing decisions on which technical fixes to implement immediately) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 56.8,
+          "hunger": 100.0,
+          "fun": 77.4,
+          "hygiene": 53.8,
+          "bladder": 0.0,
+          "social": 96.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udcda",
+      "description": "Hailey is working on her novel, conducting research and brainstorming new ideas (brainstorming new plot ideas for the novel) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.8,
+          "hunger": 97.7,
+          "fun": 75.3,
+          "hygiene": 45.2,
+          "bladder": 0.0,
+          "social": 88.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Arthur Burton": {
+      "movement": [
+        58,
+        20
+      ],
+      "pronunciatio": "\ud83e\uddf9\ud83d\udebb",
+      "description": "Arthur is finishing up his preparations for the evening by ensuring all cocktail ingredients are fresh and ready to be used. He also spends some time cleaning behind the bar and arranging any last-minute details before opening at 5:00 pm (cleaning behind the bar to ensure everything is spotless) @ the Ville:The Rose and Crown Pub:pub:behind the bar counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 56.8,
+          "hunger": 84.2,
+          "fun": 30.7,
+          "hygiene": 45.2,
+          "bladder": 0.0,
+          "social": 55.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ryan Park": {
+      "movement": [
+        54,
+        17
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcbb",
+      "description": "researching new tech trends and taking notes (reviewing recent technology blogs) @ the Ville:Arthur Burton's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 66.8,
+          "hunger": 93.6,
+          "fun": 98.7,
+          "hygiene": 45.2,
+          "bladder": 0.0,
+          "social": 60.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about planning and integrating elements from Francisco Lopez\u2019s web series and Rajiv\u2019s solo show into Valentine's Day party activities at Hobbs Cafe, including screenings, live performances, interactive art stations, and background music, with Isabella Rodriguez and Jennifer Moore coordinating the details. @ <persona> Jennifer Moore",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Jennifer, I was just setting up for the Valentine's Day party and wanted to run some ideas by you. Plus, I hope mentoring is going well!"
+        ],
+        [
+          "Jennifer Moore",
+          "Hi Isabella, mentoring is going well. I just wanted to say that your setup looks fantastic. What specific ideas do you have for integrating elements from Francisco Lopez\u2019s web series and Rajiv\u2019s solo show into the party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Jennifer. I was thinking maybe we could have a small screening space where we play clips from Francisco\u2019s web series during breaks in the party. It would be great to also invite Rajiv for a live performance or a Q&A session related to his solo show themes that resonate with Valentine's Day and community spirit."
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds wonderful, Isabella. We could also set up interactive stations where guests can create art inspired by Rajiv\u2019s themes and Francisco\u2019s web series. It would be a fantastic way to engage everyone in the spirit of creativity and community on Valentine's Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I love that idea, Jennifer! We can also provide materials and guides for those interactive stations so everyone feels welcome to participate regardless of their artistic experience. Let\u2019s make sure to include heart-shaped canvases and romantic motifs inspired by Rajiv\u2019s work. That way, guests can create something personal while enjoying the festivities."
+        ],
+        [
+          "Jennifer Moore",
+          "Absolutely, Isabella. Those details will make it truly special and memorable for everyone involved. We can also play background music that complements Rajiv\u2019s and Francisco\u2019s creative themes to enhance the ambiance. Let\u2019s discuss this further at our next meeting and finalize the plans."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds amazing, Jennifer. I think it\u2019s also important to ensure we have enough volunteers or staff members who are familiar with both Rajiv and Francisco\u2019s work to guide guests at the interactive stations. They could share insights and inspire creativity during their time there. Plus, if you need any help coordinating or organizing these elements for the party, just let me know."
+        ],
+        [
+          "Jennifer Moore",
+          "That\u2019s a great point, Isabella. Having knowledgeable volunteers at the stations will really enhance the experience for everyone. And you\u2019re right; I could use some help with organizing these elements ahead of time to ensure everything runs smoothly on Valentine's Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I can definitely help you out with that, Jennifer. Let\u2019s set up a meeting this week to go over everything in detail and make sure we have all the materials ready. We don\u2019t want anything to fall through the cracks on such an important day."
+        ],
+        [
+          "Jennifer Moore",
+          "That\u2019s fantastic, Isabella. Let\u2019s schedule that meeting for later this week and start planning in detail. I think this collaboration will be a beautiful addition to Valentine\u2019s Day at Hobbs Cafe."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works for me, Jennifer. How about we aim to meet on Wednesday afternoon around 2pm? This way, we can cover all aspects of the event planning and ensure everything is set up properly before Valentine's Day."
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds like a great plan, Isabella. Let's meet on Wednesday at 2pm to finalize all the details and make sure everything is ready for Valentine\u2019s Day. I\u2019m excited about how this will come together!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Jennifer. I'll send out an email with all the details and reminders for our meeting on Wednesday at 2pm. Looking forward to working together to make this Valentine\u2019s Day celebration a success!"
+        ],
+        [
+          "Jennifer Moore",
+          "Sounds great, Isabella. Let\u2019s make this Valentine\u2019s Day celebration both memorable and meaningful for everyone involved."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works for me, Jennifer. I'll make sure to have all the necessary details ready for our meeting on Wednesday."
+        ],
+        [
+          "Jennifer Moore",
+          "Looking forward to our meeting on Wednesday, Isabella. Let\u2019s ensure every detail is perfect for a wonderful Valentine\u2019s Day celebration."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 51.8,
+          "hunger": 85.6,
+          "fun": 100.0,
+          "hygiene": 53.8,
+          "bladder": 0.0,
+          "social": 97.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        87,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcda",
+      "description": "taking a short break and reading up on new theories for math classes (taking notes on recent mathematical developments) @ the Ville:Giorgio Rossi's apartment:main room:blackboard",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 56.8,
+          "hunger": 83.8,
+          "fun": 44.7,
+          "hygiene": 78.3,
+          "bladder": 0.0,
+          "social": 80.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Carlos Gomez": {
+      "movement": [
+        119,
+        29
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start organizing his notebook and materials for the upcoming workshop @ <waiting> 119 29",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 56.8,
+          "hunger": 98.1,
+          "fun": 98.7,
+          "hygiene": 53.8,
+          "bladder": 0.0,
+          "social": 27.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Wolfgang Schulz discussing Klaus's research progress, dinner plans, and ideas for their Valentine's Day party and chemistry-related activities at Hobbs Cafe. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Wolfgang Schulz",
+          "Hey Klaus, how's your research coming along? I heard you're working on the introduction of your paper. Need any help reviewing materials?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Wolfgang, thanks for asking! I'm trying to lay out some key points and structure. It would be great if you could take a look at my outline when you're free. Maybe we can discuss it over dinner tonight?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds good, Klaus. Let\u2019s meet at our usual spot around 7 then?"
+        ],
+        [
+          "Klaus Mueller",
+          "Perfect, see you at 7 then. I'll bring some ideas for our Valentine's Day party theme too."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds like a plan, Klaus. Looking forward to it."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, I'll see you later. Oh, and don't forget to bring any ideas you have for our chemistry-related activities at Hobbs Cafe."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Will do, Klaus. I'll brainstorm some fun ideas for Hobbs Cafe too. Catch you at 7."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds great, Wolfgang. Catch you later then."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 56.8,
+          "hunger": 86.8,
+          "fun": 54.5,
+          "hygiene": 77.1,
+          "bladder": 0.0,
+          "social": 70.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        125,
+        54
+      ],
+      "pronunciatio": "\ud83c\udfae\ud83d\udcac",
+      "description": "streaming games on Twitch (continues streaming a game for 30 minutes while answering questions from viewers) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.8,
+          "hunger": 36.2,
+          "fun": 100.0,
+          "hygiene": 53.8,
+          "bladder": 0.0,
+          "social": 46.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ayesha Khan": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcda",
+      "description": "studying and researching in the library (reading a chapter from a critical analysis book) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 51.8,
+          "hunger": 85.7,
+          "fun": 91.5,
+          "hygiene": 53.8,
+          "bladder": 0.0,
+          "social": 70.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Wolfgang Schulz discussing Klaus's research progress, dinner plans, and ideas for their Valentine's Day party and chemistry-related activities at Hobbs Cafe. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Wolfgang Schulz",
+          "Hey Klaus, how's your research coming along? I heard you're working on the introduction of your paper. Need any help reviewing materials?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Wolfgang, thanks for asking! I'm trying to lay out some key points and structure. It would be great if you could take a look at my outline when you're free. Maybe we can discuss it over dinner tonight?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds good, Klaus. Let\u2019s meet at our usual spot around 7 then?"
+        ],
+        [
+          "Klaus Mueller",
+          "Perfect, see you at 7 then. I'll bring some ideas for our Valentine's Day party theme too."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds like a plan, Klaus. Looking forward to it."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, I'll see you later. Oh, and don't forget to bring any ideas you have for our chemistry-related activities at Hobbs Cafe."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Will do, Klaus. I'll brainstorm some fun ideas for Hobbs Cafe too. Catch you at 7."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds great, Wolfgang. Catch you later then."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 46.8,
+          "hunger": 96.5,
+          "fun": 75.8,
+          "hygiene": 77.3,
+          "bladder": 0.0,
+          "social": 55.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Mei Lin": {
+      "movement": [
+        88,
+        73
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Mei is returning home from Oak Hill College and resting before helping her children with their homework (making a cup of tea or coffee for herself) @ the Ville:Lin family's house:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 56.8,
+          "hunger": 96.8,
+          "fun": 63.5,
+          "hygiene": 76.0,
+          "bladder": 43.0,
+          "social": 37.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        79,
+        46
+      ],
+      "pronunciatio": "\ud83d\udce6\ud83d\udc8a",
+      "description": "John leaves the pharmacy after completing all necessary end-of-day procedures. (organizing inventory and restocking shelves with new medications) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 57.9,
+          "hunger": 78.0,
+          "fun": 53.4,
+          "hygiene": 76.8,
+          "bladder": 0.0,
+          "social": 54.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        97,
+        73
+      ],
+      "pronunciatio": "\ud83d\ude8c\ud83c\udfe0",
+      "description": "Eddy is heading back home from Hobbs Cafe to continue working on his composition project (riding the bus home) @ the Ville:Lin family's house:Eddy Lin's bedroom:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 60.0,
+          "hunger": 90.9,
+          "fun": 95.9,
+          "hygiene": 83.3,
+          "bladder": 0.0,
+          "social": 57.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Tom Moreno": {
+      "movement": [
+        88,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcb8\ud83d\uded2",
+      "description": "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (ringing up purchases again at the cash register) @ the Ville:The Willows Market and Pharmacy:store:grocery store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 56.8,
+          "hunger": 49.7,
+          "fun": 12.4,
+          "hygiene": 53.8,
+          "bladder": 3.5,
+          "social": 61.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Jane Moreno": {
+      "movement": [
+        33,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Jane Moreno and Tamara Taylor discussing plans for an upcoming town hall meeting focused on community issues such as healthcare policies and medication accessibility, with both agreeing to spread awareness and encourage participation. @ <persona> Tamara Taylor",
+      "chat": [
+        [
+          "Tamara Taylor",
+          "Hi Jane, I didn't expect to see you here taking such lovely photos. The flowers look beautiful today!"
+        ],
+        [
+          "Jane Moreno",
+          "Hello Tamara! It's nice to run into you. I was just enjoying the scenery and wanted to capture some of these flowers in photos for our community newsletter."
+        ],
+        [
+          "Tamara Taylor",
+          "That sounds like a wonderful idea, Jane. Your photos always turn out so well, they brighten up everyone's day."
+        ],
+        [
+          "Jane Moreno",
+          "Thank you, Tamara. I'm glad people enjoy them. By the way, have you heard about the upcoming town hall meeting we're planning to discuss some important community issues like healthcare policies and medication accessibility?"
+        ],
+        [
+          "Tamara Taylor",
+          "That sounds like an important meeting, Jane. I'll definitely try to attend and support our community discussions."
+        ],
+        [
+          "Jane Moreno",
+          "I'm glad to hear that, Tamara. We're really hoping for a good turnout and your insight would be valuable. Could you also perhaps spread the word among friends or on social media?"
+        ],
+        [
+          "Tamara Taylor",
+          "Sure, Jane. I'd be happy to help spread the word and encourage more people to attend. It's crucial we have these discussions as a community."
+        ],
+        [
+          "Jane Moreno",
+          "That's wonderful, Tamara. If you have any questions or need more information about the meeting, feel free to ask. We want everyone to be well-informed and engaged."
+        ],
+        [
+          "Tamara Taylor",
+          "Thanks, Jane. I'll definitely share details about the meeting on my social media and mention it to friends who might be interested in contributing to these discussions."
+        ],
+        [
+          "Jane Moreno",
+          "That's great, Tamara. If you could also mention it to people at your workplace or in any community groups you're part of, that would be really helpful. Thanks for your support."
+        ],
+        [
+          "Tamara Taylor",
+          "I will definitely do that, Jane. I'll post about it on my social media and share details in our community groups too."
+        ],
+        [
+          "Jane Moreno",
+          "Thank you so much, Tamara. Your support means a lot to our community efforts. If there's anything else we can do together or if you need any materials like flyers for promotion, just let me know."
+        ],
+        [
+          "Tamara Taylor",
+          "Thanks for all your help, Jane. I think collaborating on this will definitely make a difference in our community. Let\u2019s keep in touch and see how we can support each other more."
+        ],
+        [
+          "Jane Moreno",
+          "That sounds like a great plan, Tamara. I'm looking forward to seeing what we can achieve together. If you need any specific information or materials ahead of time, just give me a call or send an email."
+        ],
+        [
+          "Tamara Taylor",
+          "That sounds great, Jane. I'll be sure to reach out if I need any assistance or more information to help promote the meeting."
+        ],
+        [
+          "Jane Moreno",
+          "Thanks, Tamara. Your help is really appreciated and will make a big difference. Let\u2019s both do our best to get more people involved."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 51.8,
+          "hunger": 83.7,
+          "fun": 18.3,
+          "hygiene": 53.8,
+          "bladder": 0.0,
+          "social": 32.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Tamara Taylor": {
+      "movement": [
+        34,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Jane Moreno and Tamara Taylor discussing plans for an upcoming town hall meeting focused on community issues such as healthcare policies and medication accessibility, with both agreeing to spread awareness and encourage participation. @ <persona> Jane Moreno",
+      "chat": [
+        [
+          "Tamara Taylor",
+          "Hi Jane, I didn't expect to see you here taking such lovely photos. The flowers look beautiful today!"
+        ],
+        [
+          "Jane Moreno",
+          "Hello Tamara! It's nice to run into you. I was just enjoying the scenery and wanted to capture some of these flowers in photos for our community newsletter."
+        ],
+        [
+          "Tamara Taylor",
+          "That sounds like a wonderful idea, Jane. Your photos always turn out so well, they brighten up everyone's day."
+        ],
+        [
+          "Jane Moreno",
+          "Thank you, Tamara. I'm glad people enjoy them. By the way, have you heard about the upcoming town hall meeting we're planning to discuss some important community issues like healthcare policies and medication accessibility?"
+        ],
+        [
+          "Tamara Taylor",
+          "That sounds like an important meeting, Jane. I'll definitely try to attend and support our community discussions."
+        ],
+        [
+          "Jane Moreno",
+          "I'm glad to hear that, Tamara. We're really hoping for a good turnout and your insight would be valuable. Could you also perhaps spread the word among friends or on social media?"
+        ],
+        [
+          "Tamara Taylor",
+          "Sure, Jane. I'd be happy to help spread the word and encourage more people to attend. It's crucial we have these discussions as a community."
+        ],
+        [
+          "Jane Moreno",
+          "That's wonderful, Tamara. If you have any questions or need more information about the meeting, feel free to ask. We want everyone to be well-informed and engaged."
+        ],
+        [
+          "Tamara Taylor",
+          "Thanks, Jane. I'll definitely share details about the meeting on my social media and mention it to friends who might be interested in contributing to these discussions."
+        ],
+        [
+          "Jane Moreno",
+          "That's great, Tamara. If you could also mention it to people at your workplace or in any community groups you're part of, that would be really helpful. Thanks for your support."
+        ],
+        [
+          "Tamara Taylor",
+          "I will definitely do that, Jane. I'll post about it on my social media and share details in our community groups too."
+        ],
+        [
+          "Jane Moreno",
+          "Thank you so much, Tamara. Your support means a lot to our community efforts. If there's anything else we can do together or if you need any materials like flyers for promotion, just let me know."
+        ],
+        [
+          "Tamara Taylor",
+          "Thanks for all your help, Jane. I think collaborating on this will definitely make a difference in our community. Let\u2019s keep in touch and see how we can support each other more."
+        ],
+        [
+          "Jane Moreno",
+          "That sounds like a great plan, Tamara. I'm looking forward to seeing what we can achieve together. If you need any specific information or materials ahead of time, just give me a call or send an email."
+        ],
+        [
+          "Tamara Taylor",
+          "That sounds great, Jane. I'll be sure to reach out if I need any assistance or more information to help promote the meeting."
+        ],
+        [
+          "Jane Moreno",
+          "Thanks, Tamara. Your help is really appreciated and will make a big difference. Let\u2019s both do our best to get more people involved."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 51.8,
+          "hunger": 90.2,
+          "fun": 32.3,
+          "hygiene": 45.2,
+          "bladder": 0.0,
+          "social": 22.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Carmen Ortiz": {
+      "movement": [
+        64,
+        48
+      ],
+      "pronunciatio": "\ud83d\udce6",
+      "description": "working at Harvey Oak Supply Store (organizing the backroom supplies) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 56.8,
+          "hunger": 40.6,
+          "fun": 26.9,
+          "hygiene": 59.0,
+          "bladder": 0.0,
+          "social": 42.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Sam Moore": {
+      "movement": [
+        37,
+        61
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udce2",
+      "description": "working on his mayoral campaign (drafting a press release for local news outlets) @ the Ville:Moore family's house:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 46.8,
+          "hunger": 73.1,
+          "fun": 87.0,
+          "hygiene": 70.2,
+          "bladder": 30.0,
+          "social": 81.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "focused"
+        }
+      }
+    },
+    "Jennifer Moore": {
+      "movement": [
+        74,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about planning and integrating elements from Francisco Lopez\u2019s web series and Rajiv\u2019s solo show into Valentine's Day party activities at Hobbs Cafe, including screenings, live performances, interactive art stations, and background music, with Isabella Rodriguez and Jennifer Moore coordinating the details. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Jennifer, I was just setting up for the Valentine's Day party and wanted to run some ideas by you. Plus, I hope mentoring is going well!"
+        ],
+        [
+          "Jennifer Moore",
+          "Hi Isabella, mentoring is going well. I just wanted to say that your setup looks fantastic. What specific ideas do you have for integrating elements from Francisco Lopez\u2019s web series and Rajiv\u2019s solo show into the party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Jennifer. I was thinking maybe we could have a small screening space where we play clips from Francisco\u2019s web series during breaks in the party. It would be great to also invite Rajiv for a live performance or a Q&A session related to his solo show themes that resonate with Valentine's Day and community spirit."
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds wonderful, Isabella. We could also set up interactive stations where guests can create art inspired by Rajiv\u2019s themes and Francisco\u2019s web series. It would be a fantastic way to engage everyone in the spirit of creativity and community on Valentine's Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I love that idea, Jennifer! We can also provide materials and guides for those interactive stations so everyone feels welcome to participate regardless of their artistic experience. Let\u2019s make sure to include heart-shaped canvases and romantic motifs inspired by Rajiv\u2019s work. That way, guests can create something personal while enjoying the festivities."
+        ],
+        [
+          "Jennifer Moore",
+          "Absolutely, Isabella. Those details will make it truly special and memorable for everyone involved. We can also play background music that complements Rajiv\u2019s and Francisco\u2019s creative themes to enhance the ambiance. Let\u2019s discuss this further at our next meeting and finalize the plans."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds amazing, Jennifer. I think it\u2019s also important to ensure we have enough volunteers or staff members who are familiar with both Rajiv and Francisco\u2019s work to guide guests at the interactive stations. They could share insights and inspire creativity during their time there. Plus, if you need any help coordinating or organizing these elements for the party, just let me know."
+        ],
+        [
+          "Jennifer Moore",
+          "That\u2019s a great point, Isabella. Having knowledgeable volunteers at the stations will really enhance the experience for everyone. And you\u2019re right; I could use some help with organizing these elements ahead of time to ensure everything runs smoothly on Valentine's Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I can definitely help you out with that, Jennifer. Let\u2019s set up a meeting this week to go over everything in detail and make sure we have all the materials ready. We don\u2019t want anything to fall through the cracks on such an important day."
+        ],
+        [
+          "Jennifer Moore",
+          "That\u2019s fantastic, Isabella. Let\u2019s schedule that meeting for later this week and start planning in detail. I think this collaboration will be a beautiful addition to Valentine\u2019s Day at Hobbs Cafe."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works for me, Jennifer. How about we aim to meet on Wednesday afternoon around 2pm? This way, we can cover all aspects of the event planning and ensure everything is set up properly before Valentine's Day."
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds like a great plan, Isabella. Let's meet on Wednesday at 2pm to finalize all the details and make sure everything is ready for Valentine\u2019s Day. I\u2019m excited about how this will come together!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Jennifer. I'll send out an email with all the details and reminders for our meeting on Wednesday at 2pm. Looking forward to working together to make this Valentine\u2019s Day celebration a success!"
+        ],
+        [
+          "Jennifer Moore",
+          "Sounds great, Isabella. Let\u2019s make this Valentine\u2019s Day celebration both memorable and meaningful for everyone involved."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works for me, Jennifer. I'll make sure to have all the necessary details ready for our meeting on Wednesday."
+        ],
+        [
+          "Jennifer Moore",
+          "Looking forward to our meeting on Wednesday, Isabella. Let\u2019s ensure every detail is perfect for a wonderful Valentine\u2019s Day celebration."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 46.8,
+          "hunger": 83.9,
+          "fun": 91.6,
+          "hygiene": 48.7,
+          "bladder": 0.0,
+          "social": 100.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Yuriko Yamamoto": {
+      "movement": [
+        31,
+        59
+      ],
+      "pronunciatio": "\ud83d\udd0d",
+      "description": "Yuriko is reviewing the progress of her tax compliance project and preparing for any follow-up tasks or meetings later in the day (checking for any missing documents or information) @ the Ville:Yuriko Yamamoto's house:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 56.8,
+          "hunger": 84.3,
+          "fun": 19.7,
+          "hygiene": 80.1,
+          "bladder": 0.0,
+          "social": 49.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Adam Smith": {
+      "movement": [
+        21,
+        65
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcda",
+      "description": "Adam is continuing to read and take notes on recent philosophy books and articles (reading another chapter from a different book) @ the Ville:Adam Smith's house:main room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 41.8,
+          "hunger": 88.8,
+          "fun": 100.0,
+          "hygiene": 45.2,
+          "bladder": 0.0,
+          "social": 86.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 15:38:20"
+  }
+}

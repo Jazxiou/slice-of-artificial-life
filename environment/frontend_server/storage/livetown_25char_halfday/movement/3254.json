@@ -1,0 +1,712 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        55,
+        30
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udce2",
+      "description": "showering and then beginning work on her photography projects (conversing about organizing a town hall meeting for the upcoming mayor election, discussing ways to involve and represent the community's diversity through visual campaigns and presentations.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.8,
+          "hunger": 42.8,
+          "fun": 73.2,
+          "hygiene": 99.8,
+          "bladder": 46.2,
+          "social": 58.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Rajiv Patel": {
+      "movement": [
+        26,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "waking up and completing his morning routine (waking up and stretching) @ the Ville:artist's co-living space:Rajiv Patel's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 99.8,
+          "hunger": 20.8,
+          "fun": 38.8,
+          "hygiene": 47.9,
+          "bladder": 11.7,
+          "social": 38.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        38,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Adam Smith discussing potential collaboration between animation and conflict resolution techniques through humor, with plans to meet with Francisco Lopez on Wednesday at 3 PM. @ <persona> Adam Smith",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hey Adam, I was just looking over some feedback for my animation project. How's your chapter coming along?"
+        ],
+        [
+          "Adam Smith",
+          "It\u2019s going well, thanks for asking. I\u2019ve been thinking about how improv comedy can be applied to real-life conflict resolution. Have you ever considered using humor in your work?"
+        ],
+        [
+          "Abigail Chen",
+          "That\u2019s an interesting thought! I do think incorporating humor can make animations more engaging. It might be a fun element to explore in my next project."
+        ],
+        [
+          "Adam Smith",
+          "I agree, Abigail. Humor can really enhance the emotional impact and memorability of a project. I'm actually collaborating with Francisco Lopez on applying improv techniques to conflict resolution for my book. You might find some inspiration in his web series about co-living spaces."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds like an intriguing project. I'll definitely check out Francisco's web series. Maybe we could even collaborate and add some humor to your book through animation!"
+        ],
+        [
+          "Adam Smith",
+          "That would be fantastic! Let\u2019s discuss this further and see how we can integrate animation into my book to highlight conflict resolution techniques. Maybe we can schedule a meeting at your convenience?"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds great, Adam. I'll reach out to Francisco and see if he has any ideas about incorporating humor into our collaboration. Let\u2019s set up a meeting this week to brainstorm some creative ways to blend animation with your book's message."
+        ],
+        [
+          "Adam Smith",
+          "That sounds like a wonderful plan, Abigail. I think Francisco will be excited about this collaboration as well. Let\u2019s aim for Wednesday afternoon when we all have more time to brainstorm together."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Adam. I'll make sure to touch base with Francisco and suggest we meet on Wednesday afternoon then. Looking forward to it!"
+        ],
+        [
+          "Adam Smith",
+          "That works for me, Abigail. It should be an insightful and creative session. I look forward to seeing how our ideas come together."
+        ],
+        [
+          "Abigail Chen",
+          "Great, let\u2019s aim for 3 PM on Wednesday then. I'll send out an email to both of you with the details."
+        ],
+        [
+          "Adam Smith",
+          "Sounds perfect, Abigail. I'll make sure to have some ideas ready for our meeting on Wednesday at 3 PM. It should be an exciting session."
+        ],
+        [
+          "Abigail Chen",
+          "Fantastic, Adam. I'll start preparing some initial sketches and ideas for our meeting too. Can't wait to see where this collaboration takes us!"
+        ],
+        [
+          "Adam Smith",
+          "It should be great to have Francisco and you on board, Abigail. Let\u2019s make sure we all come prepared to share our insights and sketches."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Adam. I'll start working on some initial concepts and let you know when they're ready to share."
+        ],
+        [
+          "Adam Smith",
+          "That sounds wonderful, Abigail. I'll also start thinking about some scenes in my book that could benefit from animation and humor. Looking forward to our meeting!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 94.8,
+          "hunger": 85.3,
+          "fun": 40.6,
+          "hygiene": 65.0,
+          "bladder": 46.2,
+          "social": 40.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Francisco Lopez": {
+      "movement": [
+        26,
+        26
+      ],
+      "pronunciatio": "\ud83d\udccd\ud83d\udeb6\u200d",
+      "description": "meeting with the web series production team to discuss progress and plan next steps (arriving at the meeting location) @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 89.8,
+          "hunger": 100.0,
+          "fun": 53.3,
+          "hygiene": 73.6,
+          "bladder": 29.0,
+          "social": 49.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 20.8,
+          "fun": 38.8,
+          "hygiene": 47.9,
+          "bladder": 11.7,
+          "social": 38.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Arthur Burton": {
+      "movement": [
+        55,
+        20
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Arthur is having breakfast and planning his day. He reviews the inventory to ensure he has everything needed for the evening's operations at The Rose and Crown Pub (finishing up stock checks of snacks and food items) @ the Ville:The Rose and Crown Pub:pub:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 89.8,
+          "hunger": 90.6,
+          "fun": 38.8,
+          "hygiene": 65.0,
+          "bladder": 11.7,
+          "social": 43.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ryan Park": {
+      "movement": [
+        65,
+        19
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "wake up and complete the morning routine (getting out of bed) @ the Ville:Ryan Park's apartment:main room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 99.8,
+          "hunger": 20.8,
+          "fun": 38.8,
+          "hygiene": 47.9,
+          "bladder": 11.7,
+          "social": 38.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "opening Hobbs Cafe for the day (arranging seating areas to accommodate customers comfortably, reviewing the day's schedule and tasks for herself) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.8,
+          "hunger": 100.0,
+          "fun": 55.3,
+          "hygiene": 73.6,
+          "bladder": 46.2,
+          "social": 48.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udd0d\ud83d\udcca",
+      "description": "working on his research project to explore mathematical patterns in nature (analyzing recent findings for patterns) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 89.8,
+          "hunger": 58.2,
+          "fun": 43.7,
+          "hygiene": 98.1,
+          "bladder": 46.2,
+          "social": 44.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Carlos Gomez": {
+      "movement": [
+        94,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udd04",
+      "description": "working on his poetry collection (reviewing previous poems for inspiration) @ the Ville:Carlos Gomez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 89.8,
+          "hunger": 99.8,
+          "fun": 54.5,
+          "hygiene": 73.6,
+          "bladder": 46.2,
+          "social": 38.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        108,
+        34
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "Klaus is working on his research paper in the library at Oak Hill College. He plans to spend several hours there before having lunch (reading and taking notes on academic articles related to gentrification effects) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 89.8,
+          "hunger": 89.3,
+          "fun": 39.5,
+          "hygiene": 96.9,
+          "bladder": 11.7,
+          "social": 42.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 20.8,
+          "fun": 38.8,
+          "hygiene": 47.9,
+          "bladder": 11.7,
+          "social": 38.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ayesha Khan": {
+      "movement": [
+        120,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "having breakfast (cleaning the kitchen counter and sink) (reviewing class materials from previous days) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.8,
+          "hunger": 100.0,
+          "fun": 38.8,
+          "hygiene": 73.6,
+          "bladder": 46.2,
+          "social": 43.7
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udca1",
+      "description": "studying chemistry and related subjects (solving practice problems related to the review session) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.8,
+          "hunger": 94.2,
+          "fun": 67.8,
+          "hygiene": 97.1,
+          "bladder": 46.2,
+          "social": 44.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Mei Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "preparing for her day and reviewing class materials before leaving for Oak Hill College at 9:30 am (reviewing her notes from the previous class) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 89.8,
+          "hunger": 53.8,
+          "fun": 38.8,
+          "hygiene": 95.8,
+          "bladder": 89.2,
+          "social": 48.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83d\udd12\ud83d\udca1",
+      "description": "arriving at the Willow Market and Pharmacy to open the pharmacy counter. He checks in with the market staff and begins setting up for the day's operations (arriving, unlocking the pharmacy counter area, turning on the lights and setting up the cash register) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 90.9,
+          "hunger": 89.0,
+          "fun": 66.7,
+          "hygiene": 96.6,
+          "bladder": 46.2,
+          "social": 54.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        95,
+        74
+      ],
+      "pronunciatio": "\ud83d\udcc5\ud83d\udcdd",
+      "description": "planning out his classes for the day @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 93.0,
+          "hunger": 74.7,
+          "fun": 46.6,
+          "hygiene": 73.6,
+          "bladder": 46.2,
+          "social": 48.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Tom Moreno": {
+      "movement": [
+        58,
+        30
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udce2",
+      "description": "opening The Willow Market and Pharmacy for business (conversing about organizing a town hall meeting for the upcoming mayor election, discussing ways to involve and represent the community's diversity through visual campaigns and presentations.) @ the Ville:The Willows Market and Pharmacy:store:grocery store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 89.8,
+          "hunger": 41.7,
+          "fun": 38.8,
+          "hygiene": 73.6,
+          "bladder": 46.2,
+          "social": 63.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Jane Moreno": {
+      "movement": [
+        75,
+        68
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "doing household chores like laundry and cleaning (hanging up clothes to dry outside if weather permits) @ the Ville:Moreno family's house:garden:house garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.8,
+          "hunger": 94.8,
+          "fun": 38.8,
+          "hygiene": 73.6,
+          "bladder": 46.2,
+          "social": 42.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Tamara Taylor": {
+      "movement": [
+        55,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd04",
+      "description": "working on drafting a new children's book chapter (editing and revising her draft) @ the Ville:Tamara Taylor and Carmen Ortiz's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.8,
+          "hunger": 82.0,
+          "fun": 43.7,
+          "hygiene": 65.0,
+          "bladder": 46.2,
+          "social": 43.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Carmen Ortiz": {
+      "movement": [
+        67,
+        46
+      ],
+      "pronunciatio": "\ud83e\uddfc\u2728",
+      "description": "opening Harvey Oak Supply Store (wiping down counters and shelves to ensure cleanliness) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 89.8,
+          "hunger": 42.8,
+          "fun": 38.8,
+          "hygiene": 78.8,
+          "bladder": 39.3,
+          "social": 43.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Sam Moore": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "sitting at Hobbs cafe reading and planning his mayoral campaign (reviewing his campaign materials) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.8,
+          "hunger": 76.9,
+          "fun": 100.0,
+          "hygiene": 90.0,
+          "bladder": 76.2,
+          "social": 57.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Jennifer Moore": {
+      "movement": [
+        35,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfa8",
+      "description": "working on her watercolor paintings (conversing about Latoya Williams and Jennifer Moore discussing their potential collaboration on visual materials for Sam's mayoral campaign, combining Latoya's travel photography with Jennifer's watercolor paintings.) @ the Ville:artist's co-living space:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.8,
+          "hunger": 88.1,
+          "fun": 96.5,
+          "hygiene": 68.5,
+          "bladder": 35.9,
+          "social": 57.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Yuriko Yamamoto": {
+      "movement": [
+        31,
+        59
+      ],
+      "pronunciatio": "\ud83c\udf92",
+      "description": "Yuriko is heading to the office to work on her tax compliance project (packing her bag with necessary documents and materials for the day) @ the Ville:Yuriko Yamamoto's house:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 89.8,
+          "hunger": 37.3,
+          "fun": 38.8,
+          "hygiene": 99.9,
+          "bladder": 46.2,
+          "social": 38.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Adam Smith": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Adam Smith discussing potential collaboration between animation and conflict resolution techniques through humor, with plans to meet with Francisco Lopez on Wednesday at 3 PM. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hey Adam, I was just looking over some feedback for my animation project. How's your chapter coming along?"
+        ],
+        [
+          "Adam Smith",
+          "It\u2019s going well, thanks for asking. I\u2019ve been thinking about how improv comedy can be applied to real-life conflict resolution. Have you ever considered using humor in your work?"
+        ],
+        [
+          "Abigail Chen",
+          "That\u2019s an interesting thought! I do think incorporating humor can make animations more engaging. It might be a fun element to explore in my next project."
+        ],
+        [
+          "Adam Smith",
+          "I agree, Abigail. Humor can really enhance the emotional impact and memorability of a project. I'm actually collaborating with Francisco Lopez on applying improv techniques to conflict resolution for my book. You might find some inspiration in his web series about co-living spaces."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds like an intriguing project. I'll definitely check out Francisco's web series. Maybe we could even collaborate and add some humor to your book through animation!"
+        ],
+        [
+          "Adam Smith",
+          "That would be fantastic! Let\u2019s discuss this further and see how we can integrate animation into my book to highlight conflict resolution techniques. Maybe we can schedule a meeting at your convenience?"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds great, Adam. I'll reach out to Francisco and see if he has any ideas about incorporating humor into our collaboration. Let\u2019s set up a meeting this week to brainstorm some creative ways to blend animation with your book's message."
+        ],
+        [
+          "Adam Smith",
+          "That sounds like a wonderful plan, Abigail. I think Francisco will be excited about this collaboration as well. Let\u2019s aim for Wednesday afternoon when we all have more time to brainstorm together."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Adam. I'll make sure to touch base with Francisco and suggest we meet on Wednesday afternoon then. Looking forward to it!"
+        ],
+        [
+          "Adam Smith",
+          "That works for me, Abigail. It should be an insightful and creative session. I look forward to seeing how our ideas come together."
+        ],
+        [
+          "Abigail Chen",
+          "Great, let\u2019s aim for 3 PM on Wednesday then. I'll send out an email to both of you with the details."
+        ],
+        [
+          "Adam Smith",
+          "Sounds perfect, Abigail. I'll make sure to have some ideas ready for our meeting on Wednesday at 3 PM. It should be an exciting session."
+        ],
+        [
+          "Abigail Chen",
+          "Fantastic, Adam. I'll start preparing some initial sketches and ideas for our meeting too. Can't wait to see where this collaboration takes us!"
+        ],
+        [
+          "Adam Smith",
+          "It should be great to have Francisco and you on board, Abigail. Let\u2019s make sure we all come prepared to share our insights and sketches."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Adam. I'll start working on some initial concepts and let you know when they're ready to share."
+        ],
+        [
+          "Adam Smith",
+          "That sounds wonderful, Abigail. I'll also start thinking about some scenes in my book that could benefit from animation and humor. Looking forward to our meeting!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 74.8,
+          "hunger": 75.8,
+          "fun": 76.5,
+          "hygiene": 65.0,
+          "bladder": 46.2,
+          "social": 47.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:02:20"
+  }
+}

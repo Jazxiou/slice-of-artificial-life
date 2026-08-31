@@ -1,0 +1,842 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        35,
+        30
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udc65",
+      "description": "working on her photography projects in the artists' co-living space (conversing about Jennifer Moore and Latoya Williams conversing about how to blend their artistic talents to create a cohesive visual narrative supporting Sam's campaign, involving community themes and potentially collaborating with other artists and community members.) @ the Ville:artist's co-living space:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.1,
+          "hunger": 54.7,
+          "fun": 100.0,
+          "hygiene": 92.4,
+          "bladder": 27.0,
+          "social": 90.8
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Rajiv Patel": {
+      "movement": [
+        36,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac\u2708\ufe0f",
+      "description": "painting at the co-living space (waiting to start conversing about Rajiv Patel and Latoya Williams discussing how to integrate travel photography with Francisco\u2019s web series themes and Sam's campaign visuals, including ideas for community workshops and social media engagement.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 86.1,
+          "hunger": 56.7,
+          "fun": 40.4,
+          "hygiene": 56.8,
+          "bladder": 27.0,
+          "social": 61.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        84,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Ayesha Khan and Abigail Chen discussing how to incorporate poetry, music, and animation to explore philosophical ideas and emotional resonance in their respective projects, potentially collaborating on a joint presentation. @ <persona> Ayesha Khan",
+      "chat": [
+        [
+          "Ayesha Khan",
+          "Hi Abigail, I've been thinking about how different mediums can convey similar philosophical ideas. Have you considered incorporating poetry into your animation project as a way to explore deeper themes?"
+        ],
+        [
+          "Abigail Chen",
+          "That\u2019s really interesting, Ayesha. I\u2019ve actually been brainstorming ways to integrate poetry into my animation project, especially through humor and improv techniques. What inspired you to explore the connection between Shakespearean language and musical styles?"
+        ],
+        [
+          "Ayesha Khan",
+          "Eddy and I are collaborating on a project that explores how Shakespeare\u2019s use of rhythm in his plays can be paralleled with musical styles to convey philosophical ideas. It\u2019s fascinating how both mediums use structure and patterns to express complex concepts."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds like an amazing project, Ayesha! I think there\u2019s a lot of overlap between how poetry and music use structure to convey meaning. Do you think those techniques could also be applied in animation to create emotional resonance?"
+        ],
+        [
+          "Ayesha Khan",
+          "Absolutely, Abigail! The structural techniques in poetry and music could definitely enhance emotional resonance in animation. It would be interesting to see how rhythm and rhyme can influence pacing and mood in your scenes. Have you thought about specific poems or musical styles that resonate with the theme of your project?"
+        ],
+        [
+          "Abigail Chen",
+          "I think that\u2019s a great idea, Ayesha. For my project, I\u2019ve been considering using free verse to contrast with structured scenes and perhaps incorporating jazz or blues elements for more improvisational sections. What do you think about the potential impact of these techniques on audience engagement?"
+        ],
+        [
+          "Ayesha Khan",
+          "That sounds like a dynamic approach, Abigail. Using jazz or blues could really enhance the improvisational and emotive aspects of your scenes. Perhaps you could also experiment with how different poetic forms influence the rhythm and timing in animation to match the mood of each scene. It would be great to see how these techniques can add layers of meaning and connect emotionally with viewers."
+        ],
+        [
+          "Abigail Chen",
+          "I like that idea, Ayesha. Maybe we could even collaborate and combine our projects to see how poetry, music, and animation intersect in creating emotional resonance. It would be a unique way to explore the interplay between structure and improvisation across different art forms."
+        ],
+        [
+          "Ayesha Khan",
+          "That sounds like an incredible collaboration opportunity, Abigail! I think combining our projects could showcase how different art forms can interact to create a richer narrative. We could even plan a joint presentation or exhibition to reach a wider audience and spark more discussions on interdisciplinary creativity."
+        ],
+        [
+          "Abigail Chen",
+          "I think that\u2019s a fantastic idea, Ayesha. Let's start planning how we can integrate our projects. We could even schedule regular meetings to brainstorm and exchange ideas as we move forward."
+        ],
+        [
+          "Ayesha Khan",
+          "I'm really excited about this collaboration, Abigail. Let\u2019s set up a meeting for next week to discuss our ideas in more detail and start planning. How does that sound?"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds great, Ayesha! Let\u2019s aim for Wednesday afternoon to ensure we both have enough time to prepare and share our current progress. I\u2019m looking forward to diving deeper into this collaboration."
+        ],
+        [
+          "Ayesha Khan",
+          "Perfect, Wednesday afternoon it is then. I\u2019ll send you an email later this week with a specific time that works for both of us. Looking forward to our collaboration and seeing how we can bring different art forms together."
+        ],
+        [
+          "Abigail Chen",
+          "That works for me, Ayesha. I'll be looking forward to our meeting and the insights we can share."
+        ],
+        [
+          "Ayesha Khan",
+          "Great, I think our collaboration has so much potential. Let\u2019s make sure to share all our ideas and materials leading up to our meeting to maximize our time together."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds wonderful, Ayesha. I'll start gathering some initial thoughts and materials to share beforehand so we can hit the ground running."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 81.1,
+          "hunger": 68.8,
+          "fun": 100.0,
+          "hygiene": 56.8,
+          "bladder": 27.0,
+          "social": 53.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Francisco Lopez": {
+      "movement": [
+        62,
+        45
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcc5",
+      "description": "Francisco is attending an emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 12:00 (summarizing action items for the meeting) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.1,
+          "hunger": 100.0,
+          "fun": 66.4,
+          "hygiene": 65.4,
+          "bladder": 9.7,
+          "social": 76.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        41,
+        28
+      ],
+      "pronunciatio": "\u2615\ud83c\udf73",
+      "description": "Hailey is preparing breakfast (making coffee and deciding what to have for breakfast) @ the Ville:artist's co-living space:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 91.1,
+          "hunger": 35.4,
+          "fun": 27.9,
+          "hygiene": 56.8,
+          "bladder": 27.0,
+          "social": 61.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Arthur Burton": {
+      "movement": [
+        58,
+        20
+      ],
+      "pronunciatio": "\ud83c\udf78\u2764\ufe0f",
+      "description": "Arthur is preparing the bar menu and deciding on cocktail specials for the evening. He also spends time arranging any decorations or setting up equipment needed for special events planned at The Rose and Crown Pub (finalizing preparations for Valentine's Day cocktails, ensuring all ingredients are ready and decorations are in place.) @ the Ville:The Rose and Crown Pub:pub:behind the bar counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.1,
+          "hunger": 89.5,
+          "fun": 32.5,
+          "hygiene": 56.8,
+          "bladder": 0.0,
+          "social": 51.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ryan Park": {
+      "movement": [
+        72,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Ryan Park and Maria Lopez discussing how to integrate physics concepts and improv comedy techniques into Sam Moore's campaign app to enhance user engagement through interactive puzzles, simulations, and personalized learning experiences. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Ryan Park",
+          "Hi Maria, I see you're diving deep into physics. That's fascinating! By the way, have you considered using some of those principles to enhance user engagement in Sam Moore's campaign app we're working on?"
+        ],
+        [
+          "Maria Lopez",
+          "That's an interesting idea, Ryan! Actually, I was thinking about integrating improv comedy techniques to make the events more engaging. Perhaps we could apply some physics concepts to gamify those activities in a novel way."
+        ],
+        [
+          "Ryan Park",
+          "I like that approach! We could create interactive physics puzzles or simulations during campaign events that use improv comedy to break the ice and make learning fun. It would be a unique way to blend your expertise in physics with our goal of enhancing community involvement."
+        ],
+        [
+          "Maria Lopez",
+          "Absolutely, we could even tie those puzzles to real-world physics scenarios related to civic issues. That would not only engage people but also educate them about how science impacts everyday life and policy-making."
+        ],
+        [
+          "Ryan Park",
+          "That sounds like a fantastic plan, Maria. We could also incorporate elements from your work to design challenges that encourage critical thinking and collaboration among participants during campaign events. It would be great if we can start brainstorming some concrete ideas this week."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds amazing, Ryan. Let\u2019s schedule a time this week to brainstorm some ideas and start laying out the framework for these interactive physics puzzles. Maybe we can also reach out to Sam Moore and Isabella Rodriguez to see if they have any input or suggestions?"
+        ],
+        [
+          "Ryan Park",
+          "Sounds good, Maria. I'll send out an invite for a meeting this Wednesday to discuss our ideas further and get everyone\u2019s feedback. Let's aim to have some initial prototypes ready by next month."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Ryan! I'll make sure to share the meeting details with Isabella and Sam. Can't wait to see what we come up with."
+        ],
+        [
+          "Ryan Park",
+          "That works for me, Maria. Let\u2019s make sure to include specifics on how we can leverage physics and improv comedy for maximum impact during these events."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds fantastic, Ryan. I think this could really take our campaign to the next level and make physics accessible and enjoyable for everyone involved."
+        ],
+        [
+          "Ryan Park",
+          "That\u2019s exactly what I was thinking, Maria. Let's also explore ways to integrate these elements into our mobile app and online platforms for year-round engagement. Maybe we can include some interactive physics quizzes or simulations that users can play during their spare time."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like a great idea, Ryan. Integrating these elements into both offline and online platforms could really broaden our reach and make physics more relatable to everyone. Let\u2019s definitely include that in our meeting agenda."
+        ],
+        [
+          "Ryan Park",
+          "I agree, Maria. We should also consider how to make these physics puzzles and simulations adaptive based on user responses and feedback to keep users engaged over time. This could be a great way to personalize the learning experience for each participant."
+        ],
+        [
+          "Maria Lopez",
+          "That\u2019s a brilliant point, Ryan. Personalizing the experience will definitely help keep people engaged and coming back for more. Let\u2019s discuss how we can implement that feature in our meeting too."
+        ],
+        [
+          "Ryan Park",
+          "I think personalization and adaptability are key to keeping users engaged. We could start collecting preliminary data from our initial prototypes to refine these features. Let\u2019s make sure we allocate time in the meeting for discussing this aspect as well."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like a solid plan, Ryan. I think it would be great to also discuss how we can measure and analyze user engagement data in real-time during the events to further enhance our strategies. This way, we can make quick adjustments on the fly based on what's working and what isn't."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 86.1,
+          "hunger": 56.0,
+          "fun": 92.2,
+          "hygiene": 56.8,
+          "bladder": 27.0,
+          "social": 63.8
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac\u2764\ufe0f",
+      "description": "preparing for the Valentine's Day party by setting up tables and arranging chairs in Hobbs Cafe (conversing about integrating improv comedy techniques into Valentine's Day events and Sam Moore's campaign activities to enhance civic engagement, with plans to collaborate on social media promotion and live-streaming.) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.1,
+          "hunger": 94.8,
+          "fun": 83.5,
+          "hygiene": 65.4,
+          "bladder": 27.0,
+          "social": 84.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        86,
+        24
+      ],
+      "pronunciatio": "\ud83e\uddee\ud83d\udca1",
+      "description": "working on his research project to explore mathematical patterns in nature (conducting calculations to test the hypotheses) @ the Ville:Giorgio Rossi's apartment:main room:blackboard",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.1,
+          "hunger": 41.7,
+          "fun": 38.7,
+          "hygiene": 89.9,
+          "bladder": 27.0,
+          "social": 47.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Carlos Gomez": {
+      "movement": [
+        94,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd0d",
+      "description": "working on his poetry collection (making final edits based on feedback from readings) @ the Ville:Carlos Gomez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.1,
+          "hunger": 83.3,
+          "fun": 100.0,
+          "hygiene": 65.4,
+          "bladder": 27.0,
+          "social": 36.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd04",
+      "description": "Klaus is still working on his research paper in the library at Oak Hill College. He plans to spend several more hours there before having lunch (drafting sections of the research paper based on reviewed materials and revising previously written sections for clarity and coherence) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.1,
+          "hunger": 100.0,
+          "fun": 50.4,
+          "hygiene": 88.7,
+          "bladder": 0.0,
+          "social": 38.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        72,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Ryan Park and Maria Lopez discussing how to integrate physics concepts and improv comedy techniques into Sam Moore's campaign app to enhance user engagement through interactive puzzles, simulations, and personalized learning experiences. @ <persona> Ryan Park",
+      "chat": [
+        [
+          "Ryan Park",
+          "Hi Maria, I see you're diving deep into physics. That's fascinating! By the way, have you considered using some of those principles to enhance user engagement in Sam Moore's campaign app we're working on?"
+        ],
+        [
+          "Maria Lopez",
+          "That's an interesting idea, Ryan! Actually, I was thinking about integrating improv comedy techniques to make the events more engaging. Perhaps we could apply some physics concepts to gamify those activities in a novel way."
+        ],
+        [
+          "Ryan Park",
+          "I like that approach! We could create interactive physics puzzles or simulations during campaign events that use improv comedy to break the ice and make learning fun. It would be a unique way to blend your expertise in physics with our goal of enhancing community involvement."
+        ],
+        [
+          "Maria Lopez",
+          "Absolutely, we could even tie those puzzles to real-world physics scenarios related to civic issues. That would not only engage people but also educate them about how science impacts everyday life and policy-making."
+        ],
+        [
+          "Ryan Park",
+          "That sounds like a fantastic plan, Maria. We could also incorporate elements from your work to design challenges that encourage critical thinking and collaboration among participants during campaign events. It would be great if we can start brainstorming some concrete ideas this week."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds amazing, Ryan. Let\u2019s schedule a time this week to brainstorm some ideas and start laying out the framework for these interactive physics puzzles. Maybe we can also reach out to Sam Moore and Isabella Rodriguez to see if they have any input or suggestions?"
+        ],
+        [
+          "Ryan Park",
+          "Sounds good, Maria. I'll send out an invite for a meeting this Wednesday to discuss our ideas further and get everyone\u2019s feedback. Let's aim to have some initial prototypes ready by next month."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Ryan! I'll make sure to share the meeting details with Isabella and Sam. Can't wait to see what we come up with."
+        ],
+        [
+          "Ryan Park",
+          "That works for me, Maria. Let\u2019s make sure to include specifics on how we can leverage physics and improv comedy for maximum impact during these events."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds fantastic, Ryan. I think this could really take our campaign to the next level and make physics accessible and enjoyable for everyone involved."
+        ],
+        [
+          "Ryan Park",
+          "That\u2019s exactly what I was thinking, Maria. Let's also explore ways to integrate these elements into our mobile app and online platforms for year-round engagement. Maybe we can include some interactive physics quizzes or simulations that users can play during their spare time."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like a great idea, Ryan. Integrating these elements into both offline and online platforms could really broaden our reach and make physics more relatable to everyone. Let\u2019s definitely include that in our meeting agenda."
+        ],
+        [
+          "Ryan Park",
+          "I agree, Maria. We should also consider how to make these physics puzzles and simulations adaptive based on user responses and feedback to keep users engaged over time. This could be a great way to personalize the learning experience for each participant."
+        ],
+        [
+          "Maria Lopez",
+          "That\u2019s a brilliant point, Ryan. Personalizing the experience will definitely help keep people engaged and coming back for more. Let\u2019s discuss how we can implement that feature in our meeting too."
+        ],
+        [
+          "Ryan Park",
+          "I think personalization and adaptability are key to keeping users engaged. We could start collecting preliminary data from our initial prototypes to refine these features. Let\u2019s make sure we allocate time in the meeting for discussing this aspect as well."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like a solid plan, Ryan. I think it would be great to also discuss how we can measure and analyze user engagement data in real-time during the events to further enhance our strategies. This way, we can make quick adjustments on the fly based on what's working and what isn't."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 91.1,
+          "hunger": 20.8,
+          "fun": 38.9,
+          "hygiene": 65.4,
+          "bladder": 27.0,
+          "social": 48.0
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Ayesha Khan": {
+      "movement": [
+        84,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Ayesha Khan and Abigail Chen discussing how to incorporate poetry, music, and animation to explore philosophical ideas and emotional resonance in their respective projects, potentially collaborating on a joint presentation. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Ayesha Khan",
+          "Hi Abigail, I've been thinking about how different mediums can convey similar philosophical ideas. Have you considered incorporating poetry into your animation project as a way to explore deeper themes?"
+        ],
+        [
+          "Abigail Chen",
+          "That\u2019s really interesting, Ayesha. I\u2019ve actually been brainstorming ways to integrate poetry into my animation project, especially through humor and improv techniques. What inspired you to explore the connection between Shakespearean language and musical styles?"
+        ],
+        [
+          "Ayesha Khan",
+          "Eddy and I are collaborating on a project that explores how Shakespeare\u2019s use of rhythm in his plays can be paralleled with musical styles to convey philosophical ideas. It\u2019s fascinating how both mediums use structure and patterns to express complex concepts."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds like an amazing project, Ayesha! I think there\u2019s a lot of overlap between how poetry and music use structure to convey meaning. Do you think those techniques could also be applied in animation to create emotional resonance?"
+        ],
+        [
+          "Ayesha Khan",
+          "Absolutely, Abigail! The structural techniques in poetry and music could definitely enhance emotional resonance in animation. It would be interesting to see how rhythm and rhyme can influence pacing and mood in your scenes. Have you thought about specific poems or musical styles that resonate with the theme of your project?"
+        ],
+        [
+          "Abigail Chen",
+          "I think that\u2019s a great idea, Ayesha. For my project, I\u2019ve been considering using free verse to contrast with structured scenes and perhaps incorporating jazz or blues elements for more improvisational sections. What do you think about the potential impact of these techniques on audience engagement?"
+        ],
+        [
+          "Ayesha Khan",
+          "That sounds like a dynamic approach, Abigail. Using jazz or blues could really enhance the improvisational and emotive aspects of your scenes. Perhaps you could also experiment with how different poetic forms influence the rhythm and timing in animation to match the mood of each scene. It would be great to see how these techniques can add layers of meaning and connect emotionally with viewers."
+        ],
+        [
+          "Abigail Chen",
+          "I like that idea, Ayesha. Maybe we could even collaborate and combine our projects to see how poetry, music, and animation intersect in creating emotional resonance. It would be a unique way to explore the interplay between structure and improvisation across different art forms."
+        ],
+        [
+          "Ayesha Khan",
+          "That sounds like an incredible collaboration opportunity, Abigail! I think combining our projects could showcase how different art forms can interact to create a richer narrative. We could even plan a joint presentation or exhibition to reach a wider audience and spark more discussions on interdisciplinary creativity."
+        ],
+        [
+          "Abigail Chen",
+          "I think that\u2019s a fantastic idea, Ayesha. Let's start planning how we can integrate our projects. We could even schedule regular meetings to brainstorm and exchange ideas as we move forward."
+        ],
+        [
+          "Ayesha Khan",
+          "I'm really excited about this collaboration, Abigail. Let\u2019s set up a meeting for next week to discuss our ideas in more detail and start planning. How does that sound?"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds great, Ayesha! Let\u2019s aim for Wednesday afternoon to ensure we both have enough time to prepare and share our current progress. I\u2019m looking forward to diving deeper into this collaboration."
+        ],
+        [
+          "Ayesha Khan",
+          "Perfect, Wednesday afternoon it is then. I\u2019ll send you an email later this week with a specific time that works for both of us. Looking forward to our collaboration and seeing how we can bring different art forms together."
+        ],
+        [
+          "Abigail Chen",
+          "That works for me, Ayesha. I'll be looking forward to our meeting and the insights we can share."
+        ],
+        [
+          "Ayesha Khan",
+          "Great, I think our collaboration has so much potential. Let\u2019s make sure to share all our ideas and materials leading up to our meeting to maximize our time together."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds wonderful, Ayesha. I'll start gathering some initial thoughts and materials to share beforehand so we can hit the ground running."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 71.1,
+          "hunger": 90.6,
+          "fun": 57.4,
+          "hygiene": 65.4,
+          "bladder": 27.0,
+          "social": 61.4
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        92,
+        37
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "studying chemistry and related subjects (taking a break and having lunch early) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 66.1,
+          "hunger": 100.0,
+          "fun": 61.7,
+          "hygiene": 88.8,
+          "bladder": 27.0,
+          "social": 39.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Mei Lin": {
+      "movement": [
+        108,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcc5",
+      "description": "teaching her philosophy course at Oak Hill College (assigning homework for the next class) @ the Ville:Oak Hill College:classroom:classroom podium",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.1,
+          "hunger": 100.0,
+          "fun": 53.4,
+          "hygiene": 87.5,
+          "bladder": 70.0,
+          "social": 46.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        50
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83d\udd0d",
+      "description": "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (checking inventory levels for popular items) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 77.2,
+          "hunger": 72.5,
+          "fun": 60.6,
+          "hygiene": 88.4,
+          "bladder": 27.0,
+          "social": 56.8
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        119,
+        29
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start conversing about Ayesha Khan and Eddy Lin discussing potential parallels between Shakespeare\u2019s use of language and rhythm in his plays and how different musical styles can convey philosophical ideas, with plans to collaborate on a project exploring these intersections. @ <waiting> 119 29",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.2,
+          "hunger": 63.7,
+          "fun": 70.9,
+          "hygiene": 94.8,
+          "bladder": 27.0,
+          "social": 55.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Tom Moreno": {
+      "movement": [
+        79,
+        48
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83d\udc69\u200d",
+      "description": "managing customer services and helping with orders at The Willow Market and Pharmacy (helping a customer with dietary restrictions find suitable products) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.1,
+          "hunger": 25.2,
+          "fun": 27.9,
+          "hygiene": 65.4,
+          "bladder": 27.0,
+          "social": 58.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Jane Moreno": {
+      "movement": [
+        75,
+        66
+      ],
+      "pronunciatio": "\ud83e\uddf9\ud83c\udfe0",
+      "description": "doing household chores like laundry and cleaning (sweeping the kitchen floor) @ the Ville:Moreno family's house:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.1,
+          "hunger": 85.0,
+          "fun": 27.9,
+          "hygiene": 65.4,
+          "bladder": 27.0,
+          "social": 31.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Tamara Taylor": {
+      "movement": [
+        55,
+        69
+      ],
+      "pronunciatio": "\ud83d\uddc2\ufe0f\ud83d\udcbb",
+      "description": "Tamara is taking a short break before continuing work on her adult comic book series (organizing her workspace for continued work) @ the Ville:Tamara Taylor and Carmen Ortiz's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.1,
+          "hunger": 89.6,
+          "fun": 39.9,
+          "hygiene": 56.8,
+          "bladder": 27.0,
+          "social": 32.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Carmen Ortiz": {
+      "movement": [
+        67,
+        46
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83d\udcc5",
+      "description": "working at Harvey Oak Supply Store (preparing for an upcoming event at the store) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.1,
+          "hunger": 47.2,
+          "fun": 27.9,
+          "hygiene": 70.5,
+          "bladder": 20.1,
+          "social": 46.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Sam Moore": {
+      "movement": [
+        80,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "Sam is sitting at Hobbs cafe reading and planning his mayoral campaign (reviewing his campaign materials) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 66.1,
+          "hunger": 96.2,
+          "fun": 100.0,
+          "hygiene": 81.8,
+          "bladder": 56.9,
+          "social": 87.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Jennifer Moore": {
+      "movement": [
+        35,
+        30
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udc65",
+      "description": "working on her watercolor paintings (conversing about Jennifer Moore and Latoya Williams conversing about how to blend their artistic talents to create a cohesive visual narrative supporting Sam's campaign, involving community themes and potentially collaborating with other artists and community members.) @ the Ville:artist's co-living space:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 66.1,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 60.2,
+          "bladder": 16.6,
+          "social": 91.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Yuriko Yamamoto": {
+      "movement": [
+        62,
+        41
+      ],
+      "pronunciatio": "\ud83d\udcac\u2764\ufe0f",
+      "description": "Yuriko is reviewing documents and preparing for the upcoming lunch meeting with clients (conversing about preparations and plans for Valentine's Day events, including a private tasting at The Rose and Crown Pub, between Carmen Ortiz and Yuriko Yamamoto.) @ the Ville:The Rose and Crown Pub:pub:microphone",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.1,
+          "hunger": 99.4,
+          "fun": 35.1,
+          "hygiene": 91.6,
+          "bladder": 27.0,
+          "social": 48.0
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Adam Smith": {
+      "movement": [
+        61,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfae",
+      "description": "discussing philosophy with a friend over coffee (conversing about Ryan Park and Adam Smith discussing how to enhance user interaction, community engagement, and conflict resolution through gamification and improv comedy features in a mobile app for Sam Moore's campaign events.) @ the Ville:The Rose and Crown Pub:pub:microphone",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 61.1,
+          "hunger": 100.0,
+          "fun": 96.2,
+          "hygiene": 56.8,
+          "bladder": 27.0,
+          "social": 86.0
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 11:47:00"
+  }
+}

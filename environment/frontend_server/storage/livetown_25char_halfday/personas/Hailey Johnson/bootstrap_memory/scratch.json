@@ -1,0 +1,565 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    50,
+    30
+  ],
+  "daily_plan_req": "",
+  "name": "Hailey Johnson",
+  "first_name": "Hailey",
+  "last_name": "Johnson",
+  "age": 30,
+  "innate": "imaginative, energetic, resourceful",
+  "learned": "Hailey Johnson is a writer who is always looking for new ways to tell stories. She loves to immerse herself in different cultures and explore their literature.",
+  "currently": "Hailey Johnson is writing a novel about a group of artists living in a co-living space. She is also planning to start a podcast.",
+  "seed_currently": "Hailey Johnson is writing a novel about a group of artists living in a co-living space. She is also planning to start a podcast.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 66.41,
+    "hunger": 100.0,
+    "fun": 95.75,
+    "hygiene": 42.0,
+    "bladder": 0.0,
+    "social": 91.69
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Rajiv Patel": {
+      "friendship": 12.0,
+      "romance": 0.0
+    },
+    "Francisco Lopez": {
+      "friendship": 9.0,
+      "romance": 0.0
+    },
+    "Latoya Williams": {
+      "friendship": 10.0,
+      "romance": 0.0
+    },
+    "Jennifer Moore": {
+      "friendship": 11.0,
+      "romance": 0.0
+    },
+    "Wolfgang Schulz": {
+      "friendship": 8.0,
+      "romance": 0.0
+    },
+    "Isabella Rodriguez": {
+      "friendship": 10.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Hailey Johnson goes to bed around 2am, awakes up around 10am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Hailey Johnson's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 75,
+  "importance_ele_n": 59,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 10:00 am",
+    "eat breakfast around 11:00 am",
+    "work on her novel from 12:00 pm to 4:00 pm, including time for research and brainstorming new ideas",
+    "have a lunch break at 2:00 pm",
+    "plan the outline for an upcoming podcast episode from 4:30 pm to 6:00 pm",
+    "eat dinner around 6:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      600
+    ],
+    [
+      "Hailey is waking up and completing her morning routine (waking up and stretching)",
+      5
+    ],
+    [
+      "Hailey is waking up and completing her morning routine (going to the bathroom to brush her teeth and wash her face)",
+      10
+    ],
+    [
+      "Hailey is waking up and completing her morning routine (making coffee)",
+      5
+    ],
+    [
+      "Hailey is waking up and completing her morning routine (on the way to drinking a cup of coffee while sitting on the couch)",
+      0
+    ],
+    [
+      "Hailey is waking up and completing her morning routine (conversing about Rajiv Patel and Hailey Johnson discussing Rajiv's upcoming solo show, which aims to incorporate themes from Francisco Lopez's web series and support Sam's mayoral campaign through visual art.)",
+      15
+    ],
+    [
+      "Hailey is waking up and completing her morning routine (on the way to checking her emails and social media accounts)",
+      0
+    ],
+    [
+      "Hailey is waking up and completing her morning routine (conversing about collaborating on integrating themes from Francisco's web series into Rajiv's solo show and discussing ways to support Sam's campaign through various media platforms, including a podcast and written pieces.)",
+      12
+    ],
+    [
+      "Hailey is waking up and completing her morning routine (planning out her day)",
+      8
+    ],
+    [
+      "Hailey is waking up and completing her morning routine (on the way to doing a quick yoga session)",
+      0
+    ],
+    [
+      "Hailey is waking up and completing her morning routine (conversing about integrating Francisco\u2019s web series themes into Rajiv's solo show and including Latoya\u2019s travel photography in an exhibit alongside the show, with plans to meet on Thursday to brainstorm ideas before a meeting with Francisco on Wednesday.)",
+      11
+    ],
+    [
+      "Hailey is preparing breakfast (on the way to going to the bathroom, brushing her teeth, washing her face)",
+      0
+    ],
+    [
+      "Hailey is preparing breakfast (conversing about integrating Francisco's web series themes into Rajiv's solo show and Latoya\u2019s travel photography exhibit through collaborative efforts involving community engagement, interactive workshops, and input from all involved parties.)",
+      19
+    ],
+    [
+      "Hailey is preparing breakfast (getting dressed)",
+      15
+    ],
+    [
+      "Hailey is preparing breakfast (making coffee and deciding what to have for breakfast)",
+      15
+    ],
+    [
+      "Hailey is preparing breakfast (preparing eggs and toast)",
+      20
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (reviewing notes from previous research sessions)",
+      30
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (brainstorming new plot ideas for the novel)",
+      30
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (researching cultural elements to include in her story)",
+      20
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (on the way to taking a short break and having a snack)",
+      0
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (conversing about Hailey Johnson and Rajiv Patel discussing how to integrate narrative techniques, interactive elements, music, community workshops, and social media strategies into their respective projects and Sam's campaign.)",
+      19
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (on the way to on the way to taking a short break and having a snack)",
+      0
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (conversing about integrating themes from Francisco's web series into Rajiv's show and planning community events within their co-living space to support Sam's campaign, with Hailey and Francisco discussing ideas for podcasts, written pieces, and a Valentine\u2019s Day event showcasing residents' creative contributions.)",
+      20
+    ],
+    [
+      "Hailey is taking the remainder of her scheduled time as an unscheduled break to reflect on the day's discussions and plan next steps for her novel and community projects.",
+      1
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (finalizing notes from the conversation with Wolfgang Schulz)",
+      1
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (revising the outline to incorporate new research findings)",
+      9
+    ],
+    [
+      "Hailey is taking a lunch break (on the way to preparing her lunch)",
+      0
+    ],
+    [
+      "Hailey is taking a lunch break (conversing about integrating Francisco\u2019s web series themes into Rajiv's solo show and Latoya\u2019s travel photography exhibit, planning an interactive workshop with community members, and coordinating a brainstorming session with Sam and other contributors from their co-living space.)",
+      14
+    ],
+    [
+      "Hailey is taking a lunch break (preparing her lunch)",
+      5
+    ],
+    [
+      "Hailey is taking a lunch break (on the way to eating her lunch)",
+      0
+    ],
+    [
+      "Hailey is taking a lunch break (conversing about planning and organizing an interactive workshop and brainstorming session for integrating themes from Francisco\u2019s web series with Rajiv's show and incorporating Latoya's travel photography, while ensuring community engagement and input.)",
+      15
+    ],
+    [
+      "Hailey is taking a lunch break (eating her lunch)",
+      5
+    ],
+    [
+      "Hailey is taking a lunch break (taking a short walk to clear her mind)",
+      5
+    ],
+    [
+      "Hailey is taking a lunch break (drinking water and relaxing for a few moments)",
+      4
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (reviewing notes from previous research sessions)",
+      15
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (brainstorming new plot ideas for the novel)",
+      30
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (researching cultural elements to include in her story)",
+      20
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (on the way to outlining a chapter based on brainstormed ideas)",
+      0
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (conversing about Hailey Johnson and Isabella Rodriguez discussing Valentine\u2019s Day plans, community events, and potential collaboration for Hailey's podcast featuring Hobbs Cafe's unique menu offerings.)",
+      13
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (taking a short break and having a snack)",
+      12
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (revising the outline for clarity and coherence)",
+      21
+    ],
+    [
+      "Hailey is reviewing her day's work and planning next steps for both her novel and community projects.",
+      11
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (planning the next research steps to gather more information)",
+      5
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas (setting goals for the next writing session)",
+      6
+    ],
+    [
+      "planning the outline for an upcoming podcast episode (reviewing notes and research materials)",
+      15
+    ],
+    [
+      "planning the outline for an upcoming podcast episode (outlining the main topics to cover)",
+      15
+    ],
+    [
+      "planning the outline for an upcoming podcast episode (creating an introduction for the podcast episode)",
+      10
+    ],
+    [
+      "planning the outline for an upcoming podcast episode (drafting questions and discussion points)",
+      10
+    ],
+    [
+      "planning the outline for an upcoming podcast episode (outlining a conclusion for the podcast episode)",
+      5
+    ],
+    [
+      "planning the outline for an upcoming podcast episode (reviewing the outline to ensure flow and coherence)",
+      5
+    ],
+    [
+      "Hailey is planning the outline for an upcoming podcast episode",
+      60
+    ],
+    [
+      "Hailey is eating dinner",
+      60
+    ],
+    [
+      "Hailey is planning and outlining the next podcast episode further",
+      60
+    ],
+    [
+      "Hailey is reviewing and refining the podcast episode outline she started earlier",
+      120
+    ],
+    [
+      "Hailey is preparing for bed and getting ready for the next day",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -6
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -9
+    ],
+    [
+      "sleeping",
+      -9
+    ],
+    [
+      "sleeping",
+      -1
+    ],
+    [
+      "sleeping",
+      11
+    ],
+    [
+      "sleeping",
+      -11
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -1
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      600
+    ],
+    [
+      "Hailey is waking up and completing her morning routine",
+      60
+    ],
+    [
+      "Hailey is preparing breakfast",
+      60
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas",
+      120
+    ],
+    [
+      "Hailey is taking a lunch break",
+      60
+    ],
+    [
+      "Hailey is working on her novel, conducting research and brainstorming new ideas",
+      120
+    ],
+    [
+      "planning the outline for an upcoming podcast episode",
+      60
+    ],
+    [
+      "Hailey is planning the outline for an upcoming podcast episode",
+      60
+    ],
+    [
+      "Hailey is eating dinner",
+      60
+    ],
+    [
+      "Hailey is planning and outlining the next podcast episode further",
+      60
+    ],
+    [
+      "Hailey is reviewing and refining the podcast episode outline she started earlier",
+      120
+    ],
+    [
+      "Hailey is preparing for bed and getting ready for the next day",
+      60
+    ]
+  ],
+  "act_address": "the Ville:artist's co-living space:kitchen:refrigerator",
+  "act_start_time": "February 13, 2023, 16:35:00",
+  "act_duration": 12,
+  "act_description": "Hailey is working on her novel, conducting research and brainstorming new ideas (taking a short break and having a snack)",
+  "act_pronunciatio": "\u2615\ud83c\udf70",
+  "act_event": [
+    "Hailey Johnson",
+    "take",
+    "snack"
+  ],
+  "act_obj_description": "closed and containing snacks",
+  "act_obj_pronunciatio": "\ud83d\ude0b",
+  "act_obj_event": [
+    "refrigerator",
+    "contain",
+    "snacks"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Rajiv Patel": -336,
+    "Francisco Lopez": -138,
+    "Latoya Williams": 156,
+    "Jennifer Moore": 12,
+    "Wolfgang Schulz": -282,
+    "Isabella Rodriguez": 672
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      49,
+      31
+    ],
+    [
+      48,
+      31
+    ],
+    [
+      47,
+      31
+    ],
+    [
+      46,
+      31
+    ],
+    [
+      45,
+      31
+    ],
+    [
+      44,
+      31
+    ],
+    [
+      44,
+      32
+    ],
+    [
+      43,
+      32
+    ],
+    [
+      42,
+      32
+    ],
+    [
+      41,
+      32
+    ],
+    [
+      40,
+      32
+    ],
+    [
+      39,
+      32
+    ],
+    [
+      38,
+      32
+    ],
+    [
+      37,
+      32
+    ],
+    [
+      36,
+      32
+    ],
+    [
+      36,
+      31
+    ],
+    [
+      36,
+      30
+    ],
+    [
+      36,
+      29
+    ],
+    [
+      36,
+      28
+    ],
+    [
+      36,
+      27
+    ],
+    [
+      36,
+      26
+    ],
+    [
+      36,
+      25
+    ]
+  ]
+}

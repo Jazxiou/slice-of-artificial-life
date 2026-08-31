@@ -1,0 +1,672 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        33,
+        45
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Latoya Williams and Sam Moore discussing their recent activities, including Latoya's photography series and Sam's mayoral campaign, and planning a meeting at Hobbs cafe to view some of Latoya's work. @ <persona> Sam Moore",
+      "chat": [
+        [
+          "Latoya Williams",
+          "Hi Sam, how are you doing today?"
+        ],
+        [
+          "Sam Moore",
+          "Good to see you, Latoya. I hope your run is going well today."
+        ],
+        [
+          "Latoya Williams",
+          "Yeah, it's going great. Thanks for asking! How about you? Have you been keeping busy?"
+        ],
+        [
+          "Sam Moore",
+          "Always nice to catch up, Latoya. I've been quite busy with my mayoral campaign and community meetings. How about you since we last talked?"
+        ],
+        [
+          "Latoya Williams",
+          "It sounds like you've been very active. My focus has mostly been on my photography series and staying informed about local politics. How do you feel things are progressing with your campaign?"
+        ],
+        [
+          "Sam Moore",
+          "Things are moving along nicely, Latoya. I've been meeting lots of folks around town and discussing my vision for the community. How about your photography series? Have you got any new works to share?"
+        ],
+        [
+          "Latoya Williams",
+          "Absolutely, Sam. I've been working on some pieces inspired by my recent travels and also exploring themes related to our local community through my lens. Would you like to take a look at some of them sometime?"
+        ],
+        [
+          "Sam Moore",
+          "That sounds fascinating, Latoya. I'd love to see your work sometime soon. Perhaps we could arrange a coffee meeting at Hobbs cafe this week?"
+        ],
+        [
+          "Latoya Williams",
+          "That would be great, Sam. Let's aim for Wednesday at 2 PM then."
+        ],
+        [
+          "Sam Moore",
+          "Sounds good to me, Latoya. Looking forward to it."
+        ],
+        [
+          "Latoya Williams",
+          "Perfect, I'll see you there Sam. Have a great day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 93.3,
+          "hunger": 52.9,
+          "fun": 46.0,
+          "hygiene": 70.1,
+          "bladder": 58.1,
+          "social": 46.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Rajiv Patel": {
+      "movement": [
+        25,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Rajiv Patel's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 30.9,
+          "fun": 45.6,
+          "hygiene": 53.0,
+          "bladder": 23.6,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Abigail Chen's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 30.9,
+          "fun": 45.6,
+          "hygiene": 53.0,
+          "bladder": 23.6,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Francisco Lopez": {
+      "movement": [
+        19,
+        28
+      ],
+      "pronunciatio": "\ud83e\uddf6\ud83d\udc55",
+      "description": "waking up and completing the morning routine (getting dressed for the day) @ the Ville:artist's co-living space:Francisco Lopez's room:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 98.3,
+          "hunger": 30.9,
+          "fun": 45.6,
+          "hygiene": 78.7,
+          "bladder": 40.8,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 30.9,
+          "fun": 45.6,
+          "hygiene": 53.0,
+          "bladder": 23.6,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Arthur Burton": {
+      "movement": [
+        56,
+        14
+      ],
+      "pronunciatio": "\ud83e\uddf6\ud83d\udc55",
+      "description": "Arthur is waking up and completing his morning routine (getting dressed for the day) @ the Ville:Arthur Burton's apartment:main room:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 98.3,
+          "hunger": 30.9,
+          "fun": 45.6,
+          "hygiene": 70.1,
+          "bladder": 23.6,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ryan Park": {
+      "movement": [
+        66,
+        19
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Ryan Park's apartment:main room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 30.9,
+          "fun": 45.6,
+          "hygiene": 53.0,
+          "bladder": 23.6,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf5e\ud83d\udd25",
+      "description": "making breakfast for herself (toasting bread) @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 93.3,
+          "hunger": 53.5,
+          "fun": 45.6,
+          "hygiene": 78.7,
+          "bladder": 58.1,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        89,
+        17
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "[(ID:e5M92V) Monday February 13 -- 07:00 AM] Activity: Giorgio wakes up and completes his morning routine (drinking a glass of water) @ the Ville:Giorgio Rossi's apartment:main room:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 98.3,
+          "hunger": 30.9,
+          "fun": 45.6,
+          "hygiene": 78.7,
+          "bladder": 58.1,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Carlos Gomez": {
+      "movement": [
+        96,
+        17
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "waking up and completing his morning routine (drinking a glass of water) @ the Ville:Carlos Gomez's apartment:main room:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 98.3,
+          "hunger": 30.9,
+          "fun": 45.6,
+          "hygiene": 78.7,
+          "bladder": 58.1,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        109,
+        50
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "washing up and preparing for the day. He then has breakfast before heading out (brushing his teeth and washing his face) @ the Ville:Dorm for Oak Hill College:man's bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 98.3,
+          "hunger": 53.5,
+          "fun": 45.6,
+          "hygiene": 88.2,
+          "bladder": 23.6,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 30.9,
+          "fun": 45.6,
+          "hygiene": 53.0,
+          "bladder": 23.6,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ayesha Khan": {
+      "movement": [
+        120,
+        45
+      ],
+      "pronunciatio": "\ud83c\udf73\u2615",
+      "description": "having breakfast (eating breakfast) @ the Ville:Dorm for Oak Hill College:kitchen:toaster",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 93.3,
+          "hunger": 53.5,
+          "fun": 45.6,
+          "hygiene": 78.7,
+          "bladder": 58.1,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        109,
+        56
+      ],
+      "pronunciatio": "\ud83e\uddf6\ud83d\udc5a",
+      "description": "showering and preparing breakfast (getting dressed) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 88.3,
+          "hunger": 64.5,
+          "fun": 74.6,
+          "hygiene": 100.0,
+          "bladder": 58.1,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Mei Lin": {
+      "movement": [
+        98,
+        66
+      ],
+      "pronunciatio": "\ud83d\udebb\u23f3",
+      "description": "waking up and completing her morning routine (waiting to start going to the bathroom to use the toilet and wash her face) @ the Ville:Lin family's house:bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 98.3,
+          "hunger": 30.9,
+          "fun": 45.6,
+          "hygiene": 79.6,
+          "bladder": 77.1,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        93,
+        68
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "preparing breakfast and getting ready for the day. He ensures everything at home is in order before heading to work (packing his lunch and snacks for the day) @ the Ville:Lin family's house:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 94.8,
+          "hunger": 70.0,
+          "fun": 45.6,
+          "hygiene": 100.0,
+          "bladder": 58.1,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        97,
+        67
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "waking up and completing his morning routine (drinking a glass of water) @ the Ville:Lin family's house:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 98.3,
+          "hunger": 30.9,
+          "fun": 45.6,
+          "hygiene": 78.7,
+          "bladder": 58.1,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Tom Moreno": {
+      "movement": [
+        79,
+        65
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "waking up and completing his morning routine (combing his hair) @ the Ville:Moreno family's house:bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 98.3,
+          "hunger": 30.9,
+          "fun": 45.6,
+          "hygiene": 78.7,
+          "bladder": 58.1,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Jane Moreno": {
+      "movement": [
+        75,
+        66
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udf7d",
+      "description": "making breakfast for her family (cooking the main dish) @ the Ville:Moreno family's house:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 93.3,
+          "hunger": 70.0,
+          "fun": 45.6,
+          "hygiene": 78.7,
+          "bladder": 58.1,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Tamara Taylor": {
+      "movement": [
+        57,
+        66
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udf5e",
+      "description": "Tamara is having breakfast and planning her day (preparing and eating breakfast) @ the Ville:Tamara Taylor and Carmen Ortiz's house:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 93.3,
+          "hunger": 45.4,
+          "fun": 45.6,
+          "hygiene": 70.1,
+          "bladder": 58.1,
+          "social": 49.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Carmen Ortiz": {
+      "movement": [
+        60,
+        65
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "waking up and completing her morning routine (going to the bathroom to use the toilet) @ the Ville:Tamara Taylor and Carmen Ortiz's house:bathroom:toilet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 98.3,
+          "hunger": 30.9,
+          "fun": 45.6,
+          "hygiene": 62.4,
+          "bladder": 42.6,
+          "social": 49.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Sam Moore": {
+      "movement": [
+        34,
+        45
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Latoya Williams and Sam Moore discussing their recent activities, including Latoya's photography series and Sam's mayoral campaign, and planning a meeting at Hobbs cafe to view some of Latoya's work. @ <persona> Latoya Williams",
+      "chat": [
+        [
+          "Latoya Williams",
+          "Hi Sam, how are you doing today?"
+        ],
+        [
+          "Sam Moore",
+          "Good to see you, Latoya. I hope your run is going well today."
+        ],
+        [
+          "Latoya Williams",
+          "Yeah, it's going great. Thanks for asking! How about you? Have you been keeping busy?"
+        ],
+        [
+          "Sam Moore",
+          "Always nice to catch up, Latoya. I've been quite busy with my mayoral campaign and community meetings. How about you since we last talked?"
+        ],
+        [
+          "Latoya Williams",
+          "It sounds like you've been very active. My focus has mostly been on my photography series and staying informed about local politics. How do you feel things are progressing with your campaign?"
+        ],
+        [
+          "Sam Moore",
+          "Things are moving along nicely, Latoya. I've been meeting lots of folks around town and discussing my vision for the community. How about your photography series? Have you got any new works to share?"
+        ],
+        [
+          "Latoya Williams",
+          "Absolutely, Sam. I've been working on some pieces inspired by my recent travels and also exploring themes related to our local community through my lens. Would you like to take a look at some of them sometime?"
+        ],
+        [
+          "Sam Moore",
+          "That sounds fascinating, Latoya. I'd love to see your work sometime soon. Perhaps we could arrange a coffee meeting at Hobbs cafe this week?"
+        ],
+        [
+          "Latoya Williams",
+          "That would be great, Sam. Let's aim for Wednesday at 2 PM then."
+        ],
+        [
+          "Sam Moore",
+          "Sounds good to me, Latoya. Looking forward to it."
+        ],
+        [
+          "Latoya Williams",
+          "Perfect, I'll see you there Sam. Have a great day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 88.3,
+          "hunger": 87.0,
+          "fun": 70.1,
+          "hygiene": 95.1,
+          "bladder": 88.0,
+          "social": 50.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Jennifer Moore": {
+      "movement": [
+        38,
+        46
+      ],
+      "pronunciatio": "\ud83c\udfa8",
+      "description": "working on her watercolor paintings (selecting the watercolor paper and paints for today's work) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 88.3,
+          "hunger": 98.3,
+          "fun": 54.1,
+          "hygiene": 73.6,
+          "bladder": 47.7,
+          "social": 50.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Yuriko Yamamoto": {
+      "movement": [
+        29,
+        68
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Yuriko is waking up and completing her morning routine (brushing her teeth) @ the Ville:Yuriko Yamamoto's house:bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 98.3,
+          "hunger": 30.9,
+          "fun": 45.6,
+          "hygiene": 71.0,
+          "bladder": 58.1,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Adam Smith": {
+      "movement": [
+        21,
+        62
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd04",
+      "description": "working on his book (editing previous chapters for coherence and flow) @ the Ville:Adam Smith's house:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 83.3,
+          "hunger": 52.9,
+          "fun": 77.0,
+          "hygiene": 70.1,
+          "bladder": 58.1,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 07:20:30"
+  }
+}

@@ -1,0 +1,842 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        16,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcf7\ud83d\udcdd",
+      "description": "working on her photography projects in the artists' co-living space (editing recent travel photographs) @ the Ville:artist's co-living space:Latoya Williams's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 68.3,
+          "hunger": 63.4,
+          "fun": 100.0,
+          "hygiene": 90.7,
+          "bladder": 23.1,
+          "social": 88.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Rajiv Patel": {
+      "movement": [
+        35,
+        25
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83e\udd57",
+      "description": "having lunch (preparing his lunch) @ the Ville:artist's co-living space:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 83.3,
+          "hunger": 67.3,
+          "fun": 48.3,
+          "hygiene": 55.1,
+          "bladder": 23.1,
+          "social": 59.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        44,
+        31
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "taking a short break for lunch. She enjoys a nutritious meal while listening to music and planning her afternoon tasks (conversing about Adam Smith and Abigail Chen discussing their animation project, specifically how to integrate humor and improv techniques into conflict resolution scenes, and planning a meeting on Thursday at 3 PM to work on this idea.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 78.3,
+          "hunger": 67.3,
+          "fun": 100.0,
+          "hygiene": 55.1,
+          "bladder": 23.1,
+          "social": 66.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Francisco Lopez": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "Francisco is having a lunch break during the emergency meeting as it has run over from 10:00 am to 12:00 pm (conversing about planning interactive workshops incorporating elements of Francisco's web series into Sam\u2019s campaign visuals, with Jennifer and Francisco discussing logistics and community engagement strategies.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.3,
+          "hunger": 100.0,
+          "fun": 64.2,
+          "hygiene": 63.7,
+          "bladder": 5.8,
+          "social": 81.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udd0d",
+      "description": "Hailey is working on her novel, conducting research and brainstorming new ideas (reviewing notes from previous research sessions) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 88.3,
+          "hunger": 62.9,
+          "fun": 28.3,
+          "hygiene": 55.1,
+          "bladder": 23.1,
+          "social": 59.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Arthur Burton": {
+      "movement": [
+        54,
+        23
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83e\udd57",
+      "description": "Arthur is taking a short break and having lunch. He reviews customer feedback from the past week to improve his service and cocktails (preparing his lunch) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.3,
+          "hunger": 100.0,
+          "fun": 37.5,
+          "hygiene": 55.1,
+          "bladder": 0.0,
+          "social": 48.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ryan Park": {
+      "movement": [
+        53,
+        21
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83e\udd57",
+      "description": "having lunch (preparing his lunch) @ the Ville:Ryan Park's apartment:main room:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 83.3,
+          "hunger": 54.5,
+          "fun": 99.9,
+          "hygiene": 55.1,
+          "bladder": 23.1,
+          "social": 66.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about planning a Valentine's Day party and a subsequent coffee meeting to discuss mayor election candidates, incorporating improv comedy techniques and interactive games based on voter demographics to enhance civic engagement and conflict resolution skills among guests. @ <persona> Giorgio Rossi",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Giorgio, it's great to see you here. I was just setting up for our Valentine's Day party tomorrow and wondered if we could touch base about that as well as our coffee meeting on Thursday?"
+        ],
+        [
+          "Giorgio Rossi",
+          "Hello Isabella, nice to see you too. Of course, we can talk about the party setup briefly if you have a moment. And I'm looking forward to our meeting on Thursday to discuss the mayor election candidates and share insights from my recent research."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, let me just quickly run through some ideas for tomorrow's party. I think it would be fantastic to incorporate improv comedy techniques to enhance civic engagement and conflict resolution skills among our guests. What do you think about that?"
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds like an interesting approach, Isabella. It could certainly make for a unique and engaging event. Have you thought about how improv comedy might relate to or influence discussions about the mayor election candidates we plan to cover on Thursday?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Yes, I think it could blend well. For example, we can have a segment where participants role-play scenarios related to civic issues or even current election topics using improv comedy. This way, people get to explore different perspectives and engage in constructive dialogue."
+        ],
+        [
+          "Giorgio Rossi",
+          "I like that idea, Isabella. Improv could indeed foster a more open and creative approach to discussing complex issues such as those facing our community during this election season."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Exactly, Giorgio. We could also invite some local improv artists to lead a mini-workshop during the party and have them interact directly with our guests. It would be a fun way for people to step out of their comfort zones and connect on a deeper level."
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds very promising, Isabella. It would be great to see how improv comedy can facilitate a more nuanced and inclusive discussion among our community members about the election issues. Perhaps we could mention this idea in our coffee meeting on Thursday as well."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works for me, Giorgio. I'll make sure to bring this up and we can discuss logistics more during our Thursday meeting. In the meantime, if you have any suggestions or connections with local improv groups, please let me know."
+        ],
+        [
+          "Giorgio Rossi",
+          "I'll definitely reach out to some local improv groups and see if they're interested in collaborating. Perhaps we could even integrate a bit of my mathematical analysis into the event, like creating interactive games that highlight patterns and insights related to voter demographics for the election."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds fantastic, Giorgio. Combining improv comedy with your mathematical insights would provide a unique and educational experience for our guests. Let's also discuss how we can promote this collaborative aspect of the event through social media to reach more people."
+        ],
+        [
+          "Giorgio Rossi",
+          "I'll start reaching out to local improv groups and let you know if they're interested. Also, I can create a simple interactive game for the party based on voter demographics that guests can play during breaks. This could be a great way to engage people in the election discussion in an entertaining manner."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds wonderful, Giorgio. I think combining your interactive game with the improv workshops will create a well-rounded experience for everyone. Let's also plan to have some Valentine\u2019s Day themed drinks specifically tailored for this event to make it unique and memorable."
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds like we have some exciting plans coming together, Isabella. I'll start working on both reaching out to local improv groups and developing the interactive game based on voter demographics for our guests. Let's aim to finalize these details by Thursday so we can share them at our meeting."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great, Giorgio. I'll start coordinating with Arthur and Maria to finalize the drink menu for tomorrow\u2019s event. Can't wait to see how everything comes together! Thanks again for your collaboration on this."
+        ],
+        [
+          "Giorgio Rossi",
+          "Thanks, Isabella. It\u2019s great to see how our ideas can complement each other and add value to both the party and our upcoming discussions on Thursday. I'll get in touch with local improv groups and update you if there's any progress or specific needs from them."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 68.3,
+          "hunger": 100.0,
+          "fun": 97.5,
+          "hygiene": 63.7,
+          "bladder": 23.1,
+          "social": 91.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        79,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about planning a Valentine's Day party and a subsequent coffee meeting to discuss mayor election candidates, incorporating improv comedy techniques and interactive games based on voter demographics to enhance civic engagement and conflict resolution skills among guests. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Giorgio, it's great to see you here. I was just setting up for our Valentine's Day party tomorrow and wondered if we could touch base about that as well as our coffee meeting on Thursday?"
+        ],
+        [
+          "Giorgio Rossi",
+          "Hello Isabella, nice to see you too. Of course, we can talk about the party setup briefly if you have a moment. And I'm looking forward to our meeting on Thursday to discuss the mayor election candidates and share insights from my recent research."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, let me just quickly run through some ideas for tomorrow's party. I think it would be fantastic to incorporate improv comedy techniques to enhance civic engagement and conflict resolution skills among our guests. What do you think about that?"
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds like an interesting approach, Isabella. It could certainly make for a unique and engaging event. Have you thought about how improv comedy might relate to or influence discussions about the mayor election candidates we plan to cover on Thursday?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Yes, I think it could blend well. For example, we can have a segment where participants role-play scenarios related to civic issues or even current election topics using improv comedy. This way, people get to explore different perspectives and engage in constructive dialogue."
+        ],
+        [
+          "Giorgio Rossi",
+          "I like that idea, Isabella. Improv could indeed foster a more open and creative approach to discussing complex issues such as those facing our community during this election season."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Exactly, Giorgio. We could also invite some local improv artists to lead a mini-workshop during the party and have them interact directly with our guests. It would be a fun way for people to step out of their comfort zones and connect on a deeper level."
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds very promising, Isabella. It would be great to see how improv comedy can facilitate a more nuanced and inclusive discussion among our community members about the election issues. Perhaps we could mention this idea in our coffee meeting on Thursday as well."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works for me, Giorgio. I'll make sure to bring this up and we can discuss logistics more during our Thursday meeting. In the meantime, if you have any suggestions or connections with local improv groups, please let me know."
+        ],
+        [
+          "Giorgio Rossi",
+          "I'll definitely reach out to some local improv groups and see if they're interested in collaborating. Perhaps we could even integrate a bit of my mathematical analysis into the event, like creating interactive games that highlight patterns and insights related to voter demographics for the election."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds fantastic, Giorgio. Combining improv comedy with your mathematical insights would provide a unique and educational experience for our guests. Let's also discuss how we can promote this collaborative aspect of the event through social media to reach more people."
+        ],
+        [
+          "Giorgio Rossi",
+          "I'll start reaching out to local improv groups and let you know if they're interested. Also, I can create a simple interactive game for the party based on voter demographics that guests can play during breaks. This could be a great way to engage people in the election discussion in an entertaining manner."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds wonderful, Giorgio. I think combining your interactive game with the improv workshops will create a well-rounded experience for everyone. Let's also plan to have some Valentine\u2019s Day themed drinks specifically tailored for this event to make it unique and memorable."
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds like we have some exciting plans coming together, Isabella. I'll start working on both reaching out to local improv groups and developing the interactive game based on voter demographics for our guests. Let's aim to finalize these details by Thursday so we can share them at our meeting."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great, Giorgio. I'll start coordinating with Arthur and Maria to finalize the drink menu for tomorrow\u2019s event. Can't wait to see how everything comes together! Thanks again for your collaboration on this."
+        ],
+        [
+          "Giorgio Rossi",
+          "Thanks, Isabella. It\u2019s great to see how our ideas can complement each other and add value to both the party and our upcoming discussions on Thursday. I'll get in touch with local improv groups and update you if there's any progress or specific needs from them."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 73.3,
+          "hunger": 55.2,
+          "fun": 43.8,
+          "hygiene": 88.2,
+          "bladder": 23.1,
+          "social": 53.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Carlos Gomez": {
+      "movement": [
+        94,
+        21
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83c\udf7d\ufe0f",
+      "description": "Carlos is taking a break and having lunch (eating his lunch) @ the Ville:Carlos Gomez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.3,
+          "hunger": 100.0,
+          "fun": 98.8,
+          "hygiene": 63.7,
+          "bladder": 23.1,
+          "social": 34.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        74,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Maria Lopez discussing their respective projects on gentrification research and community engagement initiatives, expressing interest in potential collaboration. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hi Maria, I hope you're enjoying your meal. I'm Klaus, by the way."
+        ],
+        [
+          "Maria Lopez",
+          "Hello Klaus, nice to meet you! I'm here almost every day for my studies. How about you? What brings you to Hobbs Cafe today?"
+        ],
+        [
+          "Klaus Mueller",
+          "I'm here to grab some lunch and work on my research paper a bit after. It's pretty quiet in there today, right?"
+        ],
+        [
+          "Maria Lopez",
+          "Yes, it is quite peaceful. That\u2019s perfect for getting some work done. What subject are you writing your research paper on?"
+        ],
+        [
+          "Klaus Mueller",
+          "I'm actually looking into the effects of gentrification in low-income communities. It's quite an interesting topic and there are a lot of perspectives to consider."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like very important and relevant research. I've heard a bit about gentrification in our city too, especially regarding the impact on community dynamics. Have you found any particular challenges in your studies so far?"
+        ],
+        [
+          "Klaus Mueller",
+          "Yes, one challenge has been trying to understand how different stakeholders view gentrification. For example, developers might see it as a way to revitalize an area, while long-time residents often feel displaced and ignored. It's important to capture both sides of the story."
+        ],
+        [
+          "Maria Lopez",
+          "Absolutely, understanding diverse viewpoints is crucial. I'm actually involved in a project that uses interactive elements to engage communities and gather their feedback on issues like this. It sounds intriguing how your research could inform such initiatives to ensure they're inclusive."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like an innovative approach, Maria. I think combining such interactive methods with detailed sociological studies could really help in understanding and addressing the complexities of gentrification more effectively. Are you planning any upcoming events or workshops where people can participate?"
+        ],
+        [
+          "Maria Lopez",
+          "Yes, we're organizing some events and workshops for Valentine\u2019s Day to raise awareness about civic engagement issues like gentrification. We\u2019re also planning a campaign app that uses physics concepts and improv comedy techniques to engage users. Would you be interested in attending or contributing your insights?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a fascinating initiative, Maria. I would definitely be interested in attending and possibly collaborating on any parts that relate to sociological research. Could you give me more details about how people can get involved?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, we're scheduling meetings and workshops throughout this week and next. You can reach out to me via email or social media to get updates on the schedule. Your sociological insights would be incredibly valuable for our interactive sessions."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Maria. I'll definitely look into those meetings and reach out to you for more details. It would be wonderful to see how my research can contribute to such meaningful projects."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Klaus! I look forward to connecting with you further. If you have any questions or would like to discuss your research in more detail before the meetings, feel free to reach out."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. I appreciate your openness to collaboration and look forward to exploring how we can work together on this important issue."
+        ],
+        [
+          "Maria Lopez",
+          "It was great chatting with you, Klaus. I hope to see you at one of our upcoming events and can't wait to hear more about your research."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 73.3,
+          "hunger": 99.7,
+          "fun": 48.2,
+          "hygiene": 87.0,
+          "bladder": 0.0,
+          "social": 38.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        74,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Maria Lopez discussing their respective projects on gentrification research and community engagement initiatives, expressing interest in potential collaboration. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hi Maria, I hope you're enjoying your meal. I'm Klaus, by the way."
+        ],
+        [
+          "Maria Lopez",
+          "Hello Klaus, nice to meet you! I'm here almost every day for my studies. How about you? What brings you to Hobbs Cafe today?"
+        ],
+        [
+          "Klaus Mueller",
+          "I'm here to grab some lunch and work on my research paper a bit after. It's pretty quiet in there today, right?"
+        ],
+        [
+          "Maria Lopez",
+          "Yes, it is quite peaceful. That\u2019s perfect for getting some work done. What subject are you writing your research paper on?"
+        ],
+        [
+          "Klaus Mueller",
+          "I'm actually looking into the effects of gentrification in low-income communities. It's quite an interesting topic and there are a lot of perspectives to consider."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like very important and relevant research. I've heard a bit about gentrification in our city too, especially regarding the impact on community dynamics. Have you found any particular challenges in your studies so far?"
+        ],
+        [
+          "Klaus Mueller",
+          "Yes, one challenge has been trying to understand how different stakeholders view gentrification. For example, developers might see it as a way to revitalize an area, while long-time residents often feel displaced and ignored. It's important to capture both sides of the story."
+        ],
+        [
+          "Maria Lopez",
+          "Absolutely, understanding diverse viewpoints is crucial. I'm actually involved in a project that uses interactive elements to engage communities and gather their feedback on issues like this. It sounds intriguing how your research could inform such initiatives to ensure they're inclusive."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like an innovative approach, Maria. I think combining such interactive methods with detailed sociological studies could really help in understanding and addressing the complexities of gentrification more effectively. Are you planning any upcoming events or workshops where people can participate?"
+        ],
+        [
+          "Maria Lopez",
+          "Yes, we're organizing some events and workshops for Valentine\u2019s Day to raise awareness about civic engagement issues like gentrification. We\u2019re also planning a campaign app that uses physics concepts and improv comedy techniques to engage users. Would you be interested in attending or contributing your insights?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a fascinating initiative, Maria. I would definitely be interested in attending and possibly collaborating on any parts that relate to sociological research. Could you give me more details about how people can get involved?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, we're scheduling meetings and workshops throughout this week and next. You can reach out to me via email or social media to get updates on the schedule. Your sociological insights would be incredibly valuable for our interactive sessions."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Maria. I'll definitely look into those meetings and reach out to you for more details. It would be wonderful to see how my research can contribute to such meaningful projects."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Klaus! I look forward to connecting with you further. If you have any questions or would like to discuss your research in more detail before the meetings, feel free to reach out."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. I appreciate your openness to collaboration and look forward to exploring how we can work together on this important issue."
+        ],
+        [
+          "Maria Lopez",
+          "It was great chatting with you, Klaus. I hope to see you at one of our upcoming events and can't wait to hear more about your research."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 88.3,
+          "hunger": 17.4,
+          "fun": 48.7,
+          "hygiene": 63.7,
+          "bladder": 23.1,
+          "social": 52.9
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Ayesha Khan": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83e\udd14",
+      "description": "attending her classes at the library (reviewing notes and preparing questions for clarification) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 68.3,
+          "hunger": 87.2,
+          "fun": 64.8,
+          "hygiene": 63.7,
+          "bladder": 23.1,
+          "social": 60.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "Wolfgang is studying chemistry and related subjects (solving practice problems related to the reviewed material) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.3,
+          "hunger": 97.0,
+          "fun": 65.2,
+          "hygiene": 87.2,
+          "bladder": 23.1,
+          "social": 44.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Mei Lin": {
+      "movement": [
+        112,
+        26
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\ude0b",
+      "description": "Mei is having lunch at the college cafeteria (eating her meal slowly, enjoying the flavors) @ the Ville:Oak Hill College:classroom:blackboard",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.3,
+          "hunger": 100.0,
+          "fun": 51.1,
+          "hygiene": 85.9,
+          "bladder": 66.1,
+          "social": 44.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        52
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc68\u200d",
+      "description": "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (answering questions from a customer about new treatments for chronic conditions) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.4,
+          "hunger": 78.7,
+          "fun": 58.3,
+          "hygiene": 86.7,
+          "bladder": 23.1,
+          "social": 54.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        108,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb5",
+      "description": "Eddy is attending his second class at Oak Hill College (waiting to start conversing about Ayesha Khan and Eddy Lin discussing potential parallels between Shakespeare\u2019s use of language and rhythm in his plays and how different musical styles can convey philosophical ideas, with plans to collaborate on a project exploring these intersections.) @ the Ville:Oak Hill College:classroom:classroom podium",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.4,
+          "hunger": 60.3,
+          "fun": 85.0,
+          "hygiene": 93.2,
+          "bladder": 23.1,
+          "social": 53.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Tom Moreno": {
+      "movement": [
+        79,
+        48
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "managing customer services and helping with orders at The Willow Market and Pharmacy (restocking shelves once more for afternoon customers) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.3,
+          "hunger": 21.8,
+          "fun": 25.6,
+          "hygiene": 63.7,
+          "bladder": 23.1,
+          "social": 61.5
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Jane Moreno": {
+      "movement": [
+        73,
+        62
+      ],
+      "pronunciatio": "\ud83d\udde3\ud83d\udc65",
+      "description": "Jane is going grocery shopping at The Willow Market and Pharmacy (conversing about planning and promoting an upcoming town hall meeting, with Tom Moreno seeking Jane Moreno's assistance in spreading awareness among their community members.) @ the Ville:Moreno family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 68.3,
+          "hunger": 81.6,
+          "fun": 25.6,
+          "hygiene": 63.7,
+          "bladder": 23.1,
+          "social": 35.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Tamara Taylor": {
+      "movement": [
+        65,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udf7b",
+      "description": "having lunch with housemate Carmen Ortiz (conversing about Tamara and Carmen discussing their plans for after work, including meeting up at The Rose and Crown Pub for drinks.) @ the Ville:The Rose and Crown Pub:pub:bar customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 68.3,
+          "hunger": 97.6,
+          "fun": 37.7,
+          "hygiene": 55.1,
+          "bladder": 23.1,
+          "social": 33.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Carmen Ortiz": {
+      "movement": [
+        62,
+        49
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "working at Harvey Oak Supply Store (taking a break and making coffee) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.3,
+          "hunger": 44.6,
+          "fun": 25.6,
+          "hygiene": 68.9,
+          "bladder": 16.2,
+          "social": 48.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Sam Moore": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udc65",
+      "description": "Sam is sitting at Hobbs cafe reading and planning his mayoral campaign (planning a speech for the community meeting) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.3,
+          "hunger": 92.8,
+          "fun": 100.0,
+          "hygiene": 80.1,
+          "bladder": 53.0,
+          "social": 84.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Jennifer Moore": {
+      "movement": [
+        41,
+        35
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\udd25",
+      "description": "Jennifer is having lunch with Sam (setting the table and cooking a simple meal) @ the Ville:Moore family's house:main room:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.3,
+          "hunger": 100.0,
+          "fun": 98.5,
+          "hygiene": 58.6,
+          "bladder": 12.7,
+          "social": 97.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Yuriko Yamamoto": {
+      "movement": [
+        61,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "Yuriko is reviewing documents and preparing for the upcoming lunch meeting with clients (conversing about Adam Smith and Yuriko Yamamoto discussing how to integrate improv comedy into community meetings to enhance civic engagement and creative conflict resolution, with plans to involve Francisco Lopez and Jennifer Moore in a pre-workshop session next Tuesday at 4pm.) @ the Ville:The Rose and Crown Pub:pub:microphone",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.3,
+          "hunger": 100.0,
+          "fun": 32.9,
+          "hygiene": 90.0,
+          "bladder": 23.1,
+          "social": 54.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Adam Smith": {
+      "movement": [
+        60,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "Adam is having lunch (conversing about Adam Smith and Abigail Chen discussing their animation project, specifically how to integrate humor and improv techniques into conflict resolution scenes, and planning a meeting on Thursday at 3 PM to work on this idea.) @ the Ville:The Rose and Crown Pub:pub:microphone",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 58.3,
+          "hunger": 100.0,
+          "fun": 94.9,
+          "hygiene": 55.1,
+          "bladder": 23.1,
+          "social": 99.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 12:20:40"
+  }
+}

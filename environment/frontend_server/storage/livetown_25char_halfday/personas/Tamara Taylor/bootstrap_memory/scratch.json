@@ -1,0 +1,626 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    55,
+    69
+  ],
+  "daily_plan_req": "",
+  "name": "Tamara Taylor",
+  "first_name": "Tamara",
+  "last_name": "Taylor",
+  "age": 30,
+  "innate": "imaginative, patient, kind",
+  "learned": "Tamara Taylor is a children's book author who loves to create stories that capture the imaginations of young readers. She is very patient and kind when it comes to her work.",
+  "currently": "Tamara Taylor lives with a housemate, Carmen Ortiz, and is working on a new series of children's books. She is also working on a comic book series for adults.",
+  "seed_currently": "Tamara Taylor lives with a housemate, Carmen Ortiz, and is working on a new series of children's books. She is also working on a comic book series for adults.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 46.41,
+    "hunger": 83.68,
+    "fun": 37.68,
+    "hygiene": 42.0,
+    "bladder": 0.0,
+    "social": 23.7
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Carmen Ortiz": {
+      "friendship": 9.0,
+      "romance": 0.0
+    },
+    "Jane Moreno": {
+      "friendship": 10.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Tamara Taylor goes to bed around 10pm, awakes up around 6am, eats dinner around 6pm.",
+  "living_area": "the Ville:Tamara Taylor and Carmen Ortiz's house:Tamara Taylor's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 142,
+  "importance_ele_n": 41,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "work on drafting a new children's book chapter until 9:00 am",
+    "take a break for breakfast at 9:00 am",
+    "work on her adult comic book series from 10:00 am to 12:00 pm",
+    "have lunch with housemate Carmen Ortiz at 12:00 pm",
+    "spend the afternoon revising both children's books and comic books until 3:00 pm",
+    "take a walk outside to clear her mind from 3:00 pm to 4:00 pm",
+    "continue working from 4:00 pm to 5:00 pm, focusing on marketing strategies for both projects"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "wake up and complete the morning routine (waking up and turning off her alarm)",
+      5
+    ],
+    [
+      "wake up and complete the morning routine (stretching and getting out of bed)",
+      5
+    ],
+    [
+      "wake up and complete the morning routine (going to the bathroom to brush her teeth and wash her face)",
+      10
+    ],
+    [
+      "wake up and complete the morning routine (drinking a glass of water)",
+      5
+    ],
+    [
+      "wake up and complete the morning routine (getting dressed for the day)",
+      10
+    ],
+    [
+      "wake up and complete the morning routine (checking her emails and messages on her phone)",
+      10
+    ],
+    [
+      "wake up and complete the morning routine (meditating for a few minutes to start the day calmly)",
+      15
+    ],
+    [
+      "Tamara is having breakfast and planning her day (making coffee)",
+      5
+    ],
+    [
+      "Tamara is having breakfast and planning her day (on the way to preparing breakfast)",
+      0
+    ],
+    [
+      "Tamara is having breakfast and planning her day (conversing about Carmen Ortiz and Tamara Taylor coordinating their morning routines and preparing for work at a store.)",
+      7
+    ],
+    [
+      "Tamara is having breakfast and planning her day (preparing and eating breakfast)",
+      18
+    ],
+    [
+      "Tamara is having breakfast and planning her day (reviewing her schedule for the day)",
+      10
+    ],
+    [
+      "Tamara is having breakfast and planning her day (planning tasks for the morning)",
+      10
+    ],
+    [
+      "Tamara is having breakfast and planning her day (organizing materials needed for writing)",
+      5
+    ],
+    [
+      "Tamara is having breakfast and planning her day (setting goals for her writing session)",
+      5
+    ],
+    [
+      "working on drafting a new children's book chapter (reviewing her notes and outlines for inspiration)",
+      15
+    ],
+    [
+      "working on drafting a new children's book chapter (brainstorming ideas for the chapter's plot and characters)",
+      15
+    ],
+    [
+      "working on drafting a new children's book chapter (drafting the first part of the chapter)",
+      15
+    ],
+    [
+      "working on drafting a new children's book chapter (editing and revising her draft)",
+      15
+    ],
+    [
+      "Tamara is having breakfast and planning her day (making coffee)",
+      5
+    ],
+    [
+      "Tamara is having breakfast and planning her day (preparing breakfast)",
+      10
+    ],
+    [
+      "Tamara is having breakfast and planning her day (eating breakfast)",
+      15
+    ],
+    [
+      "Tamara is having breakfast and planning her day (planning her day's schedule)",
+      10
+    ],
+    [
+      "Tamara is having breakfast and planning her day (checking emails and messages)",
+      10
+    ],
+    [
+      "Tamara is having breakfast and planning her day (organizing her workspace for the day)",
+      10
+    ],
+    [
+      "working on her adult comic book series (outlining the next chapter of the comic book)",
+      20
+    ],
+    [
+      "working on her adult comic book series (sketching character designs for the new chapter)",
+      15
+    ],
+    [
+      "working on her adult comic book series (writing dialogue and narrative descriptions for the sketches)",
+      15
+    ],
+    [
+      "working on her adult comic book series (reviewing her work to ensure consistency with previous chapters)",
+      10
+    ],
+    [
+      "Tamara is taking a short break before continuing work on her adult comic book series (stretching and getting some water)",
+      5
+    ],
+    [
+      "Tamara is taking a short break before continuing work on her adult comic book series (reviewing her notes from the morning session)",
+      10
+    ],
+    [
+      "Tamara is taking a short break before continuing work on her adult comic book series (planning out the next section of the comic book)",
+      15
+    ],
+    [
+      "Tamara is taking a short break before continuing work on her adult comic book series (taking a short walk around the house to clear her mind)",
+      10
+    ],
+    [
+      "Tamara is taking a short break before continuing work on her adult comic book series (organizing her workspace for continued work)",
+      5
+    ],
+    [
+      "Tamara is taking a short break before continuing work on her adult comic book series (meditating for mental clarity)",
+      15
+    ],
+    [
+      "having lunch with housemate Carmen Ortiz (preparing to leave for lunch)",
+      5
+    ],
+    [
+      "having lunch with housemate Carmen Ortiz (and Carmen are walking to a nearby caf\u00e9)",
+      10
+    ],
+    [
+      "having lunch with housemate Carmen Ortiz (on the way to and Carmen are ordering their food)",
+      0
+    ],
+    [
+      "having lunch with housemate Carmen Ortiz (conversing about Tamara and Carmen discussing their plans for after work, including meeting up at The Rose and Crown Pub for drinks.)",
+      7
+    ],
+    [
+      "having lunch with housemate Carmen Ortiz (chatting with Carmen about her day)",
+      8
+    ],
+    [
+      "having lunch with housemate Carmen Ortiz (eating her lunch)",
+      30
+    ],
+    [
+      "Tamara is revising her children's books and comic book series (reviewing the latest draft of her children's book)",
+      30
+    ],
+    [
+      "Tamara is revising her children's books and comic book series (making notes for revisions on her children's book)",
+      15
+    ],
+    [
+      "Tamara is revising her children's books and comic book series (revising the comic book series)",
+      30
+    ],
+    [
+      "Tamara is revising her children's books and comic book series (editing dialogue and descriptions in the comic book series)",
+      20
+    ],
+    [
+      "Tamara is revising her children's books and comic book series (taking a short break to stretch her legs)",
+      5
+    ],
+    [
+      "Tamara is revising her children's books and comic book series (reviewing character development in both projects)",
+      20
+    ],
+    [
+      "Tamara is taking a walk outside to clear her mind (walking out of the house)",
+      5
+    ],
+    [
+      "Tamara is taking a walk outside to clear her mind (walking to a nearby park)",
+      10
+    ],
+    [
+      "Tamara is taking a walk outside to clear her mind (sitting on a bench and observing nature)",
+      10
+    ],
+    [
+      "Tamara is taking a walk outside to clear her mind (taking deep breaths and meditating for a few moments)",
+      5
+    ],
+    [
+      "Tamara is taking a walk outside to clear her mind (walking around the park to clear her mind)",
+      20
+    ],
+    [
+      "Tamara is taking a walk outside to clear her mind (on the way to sitting on another bench to reflect on her work)",
+      0
+    ],
+    [
+      "Tamara is taking a walk outside to clear her mind (conversing about Jane Moreno and Tamara Taylor discussing plans for an upcoming town hall meeting focused on community issues such as healthcare policies and medication accessibility, with both agreeing to spread awareness and encourage participation.)",
+      12
+    ],
+    [
+      "Tamara is continuing to work on marketing strategies for both her children's books and comic book series (reviewing sales data for the past month)",
+      28
+    ],
+    [
+      "Tamara is continuing to work on marketing strategies for both her children's books and comic book series (analyzing which marketing strategies were most effective)",
+      30
+    ],
+    [
+      "Tamara is continuing to work on marketing strategies for both her children's books and comic book series (brainstorming new social media campaigns)",
+      45
+    ],
+    [
+      "Tamara is continuing to work on marketing strategies for both her children's books and comic book series (creating content for the upcoming book release)",
+      60
+    ],
+    [
+      "Tamara is continuing to work on marketing strategies for both her children's books and comic book series (taking a break)",
+      15
+    ],
+    [
+      "Tamara is having dinner with housemate Carmen Ortiz",
+      60
+    ],
+    [
+      "Tamara is continuing to work on marketing strategies for both her children's books and comic book series",
+      60
+    ],
+    [
+      "Tamara is taking a break and spending time with her housemate Carmen Ortiz. They are likely chatting or engaging in a leisure activity together",
+      60
+    ],
+    [
+      "Tamara is preparing for bed and winding down for the night",
+      120
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "wake up and complete the morning routine",
+      60
+    ],
+    [
+      "Tamara is having breakfast and planning her day",
+      60
+    ],
+    [
+      "working on drafting a new children's book chapter",
+      60
+    ],
+    [
+      "Tamara is having breakfast and planning her day",
+      60
+    ],
+    [
+      "working on her adult comic book series",
+      60
+    ],
+    [
+      "Tamara is taking a short break before continuing work on her adult comic book series",
+      60
+    ],
+    [
+      "having lunch with housemate Carmen Ortiz",
+      60
+    ],
+    [
+      "Tamara is revising her children's books and comic book series",
+      120
+    ],
+    [
+      "Tamara is taking a walk outside to clear her mind",
+      60
+    ],
+    [
+      "Tamara is continuing to work on marketing strategies for both her children's books and comic book series",
+      180
+    ],
+    [
+      "Tamara is having dinner with housemate Carmen Ortiz",
+      60
+    ],
+    [
+      "Tamara is continuing to work on marketing strategies for both her children's books and comic book series",
+      60
+    ],
+    [
+      "Tamara is taking a break and spending time with her housemate Carmen Ortiz. They are likely chatting or engaging in a leisure activity together",
+      60
+    ],
+    [
+      "Tamara is preparing for bed and winding down for the night",
+      120
+    ]
+  ],
+  "act_address": "the Ville:Tamara Taylor and Carmen Ortiz's house:common room:common room table",
+  "act_start_time": "February 13, 2023, 16:37:00",
+  "act_duration": 30,
+  "act_description": "Tamara is continuing to work on marketing strategies for both her children's books and comic book series (analyzing which marketing strategies were most effective)",
+  "act_pronunciatio": "\ud83d\udcca\ud83d\udd0d",
+  "act_event": [
+    "Tamara Taylor",
+    "analyze",
+    "marketing strategies"
+  ],
+  "act_obj_description": "covered with papers and notebooks",
+  "act_obj_pronunciatio": "\ud83d\udcd6\ud83d\udcda",
+  "act_obj_event": [
+    "common room table",
+    "be covered with",
+    "papers and notebooks"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Carmen Ortiz": -780,
+    "Jane Moreno": 474
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

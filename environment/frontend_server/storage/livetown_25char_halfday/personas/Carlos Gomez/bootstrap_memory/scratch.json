@@ -1,0 +1,647 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    112,
+    23
+  ],
+  "daily_plan_req": "",
+  "name": "Carlos Gomez",
+  "first_name": "Carlos",
+  "last_name": "Gomez",
+  "age": 32,
+  "innate": "loud, rude, toxic",
+  "learned": "Carlos Gomez is a poet who loves to explore his inner thoughts and feelings. He is always looking for new ways to express himself.",
+  "currently": "Carlos Gomez is working on a collection of poetry that explores the beauty of the natural world. He is also attending creative writing workshops to hone his skills.",
+  "seed_currently": "Carlos Gomez is working on a collection of poetry that explores the beauty of the natural world. He is also attending creative writing workshops to hone his skills.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 51.41,
+    "hunger": 100.0,
+    "fun": 100.0,
+    "hygiene": 50.58,
+    "bladder": 0.0,
+    "social": 32.85
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Abigail Chen": {
+      "friendship": 10.0,
+      "romance": 0.0
+    },
+    "Wolfgang Schulz": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Ayesha Khan": {
+      "friendship": 10.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Carlos Gomez goes to bed around 10pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Carlos Gomez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 129,
+  "importance_ele_n": 45,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "eat breakfast at 7:30 am",
+    "work on poetry collection until noon at 12:00 pm",
+    "have lunch at 12:30 pm",
+    "attend a creative writing workshop from 2:00 to 4:00 pm",
+    "take a short walk around the park near his home for inspiration at 4:30 pm",
+    "continue working on poetry until dinner time at 6:00 pm",
+    "have dinner at 5:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine (getting out of bed)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (going to the bathroom to use the toilet and wash his face)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (brushing his teeth)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (drinking a glass of water)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (getting dressed for the day)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (making his bed)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (checking his phone for messages and emails)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (preparing breakfast)",
+      15
+    ],
+    [
+      "reading and planning his day over coffee (making coffee)",
+      10
+    ],
+    [
+      "reading and planning his day over coffee (choosing a book to read)",
+      5
+    ],
+    [
+      "reading and planning his day over coffee (reading for 15 minutes)",
+      15
+    ],
+    [
+      "reading and planning his day over coffee (planning his poetry writing schedule)",
+      10
+    ],
+    [
+      "reading and planning his day over coffee (reviewing his creative writing workshop notes)",
+      10
+    ],
+    [
+      "reading and planning his day over coffee (setting goals for the day's poetry work)",
+      5
+    ],
+    [
+      "reading and planning his day over coffee (taking a short break to stretch and relax)",
+      5
+    ],
+    [
+      "working on his poetry collection (reviewing previous poems for inspiration)",
+      30
+    ],
+    [
+      "working on his poetry collection (brainstorming new poem ideas)",
+      20
+    ],
+    [
+      "working on his poetry collection (writing a rough draft of the new poem)",
+      40
+    ],
+    [
+      "working on his poetry collection (taking a short break to stretch and hydrate)",
+      5
+    ],
+    [
+      "working on his poetry collection (revising the rough draft for clarity and flow)",
+      30
+    ],
+    [
+      "working on his poetry collection (reading aloud his revised poem to hear how it sounds)",
+      10
+    ],
+    [
+      "working on his poetry collection (making final edits based on feedback from readings)",
+      20
+    ],
+    [
+      "working on his poetry collection (on the way to formatting the poem for submission or publication)",
+      0
+    ],
+    [
+      "working on his poetry collection (conversing about exploring techniques and ideas for integrating poetry and animation, including humor and improv elements, with a view towards potential collaboration between Carlos Gomez and Abigail Chen.)",
+      14
+    ],
+    [
+      "working on his poetry collection (formatting the poem for submission or publication)",
+      1
+    ],
+    [
+      "working on his poetry collection (saving and backing up his work digitally)",
+      5
+    ],
+    [
+      "working on his poetry collection (organizing his notes and drafts for future reference)",
+      5
+    ],
+    [
+      "Carlos is taking a break and having lunch (preparing his lunch)",
+      15
+    ],
+    [
+      "Carlos is taking a break and having lunch (eating his lunch)",
+      20
+    ],
+    [
+      "Carlos is taking a break and having lunch (drinking water and resting)",
+      10
+    ],
+    [
+      "Carlos is taking a break and having lunch (checking social media for inspiration)",
+      10
+    ],
+    [
+      "Carlos is taking a break and having lunch (planning his afternoon schedule)",
+      5
+    ],
+    [
+      "taking a break and planning his afternoon schedule (finishing his lunch)",
+      5
+    ],
+    [
+      "taking a break and planning his afternoon schedule (reviewing notes from previous workshops)",
+      10
+    ],
+    [
+      "taking a break and planning his afternoon schedule (brainstorming ideas for new poems)",
+      10
+    ],
+    [
+      "taking a break and planning his afternoon schedule (on the way to organizing his poetry collection files)",
+      0
+    ],
+    [
+      "taking a break and planning his afternoon schedule (waiting to start brainstorming ideas for new poems)",
+      8
+    ],
+    [
+      "taking a break and planning his afternoon schedule (brainstorming ideas for new poems)",
+      10
+    ],
+    [
+      "taking a break and planning his afternoon schedule (taking a short walk to clear his mind)",
+      7
+    ],
+    [
+      "taking a break and planning his afternoon schedule (checking emails for workshop updates)",
+      5
+    ],
+    [
+      "taking a break and planning his afternoon schedule (planning the structure of his afternoon session)",
+      5
+    ],
+    [
+      "attending a creative writing workshop (arriving at the venue and finding his seat)",
+      10
+    ],
+    [
+      "attending a creative writing workshop (introducing himself to fellow attendees)",
+      5
+    ],
+    [
+      "attending a creative writing workshop (listening to the workshop facilitator's introduction)",
+      10
+    ],
+    [
+      "attending a creative writing workshop (participating in a group discussion about creative writing techniques)",
+      15
+    ],
+    [
+      "attending a creative writing workshop (taking notes on new ideas and tips for his poetry collection)",
+      10
+    ],
+    [
+      "attending a creative writing workshop (sharing his own work with the group)",
+      10
+    ],
+    [
+      "planning his afternoon schedule and preparing to attend a creative writing workshop (on the way to reviewing his notes from previous workshops)",
+      0
+    ],
+    [
+      "planning his afternoon schedule and preparing to attend a creative writing workshop (conversing about Carlos Gomez and Wolfgang Schulz discussing effective practice techniques, focusing on improving specific aspects of their respective crafts\u2014sports and poetry\u2014and planning a workshop session to enhance their skills together.)",
+      12
+    ],
+    [
+      "planning his afternoon schedule and preparing to attend a creative writing workshop (organizing his notebook and materials for the upcoming workshop)",
+      10
+    ],
+    [
+      "planning his afternoon schedule and preparing to attend a creative writing workshop (on the way to writing down ideas for poems he wants to work on during the workshop)",
+      0
+    ],
+    [
+      "planning his afternoon schedule and preparing to attend a creative writing workshop (waiting to start organizing his notebook and materials for the upcoming workshop)",
+      36
+    ],
+    [
+      "planning his afternoon schedule and preparing to attend a creative writing workshop (on the way to organizing his notebook and materials for the upcoming workshop)",
+      0
+    ],
+    [
+      "planning his afternoon schedule and preparing to attend a creative writing workshop (conversing about Ayesha Khan and Carlos Gomez discussing plans to integrate poetry, music, and animation in their workshops and exploring potential collaborations with Abigail Chen.)",
+      16
+    ],
+    [
+      "planning his afternoon schedule and preparing to attend a creative writing workshop (finalizing preparations for the upcoming workshop)",
+      1
+    ],
+    [
+      "Carlos is attending a creative writing workshop (arriving at the workshop and finding his seat)",
+      5
+    ],
+    [
+      "Carlos is attending a creative writing workshop (introducing himself to other participants and listening to the instructor's introduction)",
+      10
+    ],
+    [
+      "Carlos is attending a creative writing workshop (participating in a group discussion about poetry techniques)",
+      15
+    ],
+    [
+      "Carlos is attending a creative writing workshop (taking notes on feedback from peers and instructors)",
+      10
+    ],
+    [
+      "Carlos is attending a creative writing workshop (working on an exercise to improve his writing style and sharing a poem he wrote with the group)",
+      5
+    ],
+    [
+      "Carlos is continuing to work on his poetry collection (reviewing previous poems for inspiration)",
+      15
+    ],
+    [
+      "Carlos is continuing to work on his poetry collection (brainstorming new poem ideas)",
+      15
+    ],
+    [
+      "Carlos is continuing to work on his poetry collection (writing a draft of the new poem)",
+      20
+    ],
+    [
+      "Carlos is continuing to work on his poetry collection (taking a break)",
+      10
+    ],
+    [
+      "Carlos is having dinner",
+      60
+    ],
+    [
+      "Carlos is taking a short walk around the park near his home for inspiration",
+      60
+    ],
+    [
+      "reading and planning his day over coffee",
+      60
+    ],
+    [
+      "reading and reflecting on his day over a cup of tea",
+      120
+    ],
+    [
+      "Carlos is getting ready for bed and reflecting on his day",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "reading and planning his day over coffee",
+      60
+    ],
+    [
+      "working on his poetry collection",
+      180
+    ],
+    [
+      "Carlos is taking a break and having lunch",
+      60
+    ],
+    [
+      "taking a break and planning his afternoon schedule",
+      60
+    ],
+    [
+      "attending a creative writing workshop",
+      60
+    ],
+    [
+      "planning his afternoon schedule and preparing to attend a creative writing workshop",
+      60
+    ],
+    [
+      "Carlos is attending a creative writing workshop",
+      60
+    ],
+    [
+      "Carlos is continuing to work on his poetry collection",
+      60
+    ],
+    [
+      "Carlos is having dinner",
+      60
+    ],
+    [
+      "Carlos is taking a short walk around the park near his home for inspiration",
+      60
+    ],
+    [
+      "reading and planning his day over coffee",
+      60
+    ],
+    [
+      "reading and reflecting on his day over a cup of tea",
+      120
+    ],
+    [
+      "Carlos is getting ready for bed and reflecting on his day",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Oak Hill College:classroom:classroom student seating",
+  "act_start_time": "February 13, 2023, 16:39:00",
+  "act_duration": 15,
+  "act_description": "Carlos is attending a creative writing workshop (participating in a group discussion about poetry techniques)",
+  "act_pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udcd6",
+  "act_event": [
+    "Carlos Gomez",
+    "participate",
+    "group discussion"
+  ],
+  "act_obj_description": "occupied by Carlos Gomez who is participating in a group discussion about poetry techniques",
+  "act_obj_pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udcda",
+  "act_obj_event": [
+    "classroom student seating",
+    "be occupied by",
+    "Carlos Gomez"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Abigail Chen": -1068,
+    "Wolfgang Schulz": 204,
+    "Ayesha Khan": 618
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

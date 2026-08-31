@@ -1,0 +1,884 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        18,
+        26
+      ],
+      "pronunciatio": "\ud83d\uddbc\ud83d\udcdd",
+      "description": "working on her photography projects in the artists' co-living space (reviewing previous photos and notes) @ the Ville:artist's co-living space:Latoya Williams's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 81.2,
+          "hunger": 38.4,
+          "fun": 91.1,
+          "hygiene": 98.4,
+          "bladder": 41.2,
+          "social": 63.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Rajiv Patel": {
+      "movement": [
+        36,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Rajiv Patel and Francisco Lopez discussing potential collaborations between Rajiv's solo show and painting, music with Francisco's web series themes to support Sam's mayoral campaign. @ <persona> Francisco Lopez",
+      "chat": [
+        [
+          "Rajiv Patel",
+          "Good morning, Francisco. It looks like you've got a lot on your plate with the web series. How's everything coming along?"
+        ],
+        [
+          "Francisco Lopez",
+          "Morning, Rajiv! It's been going well, thanks for asking. We're making good progress but there are always new challenges to tackle. How about you?"
+        ],
+        [
+          "Rajiv Patel",
+          "Yeah, I've been pretty busy too. Preparing for my solo show has kept me occupied lately. Have you thought about how your web series might tie into Sam's mayoral campaign?"
+        ],
+        [
+          "Francisco Lopez",
+          "That's an interesting point, Rajiv. Jennifer and I have been brainstorming ways to incorporate themes from my web series into the campaign visuals. It could be a fun way to engage people and highlight some of the benefits of co-living spaces."
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds like an exciting project. Maybe we could collaborate on something that blends painting and music with your web series themes for the campaign?"
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds fantastic, Rajiv! I think your creativity would bring a unique perspective to the project. We could definitely explore how painting and music can complement our themes of co-living and improv comedy."
+        ],
+        [
+          "Rajiv Patel",
+          "That would be great, Francisco. I can see how my work could complement your themes and help spread positive messages about living spaces. Let's set up a time to brainstorm some ideas together."
+        ],
+        [
+          "Francisco Lopez",
+          "Sounds like a plan, Rajiv. How about we grab some coffee and start brainstorming sometime this week?"
+        ],
+        [
+          "Rajiv Patel",
+          "That works for me, Francisco. How about we meet up Thursday afternoon?"
+        ],
+        [
+          "Francisco Lopez",
+          "Sounds good, Rajiv. Let\u2019s aim for 2 PM on Thursday then."
+        ],
+        [
+          "Rajiv Patel",
+          "Perfect, I'll see you on Thursday then. Looking forward to it."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 96.2,
+          "hunger": 43.0,
+          "fun": 39.0,
+          "hygiene": 62.9,
+          "bladder": 41.2,
+          "social": 39.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcf7\ud83d\udca1",
+      "description": "working on her animation project for a client. She starts by reviewing the feedback she received over the weekend and making necessary adjustments to the current scene (adjusting the lighting and camera angles according to client's preferences) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 91.2,
+          "hunger": 81.0,
+          "fun": 58.6,
+          "hygiene": 62.9,
+          "bladder": 41.2,
+          "social": 44.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Francisco Lopez": {
+      "movement": [
+        36,
+        27
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Rajiv Patel and Francisco Lopez discussing potential collaborations between Rajiv's solo show and painting, music with Francisco's web series themes to support Sam's mayoral campaign. @ <persona> Rajiv Patel",
+      "chat": [
+        [
+          "Rajiv Patel",
+          "Good morning, Francisco. It looks like you've got a lot on your plate with the web series. How's everything coming along?"
+        ],
+        [
+          "Francisco Lopez",
+          "Morning, Rajiv! It's been going well, thanks for asking. We're making good progress but there are always new challenges to tackle. How about you?"
+        ],
+        [
+          "Rajiv Patel",
+          "Yeah, I've been pretty busy too. Preparing for my solo show has kept me occupied lately. Have you thought about how your web series might tie into Sam's mayoral campaign?"
+        ],
+        [
+          "Francisco Lopez",
+          "That's an interesting point, Rajiv. Jennifer and I have been brainstorming ways to incorporate themes from my web series into the campaign visuals. It could be a fun way to engage people and highlight some of the benefits of co-living spaces."
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds like an exciting project. Maybe we could collaborate on something that blends painting and music with your web series themes for the campaign?"
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds fantastic, Rajiv! I think your creativity would bring a unique perspective to the project. We could definitely explore how painting and music can complement our themes of co-living and improv comedy."
+        ],
+        [
+          "Rajiv Patel",
+          "That would be great, Francisco. I can see how my work could complement your themes and help spread positive messages about living spaces. Let's set up a time to brainstorm some ideas together."
+        ],
+        [
+          "Francisco Lopez",
+          "Sounds like a plan, Rajiv. How about we grab some coffee and start brainstorming sometime this week?"
+        ],
+        [
+          "Rajiv Patel",
+          "That works for me, Francisco. How about we meet up Thursday afternoon?"
+        ],
+        [
+          "Francisco Lopez",
+          "Sounds good, Rajiv. Let\u2019s aim for 2 PM on Thursday then."
+        ],
+        [
+          "Rajiv Patel",
+          "Perfect, I'll see you on Thursday then. Looking forward to it."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 86.2,
+          "hunger": 99.4,
+          "fun": 70.0,
+          "hygiene": 71.5,
+          "bladder": 23.9,
+          "social": 59.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 16.4,
+          "fun": 36.0,
+          "hygiene": 45.7,
+          "bladder": 6.7,
+          "social": 36.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Arthur Burton": {
+      "movement": [
+        61,
+        43
+      ],
+      "pronunciatio": "\ud83d\udd0d\ud83d\ude97",
+      "description": "Arthur is running errands and checking in with suppliers to ensure he has all the ingredients needed for his unique cocktail creations. He also takes some time to finalize any special events or promotions planned for the evening at The Rose and Crown Pub (visiting local suppliers to personally check on stock levels and quality of ingredients) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 86.2,
+          "hunger": 100.0,
+          "fun": 36.0,
+          "hygiene": 62.9,
+          "bladder": 6.7,
+          "social": 43.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ryan Park": {
+      "movement": [
+        74,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Giorgio Rossi and Ryan Park discussing their respective plans for the day, including research on mathematical patterns in nature and work on a mobile app project, as well as potential future collaboration between their areas of interest. @ <persona> Giorgio Rossi",
+      "chat": [
+        [
+          "Giorgio Rossi",
+          "Good morning, Ryan. I see you're starting your day with breakfast. Have any interesting plans for today?"
+        ],
+        [
+          "Ryan Park",
+          "Morning, Giorgio. I've got some coding work to do on my mobile app project this morning and then plan to research new tech trends in the afternoon. How about you?"
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds engaging. I'm working on my research project involving mathematical patterns in nature today and also planning to meet up with Isabella later for some discussion on the upcoming election candidates."
+        ],
+        [
+          "Ryan Park",
+          "That sounds interesting, Giorgio. Maybe we could explore some connections between mathematical patterns and algorithmic efficiency sometime. I'd love to hear more about your research."
+        ],
+        [
+          "Giorgio Rossi",
+          "That's a fantastic idea, Ryan. I believe there are indeed fascinating overlaps between those fields. Perhaps we could schedule a meeting to discuss it further after my election discussion this week."
+        ],
+        [
+          "Ryan Park",
+          "That sounds great, Giorgio. Let's definitely touch base after your election meeting and see how we can collaborate on connecting mathematical patterns to tech algorithms."
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds good to me, Ryan. I'll keep that in mind and reach out after my discussion this Thursday. It should provide some interesting insights for our potential collaboration."
+        ],
+        [
+          "Ryan Park",
+          "Great, looking forward to it. Have a productive day with your research and election discussions, Giorgio."
+        ],
+        [
+          "Giorgio Rossi",
+          "Thanks, Ryan. I'll make sure to share any relevant findings from my election discussion that could be pertinent to our potential collaboration."
+        ],
+        [
+          "Ryan Park",
+          "Certainly, let\u2019s make sure to sync up once you have those insights. Have a great day working on your patterns and talking politics."
+        ],
+        [
+          "Giorgio Rossi",
+          "Likewise, Ryan. I'll be in touch after Thursday's meeting to discuss further how we might connect your tech trends research with my current patterns work."
+        ],
+        [
+          "Ryan Park",
+          "Sounds like a plan, Giorgio. I'll be looking forward to your insights from both areas and how we might merge them in our discussions."
+        ],
+        [
+          "Giorgio Rossi",
+          "Sure thing, Ryan. It will be exciting to see how our different areas of interest might intersect and inspire new ideas. Enjoy your breakfast and have a productive day coding."
+        ],
+        [
+          "Ryan Park",
+          "Thanks, Giorgio. I'll be looking forward to your insights and we can brainstorm how our work might complement each other. Enjoy your research today."
+        ],
+        [
+          "Giorgio Rossi",
+          "I'll be sure to send you any relevant papers or data points from my research that could be useful for our collaboration. Talk to you soon, Ryan."
+        ],
+        [
+          "Ryan Park",
+          "That would be great, Giorgio. I'm excited about the potential for this collaboration and look forward to seeing what you find in your election discussion as well."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 96.2,
+          "hunger": 31.7,
+          "fun": 41.6,
+          "hygiene": 62.9,
+          "bladder": 41.2,
+          "social": 42.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "organizing Valentine's Day party materials and decorations for Hobbs Cafe (setting up a Valentine's Day display window) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 81.2,
+          "hunger": 98.5,
+          "fun": 71.1,
+          "hygiene": 71.5,
+          "bladder": 41.2,
+          "social": 53.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        76,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Giorgio Rossi and Ryan Park discussing their respective plans for the day, including research on mathematical patterns in nature and work on a mobile app project, as well as potential future collaboration between their areas of interest. @ <persona> Ryan Park",
+      "chat": [
+        [
+          "Giorgio Rossi",
+          "Good morning, Ryan. I see you're starting your day with breakfast. Have any interesting plans for today?"
+        ],
+        [
+          "Ryan Park",
+          "Morning, Giorgio. I've got some coding work to do on my mobile app project this morning and then plan to research new tech trends in the afternoon. How about you?"
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds engaging. I'm working on my research project involving mathematical patterns in nature today and also planning to meet up with Isabella later for some discussion on the upcoming election candidates."
+        ],
+        [
+          "Ryan Park",
+          "That sounds interesting, Giorgio. Maybe we could explore some connections between mathematical patterns and algorithmic efficiency sometime. I'd love to hear more about your research."
+        ],
+        [
+          "Giorgio Rossi",
+          "That's a fantastic idea, Ryan. I believe there are indeed fascinating overlaps between those fields. Perhaps we could schedule a meeting to discuss it further after my election discussion this week."
+        ],
+        [
+          "Ryan Park",
+          "That sounds great, Giorgio. Let's definitely touch base after your election meeting and see how we can collaborate on connecting mathematical patterns to tech algorithms."
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds good to me, Ryan. I'll keep that in mind and reach out after my discussion this Thursday. It should provide some interesting insights for our potential collaboration."
+        ],
+        [
+          "Ryan Park",
+          "Great, looking forward to it. Have a productive day with your research and election discussions, Giorgio."
+        ],
+        [
+          "Giorgio Rossi",
+          "Thanks, Ryan. I'll make sure to share any relevant findings from my election discussion that could be pertinent to our potential collaboration."
+        ],
+        [
+          "Ryan Park",
+          "Certainly, let\u2019s make sure to sync up once you have those insights. Have a great day working on your patterns and talking politics."
+        ],
+        [
+          "Giorgio Rossi",
+          "Likewise, Ryan. I'll be in touch after Thursday's meeting to discuss further how we might connect your tech trends research with my current patterns work."
+        ],
+        [
+          "Ryan Park",
+          "Sounds like a plan, Giorgio. I'll be looking forward to your insights from both areas and how we might merge them in our discussions."
+        ],
+        [
+          "Giorgio Rossi",
+          "Sure thing, Ryan. It will be exciting to see how our different areas of interest might intersect and inspire new ideas. Enjoy your breakfast and have a productive day coding."
+        ],
+        [
+          "Ryan Park",
+          "Thanks, Giorgio. I'll be looking forward to your insights and we can brainstorm how our work might complement each other. Enjoy your research today."
+        ],
+        [
+          "Giorgio Rossi",
+          "I'll be sure to send you any relevant papers or data points from my research that could be useful for our collaboration. Talk to you soon, Ryan."
+        ],
+        [
+          "Ryan Park",
+          "That would be great, Giorgio. I'm excited about the potential for this collaboration and look forward to seeing what you find in your election discussion as well."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 86.2,
+          "hunger": 53.8,
+          "fun": 46.5,
+          "hygiene": 96.0,
+          "bladder": 41.2,
+          "social": 48.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Carlos Gomez": {
+      "movement": [
+        94,
+        21
+      ],
+      "pronunciatio": "\ud83e\udd14\u270d\ufe0f",
+      "description": "working on his poetry collection (brainstorming new poem ideas) @ the Ville:Carlos Gomez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 86.2,
+          "hunger": 95.5,
+          "fun": 72.4,
+          "hygiene": 71.5,
+          "bladder": 41.2,
+          "social": 36.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        122,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcdd",
+      "description": "Klaus is working on his research paper in the library at Oak Hill College. He plans to spend several hours there before having lunch (organizing his research findings into an outline for the paper) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 86.2,
+          "hunger": 100.0,
+          "fun": 50.5,
+          "hygiene": 94.8,
+          "bladder": 6.7,
+          "social": 39.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 16.4,
+          "fun": 36.0,
+          "hygiene": 45.7,
+          "bladder": 6.7,
+          "social": 36.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ayesha Khan": {
+      "movement": [
+        104,
+        32
+      ],
+      "pronunciatio": "\ud83d\udce7\ud83d\udcdd",
+      "description": "having breakfast (cleaning the kitchen counter and sink) (catching up on emails related to her thesis) @ the Ville:Dorm for Oak Hill College:Ayesha Khan's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 81.2,
+          "hunger": 100.0,
+          "fun": 40.3,
+          "hygiene": 71.5,
+          "bladder": 41.2,
+          "social": 45.9
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udd25",
+      "description": "studying chemistry and related subjects (studying thermodynamics concepts from his textbook) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.2,
+          "hunger": 97.4,
+          "fun": 67.4,
+          "hygiene": 94.9,
+          "bladder": 41.2,
+          "social": 44.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Mei Lin": {
+      "movement": [
+        91,
+        67
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "preparing for her day and reviewing class materials before leaving for Oak Hill College at 9:30 am (reviewing research paper progress for the day's work after college hours) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 86.2,
+          "hunger": 49.4,
+          "fun": 43.4,
+          "hygiene": 93.6,
+          "bladder": 84.2,
+          "social": 45.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        81,
+        49
+      ],
+      "pronunciatio": "\ud83d\uded2",
+      "description": "arriving at the Willow Market and Pharmacy to open the pharmacy counter. He checks in with the market staff and begins setting up for the day's operations (setting up promotional displays for the day) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 87.3,
+          "hunger": 84.6,
+          "fun": 68.4,
+          "hygiene": 94.5,
+          "bladder": 41.2,
+          "social": 51.4
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        95,
+        74
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "getting ready for the day, which includes packing his school bag and reviewing notes for his classes (reviewing notes from previous composition class) @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 89.4,
+          "hunger": 70.3,
+          "fun": 53.4,
+          "hygiene": 100.0,
+          "bladder": 41.2,
+          "social": 45.7
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Tom Moreno": {
+      "movement": [
+        76,
+        46
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83d\udce6",
+      "description": "managing customer services and helping with orders at The Willow Market and Pharmacy (restocking items that are running low) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 86.2,
+          "hunger": 37.3,
+          "fun": 36.0,
+          "hygiene": 71.5,
+          "bladder": 41.2,
+          "social": 60.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Jane Moreno": {
+      "movement": [
+        75,
+        66
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83c\udf7d\ufe0f",
+      "description": "doing household chores like laundry and cleaning (wiping down counters and appliances in the kitchen) @ the Ville:Moreno family's house:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 81.2,
+          "hunger": 97.2,
+          "fun": 36.0,
+          "hygiene": 71.5,
+          "bladder": 41.2,
+          "social": 39.9
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Tamara Taylor": {
+      "movement": [
+        55,
+        69
+      ],
+      "pronunciatio": "\ud83d\udce7\ud83d\udcf1",
+      "description": "Tamara is having breakfast and planning her day (checking emails and messages) @ the Ville:Tamara Taylor and Carmen Ortiz's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 81.2,
+          "hunger": 100.0,
+          "fun": 40.8,
+          "hygiene": 62.9,
+          "bladder": 41.2,
+          "social": 40.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Carmen Ortiz": {
+      "movement": [
+        67,
+        46
+      ],
+      "pronunciatio": "\ud83d\udce6\ud83d\uddc2",
+      "description": "working at Harvey Oak Supply Store (organizing inventory) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 86.2,
+          "hunger": 42.8,
+          "fun": 36.0,
+          "hygiene": 76.6,
+          "bladder": 34.3,
+          "social": 42.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Sam Moore": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udccb",
+      "description": "sitting at Hobbs cafe reading and planning his mayoral campaign (taking notes on potential issues to address during his campaign) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.2,
+          "hunger": 72.5,
+          "fun": 100.0,
+          "hygiene": 87.9,
+          "bladder": 71.1,
+          "social": 54.7
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Jennifer Moore": {
+      "movement": [
+        38,
+        27
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Jennifer Moore and Adam Smith discussing potential collaboration on integrating themes from Francisco's web series on co-living spaces and improv comedy into their respective projects, including Jennifer's visual work and Adam's book on conflict resolution. @ <persona> Adam Smith",
+      "chat": [
+        [
+          "Jennifer Moore",
+          "Good morning, Adam. How is your breakfast this lovely Monday?"
+        ],
+        [
+          "Adam Smith",
+          "Good morning, Jennifer. Your paintings always brighten up my day. How is your project coming along?"
+        ],
+        [
+          "Jennifer Moore",
+          "It\u2019s coming along nicely, thank you. I\u2019ve been inspired by Francisco\u2019s web series on co-living spaces and improv comedy. It\u2019s given me a lot of ideas for my work and how it can be integrated into Sam's campaign visuals."
+        ],
+        [
+          "Adam Smith",
+          "That sounds fascinating, Jennifer. I've been exploring similar themes in my book about conflict resolution. How have you found the integration of improv comedy and co-living spaces into your visual work?"
+        ],
+        [
+          "Jennifer Moore",
+          "I've been brainstorming ways to convey the energy and spontaneity from Francisco's series through my watercolors. It\u2019s a delightful challenge to capture those moments of creativity and community in a static medium like painting."
+        ],
+        [
+          "Adam Smith",
+          "It sounds like you're doing remarkable work, Jennifer. I would love to learn more about how improvisation techniques are influencing your artistic process and vice versa. Perhaps there are ways we could collaborate to bring the concepts from Francisco's series into both our projects?"
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds like an exciting opportunity, Adam. I think combining elements of your book and Francisco\u2019s series could be very enriching for both Sam's campaign and our personal projects. Let\u2019s discuss this further once you\u2019re done brainstorming new ideas."
+        ],
+        [
+          "Adam Smith",
+          "That sounds great, Jennifer. I will be finishing my brainstorming shortly and would love to meet up later this week to discuss further collaboration possibilities."
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds wonderful, Adam. Let\u2019s aim for Thursday afternoon so I can finish up some of my current work and we can start fresh."
+        ],
+        [
+          "Adam Smith",
+          "Sounds like a plan, Jennifer. I look forward to our meeting on Thursday. Have a great day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 76.2,
+          "hunger": 99.3,
+          "fun": 99.8,
+          "hygiene": 66.3,
+          "bladder": 30.8,
+          "social": 65.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Yuriko Yamamoto": {
+      "movement": [
+        31,
+        59
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "Yuriko is heading to the office to work on her tax compliance project (reviewing notes from the previous day's work on the tax compliance project) @ the Ville:Yuriko Yamamoto's house:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 86.2,
+          "hunger": 32.9,
+          "fun": 43.2,
+          "hygiene": 97.7,
+          "bladder": 41.2,
+          "social": 36.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Adam Smith": {
+      "movement": [
+        40,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Jennifer Moore and Adam Smith discussing potential collaboration on integrating themes from Francisco's web series on co-living spaces and improv comedy into their respective projects, including Jennifer's visual work and Adam's book on conflict resolution. @ <persona> Jennifer Moore",
+      "chat": [
+        [
+          "Jennifer Moore",
+          "Good morning, Adam. How is your breakfast this lovely Monday?"
+        ],
+        [
+          "Adam Smith",
+          "Good morning, Jennifer. Your paintings always brighten up my day. How is your project coming along?"
+        ],
+        [
+          "Jennifer Moore",
+          "It\u2019s coming along nicely, thank you. I\u2019ve been inspired by Francisco\u2019s web series on co-living spaces and improv comedy. It\u2019s given me a lot of ideas for my work and how it can be integrated into Sam's campaign visuals."
+        ],
+        [
+          "Adam Smith",
+          "That sounds fascinating, Jennifer. I've been exploring similar themes in my book about conflict resolution. How have you found the integration of improv comedy and co-living spaces into your visual work?"
+        ],
+        [
+          "Jennifer Moore",
+          "I've been brainstorming ways to convey the energy and spontaneity from Francisco's series through my watercolors. It\u2019s a delightful challenge to capture those moments of creativity and community in a static medium like painting."
+        ],
+        [
+          "Adam Smith",
+          "It sounds like you're doing remarkable work, Jennifer. I would love to learn more about how improvisation techniques are influencing your artistic process and vice versa. Perhaps there are ways we could collaborate to bring the concepts from Francisco's series into both our projects?"
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds like an exciting opportunity, Adam. I think combining elements of your book and Francisco\u2019s series could be very enriching for both Sam's campaign and our personal projects. Let\u2019s discuss this further once you\u2019re done brainstorming new ideas."
+        ],
+        [
+          "Adam Smith",
+          "That sounds great, Jennifer. I will be finishing my brainstorming shortly and would love to meet up later this week to discuss further collaboration possibilities."
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds wonderful, Adam. Let\u2019s aim for Thursday afternoon so I can finish up some of my current work and we can start fresh."
+        ],
+        [
+          "Adam Smith",
+          "Sounds like a plan, Jennifer. I look forward to our meeting on Thursday. Have a great day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 71.2,
+          "hunger": 87.8,
+          "fun": 73.7,
+          "hygiene": 62.9,
+          "bladder": 41.2,
+          "social": 60.7
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:45:30"
+  }
+}

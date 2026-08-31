@@ -1,0 +1,818 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        56,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about organizing a town hall meeting for the upcoming mayor election, discussing ways to involve and represent the community's diversity through visual campaigns and presentations. @ <persona> Tom Moreno",
+      "chat": [
+        [
+          "Tom Moreno",
+          "Hey Latoya, I hope you're having a good morning. I was just talking to Arthur about organizing a town hall meeting for the upcoming mayor election. We think it would be great to get input from everyone in the community."
+        ],
+        [
+          "Latoya Williams",
+          "Hi Tom, thanks! That sounds like a fantastic idea for involving more people in the election. I've been talking to Jennifer about creating visuals for Sam Moore\u2019s campaign that highlight our community's diversity and vibrancy through travel photography and watercolors."
+        ],
+        [
+          "Tom Moreno",
+          "That sounds really great, Latoya. I think combining your photography and Jennifer's paintings will make for some impactful visuals. By any chance, would you be interested in contributing to our town hall effort too? Your insights on community diversity could add a lot of value."
+        ],
+        [
+          "Latoya Williams",
+          "That sounds amazing, Tom. I'd love to contribute my thoughts on how we can better represent our community\u2019s diversity at the town hall. Let me know more about what you have in mind and how I can help."
+        ],
+        [
+          "Tom Moreno",
+          "That\u2019s awesome, Latoya. We're planning to gather input on key issues like public safety and economic development. Including a focus on diversity would be really beneficial. I believe we could schedule the town hall meeting next month. Would you be available to give a brief presentation or lead a discussion segment?"
+        ],
+        [
+          "Latoya Williams",
+          "That sounds great, Tom. I can definitely help lead a discussion segment on diversity and inclusion at the town hall meeting. Let\u2019s aim for later next month when my photo series is complete to showcase our community in its full vibrancy."
+        ],
+        [
+          "Tom Moreno",
+          "Perfect, Latoya. That sounds like a wonderful way to highlight our community\u2019s strengths and address important issues at the same time. Let's set up a meeting in the next few days to discuss logistics. I'll send you an email with more details once we're closer to the date."
+        ],
+        [
+          "Latoya Williams",
+          "That works for me, Tom. I look forward to collaborating on this project and making sure our community\u2019s diverse voices are heard."
+        ],
+        [
+          "Tom Moreno",
+          "Great, Latoya. It\u2019s going to be an excellent opportunity to bring everyone together and make sure our town hall reflects the richness of our community. I'll send that email out soon."
+        ],
+        [
+          "Latoya Williams",
+          "Thanks, Tom. I appreciate your trust in me and look forward to our next meeting to finalize the details."
+        ],
+        [
+          "Tom Moreno",
+          "Thanks again, Latoya. I think bringing your perspective to this is going to make a big difference in how we approach the town hall meeting."
+        ],
+        [
+          "Latoya Williams",
+          "Sounds good, Tom. I\u2019ll be looking forward to your email and ready to contribute in any way possible."
+        ],
+        [
+          "Tom Moreno",
+          "Before we wrap up, let me know if you have any ideas about how we can promote this town hall to ensure as many people as possible attend. I think it\u2019s important that everyone feels welcome and informed."
+        ],
+        [
+          "Latoya Williams",
+          "I think we could use social media and local community boards to spread the word about the town hall. Also, maybe flyers in The Willow Market and Pharmacy would help reach those who may not be online."
+        ],
+        [
+          "Tom Moreno",
+          "That\u2019s a great idea, Latoya. I\u2019ll make sure to put up flyers at The Willow Market and Pharmacy as well as reach out to local community boards and social media platforms. Thanks for the suggestions! Let\u2019s set a date for our planning meeting next week."
+        ],
+        [
+          "Latoya Williams",
+          "That sounds like a good plan, Tom. I'll help draft some social media posts and flyer designs to get the word out. Looking forward to our planning meeting."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 86.0,
+          "hunger": 44.2,
+          "fun": 73.9,
+          "hygiene": 99.9,
+          "bladder": 47.8,
+          "social": 51.8
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Rajiv Patel": {
+      "movement": [
+        25,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Rajiv Patel's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 22.2,
+          "fun": 39.8,
+          "hygiene": 48.6,
+          "bladder": 13.3,
+          "social": 39.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        25
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83e\uddfa",
+      "description": "waking up and completing her morning routine. This includes getting dressed, preparing breakfast, and doing some light stretching and meditation to start the day (preparing breakfast ingredients) @ the Ville:artist's co-living space:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 96.0,
+          "hunger": 71.7,
+          "fun": 41.4,
+          "hygiene": 65.7,
+          "bladder": 47.8,
+          "social": 41.7
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Francisco Lopez": {
+      "movement": [
+        40,
+        25
+      ],
+      "pronunciatio": "\ud83c\udf73\u2615",
+      "description": "having breakfast and reviewing the script for today's shoot (eating breakfast) @ the Ville:artist's co-living space:kitchen:toaster",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 91.0,
+          "hunger": 93.5,
+          "fun": 54.2,
+          "hygiene": 74.3,
+          "bladder": 30.6,
+          "social": 50.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 22.2,
+          "fun": 39.8,
+          "hygiene": 48.6,
+          "bladder": 13.3,
+          "social": 39.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Arthur Burton": {
+      "movement": [
+        54,
+        25
+      ],
+      "pronunciatio": "\ud83c\udf77\ud83e\udd64",
+      "description": "Arthur is having breakfast and planning his day. He reviews the inventory to ensure he has everything needed for the evening's operations at The Rose and Crown Pub (reviewing inventory for alcohol and mixers) @ the Ville:The Rose and Crown Pub:pub:shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 91.0,
+          "hunger": 76.6,
+          "fun": 39.8,
+          "hygiene": 65.7,
+          "bladder": 13.3,
+          "social": 44.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ryan Park": {
+      "movement": [
+        66,
+        19
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Ryan Park's apartment:main room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 22.2,
+          "fun": 39.8,
+          "hygiene": 48.6,
+          "bladder": 13.3,
+          "social": 39.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez and Giorgio Rossi discussing preparations for a busy day, inviting each other to an upcoming Valentine\u2019s Day party, exchanging views on the mayor election candidates, and planning a meeting to further discuss their analysis of the candidates over coffee. @ <persona> Giorgio Rossi",
+      "chat": [
+        [
+          "Giorgio Rossi",
+          "Good morning, Isabella! Looks like you're getting everything ready for the busy day ahead. Did you sleep well?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Good morning, Giorgio! Yes, I slept well. It\u2019s always a busy day here, so I like to be prepared right from the start."
+        ],
+        [
+          "Giorgio Rossi",
+          "Absolutely, it\u2019s great to see such dedication. I always enjoy my coffee here, especially when it\u2019s this early in the morning."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Giorgio! We\u2019re working hard to make sure everyone has a great experience today. And by the way, we have a special Valentine\u2019s Day party planned for tomorrow evening. Would you like to join us?"
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds like a wonderful idea, Isabella! I\u2019ll definitely think about it. By the way, have you considered anyone for the upcoming mayor election?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I really appreciate your support, Giorgio. As for the election, I haven't had a chance to fully research all the candidates yet, but it would be great if you could share any insights or recommendations you might have."
+        ],
+        [
+          "Giorgio Rossi",
+          "Certainly, I've been keeping an eye on some of the candidates. From what I can tell, there are a couple who stand out based on their proposed policies and past accomplishments in public service."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That\u2019s really helpful, Giorgio. If you have any more information or if there's someone you think would be a strong candidate, I\u2019d love to hear about it. Thanks for your input!"
+        ],
+        [
+          "Giorgio Rossi",
+          "I'll definitely share more details with you later this week. I think it would be beneficial to discuss these candidates over a cup of coffee sometime."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds perfect, Giorgio. Let\u2019s plan to meet up for coffee later this week and chat more about it. I\u2019m sure your insights will be valuable to others as well."
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds like a plan, Isabella. How about we meet up on Thursday afternoon? I'll bring some interesting data points and perhaps even some mathematical models to help analyze their campaign promises."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works for me, Giorgio. I look forward to our discussion and learning more about your analysis of the candidates. See you on Thursday!"
+        ],
+        [
+          "Giorgio Rossi",
+          "Great, I'm looking forward to our discussion on Thursday then. Have a wonderful day at work, Isabella!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 86.0,
+          "hunger": 100.0,
+          "fun": 51.1,
+          "hygiene": 74.3,
+          "bladder": 47.8,
+          "social": 49.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        75,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez and Giorgio Rossi discussing preparations for a busy day, inviting each other to an upcoming Valentine\u2019s Day party, exchanging views on the mayor election candidates, and planning a meeting to further discuss their analysis of the candidates over coffee. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Giorgio Rossi",
+          "Good morning, Isabella! Looks like you're getting everything ready for the busy day ahead. Did you sleep well?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Good morning, Giorgio! Yes, I slept well. It\u2019s always a busy day here, so I like to be prepared right from the start."
+        ],
+        [
+          "Giorgio Rossi",
+          "Absolutely, it\u2019s great to see such dedication. I always enjoy my coffee here, especially when it\u2019s this early in the morning."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Giorgio! We\u2019re working hard to make sure everyone has a great experience today. And by the way, we have a special Valentine\u2019s Day party planned for tomorrow evening. Would you like to join us?"
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds like a wonderful idea, Isabella! I\u2019ll definitely think about it. By the way, have you considered anyone for the upcoming mayor election?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I really appreciate your support, Giorgio. As for the election, I haven't had a chance to fully research all the candidates yet, but it would be great if you could share any insights or recommendations you might have."
+        ],
+        [
+          "Giorgio Rossi",
+          "Certainly, I've been keeping an eye on some of the candidates. From what I can tell, there are a couple who stand out based on their proposed policies and past accomplishments in public service."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That\u2019s really helpful, Giorgio. If you have any more information or if there's someone you think would be a strong candidate, I\u2019d love to hear about it. Thanks for your input!"
+        ],
+        [
+          "Giorgio Rossi",
+          "I'll definitely share more details with you later this week. I think it would be beneficial to discuss these candidates over a cup of coffee sometime."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds perfect, Giorgio. Let\u2019s plan to meet up for coffee later this week and chat more about it. I\u2019m sure your insights will be valuable to others as well."
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds like a plan, Isabella. How about we meet up on Thursday afternoon? I'll bring some interesting data points and perhaps even some mathematical models to help analyze their campaign promises."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works for me, Giorgio. I look forward to our discussion and learning more about your analysis of the candidates. See you on Thursday!"
+        ],
+        [
+          "Giorgio Rossi",
+          "Great, I'm looking forward to our discussion on Thursday then. Have a wonderful day at work, Isabella!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 91.0,
+          "hunger": 58.8,
+          "fun": 44.4,
+          "hygiene": 98.8,
+          "bladder": 47.8,
+          "social": 45.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Carlos Gomez": {
+      "movement": [
+        94,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "reading and planning his day over coffee (reviewing his creative writing workshop notes) @ the Ville:Carlos Gomez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 91.0,
+          "hunger": 91.8,
+          "fun": 48.6,
+          "hygiene": 74.3,
+          "bladder": 47.8,
+          "social": 39.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        108,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udd0d",
+      "description": "begins researching specific case studies on gentrification effects @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 91.0,
+          "hunger": 89.3,
+          "fun": 39.8,
+          "hygiene": 97.6,
+          "bladder": 13.3,
+          "social": 43.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 22.2,
+          "fun": 39.8,
+          "hygiene": 48.6,
+          "bladder": 13.3,
+          "social": 39.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ayesha Khan": {
+      "movement": [
+        119,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcc5",
+      "description": "having breakfast (cleaning the kitchen counter and sink) (making a to-do list for the day) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 86.0,
+          "hunger": 100.0,
+          "fun": 39.8,
+          "hygiene": 74.3,
+          "bladder": 47.8,
+          "social": 44.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udca1",
+      "description": "studying chemistry and related subjects (solving practice problems related to the review session) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 81.0,
+          "hunger": 95.6,
+          "fun": 68.8,
+          "hygiene": 97.8,
+          "bladder": 47.8,
+          "social": 45.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Mei Lin": {
+      "movement": [
+        92,
+        65
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start reviewing her notes from the previous class @ <waiting> 92 65",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 91.0,
+          "hunger": 55.2,
+          "fun": 39.8,
+          "hygiene": 96.5,
+          "bladder": 90.9,
+          "social": 49.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        82,
+        49
+      ],
+      "pronunciatio": "\ud83d\udecd\ufe0f",
+      "description": "heading to the Willow Market and Pharmacy to prepare for opening. He checks inventory and sets up any necessary displays or promotions before his shift begins at 9am (setting up promotional displays for new products or seasonal offerings) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.1,
+          "hunger": 90.4,
+          "fun": 63.9,
+          "hygiene": 97.3,
+          "bladder": 47.8,
+          "social": 55.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        91,
+        67
+      ],
+      "pronunciatio": "\u2615\ud83e\udd14",
+      "description": "having breakfast (drinking coffee and reflecting on his day ahead) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 94.1,
+          "hunger": 69.8,
+          "fun": 47.6,
+          "hygiene": 74.3,
+          "bladder": 47.8,
+          "social": 49.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Tom Moreno": {
+      "movement": [
+        56,
+        29
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about organizing a town hall meeting for the upcoming mayor election, discussing ways to involve and represent the community's diversity through visual campaigns and presentations. @ <persona> Latoya Williams",
+      "chat": [
+        [
+          "Tom Moreno",
+          "Hey Latoya, I hope you're having a good morning. I was just talking to Arthur about organizing a town hall meeting for the upcoming mayor election. We think it would be great to get input from everyone in the community."
+        ],
+        [
+          "Latoya Williams",
+          "Hi Tom, thanks! That sounds like a fantastic idea for involving more people in the election. I've been talking to Jennifer about creating visuals for Sam Moore\u2019s campaign that highlight our community's diversity and vibrancy through travel photography and watercolors."
+        ],
+        [
+          "Tom Moreno",
+          "That sounds really great, Latoya. I think combining your photography and Jennifer's paintings will make for some impactful visuals. By any chance, would you be interested in contributing to our town hall effort too? Your insights on community diversity could add a lot of value."
+        ],
+        [
+          "Latoya Williams",
+          "That sounds amazing, Tom. I'd love to contribute my thoughts on how we can better represent our community\u2019s diversity at the town hall. Let me know more about what you have in mind and how I can help."
+        ],
+        [
+          "Tom Moreno",
+          "That\u2019s awesome, Latoya. We're planning to gather input on key issues like public safety and economic development. Including a focus on diversity would be really beneficial. I believe we could schedule the town hall meeting next month. Would you be available to give a brief presentation or lead a discussion segment?"
+        ],
+        [
+          "Latoya Williams",
+          "That sounds great, Tom. I can definitely help lead a discussion segment on diversity and inclusion at the town hall meeting. Let\u2019s aim for later next month when my photo series is complete to showcase our community in its full vibrancy."
+        ],
+        [
+          "Tom Moreno",
+          "Perfect, Latoya. That sounds like a wonderful way to highlight our community\u2019s strengths and address important issues at the same time. Let's set up a meeting in the next few days to discuss logistics. I'll send you an email with more details once we're closer to the date."
+        ],
+        [
+          "Latoya Williams",
+          "That works for me, Tom. I look forward to collaborating on this project and making sure our community\u2019s diverse voices are heard."
+        ],
+        [
+          "Tom Moreno",
+          "Great, Latoya. It\u2019s going to be an excellent opportunity to bring everyone together and make sure our town hall reflects the richness of our community. I'll send that email out soon."
+        ],
+        [
+          "Latoya Williams",
+          "Thanks, Tom. I appreciate your trust in me and look forward to our next meeting to finalize the details."
+        ],
+        [
+          "Tom Moreno",
+          "Thanks again, Latoya. I think bringing your perspective to this is going to make a big difference in how we approach the town hall meeting."
+        ],
+        [
+          "Latoya Williams",
+          "Sounds good, Tom. I\u2019ll be looking forward to your email and ready to contribute in any way possible."
+        ],
+        [
+          "Tom Moreno",
+          "Before we wrap up, let me know if you have any ideas about how we can promote this town hall to ensure as many people as possible attend. I think it\u2019s important that everyone feels welcome and informed."
+        ],
+        [
+          "Latoya Williams",
+          "I think we could use social media and local community boards to spread the word about the town hall. Also, maybe flyers in The Willow Market and Pharmacy would help reach those who may not be online."
+        ],
+        [
+          "Tom Moreno",
+          "That\u2019s a great idea, Latoya. I\u2019ll make sure to put up flyers at The Willow Market and Pharmacy as well as reach out to local community boards and social media platforms. Thanks for the suggestions! Let\u2019s set a date for our planning meeting next week."
+        ],
+        [
+          "Latoya Williams",
+          "That sounds like a good plan, Tom. I'll help draft some social media posts and flyer designs to get the word out. Looking forward to our planning meeting."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 91.0,
+          "hunger": 43.1,
+          "fun": 39.8,
+          "hygiene": 74.3,
+          "bladder": 47.8,
+          "social": 56.4
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Jane Moreno": {
+      "movement": [
+        75,
+        65
+      ],
+      "pronunciatio": "\ud83e\uddfa\u2728",
+      "description": "doing household chores like laundry and cleaning (folding and putting away clean laundry from previous days) @ the Ville:Moreno family's house:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 86.0,
+          "hunger": 95.9,
+          "fun": 39.8,
+          "hygiene": 74.3,
+          "bladder": 47.8,
+          "social": 43.7
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Tamara Taylor": {
+      "movement": [
+        55,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd04",
+      "description": "working on drafting a new children's book chapter (editing and revising her draft) @ the Ville:Tamara Taylor and Carmen Ortiz's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 86.0,
+          "hunger": 83.4,
+          "fun": 44.6,
+          "hygiene": 65.7,
+          "bladder": 47.8,
+          "social": 43.9
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Carmen Ortiz": {
+      "movement": [
+        69,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83d\udcb8",
+      "description": "opening Harvey Oak Supply Store (setting up the cash register and computer systems) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 91.0,
+          "hunger": 44.2,
+          "fun": 39.8,
+          "hygiene": 79.5,
+          "bladder": 40.9,
+          "social": 43.9
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Sam Moore": {
+      "movement": [
+        72,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\uddf3\ufe0f",
+      "description": "sitting at Hobbs cafe reading and planning his mayoral campaign (reading a book about local politics) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 81.0,
+          "hunger": 78.3,
+          "fun": 96.1,
+          "hygiene": 90.7,
+          "bladder": 77.8,
+          "social": 58.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Jennifer Moore": {
+      "movement": [
+        41,
+        25
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "working on her watercolor paintings (taking a short break to rest her eyes and hands) @ the Ville:artist's co-living space:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 81.0,
+          "hunger": 89.5,
+          "fun": 90.7,
+          "hygiene": 69.2,
+          "bladder": 37.5,
+          "social": 58.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Yuriko Yamamoto": {
+      "movement": [
+        58,
+        56
+      ],
+      "pronunciatio": "\ud83d\udcc6\ud83d\udcf1",
+      "description": "Yuriko is getting ready for work and reviewing her schedule for the day (reviewing her schedule for the day on her phone or computer) @ the Ville:Yuriko Yamamoto's house:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 91.0,
+          "hunger": 33.2,
+          "fun": 39.8,
+          "hygiene": 100.0,
+          "bladder": 47.8,
+          "social": 39.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Adam Smith": {
+      "movement": [
+        35,
+        31
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "working on his book (taking a break) @ the Ville:artist's co-living space:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.0,
+          "hunger": 77.2,
+          "fun": 71.2,
+          "hygiene": 65.7,
+          "bladder": 47.8,
+          "social": 48.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 08:48:20"
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    54,
+    17
+  ],
+  "daily_plan_req": "",
+  "name": "Ryan Park",
+  "first_name": "Ryan",
+  "last_name": "Park",
+  "age": 29,
+  "innate": "analytical, pragmatic, driven",
+  "learned": "Ryan Park is a software engineer who loves to solve problems. He is constantly looking for ways to improve existing systems.",
+  "currently": "Ryan Park is working on a project to create a new mobile app. He is also reading up on the latest technologies to stay ahead of the curve.",
+  "seed_currently": "Ryan Park is working on a project to create a new mobile app. He is also reading up on the latest technologies to stay ahead of the curve.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 61.41,
+    "hunger": 87.08,
+    "fun": 94.39,
+    "hygiene": 42.0,
+    "bladder": 0.0,
+    "social": 55.9
+  },
+  "mood": {
+    "family": "neutral",
+    "word": "calm"
+  },
+  "relationships": {
+    "Giorgio Rossi": {
+      "friendship": 9.0,
+      "romance": 0.0
+    },
+    "Isabella Rodriguez": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Sam Moore": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Adam Smith": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Maria Lopez": {
+      "friendship": 10.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Ryan Park goes to bed around 1am, awakes up around 9am, eats dinner around 5pm.",
+  "living_area": "the Ville:Ryan Park's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 194,
+  "importance_ele_n": 30,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 9:00 am",
+    "work on coding for the mobile app project from 10:00 am to 12:30 pm",
+    "have lunch around 12:30 pm",
+    "continue working on the app project from 1:30 pm to 3:00 pm",
+    "research new tech trends and take notes from 3:00 pm to 4:30 pm",
+    "have dinner at 5:00 pm",
+    "work out or engage in physical activity from 6:00 pm to 7:00 pm",
+    "spend time relaxing or engaging in a hobby from 7:00 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      540
+    ],
+    [
+      "wake up and complete the morning routine (getting out of bed)",
+      5
+    ],
+    [
+      "wake up and complete the morning routine (going to the bathroom and brushing his teeth)",
+      10
+    ],
+    [
+      "wake up and complete the morning routine (washing his face)",
+      5
+    ],
+    [
+      "wake up and complete the morning routine (making coffee)",
+      10
+    ],
+    [
+      "wake up and complete the morning routine (having breakfast)",
+      15
+    ],
+    [
+      "wake up and complete the morning routine (on the way to checking emails and messages)",
+      0
+    ],
+    [
+      "wake up and complete the morning routine (conversing about Giorgio Rossi and Ryan Park discussing their respective plans for the day, including research on mathematical patterns in nature and work on a mobile app project, as well as potential future collaboration between their areas of interest.)",
+      12
+    ],
+    [
+      "wake up and complete the morning routine (on the way to checking emails and messages)",
+      0
+    ],
+    [
+      "wake up and complete the morning routine (conversing about Isabella Rodriguez inviting Ryan Park to her Valentine's Day open party at Hobbs Cafe and discussing potential contributions to the event.)",
+      10
+    ],
+    [
+      "working on coding for the mobile app project (on the way to reviewing his code from yesterday)",
+      0
+    ],
+    [
+      "working on coding for the mobile app project (conversing about Sam Moore and Ryan Park discussing how to integrate technology, particularly social media platforms and mobile apps, into Sam's mayoral campaign to enhance community engagement and involvement.)",
+      17
+    ],
+    [
+      "working on coding for the mobile app project (fixing bugs and optimizing the existing code)",
+      26
+    ],
+    [
+      "working on coding for the mobile app project (researching new coding techniques to improve efficiency)",
+      10
+    ],
+    [
+      "working on coding for the mobile app project (implementing a new feature for user interaction)",
+      30
+    ],
+    [
+      "working on coding for the mobile app project (on the way to testing the newly implemented feature)",
+      0
+    ],
+    [
+      "working on coding for the mobile app project (conversing about Ryan Park and Adam Smith discussing how to enhance user interaction, community engagement, and conflict resolution through gamification and improv comedy features in a mobile app for Sam Moore's campaign events.)",
+      16
+    ],
+    [
+      "working on coding for the mobile app project (on the way to testing the newly implemented feature)",
+      0
+    ],
+    [
+      "working on coding for the mobile app project (conversing about Ryan Park and Maria Lopez discussing how to integrate physics concepts and improv comedy techniques into Sam Moore's campaign app to enhance user engagement through interactive puzzles, simulations, and personalized learning experiences.)",
+      16
+    ],
+    [
+      "working on coding for the mobile app project (testing the newly implemented feature and preparing for the next steps)",
+      5
+    ],
+    [
+      "working on coding for the mobile app project (documenting his progress and changes made to the codebase)",
+      7
+    ],
+    [
+      "having lunch (preparing his lunch)",
+      15
+    ],
+    [
+      "having lunch (eating his lunch)",
+      30
+    ],
+    [
+      "having lunch (drinking water and resting after the meal)",
+      15
+    ],
+    [
+      "working on coding for the mobile app project (reviewing the current codebase)",
+      15
+    ],
+    [
+      "working on coding for the mobile app project (fixing bugs and optimizing existing code)",
+      30
+    ],
+    [
+      "working on coding for the mobile app project (implementing new features based on user feedback)",
+      30
+    ],
+    [
+      "working on coding for the mobile app project (testing the updated app version)",
+      15
+    ],
+    [
+      "working on coding for the mobile app project (on the way to taking a break)",
+      0
+    ],
+    [
+      "working on coding for the mobile app project (conversing about Ryan Park and Giorgio Rossi discussing how mathematical patterns can be applied to improve data processing efficiency and user behavior prediction in Ryan's app project, scheduling a meeting to explore this further with specific examples and materials.)",
+      12
+    ],
+    [
+      "working on coding for the mobile app project (documenting changes and updates for future reference)",
+      18
+    ],
+    [
+      "researching new tech trends and taking notes (reviewing recent technology blogs)",
+      30
+    ],
+    [
+      "researching new tech trends and taking notes (reading industry reports)",
+      30
+    ],
+    [
+      "researching new tech trends and taking notes (taking notes on emerging trends)",
+      45
+    ],
+    [
+      "researching new tech trends and taking notes (analyzing the impact of new technologies)",
+      30
+    ],
+    [
+      "researching new tech trends and taking notes (summarizing key points for future reference)",
+      15
+    ],
+    [
+      "researching new tech trends and taking notes (organizing his notes into a structured format)",
+      30
+    ],
+    [
+      "working out or engaging in physical activity",
+      60
+    ],
+    [
+      "relaxing or engaging in a hobby",
+      60
+    ],
+    [
+      "Ryan is having dinner",
+      60
+    ],
+    [
+      "relaxing or engaging in a hobby",
+      60
+    ],
+    [
+      "reading or catching up on news and articles related to technology and software development",
+      60
+    ],
+    [
+      "Ryan is reading or catching up on news and articles related to technology and software development",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -7
+    ],
+    [
+      "sleeping",
+      -7
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      540
+    ],
+    [
+      "wake up and complete the morning routine",
+      60
+    ],
+    [
+      "working on coding for the mobile app project",
+      120
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "working on coding for the mobile app project",
+      120
+    ],
+    [
+      "researching new tech trends and taking notes",
+      180
+    ],
+    [
+      "working out or engaging in physical activity",
+      60
+    ],
+    [
+      "relaxing or engaging in a hobby",
+      60
+    ],
+    [
+      "Ryan is having dinner",
+      60
+    ],
+    [
+      "relaxing or engaging in a hobby",
+      60
+    ],
+    [
+      "reading or catching up on news and articles related to technology and software development",
+      60
+    ],
+    [
+      "Ryan is reading or catching up on news and articles related to technology and software development",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Arthur Burton's apartment:main room:desk",
+  "act_start_time": "February 13, 2023, 16:19:00",
+  "act_duration": 45,
+  "act_description": "researching new tech trends and taking notes (taking notes on emerging trends)",
+  "act_pronunciatio": "\ud83d\udcdd\ud83d\udcc8",
+  "act_event": [
+    "Ryan Park",
+    "take",
+    "notes"
+  ],
+  "act_obj_description": "cluttered with papers and a laptop, with notebooks open and pens scattered around",
+  "act_obj_pronunciatio": "\ud83d\udcd6\ud83d\udcbb",
+  "act_obj_event": [
+    "desk",
+    "be cluttered with",
+    "papers and a laptop"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Giorgio Rossi": 114,
+    "Isabella Rodriguez": -1644,
+    "Sam Moore": -1536,
+    "Adam Smith": -1062,
+    "Maria Lopez": -924
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

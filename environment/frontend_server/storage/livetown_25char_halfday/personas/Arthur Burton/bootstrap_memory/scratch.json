@@ -1,0 +1,682 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    54,
+    20
+  ],
+  "daily_plan_req": "Arthur Burton opens The Rose and Crown Pub at 5pm everyday, and stands at the counter until 10pm, at which point he closes the bar.",
+  "name": "Arthur Burton",
+  "first_name": "Arthur",
+  "last_name": "Burton",
+  "age": 42,
+  "innate": "friendly, outgoing, generous",
+  "learned": "Arthur Burton is a bartender and bar owner of The Rose and Crown Pub who loves to make people feel welcome. He is always looking for ways to make his customers feel special.",
+  "currently": "Arthur Burton is running a beloved bar in the town that's been around for 10 years. He is also learning more about mixology and create unique cocktails.",
+  "seed_currently": "Arthur Burton is running a beloved bar in the town that's been around for 10 years. He is also learning more about mixology and create unique cocktails.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 51.41,
+    "hunger": 77.68,
+    "fun": 26.39,
+    "hygiene": 42.0,
+    "bladder": 0.0,
+    "social": 57.6
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Tom Moreno": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Carmen Ortiz": {
+      "friendship": 12.0,
+      "romance": 0.0
+    },
+    "Isabella Rodriguez": {
+      "friendship": 59.0,
+      "romance": 0.0
+    },
+    "Yuriko Yamamoto": {
+      "friendship": 9.0,
+      "romance": 0.0
+    },
+    "Francisco Lopez": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Latoya Williams": {
+      "friendship": 7.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Arthur Burton goes to bed around midnight, awakes up around 7am, eats dinner around 4pm.",
+  "living_area": "the Ville:Arthur Burton's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 98,
+  "importance_ele_n": 86,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "head to the bar around 4:30 pm for preparation before opening",
+    "open The Rose and Crown Pub at 5:00 pm",
+    "interact with customers from 5:00 pm until closing time at 10:00 pm",
+    "clean up after last customer leaves by 10:30 pm",
+    "have dinner around 11:00 pm",
+    "relax or watch TV for an hour starting at midnight"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "Arthur is waking up and completing his morning routine (getting out of bed)",
+      5
+    ],
+    [
+      "Arthur is waking up and completing his morning routine (brushing his teeth and washing his face)",
+      10
+    ],
+    [
+      "Arthur is waking up and completing his morning routine (making his bed)",
+      5
+    ],
+    [
+      "Arthur is waking up and completing his morning routine (getting dressed for the day)",
+      10
+    ],
+    [
+      "Arthur is waking up and completing his morning routine (drinking a glass of water and taking any necessary medications)",
+      5
+    ],
+    [
+      "Arthur is waking up and completing his morning routine (stretching and doing some light morning exercises)",
+      10
+    ],
+    [
+      "Arthur is waking up and completing his morning routine (checking his phone for messages or emails related to the bar)",
+      5
+    ],
+    [
+      "Arthur is waking up and completing his morning routine (preparing a cup of coffee or tea)",
+      10
+    ],
+    [
+      "Arthur is having breakfast and planning his day. He reviews the inventory to ensure he has everything needed for the evening's operations at The Rose and Crown Pub (making coffee and preparing breakfast)",
+      15
+    ],
+    [
+      "Arthur is having breakfast and planning his day. He reviews the inventory to ensure he has everything needed for the evening's operations at The Rose and Crown Pub (eating breakfast)",
+      10
+    ],
+    [
+      "Arthur is having breakfast and planning his day. He reviews the inventory to ensure he has everything needed for the evening's operations at The Rose and Crown Pub (planning his day's activities at the pub)",
+      10
+    ],
+    [
+      "Arthur is having breakfast and planning his day. He reviews the inventory to ensure he has everything needed for the evening's operations at The Rose and Crown Pub (reviewing inventory for alcohol and mixers)",
+      15
+    ],
+    [
+      "Arthur is having breakfast and planning his day. He reviews the inventory to ensure he has everything needed for the evening's operations at The Rose and Crown Pub (on the way to checking stock levels of snacks and food items)",
+      0
+    ],
+    [
+      "Arthur is having breakfast and planning his day. He reviews the inventory to ensure he has everything needed for the evening's operations at The Rose and Crown Pub (conversing about organizing a town hall meeting for community input on the upcoming mayor election, with Arthur and Tom collaborating on planning and outreach efforts.)",
+      9
+    ],
+    [
+      "Arthur is having breakfast and planning his day. He reviews the inventory to ensure he has everything needed for the evening's operations at The Rose and Crown Pub (finishing up stock checks of snacks and food items)",
+      9
+    ],
+    [
+      "Arthur is running errands and checking in with suppliers to ensure he has all the ingredients needed for his unique cocktail creations. He also takes some time to finalize any special events or promotions planned for the evening at The Rose and Crown Pub (calling suppliers to confirm delivery times and quantities)",
+      7
+    ],
+    [
+      "Arthur is running errands and checking in with suppliers to ensure he has all the ingredients needed for his unique cocktail creations. He also takes some time to finalize any special events or promotions planned for the evening at The Rose and Crown Pub (writing down notes for any special requests or ingredient changes needed for the evening's cocktails)",
+      10
+    ],
+    [
+      "Arthur is running errands and checking in with suppliers to ensure he has all the ingredients needed for his unique cocktail creations. He also takes some time to finalize any special events or promotions planned for the evening at The Rose and Crown Pub (visiting local suppliers to personally check on stock levels and quality of ingredients)",
+      20
+    ],
+    [
+      "Arthur is running errands and checking in with suppliers to ensure he has all the ingredients needed for his unique cocktail creations. He also takes some time to finalize any special events or promotions planned for the evening at The Rose and Crown Pub (on the way to discussing with his team about any special events or promotions planned for the evening at The Rose and Crown Pub)",
+      0
+    ],
+    [
+      "Arthur is running errands and checking in with suppliers to ensure he has all the ingredients needed for his unique cocktail creations. He also takes some time to finalize any special events or promotions planned for the evening at The Rose and Crown Pub (conversing about Arthur Burton and Carmen Ortiz discussing supply needs and inventory for a special cocktail feature at The Rose and Crown Pub.)",
+      4
+    ],
+    [
+      "Arthur is running errands and checking in with suppliers to ensure he has all the ingredients needed for his unique cocktail creations. He also takes some time to finalize any special events or promotions planned for the evening at The Rose and Crown Pub (taking a quick break to grab some coffee)",
+      11
+    ],
+    [
+      "Arthur is checking inventory levels and placing orders for any missing ingredients needed for the evening. He also updates his social media pages to promote special events happening at The Rose and Crown Pub that night (reviewing inventory levels of spirits, mixers, and garnishes)",
+      20
+    ],
+    [
+      "Arthur is checking inventory levels and placing orders for any missing ingredients needed for the evening. He also updates his social media pages to promote special events happening at The Rose and Crown Pub that night (on the way to placing orders for missing ingredients)",
+      0
+    ],
+    [
+      "Arthur is checking inventory levels and placing orders for any missing ingredients needed for the evening. He also updates his social media pages to promote special events happening at The Rose and Crown Pub that night (conversing about planning special Valentine's Day cocktails for an upcoming party at Hobbs Cafe, with Isabella Rodriguez and Arthur Burton discussing flavors, timing, and preparation.)",
+      9
+    ],
+    [
+      "Arthur is checking inventory levels and placing orders for any missing ingredients needed for the evening. He also updates his social media pages to promote special events happening at The Rose and Crown Pub that night (checking supplier delivery schedules to ensure timely arrival of orders)",
+      16
+    ],
+    [
+      "Arthur is checking inventory levels and placing orders for any missing ingredients needed for the evening. He also updates his social media pages to promote special events happening at The Rose and Crown Pub that night (on the way to updating social media pages with event details and cocktail specials)",
+      0
+    ],
+    [
+      "Arthur is checking inventory levels and placing orders for any missing ingredients needed for the evening. He also updates his social media pages to promote special events happening at The Rose and Crown Pub that night (conversing about Arthur Burton and Yuriko Yamamoto discussing plans for a private tasting of Valentine's Day cocktails at The Rose and Crown Pub.)",
+      9
+    ],
+    [
+      "Arthur is checking inventory levels and placing orders for any missing ingredients needed for the evening. He also updates his social media pages to promote special events happening at The Rose and Crown Pub that night (updating social media pages with event details and cocktail specials)",
+      14
+    ],
+    [
+      "Arthur is preparing the bar menu and deciding on cocktail specials for the evening. He also spends time arranging any decorations or setting up equipment needed for special events planned at The Rose and Crown Pub (on the way to Arthur is preparing the bar menu and deciding on cocktail specials for the evening. He also spends time arranging any decorations or setting up equipment needed for special events planned at The Rose and Crown Pu)",
+      0
+    ],
+    [
+      "Arthur is preparing the bar menu and deciding on cocktail specials for the evening. He also spends time arranging any decorations or setting up equipment needed for special events planned at The Rose and Crown Pub (conversing about preparing special Valentine\u2019s Day cocktails at work, including soaking rose petals in vodka and mixing signature drinks for guests.)",
+      9
+    ],
+    [
+      "Arthur is preparing the bar menu and deciding on cocktail specials for the evening. He also spends time arranging any decorations or setting up equipment needed for special events planned at The Rose and Crown Pub (finalizing preparations for Valentine's Day cocktails, ensuring all ingredients are ready and decorations are in place.)",
+      43
+    ],
+    [
+      "Arthur is taking a short break and having lunch. He reviews customer feedback from the past week to improve his service and cocktails (taking a short break for relaxation)",
+      15
+    ],
+    [
+      "Arthur is taking a short break and having lunch. He reviews customer feedback from the past week to improve his service and cocktails (preparing his lunch)",
+      10
+    ],
+    [
+      "Arthur is taking a short break and having lunch. He reviews customer feedback from the past week to improve his service and cocktails (eating his lunch)",
+      20
+    ],
+    [
+      "Arthur is taking a short break and having lunch. He reviews customer feedback from the past week to improve his service and cocktails (on the way to reviewing customer feedback from the past week to identify areas for improvement)",
+      0
+    ],
+    [
+      "Arthur is taking a short break and having lunch. He reviews customer feedback from the past week to improve his service and cocktails (conversing about planning unique cocktail flavors and interactive games for an upcoming Valentine's Day party at Hobbs Cafe, with Isabella Rodriguez and Arthur Burton discussing menu ideas and meeting schedules.)",
+      13
+    ],
+    [
+      "Arthur is taking a break and preparing for the evening by reviewing customer feedback and making adjustments to his cocktail recipes. He also spends time organizing supplies and ensuring everything is ready for opening at 5:00 pm (reviewing customer feedback from the past week to identify areas for improvement)",
+      2
+    ],
+    [
+      "Arthur is taking a break and preparing for the evening by reviewing customer feedback and making adjustments to his cocktail recipes. He also spends time organizing supplies and ensuring everything is ready for opening at 5:00 pm (making notes on cocktail recipes based on customer preferences and suggestions)",
+      20
+    ],
+    [
+      "Arthur is taking a break and preparing for the evening by reviewing customer feedback and making adjustments to his cocktail recipes. He also spends time organizing supplies and ensuring everything is ready for opening at 5:00 pm (on the way to on the way to organizing inventory lists for necessary supplies)",
+      0
+    ],
+    [
+      "Arthur is taking a break and preparing for the evening by reviewing customer feedback and making adjustments to his cocktail recipes. He also spends time organizing supplies and ensuring everything is ready for opening at 5:00 pm (conversing about Carmen Ortiz and Arthur Burton discussing inventory needs and preparations for special cocktails at their establishment.)",
+      6
+    ],
+    [
+      "Arthur is taking a break and preparing for the evening by reviewing customer feedback and making adjustments to his cocktail recipes. He also spends time organizing supplies and ensuring everything is ready for opening at 5:00 pm (organizing inventory lists for necessary supplies)",
+      19
+    ],
+    [
+      "Arthur is taking a break and preparing for the evening by reviewing customer feedback and making adjustments to his cocktail recipes. He also spends time organizing supplies and ensuring everything is ready for opening at 5:00 pm (placing orders for any missing ingredients or supplies)",
+      5
+    ],
+    [
+      "Arthur finishes cleaning and setting up the bar area, making sure all equipment is in place and operational for the evening shift.",
+      10
+    ],
+    [
+      "Arthur is preparing the bar for opening by restocking supplies and cleaning. He also takes time to set up any special decorations or equipment needed for the evening's events at The Rose and Crown Pub (restocking alcohol bottles)",
+      15
+    ],
+    [
+      "Arthur is preparing the bar for opening by restocking supplies and cleaning. He also takes time to set up any special decorations or equipment needed for the evening's events at The Rose and Crown Pub (on the way to cleaning the bar counter and stools)",
+      0
+    ],
+    [
+      "Arthur is preparing the bar for opening by restocking supplies and cleaning. He also takes time to set up any special decorations or equipment needed for the evening's events at The Rose and Crown Pub (conversing about finalizing details for a Valentine's Day cocktail tasting event at The Rose and Crown Pub, including timing and accommodating dietary restrictions such as non-alcoholic options for one of Yuriko's colleagues.)",
+      8
+    ],
+    [
+      "Arthur is preparing the bar for opening by restocking supplies and cleaning. He also takes time to set up any special decorations or equipment needed for the evening's events at The Rose and Crown Pub (cleaning the bar counter and stools)",
+      12
+    ],
+    [
+      "Arthur is preparing the bar for opening by restocking supplies and cleaning. He also takes time to set up any special decorations or equipment needed for the evening's events at The Rose and Crown Pub (organizing glassware and utensils)",
+      5
+    ],
+    [
+      "Arthur is preparing the bar for opening by restocking supplies and cleaning. He also takes time to set up any special decorations or equipment needed for the evening's events at The Rose and Crown Pub (checking inventory levels for mixers and garnishes)",
+      10
+    ],
+    [
+      "Arthur is preparing the bar for opening by restocking supplies and cleaning. He also takes time to set up any special decorations or equipment needed for the evening's events at The Rose and Crown Pub (setting up any special decorations or equipment needed for the evening's events)",
+      10
+    ],
+    [
+      "Arthur is finishing up his preparations for the evening by ensuring all cocktail ingredients are fresh and ready to be used. He also spends some time cleaning behind the bar and arranging any last-minute details before opening at 5:00 pm (checking the freshness of fruit for cocktails)",
+      10
+    ],
+    [
+      "Arthur is finishing up his preparations for the evening by ensuring all cocktail ingredients are fresh and ready to be used. He also spends some time cleaning behind the bar and arranging any last-minute details before opening at 5:00 pm (preparing fresh herbs and garnishes)",
+      10
+    ],
+    [
+      "Arthur is finishing up his preparations for the evening by ensuring all cocktail ingredients are fresh and ready to be used. He also spends some time cleaning behind the bar and arranging any last-minute details before opening at 5:00 pm (organizing cocktail ingredients on the bar counter)",
+      10
+    ],
+    [
+      "Arthur is finishing up his preparations for the evening by ensuring all cocktail ingredients are fresh and ready to be used. He also spends some time cleaning behind the bar and arranging any last-minute details before opening at 5:00 pm (cleaning behind the bar to ensure everything is spotless)",
+      15
+    ],
+    [
+      "Arthur is finishing up his preparations for the evening by ensuring all cocktail ingredients are fresh and ready to be used. He also spends some time cleaning behind the bar and arranging any last-minute details before opening at 5:00 pm (arranging any last-minute decorations or equipment for the evening's events)",
+      10
+    ],
+    [
+      "Arthur is finishing up his preparations for the evening by ensuring all cocktail ingredients are fresh and ready to be used. He also spends some time cleaning behind the bar and arranging any last-minute details before opening at 5:00 pm (double-checking inventory levels and ordering supplies if necessary)",
+      5
+    ],
+    [
+      "Arthur is heading to The Rose and Crown Pub to begin his preparation for the evening. He ensures everything is in place before opening at 5:00 pm (on the way to heading to The Rose and Crown Pub)",
+      0
+    ],
+    [
+      "Arthur is heading to The Rose and Crown Pub to begin his preparation for the evening. He ensures everything is in place before opening at 5:00 pm (conversing about preparations and special cocktails for Valentine's Day at The Rose and Crown, including non-alcoholic options, between Arthur Burton and Carmen Ortiz.)",
+      10
+    ],
+    [
+      "Arthur is heading to The Rose and Crown Pub to begin his preparation for the evening. He ensures everything is in place before opening at 5:00 pm (unlocking the door and turning on lights)",
+      10
+    ],
+    [
+      "Arthur is heading to The Rose and Crown Pub to begin his preparation for the evening. He ensures everything is in place before opening at 5:00 pm (checking inventory levels of alcohol and mixers)",
+      15
+    ],
+    [
+      "Arthur is heading to The Rose and Crown Pub to begin his preparation for the evening. He ensures everything is in place before opening at 5:00 pm (restocking glassware and cleaning glasses)",
+      20
+    ],
+    [
+      "Arthur is heading to The Rose and Crown Pub to begin his preparation for the evening. He ensures everything is in place before opening at 5:00 pm (setting up the bar with fresh ingredients)",
+      10
+    ],
+    [
+      "Arthur is heading to The Rose and Crown Pub to begin his preparation for the evening. He ensures everything is in place before opening at 5:00 pm (arranging garnishes for cocktails)",
+      15
+    ],
+    [
+      "Arthur is heading to The Rose and Crown Pub to begin his preparation for the evening. He ensures everything is in place before opening at 5:00 pm (cleaning behind the bar and wiping down surfaces)",
+      20
+    ],
+    [
+      "Arthur is heading to The Rose and Crown Pub to begin his preparation for the evening. He ensures everything is in place before opening at 5:00 pm (taking a short break to hydrate and stretch)",
+      5
+    ],
+    [
+      "Arthur is heading to The Rose and Crown Pub to begin his preparation for the evening. He ensures everything is in place before opening at 5:00 pm (reviewing the menu for any updates or changes)",
+      10
+    ],
+    [
+      "Arthur is heading to The Rose and Crown Pub to begin his preparation for the evening. He ensures everything is in place before opening at 5:00 pm (ensuring all equipment is functioning properly)",
+      5
+    ],
+    [
+      "Arthur is interacting with customers and serving drinks as The Rose and Crown Pub opens and begins to fill with guests. He ensures everyone feels welcome and special, engaging in friendly conversation and sharing his unique cocktail creations",
+      60
+    ],
+    [
+      "Arthur is interacting with customers and serving drinks as The Rose and Crown Pub continues to fill with guests. He ensures everyone feels welcome and special, engaging in friendly conversation and sharing his unique cocktail creations",
+      180
+    ],
+    [
+      "Arthur is cleaning up after the last customer leaves and ensuring that everything is in order before closing The Rose and Crown Pub at 10:00 pm",
+      60
+    ],
+    [
+      "Arthur is having a late dinner and reviewing customer feedback to improve his service and cocktails",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -8
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      8
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "Arthur is waking up and completing his morning routine",
+      60
+    ],
+    [
+      "Arthur is having breakfast and planning his day. He reviews the inventory to ensure he has everything needed for the evening's operations at The Rose and Crown Pub",
+      60
+    ],
+    [
+      "Arthur is running errands and checking in with suppliers to ensure he has all the ingredients needed for his unique cocktail creations. He also takes some time to finalize any special events or promotions planned for the evening at The Rose and Crown Pub",
+      60
+    ],
+    [
+      "Arthur is checking inventory levels and placing orders for any missing ingredients needed for the evening. He also updates his social media pages to promote special events happening at The Rose and Crown Pub that night",
+      60
+    ],
+    [
+      "Arthur is preparing the bar menu and deciding on cocktail specials for the evening. He also spends time arranging any decorations or setting up equipment needed for special events planned at The Rose and Crown Pub",
+      60
+    ],
+    [
+      "Arthur is taking a short break and having lunch. He reviews customer feedback from the past week to improve his service and cocktails",
+      60
+    ],
+    [
+      "Arthur is taking a break and preparing for the evening by reviewing customer feedback and making adjustments to his cocktail recipes. He also spends time organizing supplies and ensuring everything is ready for opening at 5:00 pm",
+      60
+    ],
+    [
+      "Arthur is preparing the bar for opening by restocking supplies and cleaning. He also takes time to set up any special decorations or equipment needed for the evening's events at The Rose and Crown Pub",
+      60
+    ],
+    [
+      "Arthur is finishing up his preparations for the evening by ensuring all cocktail ingredients are fresh and ready to be used. He also spends some time cleaning behind the bar and arranging any last-minute details before opening at 5:00 pm",
+      60
+    ],
+    [
+      "Arthur is heading to The Rose and Crown Pub to begin his preparation for the evening. He ensures everything is in place before opening at 5:00 pm",
+      120
+    ],
+    [
+      "Arthur is interacting with customers and serving drinks as The Rose and Crown Pub opens and begins to fill with guests. He ensures everyone feels welcome and special, engaging in friendly conversation and sharing his unique cocktail creations",
+      60
+    ],
+    [
+      "Arthur is interacting with customers and serving drinks as The Rose and Crown Pub continues to fill with guests. He ensures everyone feels welcome and special, engaging in friendly conversation and sharing his unique cocktail creations",
+      180
+    ],
+    [
+      "Arthur is cleaning up after the last customer leaves and ensuring that everything is in order before closing The Rose and Crown Pub at 10:00 pm",
+      60
+    ],
+    [
+      "Arthur is having a late dinner and reviewing customer feedback to improve his service and cocktails",
+      60
+    ]
+  ],
+  "act_address": "the Ville:The Rose and Crown Pub:pub:kitchen sink",
+  "act_start_time": "February 13, 2023, 16:42:00",
+  "act_duration": 20,
+  "act_description": "Arthur is heading to The Rose and Crown Pub to begin his preparation for the evening. He ensures everything is in place before opening at 5:00 pm (restocking glassware and cleaning glasses)",
+  "act_pronunciatio": "\ud83c\udf7d\ufe0f\ud83e\uddfc",
+  "act_event": [
+    "Arthur Burton",
+    "restock",
+    "glassware"
+  ],
+  "act_obj_description": "empty and clean",
+  "act_obj_pronunciatio": "\ud83e\uddfd\ud83e\uddf9",
+  "act_obj_event": [
+    "kitchen sink",
+    "be",
+    "empty_and_clean"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Tom Moreno": -2064,
+    "Carmen Ortiz": 582,
+    "Isabella Rodriguez": -660,
+    "Yuriko Yamamoto": -102,
+    "Francisco Lopez": -1224,
+    "Latoya Williams": -486
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      56,
+      20
+    ],
+    [
+      57,
+      20
+    ],
+    [
+      58,
+      20
+    ],
+    [
+      59,
+      20
+    ],
+    [
+      60,
+      20
+    ]
+  ]
+}

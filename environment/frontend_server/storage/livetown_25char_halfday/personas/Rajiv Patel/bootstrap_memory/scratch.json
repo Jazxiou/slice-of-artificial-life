@@ -1,0 +1,550 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    37,
+    30
+  ],
+  "daily_plan_req": "",
+  "name": "Rajiv Patel",
+  "first_name": "Rajiv",
+  "last_name": "Patel",
+  "age": 27,
+  "innate": "patient, reliable, cheerful",
+  "learned": "Rajiv Patel is a painter who wants live quietly and paint while enjoying his everyday life.",
+  "currently": "Rajiv Patel is preparing for his first solo show. He mostly works from the artists' co-living space. Also, he recently got into playing the guitar.",
+  "seed_currently": "Rajiv Patel is preparing for his first solo show. He mostly works from the artists' co-living space. Also, he recently got into playing the guitar.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 61.41,
+    "hunger": 89.68,
+    "fun": 99.99,
+    "hygiene": 42.0,
+    "bladder": 0.0,
+    "social": 78.75
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Francisco Lopez": {
+      "friendship": 13.0,
+      "romance": 0.0
+    },
+    "Hailey Johnson": {
+      "friendship": 12.0,
+      "romance": 0.0
+    },
+    "Jennifer Moore": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Latoya Williams": {
+      "friendship": 12.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Rajiv Patel goes to bed around midnight, awakes up around 9am, eats dinner around 5pm.",
+  "living_area": "the Ville:artist's co-living space:Rajiv Patel's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 171,
+  "importance_ele_n": 15,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 9:00 am",
+    "have breakfast at 9:30 am",
+    "paint at the co-living space until lunchtime",
+    "have lunch at 12:00 pm",
+    "continue painting or work on preparations for his solo show from 1:00 to 5:00 pm",
+    "take a short walk and get some snacks at 5:00 pm",
+    "eat dinner at 5:30 pm",
+    "practice guitar from 6:30 to 7:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      540
+    ],
+    [
+      "waking up and completing his morning routine (waking up and stretching)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (going to the bathroom to brush his teeth and wash his face)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (making coffee)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (drinking his coffee while planning out his day)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (on the way to getting dressed for the day)",
+      0
+    ],
+    [
+      "waking up and completing his morning routine (waiting to start drinking his coffee while planning out his day)",
+      13
+    ],
+    [
+      "waking up and completing his morning routine (on the way to getting dressed for the day)",
+      0
+    ],
+    [
+      "waking up and completing his morning routine (conversing about Rajiv Patel and Francisco Lopez discussing potential collaborations between Rajiv's solo show and painting, music with Francisco's web series themes to support Sam's mayoral campaign.)",
+      8
+    ],
+    [
+      "waking up and completing his morning routine (checking emails and messages on his phone)",
+      7
+    ],
+    [
+      "waking up and completing his morning routine (preparing a light breakfast of fruit and yogurt)",
+      12
+    ],
+    [
+      "painting at the co-living space (gathering his art supplies)",
+      10
+    ],
+    [
+      "painting at the co-living space (on the way to setting up his workspace)",
+      0
+    ],
+    [
+      "painting at the co-living space (conversing about Rajiv Patel and Hailey Johnson discussing Rajiv's upcoming solo show, which aims to incorporate themes from Francisco Lopez's web series and support Sam's mayoral campaign through visual art.)",
+      15
+    ],
+    [
+      "painting at the co-living space (on the way to setting up his workspace)",
+      0
+    ],
+    [
+      "painting at the co-living space (conversing about Rajiv Patel and Jennifer Moore discussing how to integrate themes from Francisco's web series into their respective art forms to support Sam\u2019s campaign, including scheduling a joint meeting with Francisco to brainstorm ideas and involve more community members in their workshops.)",
+      16
+    ],
+    [
+      "painting at the co-living space (setting up his workspace)",
+      5
+    ],
+    [
+      "painting at the co-living space (reviewing the sketches for inspiration)",
+      12
+    ],
+    [
+      "painting at the co-living space (on the way to selecting colors and brushes)",
+      0
+    ],
+    [
+      "painting at the co-living space (conversing about Rajiv Patel and Latoya Williams discussing how to integrate travel photography with Francisco\u2019s web series themes and Sam's campaign visuals, including ideas for community workshops and social media engagement.)",
+      19
+    ],
+    [
+      "painting at the co-living space (on the way to selecting colors and brushes)",
+      0
+    ],
+    [
+      "painting at the co-living space (waiting to start conversing about Rajiv Patel and Latoya Williams discussing how to integrate travel photography with Francisco\u2019s web series themes and Sam's campaign visuals, including ideas for community workshops and social media engagement.)",
+      19
+    ],
+    [
+      "painting at the co-living space (selecting colors and brushes)",
+      5
+    ],
+    [
+      "painting at the co-living space (taking a short break)",
+      5
+    ],
+    [
+      "painting at the co-living space (continuing with the second layer of painting, stepping back to assess work and making adjustments based on assessment)",
+      2
+    ],
+    [
+      "painting at the co-living space (adding finishing touches to the artwork)",
+      3
+    ],
+    [
+      "having lunch (preparing his lunch)",
+      15
+    ],
+    [
+      "having lunch (eating his lunch)",
+      20
+    ],
+    [
+      "having lunch (drinking water and resting)",
+      5
+    ],
+    [
+      "having lunch (on the way to planning the afternoon's painting session)",
+      0
+    ],
+    [
+      "having lunch (conversing about Francisco Lopez and Rajiv Patel discussing how to integrate painting, music, community workshops, and improv comedy into Sam\u2019s campaign through their web series and art collaborations.)",
+      16
+    ],
+    [
+      "having lunch (finishing conversation and planning the afternoon's painting session)",
+      19
+    ],
+    [
+      "painting at the co-living space (on the way to preparing his canvas and materials, sketching the outline of his painting)",
+      0
+    ],
+    [
+      "painting at the co-living space (conversing about Hailey Johnson and Rajiv Patel discussing how to integrate narrative techniques, interactive elements, music, community workshops, and social media strategies into their respective projects and Sam's campaign.)",
+      19
+    ],
+    [
+      "painting at the co-living space (on the way to preparing his canvas and materials, sketching the outline of his painting)",
+      0
+    ],
+    [
+      "painting at the co-living space (conversing about Rajiv and Latoya discussing plans to integrate Francisco\u2019s web series themes, Latoya's travel photography into Rajiv's solo show and Sam's campaign through community workshops and Valentine's Day activities.)",
+      9
+    ],
+    [
+      "painting at the co-living space (preparing his canvas and materials, sketching the outline of his painting)",
+      21
+    ],
+    [
+      "painting at the co-living space (applying the first layer of paint)",
+      30
+    ],
+    [
+      "painting at the co-living space (taking a break and having a snack)",
+      15
+    ],
+    [
+      "painting at the co-living space (continuing to work on his painting by adding details)",
+      7
+    ],
+    [
+      "preparing for his solo show by organizing his artwork and arranging the display setup at the co-living space (sorting through his paintings to select pieces for the show)",
+      30
+    ],
+    [
+      "preparing for his solo show by organizing his artwork and arranging the display setup at the co-living space (cleaning and framing selected artworks)",
+      45
+    ],
+    [
+      "preparing for his solo show by organizing his artwork and arranging the display setup at the co-living space (setting up lighting for the display area)",
+      15
+    ],
+    [
+      "preparing for his solo show by organizing his artwork and arranging the display setup at the co-living space (on the way to arranging paintings on the walls to visualize layout)",
+      0
+    ],
+    [
+      "preparing for his solo show by organizing his artwork and arranging the display setup at the co-living space (conversing about Rajiv Patel and Francisco Lopez discussing plans to integrate Rajiv's solo show, a live painting session during Francisco\u2019s web series episode, Latoya\u2019s travel photography, and community workshops into Sam\u2019s campaign message.)",
+      18
+    ],
+    [
+      "preparing for his solo show by organizing his artwork and arranging the display setup at the co-living space (on the way to arranging paintings on the walls to visualize layout)",
+      0
+    ],
+    [
+      "preparing for his solo show by organizing his artwork and arranging the display setup at the co-living space (conversing about Latoya Williams and Rajiv Patel discussing how to incorporate travel photography, artwork, and Francisco\u2019s web series into Sam's campaign through interactive events and social media promotion, particularly focusing on Valentine\u2019s Day activities.)",
+      20
+    ],
+    [
+      "preparing for his solo show by organizing his artwork and arranging the display setup at the co-living space (arranging paintings on the walls to visualize layout)",
+      7
+    ],
+    [
+      "preparing for his solo show by organizing his artwork and arranging the display setup at the co-living space (taking a break and having some tea)",
+      15
+    ],
+    [
+      "preparing for his solo show by organizing his artwork and arranging the display setup at the co-living space (adjusting artwork placement based on feedback from peers)",
+      30
+    ],
+    [
+      "taking a short walk and getting some snacks",
+      60
+    ],
+    [
+      "practicing guitar",
+      60
+    ],
+    [
+      "eating dinner",
+      60
+    ],
+    [
+      "Rajiv is preparing for his solo show by organizing his artwork and arranging the display setup at the co-living space",
+      180
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -3
+    ],
+    [
+      "sleeping",
+      -3
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      5
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -1
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      540
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "painting at the co-living space",
+      120
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "painting at the co-living space",
+      120
+    ],
+    [
+      "preparing for his solo show by organizing his artwork and arranging the display setup at the co-living space",
+      180
+    ],
+    [
+      "taking a short walk and getting some snacks",
+      60
+    ],
+    [
+      "practicing guitar",
+      60
+    ],
+    [
+      "eating dinner",
+      60
+    ],
+    [
+      "Rajiv is preparing for his solo show by organizing his artwork and arranging the display setup at the co-living space",
+      180
+    ]
+  ],
+  "act_address": "<persona> Latoya Williams",
+  "act_start_time": "February 13, 2023, 16:43:00",
+  "act_duration": 20,
+  "act_description": "conversing about Latoya Williams and Rajiv Patel discussing how to incorporate travel photography, artwork, and Francisco\u2019s web series into Sam's campaign through interactive events and social media promotion, particularly focusing on Valentine\u2019s Day activities.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Rajiv Patel",
+    "chat with",
+    "Latoya Williams"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Latoya Williams",
+  "chat": [
+    [
+      "Latoya Williams",
+      "Rajiv, I was just chatting with Abigail about how we could incorporate travel photography into Sam's campaign using interactive events and multimedia. Have you thought about including any of your artwork or the themes from Francisco\u2019s web series in that context?"
+    ],
+    [
+      "Rajiv Patel",
+      "That sounds great, Latoya. I've been thinking about how we can tie Francisco\u2019s web series into my solo show and also integrate it within Sam's campaign message through community workshops and live events. Maybe we could even do a live painting session during one of the episodes to connect more with viewers?"
+    ],
+    [
+      "Latoya Williams",
+      "That's a fantastic idea, Rajiv! A live painting session could really make it interactive and engaging. We should plan to incorporate that into our upcoming Valentine\u2019s Day activities too, maybe even have a community art project where residents contribute their own pieces."
+    ],
+    [
+      "Rajiv Patel",
+      "Absolutely, Latoya! We could also use this as an opportunity to showcase some of your travel photography alongside my paintings. Let\u2019s brainstorm more about how we can bring these elements together for the Valentine\u2019s Day event and beyond."
+    ],
+    [
+      "Latoya Williams",
+      "I think we should definitely plan that live painting session and community art project for Valentine\u2019s Day. It would be a wonderful way to celebrate diversity and bring our community together through art. Let\u2019s make sure everyone gets involved, maybe even have Francisco feature some of the event on his web series."
+    ],
+    [
+      "Rajiv Patel",
+      "Sounds great, Latoya. Let\u2019s start planning logistics for the live painting session and community art project. How about we put together a rough schedule for Valentine\u2019s Day and discuss it during our meeting with Francisco this week?"
+    ],
+    [
+      "Latoya Williams",
+      "That sounds like an excellent plan, Rajiv. Let\u2019s also consider how we can leverage social media to promote these events and engage more people from our community. I\u2019ll start working on a draft for social media posts and graphics that highlight the upcoming Valentine\u2019s Day activities."
+    ],
+    [
+      "Rajiv Patel",
+      "That\u2019s a great idea, Latoya. Social media will definitely help us reach more people and build excitement for the event. I\u2019ll make sure to promote Francisco\u2019s web series as well to bring in additional viewers who might be interested in participating or contributing."
+    ],
+    [
+      "Latoya Williams",
+      "I\u2019ll draft up some initial proposals for social media strategies and visuals that blend your artwork, Francisco\u2019s themes, my travel photography, and Abigail\u2019s animations. It would be great if we could finalize these during our upcoming meeting with Francisco."
+    ],
+    [
+      "Rajiv Patel",
+      "Sounds good, Latoya. Let\u2019s aim to finalize everything during our meeting with Francisco this week and make sure everyone is on board with the plans for Valentine\u2019s Day and beyond. I\u2019ll also reach out to other residents in the co-living space to see if they\u2019re interested in joining or contributing ideas."
+    ],
+    [
+      "Latoya Williams",
+      "That works for me, Rajiv. I\u2019ll start drafting those social media strategies and visuals right away. Let\u2019s also discuss how we can involve more residents in these events to foster a sense of community and participation."
+    ],
+    [
+      "Rajiv Patel",
+      "That sounds like a solid plan, Latoya. I\u2019ll reach out to Francisco and let him know about our ideas for integrating live painting sessions into his web series during Valentine\u2019s Day. We can also use this as an opportunity to involve more community members in Sam's campaign through the events we organize."
+    ],
+    [
+      "Latoya Williams",
+      "That sounds like a great multi-step plan, Rajiv. I'll draft up the initial proposals and we can review them at our meeting this week to make sure everything aligns perfectly with Francisco\u2019s vision for his web series and Sam's campaign goals."
+    ],
+    [
+      "Rajiv Patel",
+      "Perfect, Latoya. I'll make sure to coordinate the schedule for the Valentine\u2019s Day event and discuss it thoroughly during our meeting with Francisco this week. Let's also brainstorm ways to incorporate community feedback into the planning process."
+    ],
+    [
+      "Latoya Williams",
+      "That sounds fantastic, Rajiv. I'll start working on those social media strategies and visuals right away to capture the essence of our collaboration for Valentine\u2019s Day. Let's also think about how we can make sure everyone has a chance to contribute their ideas during our upcoming brainstorming session."
+    ],
+    [
+      "Rajiv Patel",
+      "Thanks, Latoya. I think it\u2019s great we\u2019re aligning our efforts on Valentine\u2019s Day and beyond to integrate Francisco\u2019s web series themes into our community workshops and social media presence. Let\u2019s make sure everyone has a chance to contribute their unique perspectives and talents during the brainstorming session."
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Francisco Lopez": 798,
+    "Hailey Johnson": -336,
+    "Jennifer Moore": -1320,
+    "Latoya Williams": 800
+  },
+  "chatting_end_time": "February 13, 2023, 17:03:00",
+  "act_path_set": true,
+  "planned_path": [
+    [
+      36,
+      29
+    ]
+  ]
+}

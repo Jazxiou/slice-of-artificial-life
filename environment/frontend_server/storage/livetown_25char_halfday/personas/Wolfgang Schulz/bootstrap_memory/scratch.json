@@ -1,0 +1,853 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    113,
+    37
+  ],
+  "daily_plan_req": "Wolfgang Schulz goes for a run at the part in the morning, studies during the day, and exercises at his room at night ",
+  "name": "Wolfgang Schulz",
+  "first_name": "Wolfgang",
+  "last_name": "Schulz",
+  "age": 21,
+  "innate": "Hardworking, passionate, dedicated",
+  "learned": "Wolfgang Schulz is a student at Oak Hill College studying chemistry and a student athlete. He is very dedicated to both his academics and his sport.",
+  "currently": "Wolfgang Schulz is training for his next competition and studying for his exams. He is also looking for ways to make his studies more efficient.",
+  "seed_currently": "Wolfgang Schulz is training for his next competition and studying for his exams. He is also looking for ways to make his studies more efficient.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 41.41,
+    "hunger": 93.88,
+    "fun": 73.28,
+    "hygiene": 74.04,
+    "bladder": 0.0,
+    "social": 58.35
+  },
+  "mood": {
+    "family": "joy",
+    "word": "inspired"
+  },
+  "relationships": {
+    "Klaus Mueller": {
+      "friendship": 13.0,
+      "romance": 0.0
+    },
+    "Ayesha Khan": {
+      "friendship": 11.0,
+      "romance": 0.0
+    },
+    "Isabella Rodriguez": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Abigail Chen": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Eddy Lin": {
+      "friendship": 8.0,
+      "romance": 0.0
+    },
+    "Hailey Johnson": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Carlos Gomez": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Francisco Lopez": {
+      "friendship": 8.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Wolfgang Schulz goes to bed around 9pm, awakes up around 5am, eats dinner around 6pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 85,
+  "importance_ele_n": 74,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 5:00 am",
+    "run in the park from 6:00 am to 7:00 am",
+    "have breakfast at 7:30 am",
+    "study chemistry and related subjects from 8:00 am to 12:00 pm",
+    "have lunch at 12:30 pm",
+    "review and practice his sport skills from 1:00 pm to 4:00 pm",
+    "study additional academic materials or work on school projects from 4:30 pm to 6:00 pm",
+    "have dinner at 6:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "waking up and completing his morning routine (getting out of bed)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (going to the bathroom to use the toilet and wash his face)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (brushing his teeth)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (drinking a glass of water)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (putting on workout clothes)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (stretching for 5 minutes to prepare his body for the run)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (checking the weather and planning his route based on conditions)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (packing a small bag with essentials like water and keys)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (grabbing breakfast to eat after the run)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (leaving his room and heading out for the morning routine activities)",
+      5
+    ],
+    [
+      "running in the park (putting on his running gear)",
+      5
+    ],
+    [
+      "running in the park (stretching before the run)",
+      5
+    ],
+    [
+      "running in the park (warming up with a light jog)",
+      10
+    ],
+    [
+      "running in the park (running laps around the park)",
+      20
+    ],
+    [
+      "running in the park (taking a water break and checking his heart rate monitor)",
+      20
+    ],
+    [
+      "showering and preparing breakfast (showering)",
+      20
+    ],
+    [
+      "showering and preparing breakfast (getting dressed)",
+      5
+    ],
+    [
+      "showering and preparing breakfast (preparing breakfast ingredients)",
+      10
+    ],
+    [
+      "showering and preparing breakfast (on the way to on the way to cooking breakfast)",
+      0
+    ],
+    [
+      "showering and preparing breakfast (conversing about Wolfgang Schulz and Ayesha Khan discussing their daily schedules and planning to have lunch together sometime this week.)",
+      5
+    ],
+    [
+      "showering and preparing breakfast (cooking breakfast)",
+      5
+    ],
+    [
+      "showering and preparing breakfast (setting the table)",
+      5
+    ],
+    [
+      "showering and preparing breakfast (eating breakfast)",
+      10
+    ],
+    [
+      "studying chemistry and related subjects (reviewing his notes on organic chemistry)",
+      30
+    ],
+    [
+      "studying chemistry and related subjects (solving practice problems related to the review session)",
+      30
+    ],
+    [
+      "studying chemistry and related subjects (taking a break and having a snack)",
+      15
+    ],
+    [
+      "studying chemistry and related subjects (studying thermodynamics concepts from his textbook)",
+      30
+    ],
+    [
+      "studying chemistry and related subjects (on the way to creating flashcards for key terms and formulas)",
+      5
+    ],
+    [
+      "studying chemistry and related subjects (creating flashcards for key terms and formulas)",
+      25
+    ],
+    [
+      "studying chemistry and related subjects (conversing about Wolfgang Schulz and Ayesha Khan discussing plans to meet for lunch on Wednesday at noon in the cafeteria.)",
+      2
+    ],
+    [
+      "studying chemistry and related subjects (taking a break to stretch and hydrate)",
+      13
+    ],
+    [
+      "studying chemistry and related subjects (reviewing his notes on physical chemistry)",
+      30
+    ],
+    [
+      "studying chemistry and related subjects (working through example problems from the textbook)",
+      30
+    ],
+    [
+      "studying chemistry and related subjects (taking a break and having lunch early)",
+      15
+    ],
+    [
+      "studying chemistry and related subjects (reviewing his notes on analytical chemistry)",
+      15
+    ],
+    [
+      "studying chemistry and related subjects (conversing about Abigail Chen and Wolfgang Schulz discussing their respective projects, including Abigail's collaboration with Ayesha on an animation project that integrates poetry and music, and planning a meeting to brainstorm ideas together.)",
+      0
+    ],
+    [
+      "Wolfgang is studying chemistry and related subjects (reviewing notes on chemical reactions)",
+      15
+    ],
+    [
+      "Wolfgang is studying chemistry and related subjects (solving practice problems related to the reviewed material)",
+      15
+    ],
+    [
+      "Wolfgang is studying chemistry and related subjects (taking a short break and hydrating)",
+      5
+    ],
+    [
+      "Wolfgang is studying chemistry and related subjects (studying organic chemistry concepts)",
+      15
+    ],
+    [
+      "Wolfgang is studying chemistry and related subjects (summarizing key points from the study session)",
+      10
+    ],
+    [
+      "reviewing and practicing his sport skills (conversing about Carlos Gomez and Wolfgang Schulz discussing effective practice techniques, focusing on improving specific aspects of their respective crafts\u2014sports and poetry\u2014and planning a workshop session to enhance their skills together.)",
+      12
+    ],
+    [
+      "reviewing and practicing his sport skills (on the way to reviewing game footage to analyze past performances)",
+      0
+    ],
+    [
+      "reviewing and practicing his sport skills (conversing about Klaus Mueller and Wolfgang Schulz discussing their chemistry studies, potential research collaborations, dinner plans, and ideas for integrating their academic interests into the Valentine's Day party theme at Hobbs Cafe.)",
+      0
+    ],
+    [
+      "reviewing and practicing his sport skills (stretching and warming up for practice)",
+      14
+    ],
+    [
+      "reviewing and practicing his sport skills (on the way to practicing individual skills such as dribbling and shooting)",
+      0
+    ],
+    [
+      "reviewing and practicing his sport skills (conversing about Wolfgang Schulz and Eddy Lin discussing their plans to meet up for dinner at Hobbs Cafe to discuss projects.)",
+      3
+    ],
+    [
+      "reviewing and practicing his sport skills (practicing individual skills such as dribbling and shooting)",
+      17
+    ],
+    [
+      "reviewing and practicing his sport skills (on the way to participating in team drills with his teammates)",
+      0
+    ],
+    [
+      "reviewing and practicing his sport skills (conversing about Hailey Johnson and Wolfgang Schulz discussing potential cultural insights from Wolfgang's travels for Hailey's novel over coffee on Thursday afternoon.)",
+      5
+    ],
+    [
+      "reviewing and practicing his sport skills (participating in team drills with his teammates)",
+      15
+    ],
+    [
+      "reviewing and practicing his sport skills (taking a short break to hydrate and rest)",
+      5
+    ],
+    [
+      "reviewing and practicing his sport skills (working on endurance training such as running or cycling)",
+      15
+    ],
+    [
+      "reviewing and practicing his sport skills (pract",
+      34
+    ],
+    [
+      "studying additional academic materials or working on school projects (reviewing his chemistry notes)",
+      20
+    ],
+    [
+      "studying additional academic materials or working on school projects (on the way to solving practice problems related to the course material)",
+      0
+    ],
+    [
+      "studying additional academic materials or working on school projects (conversing about Ayesha Khan and Wolfgang Schulz discussing potential collaboration on exploring parallels between Shakespeare's language use and rhetoric in urban planning documents related to gentrification, with plans to meet at Hobbs Cafe during Valentine's Day party.)",
+      11
+    ],
+    [
+      "studying additional academic materials or working on school projects (solving practice problems related to the course material)",
+      19
+    ],
+    [
+      "studying additional academic materials or working on school projects (on the way to on the way to organizing his study materials for better efficiency)",
+      0
+    ],
+    [
+      "studying additional academic materials or working on school projects (conversing about Klaus Mueller and Wolfgang Schulz discussing Klaus's research progress, dinner plans, and ideas for their Valentine's Day party and chemistry-related activities at Hobbs Cafe.)",
+      4
+    ],
+    [
+      "studying additional academic materials or working on school projects (organizing his study materials for better efficiency)",
+      1
+    ],
+    [
+      "studying additional academic materials or working on school projects (taking a short break and hydrating)",
+      5
+    ],
+    [
+      "studying additional academic materials or working on school projects (on the way to reviewing any challenging concepts from the course material)",
+      0
+    ],
+    [
+      "reviewing and practicing his sport skills (reviewing techniques for his upcoming competition)",
+      15
+    ],
+    [
+      "reviewing and practicing his sport skills (on the way to setting up equipment and warming up)",
+      0
+    ],
+    [
+      "reviewing and practicing his sport skills (conversing about Wolfgang Schulz and Francisco Lopez discussing their respective fields of filmmaking and sports, focusing on handling feedback constructively and preparing for upcoming events.)",
+      8
+    ],
+    [
+      "reviewing and practicing his sport skills (setting up equipment and warming up)",
+      12
+    ],
+    [
+      "reviewing and practicing his sport skills (taking a short break to hydrate and stretch)",
+      5
+    ],
+    [
+      "reviewing and practicing his sport skills (practicing specific drills to improve skills)",
+      20
+    ],
+    [
+      "studying additional academic materials or working on school projects (reviewing his notes and textbooks)",
+      20
+    ],
+    [
+      "studying additional academic materials or working on school projects (taking organized notes from the materials)",
+      15
+    ],
+    [
+      "studying additional academic materials or working on school projects (solving practice problems related to the course material)",
+      15
+    ],
+    [
+      "studying additional academic materials or working on school projects (summarizing key concepts and ideas)",
+      10
+    ],
+    [
+      "Wolfgang is studying additional academic materials or working on school projects",
+      60
+    ],
+    [
+      "preparing and having breakfast",
+      60
+    ],
+    [
+      "Wolfgang is studying additional academic materials or working on school projects",
+      60
+    ],
+    [
+      "studying additional academic materials or working on school projects",
+      60
+    ],
+    [
+      "preparing for bed and winding down for the night",
+      120
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "running in the park",
+      60
+    ],
+    [
+      "showering and preparing breakfast",
+      60
+    ],
+    [
+      "studying chemistry and related subjects",
+      240
+    ],
+    [
+      "Wolfgang is studying chemistry and related subjects",
+      60
+    ],
+    [
+      "reviewing and practicing his sport skills",
+      120
+    ],
+    [
+      "studying additional academic materials or working on school projects",
+      60
+    ],
+    [
+      "reviewing and practicing his sport skills",
+      60
+    ],
+    [
+      "studying additional academic materials or working on school projects",
+      60
+    ],
+    [
+      "Wolfgang is studying additional academic materials or working on school projects",
+      60
+    ],
+    [
+      "preparing and having breakfast",
+      60
+    ],
+    [
+      "Wolfgang is studying additional academic materials or working on school projects",
+      60
+    ],
+    [
+      "studying additional academic materials or working on school projects",
+      60
+    ],
+    [
+      "preparing for bed and winding down for the night",
+      120
+    ]
+  ],
+  "act_address": "the Ville:Oak Hill College:library:library table",
+  "act_start_time": "February 13, 2023, 16:43:00",
+  "act_duration": 20,
+  "act_description": "reviewing and practicing his sport skills (practicing specific drills to improve skills)",
+  "act_pronunciatio": "\ud83d\udcaa\ud83c\udfaf",
+  "act_event": [
+    "Wolfgang Schulz",
+    "practice",
+    "specific drills"
+  ],
+  "act_obj_description": "occupied by Wolfgang Schulz who is reviewing and practicing his sport skills",
+  "act_obj_pronunciatio": "\ud83c\udfcb\ufe0f\ud83d\udc40",
+  "act_obj_event": [
+    "library table",
+    "be occupied by",
+    "Wolfgang Schulz"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Klaus Mueller": 432,
+    "Ayesha Khan": 276,
+    "Isabella Rodriguez": -1866,
+    "Abigail Chen": -888,
+    "Eddy Lin": -456,
+    "Hailey Johnson": -282,
+    "Carlos Gomez": 204,
+    "Francisco Lopez": 606
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      111,
+      37
+    ],
+    [
+      110,
+      37
+    ],
+    [
+      109,
+      37
+    ],
+    [
+      108,
+      37
+    ],
+    [
+      108,
+      36
+    ],
+    [
+      108,
+      35
+    ],
+    [
+      108,
+      34
+    ],
+    [
+      108,
+      33
+    ],
+    [
+      108,
+      32
+    ],
+    [
+      109,
+      32
+    ],
+    [
+      109,
+      31
+    ],
+    [
+      109,
+      30
+    ],
+    [
+      110,
+      30
+    ],
+    [
+      111,
+      30
+    ],
+    [
+      112,
+      30
+    ],
+    [
+      113,
+      30
+    ],
+    [
+      114,
+      30
+    ],
+    [
+      115,
+      30
+    ],
+    [
+      116,
+      30
+    ],
+    [
+      117,
+      30
+    ],
+    [
+      118,
+      30
+    ],
+    [
+      119,
+      30
+    ],
+    [
+      119,
+      29
+    ],
+    [
+      119,
+      28
+    ],
+    [
+      119,
+      27
+    ],
+    [
+      119,
+      26
+    ],
+    [
+      119,
+      25
+    ],
+    [
+      119,
+      24
+    ],
+    [
+      119,
+      23
+    ],
+    [
+      119,
+      22
+    ]
+  ]
+}

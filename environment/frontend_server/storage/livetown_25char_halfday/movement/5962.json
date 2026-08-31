@@ -1,0 +1,842 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "working on her photography projects in the artists' co-living space (conversing about Latoya Williams and Abigail Chen discussing potential collaboration on visual elements, including animations and travel photography, for Sam's mayoral campaign through interactive events and multimedia pieces, while also planning a brainstorming session with Francisco and Rajiv to enhance community engagement.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.2,
+          "hunger": 47.1,
+          "fun": 100.0,
+          "hygiene": 78.0,
+          "bladder": 0.0,
+          "social": 100.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Rajiv Patel": {
+      "movement": [
+        36,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Rajiv Patel and Francisco Lopez discussing plans to integrate Rajiv's solo show, a live painting session during Francisco\u2019s web series episode, Latoya\u2019s travel photography, and community workshops into Sam\u2019s campaign message. @ <persona> Francisco Lopez",
+      "chat": [
+        [
+          "Francisco Lopez",
+          "Hey Rajiv, looks like you've got everything set up nicely for your solo show. I was just reviewing some footage from today's shoot and thought it might be cool to integrate some of the themes we discussed earlier into your exhibit, especially since it'll support Sam\u2019s campaign."
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds great, Francisco! I was thinking we could also do a live painting session during one of your web series episodes to show how my process works and connect more directly with the audience. Plus, it could be a fun challenge for me to paint while improvising music."
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds fantastic, Rajiv! We could even have an interactive segment where viewers can suggest colors or themes for you to incorporate into your painting live. How does that sound?"
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds amazing, Francisco. It'll be a unique way to involve people and make my art more accessible. Let's also think about how we can incorporate some of Latoya\u2019s travel photography into the setup to complement the visuals of your web series."
+        ],
+        [
+          "Francisco Lopez",
+          "Absolutely, Rajiv! Latoya\u2019s travel photography could really add an extra layer to our collaborative efforts. Maybe we can also include some scenes from the co-living space where residents are sharing their thoughts on community and creativity, tying it all together for Sam's campaign message."
+        ],
+        [
+          "Rajiv Patel",
+          "That\u2019s a great idea, Francisco. We could also organize a small workshop for residents to contribute their own paintings or drawings in the style of Sam\u2019s campaign message and showcase them alongside my work during the web series episode. This way, we involve everyone directly and make it feel like a community effort."
+        ],
+        [
+          "Francisco Lopez",
+          "Love that idea, Rajiv! We could also invite some of our friends like Jennifer and Hailey to join in on the workshop too. It would be great if we can have a mix of different creative talents all working together for Sam\u2019s campaign. Let's put it on the schedule for next week!"
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds fantastic, Francisco. Let's finalize some dates and get everyone notified about the workshop. I think it would be a wonderful opportunity to bring our community together in support of Sam\u2019s campaign."
+        ],
+        [
+          "Francisco Lopez",
+          "Sounds good, Rajiv. I'll reach out to Jennifer and Hailey tomorrow morning to discuss their availability for next week\u2019s workshop. Let's also talk about coordinating the timing of your live painting session with one of our upcoming web series episodes so we can stream it live on social media."
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds perfect, Francisco. I\u2019ll make sure to have all my painting supplies ready and pick some music tracks beforehand for the live session. Let\u2019s aim for a weekend so more people can join in and watch."
+        ],
+        [
+          "Francisco Lopez",
+          "Sounds like a plan, Rajiv. I\u2019ll also work on getting all our web series footage ready to highlight during your live painting session and maybe even include some behind-the-scenes clips of how the co-living space supports creative endeavors for Sam\u2019s campaign."
+        ],
+        [
+          "Rajiv Patel",
+          "Great, let\u2019s make sure to promote it across all our platforms and involve as many people from our community as possible. I think this could really help bring Sam\u2019s message to life in a creative way."
+        ],
+        [
+          "Francisco Lopez",
+          "Absolutely, Rajiv. I\u2019ll reach out to everyone and make sure we have all our social media channels ready for the live stream. Let\u2019s also plan a post-event Q&A session where people can ask you about your process and get involved in discussions about Sam's campaign."
+        ],
+        [
+          "Rajiv Patel",
+          "Sounds amazing, Francisco. I\u2019ll start preparing my materials and look forward to collaborating on this exciting project. Let\u2019s also plan a way to thank all participants and contributors through social media after the event."
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds great. I\u2019ll start reaching out to everyone and coordinating the logistics for the live stream and workshop this week. Looking forward to seeing how it all comes together!"
+        ],
+        [
+          "Rajiv Patel",
+          "Thanks, Francisco. Let\u2019s definitely make sure to highlight everyone\u2019s contributions and create a memorable event for Sam\u2019s campaign supporters. Looking forward to seeing how it all unfolds!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 62.2,
+          "hunger": 90.6,
+          "fun": 100.0,
+          "hygiene": 42.5,
+          "bladder": 0.0,
+          "social": 74.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "working on her animation project for a client, focusing on refining character interactions and dialogue animations based on feedback. She makes adjustments to ensure the characters' movements are natural and expressive (conversing about Latoya Williams and Abigail Chen discussing potential collaboration on visual elements, including animations and travel photography, for Sam's mayoral campaign through interactive events and multimedia pieces, while also planning a brainstorming session with Francisco and Rajiv to enhance community engagement.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 57.2,
+          "hunger": 51.5,
+          "fun": 100.0,
+          "hygiene": 42.5,
+          "bladder": 0.0,
+          "social": 96.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Francisco Lopez": {
+      "movement": [
+        36,
+        29
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Rajiv Patel and Francisco Lopez discussing plans to integrate Rajiv's solo show, a live painting session during Francisco\u2019s web series episode, Latoya\u2019s travel photography, and community workshops into Sam\u2019s campaign message. @ <persona> Rajiv Patel",
+      "chat": [
+        [
+          "Francisco Lopez",
+          "Hey Rajiv, looks like you've got everything set up nicely for your solo show. I was just reviewing some footage from today's shoot and thought it might be cool to integrate some of the themes we discussed earlier into your exhibit, especially since it'll support Sam\u2019s campaign."
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds great, Francisco! I was thinking we could also do a live painting session during one of your web series episodes to show how my process works and connect more directly with the audience. Plus, it could be a fun challenge for me to paint while improvising music."
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds fantastic, Rajiv! We could even have an interactive segment where viewers can suggest colors or themes for you to incorporate into your painting live. How does that sound?"
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds amazing, Francisco. It'll be a unique way to involve people and make my art more accessible. Let's also think about how we can incorporate some of Latoya\u2019s travel photography into the setup to complement the visuals of your web series."
+        ],
+        [
+          "Francisco Lopez",
+          "Absolutely, Rajiv! Latoya\u2019s travel photography could really add an extra layer to our collaborative efforts. Maybe we can also include some scenes from the co-living space where residents are sharing their thoughts on community and creativity, tying it all together for Sam's campaign message."
+        ],
+        [
+          "Rajiv Patel",
+          "That\u2019s a great idea, Francisco. We could also organize a small workshop for residents to contribute their own paintings or drawings in the style of Sam\u2019s campaign message and showcase them alongside my work during the web series episode. This way, we involve everyone directly and make it feel like a community effort."
+        ],
+        [
+          "Francisco Lopez",
+          "Love that idea, Rajiv! We could also invite some of our friends like Jennifer and Hailey to join in on the workshop too. It would be great if we can have a mix of different creative talents all working together for Sam\u2019s campaign. Let's put it on the schedule for next week!"
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds fantastic, Francisco. Let's finalize some dates and get everyone notified about the workshop. I think it would be a wonderful opportunity to bring our community together in support of Sam\u2019s campaign."
+        ],
+        [
+          "Francisco Lopez",
+          "Sounds good, Rajiv. I'll reach out to Jennifer and Hailey tomorrow morning to discuss their availability for next week\u2019s workshop. Let's also talk about coordinating the timing of your live painting session with one of our upcoming web series episodes so we can stream it live on social media."
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds perfect, Francisco. I\u2019ll make sure to have all my painting supplies ready and pick some music tracks beforehand for the live session. Let\u2019s aim for a weekend so more people can join in and watch."
+        ],
+        [
+          "Francisco Lopez",
+          "Sounds like a plan, Rajiv. I\u2019ll also work on getting all our web series footage ready to highlight during your live painting session and maybe even include some behind-the-scenes clips of how the co-living space supports creative endeavors for Sam\u2019s campaign."
+        ],
+        [
+          "Rajiv Patel",
+          "Great, let\u2019s make sure to promote it across all our platforms and involve as many people from our community as possible. I think this could really help bring Sam\u2019s message to life in a creative way."
+        ],
+        [
+          "Francisco Lopez",
+          "Absolutely, Rajiv. I\u2019ll reach out to everyone and make sure we have all our social media channels ready for the live stream. Let\u2019s also plan a post-event Q&A session where people can ask you about your process and get involved in discussions about Sam's campaign."
+        ],
+        [
+          "Rajiv Patel",
+          "Sounds amazing, Francisco. I\u2019ll start preparing my materials and look forward to collaborating on this exciting project. Let\u2019s also plan a way to thank all participants and contributors through social media after the event."
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds great. I\u2019ll start reaching out to everyone and coordinating the logistics for the live stream and workshop this week. Looking forward to seeing how it all comes together!"
+        ],
+        [
+          "Rajiv Patel",
+          "Thanks, Francisco. Let\u2019s definitely make sure to highlight everyone\u2019s contributions and create a memorable event for Sam\u2019s campaign supporters. Looking forward to seeing how it all unfolds!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 52.2,
+          "hunger": 96.7,
+          "fun": 73.7,
+          "hygiene": 51.1,
+          "bladder": 0.0,
+          "social": 100.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac\u2764\ufe0f",
+      "description": "Hailey is working on her novel, conducting research and brainstorming new ideas (conversing about Hailey Johnson and Isabella Rodriguez discussing Valentine\u2019s Day plans, community events, and potential collaboration for Hailey's podcast featuring Hobbs Cafe's unique menu offerings.) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.2,
+          "hunger": 100.0,
+          "fun": 91.8,
+          "hygiene": 42.5,
+          "bladder": 0.0,
+          "social": 92.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Arthur Burton": {
+      "movement": [
+        54,
+        25
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83c\udf7e",
+      "description": "Arthur is heading to The Rose and Crown Pub to begin his preparation for the evening. He ensures everything is in place before opening at 5:00 pm (checking inventory levels of alcohol and mixers) @ the Ville:The Rose and Crown Pub:pub:shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.2,
+          "hunger": 78.6,
+          "fun": 27.0,
+          "hygiene": 42.5,
+          "bladder": 0.0,
+          "social": 58.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ryan Park": {
+      "movement": [
+        54,
+        17
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcc8",
+      "description": "researching new tech trends and taking notes (taking notes on emerging trends) @ the Ville:Arthur Burton's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 62.2,
+          "hunger": 88.0,
+          "fun": 95.0,
+          "hygiene": 42.5,
+          "bladder": 0.0,
+          "social": 56.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about planning interactive poetry stations and visual elements for an upcoming Valentine's Day event, with Ayesha curating a selection of poems and quotes from Shakespeare and contemporary poets while Isabella prepares chocolate fondue and coordinates with Abigail on animations. @ <persona> Ayesha Khan",
+      "chat": [
+        [
+          "Ayesha Khan",
+          "Isabella, everything looks amazing! I see you're preparing that special chocolate fondue. It must be so exciting to have everything coming together for Valentine's Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Ayesha! It really is. And I'm thrilled you're going to bring your creative ideas to make it even more special."
+        ],
+        [
+          "Ayesha Khan",
+          "I was thinking we could add some interactive poetry stations where people can write messages in poetic form for their loved ones. It would blend literature and art beautifully, fitting our theme perfectly."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds like such a wonderful idea, Ayesha! It would be great to have those interactive poetry stations along with Abigail\u2019s animations. People will love it!"
+        ],
+        [
+          "Ayesha Khan",
+          "I can also share some poems and quotes from Shakespeare that align with Valentine\u2019s Day sentiments. It could be a romantic touch for our audience. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds absolutely perfect, Ayesha! Shakespeare will definitely add an elegant touch. Can you also include some contemporary love poems to give a modern twist?"
+        ],
+        [
+          "Ayesha Khan",
+          "Absolutely, Isabella! I'll curate a selection that highlights both timeless romance and modern love. It would be great to have Carlos help us integrate these elements into an engaging visual presentation."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds fantastic, Ayesha. Carlos\u2019s visual skills will complement your poetry beautifully and bring our Valentine's Day party to life in a unique way."
+        ],
+        [
+          "Ayesha Khan",
+          "I'll get started on putting together that curated list and reaching out to Carlos for some ideas on how we can blend everything seamlessly. Let's aim to have a draft ready by the weekend so we can finalize details before Valentine\u2019s."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Ayesha! Let's make sure to touch base over the weekend to go through everything and finalize our plans. Can't wait to see how it all comes together!"
+        ],
+        [
+          "Ayesha Khan",
+          "Great, Isabella! I'll start working on it right away and make sure to send you a draft by Saturday. Looking forward to bringing this all together."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Ayesha! That\u2019ll be wonderful. Don't hesitate to reach out if you need any help or additional ideas from me. Have a great day!"
+        ],
+        [
+          "Ayesha Khan",
+          "Thanks, Isabella! I'll keep that in mind and reach out if I need any assistance. Looking forward to seeing how our collaboration turns out!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds great, Ayesha! Can't wait to see how everything comes together. Enjoy your research and let me know if you need anything from my side."
+        ],
+        [
+          "Ayesha Khan",
+          "Thanks again, Isabella. I'll start working on curating the poetry list and coordinating with Carlos today."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds wonderful, Ayesha! I'll be here if you need anything. Have a great day and let your creativity flow!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 47.2,
+          "hunger": 95.2,
+          "fun": 98.4,
+          "hygiene": 51.1,
+          "bladder": 0.0,
+          "social": 100.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        41,
+        32
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "taking a short break and reading up on new theories for math classes (taking a short walk to clear his mind) @ the Ville:Johnson Park:park:park garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.2,
+          "hunger": 78.3,
+          "fun": 41.0,
+          "hygiene": 75.6,
+          "bladder": 0.0,
+          "social": 77.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Carlos Gomez": {
+      "movement": [
+        112,
+        21
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83c\udfa7",
+      "description": "Carlos is attending a creative writing workshop (introducing himself to other participants and listening to the instructor's introduction) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.2,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 51.1,
+          "bladder": 0.0,
+          "social": 33.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\u270d\ufe0f\ud83d\udcd6",
+      "description": "Klaus is working on his research paper in the library at Oak Hill College. He plans to continue until around 5:00 pm (writing an introduction to his paper and reviewing previous work to ensure consistency and flow) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.2,
+          "hunger": 85.3,
+          "fun": 52.6,
+          "hygiene": 74.4,
+          "bladder": 0.0,
+          "social": 68.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        126,
+        54
+      ],
+      "pronunciatio": "\ud83c\udfae\ud83d\udcac",
+      "description": "streaming games on Twitch (resumes streaming a new game for 30 minutes while interacting with her audience) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.2,
+          "hunger": 30.6,
+          "fun": 100.0,
+          "hygiene": 51.1,
+          "bladder": 0.0,
+          "social": 42.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ayesha Khan": {
+      "movement": [
+        75,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about planning interactive poetry stations and visual elements for an upcoming Valentine's Day event, with Ayesha curating a selection of poems and quotes from Shakespeare and contemporary poets while Isabella prepares chocolate fondue and coordinates with Abigail on animations. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Ayesha Khan",
+          "Isabella, everything looks amazing! I see you're preparing that special chocolate fondue. It must be so exciting to have everything coming together for Valentine's Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Ayesha! It really is. And I'm thrilled you're going to bring your creative ideas to make it even more special."
+        ],
+        [
+          "Ayesha Khan",
+          "I was thinking we could add some interactive poetry stations where people can write messages in poetic form for their loved ones. It would blend literature and art beautifully, fitting our theme perfectly."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds like such a wonderful idea, Ayesha! It would be great to have those interactive poetry stations along with Abigail\u2019s animations. People will love it!"
+        ],
+        [
+          "Ayesha Khan",
+          "I can also share some poems and quotes from Shakespeare that align with Valentine\u2019s Day sentiments. It could be a romantic touch for our audience. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds absolutely perfect, Ayesha! Shakespeare will definitely add an elegant touch. Can you also include some contemporary love poems to give a modern twist?"
+        ],
+        [
+          "Ayesha Khan",
+          "Absolutely, Isabella! I'll curate a selection that highlights both timeless romance and modern love. It would be great to have Carlos help us integrate these elements into an engaging visual presentation."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds fantastic, Ayesha. Carlos\u2019s visual skills will complement your poetry beautifully and bring our Valentine's Day party to life in a unique way."
+        ],
+        [
+          "Ayesha Khan",
+          "I'll get started on putting together that curated list and reaching out to Carlos for some ideas on how we can blend everything seamlessly. Let's aim to have a draft ready by the weekend so we can finalize details before Valentine\u2019s."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Ayesha! Let's make sure to touch base over the weekend to go through everything and finalize our plans. Can't wait to see how it all comes together!"
+        ],
+        [
+          "Ayesha Khan",
+          "Great, Isabella! I'll start working on it right away and make sure to send you a draft by Saturday. Looking forward to bringing this all together."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Ayesha! That\u2019ll be wonderful. Don't hesitate to reach out if you need any help or additional ideas from me. Have a great day!"
+        ],
+        [
+          "Ayesha Khan",
+          "Thanks, Isabella! I'll keep that in mind and reach out if I need any assistance. Looking forward to seeing how our collaboration turns out!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds great, Ayesha! Can't wait to see how everything comes together. Enjoy your research and let me know if you need anything from my side."
+        ],
+        [
+          "Ayesha Khan",
+          "Thanks again, Isabella. I'll start working on curating the poetry list and coordinating with Carlos today."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds wonderful, Ayesha! I'll be here if you need anything. Have a great day and let your creativity flow!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 47.2,
+          "hunger": 80.1,
+          "fun": 100.0,
+          "hygiene": 51.1,
+          "bladder": 0.0,
+          "social": 82.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        109,
+        30
+      ],
+      "pronunciatio": "\ud83d\udd27\ud83d\udd25",
+      "description": "reviewing and practicing his sport skills (setting up equipment and warming up) @ the Ville:Oak Hill College:classroom:classroom podium",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.2,
+          "hunger": 94.8,
+          "fun": 73.9,
+          "hygiene": 74.5,
+          "bladder": 0.0,
+          "social": 59.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Mei Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb6",
+      "description": "Mei is resting and preparing to help her children with their homework (conversing about Eddy Lin and Mei Lin discussing how Eddy's composition project, inspired by a dream blending classical and contemporary musical styles, can represent philosophical evolution and be enhanced by technology, with plans to collaborate on a presentation for one of Mei's philosophy classes.) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.2,
+          "hunger": 95.4,
+          "fun": 78.8,
+          "hygiene": 73.2,
+          "bladder": 36.6,
+          "social": 43.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        82,
+        49
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udc65",
+      "description": "John leaves the pharmacy after completing all necessary end-of-day procedures. (conversing about planning and organizing a town hall meeting to gather community input on healthcare policies and medication accessibility, with John Lin and Tom Moreno discussing strategies such as informational sessions at local businesses, schools, and community centers, creating flyers, and reaching out to other organizations for support.) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.3,
+          "hunger": 97.9,
+          "fun": 49.7,
+          "hygiene": 74.1,
+          "bladder": 0.0,
+          "social": 58.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb6",
+      "description": "Eddy is continuing to work on his composition project at home (conversing about Eddy Lin and Mei Lin discussing how Eddy's composition project, inspired by a dream blending classical and contemporary musical styles, can represent philosophical evolution and be enhanced by technology, with plans to collaborate on a presentation for one of Mei's philosophy classes.) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 55.4,
+          "hunger": 85.3,
+          "fun": 100.0,
+          "hygiene": 80.5,
+          "bladder": 0.0,
+          "social": 63.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Tom Moreno": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udc65",
+      "description": "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (conversing about planning and organizing a town hall meeting to gather community input on healthcare policies and medication accessibility, with John Lin and Tom Moreno discussing strategies such as informational sessions at local businesses, schools, and community centers, creating flyers, and reaching out to other organizations for support.) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.2,
+          "hunger": 69.9,
+          "fun": 8.7,
+          "hygiene": 51.1,
+          "bladder": 0.0,
+          "social": 65.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Jane Moreno": {
+      "movement": [
+        75,
+        65
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Jane is preparing ingredients for dinner (washing and preparing meat) @ the Ville:Moreno family's house:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.2,
+          "hunger": 100.0,
+          "fun": 20.4,
+          "hygiene": 51.1,
+          "bladder": 0.0,
+          "social": 34.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Tamara Taylor": {
+      "movement": [
+        55,
+        67
+      ],
+      "pronunciatio": "\ud83d\udcca\ud83d\udcc5",
+      "description": "Tamara is continuing to work on marketing strategies for both her children's books and comic book series (reviewing sales data for the past month) @ the Ville:Tamara Taylor and Carmen Ortiz's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.2,
+          "hunger": 84.6,
+          "fun": 38.3,
+          "hygiene": 42.5,
+          "bladder": 0.0,
+          "social": 24.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Carmen Ortiz": {
+      "movement": [
+        73,
+        19
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "working at Harvey Oak Supply Store (taking a break and having lunch) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.2,
+          "hunger": 66.7,
+          "fun": 23.2,
+          "hygiene": 56.2,
+          "bladder": 0.0,
+          "social": 45.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Sam Moore": {
+      "movement": [
+        40,
+        60
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83d\udce2",
+      "description": "taking a short break and chatting with neighbors about the upcoming election (introducing himself and discussing his mayoral campaign with neighbors) @ the Ville:Moore family's house:main room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.2,
+          "hunger": 75.1,
+          "fun": 83.4,
+          "hygiene": 67.5,
+          "bladder": 23.5,
+          "social": 87.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Jennifer Moore": {
+      "movement": [
+        39,
+        28
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udcd6",
+      "description": "Jennifer is continuing to work on the upcoming exhibition (reviewing previous sketches and paintings for inspiration) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.2,
+          "hunger": 78.4,
+          "fun": 99.0,
+          "hygiene": 45.9,
+          "bladder": 0.0,
+          "social": 97.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Yuriko Yamamoto": {
+      "movement": [
+        31,
+        59
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcc5",
+      "description": "Yuriko is continuing to work on her tax compliance project and preparing for any follow-up tasks or meetings later in the day (preparing a list of follow-up tasks and meetings for the day) @ the Ville:Yuriko Yamamoto's house:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.2,
+          "hunger": 78.7,
+          "fun": 16.0,
+          "hygiene": 77.3,
+          "bladder": 0.0,
+          "social": 46.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Adam Smith": {
+      "movement": [
+        21,
+        44
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Adam is taking a short walk to clear his mind (sitting on a bench and reflecting) @ the Ville:Johnson Park:park:park garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 37.2,
+          "hunger": 83.2,
+          "fun": 99.5,
+          "hygiene": 42.5,
+          "bladder": 0.0,
+          "social": 82.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 16:33:40"
+  }
+}

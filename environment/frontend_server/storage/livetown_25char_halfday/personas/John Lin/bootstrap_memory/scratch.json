@@ -1,0 +1,809 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    82,
+    49
+  ],
+  "daily_plan_req": "John Lin goes to the Willow Market and Pharmacy around 9am to open the pharmacy counter. He stands behind the counter until 5pm and returns home.",
+  "name": "John Lin",
+  "first_name": "John",
+  "last_name": "Lin",
+  "age": 45,
+  "innate": "patient, kind, organized",
+  "learned": "John Lin is a pharmacy shop keeper at the Willow Market and Pharmacy who loves to help people. He is always looking for ways to make the process of getting medication easier for his customers.",
+  "currently": "John Lin is living with his wife, Mei Lin, and son, Eddy Lin, and is shop keeping a pharmacy at the Willow Market and Pharmacy. He is also taking online classes to stay up to date on new medications and treatments. John is also curious about who will be running for the local mayor election next month and he is asking everyone he meets about who will be running in the election.",
+  "seed_currently": "John Lin is living with his wife, Mei Lin, and son, Eddy Lin, and is shop keeping a pharmacy at the Willow Market and Pharmacy. He is also taking online classes to stay up to date on new medications and treatments. John is also curious about who will be running for the local mayor election next month and he is asking everyone he meets about who will be running in the election.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 52.53,
+    "hunger": 100.0,
+    "fun": 49.03,
+    "hygiene": 73.59,
+    "bladder": 0.0,
+    "social": 57.69
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Eddy Lin": {
+      "friendship": 89.0,
+      "romance": 0.0
+    },
+    "Mei Lin": {
+      "friendship": 82.0,
+      "romance": 70.0
+    },
+    "Tom Moreno": {
+      "friendship": 56.0,
+      "romance": 0.0
+    },
+    "Yuriko Yamamoto": {
+      "friendship": 10.0,
+      "romance": 0.0
+    },
+    "Jane Moreno": {
+      "friendship": 37.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "John Lin goes to bed around 10pm, awakes up around 6am, eats dinner around 5pm.",
+  "living_area": "the Ville:Lin family's house:Mei and John Lin's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 15,
+  "importance_ele_n": 122,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "go to the Willow Market and Pharmacy around 9am to open the pharmacy counter. He stands behind the counter until 5pm",
+    "Return home and have dinner with his family around 5pm",
+    "Spend some time reviewing new medication information from online classes after dinner"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing his morning routine (waking up and turning off the alarm)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (stretching and getting out of bed)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (going to the bathroom to use the toilet and wash his face)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (brushing his teeth)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (washing his hands thoroughly)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (getting dressed for the day)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (checking on his wife and son to ensure they are still sleeping peacefully)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (making a quick cup of coffee or tea for himself)",
+      15
+    ],
+    [
+      "preparing breakfast and getting ready for the day. He ensures everything at home is in order before heading to work (making coffee and preparing a light breakfast)",
+      20
+    ],
+    [
+      "preparing breakfast and getting ready for the day. He ensures everything at home is in order before heading to work (packing his lunch and snacks for the day)",
+      10
+    ],
+    [
+      "preparing breakfast and getting ready for the day. He ensures everything at home is in order before heading to work (on the way to checking on his wife Mei Lin to ensure she has everything she needs for the day)",
+      0
+    ],
+    [
+      "preparing breakfast and getting ready for the day. He ensures everything at home is in order before heading to work (conversing about Eddy and John discussing their sleep, dreams related to music composition, and daily routines.)",
+      8
+    ],
+    [
+      "preparing breakfast and getting ready for the day. He ensures everything at home is in order before heading to work (helping his son Eddy with getting ready for school)",
+      7
+    ],
+    [
+      "preparing breakfast and getting ready for the day. He ensures everything at home is in order before heading to work (doing a quick clean-up of the kitchen and dining area)",
+      10
+    ],
+    [
+      "preparing breakfast and getting ready for the day. He ensures everything at home is in order before heading to work (reviewing any notes or messages from his online classes to stay updated on new medications and treatments)",
+      5
+    ],
+    [
+      "heading to the Willow Market and Pharmacy to prepare for opening. He checks inventory and sets up any necessary displays or promotions before his shift begins at 9am (on the way to driving to the Willow Market and Pharmacy)",
+      0
+    ],
+    [
+      "heading to the Willow Market and Pharmacy to prepare for opening. He checks inventory and sets up any necessary displays or promotions before his shift begins at 9am (conversing about conversing about morning preparations, school and work schedules, and coordinating responsibilities while ensuring Eddy's needs are met.)",
+      8
+    ],
+    [
+      "heading to the Willow Market and Pharmacy to prepare for opening. He checks inventory and sets up any necessary displays or promotions before his shift begins at 9am (parking his car and entering the pharmacy area)",
+      7
+    ],
+    [
+      "heading to the Willow Market and Pharmacy to prepare for opening. He checks inventory and sets up any necessary displays or promotions before his shift begins at 9am (checking inventory levels of commonly used medications)",
+      5
+    ],
+    [
+      "heading to the Willow Market and Pharmacy to prepare for opening. He checks inventory and sets up any necessary displays or promotions before his shift begins at 9am (on the way to organizing shelves to ensure all items are easily accessible)",
+      0
+    ],
+    [
+      "heading to the Willow Market and Pharmacy to prepare for opening. He checks inventory and sets up any necessary displays or promotions before his shift begins at 9am (conversing about John Lin and Tom Moreno discussing potential mayoral candidates, community needs, and organizing a town hall meeting to gather input from residents.)",
+      11
+    ],
+    [
+      "heading to the Willow Market and Pharmacy to prepare for opening. He checks inventory and sets up any necessary displays or promotions before his shift begins at 9am (organizing shelves to ensure all items are easily accessible)",
+      9
+    ],
+    [
+      "heading to the Willow Market and Pharmacy to prepare for opening. He checks inventory and sets up any necessary displays or promotions before his shift begins at 9am (setting up promotional displays for new products or seasonal offerings)",
+      10
+    ],
+    [
+      "arriving at the Willow Market and Pharmacy to open the pharmacy counter. He checks in with the market staff and begins setting up for the day's operations (arriving, unlocking the pharmacy counter area, turning on the lights and setting up the cash register)",
+      20
+    ],
+    [
+      "arriving at the Willow Market and Pharmacy to open the pharmacy counter. He checks in with the market staff and begins setting up for the day's operations (checking inventory levels of common medications)",
+      10
+    ],
+    [
+      "arriving at the Willow Market and Pharmacy to open the pharmacy counter. He checks in with the market staff and begins setting up for the day's operations (organizing prescription files and patient records)",
+      10
+    ],
+    [
+      "arriving at the Willow Market and Pharmacy to open the pharmacy counter. He checks in with the market staff and begins setting up for the day's operations (setting up promotional displays for the day)",
+      10
+    ],
+    [
+      "arriving at the Willow Market and Pharmacy to open the pharmacy counter. He checks in with the market staff and begins setting up for the day's operations (greeting market staff and discussing any updates or changes)",
+      10
+    ],
+    [
+      "arriving at the Willow Market and Pharmacy to open the pharmacy counter. He checks in with the market staff and begins setting up for the day's operations (finalizing setup of the pharmacy counter area)",
+      10
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (welcoming customers and greeting them warmly)",
+      5
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (checking prescriptions for accuracy)",
+      5
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (consulting with customers about their medications)",
+      10
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (filling prescriptions and preparing medication bottles)",
+      10
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (advising on over-the-counter remedies for common ailments)",
+      5
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (answering questions about drug interactions and side effects)",
+      5
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (providing educational materials to customers)",
+      5
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (on the way to updating customer records and filing prescriptions)",
+      0
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (conversing about John Lin and Tom Moreno discussing plans to gather community input and spread awareness for an upcoming town hall meeting, including organizing joint outreach efforts and informational sessions.)",
+      11
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (restocking shelves with new inventory)",
+      3
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (taking a brief moment to organize the counter area)",
+      5
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (on the way to attending to a customer who needs a prescription refill)",
+      0
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (conversing about planning and collaborating on organizing town hall meetings and informational sessions to gather community input on mayoral candidates and issues, with John Lin and Yuriko Yamamoto discussing ways to involve various parts of the community through local organizations and schools.)",
+      13
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (filling the prescription accurately and efficiently)",
+      7
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (providing medication instructions to the customer)",
+      5
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (answering questions about side effects and interactions)",
+      5
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (attending to another customer who needs an over-the-counter recommendation)",
+      10
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (checking inventory levels for popular items)",
+      5
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (restocking shelves with new deliveries)",
+      10
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (attending to a customer who needs assistance finding a specific product)",
+      5
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (providing educational materials about the benefits of certain medications)",
+      5
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (answering questions from a customer about new treatments for chronic conditions)",
+      10
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (attending to a customer who needs help with insurance paperwork)",
+      5
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (checking the pharmacy's inventory system for stock levels of commonly prescribed medications)",
+      10
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (attending to a customer who needs advice on managing multiple prescriptions)",
+      5
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (providing information about generic alternatives for brand-name drugs)",
+      10
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (closing out the cash register for the day)",
+      10
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (on the way to counting inventory and checking stock levels)",
+      0
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (waiting to start closing out the cash register for the day)",
+      13
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (on the way to counting inventory and checking stock levels)",
+      0
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (conversing about Jane Moreno and John Lin discussing plans for an upcoming town hall meeting to discuss potential mayoral candidates, with John expressing interest in attending and asking for more information on healthcare policies and medication accessibility.)",
+      7
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (counting inventory and checking stock levels)",
+      10
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (on the way to organizing the shelves to ensure all medications are properly displayed)",
+      0
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (conversing about Eddy Lin's day, including his plans to have lunch and study at Hobbs Cafe, with John Lin offering support and encouragement.)",
+      3
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (organizing the shelves to ensure all medications are properly displayed)",
+      17
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (on the way to cleaning up any mess or spills around the pharmacy area)",
+      0
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (conversing about planning and coordinating efforts to spread awareness and gather community feedback for an upcoming town hall meeting, including organizing info sessions and creating flyers with healthcare policies and community concerns.)",
+      12
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (cleaning up any mess or spills around the pharmacy area)",
+      5
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (locking up the prescription counter and securing it for the night)",
+      3
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (turning off all non-essential lights and electronics to save energy)",
+      10
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (checking that all security measures are in place for the night)",
+      10
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (finalizing any remaining tasks before leaving for the day)",
+      10
+    ],
+    [
+      "John leaves the pharmacy after completing all necessary end-of-day procedures. (locking up the store and securing the front door)",
+      10
+    ],
+    [
+      "John leaves the pharmacy after completing all necessary end-of-day procedures. (counting cash and balancing the till)",
+      15
+    ],
+    [
+      "John leaves the pharmacy after completing all necessary end-of-day procedures. (organizing inventory and restocking shelves with new medications)",
+      30
+    ],
+    [
+      "John leaves the pharmacy after completing all necessary end-of-day procedures. (on the way to on the way to checking expiration dates on medication stock)",
+      0
+    ],
+    [
+      "John leaves the pharmacy after completing all necessary end-of-day procedures. (waiting to start organizing inventory and restocking shelves with new medications) (locking up the store, including securing the pharmacy counter and any cash or valuables)",
+      5
+    ],
+    [
+      "John leaves the pharmacy after completing all necessary end-of-day procedures. (waiting to start organizing inventory and restocking shelves with new medications) (ensuring all medications are safely stored away according to regulations)",
+      10
+    ],
+    [
+      "John leaves the pharmacy after completing all necessary end-of-day procedures. (waiting to start organizing inventory and restocking shelves with new medications) (checking that all prescription records are up-to-date and properly filed)",
+      10
+    ],
+    [
+      "John leaves the pharmacy after completing all necessary end-of-day procedures. (waiting to start organizing inventory and restocking shelves with new medications) (reviewing the day's sales and inventory levels)",
+      10
+    ],
+    [
+      "John leaves the pharmacy after completing all necessary end-of-day procedures. (waiting to start organizing inventory and restocking shelves with new medications) (organizing any returned or expired medications for disposal)",
+      10
+    ],
+    [
+      "John leaves the pharmacy after completing all necessary end-of-day procedures. (on the way to cleaning and sanitizing all work surfaces and equipment used throughout the day)",
+      0
+    ],
+    [
+      "John leaves the pharmacy after completing all necessary end-of-day procedures. (conversing about planning and organizing a town hall meeting to gather community input on healthcare policies and medication accessibility, with John Lin and Tom Moreno discussing strategies such as informational sessions at local businesses, schools, and community centers, creating flyers, and reaching out to other organizations for support.)",
+      45
+    ],
+    [
+      "John is wrapping up any loose ends for the day, ensuring everything in the pharmacy is organized and ready for the next shift",
+      4
+    ],
+    [
+      "closing the pharmacy counter at the Willow Market and Pharmacy. He locks up the store, ensuring all medications are safely stored away and that everything is in order for the night (locking up the cash register and securing any loose cash)",
+      5
+    ],
+    [
+      "closing the pharmacy counter at the Willow Market and Pharmacy. He locks up the store, ensuring all medications are safely stored away and that everything is in order for the night (turning off all point-of-sale systems)",
+      5
+    ],
+    [
+      "closing the pharmacy counter at the Willow Market and Pharmacy. He locks up the store, ensuring all medications are safely stored away and that everything is in order for the night (checking that all prescription orders are completed and labeled correctly)",
+      10
+    ],
+    [
+      "closing the pharmacy counter at the Willow Market and Pharmacy. He locks up the store, ensuring all medications are safely stored away and that everything is in order for the night (organizing the shelves to ensure they are neat and tidy for the next day)",
+      10
+    ],
+    [
+      "closing the pharmacy counter at the Willow Market and Pharmacy. He locks up the store, ensuring all medications are safely stored away and that everything is in order for the night (locking up all medication storage areas securely)",
+      10
+    ],
+    [
+      "closing the pharmacy counter at the Willow Market and Pharmacy. He locks up the store, ensuring all medications are safely stored away and that everything is in order for the night (turning off all lights except for security lighting)",
+      5
+    ],
+    [
+      "closing the pharmacy counter at the Willow Market and Pharmacy. He locks up the store, ensuring all medications are safely stored away and that everything is in order for the night (checking the temperature of refrigerated medications to ensure they are stored properly)",
+      5
+    ],
+    [
+      "closing the pharmacy counter at the Willow Market and Pharmacy. He locks up the store, ensuring all medications are safely stored away and that everything is in order for the night (reviewing any notes or messages from colleagues about ongoing orders or deliveries)",
+      10
+    ],
+    [
+      "returning home from the pharmacy. He heads back to his house to have dinner with his family",
+      60
+    ],
+    [
+      "reviewing new medication information from the online classes he's taking. He stays focused and takes notes to ensure he understands all the updates and can better serve his customers with accurate and current knowledge",
+      60
+    ],
+    [
+      "spending quality time with his family. He discusses the day's events and listens to what Mei Lin and Eddy have to share about their day",
+      120
+    ],
+    [
+      "asking around about the upcoming local mayor election. He inquires with neighbors and friends to gather information on who might be running, showing his interest in community affairs",
+      60
+    ],
+    [
+      "John is preparing for bed. He ensures that everything at home is in order and checks on his family before settling down to rest",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -4
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -4
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "preparing breakfast and getting ready for the day. He ensures everything at home is in order before heading to work",
+      60
+    ],
+    [
+      "heading to the Willow Market and Pharmacy to prepare for opening. He checks inventory and sets up any necessary displays or promotions before his shift begins at 9am",
+      60
+    ],
+    [
+      "arriving at the Willow Market and Pharmacy to open the pharmacy counter. He checks in with the market staff and begins setting up for the day's operations",
+      60
+    ],
+    [
+      "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor",
+      60
+    ],
+    [
+      "attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor",
+      360
+    ],
+    [
+      "closing the pharmacy counter at the Willow Market and Pharmacy. He locks up the store, ensuring all medications are safely stored away and that everything is in order for the night",
+      60
+    ],
+    [
+      "returning home from the pharmacy. He heads back to his house to have dinner with his family",
+      60
+    ],
+    [
+      "reviewing new medication information from the online classes he's taking. He stays focused and takes notes to ensure he understands all the updates and can better serve his customers with accurate and current knowledge",
+      60
+    ],
+    [
+      "spending quality time with his family. He discusses the day's events and listens to what Mei Lin and Eddy have to share about their day",
+      120
+    ],
+    [
+      "asking around about the upcoming local mayor election. He inquires with neighbors and friends to gather information on who might be running, showing his interest in community affairs",
+      60
+    ],
+    [
+      "John is preparing for bed. He ensures that everything at home is in order and checks on his family before settling down to rest",
+      60
+    ]
+  ],
+  "act_address": "the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+  "act_start_time": "February 13, 2023, 16:24:00",
+  "act_duration": 45,
+  "act_description": "John leaves the pharmacy after completing all necessary end-of-day procedures. (conversing about planning and organizing a town hall meeting to gather community input on healthcare policies and medication accessibility, with John Lin and Tom Moreno discussing strategies such as informational sessions at local businesses, schools, and community centers, creating flyers, and reaching out to other organizations for support.)",
+  "act_pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udc65",
+  "act_event": [
+    "John Lin",
+    "converse",
+    "Tom Moreno"
+  ],
+  "act_obj_description": "empty and needing restocking",
+  "act_obj_pronunciatio": "\ud83d\uded2",
+  "act_obj_event": [
+    "grocery store shelf",
+    "be",
+    "empty"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Eddy Lin": -378,
+    "Mei Lin": -2322,
+    "Tom Moreno": 684,
+    "Yuriko Yamamoto": -1176,
+    "Jane Moreno": -438
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -1,0 +1,769 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    39,
+    28
+  ],
+  "daily_plan_req": "",
+  "name": "Jennifer Moore",
+  "first_name": "Jennifer",
+  "last_name": "Moore",
+  "age": 68,
+  "innate": "wise, experienced, warm",
+  "learned": "Jennifer Moore is a watercolor painter who has been painting for over fifty years. She is wise and experienced, and her work is full of warmth.",
+  "currently": "Jennifer Moore lives with her husband of 40 years, Sam Moore, and is preparing for an exhibition of her work. She is also mentoring younger artists to help them find their own creative voice.",
+  "seed_currently": "Jennifer Moore lives with her husband of 40 years, Sam Moore, and is preparing for an exhibition of her work. She is also mentoring younger artists to help them find their own creative voice.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 41.41,
+    "hunger": 77.42,
+    "fun": 100.0,
+    "hygiene": 45.43,
+    "bladder": 0.0,
+    "social": 96.46
+  },
+  "mood": {
+    "family": "joy",
+    "word": "inspired"
+  },
+  "relationships": {
+    "Sam Moore": {
+      "friendship": 91.0,
+      "romance": 75.0
+    },
+    "Latoya Williams": {
+      "friendship": 15.0,
+      "romance": 0.0
+    },
+    "Francisco Lopez": {
+      "friendship": 12.0,
+      "romance": 0.0
+    },
+    "Adam Smith": {
+      "friendship": 8.0,
+      "romance": 0.0
+    },
+    "Rajiv Patel": {
+      "friendship": 8.0,
+      "romance": 0.0
+    },
+    "Hailey Johnson": {
+      "friendship": 11.0,
+      "romance": 0.0
+    },
+    "Isabella Rodriguez": {
+      "friendship": 10.0,
+      "romance": 0.0
+    },
+    "Giorgio Rossi": {
+      "friendship": 10.0,
+      "romance": 0.0
+    },
+    "Klaus Mueller": {
+      "friendship": 7.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Jennifer Moore goes to bed around 9pm, awakes up around 5am, eats dinner around 5pm.",
+  "living_area": "the Ville:Moore family's house:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 12,
+  "importance_ele_n": 75,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 5:00 am",
+    "eat breakfast at 6:00 am",
+    "work on her watercolor paintings from 7:00 am to 11:00 am",
+    "take a short break and have lunch with Sam at noon",
+    "continue working on the upcoming exhibition until 2:00 pm",
+    "mentor two younger artists over video chat from 3:00 pm to 4:00 pm",
+    "take a walk around her neighborhood from 4:30 pm to 5:00 pm",
+    "prepare and enjoy dinner with Sam at 5:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "waking up and completing her morning routine (getting out of bed)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (on the way to going to the bathroom to use the toilet and wash her face)",
+      0
+    ],
+    [
+      "waking up and completing her morning routine (conversing about Sam Moore and Jennifer Moore discussing their plans for the day, including community engagement activities and artistic pursuits, as well as planning an afternoon walk together.)",
+      8
+    ],
+    [
+      "waking up and completing her morning routine (going to the bathroom to use the toilet and wash her face)",
+      7
+    ],
+    [
+      "waking up and completing her morning routine (brushing her teeth)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (drinking a glass of water)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (putting on comfortable clothes for the day)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (checking her emails and messages to see if there are any urgent matters)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (meditating for a few moments to center herself)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (making her bed)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (walking to the kitchen to start preparing breakfast)",
+      5
+    ],
+    [
+      "eating breakfast (making coffee)",
+      10
+    ],
+    [
+      "eating breakfast (preparing eggs and toast)",
+      15
+    ],
+    [
+      "eating breakfast (setting the table with plates, cups, and utensils)",
+      5
+    ],
+    [
+      "eating breakfast (pouring orange juice)",
+      5
+    ],
+    [
+      "eating breakfast (sitting down to eat breakfast)",
+      10
+    ],
+    [
+      "eating breakfast (reading the newspaper while eating)",
+      10
+    ],
+    [
+      "eating breakfast (clearing the table after finishing breakfast)",
+      5
+    ],
+    [
+      "working on her watercolor paintings (setting up her painting supplies)",
+      15
+    ],
+    [
+      "working on her watercolor paintings (selecting the watercolor paper and paints for today's work)",
+      10
+    ],
+    [
+      "working on her watercolor paintings (sketching out ideas for her paintings)",
+      20
+    ],
+    [
+      "working on her watercolor paintings (on the way to setting up her painting supplies)",
+      0
+    ],
+    [
+      "working on her watercolor paintings (conversing about Sam Moore and Jennifer Moore discussing potential collaboration between their art works, specifically paintings and photography, to support Sam's mayoral campaign visuals and strategy.)",
+      11
+    ],
+    [
+      "working on her watercolor paintings (painting the first piece of artwork) (sketching the outline of the first piece)",
+      4
+    ],
+    [
+      "working on her watercolor paintings (painting the first piece of artwork) (applying the initial layer of watercolor wash)",
+      15
+    ],
+    [
+      "working on her watercolor paintings (painting the first piece of artwork) (adding details and refining the painting)",
+      15
+    ],
+    [
+      "working on her watercolor paintings (taking a short break to rest her eyes and hands)",
+      15
+    ],
+    [
+      "working on her watercolor paintings (on the way to setting up her painting supplies)",
+      0
+    ],
+    [
+      "working on her watercolor paintings (conversing about Latoya Williams and Jennifer Moore discussing their potential collaboration on visual materials for Sam's mayoral campaign, combining Latoya's travel photography with Jennifer's watercolor paintings.)",
+      13
+    ],
+    [
+      "working on her watercolor paintings (painting the second piece of artwork) (setting up her painting supplies)",
+      7
+    ],
+    [
+      "working on her watercolor paintings (painting the second piece of artwork) (reviewing the sketch for the second piece of artwork)",
+      5
+    ],
+    [
+      "working on her watercolor paintings (on the way to mixing colors and preparing the palette)",
+      0
+    ],
+    [
+      "working on her watercolor paintings (conversing about Jennifer Moore and Francisco Lopez discussing how to incorporate themes from Francisco's web series on co-living spaces and improv comedy into visual projects for Sam's mayoral campaign, including brainstorming specific scenes and creative ways to engage the community.)",
+      17
+    ],
+    [
+      "working on her watercolor paintings (painting the second piece of artwork) (mixing colors and preparing the palette)",
+      13
+    ],
+    [
+      "working on her watercolor paintings (painting the second piece of artwork) (starting to paint the background layer of the second piece)",
+      15
+    ],
+    [
+      "working on her watercolor paintings (on the way to adding details to the background layer)",
+      0
+    ],
+    [
+      "working on her watercolor paintings (conversing about Jennifer Moore and Adam Smith discussing potential collaboration on integrating themes from Francisco's web series on co-living spaces and improv comedy into their respective projects, including Jennifer's visual work and Adam's book on conflict resolution.)",
+      8
+    ],
+    [
+      "working on her watercolor paintings (adding details to the background layer of the second piece)",
+      12
+    ],
+    [
+      "working on her watercolor paintings (taking a short break and stretching her arms)",
+      5
+    ],
+    [
+      "working on her watercolor paintings (reviewing her progress on both paintings)",
+      30
+    ],
+    [
+      "working on her watercolor paintings (on the way to adding finishing touches to the first painting)",
+      0
+    ],
+    [
+      "working on her watercolor paintings (conversing about Rajiv Patel and Jennifer Moore discussing how to integrate themes from Francisco's web series into their respective art forms to support Sam\u2019s campaign, including scheduling a joint meeting with Francisco to brainstorm ideas and involve more community members in their workshops.)",
+      16
+    ],
+    [
+      "working on her watercolor paintings (on the way to adding finishing touches to the first painting)",
+      0
+    ],
+    [
+      "working on her watercolor paintings (con",
+      54
+    ],
+    [
+      "Jennifer is having lunch with Sam (preparing for lunch)",
+      15
+    ],
+    [
+      "Jennifer is having lunch with Sam (on the way to setting the table)",
+      0
+    ],
+    [
+      "Jennifer is having lunch with Sam (waiting to start preparing for lunch)",
+      3
+    ],
+    [
+      "Jennifer is having lunch with Sam (setting the table and cooking a simple meal)",
+      12
+    ],
+    [
+      "Jennifer is having lunch with Sam (and Sam are sitting down to eat lunch)",
+      20
+    ],
+    [
+      "Jennifer is having lunch with Sam (on the way to and Sam are talking about the day's events)",
+      0
+    ],
+    [
+      "Jennifer is having lunch with Sam (conversing about planning strategies and collaborations for Sam Moore's campaign, including artistic contributions from Jennifer Moore and Latoya, potential involvement of Rajiv, Adam Smith, and Isabella Rodriguez, use of social media and interactive community events.)",
+      17
+    ],
+    [
+      "working on the upcoming exhibition (on the way to reviewing her previous paintings for inspiration)",
+      0
+    ],
+    [
+      "working on the upcoming exhibition (conversing about planning community engagement activities and events, including Valentine\u2019s Day-themed offerings at Hobbs Cafe, interactive workshops, and incorporating elements from Francisco Lopez\u2019s web series and Rajiv\u2019s solo show, for Sam\u2019s campaign with Isabella Rodriguez and Jennifer Moore.)",
+      14
+    ],
+    [
+      "working on the upcoming exhibition (on the way to reviewing her previous paintings for inspiration)",
+      0
+    ],
+    [
+      "working on the upcoming exhibition (conversing about Giorgio Rossi and Jennifer Moore discussing how to integrate mathematical patterns into Sam\u2019s mayoral campaign through art, interactive elements, improv comedy, and community engagement initiatives, while also considering collaborations with Francisco Lopez, Rajiv Patel, Isabella, Abigail Chen, and Klaus Mueller.)",
+      19
+    ],
+    [
+      "working on the upcoming exhibition (on the way to reviewing her previous paintings for inspiration)",
+      0
+    ],
+    [
+      "working on the upcoming exhibition (conversing about Jennifer Moore and Klaus Mueller discussing plans to integrate mathematical patterns, interactive learning experiences, and improv comedy into Sam\u2019s mayoral campaign events at Hobbs Cafe for Valentine's Day.)",
+      18
+    ],
+    [
+      "working on the upcoming exhibition (reviewing her previous paintings for inspiration)",
+      15
+    ],
+    [
+      "working on the upcoming exhibition (sketching ideas for new pieces)",
+      15
+    ],
+    [
+      "working on the upcoming exhibition (on the way to selecting the best sketches to develop further and creating a detailed plan for each selected piece)",
+      0
+    ],
+    [
+      "working on the upcoming exhibition (conversing about integrating Francisco\u2019s web series themes into Rajiv's solo show and Latoya\u2019s travel photography exhibit, planning an interactive workshop with community members, and coordinating a brainstorming session with Sam and other contributors from their co-living space.)",
+      14
+    ],
+    [
+      "working on the upcoming exhibition (on the way to selecting the best sketches to develop further and creating a detailed plan for each selected piece)",
+      0
+    ],
+    [
+      "working on the upcoming exhibition (on the way to conversing about Jennifer and Francisco discussing ideas for integrating themes from Francisco's web series into visual materials and interactive elements for Sam\u2019s campaign, including behind-the-scenes clips, community workshops, and social media engagement.)",
+      18
+    ],
+    [
+      "working on the upcoming exhibition (conversing about Jennifer Moore and Latoya Williams discussing plans to incorporate interactive elements into Sam's campaign visuals using travel photography and community workshops, with input from Francisco, Rajiv, and Hailey at an upcoming meeting at Hobbs Cafe.)",
+      18
+    ],
+    [
+      "working on the upcoming exhibition (selecting the best sketches to develop further and creating a detailed plan for each selected piece)",
+      7
+    ],
+    [
+      "working on the upcoming exhibition (preparing materials needed for painting)",
+      7
+    ],
+    [
+      "mentoring two younger artists over video chat (welcoming her mentees to the call)",
+      5
+    ],
+    [
+      "mentoring two younger artists over video chat (on the way to reviewing their recent work and providing feedback)",
+      0
+    ],
+    [
+      "mentoring two younger artists over video chat (conversing about planning and integrating elements from Francisco Lopez\u2019s web series and Rajiv\u2019s solo show into Valentine's Day party activities at Hobbs Cafe, including screenings, live performances, interactive art stations, and background music, with Isabella Rodriguez and Jennifer Moore coordinating the details.)",
+      17
+    ],
+    [
+      "mentoring two younger artists over video chat (discussing challenges they are facing with their art)",
+      8
+    ],
+    [
+      "mentoring two younger artists over video chat (sharing her own experiences as an artist)",
+      10
+    ],
+    [
+      "mentoring two younger artists over video chat (giving advice on technique and style development)",
+      10
+    ],
+    [
+      "mentoring two younger artists over video chat (answering questions from the mentees)",
+      5
+    ],
+    [
+      "mentoring two younger artists over video chat (summarizing key points discussed during the session)",
+      5
+    ],
+    [
+      "Jennifer is continuing to work on the upcoming exhibition (reviewing previous sketches and paintings for inspiration)",
+      15
+    ],
+    [
+      "Jennifer is continuing to work on the upcoming exhibition (selecting pieces to include in the exhibition)",
+      13
+    ],
+    [
+      "Jennifer is continuing to work on the upcoming exhibition (writing artist statements for each piece)",
+      15
+    ],
+    [
+      "Jennifer is continuing to work on the upcoming exhibition (organizing digital files of her artwork)",
+      10
+    ],
+    [
+      "Jennifer is continuing to work on the upcoming exhibition (updating her exhibition schedule and notes)",
+      5
+    ],
+    [
+      "Jennifer is taking a walk around her neighborhood (putting on her walking shoes and coat)",
+      5
+    ],
+    [
+      "Jennifer is taking a walk around her neighborhood (locking the door and heading out to the neighborhood)",
+      5
+    ],
+    [
+      "Jennifer is taking a walk around her neighborhood (walking down the street towards the park)",
+      10
+    ],
+    [
+      "Jennifer is taking a walk around her neighborhood (sitting on a bench at the park to rest and observe nature)",
+      10
+    ],
+    [
+      "Jennifer is taking a walk around her neighborhood (continuing her walk around the neighborhood, greeting neighbors along the way)",
+      20
+    ],
+    [
+      "Jennifer is taking a walk around her neighborhood (stopping by a local coffee shop for a quick drink and chat with friends)",
+      10
+    ],
+    [
+      "preparing dinner for her and Sam",
+      60
+    ],
+    [
+      "Jennifer is taking a short break before continuing her work on the upcoming exhibition",
+      60
+    ],
+    [
+      "working on the upcoming exhibition",
+      60
+    ],
+    [
+      "reading and relaxing before going to bed",
+      120
+    ],
+    [
+      "Jennifer is reading and relaxing before going to bed",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -7
+    ],
+    [
+      "sleeping",
+      -7
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -18
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      2
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "eating breakfast",
+      60
+    ],
+    [
+      "working on her watercolor paintings",
+      300
+    ],
+    [
+      "Jennifer is having lunch with Sam",
+      60
+    ],
+    [
+      "working on the upcoming exhibition",
+      120
+    ],
+    [
+      "mentoring two younger artists over video chat",
+      60
+    ],
+    [
+      "Jennifer is continuing to work on the upcoming exhibition",
+      60
+    ],
+    [
+      "Jennifer is taking a walk around her neighborhood",
+      60
+    ],
+    [
+      "preparing dinner for her and Sam",
+      60
+    ],
+    [
+      "Jennifer is taking a short break before continuing her work on the upcoming exhibition",
+      60
+    ],
+    [
+      "working on the upcoming exhibition",
+      60
+    ],
+    [
+      "reading and relaxing before going to bed",
+      120
+    ],
+    [
+      "Jennifer is reading and relaxing before going to bed",
+      60
+    ]
+  ],
+  "act_address": "the Ville:artist's co-living space:common room:common room table",
+  "act_start_time": "February 13, 2023, 16:32:00",
+  "act_duration": 15,
+  "act_description": "Jennifer is continuing to work on the upcoming exhibition (reviewing previous sketches and paintings for inspiration)",
+  "act_pronunciatio": "\ud83c\udfa8\ud83d\udcd6",
+  "act_event": [
+    "Jennifer Moore",
+    "review",
+    "previous sketches and paintings"
+  ],
+  "act_obj_description": "covered with sketches and paintings",
+  "act_obj_pronunciatio": "\ud83c\udfa8\u270f\ufe0f",
+  "act_obj_event": [
+    "common room table",
+    "be covered with",
+    "sketches and paintings"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Sam Moore": -594,
+    "Latoya Williams": 270,
+    "Francisco Lopez": 120,
+    "Adam Smith": -1674,
+    "Rajiv Patel": -1320,
+    "Hailey Johnson": 12,
+    "Isabella Rodriguez": 480,
+    "Giorgio Rossi": -342,
+    "Klaus Mueller": -228
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

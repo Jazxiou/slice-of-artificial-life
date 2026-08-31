@@ -1,0 +1,802 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        76,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Latoya Williams and Arthur Burton discussing plans to capture and promote Valentine's Day cocktails and ambiance through photos on social media. @ <persona> Arthur Burton",
+      "chat": [
+        [
+          "Latoya Williams",
+          "Hi Arthur, it's great to see you taking a break. How are things going for tonight? I'm working on some photos that might fit nicely with your bar\u2019s vibe."
+        ],
+        [
+          "Arthur Burton",
+          "Hey Latoya, that sounds fantastic! I've got some new Valentine's Day cocktails coming out tonight, and customer feedback has been really helpful in tweaking them. Can't wait to see how your photos enhance the mood at The Rose and Crown Pub."
+        ],
+        [
+          "Latoya Williams",
+          "That's awesome, Arthur! I'll make sure to capture some shots that bring out the romantic ambiance. Maybe we could also do a preview on social media for Valentine\u2019s Day?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds like a great idea, Latoya! Let\u2019s plan to share some sneak peeks on social media this week. It will definitely build excitement for tonight."
+        ],
+        [
+          "Latoya Williams",
+          "Perfect, I'll start working on that right away. Do you have any specific cocktails or highlights from tonight\u2019s menu that you think would look great in photos?"
+        ],
+        [
+          "Arthur Burton",
+          "Absolutely, Latoya. The cocktails infused with rose petals and the chocolate-infused Irish cream are definite highlights. Those should look stunning in photos."
+        ],
+        [
+          "Latoya Williams",
+          "Awesome, I\u2019ll focus on those highlights for sure. Maybe we can also take some photos of your bar setup and the ambiance to go along with them?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds like a wonderful plan, Latoya. I think your photos will really help draw people in and make them feel special about coming to The Rose and Crown Pub for Valentine\u2019s Day."
+        ],
+        [
+          "Latoya Williams",
+          "Thanks, Arthur! I'll make sure to capture everything perfectly. Let\u2019s touch base later this week about the photos and how they turn out."
+        ],
+        [
+          "Arthur Burton",
+          "Sounds great, Latoya. Let me know if you need any more details or samples from tonight's menu for your photos. I'll be around to chat more later."
+        ],
+        [
+          "Latoya Williams",
+          "Thanks, Arthur! I'll swing by later to chat more and get those samples. Have a great day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 64.3,
+          "hunger": 67.6,
+          "fun": 99.4,
+          "hygiene": 88.3,
+          "bladder": 17.5,
+          "social": 95.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Rajiv Patel": {
+      "movement": [
+        39,
+        28
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udde3\ufe0f",
+      "description": "having lunch (conversing about Francisco Lopez and Rajiv Patel discussing how to integrate painting, music, community workshops, and improv comedy into Sam\u2019s campaign through their web series and art collaborations.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.3,
+          "hunger": 96.6,
+          "fun": 58.4,
+          "hygiene": 52.7,
+          "bladder": 17.5,
+          "social": 65.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        77,
+        27
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83e\udd1d",
+      "description": "working on her animation project for a client, focusing on integrating sound effects and music into the scene to enhance the overall experience. She collaborates with a sound designer via video call to ensure synchronization between visual and audio elements (conversing about Giorgio Rossi and Abigail Chen discussing potential collaboration on integrating mathematical analysis, social media analytics, and improv comedy techniques into civic engagement initiatives.) @ the Ville:Giorgio Rossi's apartment:main room:blackboard",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.3,
+          "hunger": 72.0,
+          "fun": 98.9,
+          "hygiene": 52.7,
+          "bladder": 17.5,
+          "social": 85.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Francisco Lopez": {
+      "movement": [
+        39,
+        26
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start conversing about Francisco Lopez and Rajiv Patel discussing how to integrate painting, music, community workshops, and improv comedy into Sam\u2019s campaign through their web series and art collaborations. @ <waiting> 39 26",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.3,
+          "hunger": 96.8,
+          "fun": 83.7,
+          "hygiene": 61.3,
+          "bladder": 0.2,
+          "social": 98.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udcda",
+      "description": "Hailey is working on her novel, conducting research and brainstorming new ideas (brainstorming new plot ideas for the novel) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.3,
+          "hunger": 58.1,
+          "fun": 48.3,
+          "hygiene": 52.7,
+          "bladder": 17.5,
+          "social": 55.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Arthur Burton": {
+      "movement": [
+        75,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Latoya Williams and Arthur Burton discussing plans to capture and promote Valentine's Day cocktails and ambiance through photos on social media. @ <persona> Latoya Williams",
+      "chat": [
+        [
+          "Latoya Williams",
+          "Hi Arthur, it's great to see you taking a break. How are things going for tonight? I'm working on some photos that might fit nicely with your bar\u2019s vibe."
+        ],
+        [
+          "Arthur Burton",
+          "Hey Latoya, that sounds fantastic! I've got some new Valentine's Day cocktails coming out tonight, and customer feedback has been really helpful in tweaking them. Can't wait to see how your photos enhance the mood at The Rose and Crown Pub."
+        ],
+        [
+          "Latoya Williams",
+          "That's awesome, Arthur! I'll make sure to capture some shots that bring out the romantic ambiance. Maybe we could also do a preview on social media for Valentine\u2019s Day?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds like a great idea, Latoya! Let\u2019s plan to share some sneak peeks on social media this week. It will definitely build excitement for tonight."
+        ],
+        [
+          "Latoya Williams",
+          "Perfect, I'll start working on that right away. Do you have any specific cocktails or highlights from tonight\u2019s menu that you think would look great in photos?"
+        ],
+        [
+          "Arthur Burton",
+          "Absolutely, Latoya. The cocktails infused with rose petals and the chocolate-infused Irish cream are definite highlights. Those should look stunning in photos."
+        ],
+        [
+          "Latoya Williams",
+          "Awesome, I\u2019ll focus on those highlights for sure. Maybe we can also take some photos of your bar setup and the ambiance to go along with them?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds like a wonderful plan, Latoya. I think your photos will really help draw people in and make them feel special about coming to The Rose and Crown Pub for Valentine\u2019s Day."
+        ],
+        [
+          "Latoya Williams",
+          "Thanks, Arthur! I'll make sure to capture everything perfectly. Let\u2019s touch base later this week about the photos and how they turn out."
+        ],
+        [
+          "Arthur Burton",
+          "Sounds great, Latoya. Let me know if you need any more details or samples from tonight's menu for your photos. I'll be around to chat more later."
+        ],
+        [
+          "Latoya Williams",
+          "Thanks, Arthur! I'll swing by later to chat more and get those samples. Have a great day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 69.3,
+          "hunger": 99.2,
+          "fun": 40.7,
+          "hygiene": 52.7,
+          "bladder": 0.0,
+          "social": 57.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ryan Park": {
+      "movement": [
+        66,
+        19
+      ],
+      "pronunciatio": "\ud83d\udeb0\ud83d\ude34",
+      "description": "having lunch (drinking water and resting after the meal) @ the Ville:Ryan Park's apartment:main room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.3,
+          "hunger": 100.0,
+          "fun": 96.7,
+          "hygiene": 52.7,
+          "bladder": 17.5,
+          "social": 63.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        70,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about planning community engagement activities and events, including Valentine\u2019s Day-themed offerings at Hobbs Cafe, interactive workshops, and incorporating elements from Francisco Lopez\u2019s web series and Rajiv\u2019s solo show, for Sam\u2019s campaign with Isabella Rodriguez and Jennifer Moore. @ <persona> Jennifer Moore",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Jennifer! I see you're here chatting with Sam. How are things going with the campaign planning?"
+        ],
+        [
+          "Jennifer Moore",
+          "Hello Isabella! Things are moving along well. We're exploring ways to combine visual arts, photography, and community engagement for Sam\u2019s campaign. Have you thought about how we might involve Hobbs Cafe in this initiative?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds fantastic, Jennifer! We could definitely have some special Valentine\u2019s Day-themed drinks and snacks at Hobbs Cafe to support Sam\u2019s events. I can also arrange for a space where you can set up your visual arts displays and conduct meet-and-greets with the community."
+        ],
+        [
+          "Jennifer Moore",
+          "That would be wonderful, Isabella! Could you also consider hosting an interactive workshop at Hobbs Cafe where community members can contribute their ideas and artwork to support Sam\u2019s campaign?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Jennifer! I think it would be great to have an interactive space where people can express their thoughts and creativity. We could even incorporate some improv comedy techniques to make it more engaging and fun for everyone involved."
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds like a fantastic idea, Isabella! Could we perhaps include some elements from Francisco Lopez\u2019s web series on co-living spaces and improv comedy to make it even more interactive and engaging for the community?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I think that would work wonderfully, Jennifer! We could have a fun and engaging event where people can relax, enjoy some Valentine\u2019s treats, and get involved in creative activities. Let's discuss the details further and start planning!"
+        ],
+        [
+          "Jennifer Moore",
+          "Sounds amazing, Isabella! Let\u2019s set up a meeting this week to finalize the details and start planning. How does Wednesday sound?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Wednesday sounds perfect, Jennifer. Let\u2019s aim for 3pm at Hobbs Cafe so we can discuss everything in detail and start planning the interactive elements of the campaign event."
+        ],
+        [
+          "Jennifer Moore",
+          "Great, let\u2019s meet at 3pm on Wednesday then. I\u2019ll bring some samples of my watercolor paintings and we can brainstorm ideas together with Francisco's themes in mind."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Perfect, I'll make sure everything is ready for our meeting. Looking forward to seeing your artwork and brainstorming together!"
+        ],
+        [
+          "Jennifer Moore",
+          "Sounds great, Isabella. I\u2019ll see you at 3pm on Wednesday and we can bring in more ideas from Rajiv\u2019s solo show as well to create a cohesive event."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds wonderful, Jennifer. I'll make sure to have some Valentine\u2019s themed refreshments and a cozy atmosphere for our meeting on Wednesday."
+        ],
+        [
+          "Jennifer Moore",
+          "That would be perfect, Isabella. I\u2019m looking forward to our meeting and seeing how we can bring everyone\u2019s ideas together. Have a great day!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Jennifer! I\u2019ll make sure everything is set up nicely for our meeting. Looking forward to seeing how we can combine everyone\u2019s talents and ideas to create a memorable event."
+        ],
+        [
+          "Jennifer Moore",
+          "Sounds great, Isabella. I\u2019ll make sure to bring some ideas from Francisco\u2019s web series and Rajiv\u2019s solo show too. Let\u2019s connect everything in a way that reflects Sam\u2019s vision for the community."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 64.3,
+          "hunger": 98.9,
+          "fun": 99.3,
+          "hygiene": 61.3,
+          "bladder": 17.5,
+          "social": 100.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        79,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83e\udd1d",
+      "description": "working on his research project to explore mathematical patterns in nature (conversing about Giorgio Rossi and Abigail Chen discussing potential collaboration on integrating mathematical analysis, social media analytics, and improv comedy techniques into civic engagement initiatives.) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.3,
+          "hunger": 55.9,
+          "fun": 43.0,
+          "hygiene": 85.8,
+          "bladder": 17.5,
+          "social": 72.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Carlos Gomez": {
+      "movement": [
+        96,
+        29
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udd04",
+      "description": "taking a break and planning his afternoon schedule (reviewing notes from previous workshops) @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.3,
+          "hunger": 99.9,
+          "fun": 95.6,
+          "hygiene": 61.3,
+          "bladder": 17.5,
+          "social": 30.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        91,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "Klaus is returning to the library at Oak Hill College. He plans to continue working on his research paper until around 5:00 pm (conversing about Klaus Mueller and Wolfgang Schulz discussing their chemistry studies, potential research collaborations, dinner plans, and ideas for integrating their academic interests into the Valentine's Day party theme at Hobbs Cafe.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.3,
+          "hunger": 100.0,
+          "fun": 51.9,
+          "hygiene": 84.6,
+          "bladder": 0.0,
+          "social": 56.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        126,
+        54
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83d\udcf1",
+      "description": "streaming games on Twitch (logging into her Twitch account and setting up her streaming equipment) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.3,
+          "hunger": 40.1,
+          "fun": 48.7,
+          "hygiene": 61.3,
+          "bladder": 17.5,
+          "social": 56.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ayesha Khan": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfa8",
+      "description": "having lunch at the campus cafeteria (conversing about Latoya Williams and Ayesha Khan discussing potential collaborations between visual arts, poetry, and music for Latoya's mayoral campaign visuals.) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.3,
+          "hunger": 100.0,
+          "fun": 79.6,
+          "hygiene": 61.3,
+          "bladder": 17.5,
+          "social": 70.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        90,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "reviewing and practicing his sport skills (conversing about Klaus Mueller and Wolfgang Schulz discussing their chemistry studies, potential research collaborations, dinner plans, and ideas for integrating their academic interests into the Valentine's Day party theme at Hobbs Cafe.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.3,
+          "hunger": 100.0,
+          "fun": 69.0,
+          "hygiene": 84.8,
+          "bladder": 17.5,
+          "social": 47.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Mei Lin": {
+      "movement": [
+        108,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udc4b",
+      "description": "teaching her second philosophy class at Oak Hill College (taking attendance and welcoming students) @ the Ville:Oak Hill College:classroom:classroom podium",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.3,
+          "hunger": 100.0,
+          "fun": 59.0,
+          "hygiene": 83.5,
+          "bladder": 60.5,
+          "social": 47.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcb0\ud83d\ude34",
+      "description": "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (waiting to start closing out the cash register for the day) @ the Ville:The Willows Market and Pharmacy:store:grocery store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.4,
+          "hunger": 75.3,
+          "fun": 55.1,
+          "hygiene": 84.3,
+          "bladder": 17.5,
+          "social": 51.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        93,
+        32
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "Eddy is heading to Hobbs Cafe for lunch and to study from 1:00 pm to 3:00 pm (walking to Hobbs Cafe) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 72.5,
+          "hunger": 61.6,
+          "fun": 88.7,
+          "hygiene": 90.8,
+          "bladder": 17.5,
+          "social": 50.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Tom Moreno": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83c\udffc\ud83d\ude0a",
+      "description": "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (welcoming customers) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.3,
+          "hunger": 17.0,
+          "fun": 22.4,
+          "hygiene": 61.3,
+          "bladder": 17.5,
+          "social": 58.3
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Jane Moreno": {
+      "movement": [
+        83,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\uded2",
+      "description": "shopping for groceries at The Willow Market and Pharmacy (making a list of items to buy) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.3,
+          "hunger": 76.9,
+          "fun": 22.4,
+          "hygiene": 61.3,
+          "bladder": 17.5,
+          "social": 31.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Tamara Taylor": {
+      "movement": [
+        55,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "Tamara is revising her children's books and comic book series (reviewing the latest draft of her children's book) @ the Ville:Tamara Taylor and Carmen Ortiz's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.3,
+          "hunger": 99.7,
+          "fun": 34.5,
+          "hygiene": 52.7,
+          "bladder": 17.5,
+          "social": 30.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Carmen Ortiz": {
+      "movement": [
+        69,
+        46
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83d\udc47",
+      "description": "working at Harvey Oak Supply Store (organizing the checkout area for efficiency) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.3,
+          "hunger": 55.5,
+          "fun": 22.4,
+          "hygiene": 66.5,
+          "bladder": 10.6,
+          "social": 45.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Sam Moore": {
+      "movement": [
+        37,
+        61
+      ],
+      "pronunciatio": "\ud83c\udfe0\u270d\ufe0f",
+      "description": "Sam is returning home to prepare for a community meeting at noon where he will discuss his candidacy @ the Ville:Moore family's house:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.3,
+          "hunger": 88.1,
+          "fun": 97.0,
+          "hygiene": 77.7,
+          "bladder": 47.4,
+          "social": 91.4
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Jennifer Moore": {
+      "movement": [
+        71,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about planning community engagement activities and events, including Valentine\u2019s Day-themed offerings at Hobbs Cafe, interactive workshops, and incorporating elements from Francisco Lopez\u2019s web series and Rajiv\u2019s solo show, for Sam\u2019s campaign with Isabella Rodriguez and Jennifer Moore. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Jennifer! I see you're here chatting with Sam. How are things going with the campaign planning?"
+        ],
+        [
+          "Jennifer Moore",
+          "Hello Isabella! Things are moving along well. We're exploring ways to combine visual arts, photography, and community engagement for Sam\u2019s campaign. Have you thought about how we might involve Hobbs Cafe in this initiative?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds fantastic, Jennifer! We could definitely have some special Valentine\u2019s Day-themed drinks and snacks at Hobbs Cafe to support Sam\u2019s events. I can also arrange for a space where you can set up your visual arts displays and conduct meet-and-greets with the community."
+        ],
+        [
+          "Jennifer Moore",
+          "That would be wonderful, Isabella! Could you also consider hosting an interactive workshop at Hobbs Cafe where community members can contribute their ideas and artwork to support Sam\u2019s campaign?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Jennifer! I think it would be great to have an interactive space where people can express their thoughts and creativity. We could even incorporate some improv comedy techniques to make it more engaging and fun for everyone involved."
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds like a fantastic idea, Isabella! Could we perhaps include some elements from Francisco Lopez\u2019s web series on co-living spaces and improv comedy to make it even more interactive and engaging for the community?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I think that would work wonderfully, Jennifer! We could have a fun and engaging event where people can relax, enjoy some Valentine\u2019s treats, and get involved in creative activities. Let's discuss the details further and start planning!"
+        ],
+        [
+          "Jennifer Moore",
+          "Sounds amazing, Isabella! Let\u2019s set up a meeting this week to finalize the details and start planning. How does Wednesday sound?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Wednesday sounds perfect, Jennifer. Let\u2019s aim for 3pm at Hobbs Cafe so we can discuss everything in detail and start planning the interactive elements of the campaign event."
+        ],
+        [
+          "Jennifer Moore",
+          "Great, let\u2019s meet at 3pm on Wednesday then. I\u2019ll bring some samples of my watercolor paintings and we can brainstorm ideas together with Francisco's themes in mind."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Perfect, I'll make sure everything is ready for our meeting. Looking forward to seeing your artwork and brainstorming together!"
+        ],
+        [
+          "Jennifer Moore",
+          "Sounds great, Isabella. I\u2019ll see you at 3pm on Wednesday and we can bring in more ideas from Rajiv\u2019s solo show as well to create a cohesive event."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds wonderful, Jennifer. I'll make sure to have some Valentine\u2019s themed refreshments and a cozy atmosphere for our meeting on Wednesday."
+        ],
+        [
+          "Jennifer Moore",
+          "That would be perfect, Isabella. I\u2019m looking forward to our meeting and seeing how we can bring everyone\u2019s ideas together. Have a great day!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Jennifer! I\u2019ll make sure everything is set up nicely for our meeting. Looking forward to seeing how we can combine everyone\u2019s talents and ideas to create a memorable event."
+        ],
+        [
+          "Jennifer Moore",
+          "Sounds great, Isabella. I\u2019ll make sure to bring some ideas from Francisco\u2019s web series and Rajiv\u2019s solo show too. Let\u2019s connect everything in a way that reflects Sam\u2019s vision for the community."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 59.3,
+          "hunger": 98.9,
+          "fun": 95.3,
+          "hygiene": 56.2,
+          "bladder": 7.1,
+          "social": 100.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Yuriko Yamamoto": {
+      "movement": [
+        68,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcd6",
+      "description": "Yuriko is attending a training session for her tax compliance project from 1:00 pm to 2:00 pm (taking notes on the new tax laws being discussed) (taking notes on the introduction of new tax laws) @ the Ville:Harvey Oak Supply Store:supply store:behind the supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.3,
+          "hunger": 99.3,
+          "fun": 29.7,
+          "hygiene": 87.6,
+          "bladder": 17.5,
+          "social": 51.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Adam Smith": {
+      "movement": [
+        60,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udca1",
+      "description": "reading and taking notes on recent philosophy books and articles (reading an article about creativity) @ the Ville:The Rose and Crown Pub:pub:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 54.3,
+          "hunger": 100.0,
+          "fun": 92.9,
+          "hygiene": 52.7,
+          "bladder": 17.5,
+          "social": 96.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 13:08:30"
+  }
+}

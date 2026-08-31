@@ -1,0 +1,744 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    39,
+    60
+  ],
+  "daily_plan_req": "Sam Moore likes to talk a walk around Johnson Park, and sit at Hobbs cafe reading.",
+  "name": "Sam Moore",
+  "first_name": "Sam",
+  "last_name": "Moore",
+  "age": 65,
+  "innate": "wise, resourceful, humorous",
+  "learned": "Sam Moore is a retired navy officer who loves to share stories from his time in the military. He is always full of interesting stories and advice.",
+  "currently": "Sam Moore lives with his wife of 40 years, Jennifer Moore, and spends his free time tending the park and is an avid reader. Sam is planning on running for local mayor in the upcoming election and he is telling is neighbors about it",
+  "seed_currently": "Sam Moore lives with his wife of 40 years, Jennifer Moore, and spends his free time tending the park and is an avid reader. Sam is planning on running for local mayor in the upcoming election and he is telling is neighbors about it",
+  "drift_log": [],
+  "needs": {
+    "sleep": 41.41,
+    "hunger": 74.1,
+    "fun": 82.72,
+    "hygiene": 66.99,
+    "bladder": 22.4,
+    "social": 86.79
+  },
+  "mood": {
+    "family": "joy",
+    "word": "inspired"
+  },
+  "relationships": {
+    "Jennifer Moore": {
+      "friendship": 91.0,
+      "romance": 75.0
+    },
+    "Latoya Williams": {
+      "friendship": 13.0,
+      "romance": 0.0
+    },
+    "Isabella Rodriguez": {
+      "friendship": 11.0,
+      "romance": 0.0
+    },
+    "Ryan Park": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Giorgio Rossi": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Adam Smith": {
+      "friendship": 78.0,
+      "romance": 0.0
+    },
+    "Maria Lopez": {
+      "friendship": 7.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Sam Moore goes to bed around 9pm, awakes up around 5am, eats dinner around 5pm.",
+  "living_area": "the Ville:Moore family's house:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 193,
+  "importance_ele_n": 21,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 5:00 am",
+    "walk around Johnson Park at 6:30 am",
+    "sit at Hobbs cafe reading and planning his mayoral campaign at 9:00 am",
+    "return home to prepare for a community meeting at noon where he will discuss his candidacy",
+    "have lunch with Jennifer at 12:30 pm",
+    "continue working on his campaign until 2:00 pm",
+    "take a short break and chat with neighbors about the upcoming election at 4:00 pm",
+    "attend a book club meeting at the library from 5:30 to 7:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "waking up and completing his morning routine (getting out of bed)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (on the way to going to the bathroom to use the toilet and wash his face)",
+      0
+    ],
+    [
+      "waking up and completing his morning routine (conversing about Sam Moore and Jennifer Moore discussing their plans for the day, including community engagement activities and artistic pursuits, as well as planning an afternoon walk together.)",
+      8
+    ],
+    [
+      "waking up and completing his morning routine (going to the bathroom to use the toilet and wash his face)",
+      7
+    ],
+    [
+      "waking up and completing his morning routine (on the way to brushing his teeth)",
+      0
+    ],
+    [
+      "waking up and completing his morning routine (waiting to start going to the bathroom to use the toilet and wash his face)",
+      7
+    ],
+    [
+      "waking up and completing his morning routine (going to the bathroom to use the toilet and wash his face)",
+      7
+    ],
+    [
+      "waking up and completing his morning routine (brushing his teeth)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (getting dressed for the day)",
+      9
+    ],
+    [
+      "waking up and completing his morning routine (checking his phone for any messages or notifications)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (drinking a glass of water to hydrate himself)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (stretching and doing some light exercises to wake up his body)",
+      9
+    ],
+    [
+      "waking up and completing his morning routine (praying or meditating for a few moments)",
+      5
+    ],
+    [
+      "making breakfast and preparing for his morning walk around Johnson Park (making coffee)",
+      5
+    ],
+    [
+      "making breakfast and preparing for his morning walk around Johnson Park (preparing eggs and toast)",
+      15
+    ],
+    [
+      "making breakfast and preparing for his morning walk around Johnson Park (on the way to setting the table)",
+      0
+    ],
+    [
+      "making breakfast and preparing for his morning walk around Johnson Park (waiting to start making coffee)",
+      12
+    ],
+    [
+      "making breakfast and preparing for his morning walk around Johnson Park (setting the table, reading the morning news online)",
+      10
+    ],
+    [
+      "making breakfast and preparing for his morning walk around Johnson Park (checking his email for any messages from supporters or campaign team)",
+      5
+    ],
+    [
+      "making breakfast and preparing for his morning walk around Johnson Park (packing a small bag with water bottle and snacks for the walk)",
+      5
+    ],
+    [
+      "making breakfast and preparing for his morning walk around Johnson Park (putting on comfortable walking shoes)",
+      3
+    ],
+    [
+      "walking around Johnson Park (walking along the park path)",
+      15
+    ],
+    [
+      "walking around Johnson Park (on the way to greeting neighbors and friends he meets on his walk)",
+      0
+    ],
+    [
+      "walking around Johnson Park (conversing about Latoya Williams and Sam Moore discussing their recent activities, including Latoya's photography series and Sam's mayoral campaign, and planning a meeting at Hobbs cafe to view some of Latoya's work.)",
+      6
+    ],
+    [
+      "walking around Johnson Park (greeting neighbors and friends he meets on his walk)",
+      14
+    ],
+    [
+      "walking around Johnson Park (on the way to stopping to rest at a park bench)",
+      0
+    ],
+    [
+      "walking around Johnson Park (conversing about Sam Moore and Jennifer Moore discussing potential collaboration between their art works, specifically paintings and photography, to support Sam's mayoral campaign visuals and strategy.)",
+      11
+    ],
+    [
+      "walking around Johnson Park (continuing his walk along different paths of the park)",
+      4
+    ],
+    [
+      "walking around Johnson Park (taking photos of interesting sights in the park)",
+      5
+    ],
+    [
+      "finishing up his walk and heading back to Hobbs cafe",
+      5
+    ],
+    [
+      "sitting at Hobbs cafe reading and planning his mayoral campaign (reading a book about local politics)",
+      30
+    ],
+    [
+      "sitting at Hobbs cafe reading and planning his mayoral campaign (waiting to start reading a book about local politics)",
+      7
+    ],
+    [
+      "sitting at Hobbs cafe reading and planning his mayoral campaign (reviewing his campaign materials)",
+      30
+    ],
+    [
+      "sitting at Hobbs cafe reading and planning his mayoral campaign (planning his speech for the upcoming town hall meeting)",
+      20
+    ],
+    [
+      "sitting at Hobbs cafe reading and planning his mayoral campaign (taking notes on potential issues to address during his campaign)",
+      15
+    ],
+    [
+      "sitting at Hobbs cafe reading and planning his mayoral campaign (drinking coffee and chatting with other patrons about the election)",
+      8
+    ],
+    [
+      "sitting at Hobbs cafe reading and planning his mayoral campaign (reviewing voter demographics for his district)",
+      30
+    ],
+    [
+      "sitting at Hobbs cafe reading and planning his mayoral campaign (conversing about Sam Moore and Giorgio Rossi discussing how to use mathematical analysis and social media analytics to refine voter demographic strategies for Sam's campaign.)",
+      12
+    ],
+    [
+      "sitting at Hobbs cafe reading and planning his mayoral campaign (conversing about potential collaboration between Sam Moore's political campaign and Adam Smith's work on creative conflict resolution techniques, including the use of improv comedy methods in civic engagement.)",
+      15
+    ],
+    [
+      "sitting at Hobbs cafe reading and planning his mayoral campaign (waiting to start conversing about Isabella Rodriguez and Sam Moore discussing plans to incorporate Valentine\u2019s Day themed drinks into Sam's campaign events as a community engagement strategy, including complimentary tastings during meet-and-greets and featuring them at larger gatherings.)",
+      8
+    ],
+    [
+      "leaving Hobbs cafe to head back home",
+      2
+    ],
+    [
+      "leaving Hobbs cafe to prepare for the day ahead",
+      2
+    ],
+    [
+      "sitting at Hobbs cafe reading and planning his mayoral campaign (discussing potential volunteers for his campaign with friends at the cafe)",
+      5
+    ],
+    [
+      "Sam is sitting at Hobbs cafe reading and planning his mayoral campaign (reading a book about local politics)",
+      15
+    ],
+    [
+      "Sam is sitting at Hobbs cafe reading and planning his mayoral campaign (on the way to reviewing his campaign materials)",
+      0
+    ],
+    [
+      "Sam is sitting at Hobbs cafe reading and planning his mayoral campaign (conversing about Maria Lopez volunteering her social media skills to support Sam Moore's campaign and discussing plans for an upcoming meeting to coordinate efforts.)",
+      12
+    ],
+    [
+      "Sam is sitting at Hobbs cafe reading and planning his mayoral campaign (reviewing his campaign materials)",
+      15
+    ],
+    [
+      "Sam is sitting at Hobbs cafe reading and planning his mayoral campaign (writing notes for the community meeting)",
+      15
+    ],
+    [
+      "Sam is sitting at Hobbs cafe reading and planning his mayoral campaign (planning a speech for the community meeting)",
+      15
+    ],
+    [
+      "Sam is returning home to prepare for a community meeting at noon where he will discuss his candidacy",
+      39
+    ],
+    [
+      "Sam is continuing his work on his mayoral campaign (on the way to reviewing his speech for the community meeting)",
+      0
+    ],
+    [
+      "Sam is continuing his work on his mayoral campaign (conversing about planning strategies and collaborations for Sam Moore's campaign, including artistic contributions from Jennifer Moore and Latoya, potential involvement of Rajiv, Adam Smith, and Isabella Rodriguez, use of social media and interactive community events.)",
+      17
+    ],
+    [
+      "Sam is continuing his work on his mayoral campaign (reviewing his speech for the community meeting)",
+      15
+    ],
+    [
+      "Sam is continuing his work on his mayoral campaign (updating his campaign materials)",
+      15
+    ],
+    [
+      "Sam is continuing his work on his mayoral campaign (calling volunteers to assign tasks)",
+      10
+    ],
+    [
+      "Sam is continuing his work on his mayoral campaign (writing a newsletter for the community)",
+      5
+    ],
+    [
+      "Sam is taking a short break",
+      4
+    ],
+    [
+      "working on his mayoral campaign (writing a speech for an upcoming rally)",
+      30
+    ],
+    [
+      "working on his mayoral campaign (reviewing his campaign platform)",
+      20
+    ],
+    [
+      "working on his mayoral campaign (updating his social media posts)",
+      15
+    ],
+    [
+      "working on his mayoral campaign (reaching out to potential volunteers via email)",
+      15
+    ],
+    [
+      "working on his mayoral campaign (drafting a press release for local news outlets)",
+      20
+    ],
+    [
+      "working on his mayoral campaign (taking a short break and having coffee)",
+      10
+    ],
+    [
+      "working on his mayoral campaign (on the way to finalizing the press release)",
+      0
+    ],
+    [
+      "working on his mayoral campaign (conversing about Latoya Williams and Sam Moore discussing ideas for integrating travel photography, web series themes, interactive event elements, and social media strategies into their campaign to highlight community diversity and engagement.)",
+      10
+    ],
+    [
+      "taking a short break and chatting with neighbors about the upcoming election (walking around his neighborhood to greet people)",
+      15
+    ],
+    [
+      "taking a short break and chatting with neighbors about the upcoming election (introducing himself and discussing his mayoral campaign with neighbors)",
+      15
+    ],
+    [
+      "taking a short break and chatting with neighbors about the upcoming election (answering questions from curious residents about his background and experience)",
+      15
+    ],
+    [
+      "taking a short break and chatting with neighbors about the upcoming election (handing out flyers and informational brochures about the campaign)",
+      10
+    ],
+    [
+      "taking a short break and chatting with neighbors about the upcoming election (engaging in casual conversation with neighbors to build rapport)",
+      5
+    ],
+    [
+      "Sam is attending a book club meeting at the library from 5:30 to 7:00 pm, so he is currently on his way there or has just arrived (arriving at the library and greeting fellow book club members)",
+      5
+    ],
+    [
+      "Sam is attending a book club meeting at the library from 5:30 to 7:00 pm, so he is currently on his way there or has just arrived (introducing himself to new attendees)",
+      5
+    ],
+    [
+      "Sam is attending a book club meeting at the library from 5:30 to 7:00 pm, so he is currently on his way there or has just arrived (discussing the current month's book selection with others)",
+      10
+    ],
+    [
+      "Sam is attending a book club meeting at the library from 5:30 to 7:00 pm, so he is currently on his way there or has just arrived (sharing insights from his military service related to the book's themes)",
+      10
+    ],
+    [
+      "Sam is attending a book club meeting at the library from 5:30 to 7:00 pm, so he is currently on his way there or has just arrived (listening to other members' interpretations of the book)",
+      10
+    ],
+    [
+      "Sam is attending a book club meeting at the library from 5:30 to 7:00 pm, so he is currently on his way there or has just arrived (taking notes on discussion points for future reference)",
+      5
+    ],
+    [
+      "Sam is attending a book club meeting at the library from 5:30 to 7:00 pm, so he is currently on his way there or has just arrived (asking questions to clarify understanding and engage further)",
+      5
+    ],
+    [
+      "Sam is attending a book club meeting at the library from 5:30 to 7:00 pm, so he is currently on his way there or has just arrived (sharing humorous anecdotes related to the book's content)",
+      5
+    ],
+    [
+      "Sam is attending a book club meeting at the library from 5:30 to 7:00 pm, so he is currently on his way there or has just arrived (concluding his participation in the discussion)",
+      5
+    ],
+    [
+      "having lunch with Jennifer at home since he returned early to prepare for his community meeting and forgot about the planned book club meeting until later",
+      60
+    ],
+    [
+      "attending a book club meeting at the library from 5:30 to 7:00 pm, and he has just resumed his mayoral campaign work after the meeting",
+      60
+    ],
+    [
+      "meeting with local supporters and discussing campaign strategies for his mayoral run",
+      120
+    ],
+    [
+      "Sam is getting ready for bed after a long day of campaigning and community engagement",
+      120
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -7
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -2
+    ],
+    [
+      "sleeping",
+      -2
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      9
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -6
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "making breakfast and preparing for his morning walk around Johnson Park",
+      60
+    ],
+    [
+      "walking around Johnson Park",
+      60
+    ],
+    [
+      "sitting at Hobbs cafe reading and planning his mayoral campaign",
+      180
+    ],
+    [
+      "Sam is sitting at Hobbs cafe reading and planning his mayoral campaign",
+      60
+    ],
+    [
+      "Sam is returning home to prepare for a community meeting at noon where he will discuss his candidacy",
+      60
+    ],
+    [
+      "Sam is continuing his work on his mayoral campaign",
+      60
+    ],
+    [
+      "working on his mayoral campaign",
+      120
+    ],
+    [
+      "taking a short break and chatting with neighbors about the upcoming election",
+      60
+    ],
+    [
+      "Sam is attending a book club meeting at the library from 5:30 to 7:00 pm, so he is currently on his way there or has just arrived",
+      60
+    ],
+    [
+      "having lunch with Jennifer at home since he returned early to prepare for his community meeting and forgot about the planned book club meeting until later",
+      60
+    ],
+    [
+      "attending a book club meeting at the library from 5:30 to 7:00 pm, and he has just resumed his mayoral campaign work after the meeting",
+      60
+    ],
+    [
+      "meeting with local supporters and discussing campaign strategies for his mayoral run",
+      120
+    ],
+    [
+      "Sam is getting ready for bed after a long day of campaigning and community engagement",
+      120
+    ]
+  ],
+  "act_address": "the Ville:Moore family's house:main room:desk",
+  "act_start_time": "February 13, 2023, 16:43:00",
+  "act_duration": 15,
+  "act_description": "taking a short break and chatting with neighbors about the upcoming election (answering questions from curious residents about his background and experience)",
+  "act_pronunciatio": "\ud83d\udcac\ud83d\udc64",
+  "act_event": [
+    "Sam Moore",
+    "answer",
+    "questions"
+  ],
+  "act_obj_description": "untouched with papers and documents spread out on it",
+  "act_obj_pronunciatio": "\ud83d\udcc4",
+  "act_obj_event": [
+    "desk",
+    "be",
+    "untouched"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Jennifer Moore": -594,
+    "Latoya Williams": 618,
+    "Isabella Rodriguez": -1290,
+    "Ryan Park": -1536,
+    "Giorgio Rossi": -1464,
+    "Adam Smith": -1368,
+    "Maria Lopez": -1116
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      37,
+      60
+    ],
+    [
+      37,
+      61
+    ]
+  ]
+}

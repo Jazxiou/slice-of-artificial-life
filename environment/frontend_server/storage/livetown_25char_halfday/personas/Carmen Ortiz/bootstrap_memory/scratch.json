@@ -1,0 +1,596 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    75,
+    21
+  ],
+  "daily_plan_req": "Carmen opens Harvey Oak Supply Store at 8am, stands behind its counter, and closes it at 6pm, at which point, she likes to go to The Rose and Crown Pub to relax",
+  "name": "Carmen Ortiz",
+  "first_name": "Carmen",
+  "last_name": "Ortiz",
+  "age": 33,
+  "innate": "friendly, outgoing, helpful",
+  "learned": "Carmen Ortiz is a shopkeeper at Harvey Oak Supply Store who loves to help people find the supplies they need. She is always looking for ways to make her customers feel welcome.",
+  "currently": "Carmen Ortiz is managing Harvey Oak Supply Store and lives with a housemate, Tamara Taylor. She is also working on expanding her shop online.",
+  "seed_currently": "Carmen Ortiz is managing Harvey Oak Supply Store and lives with a housemate, Tamara Taylor. She is also working on expanding her shop online.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 51.41,
+    "hunger": 67.43,
+    "fun": 22.61,
+    "hygiene": 55.73,
+    "bladder": 0.0,
+    "social": 49.2
+  },
+  "mood": {
+    "family": "neutral",
+    "word": "calm"
+  },
+  "relationships": {
+    "Tamara Taylor": {
+      "friendship": 9.0,
+      "romance": 0.0
+    },
+    "Arthur Burton": {
+      "friendship": 11.0,
+      "romance": 0.0
+    },
+    "Francisco Lopez": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Yuriko Yamamoto": {
+      "friendship": 11.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Carmen Ortiz goes to bed around 11pm, awakes up around 7am, eats dinner around 8pm.",
+  "living_area": "the Ville:Tamara Taylor and Carmen Ortiz's house:Carmen Ortiz's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 188,
+  "importance_ele_n": 24,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "open Harvey Oak Supply Store at 8:00 am",
+    "work at the store until 6:00 pm",
+    "go to The Rose and Crown Pub to relax from 6:30 to 8:30 pm",
+    "eat dinner at home around 8:00 pm",
+    "plan for shop expansion online between 9:00 and 10:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing her morning routine (waking up and stretching)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (on the way to getting out of bed)",
+      0
+    ],
+    [
+      "waking up and completing her morning routine (conversing about Carmen Ortiz and Tamara Taylor coordinating their morning routines and preparing for work at a store.)",
+      7
+    ],
+    [
+      "waking up and completing her morning routine (going to the bathroom to use the toilet)",
+      8
+    ],
+    [
+      "waking up and completing her morning routine (washing her face and brushing her teeth)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (getting dressed for the day)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (making breakfast)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (eating her breakfast)",
+      10
+    ],
+    [
+      "opening Harvey Oak Supply Store (locking up her house and heading to the store)",
+      15
+    ],
+    [
+      "opening Harvey Oak Supply Store (unlocking the door and turning on the lights)",
+      5
+    ],
+    [
+      "opening Harvey Oak Supply Store (checking that all supplies are stocked and ready for customers)",
+      10
+    ],
+    [
+      "opening Harvey Oak Supply Store (organizing any new shipments or deliveries)",
+      10
+    ],
+    [
+      "opening Harvey Oak Supply Store (setting up the cash register and computer systems)",
+      10
+    ],
+    [
+      "opening Harvey Oak Supply Store (sweeping and cleaning the store floor)",
+      5
+    ],
+    [
+      "opening Harvey Oak Supply Store (wiping down counters and shelves to ensure cleanliness)",
+      5
+    ],
+    [
+      "working at Harvey Oak Supply Store (welcoming customers and helping them find what they need)",
+      30
+    ],
+    [
+      "working at Harvey Oak Supply Store (organizing inventory)",
+      15
+    ],
+    [
+      "working at Harvey Oak Supply Store (on the way to restocking shelves)",
+      0
+    ],
+    [
+      "working at Harvey Oak Supply Store (conversing about Arthur Burton and Carmen Ortiz discussing supply needs and inventory for a special cocktail feature at The Rose and Crown Pub.)",
+      4
+    ],
+    [
+      "working at Harvey Oak Supply Store (restocking shelves)",
+      11
+    ],
+    [
+      "working at Harvey Oak Supply Store (taking a break and having a snack)",
+      15
+    ],
+    [
+      "working at Harvey Oak Supply Store (answering customer questions about products)",
+      30
+    ],
+    [
+      "working at Harvey Oak Supply Store (updating the store's online inventory system)",
+      20
+    ],
+    [
+      "working at Harvey Oak Supply Store (taking a break and chatting with a regular customer)",
+      15
+    ],
+    [
+      "working at Harvey Oak Supply Store (on the way to preparing for an upcoming event at the store)",
+      0
+    ],
+    [
+      "working at Harvey Oak Supply Store (conversing about Francisco Lopez inviting Carmen Ortiz to participate in a scene of his web series at Harvey Oak Supply Store on Friday between 2 and 4 PM to highlight local businesses and community spirit.)",
+      9
+    ],
+    [
+      "working at Harvey Oak Supply Store (preparing for an upcoming event at the store)",
+      21
+    ],
+    [
+      "working at Harvey Oak Supply Store (on the way to cleaning up the shop area)",
+      0
+    ],
+    [
+      "working at Harvey Oak Supply Store (conversing about preparations and plans for Valentine's Day events, including a private tasting at The Rose and Crown Pub, between Carmen Ortiz and Yuriko Yamamoto.)",
+      12
+    ],
+    [
+      "working at Harvey Oak Supply Store (cleaning up the shop area)",
+      8
+    ],
+    [
+      "working at Harvey Oak Supply Store (taking a break and making coffee)",
+      15
+    ],
+    [
+      "working at Harvey Oak Supply Store (on the way to helping a customer with a special order request)",
+      0
+    ],
+    [
+      "working at Harvey Oak Supply Store (conversing about Tamara and Carmen discussing their plans for after work, including meeting up at The Rose and Crown Pub for drinks.)",
+      7
+    ],
+    [
+      "working at Harvey Oak Supply Store (helping a customer with a special order request)",
+      23
+    ],
+    [
+      "working at Harvey Oak Supply Store (organizing the checkout area for efficiency)",
+      15
+    ],
+    [
+      "working at Harvey Oak Supply Store (taking a break and checking her phone messages)",
+      10
+    ],
+    [
+      "working at Harvey Oak Supply Store (on the way to restocking popular items that are running low)",
+      0
+    ],
+    [
+      "working at Harvey Oak Supply Store (conversing about Carmen Ortiz and Arthur Burton discussing inventory needs and preparations for special cocktails at their establishment.)",
+      6
+    ],
+    [
+      "working at Harvey Oak Supply Store (restocking popular items that are running low)",
+      14
+    ],
+    [
+      "working at Harvey Oak Supply Store (taking a break to stretch her legs and walk around the store)",
+      15
+    ],
+    [
+      "working at Harvey Oak Supply Store (helping customers with product demonstrations)",
+      30
+    ],
+    [
+      "working at Harvey Oak Supply Store (updating customer information for marketing purposes)",
+      20
+    ],
+    [
+      "working at Harvey Oak Supply Store (on the way to taking a break and chatting with another regular customer)",
+      0
+    ],
+    [
+      "working at Harvey Oak Supply Store (conversing about Carmen Ortiz and Yuriko Yamamoto discussing their respective projects, training sessions, and plans to meet up for drinks at The Rose and Crown after work.)",
+      6
+    ],
+    [
+      "working at Harvey Oak Supply Store (taking a",
+      129
+    ],
+    [
+      "Carmen is working at Harvey Oak Supply Store (attending to customers and helping them find supplies)",
+      30
+    ],
+    [
+      "Carmen is working at Harvey Oak Supply Store (organizing the store inventory)",
+      15
+    ],
+    [
+      "Carmen is working at Harvey Oak Supply Store (cleaning up the shop area)",
+      10
+    ],
+    [
+      "Carmen is working at Harvey Oak Supply Store (locking up the store and securing it for the night)",
+      5
+    ],
+    [
+      "closing Harvey Oak Supply Store",
+      60
+    ],
+    [
+      "going to The Rose and Crown Pub to relax",
+      60
+    ],
+    [
+      "Carmen is going to The Rose and Crown Pub to relax",
+      60
+    ],
+    [
+      "planning for the shop's online expansion",
+      120
+    ],
+    [
+      "Carmen is getting ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "opening Harvey Oak Supply Store",
+      60
+    ],
+    [
+      "working at Harvey Oak Supply Store",
+      480
+    ],
+    [
+      "Carmen is working at Harvey Oak Supply Store",
+      60
+    ],
+    [
+      "closing Harvey Oak Supply Store",
+      60
+    ],
+    [
+      "going to The Rose and Crown Pub to relax",
+      60
+    ],
+    [
+      "Carmen is going to The Rose and Crown Pub to relax",
+      60
+    ],
+    [
+      "planning for the shop's online expansion",
+      120
+    ],
+    [
+      "Carmen is getting ready for bed",
+      60
+    ]
+  ],
+  "act_address": "<persona> Isabella Rodriguez",
+  "act_start_time": "February 13, 2023, 16:35:10",
+  "act_duration": 11,
+  "act_description": "conversing about collaborating on Valentine's Day packages and promotions between Hobbs Cafe and Harvey Oak Supply Store, including meeting plans and supply needs.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Carmen Ortiz",
+    "chat with",
+    "Isabella Rodriguez"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Isabella Rodriguez",
+  "chat": [
+    [
+      "Carmen Ortiz",
+      "Hey Isabella, looking amazing in Hobbs Cafe! All these Valentine\u2019s Day decorations are so festive. How's everything coming along?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Thanks Carmen! It\u2019s been such an exciting time getting everything ready. And speaking of being busy, how are things at Harvey Oak Supply Store today?"
+    ],
+    [
+      "Carmen Ortiz",
+      "Oh, it\u2019s been pretty hectic too! I\u2019m glad to see such creativity here. Is there anything you think we could collaborate on for Valentine's Day?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "That\u2019s such a great idea, Carmen! Maybe we could do a special Valentine's Day package at Harvey Oak Supply Store, featuring supplies for customers who want to decorate their homes or offices. We can promote it as part of our community event here too."
+    ],
+    [
+      "Carmen Ortiz",
+      "I love that idea, Isabella! We could also include a special offer for customers who mention they saw it at Hobbs Cafe. It would be great to see people decorating their spaces while enjoying a treat here."
+    ],
+    [
+      "Isabella Rodriguez",
+      "Sounds wonderful, Carmen! Let\u2019s plan to meet up and finalize the details. Perhaps we can set a date later this week?"
+    ],
+    [
+      "Carmen Ortiz",
+      "That works for me, Isabella. How about we meet on Wednesday afternoon to go over everything in detail?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Perfect, let's aim for 3pm on Wednesday then. I'll send you an email with all the specifics of our Valentine\u2019s Day party so we can sync up everything smoothly."
+    ],
+    [
+      "Carmen Ortiz",
+      "Sounds great, Isabella! Looking forward to our meeting on Wednesday at 3pm. Let me know if you need anything from Harvey Oak Supply Store for your event too."
+    ],
+    [
+      "Isabella Rodriguez",
+      "Sure thing, Carmen. Thanks so much for your help and collaboration! I\u2019ll make sure to include all the details about our event in the email. See you on Wednesday at 3pm."
+    ],
+    [
+      "Carmen Ortiz",
+      "Looking forward to it, Isabella. Have a great rest of your day and let me know if you need anything else."
+    ],
+    [
+      "Isabella Rodriguez",
+      "Thanks again, Carmen. I'll make sure to send that email today and include all our collaboration ideas. Can't wait for Wednesday!"
+    ],
+    [
+      "Carmen Ortiz",
+      "Sounds good, Isabella. I'll keep an eye out for supplies that might be useful for your Valentine\u2019s Day event at Hobbs Cafe."
+    ],
+    [
+      "Isabella Rodriguez",
+      "Thanks, Carmen. I'll send that email later today and let you know if we need any special supplies from your store."
+    ],
+    [
+      "Carmen Ortiz",
+      "That would be great, Isabella. Let me know if you need any help or have questions about supplies before Wednesday."
+    ],
+    [
+      "Isabella Rodriguez",
+      "Thanks, Carmen. I appreciate your support and flexibility. I'll draft the email later today and include all our discussion points."
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Tamara Taylor": -780,
+    "Arthur Burton": 582,
+    "Francisco Lopez": -1128,
+    "Yuriko Yamamoto": 30,
+    "Isabella Rodriguez": 800
+  },
+  "chatting_end_time": "February 13, 2023, 16:47:00",
+  "act_path_set": true,
+  "planned_path": []
+}

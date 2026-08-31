@@ -1,0 +1,736 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:43:10",
+  "curr_tile": [
+    23,
+    46
+  ],
+  "daily_plan_req": "",
+  "name": "Adam Smith",
+  "first_name": "Adam",
+  "last_name": "Smith",
+  "age": 36,
+  "innate": "thoughtful, reflective, intellectual",
+  "learned": "Adam Smith is a philosopher who loves to explore different ideas. He is always looking for ways to challenge people\u2019s preconceptions.",
+  "currently": "Adam Smith is writing a book about the importance of creativity and how it can shape the world. Adam is also curious about who will be running for the local mayor election next month.",
+  "seed_currently": "Adam Smith is writing a book about the importance of creativity and how it can shape the world. Adam is also curious about who will be running for the local mayor election next month.",
+  "drift_log": [],
+  "needs": {
+    "sleep": 36.41,
+    "hunger": 82.28,
+    "fun": 98.86,
+    "hygiene": 42.0,
+    "bladder": 0.0,
+    "social": 82.15
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Francisco Lopez": {
+      "friendship": 8.0,
+      "romance": 0.0
+    },
+    "Abigail Chen": {
+      "friendship": 9.0,
+      "romance": 0.0
+    },
+    "Latoya Williams": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Jennifer Moore": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Sam Moore": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Isabella Rodriguez": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Ryan Park": {
+      "friendship": 7.0,
+      "romance": 0.0
+    },
+    "Yuriko Yamamoto": {
+      "friendship": 8.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Adam Smith goes to bed around 8pm, awakes up around 4am, eats dinner around 5pm.",
+  "living_area": "the Ville:Adam Smith's house:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 160,
+  "importance_ele_n": 36,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 4:00 am",
+    "work on his book until 9:30 am, taking short breaks",
+    "have breakfast at 9:30 am",
+    "engage in a philosophical discussion over coffee with a friend from 10:00 am to 11:30 am",
+    "continue writing and researching for his book until lunchtime",
+    "have lunch at 12:00 pm",
+    "spend the afternoon reading and taking notes on recent philosophy books and articles until 4:00 pm",
+    "take a short walk to clear his mind from 4:00 pm to 5:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      240
+    ],
+    [
+      "[(ID:AR0pKw) Monday February 13 -- 04:00 AM] Activity: Adam wakes up and begins his morning routine (waking up and stretching)",
+      5
+    ],
+    [
+      "[(ID:AR0pKw) Monday February 13 -- 04:00 AM] Activity: Adam wakes up and begins his morning routine (going to the bathroom to freshen up)",
+      10
+    ],
+    [
+      "[(ID:AR0pKw) Monday February 13 -- 04:00 AM] Activity: Adam wakes up and begins his morning routine (making a cup of coffee)",
+      10
+    ],
+    [
+      "[(ID:AR0pKw) Monday February 13 -- 04:00 AM] Activity: Adam wakes up and begins his morning routine (sitting quietly and meditating for a few moments)",
+      10
+    ],
+    [
+      "[(ID:AR0pKw) Monday February 13 -- 04:00 AM] Activity: Adam wakes up and begins his morning routine (reviewing his notes from the previous day's work on his book)",
+      10
+    ],
+    [
+      "[(ID:AR0pKw) Monday February 13 -- 04:00 AM] Activity: Adam wakes up and begins his morning routine (planning out his morning writing session)",
+      5
+    ],
+    [
+      "[(ID:AR0pKw) Monday February 13 -- 04:00 AM] Activity: Adam wakes up and begins his morning routine (preparing a light breakfast of fruit and yogurt)",
+      10
+    ],
+    [
+      "working on his book (reviewing notes and outlines)",
+      30
+    ],
+    [
+      "working on his book (writing the introduction of a new chapter) (reviewing notes and outlines for the new chapter)",
+      15
+    ],
+    [
+      "working on his book (writing the introduction of a new chapter) (drafting an initial outline for the introduction)",
+      15
+    ],
+    [
+      "working on his book (writing the introduction of a new chapter) (writing the first draft of the introduction)",
+      15
+    ],
+    [
+      "working on his book (writing the introduction of a new chapter) (taking a short break to stretch and hydrate)",
+      5
+    ],
+    [
+      "working on his book (writing the introduction of a new chapter) (revising the initial draft for clarity and coherence)",
+      10
+    ],
+    [
+      "working on his book (taking a break)",
+      15
+    ],
+    [
+      "working on his book (editing previous chapters for coherence and flow)",
+      45
+    ],
+    [
+      "working on his book (researching new ideas to include in the book) (reviewing notes and previous research)",
+      15
+    ],
+    [
+      "working on his book (researching new ideas to include in the book) (brainstorming new ideas to include in the book)",
+      15
+    ],
+    [
+      "working on his book (on the way to organizing his thoughts into an outline)",
+      0
+    ],
+    [
+      "working on his book (waiting to start brainstorming new ideas to include in the book)",
+      9
+    ],
+    [
+      "working on his book (on the way to organizing his thoughts into an outline)",
+      0
+    ],
+    [
+      "working on his book (conversing about Francisco Lopez and Adam Smith discussing how themes from Francisco's web series about co-living spaces can inspire creative conflict resolution techniques in Adam's book, incorporating elements of improv comedy.)",
+      15
+    ],
+    [
+      "working on his book (researching new ideas to include in the book) (organizing thoughts and notes from conversation)",
+      6
+    ],
+    [
+      "working on his book (taking a break)",
+      15
+    ],
+    [
+      "working on his book (writing additional sections of the current chapter)",
+      15
+    ],
+    [
+      "having breakfast (making coffee)",
+      10
+    ],
+    [
+      "having breakfast (on the way to preparing eggs and toast)",
+      0
+    ],
+    [
+      "having breakfast (conversing about Abigail Chen and Adam Smith discussing potential collaboration between animation and conflict resolution techniques through humor, with plans to meet with Francisco Lopez on Wednesday at 3 PM.)",
+      12
+    ],
+    [
+      "having breakfast (on the way to preparing eggs and toast)",
+      0
+    ],
+    [
+      "having breakfast (conversing about Latoya Williams and Adam Smith discussing how to incorporate photography and improv comedy into conflict resolution techniques.)",
+      14
+    ],
+    [
+      "having breakfast (setting the table)",
+      5
+    ],
+    [
+      "having breakfast (eating breakfast)",
+      16
+    ],
+    [
+      "discussing philosophy with a friend over coffee (on the way to arriving at the caf\u00e9)",
+      0
+    ],
+    [
+      "discussing philosophy with a friend over coffee (conversing about Jennifer Moore and Adam Smith discussing potential collaboration on integrating themes from Francisco's web series on co-living spaces and improv comedy into their respective projects, including Jennifer's visual work and Adam's book on conflict resolution.)",
+      8
+    ],
+    [
+      "discussing philosophy with a friend over coffee (ordering coffee and a pastry)",
+      2
+    ],
+    [
+      "discussing philosophy with a friend over coffee (waiting for his friend to arrive; catching up on recent events)",
+      10
+    ],
+    [
+      "discussing philosophy with a friend over coffee (Adam's friend arrives; they greet each other warmly and catch up on recent events)",
+      5
+    ],
+    [
+      "discussing philosophy with a friend over coffee (introduces the topic of creativity and its impact on society)",
+      10
+    ],
+    [
+      "discussing philosophy with a friend over coffee (conversing about potential collaboration between Sam Moore's political campaign and Adam Smith's work on creative conflict resolution techniques, including the use of improv comedy methods in civic engagement.)",
+      15
+    ],
+    [
+      "discussing philosophy with a friend over coffee (discusses the role of philosophy in fostering creative thinking)",
+      5
+    ],
+    [
+      "discussing philosophy with a friend over coffee (friend questions the practical applications of philosophical theories)",
+      5
+    ],
+    [
+      "discussing philosophy with a friend over coffee (conversing about planning how to integrate improv comedy techniques into Valentine\u2019s Day events and Sam Moore's campaign activities at Hobbs Cafe, with the aim of enhancing civic engagement and conflict resolution skills.)",
+      20
+    ],
+    [
+      "discussing philosophy with a friend over coffee (friend acknowledges the importance of philosophical debate for progress)",
+      5
+    ],
+    [
+      "discussing philosophy with a friend over coffee (conversing about Ryan Park and Adam Smith discussing how to enhance user interaction, community engagement, and conflict resolution through gamification and improv comedy features in a mobile app for Sam Moore's campaign events.)",
+      16
+    ],
+    [
+      "discussing philosophy with a friend over coffee (thanks his friend for an insightful discussion)",
+      5
+    ],
+    [
+      "free time",
+      22
+    ],
+    [
+      "meeting with Yuriko Yamamoto to discuss integrating improv comedy into community meetings to enhance civic engagement and creative conflict resolution, planning to involve Francisco Lopez and Jennifer Moore in a pre-workshop session next Tuesday at 4pm.",
+      0
+    ],
+    [
+      "Adam is having lunch (choosing a restaurant for lunch)",
+      5
+    ],
+    [
+      "Adam is having lunch (on the way to walking to the chosen restaurant)",
+      0
+    ],
+    [
+      "Adam is having lunch (conversing about Adam Smith and Abigail Chen discussing their animation project, specifically how to integrate humor and improv techniques into conflict resolution scenes, and planning a meeting on Thursday at 3 PM to work on this idea.)",
+      12
+    ],
+    [
+      "Adam is having lunch (walking to the chosen restaurant)",
+      8
+    ],
+    [
+      "Adam is having lunch (ordering food and drinks)",
+      10
+    ],
+    [
+      "Adam is having lunch (waiting for his order)",
+      10
+    ],
+    [
+      "Adam is having lunch (eating the first part of his meal)",
+      15
+    ],
+    [
+      "reading and taking notes on recent philosophy books and articles (reading an article about creativity)",
+      15
+    ],
+    [
+      "reading and taking notes on recent philosophy books and articles (taking notes on the article's main points)",
+      10
+    ],
+    [
+      "reading and taking notes on recent philosophy books and articles (reading another article related to philosophy and creativity)",
+      15
+    ],
+    [
+      "reading and taking notes on recent philosophy books and articles (summarizing key ideas from the second article)",
+      10
+    ],
+    [
+      "reading and taking notes on recent philosophy books and articles (reflecting on how these articles relate to his book's themes)",
+      10
+    ],
+    [
+      "Adam is continuing to read and take notes on recent philosophy books and articles (reading a chapter of a book)",
+      30
+    ],
+    [
+      "Adam is continuing to read and take notes on recent philosophy books and articles (taking notes on the chapter he just read)",
+      15
+    ],
+    [
+      "Adam is continuing to read and take notes on recent philosophy books and articles (reading an article from a philosophy journal)",
+      20
+    ],
+    [
+      "Adam is continuing to read and take notes on recent philosophy books and articles (summarizing key points of the article)",
+      15
+    ],
+    [
+      "Adam is continuing to read and take notes on recent philosophy books and articles (reflecting on how these ideas connect to his book)",
+      10
+    ],
+    [
+      "Adam is continuing to read and take notes on recent philosophy books and articles (reading another chapter from a different book)",
+      30
+    ],
+    [
+      "Adam is taking a short walk to clear his mind (walking out of his house)",
+      5
+    ],
+    [
+      "Adam is taking a short walk to clear his mind (walking to the park)",
+      15
+    ],
+    [
+      "Adam is taking a short walk to clear his mind (sitting on a bench and reflecting)",
+      10
+    ],
+    [
+      "Adam is taking a short walk to clear his mind (observing people and nature around him)",
+      20
+    ],
+    [
+      "Adam is taking a short walk to clear his mind (walking along the path of the park)",
+      15
+    ],
+    [
+      "Adam is taking a short walk to clear his mind (stopping to look at flowers and plants)",
+      10
+    ],
+    [
+      "Adam is taking a short walk to clear his mind (continuing his walk around the park)",
+      20
+    ],
+    [
+      "Adam is taking a short walk to clear his mind (sitting on another bench for a break)",
+      10
+    ],
+    [
+      "Adam is taking a short walk to clear his mind (walking back towards home)",
+      15
+    ],
+    [
+      "Adam is taking a short walk to clear his mind (reflecting while walking)",
+      20
+    ],
+    [
+      "Adam is taking a short walk to clear his mind (stopping to observe a bird or animal)",
+      10
+    ],
+    [
+      "Adam is taking a short walk to clear his mind (continuing his walk home)",
+      15
+    ],
+    [
+      "Adam is taking a short walk to clear his mind (walking into his house and preparing for dinner)",
+      5
+    ],
+    [
+      "Adam is taking a short walk to clear his mind (taking a final moment to reflect before entering the house)",
+      5
+    ],
+    [
+      "Adam is taking a short walk to clear his mind (entering his home)",
+      5
+    ],
+    [
+      "Adam is having dinner",
+      60
+    ],
+    [
+      "Adam is reading and preparing notes for his book until 8:00 PM",
+      60
+    ],
+    [
+      "reading and preparing notes for his book until 8:00 PM, then he is reading a novel or engaging in light leisure activities",
+      60
+    ],
+    [
+      "Adam is reading and preparing notes for his book until 8:00 PM, then he is reading a novel or engaging in light leisure activities",
+      60
+    ],
+    [
+      "Adam is preparing for bed and reflecting on the day's activities",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -5
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      240
+    ],
+    [
+      "[(ID:AR0pKw) Monday February 13 -- 04:00 AM] Activity: Adam wakes up and begins his morning routine",
+      60
+    ],
+    [
+      "working on his book",
+      240
+    ],
+    [
+      "having breakfast",
+      60
+    ],
+    [
+      "discussing philosophy with a friend over coffee",
+      120
+    ],
+    [
+      "Adam is having lunch",
+      60
+    ],
+    [
+      "reading and taking notes on recent philosophy books and articles",
+      60
+    ],
+    [
+      "Adam is continuing to read and take notes on recent philosophy books and articles",
+      120
+    ],
+    [
+      "Adam is taking a short walk to clear his mind",
+      180
+    ],
+    [
+      "Adam is having dinner",
+      60
+    ],
+    [
+      "Adam is reading and preparing notes for his book until 8:00 PM",
+      60
+    ],
+    [
+      "reading and preparing notes for his book until 8:00 PM, then he is reading a novel or engaging in light leisure activities",
+      60
+    ],
+    [
+      "Adam is reading and preparing notes for his book until 8:00 PM, then he is reading a novel or engaging in light leisure activities",
+      60
+    ],
+    [
+      "Adam is preparing for bed and reflecting on the day's activities",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Johnson Park:park:park garden",
+  "act_start_time": "February 13, 2023, 16:36:00",
+  "act_duration": 20,
+  "act_description": "Adam is taking a short walk to clear his mind (observing people and nature around him)",
+  "act_pronunciatio": "\ud83d\udc40\ud83c\udf3f",
+  "act_event": [
+    "Adam Smith",
+    "observe",
+    "people and nature"
+  ],
+  "act_obj_description": "quiet and peaceful with people enjoying a stroll or sitting on benches",
+  "act_obj_pronunciatio": "\ud83d\udeb6\u200d\u2642",
+  "act_obj_event": [
+    "park garden",
+    "be",
+    "quiet and peaceful"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Francisco Lopez": -2226,
+    "Abigail Chen": -786,
+    "Latoya Williams": -1812,
+    "Jennifer Moore": -1674,
+    "Sam Moore": -1368,
+    "Isabella Rodriguez": -1164,
+    "Ryan Park": -1062,
+    "Yuriko Yamamoto": -864
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -1,0 +1,778 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        16,
+        20
+      ],
+      "pronunciatio": "\ud83c\udfa7\ud83d\udcdd",
+      "description": "attending an online meeting about local politics (listening to the introduction of new political candidates for mayor and taking detailed notes on each candidate's platform and policies) @ the Ville:artist's co-living space:Latoya Williams's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.0,
+          "hunger": 61.3,
+          "fun": 99.5,
+          "hygiene": 85.1,
+          "bladder": 10.1,
+          "social": 98.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Rajiv Patel": {
+      "movement": [
+        26,
+        22
+      ],
+      "pronunciatio": "\ud83c\udfa8\u270f\ufe0f",
+      "description": "painting at the co-living space (preparing his canvas and materials, sketching the outline of his painting) @ the Ville:artist's co-living space:Rajiv Patel's room:easel",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.0,
+          "hunger": 94.3,
+          "fun": 79.9,
+          "hygiene": 49.6,
+          "bladder": 10.1,
+          "social": 78.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udf89",
+      "description": "reviewing and refining her work for the day, ensuring all tasks are completed according to deadlines and quality standards. She also prepares a brief summary of progress made and any issues encountered during the day's work (conversing about Isabella and Abigail discussing plans to integrate interactive sound and visual elements into Isabella's Valentine's Day party, including chemistry-themed cocktails and educational animations.) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.0,
+          "hunger": 65.7,
+          "fun": 100.0,
+          "hygiene": 49.6,
+          "bladder": 10.1,
+          "social": 95.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Francisco Lopez": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "Francisco is attending the emergency meeting with the web series production team to address a technical issue that came up during filming, which has pushed back their original schedule. The meeting runs from 10:00 am to 2:00 pm (conversing about integrating themes from Francisco's web series into Rajiv's show and planning community events within their co-living space to support Sam's campaign, with Hailey and Francisco discussing ideas for podcasts, written pieces, and a Valentine\u2019s Day event showcasing residents' creative contributions.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.0,
+          "hunger": 100.0,
+          "fun": 83.1,
+          "hygiene": 58.2,
+          "bladder": 0.0,
+          "social": 99.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "Hailey is working on her novel, conducting research and brainstorming new ideas (conversing about integrating themes from Francisco's web series into Rajiv's show and planning community events within their co-living space to support Sam's campaign, with Hailey and Francisco discussing ideas for podcasts, written pieces, and a Valentine\u2019s Day event showcasing residents' creative contributions.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.0,
+          "hunger": 84.4,
+          "fun": 64.9,
+          "hygiene": 49.6,
+          "bladder": 10.1,
+          "social": 77.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Arthur Burton": {
+      "movement": [
+        65,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about finalizing details for a Valentine's Day cocktail tasting event at The Rose and Crown Pub, including timing and accommodating dietary restrictions such as non-alcoholic options for one of Yuriko's colleagues. @ <persona> Yuriko Yamamoto",
+      "chat": [
+        [
+          "Arthur Burton",
+          "Hi Yuriko, I hope you're enjoying your training session for the tax compliance project. I was wondering if we could finalize some details about the Valentine's Day cocktail tasting at The Rose and Crown Pub this week?"
+        ],
+        [
+          "Yuriko Yamamoto",
+          "Hi Arthur, I am indeed finding the training session very informative. As for the Valentine's Day cocktail tasting, I'm looking forward to it and can't wait to try those unique cocktails you mentioned. What specific details do we need to finalize?"
+        ],
+        [
+          "Arthur Burton",
+          "Great to hear you're excited about it, Yuriko! We just need to confirm a specific time and date that works best for your team. Also, let me know if there are any dietary restrictions or preferences I should consider while preparing the cocktails."
+        ],
+        [
+          "Yuriko Yamamoto",
+          "Thanks for checking in, Arthur. I'll confirm with my team and get back to you about a date and time that works best. As for dietary preferences, one of my colleagues is avoiding alcohol this month due to health reasons, so we might opt for non-alcoholic options if available. Can your preparation accommodate that?"
+        ],
+        [
+          "Arthur Burton",
+          "Absolutely, Yuriko! We can definitely offer some delicious mocktails and virgin cocktails for those who prefer non-alcoholic options. I'll make sure to include a variety of flavors that will still capture the essence of Valentine's Day. Let me know once you've confirmed the timing with your team so we can lock down the details."
+        ],
+        [
+          "Yuriko Yamamoto",
+          "Sure thing, Arthur. I'll make sure to get back to you as soon as we finalize our availability. Thanks for being so accommodating with the non-alcoholic options!"
+        ],
+        [
+          "Arthur Burton",
+          "Sounds good, Yuriko. Looking forward to hearing from you and making sure everything is perfect for your team\u2019s tasting event. Have a great rest of your training session!"
+        ],
+        [
+          "Yuriko Yamamoto",
+          "Thanks, Arthur. I'll confirm with my team and send you an update shortly. Have a great day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 64.0,
+          "hunger": 92.8,
+          "fun": 36.5,
+          "hygiene": 49.6,
+          "bladder": 0.0,
+          "social": 60.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ryan Park": {
+      "movement": [
+        66,
+        24
+      ],
+      "pronunciatio": "\ud83d\udee0\ud83d\udc4d",
+      "description": "working on coding for the mobile app project (implementing new features based on user feedback) @ the Ville:Ryan Park's apartment:main room:computer desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.0,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 49.6,
+          "bladder": 10.1,
+          "social": 59.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Isabella Rodriguez discussing how to integrate music into visual storytelling elements, specifically for a Valentine's Day party with chemistry-themed cocktails. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Eddy, I see you're hard at work on your music theory notes! That sounds really interesting. How\u2019s it going?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Isabella, yeah it\u2019s going well! I actually have some questions about integrating music into visual storytelling if you have a moment. Also, I heard about your Valentine's Day plans - sounds amazing!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Eddy! I\u2019m glad you\u2019re interested. About integrating music and visuals for the Valentine\u2019s party, Abigail and I are thinking of using chemistry-themed cocktails to create an educational yet fun atmosphere. Would love to hear your thoughts on how we could use sound to complement these elements."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds like such an innovative idea, Isabella! I think it would be fascinating to use different musical tones and rhythms to symbolize various chemical reactions during your events. For instance, percussive elements for energetic reactions or more flowing melodies for smoother processes. Do you think something like this aligns with what Abigail had in mind?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds perfect, Eddy! Abigail and I were thinking along similar lines but your expertise in music could take our plans to a whole new level. Could you help us brainstorm some specific examples or even compose pieces for the event?"
+        ],
+        [
+          "Eddy Lin",
+          "Absolutely, I\u2019d love to get involved and contribute my musical ideas. How about we start by listing down some key chemical reactions you want to highlight at the party and then match them with suitable music elements? That way, we can ensure everything flows seamlessly from a visual and auditory perspective."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great, Eddy! Let\u2019s start by focusing on a few key reactions like color changes and effervescence. We can have Abigail join us to finalize some ideas for the visuals as well."
+        ],
+        [
+          "Eddy Lin",
+          "That works for me, Isabella. Maybe we can set up a time to meet and go through some of these ideas in more detail? I think Abigail\u2019s input on visuals will be invaluable too."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds like a fantastic plan, Eddy. How about we schedule a meeting for tomorrow afternoon? We can use that time to brainstorm and flesh out some initial ideas before bringing Abigail in."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Isabella. I'll send you an email later today to confirm the details and start gathering some initial musical ideas. Looking forward to working on this project!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Eddy. I'll look forward to your email and can't wait to see what you come up with for the music."
+        ],
+        [
+          "Eddy Lin",
+          "Perfect, Isabella. I think it\u2019s going to be an exciting collaboration and I\u2019m really looking forward to bringing some unique musical elements to your Valentine's Day event. Thanks for including me in this project!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Eddy! I'm excited to see how our ideas blend together. Looking forward to your email and meeting tomorrow."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a plan, Isabella. I\u2019ll start working on some musical sketches and send you my initial thoughts via email later today."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's wonderful, Eddy. Can't wait to see your musical sketches and hear more about how you envision integrating them into our event. Talk to you soon!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks again, Isabella. I\u2019ll make sure to include some examples and initial sketches so we can start shaping the musical components of your event. Talk to you soon!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 59.0,
+          "hunger": 94.2,
+          "fun": 100.0,
+          "hygiene": 58.2,
+          "bladder": 10.1,
+          "social": 100.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        72,
+        23
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83c\udf7d\ufe0f",
+      "description": "having lunch (eating his lunch) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.0,
+          "hunger": 92.1,
+          "fun": 38.8,
+          "hygiene": 82.7,
+          "bladder": 10.1,
+          "social": 79.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Carlos Gomez": {
+      "movement": [
+        115,
+        23
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83c\udffc\ud83d\udc64",
+      "description": "attending a creative writing workshop (introducing himself to fellow attendees) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.0,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 58.2,
+          "bladder": 10.1,
+          "social": 26.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        80,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcdd",
+      "description": "Klaus is working on his research paper in the library at Oak Hill College. He plans to continue until around 5:00 pm (finding a quiet spot at the library to work undisturbed, reviewing his research paper outline and notes from earlier in the day) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.0,
+          "hunger": 94.2,
+          "fun": 59.7,
+          "hygiene": 81.5,
+          "bladder": 0.0,
+          "social": 71.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        126,
+        54
+      ],
+      "pronunciatio": "\ud83c\udfae\ud83d\udcac",
+      "description": "streaming games on Twitch (continues streaming another game for 30 minutes while interacting with viewers) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.0,
+          "hunger": 33.8,
+          "fun": 75.0,
+          "hygiene": 58.2,
+          "bladder": 10.1,
+          "social": 51.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ayesha Khan": {
+      "movement": [
+        122,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcac",
+      "description": "attending her classes at the library (reviewing her notes and asking questions to clarify any doubts) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.0,
+          "hunger": 94.3,
+          "fun": 81.0,
+          "hygiene": 58.2,
+          "bladder": 10.1,
+          "social": 65.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        90,
+        33
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "reviewing and practicing his sport skills (participating in team drills with his teammates) @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 54.0,
+          "hunger": 100.0,
+          "fun": 65.9,
+          "hygiene": 81.6,
+          "bladder": 10.1,
+          "social": 47.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Mei Lin": {
+      "movement": [
+        108,
+        23
+      ],
+      "pronunciatio": "\ud83d\udc65\ud83e\udd14",
+      "description": "teaching her second philosophy class at Oak Hill College (facilitating group activities to explore philosophical questions) @ the Ville:Oak Hill College:classroom:classroom podium",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.0,
+          "hunger": 100.0,
+          "fun": 66.9,
+          "hygiene": 80.3,
+          "bladder": 53.1,
+          "social": 43.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        89,
+        51
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udd0c",
+      "description": "John is attending to customers and providing them with the medications they need. He ensures that all prescriptions are filled accurately and efficiently, maintaining his usual patient and kind demeanor (turning off all non-essential lights and electronics to save energy) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 65.2,
+          "hunger": 86.6,
+          "fun": 59.1,
+          "hygiene": 81.2,
+          "bladder": 10.1,
+          "social": 60.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        76,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Isabella Rodriguez discussing how to integrate music into visual storytelling elements, specifically for a Valentine's Day party with chemistry-themed cocktails. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Eddy, I see you're hard at work on your music theory notes! That sounds really interesting. How\u2019s it going?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Isabella, yeah it\u2019s going well! I actually have some questions about integrating music into visual storytelling if you have a moment. Also, I heard about your Valentine's Day plans - sounds amazing!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Eddy! I\u2019m glad you\u2019re interested. About integrating music and visuals for the Valentine\u2019s party, Abigail and I are thinking of using chemistry-themed cocktails to create an educational yet fun atmosphere. Would love to hear your thoughts on how we could use sound to complement these elements."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds like such an innovative idea, Isabella! I think it would be fascinating to use different musical tones and rhythms to symbolize various chemical reactions during your events. For instance, percussive elements for energetic reactions or more flowing melodies for smoother processes. Do you think something like this aligns with what Abigail had in mind?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds perfect, Eddy! Abigail and I were thinking along similar lines but your expertise in music could take our plans to a whole new level. Could you help us brainstorm some specific examples or even compose pieces for the event?"
+        ],
+        [
+          "Eddy Lin",
+          "Absolutely, I\u2019d love to get involved and contribute my musical ideas. How about we start by listing down some key chemical reactions you want to highlight at the party and then match them with suitable music elements? That way, we can ensure everything flows seamlessly from a visual and auditory perspective."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great, Eddy! Let\u2019s start by focusing on a few key reactions like color changes and effervescence. We can have Abigail join us to finalize some ideas for the visuals as well."
+        ],
+        [
+          "Eddy Lin",
+          "That works for me, Isabella. Maybe we can set up a time to meet and go through some of these ideas in more detail? I think Abigail\u2019s input on visuals will be invaluable too."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds like a fantastic plan, Eddy. How about we schedule a meeting for tomorrow afternoon? We can use that time to brainstorm and flesh out some initial ideas before bringing Abigail in."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Isabella. I'll send you an email later today to confirm the details and start gathering some initial musical ideas. Looking forward to working on this project!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Eddy. I'll look forward to your email and can't wait to see what you come up with for the music."
+        ],
+        [
+          "Eddy Lin",
+          "Perfect, Isabella. I think it\u2019s going to be an exciting collaboration and I\u2019m really looking forward to bringing some unique musical elements to your Valentine's Day event. Thanks for including me in this project!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Eddy! I'm excited to see how our ideas blend together. Looking forward to your email and meeting tomorrow."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a plan, Isabella. I\u2019ll start working on some musical sketches and send you my initial thoughts via email later today."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's wonderful, Eddy. Can't wait to see your musical sketches and hear more about how you envision integrating them into our event. Talk to you soon!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks again, Isabella. I\u2019ll make sure to include some examples and initial sketches so we can start shaping the musical components of your event. Talk to you soon!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 67.2,
+          "hunger": 99.5,
+          "fun": 100.0,
+          "hygiene": 87.6,
+          "bladder": 10.1,
+          "social": 57.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Tom Moreno": {
+      "movement": [
+        76,
+        49
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Tom is managing customer services and helping with orders at The Willow Market and Pharmacy (restocking shelves again) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.0,
+          "hunger": 37.9,
+          "fun": 18.2,
+          "hygiene": 58.2,
+          "bladder": 10.1,
+          "social": 61.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Jane Moreno": {
+      "movement": [
+        82,
+        52
+      ],
+      "pronunciatio": "\ud83c\udf5e\ud83e\udd50",
+      "description": "Jane is shopping for groceries at The Willow Market and Pharmacy (picking up bread and pastries) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.0,
+          "hunger": 76.0,
+          "fun": 18.2,
+          "hygiene": 58.2,
+          "bladder": 10.1,
+          "social": 31.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Tamara Taylor": {
+      "movement": [
+        55,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcd6\u270d\ufe0f",
+      "description": "Tamara is revising her children's books and comic book series (revising the comic book series) @ the Ville:Tamara Taylor and Carmen Ortiz's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.0,
+          "hunger": 93.3,
+          "fun": 30.3,
+          "hygiene": 49.6,
+          "bladder": 10.1,
+          "social": 26.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Carmen Ortiz": {
+      "movement": [
+        68,
+        46
+      ],
+      "pronunciatio": "\ud83d\udc81\u200d\u2642",
+      "description": "working at Harvey Oak Supply Store (helping customers with product demonstrations) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.0,
+          "hunger": 49.2,
+          "fun": 18.2,
+          "hygiene": 63.3,
+          "bladder": 3.2,
+          "social": 44.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Sam Moore": {
+      "movement": [
+        37,
+        61
+      ],
+      "pronunciatio": "\u270d\ud83c\udffc\ud83d\udce2",
+      "description": "working on his mayoral campaign (writing a speech for an upcoming rally) @ the Ville:Moore family's house:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 54.0,
+          "hunger": 81.7,
+          "fun": 92.8,
+          "hygiene": 74.6,
+          "bladder": 40.1,
+          "social": 87.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Jennifer Moore": {
+      "movement": [
+        74,
+        30
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\uddbc",
+      "description": "working on the upcoming exhibition (reviewing her previous paintings for inspiration) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 54.0,
+          "hunger": 92.6,
+          "fun": 91.9,
+          "hygiene": 53.0,
+          "bladder": 0.0,
+          "social": 98.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Yuriko Yamamoto": {
+      "movement": [
+        65,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about finalizing details for a Valentine's Day cocktail tasting event at The Rose and Crown Pub, including timing and accommodating dietary restrictions such as non-alcoholic options for one of Yuriko's colleagues. @ <persona> Arthur Burton",
+      "chat": [
+        [
+          "Arthur Burton",
+          "Hi Yuriko, I hope you're enjoying your training session for the tax compliance project. I was wondering if we could finalize some details about the Valentine's Day cocktail tasting at The Rose and Crown Pub this week?"
+        ],
+        [
+          "Yuriko Yamamoto",
+          "Hi Arthur, I am indeed finding the training session very informative. As for the Valentine's Day cocktail tasting, I'm looking forward to it and can't wait to try those unique cocktails you mentioned. What specific details do we need to finalize?"
+        ],
+        [
+          "Arthur Burton",
+          "Great to hear you're excited about it, Yuriko! We just need to confirm a specific time and date that works best for your team. Also, let me know if there are any dietary restrictions or preferences I should consider while preparing the cocktails."
+        ],
+        [
+          "Yuriko Yamamoto",
+          "Thanks for checking in, Arthur. I'll confirm with my team and get back to you about a date and time that works best. As for dietary preferences, one of my colleagues is avoiding alcohol this month due to health reasons, so we might opt for non-alcoholic options if available. Can your preparation accommodate that?"
+        ],
+        [
+          "Arthur Burton",
+          "Absolutely, Yuriko! We can definitely offer some delicious mocktails and virgin cocktails for those who prefer non-alcoholic options. I'll make sure to include a variety of flavors that will still capture the essence of Valentine's Day. Let me know once you've confirmed the timing with your team so we can lock down the details."
+        ],
+        [
+          "Yuriko Yamamoto",
+          "Sure thing, Arthur. I'll make sure to get back to you as soon as we finalize our availability. Thanks for being so accommodating with the non-alcoholic options!"
+        ],
+        [
+          "Arthur Burton",
+          "Sounds good, Yuriko. Looking forward to hearing from you and making sure everything is perfect for your team\u2019s tasting event. Have a great rest of your training session!"
+        ],
+        [
+          "Yuriko Yamamoto",
+          "Thanks, Arthur. I'll confirm with my team and send you an update shortly. Have a great day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 64.0,
+          "hunger": 92.9,
+          "fun": 25.5,
+          "hygiene": 84.4,
+          "bladder": 10.1,
+          "social": 51.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Adam Smith": {
+      "movement": [
+        21,
+        65
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcda",
+      "description": "Adam is continuing to read and take notes on recent philosophy books and articles (reading a chapter of a book) @ the Ville:Adam Smith's house:main room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.0,
+          "hunger": 97.4,
+          "fun": 100.0,
+          "hygiene": 49.6,
+          "bladder": 10.1,
+          "social": 92.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 14:11:40"
+  }
+}

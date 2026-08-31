@@ -1,0 +1,712 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        35,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Latoya Williams and Jennifer Moore discussing their potential collaboration on visual materials for Sam's mayoral campaign, combining Latoya's travel photography with Jennifer's watercolor paintings. @ <persona> Jennifer Moore",
+      "chat": [
+        [
+          "Latoya Williams",
+          "Hi Jennifer, I see you're working on some beautiful watercolors today. How's it going?"
+        ],
+        [
+          "Jennifer Moore",
+          "Hello Latoya, thank you! I'm trying to capture the essence of our community. How about your photography projects today?"
+        ],
+        [
+          "Latoya Williams",
+          "Thanks, I'm working on my travel-inspired series. It's challenging but very rewarding. Have you been inspired by any recent events or changes in our living space?"
+        ],
+        [
+          "Jennifer Moore",
+          "Absolutely, Latoya. The vibrant energy and evolving dynamics within our community have been a constant source of inspiration for me lately. Your travel series sounds fascinating too\u2014do you think your latest photos could serve as visual inspirations for my paintings? I believe combining both perspectives would enhance Sam's mayoral campaign visuals."
+        ],
+        [
+          "Latoya Williams",
+          "That sounds like an interesting idea, Jennifer. Perhaps we could collaborate on a project that blends our perspectives. I think it would be great to share visual stories of our community from different angles."
+        ],
+        [
+          "Jennifer Moore",
+          "I agree, Latoya. Let's plan to meet and discuss how we can merge our creative visions for Sam's campaign materials. Your travel series might offer unique angles that complement my paintings perfectly."
+        ],
+        [
+          "Latoya Williams",
+          "That sounds wonderful, Jennifer. Let's schedule some time this week to brainstorm and see how we can bring our visions together for Sam's campaign. I think it could be really impactful."
+        ],
+        [
+          "Jennifer Moore",
+          "Great, how about we meet at Hobbs cafe this Thursday around 2pm to start brainstorming and looking through your work?"
+        ],
+        [
+          "Latoya Williams",
+          "Sounds perfect, Jennifer. I'll bring some samples from my travel series and we can discuss how to integrate them with your paintings effectively."
+        ],
+        [
+          "Jennifer Moore",
+          "That works for me, Latoya. Looking forward to our meeting and seeing how we can make this collaboration a success."
+        ],
+        [
+          "Latoya Williams",
+          "That sounds great, Jennifer. I'm excited to see how our work can come together for Sam's campaign. See you at Hobbs cafe on Thursday."
+        ],
+        [
+          "Jennifer Moore",
+          "Before we hang up, do you have an idea about what aspects of your travel series you think would work best for our collaboration?"
+        ],
+        [
+          "Latoya Williams",
+          "I think the contrast between different places and cultures could offer unique visuals that resonate well with our community's diversity. I'll bring some of my recent photos that highlight architectural details, vibrant street scenes, and maybe some candid moments from my travels."
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds like a brilliant approach, Latoya. The contrasts and diversity you highlight will definitely add depth to our collaboration. I'm looking forward to seeing how we can bring these elements together in the visuals for Sam's campaign."
+        ],
+        [
+          "Latoya Williams",
+          "Thanks, Jennifer. I'll make sure to bring those photos and we can discuss how to blend them with your painting style. Looking forward to our meeting!"
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds wonderful, Latoya. Let's make sure to also bring some ideas for color schemes and themes that might work well together. I think a cohesive visual story will be key for Sam's campaign."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 87.3,
+          "hunger": 45.7,
+          "fun": 68.3,
+          "hygiene": 99.8,
+          "bladder": 49.7,
+          "social": 46.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Rajiv Patel": {
+      "movement": [
+        25,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Rajiv Patel's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 23.7,
+          "fun": 40.8,
+          "hygiene": 49.4,
+          "bladder": 15.2,
+          "social": 40.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        40,
+        18
+      ],
+      "pronunciatio": "\ud83e\uddf6\ud83d\udc5a",
+      "description": "waking up and completing her morning routine. This includes getting dressed, preparing breakfast, and doing some light stretching and meditation to start the day (getting dressed) @ the Ville:artist's co-living space:Abigail Chen's room:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 97.3,
+          "hunger": 59.5,
+          "fun": 40.8,
+          "hygiene": 66.5,
+          "bladder": 49.7,
+          "social": 40.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Francisco Lopez": {
+      "movement": [
+        39,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcac",
+      "description": "having breakfast and reviewing the script for today's shoot (conversing about Francisco Lopez and Adam Smith discussing how themes from Francisco's web series about co-living spaces can inspire creative conflict resolution techniques in Adam's book, incorporating elements of improv comedy.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.3,
+          "hunger": 81.5,
+          "fun": 54.5,
+          "hygiene": 75.1,
+          "bladder": 32.4,
+          "social": 49.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 23.7,
+          "fun": 40.8,
+          "hygiene": 49.4,
+          "bladder": 15.2,
+          "social": 40.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Arthur Burton": {
+      "movement": [
+        57,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcc5\ud83c\udf7a",
+      "description": "Arthur is having breakfast and planning his day. He reviews the inventory to ensure he has everything needed for the evening's operations at The Rose and Crown Pub (planning his day's activities at the pub) @ the Ville:The Rose and Crown Pub:pub:behind the bar counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.3,
+          "hunger": 70.5,
+          "fun": 40.8,
+          "hygiene": 66.5,
+          "bladder": 15.2,
+          "social": 40.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ryan Park": {
+      "movement": [
+        66,
+        19
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Ryan Park's apartment:main room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 23.7,
+          "fun": 40.8,
+          "hygiene": 49.4,
+          "bladder": 15.2,
+          "social": 40.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        19
+      ],
+      "pronunciatio": "\ud83d\udc4d\ud83d\udd27",
+      "description": "opening Hobbs Cafe for the day (checking that all equipment is functioning properly) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 87.3,
+          "hunger": 89.7,
+          "fun": 47.6,
+          "hygiene": 75.1,
+          "bladder": 49.7,
+          "social": 44.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        89,
+        24
+      ],
+      "pronunciatio": "\ud83e\uddf6\ud83d\udc5a",
+      "description": "[(ID:IVgBKh) Monday February 13 -- 07:00 AM] Activity: Giorgio wakes up and completes his morning routine (getting dressed) @ the Ville:Giorgio Rossi's apartment:main room:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.3,
+          "hunger": 45.7,
+          "fun": 40.8,
+          "hygiene": 99.6,
+          "bladder": 49.7,
+          "social": 40.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Carlos Gomez": {
+      "movement": [
+        94,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcc5\u270d\ufe0f",
+      "description": "reading and planning his day over coffee (planning his poetry writing schedule) @ the Ville:Carlos Gomez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.3,
+          "hunger": 76.0,
+          "fun": 42.0,
+          "hygiene": 75.1,
+          "bladder": 49.7,
+          "social": 40.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        131,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83c\udfaf",
+      "description": "reviews his research outline and objectives for today's work session @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.3,
+          "hunger": 90.8,
+          "fun": 40.8,
+          "hygiene": 98.4,
+          "bladder": 15.2,
+          "social": 44.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 23.7,
+          "fun": 40.8,
+          "hygiene": 49.4,
+          "bladder": 15.2,
+          "social": 40.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Ayesha Khan": {
+      "movement": [
+        118,
+        57
+      ],
+      "pronunciatio": "\ud83c\udf92\ud83d\udcda",
+      "description": "having breakfast (cleaning the kitchen counter and sink) (organizing her backpack for classes) @ the Ville:Dorm for Oak Hill College:Ayesha Khan's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 87.3,
+          "hunger": 100.0,
+          "fun": 40.8,
+          "hygiene": 75.1,
+          "bladder": 49.7,
+          "social": 45.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcd6\u2697\ufe0f",
+      "description": "studying chemistry and related subjects (reviewing his notes on organic chemistry) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.3,
+          "hunger": 97.2,
+          "fun": 69.8,
+          "hygiene": 98.6,
+          "bladder": 49.7,
+          "social": 46.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Mei Lin": {
+      "movement": [
+        91,
+        67
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udf92",
+      "description": "having breakfast with her family (conversing about Eddy and Mei Lin discussing Eddy's plans for his classes, his composition project inspired by a dream, and preparing for their meeting with Dad that night while Mei helps him pack his lunch and check his school bag.) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.3,
+          "hunger": 46.3,
+          "fun": 40.8,
+          "hygiene": 97.3,
+          "bladder": 92.7,
+          "social": 50.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        57,
+        37
+      ],
+      "pronunciatio": "\ud83d\udde3\ud83d\udc65",
+      "description": "heading to the Willow Market and Pharmacy to prepare for opening. He checks inventory and sets up any necessary displays or promotions before his shift begins at 9am (conversing about John Lin and Tom Moreno discussing potential mayoral candidates, community needs, and organizing a town hall meeting to gather input from residents.) @ the Ville:Johnson Park:park:park garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 93.4,
+          "hunger": 91.9,
+          "fun": 57.3,
+          "hygiene": 98.1,
+          "bladder": 49.7,
+          "social": 56.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        91,
+        67
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udf92",
+      "description": "having breakfast (conversing about Eddy and Mei Lin discussing Eddy's plans for his classes, his composition project inspired by a dream, and preparing for their meeting with Dad that night while Mei helps him pack his lunch and check his school bag.) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 95.5,
+          "hunger": 54.0,
+          "fun": 48.6,
+          "hygiene": 75.1,
+          "bladder": 49.7,
+          "social": 50.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Tom Moreno": {
+      "movement": [
+        57,
+        37
+      ],
+      "pronunciatio": "\ud83d\udde3\ud83d\udc65",
+      "description": "opening The Willow Market and Pharmacy for business (conversing about John Lin and Tom Moreno discussing potential mayoral candidates, community needs, and organizing a town hall meeting to gather input from residents.) @ the Ville:The Rose and Crown Pub:pub:microphone",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.3,
+          "hunger": 44.6,
+          "fun": 40.8,
+          "hygiene": 75.1,
+          "bladder": 49.7,
+          "social": 51.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Jane Moreno": {
+      "movement": [
+        75,
+        66
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "doing household chores like laundry and cleaning (loading the washing machine with sorted clothes) @ the Ville:Moreno family's house:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 87.3,
+          "hunger": 97.5,
+          "fun": 40.8,
+          "hygiene": 75.1,
+          "bladder": 49.7,
+          "social": 44.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Tamara Taylor": {
+      "movement": [
+        55,
+        69
+      ],
+      "pronunciatio": "\ud83e\udd14\u270d\ufe0f",
+      "description": "working on drafting a new children's book chapter (brainstorming ideas for the chapter's plot and characters) @ the Ville:Tamara Taylor and Carmen Ortiz's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 87.3,
+          "hunger": 85.0,
+          "fun": 45.7,
+          "hygiene": 66.5,
+          "bladder": 49.7,
+          "social": 45.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Carmen Ortiz": {
+      "movement": [
+        67,
+        46
+      ],
+      "pronunciatio": "\ud83d\uded2\u2705",
+      "description": "opening Harvey Oak Supply Store (checking that all supplies are stocked and ready for customers) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.3,
+          "hunger": 45.7,
+          "fun": 40.8,
+          "hygiene": 80.3,
+          "bladder": 42.8,
+          "social": 45.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Sam Moore": {
+      "movement": [
+        72,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\uddf3\ufe0f",
+      "description": "sitting at Hobbs cafe reading and planning his mayoral campaign (reading a book about local politics) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.3,
+          "hunger": 79.8,
+          "fun": 89.5,
+          "hygiene": 91.5,
+          "bladder": 79.6,
+          "social": 59.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Jennifer Moore": {
+      "movement": [
+        35,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Latoya Williams and Jennifer Moore discussing their potential collaboration on visual materials for Sam's mayoral campaign, combining Latoya's travel photography with Jennifer's watercolor paintings. @ <persona> Latoya Williams",
+      "chat": [
+        [
+          "Latoya Williams",
+          "Hi Jennifer, I see you're working on some beautiful watercolors today. How's it going?"
+        ],
+        [
+          "Jennifer Moore",
+          "Hello Latoya, thank you! I'm trying to capture the essence of our community. How about your photography projects today?"
+        ],
+        [
+          "Latoya Williams",
+          "Thanks, I'm working on my travel-inspired series. It's challenging but very rewarding. Have you been inspired by any recent events or changes in our living space?"
+        ],
+        [
+          "Jennifer Moore",
+          "Absolutely, Latoya. The vibrant energy and evolving dynamics within our community have been a constant source of inspiration for me lately. Your travel series sounds fascinating too\u2014do you think your latest photos could serve as visual inspirations for my paintings? I believe combining both perspectives would enhance Sam's mayoral campaign visuals."
+        ],
+        [
+          "Latoya Williams",
+          "That sounds like an interesting idea, Jennifer. Perhaps we could collaborate on a project that blends our perspectives. I think it would be great to share visual stories of our community from different angles."
+        ],
+        [
+          "Jennifer Moore",
+          "I agree, Latoya. Let's plan to meet and discuss how we can merge our creative visions for Sam's campaign materials. Your travel series might offer unique angles that complement my paintings perfectly."
+        ],
+        [
+          "Latoya Williams",
+          "That sounds wonderful, Jennifer. Let's schedule some time this week to brainstorm and see how we can bring our visions together for Sam's campaign. I think it could be really impactful."
+        ],
+        [
+          "Jennifer Moore",
+          "Great, how about we meet at Hobbs cafe this Thursday around 2pm to start brainstorming and looking through your work?"
+        ],
+        [
+          "Latoya Williams",
+          "Sounds perfect, Jennifer. I'll bring some samples from my travel series and we can discuss how to integrate them with your paintings effectively."
+        ],
+        [
+          "Jennifer Moore",
+          "That works for me, Latoya. Looking forward to our meeting and seeing how we can make this collaboration a success."
+        ],
+        [
+          "Latoya Williams",
+          "That sounds great, Jennifer. I'm excited to see how our work can come together for Sam's campaign. See you at Hobbs cafe on Thursday."
+        ],
+        [
+          "Jennifer Moore",
+          "Before we hang up, do you have an idea about what aspects of your travel series you think would work best for our collaboration?"
+        ],
+        [
+          "Latoya Williams",
+          "I think the contrast between different places and cultures could offer unique visuals that resonate well with our community's diversity. I'll bring some of my recent photos that highlight architectural details, vibrant street scenes, and maybe some candid moments from my travels."
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds like a brilliant approach, Latoya. The contrasts and diversity you highlight will definitely add depth to our collaboration. I'm looking forward to seeing how we can bring these elements together in the visuals for Sam's campaign."
+        ],
+        [
+          "Latoya Williams",
+          "Thanks, Jennifer. I'll make sure to bring those photos and we can discuss how to blend them with your painting style. Looking forward to our meeting!"
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds wonderful, Latoya. Let's make sure to also bring some ideas for color schemes and themes that might work well together. I think a cohesive visual story will be key for Sam's campaign."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 82.3,
+          "hunger": 91.1,
+          "fun": 84.1,
+          "hygiene": 70.0,
+          "bladder": 39.3,
+          "social": 54.0
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Yuriko Yamamoto": {
+      "movement": [
+        29,
+        60
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Yuriko is getting ready for work and reviewing her schedule for the day (getting dressed for work) @ the Ville:Yuriko Yamamoto's house:main room:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.3,
+          "hunger": 23.7,
+          "fun": 40.8,
+          "hygiene": 100.0,
+          "bladder": 49.7,
+          "social": 40.8
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Adam Smith": {
+      "movement": [
+        35,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcac",
+      "description": "working on his book (conversing about Francisco Lopez and Adam Smith discussing how themes from Francisco's web series about co-living spaces can inspire creative conflict resolution techniques in Adam's book, incorporating elements of improv comedy.) @ the Ville:artist's co-living space:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 77.3,
+          "hunger": 77.1,
+          "fun": 72.2,
+          "hygiene": 66.5,
+          "bladder": 49.7,
+          "social": 49.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 08:32:30"
+  }
+}
