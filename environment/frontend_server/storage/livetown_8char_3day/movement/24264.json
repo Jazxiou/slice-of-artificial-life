@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\udc4d",
+      "description": "Isabella is managing the cafe during the Valentine\u2019s Day celebration. She ensures that all customers are enjoying themselves and coordinates with her staff to keep everything running smoothly (checking on the quality of food being served to customers) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 22.0,
+          "hunger": 95.6,
+          "fun": 80.1,
+          "hygiene": 69.4,
+          "bladder": 17.3,
+          "social": 13.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83c\udf3f",
+      "description": "Klaus is heading back to the library after dinner to continue working on his gentrification project. He reviews additional literature and updates his notes, ensuring he captures all new insights gained from discussions with Wolfgang Schulz earlier in the day (finding a quiet spot at the library) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 38.3,
+          "hunger": 100.0,
+          "fun": 20.5,
+          "hygiene": 71.9,
+          "bladder": 15.3,
+          "social": 50.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc65",
+      "description": "Maria is continuing to stream or game on Twitch from 7:00 PM to 8:00 PM, engaging with her community and collaborating on creative projects like interactive storytelling events (collaborating on an interactive storytelling event) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.3,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 40.4,
+          "bladder": 0.0,
+          "social": 16.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        28
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "having dinner (waiting to start drinking water and taking a short break between courses) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 43.7,
+          "hunger": 100.0,
+          "fun": 32.1,
+          "hygiene": 89.9,
+          "bladder": 76.5,
+          "social": 13.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        60
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83e\uddd8",
+      "description": "Continuing to take detailed notes during the lecture, focusing on integrating stress reduction techniques into medication management practices. @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 11.0,
+          "hunger": 99.9,
+          "fun": 38.2,
+          "hygiene": 86.0,
+          "bladder": 29.9,
+          "social": 7.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83d\udcde\ud83c\udfb6\u2615",
+      "description": "Eddy discusses with his father via phone call about how his musical studies and techniques for managing stress can be beneficial in John's work environment at the pharmacy. They plan to meet later to brainstorm ideas over coffee. @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 38.8,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 83.5,
+          "bladder": 83.7,
+          "social": 19.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcda",
+      "description": "Hailey is taking a break to relax and recharge. She might read or listen to some music to unwind after an afternoon of creative work (reading a chapter from her favorite book) @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.4,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 67.8,
+          "bladder": 25.2,
+          "social": 8.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6",
+      "description": "Wolfgang is studying in his room. Despite feeling tired, he pushes through and continues reviewing his chemistry notes, taking breaks to stretch and hydrate (reviewing his chemistry notes for 15 minutes) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 0.0,
+          "hunger": 89.7,
+          "fun": 6.5,
+          "hygiene": 59.8,
+          "bladder": 0.0,
+          "social": 12.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 19:24:00"
+  }
+}

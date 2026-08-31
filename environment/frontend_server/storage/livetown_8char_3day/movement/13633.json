@@ -1,0 +1,501 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Isabella Rodriguez discussing plans to meet up for coffee after work and possibly discuss Maria's upcoming assignment while coordinating around Isabella's busy schedule planning for Valentine\u2019s Day. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Isabella, how are you doing today? I was hoping to catch up and maybe grab a coffee later if you're free?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hi Maria, I'm doing well, just super busy planning for Valentine\u2019s Day. That sounds nice though, let's definitely grab a coffee after work if things aren't too crazy."
+        ],
+        [
+          "Maria Lopez",
+          "That would be great, Isabella. Maybe we could discuss some ideas for my upcoming assignment as well?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, Maria, that sounds like a good plan. How about I give you a call once things wind down here and we can figure out the details?"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Isabella. I\u2019ll be around after my Twitch stream tonight if you need to reach out then. Have a great rest of your day!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Maria. I'll shoot you a message once I have a better idea of my schedule this afternoon."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Isabella. Let\u2019s catch up when you're free. Have a great lunch!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Maria. I'll make sure to get in touch once everything calms down a bit here."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Isabella. Talk to you later then!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 45.7,
+          "hunger": 100.0,
+          "fun": 95.4,
+          "hygiene": 99.9,
+          "bladder": 99.8,
+          "social": 2.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        113,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Wolfgang Schulz and Klaus Mueller discussing how to integrate chemical perspectives with sociological research on gentrification, planning to meet at Hobbs Cafe to share insights and materials from their respective fields. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Wolfgang Schulz",
+          "Hi Klaus, I hope you're doing well. I'm actually heading back to my room now but I heard about your research on gentrification and wondered if there might be any insights we could share by looking at it through a chemical perspective."
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Wolfgang, that sounds really interesting. Would you be available to discuss it more in-depth at Hobbs Cafe later today perhaps?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds great, Klaus. Let\u2019s meet there at 3 PM then."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, I'll see you there. Looking forward to our discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Perfect, I'll make sure to bring some relevant materials from my chemistry studies to our meeting. See you at 3 PM."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, I'll bring some notes from my sociology studies to complement your insights. See you later then."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds perfect, Klaus. I'm looking forward to our discussion as well. Have a great day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Wolfgang. It should be an insightful meeting."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I think it could be quite enlightening to combine our fields. I'll start preparing some key concepts and theories from my coursework that might relate."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Wolfgang. I'll do the same and bring some of my findings on gentrification in local communities to frame our discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Excellent, let\u2019s make sure to cover as much ground as possible. I\u2019ll review my notes on environmental impacts and chemical processes that could be relevant to your research."
+        ],
+        [
+          "Klaus Mueller",
+          "That works for me, Wolfgang. I\u2019m eager to learn more about how chemistry can intersect with my research on social issues like gentrification."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I think that would be productive, Klaus. I'll also look into any chemical studies on urban environments that might offer new perspectives. See you at 3 PM."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like we have a lot to cover, Wolfgang. I'll be sure to prepare some case studies to illustrate how gentrification impacts local communities on a social level."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds great, Klaus. I'll be sure to review some literature on urban chemistry that might connect our fields more closely. See you at Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Wolfgang. I'm really looking forward to our meeting and learning more about how chemistry can provide new insights into gentrification."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 65.7,
+          "hunger": 98.8,
+          "fun": 45.1,
+          "hygiene": 37.1,
+          "bladder": 0.0,
+          "social": 35.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        75,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Isabella Rodriguez discussing plans to meet up for coffee after work and possibly discuss Maria's upcoming assignment while coordinating around Isabella's busy schedule planning for Valentine\u2019s Day. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Isabella, how are you doing today? I was hoping to catch up and maybe grab a coffee later if you're free?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hi Maria, I'm doing well, just super busy planning for Valentine\u2019s Day. That sounds nice though, let's definitely grab a coffee after work if things aren't too crazy."
+        ],
+        [
+          "Maria Lopez",
+          "That would be great, Isabella. Maybe we could discuss some ideas for my upcoming assignment as well?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, Maria, that sounds like a good plan. How about I give you a call once things wind down here and we can figure out the details?"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Isabella. I\u2019ll be around after my Twitch stream tonight if you need to reach out then. Have a great rest of your day!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Maria. I'll shoot you a message once I have a better idea of my schedule this afternoon."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Isabella. Let\u2019s catch up when you're free. Have a great lunch!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Maria. I'll make sure to get in touch once everything calms down a bit here."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Isabella. Talk to you later then!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 91.2,
+          "hunger": 100.0,
+          "fun": 60.2,
+          "hygiene": 94.7,
+          "bladder": 87.6,
+          "social": 9.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Hailey Johnson discussing how to integrate interactive storytelling tools into Hailey's novel about co-living artists, including scheduling a meeting and sharing resources on the topic. @ <persona> Hailey Johnson",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Hailey, I couldn't help but overhear your discussion about interactive storytelling tools. It sounds really fascinating! Are you interested in exploring how user feedback could be integrated into narrative art projects?"
+        ],
+        [
+          "Hailey Johnson",
+          "Hi Abigail, that sounds like an amazing idea. I've been thinking about how to involve readers more deeply in my novel about co-living artists. Could you tell me more about the tools you're working on and maybe we could brainstorm ways to incorporate them into my project?"
+        ],
+        [
+          "Abigail Chen",
+          "Absolutely, Hailey! I've been experimenting with some interactive art tools that allow for real-time user interaction and feedback. These can be incredibly engaging for the audience. Perhaps we could look into how these could enrich your novel's narrative by allowing readers to influence certain aspects of the story or interact with characters in a more dynamic way."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds incredibly promising, Abigail. I think giving readers a voice through interactive tools could be revolutionary for my novel. Could we perhaps schedule a more detailed meeting to dive deeper into this and maybe start mapping out some initial ideas?"
+        ],
+        [
+          "Abigail Chen",
+          "Definitely, Hailey! Let\u2019s meet tomorrow at your favorite coffee place around 2 PM. We can spend some time brainstorming and perhaps sketch out a few initial concepts to see how we could integrate these tools into your novel."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds great, Abigail. I\u2019m really excited about this collaboration and can\u2019t wait to see how we can bring these interactive elements into my novel. See you tomorrow at 2 PM!"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Hailey. I'll see you tomorrow then and we can start exploring this fantastic idea together."
+        ],
+        [
+          "Hailey Johnson",
+          "Before we part ways, Abigail, could you also share some resources or articles that might help me understand more about interactive storytelling tools and their applications in literature?"
+        ],
+        [
+          "Abigail Chen",
+          "Of course, Hailey! I'll send you some links to articles and case studies that demonstrate successful implementations of interactive storytelling in literature. This should give us a solid base for our next meeting."
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks so much, Abigail. I can't wait to dive into these resources and see how we might use interactive tools to enhance my novel."
+        ],
+        [
+          "Abigail Chen",
+          "Sure thing, Hailey. I'll compile those resources and send them over to you later today. It was great chatting about this exciting collaboration opportunity."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds perfect, Abigail. I appreciate your help and can't wait to start working on this together. Have a great day!"
+        ],
+        [
+          "Abigail Chen",
+          "Likewise, Hailey. I'll send those resources your way later today and we can build upon them at our meeting tomorrow. Have a great day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 70.7,
+          "hunger": 81.8,
+          "fun": 99.8,
+          "hygiene": 97.5,
+          "bladder": 94.3,
+          "social": 1.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83d\udc75\ud83c\udffc\ud83d\udc8a",
+      "description": "(Tuesday February 14 -- 01:00 PM] Activity: John continues to assist customers, ensuring they have all the medications and information needed. He maintains a friendly demeanor despite feeling tired and lonely (assisting an elderly customer who needs help understanding their medication schedule) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.1,
+          "hunger": 95.2,
+          "fun": 9.8,
+          "hygiene": 86.3,
+          "bladder": 85.4,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udcda",
+      "description": "[(ID:FuCQSy) Tuesday February 14 -- 12:00 PM] Activity: Eddy is attending his third class at Oak Hill College (participating in class discussions) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 65.9,
+          "hunger": 17.0,
+          "fun": 96.5,
+          "hygiene": 85.5,
+          "bladder": 66.1,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        37,
+        27
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Hailey Johnson discussing how to integrate interactive storytelling tools into Hailey's novel about co-living artists, including scheduling a meeting and sharing resources on the topic. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Hailey, I couldn't help but overhear your discussion about interactive storytelling tools. It sounds really fascinating! Are you interested in exploring how user feedback could be integrated into narrative art projects?"
+        ],
+        [
+          "Hailey Johnson",
+          "Hi Abigail, that sounds like an amazing idea. I've been thinking about how to involve readers more deeply in my novel about co-living artists. Could you tell me more about the tools you're working on and maybe we could brainstorm ways to incorporate them into my project?"
+        ],
+        [
+          "Abigail Chen",
+          "Absolutely, Hailey! I've been experimenting with some interactive art tools that allow for real-time user interaction and feedback. These can be incredibly engaging for the audience. Perhaps we could look into how these could enrich your novel's narrative by allowing readers to influence certain aspects of the story or interact with characters in a more dynamic way."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds incredibly promising, Abigail. I think giving readers a voice through interactive tools could be revolutionary for my novel. Could we perhaps schedule a more detailed meeting to dive deeper into this and maybe start mapping out some initial ideas?"
+        ],
+        [
+          "Abigail Chen",
+          "Definitely, Hailey! Let\u2019s meet tomorrow at your favorite coffee place around 2 PM. We can spend some time brainstorming and perhaps sketch out a few initial concepts to see how we could integrate these tools into your novel."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds great, Abigail. I\u2019m really excited about this collaboration and can\u2019t wait to see how we can bring these interactive elements into my novel. See you tomorrow at 2 PM!"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Hailey. I'll see you tomorrow then and we can start exploring this fantastic idea together."
+        ],
+        [
+          "Hailey Johnson",
+          "Before we part ways, Abigail, could you also share some resources or articles that might help me understand more about interactive storytelling tools and their applications in literature?"
+        ],
+        [
+          "Abigail Chen",
+          "Of course, Hailey! I'll send you some links to articles and case studies that demonstrate successful implementations of interactive storytelling in literature. This should give us a solid base for our next meeting."
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks so much, Abigail. I can't wait to dive into these resources and see how we might use interactive tools to enhance my novel."
+        ],
+        [
+          "Abigail Chen",
+          "Sure thing, Hailey. I'll compile those resources and send them over to you later today. It was great chatting about this exciting collaboration opportunity."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds perfect, Abigail. I appreciate your help and can't wait to start working on this together. Have a great day!"
+        ],
+        [
+          "Abigail Chen",
+          "Likewise, Hailey. I'll send those resources your way later today and we can build upon them at our meeting tomorrow. Have a great day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 80.7,
+          "hunger": 93.6,
+          "fun": 100.0,
+          "hygiene": 91.9,
+          "bladder": 81.1,
+          "social": 8.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        111,
+        31
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Wolfgang Schulz and Klaus Mueller discussing how to integrate chemical perspectives with sociological research on gentrification, planning to meet at Hobbs Cafe to share insights and materials from their respective fields. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Wolfgang Schulz",
+          "Hi Klaus, I hope you're doing well. I'm actually heading back to my room now but I heard about your research on gentrification and wondered if there might be any insights we could share by looking at it through a chemical perspective."
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Wolfgang, that sounds really interesting. Would you be available to discuss it more in-depth at Hobbs Cafe later today perhaps?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds great, Klaus. Let\u2019s meet there at 3 PM then."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, I'll see you there. Looking forward to our discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Perfect, I'll make sure to bring some relevant materials from my chemistry studies to our meeting. See you at 3 PM."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, I'll bring some notes from my sociology studies to complement your insights. See you later then."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds perfect, Klaus. I'm looking forward to our discussion as well. Have a great day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Wolfgang. It should be an insightful meeting."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I think it could be quite enlightening to combine our fields. I'll start preparing some key concepts and theories from my coursework that might relate."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Wolfgang. I'll do the same and bring some of my findings on gentrification in local communities to frame our discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Excellent, let\u2019s make sure to cover as much ground as possible. I\u2019ll review my notes on environmental impacts and chemical processes that could be relevant to your research."
+        ],
+        [
+          "Klaus Mueller",
+          "That works for me, Wolfgang. I\u2019m eager to learn more about how chemistry can intersect with my research on social issues like gentrification."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I think that would be productive, Klaus. I'll also look into any chemical studies on urban environments that might offer new perspectives. See you at 3 PM."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like we have a lot to cover, Wolfgang. I'll be sure to prepare some case studies to illustrate how gentrification impacts local communities on a social level."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds great, Klaus. I'll be sure to review some literature on urban chemistry that might connect our fields more closely. See you at Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Wolfgang. I'm really looking forward to our meeting and learning more about how chemistry can provide new insights into gentrification."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 40.1,
+          "hunger": 95.2,
+          "fun": 0.0,
+          "hygiene": 98.6,
+          "bladder": 25.6,
+          "social": 10.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 13:52:10"
+  }
+}

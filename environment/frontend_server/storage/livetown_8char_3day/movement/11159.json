@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "[(ID:V9e8mV) Tuesday February 14 -- 06:00 AM] Activity: Isabella wakes up and begins her morning routine, feeling a bit tired but excited for the day ahead. She prepares breakfast (sitting down to eat breakfast) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 80.0,
+          "hunger": 99.0,
+          "fun": 72.3,
+          "hygiene": 24.9,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        127,
+        46
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 58.0,
+          "fun": 49.5,
+          "hygiene": 32.0,
+          "bladder": 0.0,
+          "social": 10.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 0.0,
+          "fun": 72.7,
+          "hygiene": 0.0,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Abigail Chen's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 46.0,
+          "fun": 51.6,
+          "hygiene": 7.7,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        96,
+        78
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2642",
+      "description": "[(ID:3mt0pz) Tuesday February 14 -- 06:00 AM] Activity: John wakes up and begins his morning routine (doing some light stretching exercises) @ the Ville:Lin family's house:garden:house garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 81.5,
+          "hunger": 52.3,
+          "fun": 5.4,
+          "hygiene": 51.3,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        94,
+        74
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Lin family's house:Eddy Lin's bedroom:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 47.2,
+          "fun": 70.5,
+          "hygiene": 50.7,
+          "bladder": 0.0,
+          "social": 4.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 22.3,
+          "fun": 64.0,
+          "hygiene": 79.0,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        31,
+        50
+      ],
+      "pronunciatio": "\ud83d\udeb0\ud83d\udca6",
+      "description": "going for a run (taking a water break) @ the Ville:Johnson Park:park:park garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.4,
+          "hunger": 40.2,
+          "fun": 8.0,
+          "hygiene": 85.0,
+          "bladder": 21.9,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 06:59:50"
+  }
+}

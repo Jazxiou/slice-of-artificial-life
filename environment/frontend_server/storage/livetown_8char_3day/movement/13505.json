@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "taking a short break to use the bathroom and rest during her lunch hour. She feels tired but tries to stay focused on the day's tasks ahead (eating her snack and taking another short rest break) @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.4,
+          "hunger": 100.0,
+          "fun": 96.8,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 2.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Maria Lopez discussing their plans to have lunch together, collaborate on Klaus's research paper, and meet later in the afternoon to work more deeply on it while enjoying snacks and coffee. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Maria, glad I ran into you. How's your day been so far?"
+        ],
+        [
+          "Maria Lopez",
+          "Hi Klaus, my day has been going well but I've felt a bit lonely. It\u2019s nice to see you here. Mind if I join you for lunch?"
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, Maria, I'd love that. Do you mind if we talk about my research paper a bit too? It would be great to get some feedback from you."
+        ],
+        [
+          "Maria Lopez",
+          "Of course, I'd be happy to help you out with your research paper. And it would be nice to spend some quality time together too."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds perfect, Maria. I've been struggling to articulate some key points in my introduction and your insights would be invaluable."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Klaus. I\u2019d be glad to help you brainstorm and clarify those points. Maybe we can grab a coffee together later this week and work on it more in depth?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a great plan, Maria. How about we meet up at 3 PM in the common room this afternoon so we can work on it while having some snacks and coffee?"
+        ],
+        [
+          "Maria Lopez",
+          "That works for me, Klaus. I'll bring some snacks and we can get started right away."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Maria. I look forward to our meeting this afternoon and can't wait to delve into it further."
+        ],
+        [
+          "Maria Lopez",
+          "Great, I'll see you then and bring along some sandwiches and cookies. Enjoy your lunch, Klaus."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. It\u2019s nice having you here to chat and work on my paper together later."
+        ],
+        [
+          "Maria Lopez",
+          "It'll be nice to have some company and get some work done at the same time. Have a great lunch, Klaus."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. I appreciate your help and company today."
+        ],
+        [
+          "Maria Lopez",
+          "You're very welcome, Klaus. It means a lot to me too. I'll make sure everything is ready for our meeting this afternoon."
+        ],
+        [
+          "Klaus Mueller",
+          "That\u2019s fantastic, Maria. I\u2019m really looking forward to it and believe we can make great progress together today."
+        ],
+        [
+          "Maria Lopez",
+          "It\u2019s been lovely catching up, Klaus. Enjoy your meal and I\u2019ll see you at 3 PM!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 67.4,
+          "hunger": 100.0,
+          "fun": 46.6,
+          "hygiene": 38.2,
+          "bladder": 0.0,
+          "social": 31.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Maria Lopez discussing their plans to have lunch together, collaborate on Klaus's research paper, and meet later in the afternoon to work more deeply on it while enjoying snacks and coffee. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Maria, glad I ran into you. How's your day been so far?"
+        ],
+        [
+          "Maria Lopez",
+          "Hi Klaus, my day has been going well but I've felt a bit lonely. It\u2019s nice to see you here. Mind if I join you for lunch?"
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, Maria, I'd love that. Do you mind if we talk about my research paper a bit too? It would be great to get some feedback from you."
+        ],
+        [
+          "Maria Lopez",
+          "Of course, I'd be happy to help you out with your research paper. And it would be nice to spend some quality time together too."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds perfect, Maria. I've been struggling to articulate some key points in my introduction and your insights would be invaluable."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Klaus. I\u2019d be glad to help you brainstorm and clarify those points. Maybe we can grab a coffee together later this week and work on it more in depth?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a great plan, Maria. How about we meet up at 3 PM in the common room this afternoon so we can work on it while having some snacks and coffee?"
+        ],
+        [
+          "Maria Lopez",
+          "That works for me, Klaus. I'll bring some snacks and we can get started right away."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Maria. I look forward to our meeting this afternoon and can't wait to delve into it further."
+        ],
+        [
+          "Maria Lopez",
+          "Great, I'll see you then and bring along some sandwiches and cookies. Enjoy your lunch, Klaus."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. It\u2019s nice having you here to chat and work on my paper together later."
+        ],
+        [
+          "Maria Lopez",
+          "It'll be nice to have some company and get some work done at the same time. Have a great lunch, Klaus."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. I appreciate your help and company today."
+        ],
+        [
+          "Maria Lopez",
+          "You're very welcome, Klaus. It means a lot to me too. I'll make sure everything is ready for our meeting this afternoon."
+        ],
+        [
+          "Klaus Mueller",
+          "That\u2019s fantastic, Maria. I\u2019m really looking forward to it and believe we can make great progress together today."
+        ],
+        [
+          "Maria Lopez",
+          "It\u2019s been lovely catching up, Klaus. Enjoy your meal and I\u2019ll see you at 3 PM!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 92.9,
+          "hunger": 81.0,
+          "fun": 61.6,
+          "hygiene": 95.8,
+          "bladder": 90.1,
+          "social": 9.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcc5",
+      "description": "continuing her animation project. She feels more focused after addressing her urgent need earlier and decides to make the most of this productive period (reviewing the previous day's work to ensure continuity and consistency) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 72.4,
+          "hunger": 83.9,
+          "fun": 94.9,
+          "hygiene": 98.6,
+          "bladder": 96.8,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83d\udc68\u200d\u2695",
+      "description": "(Tuesday February 14 -- 01:00 PM] Activity: John continues to assist customers, ensuring they have all the medications and information needed. He maintains a friendly demeanor despite feeling tired and lonely (advising a customer on the proper use of inhalers for asthma management) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 48.9,
+          "hunger": 97.3,
+          "fun": 11.2,
+          "hygiene": 87.4,
+          "bladder": 87.9,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        95,
+        74
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfa7",
+      "description": "[(ID:FuCQSy) Tuesday February 14 -- 12:00 PM] Activity: Eddy is attending his third class at Oak Hill College (taking notes during the lecture) @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.7,
+          "hunger": 19.1,
+          "fun": 97.9,
+          "hygiene": 86.6,
+          "bladder": 68.6,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        65,
+        30
+      ],
+      "pronunciatio": "\ud83d\udc4b\u2615",
+      "description": "meeting with Abigail Chen to further discuss integrating interactive tools into her storytelling. They plan to explore how technology can enhance the reader's experience and engagement (greeting Abigail at a local caf\u00e9) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.4,
+          "hunger": 95.7,
+          "fun": 99.8,
+          "hygiene": 93.0,
+          "bladder": 83.6,
+          "social": 7.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        108,
+        37
+      ],
+      "pronunciatio": "\ud83d\udeb6\ud83c\udfeb",
+      "description": "walking around campus to clear his head @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 41.8,
+          "hunger": 97.3,
+          "fun": 0.0,
+          "hygiene": 99.7,
+          "bladder": 28.1,
+          "social": 6.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 13:30:50"
+  }
+}

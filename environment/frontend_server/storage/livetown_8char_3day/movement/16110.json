@@ -1,0 +1,451 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddf9",
+      "description": "Isabella is closing Hobbs Cafe for the evening. She thanks her last customers and makes sure everything is clean and organized before locking up (mopping the floor) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 11.3,
+          "hunger": 77.2,
+          "fun": 90.2,
+          "hygiene": 79.8,
+          "bladder": 52.9,
+          "social": 21.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        116,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Wolfgang Schulz agreeing to meet at Hobbs Cafe on Friday at 3 PM to discuss how chemistry and sociology intersect regarding gentrification for Klaus's research paper. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hi Wolfgang, I'm Klaus from sociology. We were thinking about how chemistry and sociology intersect regarding gentrification for my research paper. Maybe we could meet at Hobbs Cafe to discuss it sometime?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds interesting, Klaus. I'd love to meet and discuss how our fields can contribute to a better understanding of gentrification. How about this Friday at 3 PM?"
+        ],
+        [
+          "Klaus Mueller",
+          "Great, Friday at 3 PM works for me. I'll see you there, Wolfgang."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Looking forward to it, Klaus. Have a great day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Wolfgang. See you there!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Klaus. Let's definitely exchange some thoughts on how we can merge our knowledge to shed light on gentrification from different angles."
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, let\u2019s make it happen. I think your insights could really enhance my research."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I'm really excited about our upcoming meeting, Klaus. If you have any materials or ideas to share beforehand, feel free to reach out."
+        ],
+        [
+          "Klaus Mueller",
+          "I'll send you an email later this week with some preliminary thoughts and research I've gathered. Thanks again for agreeing to meet, Wolfgang!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds great, Klaus. I'll look forward to your email and our meeting on Friday."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Wolfgang. I'll make sure to send over my thoughts by Wednesday if that works for you."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds perfect, Klaus. I'll be looking forward to your email and our discussion on Friday."
+        ],
+        [
+          "Klaus Mueller",
+          "That works for me, Wolfgang. Have a great day!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I'm looking forward to your email and our meeting on Friday. Have a great day!"
+        ],
+        [
+          "Klaus Mueller",
+          "I'll start putting together my thoughts and send them over by Wednesday. Thanks again, Wolfgang!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I'll be waiting for your email and we can dive deeper into our ideas on Friday."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 31.3,
+          "hunger": 87.0,
+          "fun": 23.8,
+          "hygiene": 33.7,
+          "bladder": 7.8,
+          "social": 36.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "Maria is starting her scheduled Twitch streaming session. She feels more energized after her morning routine and has adjusted her plans to spend extra time at Hobbs Cafe earlier in the day, hoping to meet friends and alleviate her loneliness. Now that she's back (waiting to start conversing about Maria Lopez and Abigail Chen discussing plans to collaborate on Valentine\u2019s Day events, including an interactive art piece with gaming elements and an interactive storytelling event, and arranging a meeting at Hobbs Cafe to brainstorm further.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 56.8,
+          "hunger": 96.7,
+          "fun": 79.7,
+          "hygiene": 74.0,
+          "bladder": 39.4,
+          "social": 37.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        81,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Eddy Lin discussing the integration of interactive art tools, specifically an Audience Engagement Tool, into Eddy's Valentine\u2019s Day performance at Isabella's cafe. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Eddy! I hope you're doing well. I've been working on some interactive art tools and thought they might be interesting for your performance this Valentine\u2019s Day at Isabella's cafe. Could we talk more about integrating them?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Abigail, I appreciate you reaching out. That sounds really intriguing! Could you tell me more about what kind of tools we could use and how they would work during my performance?"
+        ],
+        [
+          "Abigail Chen",
+          "Of course, Eddy! I've been experimenting with an 'Audience Engagement Tool' that allows real-time interaction through sound and visuals. For instance, during your performance, audience members could use their smartphones to influence the music or visual effects on a screen behind you. Would you like me to set up a demo for us to test out this weekend?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds amazing, Abigail. I'd love to see how it works in action and discuss more about incorporating it into my performance. Let's meet up this weekend at Hobbs Cafe to try out the demo."
+        ],
+        [
+          "Abigail Chen",
+          "Great, Eddy! I'll make sure to bring my laptop and all the necessary equipment. How about we meet on Saturday at 2 PM? That way, we have time to work through any technical issues before your performance."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Abigail. I'll make sure to bring my guitar and any other equipment we might need. See you at 2 PM on Saturday!"
+        ],
+        [
+          "Abigail Chen",
+          "Perfect, Eddy. I'll send you an email later today with a list of things to bring and any other details we might need to consider beforehand. Looking forward to seeing how it all comes together!"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, Abigail. I'll make sure everything is ready and let you know if I need to bring anything extra."
+        ],
+        [
+          "Abigail Chen",
+          "That works for me. I'll start setting everything up and will reach out if there are any updates or questions before our meeting."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. I'll prepare everything on my end and keep an eye out for your email. Have a great day!"
+        ],
+        [
+          "Abigail Chen",
+          "Awesome, Eddy! If you have any specific ideas or preferences for how you want to interact with the audience during your performance, let me know. It will help us tailor the setup better."
+        ],
+        [
+          "Eddy Lin",
+          "Sure, Abigail. I'll think about some specific ideas and let you know by tomorrow. Thanks again for helping me with this exciting project!"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Eddy. I'm looking forward to seeing your ideas and working together on this. Have a great evening!"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Abigail. I'll start brainstorming some ideas for audience interaction and let you know tomorrow. Thanks again!"
+        ],
+        [
+          "Abigail Chen",
+          "Fantastic, Eddy! I'll be eager to hear your ideas and we can fine-tune everything for a seamless performance. Take care and have a wonderful night!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. I'll send you my thoughts on audience interaction ideas by tomorrow afternoon."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 36.3,
+          "hunger": 95.4,
+          "fun": 98.8,
+          "hygiene": 76.9,
+          "bladder": 46.1,
+          "social": 33.1
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        67
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "(Tuesday February 14 -- 08:00 PM] Activity: John continues to watch TV and reads some articles about the mayoral election. He feels more relaxed but still wishes for company (watching an interview with another candidate discussing their vision for the city's future) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 16.4,
+          "hunger": 87.0,
+          "fun": 89.6,
+          "hygiene": 95.4,
+          "bladder": 89.3,
+          "social": 7.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        79,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Eddy Lin discussing the integration of interactive art tools, specifically an Audience Engagement Tool, into Eddy's Valentine\u2019s Day performance at Isabella's cafe. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Eddy! I hope you're doing well. I've been working on some interactive art tools and thought they might be interesting for your performance this Valentine\u2019s Day at Isabella's cafe. Could we talk more about integrating them?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Abigail, I appreciate you reaching out. That sounds really intriguing! Could you tell me more about what kind of tools we could use and how they would work during my performance?"
+        ],
+        [
+          "Abigail Chen",
+          "Of course, Eddy! I've been experimenting with an 'Audience Engagement Tool' that allows real-time interaction through sound and visuals. For instance, during your performance, audience members could use their smartphones to influence the music or visual effects on a screen behind you. Would you like me to set up a demo for us to test out this weekend?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds amazing, Abigail. I'd love to see how it works in action and discuss more about incorporating it into my performance. Let's meet up this weekend at Hobbs Cafe to try out the demo."
+        ],
+        [
+          "Abigail Chen",
+          "Great, Eddy! I'll make sure to bring my laptop and all the necessary equipment. How about we meet on Saturday at 2 PM? That way, we have time to work through any technical issues before your performance."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Abigail. I'll make sure to bring my guitar and any other equipment we might need. See you at 2 PM on Saturday!"
+        ],
+        [
+          "Abigail Chen",
+          "Perfect, Eddy. I'll send you an email later today with a list of things to bring and any other details we might need to consider beforehand. Looking forward to seeing how it all comes together!"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, Abigail. I'll make sure everything is ready and let you know if I need to bring anything extra."
+        ],
+        [
+          "Abigail Chen",
+          "That works for me. I'll start setting everything up and will reach out if there are any updates or questions before our meeting."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. I'll prepare everything on my end and keep an eye out for your email. Have a great day!"
+        ],
+        [
+          "Abigail Chen",
+          "Awesome, Eddy! If you have any specific ideas or preferences for how you want to interact with the audience during your performance, let me know. It will help us tailor the setup better."
+        ],
+        [
+          "Eddy Lin",
+          "Sure, Abigail. I'll think about some specific ideas and let you know by tomorrow. Thanks again for helping me with this exciting project!"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Eddy. I'm looking forward to seeing your ideas and working together on this. Have a great evening!"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Abigail. I'll start brainstorming some ideas for audience interaction and let you know tomorrow. Thanks again!"
+        ],
+        [
+          "Abigail Chen",
+          "Fantastic, Eddy! I'll be eager to hear your ideas and we can fine-tune everything for a seamless performance. Take care and have a wonderful night!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. I'll send you my thoughts on audience interaction ideas by tomorrow afternoon."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 31.5,
+          "hunger": 98.9,
+          "fun": 97.8,
+          "hygiene": 64.8,
+          "bladder": 18.0,
+          "social": 27.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfa7",
+      "description": "working on her project involving co-living artists and interactive storytelling tools at home. Hailey reviews notes from earlier conversations with Abigail, refines ideas, and plans next steps. (outlining the structure of the next episode of her podcast) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.4,
+          "hunger": 93.3,
+          "fun": 82.5,
+          "hygiene": 98.2,
+          "bladder": 95.8,
+          "social": 10.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        117,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Wolfgang Schulz agreeing to meet at Hobbs Cafe on Friday at 3 PM to discuss how chemistry and sociology intersect regarding gentrification for Klaus's research paper. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hi Wolfgang, I'm Klaus from sociology. We were thinking about how chemistry and sociology intersect regarding gentrification for my research paper. Maybe we could meet at Hobbs Cafe to discuss it sometime?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds interesting, Klaus. I'd love to meet and discuss how our fields can contribute to a better understanding of gentrification. How about this Friday at 3 PM?"
+        ],
+        [
+          "Klaus Mueller",
+          "Great, Friday at 3 PM works for me. I'll see you there, Wolfgang."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Looking forward to it, Klaus. Have a great day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Wolfgang. See you there!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Klaus. Let's definitely exchange some thoughts on how we can merge our knowledge to shed light on gentrification from different angles."
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, let\u2019s make it happen. I think your insights could really enhance my research."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I'm really excited about our upcoming meeting, Klaus. If you have any materials or ideas to share beforehand, feel free to reach out."
+        ],
+        [
+          "Klaus Mueller",
+          "I'll send you an email later this week with some preliminary thoughts and research I've gathered. Thanks again for agreeing to meet, Wolfgang!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds great, Klaus. I'll look forward to your email and our meeting on Friday."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Wolfgang. I'll make sure to send over my thoughts by Wednesday if that works for you."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds perfect, Klaus. I'll be looking forward to your email and our discussion on Friday."
+        ],
+        [
+          "Klaus Mueller",
+          "That works for me, Wolfgang. Have a great day!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I'm looking forward to your email and our meeting on Friday. Have a great day!"
+        ],
+        [
+          "Klaus Mueller",
+          "I'll start putting together my thoughts and send them over by Wednesday. Thanks again, Wolfgang!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I'll be waiting for your email and we can dive deeper into our ideas on Friday."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 23.2,
+          "hunger": 83.8,
+          "fun": 5.3,
+          "hygiene": 85.9,
+          "bladder": 67.1,
+          "social": 2.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 20:45:00"
+  }
+}

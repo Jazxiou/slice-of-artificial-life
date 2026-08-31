@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        72,
+        14
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 27.8,
+          "hunger": 71.0,
+          "fun": 91.1,
+          "hygiene": 96.3,
+          "bladder": 32.3,
+          "social": 7.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        127,
+        46
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 35.2,
+          "hunger": 71.0,
+          "fun": 13.7,
+          "hygiene": 96.4,
+          "bladder": 97.5,
+          "social": 25.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 57.8,
+          "hunger": 69.7,
+          "fun": 95.3,
+          "hygiene": 77.7,
+          "bladder": 14.6,
+          "social": 24.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Abigail Chen's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 38.5,
+          "hunger": 80.5,
+          "fun": 91.4,
+          "hygiene": 63.4,
+          "bladder": 21.6,
+          "social": 22.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        90,
+        74
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Lin family's house:Mei and John Lin's bedroom:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 17.7,
+          "hunger": 82.0,
+          "fun": 92.7,
+          "hygiene": 90.5,
+          "bladder": 64.5,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        94,
+        74
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Lin family's house:Eddy Lin's bedroom:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 27.9,
+          "hunger": 89.0,
+          "fun": 95.7,
+          "hygiene": 59.9,
+          "bladder": 0.0,
+          "social": 14.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.3,
+          "hunger": 85.4,
+          "fun": 95.4,
+          "hygiene": 96.5,
+          "bladder": 74.5,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        62
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 22.5,
+          "hunger": 92.5,
+          "fun": 45.3,
+          "hygiene": 72.4,
+          "bladder": 41.7,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 01:14:40"
+  }
+}

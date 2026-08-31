@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.5,
+          "hunger": 45.7,
+          "fun": 77.7,
+          "hygiene": 11.8,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        127,
+        46
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 85.7,
+          "hunger": 66.1,
+          "fun": 54.9,
+          "hygiene": 36.0,
+          "bladder": 0.0,
+          "social": 15.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 1.6,
+          "fun": 78.1,
+          "hygiene": 3.2,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Abigail Chen's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 90.7,
+          "hunger": 54.1,
+          "fun": 57.0,
+          "hygiene": 11.8,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        90,
+        74
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Lin family's house:Mei and John Lin's bedroom:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 81.2,
+          "hunger": 60.4,
+          "fun": 10.8,
+          "hygiene": 46.7,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        94,
+        74
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Lin family's house:Eddy Lin's bedroom:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 93.5,
+          "hunger": 55.3,
+          "fun": 75.9,
+          "hygiene": 54.7,
+          "bladder": 0.0,
+          "social": 9.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 30.4,
+          "fun": 69.4,
+          "hygiene": 83.0,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        111,
+        60
+      ],
+      "pronunciatio": "\ud83e\uddf6\ud83d\udc55",
+      "description": "waking up and completing his morning routine (getting dressed for the day) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 81.2,
+          "hunger": 42.8,
+          "fun": 3.7,
+          "hygiene": 89.0,
+          "bladder": 31.3,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 05:39:10"
+  }
+}

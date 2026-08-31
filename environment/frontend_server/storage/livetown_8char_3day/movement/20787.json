@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\u2764\ufe0f",
+      "description": "managing the cafe operations. She ensures that all orders are being handled efficiently and maintains a welcoming atmosphere for her customers (conversing about Isabella and Abigail discussing their preparations and plans for an upcoming Valentine\u2019s Day event, including interactive art pieces and menu ideas.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.3,
+          "hunger": 91.7,
+          "fun": 61.9,
+          "hygiene": 89.8,
+          "bladder": 31.1,
+          "social": 5.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        131,
+        45
+      ],
+      "pronunciatio": "\ud83d\udc55\ud83d\udc56",
+      "description": "getting ready to leave for the library. He packs his backpack with books and notes, ensuring he has everything needed for a productive day of research and writing (putting on a comfortable outfit for the day's work) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 86.5,
+          "hunger": 89.9,
+          "fun": 0.0,
+          "hygiene": 100.0,
+          "bladder": 82.9,
+          "social": 7.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 18.8,
+          "fun": 61.3,
+          "hygiene": 52.2,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac\u2764\ufe0f",
+      "description": "checking email and responding to urgent work messages related to the Valentine\u2019s Day event at Hobbs Cafe (conversing about Isabella and Abigail discussing their preparations and plans for an upcoming Valentine\u2019s Day event, including interactive art pieces and menu ideas.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.0,
+          "hunger": 57.1,
+          "fun": 57.4,
+          "hygiene": 80.8,
+          "bladder": 47.6,
+          "social": 5.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udeaa",
+      "description": "John is on his way to Willow Market and Pharmacy to open the pharmacy counter (turning on the lights and opening the store) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.3,
+          "hunger": 96.4,
+          "fun": 65.0,
+          "hygiene": 97.8,
+          "bladder": 63.0,
+          "social": 1.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        98,
+        65
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Eddy is getting ready for the day by packing his bag and preparing for class (brushing his teeth and washing his face) @ the Ville:Lin family's house:bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 87.1,
+          "hunger": 97.1,
+          "fun": 71.0,
+          "hygiene": 100.0,
+          "bladder": 16.5,
+          "social": 1.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 34.5,
+          "fun": 61.4,
+          "hygiene": 71.0,
+          "bladder": 56.7,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83e\udd14\ud83d\udcc5",
+      "description": "having breakfast. He takes a moment to enjoy his meal, which helps him feel more energized for the day ahead (reflecting on his day ahead and planning tasks) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 45.7,
+          "hunger": 100.0,
+          "fun": 42.7,
+          "hygiene": 88.8,
+          "bladder": 0.7,
+          "social": 7.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 09:44:30"
+  }
+}

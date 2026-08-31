@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf70\u2615",
+      "description": "Isabella is feeling tired but satisfied with how today's Valentine\u2019s Day celebration at Hobbs Cafe went. She takes a moment to reflect on the day and appreciates the support from her friends and customers. Despite being alone, she feels a sense of (preparing a light snack for herself) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 9.7,
+          "hunger": 100.0,
+          "fun": 77.0,
+          "hygiene": 62.0,
+          "bladder": 0.0,
+          "social": 18.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        131,
+        46
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udcda",
+      "description": "Klaus is taking a short break after dinner to relax and recharge. He spends some time browsing through recent articles on social justice and urban development, reflecting on the day's discussions with Wolfgang Schulz and integrating new ideas into his research framework (integrating insights into his research framework) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 25.9,
+          "hunger": 100.0,
+          "fun": 34.5,
+          "hygiene": 64.5,
+          "bladder": 0.0,
+          "social": 40.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        92,
+        37
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\udcac",
+      "description": "Maria is eating dinner and discussing future collaboration details with Eddy. @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 41.0,
+          "hunger": 100.0,
+          "fun": 98.6,
+          "hygiene": 33.0,
+          "bladder": 0.0,
+          "social": 24.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udccb\u2764\ufe0f",
+      "description": "reviewing the day's progress and planning for upcoming tasks related to her interactive art project and Valentine\u2019s Day event at Hobbs Cafe. She also considers any necessary adjustments due to today\u2019s interruptions (organizing a materials list for the Valentine\u2019s Day event at Hobbs Cafe) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 31.3,
+          "hunger": 91.5,
+          "fun": 28.9,
+          "hygiene": 94.4,
+          "bladder": 86.9,
+          "social": 23.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        67
+      ],
+      "pronunciatio": "\ud83d\udcc6\ud83d\udccb",
+      "description": "John is relaxing and catching up on his online classes about new treatments. He also spends some time reading articles related to community health initiatives, reflecting on how he can better serve his customers and the broader community (planning a health workshop for 10 minutes) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 0.0,
+          "hunger": 100.0,
+          "fun": 87.1,
+          "hygiene": 78.6,
+          "bladder": 12.6,
+          "social": 3.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        88,
+        67
+      ],
+      "pronunciatio": "\ud83d\udeaa\u2615",
+      "description": "Eddy is feeling the urge to connect with friends or mentors for some company but decides to spend this time practicing music and engaging in leisure activities until he can meet up later. He uses this hour to unwind and recharge before potentially heading out to see friends (preparing to leave his dorm room to head to Cobalt Coffee) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 26.5,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 76.1,
+          "bladder": 66.3,
+          "social": 20.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83e\udd1d",
+      "description": "Hailey is reaching out to Isabella Rodriguez through a video call to discuss potential projects and storytelling techniques they can integrate into their collaborative work. She hopes this conversation will help them brainstorm creative ideas for future events and enhance their storytelling skills together (discussing potential projects they can collaborate on together) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 41.0,
+          "hunger": 100.0,
+          "fun": 97.5,
+          "hygiene": 60.4,
+          "bladder": 7.9,
+          "social": 10.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83d\udcda",
+      "description": "Wolfgang is feeling increasingly lonely and decides to reach out to a friend for some company. He sends a quick message asking if anyone wants to grab dinner or just hang out in the dorms (attempting to engage with online forums related to chemistry for distraction) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 0.0,
+          "hunger": 100.0,
+          "fun": 0.0,
+          "hygiene": 52.4,
+          "bladder": 0.0,
+          "social": 3.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 21:52:30"
+  }
+}

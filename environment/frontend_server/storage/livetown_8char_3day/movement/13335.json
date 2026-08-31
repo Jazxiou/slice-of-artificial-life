@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez and Klaus Mueller discussing how Klaus can assist Isabella with Valentine\u2019s Day preparations at work starting from 3 PM onwards. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hello Klaus, I hope you're enjoying your lunch. It's great to see someone taking their time to savor each bite like that."
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Isabella, thanks for noticing. I try to make lunch a relaxing break from my research. How are you holding up today?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'm doing okay, but today has been pretty hectic planning for Valentine\u2019s Day. It feels like there are a million details to attend to."
+        ],
+        [
+          "Klaus Mueller",
+          "I see. Do you need any help with the planning or setup for Valentine\u2019s Day?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be wonderful, Klaus. Any assistance you can offer would really help relieve some stress for me. Would you like to start right away or come in later today?"
+        ],
+        [
+          "Klaus Mueller",
+          "I'd be happy to help out later today, Isabella. Maybe we could start around 3 PM when I finish my work at the library?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds perfect, Klaus. I appreciate your willingness to help. We'll have plenty to do between 3 and closing time."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, I'll make sure to clear my schedule so we can work efficiently. See you at 3 PM then."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Klaus. I look forward to working together this afternoon."
+        ],
+        [
+          "Klaus Mueller",
+          "Is there anything specific you'd like me to focus on or bring with me when I come?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I think focusing on setting up some decorations and helping coordinate any last-minute details would be great. If you could bring a few extra hands if possible, that would be really helpful too."
+        ],
+        [
+          "Klaus Mueller",
+          "Sure thing, Isabella. I'll bring along Maria or Eddy if they're available to lend a hand too."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great, Klaus. I'll make sure everything is ready for you and your team when you arrive. Thanks again for your help today."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Isabella. I'll coordinate with Maria and Eddy later. Have a great rest of your lunch break."
+        ],
+        [
+          "Isabella Rodriguez",
+          "You're very kind, Klaus. It means a lot to have your support today."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Isabella. I'll see you at 3 PM and make sure we're well-prepared for today\u2019s event."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 49.8,
+          "hunger": 96.5,
+          "fun": 98.7,
+          "hygiene": 71.7,
+          "bladder": 42.0,
+          "social": 3.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        75,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez and Klaus Mueller discussing how Klaus can assist Isabella with Valentine\u2019s Day preparations at work starting from 3 PM onwards. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hello Klaus, I hope you're enjoying your lunch. It's great to see someone taking their time to savor each bite like that."
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Isabella, thanks for noticing. I try to make lunch a relaxing break from my research. How are you holding up today?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'm doing okay, but today has been pretty hectic planning for Valentine\u2019s Day. It feels like there are a million details to attend to."
+        ],
+        [
+          "Klaus Mueller",
+          "I see. Do you need any help with the planning or setup for Valentine\u2019s Day?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be wonderful, Klaus. Any assistance you can offer would really help relieve some stress for me. Would you like to start right away or come in later today?"
+        ],
+        [
+          "Klaus Mueller",
+          "I'd be happy to help out later today, Isabella. Maybe we could start around 3 PM when I finish my work at the library?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds perfect, Klaus. I appreciate your willingness to help. We'll have plenty to do between 3 and closing time."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, I'll make sure to clear my schedule so we can work efficiently. See you at 3 PM then."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Klaus. I look forward to working together this afternoon."
+        ],
+        [
+          "Klaus Mueller",
+          "Is there anything specific you'd like me to focus on or bring with me when I come?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I think focusing on setting up some decorations and helping coordinate any last-minute details would be great. If you could bring a few extra hands if possible, that would be really helpful too."
+        ],
+        [
+          "Klaus Mueller",
+          "Sure thing, Isabella. I'll bring along Maria or Eddy if they're available to lend a hand too."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great, Klaus. I'll make sure everything is ready for you and your team when you arrive. Thanks again for your help today."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Isabella. I'll coordinate with Maria and Eddy later. Have a great rest of your lunch break."
+        ],
+        [
+          "Isabella Rodriguez",
+          "You're very kind, Klaus. It means a lot to have your support today."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Isabella. I'll see you at 3 PM and make sure we're well-prepared for today\u2019s event."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 69.8,
+          "hunger": 99.3,
+          "fun": 48.5,
+          "hygiene": 39.6,
+          "bladder": 0.0,
+          "social": 26.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        55
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcc5",
+      "description": "Maria is studying physics and working on assignments. Despite feeling better after her morning routine, she still wishes for some company but focuses on her studies to make up for lost time during her unexpected delay in waking up (working on an assignment due next week) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 95.3,
+          "hunger": 54.4,
+          "fun": 63.5,
+          "hygiene": 97.2,
+          "bladder": 93.4,
+          "social": 6.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "taking a short break to use the bathroom. She feels relieved after addressing her urgent need and returns to work shortly afterward, feeling more focused (reviewing notes from earlier work sessions to regain focus) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.8,
+          "hunger": 86.8,
+          "fun": 83.3,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        46
+      ],
+      "pronunciatio": "\ud83e\uddfa\ud83d\udd04",
+      "description": "(Tuesday February 14 -- 12:00 PM] Activity: John continues to assist customers, providing them with necessary medications and advice. He ensures that the pharmacy counter runs smoothly during lunchtime (tidying up the counter area and restocking supplies to ensure smooth operation) @ the Ville:The Willows Market and Pharmacy:store:grocery store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 51.3,
+          "hunger": 100.0,
+          "fun": 13.1,
+          "hygiene": 88.8,
+          "bladder": 91.2,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        93,
+        65
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfa7",
+      "description": "[(ID:FuCQSy) Tuesday February 14 -- 12:00 PM] Activity: Eddy is attending his third class at Oak Hill College (taking notes during the lecture) @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.0,
+          "hunger": 22.0,
+          "fun": 99.8,
+          "hygiene": 88.0,
+          "bladder": 71.9,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        67,
+        46
+      ],
+      "pronunciatio": "\ud83d\udd2e\ud83d\udca1",
+      "description": "meeting with a literary agent to discuss her novel and potential publishing opportunities. She hopes this meeting will bring new insights and momentum to her work (explaining her vision for future projects and series potential) @ the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.8,
+          "hunger": 98.6,
+          "fun": 94.2,
+          "hygiene": 94.4,
+          "bladder": 86.9,
+          "social": 9.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        121,
+        45
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83c\udf7d\ufe0f",
+      "description": "eating lunch (cleaning up his dishes) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 44.2,
+          "hunger": 100.0,
+          "fun": 0.0,
+          "hygiene": 85.0,
+          "bladder": 14.1,
+          "social": 8.7
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 13:02:30"
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        19
+      ],
+      "pronunciatio": "\ud83d\udc68\u200d\ud83d\udcbc",
+      "description": "having a meeting with staff to discuss details about the Valentine's Day party (addresses staffing needs for the day of the party) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.8,
+          "hunger": 92.2,
+          "fun": 100.0,
+          "hygiene": 64.6,
+          "bladder": 54.6,
+          "social": 26.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        109,
+        47
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "Klaus is having lunch at Hobbs Cafe (walking to Hobbs Cafe) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.8,
+          "hunger": 66.1,
+          "fun": 26.8,
+          "hygiene": 88.9,
+          "bladder": 73.4,
+          "social": 37.4
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        55
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "studying physics or working on assignments (working on an assignment related to her current course topic) (reviewing class notes) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 89.8,
+          "hunger": 30.4,
+          "fun": 34.0,
+          "hygiene": 47.4,
+          "bladder": 39.7,
+          "social": 31.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        38,
+        27
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail and Hailey discussing their lunches and planning to meet later for coffee to discuss managing workloads. @ <persona> Hailey Johnson",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Hailey, I hope you're having a good day. How\u2019s your lunch coming along?"
+        ],
+        [
+          "Hailey Johnson",
+          "Hi Abigail, thanks for asking. My lunch is almost ready, and I'm actually feeling a bit hungry today. How about you?"
+        ],
+        [
+          "Abigail Chen",
+          "It\u2019s nice to see you doing well. I just made myself a quick sandwich for lunch. Do you need any help with your meal?"
+        ],
+        [
+          "Hailey Johnson",
+          "That\u2019s really nice of you to offer, Abigail. I\u2019m actually okay for now, just a bit distracted by some writing deadlines coming up soon."
+        ],
+        [
+          "Abigail Chen",
+          "No problem at all, Hailey. If you need anything later, just let me know. How are you planning to manage those deadlines?"
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Abigail. I appreciate the offer. Maybe once you\u2019re done eating, we could grab a quick cup of coffee and chat about any tips you might have for managing workloads?"
+        ],
+        [
+          "Abigail Chen",
+          "Sure, Hailey, that sounds like a great idea. Let\u2019s meet up after lunch for some coffee and brainstorming."
+        ],
+        [
+          "Hailey Johnson",
+          "Sounds perfect, Abigail. How about we meet in the common room around 2pm after I've had some writing time?"
+        ],
+        [
+          "Abigail Chen",
+          "Great, I'll be ready to chat then. See you in the common room at 2pm."
+        ],
+        [
+          "Hailey Johnson",
+          "That works for me. See you later, Abigail."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, looking forward to it. Have a great rest of your lunch and catch up later."
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Abigail. It was nice chatting with you and I'm looking forward to our coffee session later."
+        ],
+        [
+          "Abigail Chen",
+          "Take your time with lunch, Hailey. I'll be around if you need anything before our meeting."
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks again, Abigail. I'll see you in the common room at 2pm."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 79.8,
+          "hunger": 71.8,
+          "fun": 84.8,
+          "hygiene": 64.6,
+          "bladder": 64.4,
+          "social": 27.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        76,
+        46
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "John is taking a lunch break. He grabs a quick meal and uses the time to review any prescriptions or orders that need attention upon his return to work (grabbing a quick lunch) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.8,
+          "hunger": 100.0,
+          "fun": 31.6,
+          "hygiene": 91.0,
+          "bladder": 54.6,
+          "social": 29.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        112,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfa7",
+      "description": "Eddy is attending a music theory class at Oak Hill College (taking notes on the lecture) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.8,
+          "hunger": 81.8,
+          "fun": 79.5,
+          "hygiene": 64.6,
+          "bladder": 59.5,
+          "social": 36.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        39,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail and Hailey discussing their lunches and planning to meet later for coffee to discuss managing workloads. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Hailey, I hope you're having a good day. How\u2019s your lunch coming along?"
+        ],
+        [
+          "Hailey Johnson",
+          "Hi Abigail, thanks for asking. My lunch is almost ready, and I'm actually feeling a bit hungry today. How about you?"
+        ],
+        [
+          "Abigail Chen",
+          "It\u2019s nice to see you doing well. I just made myself a quick sandwich for lunch. Do you need any help with your meal?"
+        ],
+        [
+          "Hailey Johnson",
+          "That\u2019s really nice of you to offer, Abigail. I\u2019m actually okay for now, just a bit distracted by some writing deadlines coming up soon."
+        ],
+        [
+          "Abigail Chen",
+          "No problem at all, Hailey. If you need anything later, just let me know. How are you planning to manage those deadlines?"
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Abigail. I appreciate the offer. Maybe once you\u2019re done eating, we could grab a quick cup of coffee and chat about any tips you might have for managing workloads?"
+        ],
+        [
+          "Abigail Chen",
+          "Sure, Hailey, that sounds like a great idea. Let\u2019s meet up after lunch for some coffee and brainstorming."
+        ],
+        [
+          "Hailey Johnson",
+          "Sounds perfect, Abigail. How about we meet in the common room around 2pm after I've had some writing time?"
+        ],
+        [
+          "Abigail Chen",
+          "Great, I'll be ready to chat then. See you in the common room at 2pm."
+        ],
+        [
+          "Hailey Johnson",
+          "That works for me. See you later, Abigail."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, looking forward to it. Have a great rest of your lunch and catch up later."
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Abigail. It was nice chatting with you and I'm looking forward to our coffee session later."
+        ],
+        [
+          "Abigail Chen",
+          "Take your time with lunch, Hailey. I'll be around if you need anything before our meeting."
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks again, Abigail. I'll see you in the common room at 2pm."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 89.8,
+          "hunger": 22.3,
+          "fun": 60.6,
+          "hygiene": 56.0,
+          "bladder": 74.2,
+          "social": 27.2
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        109,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "Wolfgang is studying and working on lab assignments until lunch at noon (reviewing key concepts for the upcoming exam) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.8,
+          "hunger": 100.0,
+          "fun": 55.8,
+          "hygiene": 56.0,
+          "bladder": 32.4,
+          "social": 40.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 12:02:50"
+  }
+}

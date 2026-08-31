@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        19
+      ],
+      "pronunciatio": "\ud83d\udd12\ud83d\udeaa",
+      "description": "Isabella is feeling tired but satisfied with how today's Valentine\u2019s Day celebration at Hobbs Cafe went. She takes a moment to reflect on the day and appreciates the support from her friends and customers. Despite being alone, she feels a sense of (locking up the cafe and securing it for the night) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 13.7,
+          "hunger": 97.3,
+          "fun": 73.4,
+          "hygiene": 64.4,
+          "bladder": 5.6,
+          "social": 16.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        117,
+        30
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Klaus is taking a short break after dinner to relax and recharge. He spends some time browsing through recent articles on social justice and urban development, reflecting on the day's discussions with Wolfgang Schulz and integrating new ideas into his research framework (taking a short break to relax) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 29.9,
+          "hunger": 95.4,
+          "fun": 14.6,
+          "hygiene": 66.9,
+          "bladder": 3.6,
+          "social": 43.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        74,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Abigail Chen discussing potential collaboration on their respective projects involving interactive storytelling and gaming elements, planning a meeting at Hobbs Cafe to brainstorm ideas. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Abigail, I'm Maria Lopez. It's nice to meet you! I've heard a lot about your interactive art project and it sounds really interesting. Are you still planning on including gaming elements?"
+        ],
+        [
+          "Abigail Chen",
+          "Hi Maria, it's great to meet you too! Yes, I'm definitely still planning on incorporating gaming elements into my project. I think they can add a lot of interactivity and engagement for the viewers. What kind of expertise do you have in this area?"
+        ],
+        [
+          "Maria Lopez",
+          "I actually have some experience with interactive storytelling in games and events. I'm organizing a Valentine\u2019s Day event that combines gaming and art elements as well, focusing on immersive experiences through narrative gameplay. Maybe we could collaborate or at least share ideas to see how our projects might complement each other?"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds amazing, Maria! I would love to collaborate or at least exchange some ideas. Could we schedule a meeting this week to brainstorm more about how our projects could complement each other?"
+        ],
+        [
+          "Maria Lopez",
+          "That would be fantastic, Abigail. How about we meet at Hobbs Cafe on Friday afternoon to brainstorm some ideas?"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds like a great plan, Maria. I'll see you at Hobbs Cafe on Friday afternoon then! Let's make sure to bring some initial sketches and concepts so we can get right into brainstorming."
+        ],
+        [
+          "Maria Lopez",
+          "Perfect, I'll bring some initial ideas and we can see how they fit together. Looking forward to it! Have a great day, Abigail."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Maria. I'll bring some initial sketches and we can discuss how to make our projects work well together. See you on Friday!"
+        ],
+        [
+          "Maria Lopez",
+          "Great, I'll see you there. Let\u2019s make sure to set aside enough time for a thorough discussion."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Maria. It will be great to dive deep into our ideas and see where they intersect. Have a wonderful day!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds like a plan, Abigail. I'll make sure to come prepared with some initial sketches and concepts of my event too. Have an amazing day!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks again, Maria. I'll bring along some initial sketches and we can start discussing how to blend our projects seamlessly. Have a fantastic day!"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds perfect, Abigail. I\u2019m really excited about this collaboration and can\u2019t wait to see what we come up with together on Friday."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Maria. I\u2019m looking forward to Friday and seeing how our projects can complement each other. Have a great day!"
+        ],
+        [
+          "Maria Lopez",
+          "Before we wrap up, do you have any specific areas you're looking to incorporate gaming elements in your art project that might overlap with my storytelling event?"
+        ],
+        [
+          "Abigail Chen",
+          "I'm particularly interested in integrating interactive elements that could engage viewers and players alike, perhaps through some form of narrative-driven gameplay or puzzles within my digital art installations. This could create a more immersive experience for the audience at Hobbs Cafe during Valentine\u2019s Day."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 44.9,
+          "hunger": 97.3,
+          "fun": 97.9,
+          "hygiene": 35.4,
+          "bladder": 0.0,
+          "social": 19.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Abigail Chen discussing potential collaboration on their respective projects involving interactive storytelling and gaming elements, planning a meeting at Hobbs Cafe to brainstorm ideas. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Abigail, I'm Maria Lopez. It's nice to meet you! I've heard a lot about your interactive art project and it sounds really interesting. Are you still planning on including gaming elements?"
+        ],
+        [
+          "Abigail Chen",
+          "Hi Maria, it's great to meet you too! Yes, I'm definitely still planning on incorporating gaming elements into my project. I think they can add a lot of interactivity and engagement for the viewers. What kind of expertise do you have in this area?"
+        ],
+        [
+          "Maria Lopez",
+          "I actually have some experience with interactive storytelling in games and events. I'm organizing a Valentine\u2019s Day event that combines gaming and art elements as well, focusing on immersive experiences through narrative gameplay. Maybe we could collaborate or at least share ideas to see how our projects might complement each other?"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds amazing, Maria! I would love to collaborate or at least exchange some ideas. Could we schedule a meeting this week to brainstorm more about how our projects could complement each other?"
+        ],
+        [
+          "Maria Lopez",
+          "That would be fantastic, Abigail. How about we meet at Hobbs Cafe on Friday afternoon to brainstorm some ideas?"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds like a great plan, Maria. I'll see you at Hobbs Cafe on Friday afternoon then! Let's make sure to bring some initial sketches and concepts so we can get right into brainstorming."
+        ],
+        [
+          "Maria Lopez",
+          "Perfect, I'll bring some initial ideas and we can see how they fit together. Looking forward to it! Have a great day, Abigail."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Maria. I'll bring some initial sketches and we can discuss how to make our projects work well together. See you on Friday!"
+        ],
+        [
+          "Maria Lopez",
+          "Great, I'll see you there. Let\u2019s make sure to set aside enough time for a thorough discussion."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Maria. It will be great to dive deep into our ideas and see where they intersect. Have a wonderful day!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds like a plan, Abigail. I'll make sure to come prepared with some initial sketches and concepts of my event too. Have an amazing day!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks again, Maria. I'll bring along some initial sketches and we can start discussing how to blend our projects seamlessly. Have a fantastic day!"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds perfect, Abigail. I\u2019m really excited about this collaboration and can\u2019t wait to see what we come up with together on Friday."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Maria. I\u2019m looking forward to Friday and seeing how our projects can complement each other. Have a great day!"
+        ],
+        [
+          "Maria Lopez",
+          "Before we wrap up, do you have any specific areas you're looking to incorporate gaming elements in your art project that might overlap with my storytelling event?"
+        ],
+        [
+          "Abigail Chen",
+          "I'm particularly interested in integrating interactive elements that could engage viewers and players alike, perhaps through some form of narrative-driven gameplay or puzzles within my digital art installations. This could create a more immersive experience for the audience at Hobbs Cafe during Valentine\u2019s Day."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 35.3,
+          "hunger": 96.2,
+          "fun": 25.6,
+          "hygiene": 96.8,
+          "bladder": 92.5,
+          "social": 18.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        67
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udd52",
+      "description": "John is relaxing and catching up on his online classes about new treatments. He also spends some time reading articles related to community health initiatives, reflecting on how he can better serve his customers and the broader community (reviewing new treatment classes for 15 minutes) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 2.6,
+          "hunger": 100.0,
+          "fun": 67.1,
+          "hygiene": 81.0,
+          "bladder": 18.2,
+          "social": 0.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udf7d",
+      "description": "going back to his dorm room after a long day at the college library. He feels tired but also lonely and in need of company, so he decides to send out another message to friends asking if anyone wants to hang out or grab dinner together (reaching out to friends via text message to see if anyone wants to hang out or grab dinner together) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 30.4,
+          "hunger": 100.0,
+          "fun": 93.8,
+          "hygiene": 78.5,
+          "bladder": 71.9,
+          "social": 18.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcda",
+      "description": "Hailey is reaching out to Isabella Rodriguez through a video call to discuss potential projects and storytelling techniques they can integrate into their collaborative work. She hopes this conversation will help them brainstorm creative ideas for future events and enhance their storytelling skills together (preparing her workspace, organizing notes and materials related to the upcoming discussion) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 45.0,
+          "hunger": 98.7,
+          "fun": 96.4,
+          "hygiene": 62.8,
+          "bladder": 13.5,
+          "social": 8.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udf7d\ufe0f",
+      "description": "Wolfgang is feeling increasingly lonely and decides to reach out to a friend for some company. He sends a quick message asking if anyone wants to grab dinner or just hang out in the dorms (drafting a text message to invite friends for dinner or hanging out) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 0.0,
+          "hunger": 80.4,
+          "fun": 0.0,
+          "hygiene": 54.8,
+          "bladder": 0.0,
+          "social": 6.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 21:04:40"
+  }
+}

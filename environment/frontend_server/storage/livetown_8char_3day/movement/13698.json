@@ -1,0 +1,257 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcdd\u2764\ufe0f",
+      "description": "Isabella is handling orders and serving customers. She maintains a friendly demeanor, offering recommendations for Valentine\u2019s Day specials and ensuring everyone feels welcomed and comfortable (taking an order from a customer and recommending Valentine's Day specials) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 44.8,
+          "hunger": 99.8,
+          "fun": 94.7,
+          "hygiene": 99.9,
+          "bladder": 99.8,
+          "social": 4.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        72,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83c\udfe0",
+      "description": "Klaus is returning to the library to continue working on his research paper (finding a quiet spot to work on his paper, resuming after conversation) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.8,
+          "hunger": 97.7,
+          "fun": 44.4,
+          "hygiene": 36.6,
+          "bladder": 0.0,
+          "social": 35.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83d\udcac",
+      "description": "Maria is taking a short break for lunch, feeling more refreshed after her morning routine but still craving some company. She decides to eat at Hobbs Cafe where she hopes to run into friends or acquaintances from college (eating her lunch slowly, savoring each bite and discussing plans with Klaus) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 90.3,
+          "hunger": 100.0,
+          "fun": 59.4,
+          "hygiene": 94.1,
+          "bladder": 86.3,
+          "social": 11.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "continuing her animation project. She feels more focused after addressing her urgent need earlier and decides to make the most of this productive period (conversing about Abigail Chen and Hailey Johnson discussing how to integrate interactive storytelling tools into Hailey's novel about co-living artists, including scheduling a meeting and sharing resources on the topic.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.8,
+          "hunger": 80.7,
+          "fun": 100.0,
+          "hygiene": 97.0,
+          "bladder": 93.0,
+          "social": 5.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        67
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and his father John planning to meet at Cobalt Coffee after Eddy's music lecture to discuss stress management techniques and how music can be used in managing stress, with John expressing interest in hearing insights from the lecture. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "John Lin",
+          "Hey Eddy, hope your classes are going well. How about we meet up after your music lecture this week to talk more about stress management and music?"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, Dad. I'm really looking forward to discussing how music can help manage stress and maybe even apply it to my compositions."
+        ],
+        [
+          "John Lin",
+          "That would be wonderful, Eddy. Let's plan to meet at Cobalt Coffee right after your lecture so we can discuss everything in depth over coffee."
+        ],
+        [
+          "Eddy Lin",
+          "Perfect, Dad. I'll make sure to share some insights from the lecture too. See you at Cobalt Coffee!"
+        ],
+        [
+          "John Lin",
+          "Great, Eddy. I'll be there right after your lecture. Can't wait to hear what you've learned."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Dad. It'll be nice to catch up and share ideas over coffee. I really appreciate your support."
+        ],
+        [
+          "John Lin",
+          "Take care until then, Eddy. Have a great lecture and I\u2019ll see you afterward."
+        ],
+        [
+          "Eddy Lin",
+          "I will, Dad. See you later at Cobalt Coffee!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 46.2,
+          "hunger": 98.1,
+          "fun": 13.4,
+          "hygiene": 85.8,
+          "bladder": 84.1,
+          "social": 1.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        91,
+        67
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and his father John planning to meet at Cobalt Coffee after Eddy's music lecture to discuss stress management techniques and how music can be used in managing stress, with John expressing interest in hearing insights from the lecture. @ <persona> John Lin",
+      "chat": [
+        [
+          "John Lin",
+          "Hey Eddy, hope your classes are going well. How about we meet up after your music lecture this week to talk more about stress management and music?"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, Dad. I'm really looking forward to discussing how music can help manage stress and maybe even apply it to my compositions."
+        ],
+        [
+          "John Lin",
+          "That would be wonderful, Eddy. Let's plan to meet at Cobalt Coffee right after your lecture so we can discuss everything in depth over coffee."
+        ],
+        [
+          "Eddy Lin",
+          "Perfect, Dad. I'll make sure to share some insights from the lecture too. See you at Cobalt Coffee!"
+        ],
+        [
+          "John Lin",
+          "Great, Eddy. I'll be there right after your lecture. Can't wait to hear what you've learned."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Dad. It'll be nice to catch up and share ideas over coffee. I really appreciate your support."
+        ],
+        [
+          "John Lin",
+          "Take care until then, Eddy. Have a great lecture and I\u2019ll see you afterward."
+        ],
+        [
+          "Eddy Lin",
+          "I will, Dad. See you later at Cobalt Coffee!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 65.0,
+          "hunger": 20.1,
+          "fun": 97.7,
+          "hygiene": 84.9,
+          "bladder": 64.9,
+          "social": 1.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "meeting with Abigail Chen to further discuss integrating interactive tools into her storytelling. They plan to explore how technology can enhance the reader's experience and engagement (conversing about Abigail Chen and Hailey Johnson discussing how to integrate interactive storytelling tools into Hailey's novel about co-living artists, including scheduling a meeting and sharing resources on the topic.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.8,
+          "hunger": 92.5,
+          "fun": 100.0,
+          "hygiene": 91.3,
+          "bladder": 79.8,
+          "social": 12.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        72,
+        26
+      ],
+      "pronunciatio": "\ud83c\udfe0\ud83d\udecc",
+      "description": "resting in his room after deciding to join a social group or activity on campus with Klaus Mueller @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 39.2,
+          "hunger": 94.1,
+          "fun": 0.0,
+          "hygiene": 98.0,
+          "bladder": 24.3,
+          "social": 10.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 14:03:00"
+  }
+}

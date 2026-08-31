@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "having a meeting with staff to discuss details about the Valentine's Day party (reviewing the party plan and agenda with staff) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 58.4,
+          "hunger": 99.0,
+          "fun": 100.0,
+          "hygiene": 57.8,
+          "bladder": 38.6,
+          "social": 26.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        108,
+        33
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Wolfgang Schulz discussing how to manage their schedules more effectively by integrating their coursework, research work, and study group meetings. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Wolfgang, I see you're deep into your chemistry notes. It looks intense! I was actually hoping to catch up and maybe exchange some ideas on managing our schedules for different courses?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hi Klaus, yeah I'm catching up on some notes before our meeting. Sounds good, let's head to Hobbs Cafe and discuss how we can better manage everything."
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, that sounds great. I've been trying out some new methods for organizing my research paper and thought it might be helpful to share them."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That would be great, Klaus. I've been thinking about dedicating specific blocks of time to each task as you suggested earlier. Maybe we can flesh out a system that works for both of us."
+        ],
+        [
+          "Klaus Mueller",
+          "Fantastic, I think that would really streamline our workflow. Maybe we can start by mapping out a rough schedule for this week?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds like a plan, Klaus. Let\u2019s make sure we allocate time for both coursework and your research paper. We can also see how I might assist you or benefit from your methods."
+        ],
+        [
+          "Klaus Mueller",
+          "Agreed, Wolfgang. It would be really helpful to have that kind of structure. Maybe we could also look at any overlaps between your chemistry labs and my research time to see if there are ways to optimize our schedules further."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds like a solid approach, Klaus. Let's start by listing all our commitments and see how we can integrate our schedules more efficiently."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds great, Wolfgang. Let\u2019s jot down all our tasks and deadlines for this week and see where we can find some free slots to work together more effectively."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Perfect, let\u2019s do that. I\u2019ll bring my planner and we can make a joint schedule for this week. Should we include our study group meetings too?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a great idea, Wolfgang. Including our study group meetings will give us a clearer picture of how to manage our time effectively without missing out on collaborative work."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I think having a detailed plan will really help us stay organized and productive. See you at Hobbs Cafe in an hour?"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good to me, Wolfgang. I'll bring my notes and we can start putting together our schedule right away."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Perfect, see you there then. I'll bring my planner and we can start mapping out our schedules right away."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Wolfgang. See you at Hobbs Cafe then."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Great, looking forward to it. See you at Hobbs Cafe in an hour."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 63.4,
+          "hunger": 98.3,
+          "fun": 35.6,
+          "hygiene": 82.0,
+          "bladder": 57.5,
+          "social": 55.0
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        78,
+        37
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "studying or working on assignments (taking a break and grabbing a drink) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 78.4,
+          "hunger": 17.8,
+          "fun": 39.4,
+          "hygiene": 40.6,
+          "bladder": 23.7,
+          "social": 26.1
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\u2705\ud83c\udfac",
+      "description": "working on the animation project for her client (animating key scenes according to the updated storyboard) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 68.4,
+          "hunger": 92.3,
+          "fun": 100.0,
+          "hygiene": 57.8,
+          "bladder": 48.4,
+          "social": 22.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        76,
+        46
+      ],
+      "pronunciatio": "\ud83d\udc8a",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (organizing medications on the shelves) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 58.4,
+          "hunger": 100.0,
+          "fun": 22.5,
+          "hygiene": 84.1,
+          "bladder": 38.6,
+          "social": 27.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        81,
+        30
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "Eddy is walking back home or to a quiet study area @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.4,
+          "hunger": 99.8,
+          "fun": 97.6,
+          "hygiene": 57.8,
+          "bladder": 43.5,
+          "social": 38.7
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\u23f0\ud83d\udcf1",
+      "description": "Hailey is having lunch (waiting to start checking emails and social media briefly) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 78.4,
+          "hunger": 100.0,
+          "fun": 58.8,
+          "hygiene": 49.2,
+          "bladder": 58.2,
+          "social": 22.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        103,
+        37
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Wolfgang Schulz discussing how to manage their schedules more effectively by integrating their coursework, research work, and study group meetings. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Wolfgang, I see you're deep into your chemistry notes. It looks intense! I was actually hoping to catch up and maybe exchange some ideas on managing our schedules for different courses?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hi Klaus, yeah I'm catching up on some notes before our meeting. Sounds good, let's head to Hobbs Cafe and discuss how we can better manage everything."
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, that sounds great. I've been trying out some new methods for organizing my research paper and thought it might be helpful to share them."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That would be great, Klaus. I've been thinking about dedicating specific blocks of time to each task as you suggested earlier. Maybe we can flesh out a system that works for both of us."
+        ],
+        [
+          "Klaus Mueller",
+          "Fantastic, I think that would really streamline our workflow. Maybe we can start by mapping out a rough schedule for this week?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds like a plan, Klaus. Let\u2019s make sure we allocate time for both coursework and your research paper. We can also see how I might assist you or benefit from your methods."
+        ],
+        [
+          "Klaus Mueller",
+          "Agreed, Wolfgang. It would be really helpful to have that kind of structure. Maybe we could also look at any overlaps between your chemistry labs and my research time to see if there are ways to optimize our schedules further."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds like a solid approach, Klaus. Let's start by listing all our commitments and see how we can integrate our schedules more efficiently."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds great, Wolfgang. Let\u2019s jot down all our tasks and deadlines for this week and see where we can find some free slots to work together more effectively."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Perfect, let\u2019s do that. I\u2019ll bring my planner and we can make a joint schedule for this week. Should we include our study group meetings too?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a great idea, Wolfgang. Including our study group meetings will give us a clearer picture of how to manage our time effectively without missing out on collaborative work."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I think having a detailed plan will really help us stay organized and productive. See you at Hobbs Cafe in an hour?"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good to me, Wolfgang. I'll bring my notes and we can start putting together our schedule right away."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Perfect, see you there then. I'll bring my planner and we can start mapping out our schedules right away."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Wolfgang. See you at Hobbs Cafe then."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Great, looking forward to it. See you at Hobbs Cafe in an hour."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 68.8,
+          "hunger": 93.5,
+          "fun": 65.0,
+          "hygiene": 49.2,
+          "bladder": 20.8,
+          "social": 38.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 14:19:40"
+  }
+}

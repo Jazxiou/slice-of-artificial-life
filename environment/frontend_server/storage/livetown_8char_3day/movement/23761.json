@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        19
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "preparing for the Valentine\u2019s Day celebration. She ensures that all decorations are in place and checks with Eddy Lin to confirm he will start playing at 5:00 pm as planned (taking a quick break to hydrate and rest) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 29.0,
+          "hunger": 93.7,
+          "fun": 81.3,
+          "hygiene": 65.0,
+          "bladder": 9.9,
+          "social": 11.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        117,
+        30
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Klaus is heading back to the library and continues working on his gentrification project until dinner time at 5:00 pm. He reviews more literature, updates his notes with new insights, and drafts additional sections of his research paper (taking a short break to stretch and hydrate) @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 45.2,
+          "hunger": 100.0,
+          "fun": 26.1,
+          "hygiene": 76.1,
+          "bladder": 25.1,
+          "social": 35.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        126,
+        54
+      ],
+      "pronunciatio": "\ud83d\udcfa\ud83d\udca4",
+      "description": "Maria is continuing to stream or game on Twitch from 5:00 PM to 8:00 PM, engaging with her community and collaborating on creative projects like interactive storytelling events (wrapping up the current session of streaming or gaming) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 60.3,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 44.6,
+          "bladder": 0.0,
+          "social": 14.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        76,
+        27
+      ],
+      "pronunciatio": "\ud83c\udf7d\ud83c\udfe0",
+      "description": "having dinner (selecting a restaurant or deciding to cook at home) @ the Ville:artist's co-living space:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.7,
+          "hunger": 95.8,
+          "fun": 37.7,
+          "hygiene": 94.1,
+          "bladder": 86.3,
+          "social": 18.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\u23f0\ud83d\udd12",
+      "description": "John is closing up the pharmacy counter and locking down the store at Willow Market and Pharmacy. He ensures that all prescriptions are filled, orders are processed, and the store is secure before heading home for the day (setting the alarm system for the store) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 18.0,
+          "hunger": 87.6,
+          "fun": 32.0,
+          "hygiene": 73.0,
+          "bladder": 5.2,
+          "social": 2.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83c\udfb6",
+      "description": "Eddy is continuing his studies and working on his composition project in the college library. He feels a bit lonely but tries to stay focused, using breaks to reach out to friends for brief chats or calls (focuses back on his studies and works on music theory exercises) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 45.8,
+          "hunger": 94.4,
+          "fun": 100.0,
+          "hygiene": 87.7,
+          "bladder": 93.4,
+          "social": 18.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        28
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83c\udf3f",
+      "description": "Hailey is preparing dinner and experimenting with a new recipe from another culture she's interested in exploring (gathering ingredients for the new recipe) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 60.4,
+          "hunger": 91.6,
+          "fun": 95.8,
+          "hygiene": 72.0,
+          "bladder": 35.0,
+          "social": 5.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        114,
+        53
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2642",
+      "description": "Wolfgang is taking a short break after his workout. He hydrates and stretches, reflecting on the day's activities so far (stretching his legs and arms once more) @ the Ville:Dorm for Oak Hill College:garden:dorm garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 4.4,
+          "hunger": 87.1,
+          "fun": 12.1,
+          "hygiene": 64.0,
+          "bladder": 0.0,
+          "social": 10.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 18:00:10"
+  }
+}

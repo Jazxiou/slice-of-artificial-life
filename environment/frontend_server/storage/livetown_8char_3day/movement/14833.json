@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcb0\ud83d\udcb3",
+      "description": "handling orders and serving customers. She maintains a friendly demeanor, offering recommendations for Valentine\u2019s Day specials and ensuring everyone feels welcomed and comfortable (handling another customer's payment and providing them with their receipt or change; taking an order from a new customer entering the cafe; preparing another set of orders while ensuring previous customers are still satisfied) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 29.0,
+          "hunger": 98.5,
+          "fun": 92.9,
+          "hygiene": 90.4,
+          "bladder": 77.7,
+          "social": 14.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        118,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd04",
+      "description": "Klaus is working on his research paper in the library (revising earlier sections of the paper for coherence) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.0,
+          "hunger": 78.8,
+          "fun": 31.8,
+          "hygiene": 44.3,
+          "bladder": 32.6,
+          "social": 22.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\u2615\ud83d\udcac",
+      "description": "Maria is continuing her visit at Hobbs Cafe, hoping to meet up with friends or peers for a study session or casual conversation. She feels more energized after her morning routine but still misses the companionship of others and hopes to connect with someone during (discussing upcoming assignments and coursework with Isabella Rodriguez while enjoying coffee together) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.5,
+          "hunger": 100.0,
+          "fun": 60.4,
+          "hygiene": 84.7,
+          "bladder": 64.3,
+          "social": 25.4
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Eddy Lin discussing how to integrate interactive technology into Eddy's live music performance at Isabella's cafe for Valentine\u2019s Day. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Eddy, I'm Abigail. I've been working on some interactive art projects here and was wondering if you'd be interested in trying out some new tools that could enhance your music compositions?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Abigail, nice to meet you. I'm actually working on a composition project for Valentine\u2019s Day at Isabella's cafe tonight. Do you think these tools could help me create something more interactive?"
+        ],
+        [
+          "Abigail Chen",
+          "Absolutely, Eddy! I'd love to show you some tools that could add an interactive element to your music. It would be a great opportunity to see how technology can enhance live performances like yours tonight."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds fantastic, Abigail. Could you give me an idea of what kind of tools we're talking about and how they might work during a live performance?"
+        ],
+        [
+          "Abigail Chen",
+          "Sure, Eddy! There are some powerful software tools that can allow real-time interaction between your music and audience input. For example, a mobile app could let people send text messages or draw pictures which then modify the music's sound or visuals during your performance. Would you like to explore this further?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds really interesting, Abigail. I think it could add an exciting layer to my performance tonight if we have time to work on something like this."
+        ],
+        [
+          "Abigail Chen",
+          "Great! Let's start by looking at some apps and software that can do real-time processing based on audience interaction. We have a few hours before your performance, so we could test out the basics today."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Abigail. Can you start by showing me an example app or software that we can quickly set up and test for tonight\u2019s performance?"
+        ],
+        [
+          "Abigail Chen",
+          "Sure, Eddy. Let\u2019s try out an app called 'Audience Engagement Tool' which allows for real-time input from audience members during your performance. I can help you set it up and we\u2019ll test how it works with your music."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds perfect, Abigail. Can you walk me through how to set it up and maybe we can test a few things out right now?"
+        ],
+        [
+          "Abigail Chen",
+          "Absolutely, Eddy. I'll guide you through setting up 'Audience Engagement Tool' right away so we can test its functionality with your music. Let\u2019s start by connecting it to a simple sound setup here in the cafe."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Abigail. Let\u2019s start by connecting it to my guitar and seeing how we can incorporate audience interaction into tonight\u2019s performance."
+        ],
+        [
+          "Abigail Chen",
+          "Sure, Eddy. Let\u2019s connect your guitar to my laptop and see how we can integrate audience interaction elements through 'Audience Engagement Tool'. I\u2019ll navigate you through setting up the tool and then we can start experimenting with different inputs from potential audience members."
+        ],
+        [
+          "Eddy Lin",
+          "Great, Abigail. Let\u2019s start by connecting my guitar to your laptop and see how we can use this tool to add an interactive touch during my performance tonight."
+        ],
+        [
+          "Abigail Chen",
+          "Sure, Eddy. Let\u2019s connect your guitar to my laptop and test out how 'Audience Engagement Tool' can alter sounds or visuals based on audience inputs. I\u2019ll set up the software now so we can start experimenting with it."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. Could you start by showing me how to connect my guitar to your laptop and then we can go through some basic functions of 'Audience Engagement Tool'?"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 54.0,
+          "hunger": 94.0,
+          "fun": 100.0,
+          "hygiene": 87.5,
+          "bladder": 70.9,
+          "social": 20.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcb0\ud83d\udd0d",
+      "description": "(Tuesday February 14 -- 05:00 PM] Activity: John closes the pharmacy counter and locks up the store, preparing to head home. He feels a mix of relief and exhaustion as he wraps up his day at work (counting cash and balancing the till to ensure accuracy) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 30.4,
+          "hunger": 93.2,
+          "fun": 59.3,
+          "hygiene": 99.6,
+          "bladder": 99.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        74,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Eddy Lin discussing how to integrate interactive technology into Eddy's live music performance at Isabella's cafe for Valentine\u2019s Day. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Eddy, I'm Abigail. I've been working on some interactive art projects here and was wondering if you'd be interested in trying out some new tools that could enhance your music compositions?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Abigail, nice to meet you. I'm actually working on a composition project for Valentine\u2019s Day at Isabella's cafe tonight. Do you think these tools could help me create something more interactive?"
+        ],
+        [
+          "Abigail Chen",
+          "Absolutely, Eddy! I'd love to show you some tools that could add an interactive element to your music. It would be a great opportunity to see how technology can enhance live performances like yours tonight."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds fantastic, Abigail. Could you give me an idea of what kind of tools we're talking about and how they might work during a live performance?"
+        ],
+        [
+          "Abigail Chen",
+          "Sure, Eddy! There are some powerful software tools that can allow real-time interaction between your music and audience input. For example, a mobile app could let people send text messages or draw pictures which then modify the music's sound or visuals during your performance. Would you like to explore this further?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds really interesting, Abigail. I think it could add an exciting layer to my performance tonight if we have time to work on something like this."
+        ],
+        [
+          "Abigail Chen",
+          "Great! Let's start by looking at some apps and software that can do real-time processing based on audience interaction. We have a few hours before your performance, so we could test out the basics today."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Abigail. Can you start by showing me an example app or software that we can quickly set up and test for tonight\u2019s performance?"
+        ],
+        [
+          "Abigail Chen",
+          "Sure, Eddy. Let\u2019s try out an app called 'Audience Engagement Tool' which allows for real-time input from audience members during your performance. I can help you set it up and we\u2019ll test how it works with your music."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds perfect, Abigail. Can you walk me through how to set it up and maybe we can test a few things out right now?"
+        ],
+        [
+          "Abigail Chen",
+          "Absolutely, Eddy. I'll guide you through setting up 'Audience Engagement Tool' right away so we can test its functionality with your music. Let\u2019s start by connecting it to a simple sound setup here in the cafe."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Abigail. Let\u2019s start by connecting it to my guitar and seeing how we can incorporate audience interaction into tonight\u2019s performance."
+        ],
+        [
+          "Abigail Chen",
+          "Sure, Eddy. Let\u2019s connect your guitar to my laptop and see how we can integrate audience interaction elements through 'Audience Engagement Tool'. I\u2019ll navigate you through setting up the tool and then we can start experimenting with different inputs from potential audience members."
+        ],
+        [
+          "Eddy Lin",
+          "Great, Abigail. Let\u2019s start by connecting my guitar to your laptop and see how we can use this tool to add an interactive touch during my performance tonight."
+        ],
+        [
+          "Abigail Chen",
+          "Sure, Eddy. Let\u2019s connect your guitar to my laptop and test out how 'Audience Engagement Tool' can alter sounds or visuals based on audience inputs. I\u2019ll set up the software now so we can start experimenting with it."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. Could you start by showing me how to connect my guitar to your laptop and then we can go through some basic functions of 'Audience Engagement Tool'?"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 49.2,
+          "hunger": 97.7,
+          "fun": 100.0,
+          "hygiene": 75.5,
+          "bladder": 42.8,
+          "social": 17.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        46,
+        32
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "shopping for groceries to prepare dinner. She feels a little better after her meetings but still wishes she had someone to talk to about her day (walking to the grocery store) @ the Ville:Harvey Oak Supply Store:supply store:behind the supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.0,
+          "hunger": 96.0,
+          "fun": 96.7,
+          "hygiene": 81.9,
+          "bladder": 57.7,
+          "social": 12.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\u23f0\ud83d\udce7",
+      "description": "resuming his afternoon study session on chemistry. He decides to take a short break after lunch to address his feelings of loneliness and tiredness by reaching out to Eddy Lin via text or call for some social interaction (waiting for a response from Eddy Lin) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 40.9,
+          "hunger": 85.3,
+          "fun": 0.0,
+          "hygiene": 96.5,
+          "bladder": 91.9,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 17:12:10"
+  }
+}

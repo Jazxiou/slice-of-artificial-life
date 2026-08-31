@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        19
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "handling orders and serving customers. She maintains a friendly demeanor, offering recommendations for Valentine\u2019s Day specials and ensuring everyone feels welcomed and comfortable (serving another round of drinks or snacks to guests who have been waiting for a bit longer) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 34.8,
+          "hunger": 100.0,
+          "fun": 86.7,
+          "hygiene": 93.9,
+          "bladder": 85.8,
+          "social": 1.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        122,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcc4",
+      "description": "Klaus is working on his research paper in the library (drafting new sections of the paper) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 54.8,
+          "hunger": 85.7,
+          "fun": 36.4,
+          "hygiene": 30.6,
+          "bladder": 0.0,
+          "social": 27.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "Maria is adjusting her plans after lunch, deciding to spend more time at Hobbs Cafe to meet friends and alleviate her loneliness. She feels energized but misses the companionship of others and hopes to connect with someone during this period (conversing about Hailey Johnson and Maria Lopez discussing potential collaborations on interactive storytelling events and workshops, including ideas for Valentine\u2019s Day.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 80.3,
+          "hunger": 100.0,
+          "fun": 51.4,
+          "hygiene": 88.2,
+          "bladder": 72.4,
+          "social": 11.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        43,
+        37
+      ],
+      "pronunciatio": "\ud83d\udd27\ud83d\ude80",
+      "description": "working on her interactive art experiments. She feels more energized after addressing her earlier need and decides to explore new tools that can enhance the interactivity of her current project. Despite feeling tired, she finds renewed motivation in experimenting with technology to express creative ideas (setting up the chosen tool for experimentation) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.8,
+          "hunger": 100.0,
+          "fun": 92.7,
+          "hygiene": 91.0,
+          "bladder": 79.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb5",
+      "description": " (conversing about Eddy and his father John planning to meet at Cobalt Coffee after Eddy's music lecture to discuss stress management techniques and how music can be used in managing stress, with John expressing interest in hearing insights from the lecture.) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 36.2,
+          "hunger": 100.0,
+          "fun": 63.3,
+          "hygiene": 79.8,
+          "bladder": 70.1,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb5",
+      "description": "[ (conversing about Eddy and his father John planning to meet at Cobalt Coffee after Eddy's music lecture to discuss stress management techniques and how music can be used in managing stress, with John expressing interest in hearing insights from the lecture.) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 55.0,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 79.0,
+          "bladder": 50.9,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "meeting with a graphic designer to discuss potential cover art for her upcoming novel. She hopes this collaboration will visually represent the essence of her story (conversing about Hailey Johnson and Maria Lopez discussing potential collaborations on interactive storytelling events and workshops, including ideas for Valentine\u2019s Day.) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.8,
+          "hunger": 97.2,
+          "fun": 100.0,
+          "hygiene": 85.4,
+          "bladder": 65.8,
+          "social": 17.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udccb",
+      "description": "preparing for his afternoon study session and organizing his notes. He feels a bit more energized after his walk around campus but remains slightly tired due to the lack of sleep from needing to use the bathroom in the middle of the night. Wolfgang plans to (making a list of topics he needs further clarification on) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 46.6,
+          "hunger": 82.1,
+          "fun": 0.0,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 2.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 16:02:50"
+  }
+}

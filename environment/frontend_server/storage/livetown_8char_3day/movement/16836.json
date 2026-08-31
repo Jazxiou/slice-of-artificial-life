@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83e\udd14\ud83d\udc4d",
+      "description": "relaxing at home, feeling tired but content with how the Valentine\u2019s Day celebration went. She reflects on the day and appreciates the support from her friends Klaus and Eddy (reflecting on the positive feedback received from guests during the event) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 1.2,
+          "hunger": 85.8,
+          "fun": 100.0,
+          "hygiene": 73.7,
+          "bladder": 38.7,
+          "social": 17.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        109,
+        50
+      ],
+      "pronunciatio": "\ud83d\udebb\ud83e\uddfc",
+      "description": "Klaus is heading back to his dorm, feeling both accomplished and tired from the day's work. He plans to take a quick shower before going to bed (using the bathroom) @ the Ville:Dorm for Oak Hill College:man's bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 21.2,
+          "hunger": 74.9,
+          "fun": 23.7,
+          "hygiene": 87.7,
+          "bladder": 40.0,
+          "social": 35.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "socializing and engaging in relaxation activities on her Twitch channel after her streaming session. She feels more connected with her audience but still misses the companionship of friends she could meet in person. She plans to continue this activity until midnight (answering questions from her audience about her studies and Twitch streaming) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 46.7,
+          "hunger": 84.6,
+          "fun": 100.0,
+          "hygiene": 68.0,
+          "bladder": 25.3,
+          "social": 34.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        34,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Hailey Johnson discussing their plans to integrate interactive art tools into storytelling for a novel and animations, setting up a meeting to brainstorm ideas and share resources. @ <persona> Hailey Johnson",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hey Hailey, I was hoping we could catch up. I've been thinking a lot about how interactive art tools can enhance storytelling in your novel and my animations. Would you be available to grab coffee this Thursday at 2 PM?"
+        ],
+        [
+          "Hailey Johnson",
+          "Hi Abigail! That sounds great. I've been thinking about our last discussion and am really excited to dive deeper into how we can integrate interactive elements into my novel. Let\u2019s meet this Thursday at 2 PM. Can\u2019t wait!"
+        ],
+        [
+          "Abigail Chen",
+          "That\u2019s perfect! I\u2019ll bring some resources and ideas for our brainstorming session. See you then, Hailey!"
+        ],
+        [
+          "Hailey Johnson",
+          "Sounds fantastic, Abigail. I\u2019ll make sure to have some ideas and notes ready too. Looking forward to our meeting!"
+        ],
+        [
+          "Abigail Chen",
+          "That\u2019s great, Hailey. Let\u2019s make sure to maximize our time and come up with something amazing for our projects. See you on Thursday!"
+        ],
+        [
+          "Hailey Johnson",
+          "Absolutely, Abigail. It will be great to work on something innovative together. Have a good day until Thursday!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Hailey! I'm excited too. Let\u2019s use this time to really push our creative boundaries and see what we can achieve together."
+        ],
+        [
+          "Hailey Johnson",
+          "Looking forward to brainstorming and creating something unique together, Abigail. Have a wonderful day!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks Hailey! I'll see you on Thursday to brainstorm and bring our ideas to life."
+        ],
+        [
+          "Hailey Johnson",
+          "It sounds like a fantastic plan, Abigail. Let\u2019s both come prepared to share our visions and see how we can blend them beautifully. Until Thursday!"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds great, Hailey. I'll start gathering some materials and examples to share during our meeting. Can't wait for us to bring these ideas to life together!"
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds awesome, Abigail. I'll start thinking about specific scenes in my novel where interactive elements could really enhance reader engagement and look forward to hearing more from you too."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Hailey. It\u2019s great to know we\u2019re both excited about this. I\u2019ll start looking into some interactive techniques and tools that could work for both our projects. Can\u2019t wait to see what we come up with!"
+        ],
+        [
+          "Hailey Johnson",
+          "I'm really looking forward to our meeting, Abigail. It\u2019s going to be so inspiring and productive. Let\u2019s both aim to bring out our best ideas!"
+        ],
+        [
+          "Abigail Chen",
+          "Absolutely, Hailey. Let\u2019s make this meeting productive and exciting! I\u2019ll send you a few links to interactive tools and techniques over email later today for us to review before Thursday."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds wonderful, Abigail. I'll be looking forward to those links and reviewing them before our meeting. Let\u2019s make sure we\u2019re both ready to innovate and inspire each other this Thursday!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 26.2,
+          "hunger": 95.4,
+          "fun": 93.1,
+          "hygiene": 70.8,
+          "bladder": 32.0,
+          "social": 28.3
+        },
+        "mood": {
+          "family": "fear",
+          "word": "anxious"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        67
+      ],
+      "pronunciatio": "\ud83e\uddfd\ud83c\udfe0",
+      "description": "(Tuesday February 14 -- 10:00 PM] Activity: John tidies up his living space and prepares for bed, feeling a sense of accomplishment from the day's activities but still yearning for companionship. He reflects on (making sure the living room is tidy by straightening up any loose items or clutter) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 6.3,
+          "hunger": 85.9,
+          "fun": 97.8,
+          "hygiene": 89.3,
+          "bladder": 75.1,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        82,
+        21
+      ],
+      "pronunciatio": "\u2615\ud83c\udfe0",
+      "description": "working on his composition project at Hobbs Cafe. He focuses intently, taking breaks to grab a snack and coffee (takes his final break before heading home) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 21.4,
+          "hunger": 100.0,
+          "fun": 93.8,
+          "hygiene": 58.8,
+          "bladder": 3.9,
+          "social": 23.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        35,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Hailey Johnson discussing their plans to integrate interactive art tools into storytelling for a novel and animations, setting up a meeting to brainstorm ideas and share resources. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hey Hailey, I was hoping we could catch up. I've been thinking a lot about how interactive art tools can enhance storytelling in your novel and my animations. Would you be available to grab coffee this Thursday at 2 PM?"
+        ],
+        [
+          "Hailey Johnson",
+          "Hi Abigail! That sounds great. I've been thinking about our last discussion and am really excited to dive deeper into how we can integrate interactive elements into my novel. Let\u2019s meet this Thursday at 2 PM. Can\u2019t wait!"
+        ],
+        [
+          "Abigail Chen",
+          "That\u2019s perfect! I\u2019ll bring some resources and ideas for our brainstorming session. See you then, Hailey!"
+        ],
+        [
+          "Hailey Johnson",
+          "Sounds fantastic, Abigail. I\u2019ll make sure to have some ideas and notes ready too. Looking forward to our meeting!"
+        ],
+        [
+          "Abigail Chen",
+          "That\u2019s great, Hailey. Let\u2019s make sure to maximize our time and come up with something amazing for our projects. See you on Thursday!"
+        ],
+        [
+          "Hailey Johnson",
+          "Absolutely, Abigail. It will be great to work on something innovative together. Have a good day until Thursday!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Hailey! I'm excited too. Let\u2019s use this time to really push our creative boundaries and see what we can achieve together."
+        ],
+        [
+          "Hailey Johnson",
+          "Looking forward to brainstorming and creating something unique together, Abigail. Have a wonderful day!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks Hailey! I'll see you on Thursday to brainstorm and bring our ideas to life."
+        ],
+        [
+          "Hailey Johnson",
+          "It sounds like a fantastic plan, Abigail. Let\u2019s both come prepared to share our visions and see how we can blend them beautifully. Until Thursday!"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds great, Hailey. I'll start gathering some materials and examples to share during our meeting. Can't wait for us to bring these ideas to life together!"
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds awesome, Abigail. I'll start thinking about specific scenes in my novel where interactive elements could really enhance reader engagement and look forward to hearing more from you too."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Hailey. It\u2019s great to know we\u2019re both excited about this. I\u2019ll start looking into some interactive techniques and tools that could work for both our projects. Can\u2019t wait to see what we come up with!"
+        ],
+        [
+          "Hailey Johnson",
+          "I'm really looking forward to our meeting, Abigail. It\u2019s going to be so inspiring and productive. Let\u2019s both aim to bring out our best ideas!"
+        ],
+        [
+          "Abigail Chen",
+          "Absolutely, Hailey. Let\u2019s make this meeting productive and exciting! I\u2019ll send you a few links to interactive tools and techniques over email later today for us to review before Thursday."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds wonderful, Abigail. I'll be looking forward to those links and reviewing them before our meeting. Let\u2019s make sure we\u2019re both ready to innovate and inspire each other this Thursday!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 43.3,
+          "hunger": 94.8,
+          "fun": 93.7,
+          "hygiene": 92.1,
+          "bladder": 81.7,
+          "social": 5.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        123,
+        46
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udf72",
+      "description": "Wolfgang is feeling a bit more relaxed after his evening workout and plans to prepare dinner. He considers reaching out to Eddy Lin for some social interaction during their usual time slot, as talking with him earlier helped improve his mood. Despite still feeling (cooking his meal) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 13.1,
+          "hunger": 100.0,
+          "fun": 19.5,
+          "hygiene": 79.8,
+          "bladder": 53.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 22:46:00"
+  }
+}

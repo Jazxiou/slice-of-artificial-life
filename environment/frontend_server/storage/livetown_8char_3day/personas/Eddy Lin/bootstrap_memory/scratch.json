@@ -1,0 +1,340 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 16, 2023, 00:00:00",
+  "curr_tile": [
+    95,
+    74
+  ],
+  "daily_plan_req": "Eddy Lin goes to Oak Hill College to take classes starting 10am. In the afternoon, he likes to go to Hobbs Cafe to eat and study.",
+  "name": "Eddy Lin",
+  "first_name": "Eddy",
+  "last_name": "Lin",
+  "age": 19,
+  "innate": "curious, analytical, musical",
+  "learned": "Eddy Lin is a student at Oak Hill College studying music theory and composition. He loves to explore different musical styles and is always looking for ways to expand his knowledge.",
+  "currently": "Eddy Lin continues to work on his composition project for his college class and explores various musical styles, always eager to expand his knowledge of music theory and composition. He frequently engages in collaborative opportunities like meeting with Klaus Mueller to integrate sociological insights into his musical works, while also preparing for live performances such as the Valentine\u2019s Day event at Hobbs Cafe. Managing his creative endeavors and stress through music therapy techniques shared by his father John, Eddy remains dedicated to his artistic growth and diverse musical interests.",
+  "seed_currently": "Eddy Lin is working on a composition project for his college class. He is also taking classes to learn more about music theory.",
+  "drift_log": [
+    {
+      "day": "2023-02-14",
+      "drift": 0.4676395607750157,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "tuesday",
+        "wednesday",
+        "5pm",
+        "7pm"
+      ],
+      "reason": "distance>0.35+dated",
+      "anchor_event": null,
+      "drift_after": 0.27118659628288144,
+      "dated_after": []
+    },
+    {
+      "day": "2023-02-15",
+      "drift": 0.5189409994166763,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [],
+      "reason": "distance>0.35",
+      "anchor_event": null,
+      "drift_after": 0.3065529359591078,
+      "dated_after": []
+    },
+    {
+      "day": "2023-02-16",
+      "drift": 0.4561794947977065,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "today",
+        "tuesday"
+      ],
+      "reason": "distance>0.35+dated",
+      "anchor_event": null,
+      "drift_after": 0.293244594220747,
+      "dated_after": []
+    }
+  ],
+  "needs": {
+    "sleep": 15.83,
+    "hunger": 94.0,
+    "fun": 96.0,
+    "hygiene": 69.73,
+    "bladder": 51.47,
+    "social": 11.5
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "John Lin": {
+      "friendship": 96.0,
+      "romance": 0.0
+    },
+    "Wolfgang Schulz": {
+      "friendship": 2.0,
+      "romance": 0.0
+    },
+    "Maria Lopez": {
+      "friendship": 10.0,
+      "romance": 0.0
+    },
+    "Klaus Mueller": {
+      "friendship": 8.0,
+      "romance": 0.0
+    },
+    "Isabella Rodriguez": {
+      "friendship": 9.0,
+      "romance": 0.0
+    },
+    "Abigail Chen": {
+      "friendship": 4.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Eddy Lin goes to bed around 11pm, awakes up around 7amam, eats dinner around 5pm.",
+  "living_area": "the Ville:Lin family's house:Eddy Lin's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 193,
+  "importance_ele_n": 30,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "have breakfast at 7:30 am",
+    "go to Oak Hill College for classes starting at 10:00 am",
+    "free time after classes to work on composition project or study music theory until around 1:00 pm",
+    "have lunch and some leisure time at Hobbs Cafe from 12:00 pm to 1:00 pm",
+    "continue working on his project from 2:00 pm to 4:00 pm",
+    "meet with Klaus Mueller for a collaborative session starting at 5:00 pm",
+    "return home and get ready for dinner at 5:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine (waking up and stretching)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (going to the bathroom to use the toilet and wash his face)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (brushing his teeth)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (drinking a glass of water)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (getting dressed for the day)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (checking his phone for any messages or notifications)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (planning out his schedule for the day)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (doing some light stretching exercises)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (preparing to leave for breakfast)",
+      5
+    ],
+    [
+      "Eddy is getting dressed and preparing breakfast. He feels a bit tired but looks forward to his day ahead, hoping to connect with someone today given his feelings of loneliness",
+      60
+    ],
+    [
+      "getting ready to leave for Oak Hill College. He double-checks his schedule and packs his notebook, laptop, and any necessary materials for class. Despite feeling a bit tired, he remains eager to engage with his coursework and peers",
+      60
+    ],
+    [
+      "Eddy is attending his first class of the day at Oak Hill College. He listens attentively and takes detailed notes, eager to absorb as much knowledge as possible despite feeling a bit tired from lack of sleep",
+      60
+    ],
+    [
+      "attending his second class of the day at Oak Hill College. He continues to listen attentively, taking notes and participating in discussions despite feeling somewhat fatigued",
+      60
+    ],
+    [
+      "Eddy is having lunch and some leisure time at Hobbs Cafe. He enjoys the quiet atmosphere and the opportunity to relax while savoring his meal. Despite feeling lonely, he hopes that today might bring an unexpected connection or conversation with someone there",
+      60
+    ],
+    [
+      "Eddy is taking a short break to rest and recharge before continuing with his composition project. He feels the fatigue from lack of sleep but knows that a brief pause will help him stay productive later in the day",
+      60
+    ],
+    [
+      "Eddy is continuing to work on his composition project. Despite feeling fatigued, he finds that focusing on his music helps alleviate some of the loneliness and provides a sense of purpose. He listens to various musical styles for inspiration and sketches out new ideas",
+      60
+    ],
+    [
+      "Eddy is taking a short break to rest and recharge before continuing with his composition project. He feels the fatigue from lack of sleep but knows that a brief pause will help him stay productive later in the day",
+      60
+    ],
+    [
+      "Eddy is continuing to work on his composition project. He feels a bit more energized after his break and decides to focus on refining some of the pieces he\u2019s been working on for his class presentation next week. Despite still feeling somewhat tired, he",
+      60
+    ],
+    [
+      "meeting with Klaus Mueller for a collaborative session. They discuss integrating sociological insights into his musical works, which energizes Eddy and helps him feel more connected to someone who understands his creative process",
+      60
+    ],
+    [
+      "Eddy is returning home from his meeting with Klaus Mueller. He feels more energized after the collaborative session and looks forward to sharing some of the insights gained during their discussion with his classmates tomorrow. Despite feeling tired, he is excited about the new ideas",
+      60
+    ],
+    [
+      "Eddy is getting ready for his Valentine\u2019s Day event performance at Hobbs Cafe. He practices his pieces and reviews any notes he has made during the day, feeling a mix of excitement and nervousness about performing in front of an audience",
+      60
+    ],
+    [
+      "Eddy is preparing dinner. Despite feeling tired, he finds comfort in the routine of cooking and enjoys the peace it brings. He hopes that after dinner, he might connect with someone or at least feel less lonely",
+      60
+    ],
+    [
+      "Eddy is spending some quiet time after dinner, reflecting on the day\u2019s events. He feels a bit more connected and energized from his meeting with Klaus Mueller but still longs for companionship. He considers reaching out to friends or attending social gatherings",
+      60
+    ],
+    [
+      "Eddy is winding down for the evening. He feels a mix of satisfaction from his productive day but also a lingering sense of loneliness. After dinner, he spends some time on social media and messaging apps, hoping to connect with friends or acquaintances who",
+      60
+    ],
+    [
+      "Eddy is preparing for bed. He feels a mix of satisfaction from his productive day but also a lingering sense of loneliness. After checking his messages one last time, he hopes that tomorrow might bring new opportunities to connect with others. He reflects on the",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "Eddy is getting dressed and preparing breakfast. He feels a bit tired but looks forward to his day ahead, hoping to connect with someone today given his feelings of loneliness",
+      60
+    ],
+    [
+      "getting ready to leave for Oak Hill College. He double-checks his schedule and packs his notebook, laptop, and any necessary materials for class. Despite feeling a bit tired, he remains eager to engage with his coursework and peers",
+      60
+    ],
+    [
+      "Eddy is attending his first class of the day at Oak Hill College. He listens attentively and takes detailed notes, eager to absorb as much knowledge as possible despite feeling a bit tired from lack of sleep",
+      60
+    ],
+    [
+      "attending his second class of the day at Oak Hill College. He continues to listen attentively, taking notes and participating in discussions despite feeling somewhat fatigued",
+      60
+    ],
+    [
+      "Eddy is having lunch and some leisure time at Hobbs Cafe. He enjoys the quiet atmosphere and the opportunity to relax while savoring his meal. Despite feeling lonely, he hopes that today might bring an unexpected connection or conversation with someone there",
+      60
+    ],
+    [
+      "Eddy is taking a short break to rest and recharge before continuing with his composition project. He feels the fatigue from lack of sleep but knows that a brief pause will help him stay productive later in the day",
+      60
+    ],
+    [
+      "Eddy is continuing to work on his composition project. Despite feeling fatigued, he finds that focusing on his music helps alleviate some of the loneliness and provides a sense of purpose. He listens to various musical styles for inspiration and sketches out new ideas",
+      60
+    ],
+    [
+      "Eddy is taking a short break to rest and recharge before continuing with his composition project. He feels the fatigue from lack of sleep but knows that a brief pause will help him stay productive later in the day",
+      60
+    ],
+    [
+      "Eddy is continuing to work on his composition project. He feels a bit more energized after his break and decides to focus on refining some of the pieces he\u2019s been working on for his class presentation next week. Despite still feeling somewhat tired, he",
+      60
+    ],
+    [
+      "meeting with Klaus Mueller for a collaborative session. They discuss integrating sociological insights into his musical works, which energizes Eddy and helps him feel more connected to someone who understands his creative process",
+      60
+    ],
+    [
+      "Eddy is returning home from his meeting with Klaus Mueller. He feels more energized after the collaborative session and looks forward to sharing some of the insights gained during their discussion with his classmates tomorrow. Despite feeling tired, he is excited about the new ideas",
+      60
+    ],
+    [
+      "Eddy is getting ready for his Valentine\u2019s Day event performance at Hobbs Cafe. He practices his pieces and reviews any notes he has made during the day, feeling a mix of excitement and nervousness about performing in front of an audience",
+      60
+    ],
+    [
+      "Eddy is preparing dinner. Despite feeling tired, he finds comfort in the routine of cooking and enjoys the peace it brings. He hopes that after dinner, he might connect with someone or at least feel less lonely",
+      60
+    ],
+    [
+      "Eddy is spending some quiet time after dinner, reflecting on the day\u2019s events. He feels a bit more connected and energized from his meeting with Klaus Mueller but still longs for companionship. He considers reaching out to friends or attending social gatherings",
+      60
+    ],
+    [
+      "Eddy is winding down for the evening. He feels a mix of satisfaction from his productive day but also a lingering sense of loneliness. After dinner, he spends some time on social media and messaging apps, hoping to connect with friends or acquaintances who",
+      60
+    ],
+    [
+      "Eddy is preparing for bed. He feels a mix of satisfaction from his productive day but also a lingering sense of loneliness. After checking his messages one last time, he hopes that tomorrow might bring new opportunities to connect with others. He reflects on the",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Lin family's house:Eddy Lin's bedroom:bed",
+  "act_start_time": "February 16, 2023, 00:00:00",
+  "act_duration": 420,
+  "act_description": "sleeping",
+  "act_pronunciatio": "\ud83d\ude34",
+  "act_event": [
+    "Eddy Lin",
+    "sleep",
+    ""
+  ],
+  "act_obj_description": "occupied",
+  "act_obj_pronunciatio": "\ud83d\udcc2\ud83d\udcbb",
+  "act_obj_event": [
+    "bed",
+    "be_occupied",
+    ""
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "John Lin": -41,
+    "Wolfgang Schulz": -20981,
+    "Maria Lopez": -521,
+    "Klaus Mueller": -1541,
+    "Isabella Rodriguez": -1433,
+    "Abigail Chen": -3131
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

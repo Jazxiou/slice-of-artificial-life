@@ -1,0 +1,386 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        19
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\udcc5",
+      "description": "having a meeting with staff to discuss details about the Valentine's Day party (discusses menu planning for the event) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 72.9,
+          "hunger": 96.0,
+          "fun": 100.0,
+          "hygiene": 66.5,
+          "bladder": 58.9,
+          "social": 29.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        95,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Klaus is working on his research paper at the library (taking a break) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 77.9,
+          "hunger": 45.0,
+          "fun": 29.3,
+          "hygiene": 90.7,
+          "bladder": 77.8,
+          "social": 29.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        98,
+        39
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Klaus Mueller discussing how they can collaborate on clarifying ideas for Klaus's research paper introduction. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, how's your research paper coming along?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria, thanks for asking. It\u2019s going well, but I\u2019m hitting a bit of a wall with the introduction right now."
+        ],
+        [
+          "Maria Lopez",
+          "That\u2019s rough. Do you want some company while you work through it? Maybe we can bounce ideas off each other."
+        ],
+        [
+          "Klaus Mueller",
+          "That would be great, Maria. I think having another perspective could really help clarify my thoughts."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good! Let me grab my notebook and we can head to a quiet corner. Maybe there\u2019s something in your notes that I can offer a fresh look on."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. That would really help. Let\u2019s go find a quiet spot then."
+        ],
+        [
+          "Maria Lopez",
+          "Great, let me just finish my breakfast and we can head over."
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, take your time. I'll wait here if you need a moment to finish."
+        ],
+        [
+          "Maria Lopez",
+          "Sure, I'll be right back. Thanks for waiting!"
+        ],
+        [
+          "Klaus Mueller",
+          "No problem at all. Take your time and let me know when you're ready."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Klaus. I'm almost done here. Let me just wrap this up and we can go."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, I'll wait here by the information desk. See you in a minute!"
+        ],
+        [
+          "Maria Lopez",
+          "Alright, I'm done. Let's head over to that quiet corner you mentioned."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, let's go over there and see if we can make some progress on the introduction."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, let\u2019s head over and see what we can come up with."
+        ],
+        [
+          "Klaus Mueller",
+          "Sure thing, Maria. Let's find that quiet corner and dive into your notes to see if they offer any new insights for my intro."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 92.9,
+          "hunger": 34.2,
+          "fun": 29.3,
+          "hygiene": 49.3,
+          "bladder": 44.0,
+          "social": 29.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "working on the animation project for her client (testing and refining animations for smoothness and quality) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.9,
+          "hunger": 72.5,
+          "fun": 70.5,
+          "hygiene": 66.5,
+          "bladder": 68.7,
+          "social": 29.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83d\udc68\u200d\u2695",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (assisting a customer who needs help understanding the side effects of a medication they are prescribed) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 72.9,
+          "hunger": 100.0,
+          "fun": 34.1,
+          "hygiene": 92.8,
+          "bladder": 58.9,
+          "social": 31.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        113,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Wolfgang Schulz and Eddy Lin discussing strategies for managing multiple courses, exchanging study tips, and planning to collaborate on projects and study sessions. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Wolfgang Schulz",
+          "Hi Eddy, I hope you're enjoying your music theory seminar. I'm actually working on a lab assignment related to my chemistry class and I was wondering if you had any tips for managing multiple courses?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Wolfgang, yes, the seminar is great! For managing multiple courses, I find it helpful to create a detailed schedule and set specific goals for each subject. Also, don't hesitate to reach out to your classmates or professors if you need help. How about you? What strategies do you use?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds like good advice, Eddy. I tend to block out specific times for studying each course and try to stay organized by keeping a planner. Do you find that music theory requires a lot of practice outside of class?"
+        ],
+        [
+          "Eddy Lin",
+          "Absolutely, Wolfgang. Music theory definitely benefits from regular practice and review. I usually spend extra time working through exercises and analyzing pieces to deepen my understanding. Do you have any similar techniques for chemistry?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "I agree, Eddy. Chemistry certainly requires consistent practice too. I often review my lecture notes and work on lab assignments to reinforce what I've learned in class. Thanks for the tips, I'll definitely apply them to both subjects!"
+        ],
+        [
+          "Eddy Lin",
+          "It's great to hear you're staying organized. Have you found any particular resources or study groups that help with chemistry studies?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Actually, I haven't joined any formal study groups yet for chemistry, but I have found some helpful online resources and forums. Maybe we could exchange tips on balancing our course loads sometime?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds like a good idea, Wolfgang. Perhaps we can even collaborate on some projects or study sessions to keep each other motivated. Let\u2019s exchange contact information and plan something soon."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That would be fantastic, Eddy. Let\u2019s swap contacts and figure out a good time to get together. Maybe we can combine our strengths and help each other stay on track."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, Wolfgang. I\u2019ll add your number to my contacts and we can set up a time that works for both of us this week."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sure, Eddy. That sounds like a great plan. I'll send you my contact information and we can figure out what works best for both of us."
+        ],
+        [
+          "Eddy Lin",
+          "Great, I'm looking forward to it. Thanks for being open to this idea, Wolfgang."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Eddy. It was nice talking to you and I'm excited about collaborating in the future."
+        ],
+        [
+          "Eddy Lin",
+          "Sure, let's make sure to find some overlapping free time this week and see how we can best support each other in our studies."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Eddy. I'll send you a message later this week to set up a time that works for both of us."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, I'll be available most afternoons this week. Let me know when you're free so we can start planning."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 77.9,
+          "hunger": 85.6,
+          "fun": 66.1,
+          "hygiene": 66.5,
+          "bladder": 63.8,
+          "social": 36.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\u270d\ufe0f\ud83d\udcdd",
+      "description": "writing for two hours (writing the first draft of a new chapter) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.9,
+          "hunger": 23.0,
+          "fun": 46.3,
+          "hygiene": 57.9,
+          "bladder": 78.5,
+          "social": 29.3
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        110,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Wolfgang Schulz and Eddy Lin discussing strategies for managing multiple courses, exchanging study tips, and planning to collaborate on projects and study sessions. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Wolfgang Schulz",
+          "Hi Eddy, I hope you're enjoying your music theory seminar. I'm actually working on a lab assignment related to my chemistry class and I was wondering if you had any tips for managing multiple courses?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Wolfgang, yes, the seminar is great! For managing multiple courses, I find it helpful to create a detailed schedule and set specific goals for each subject. Also, don't hesitate to reach out to your classmates or professors if you need help. How about you? What strategies do you use?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds like good advice, Eddy. I tend to block out specific times for studying each course and try to stay organized by keeping a planner. Do you find that music theory requires a lot of practice outside of class?"
+        ],
+        [
+          "Eddy Lin",
+          "Absolutely, Wolfgang. Music theory definitely benefits from regular practice and review. I usually spend extra time working through exercises and analyzing pieces to deepen my understanding. Do you have any similar techniques for chemistry?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "I agree, Eddy. Chemistry certainly requires consistent practice too. I often review my lecture notes and work on lab assignments to reinforce what I've learned in class. Thanks for the tips, I'll definitely apply them to both subjects!"
+        ],
+        [
+          "Eddy Lin",
+          "It's great to hear you're staying organized. Have you found any particular resources or study groups that help with chemistry studies?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Actually, I haven't joined any formal study groups yet for chemistry, but I have found some helpful online resources and forums. Maybe we could exchange tips on balancing our course loads sometime?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds like a good idea, Wolfgang. Perhaps we can even collaborate on some projects or study sessions to keep each other motivated. Let\u2019s exchange contact information and plan something soon."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That would be fantastic, Eddy. Let\u2019s swap contacts and figure out a good time to get together. Maybe we can combine our strengths and help each other stay on track."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, Wolfgang. I\u2019ll add your number to my contacts and we can set up a time that works for both of us this week."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sure, Eddy. That sounds like a great plan. I'll send you my contact information and we can figure out what works best for both of us."
+        ],
+        [
+          "Eddy Lin",
+          "Great, I'm looking forward to it. Thanks for being open to this idea, Wolfgang."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Eddy. It was nice talking to you and I'm excited about collaborating in the future."
+        ],
+        [
+          "Eddy Lin",
+          "Sure, let's make sure to find some overlapping free time this week and see how we can best support each other in our studies."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Eddy. I'll send you a message later this week to set up a time that works for both of us."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, I'll be available most afternoons this week. Let me know when you're free so we can start planning."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 67.9,
+          "hunger": 98.4,
+          "fun": 58.3,
+          "hygiene": 57.9,
+          "bladder": 36.8,
+          "social": 33.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 11:25:10"
+  }
+}

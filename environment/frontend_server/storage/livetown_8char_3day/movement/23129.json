@@ -1,0 +1,411 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        19
+      ],
+      "pronunciatio": "\ud83c\udfa7\u2705",
+      "description": "Isabella is ensuring that the live music performance by Eddy Lin is set up between 4:00 pm to 5:00 pm, coordinating with him and setting up sound equipment for a smooth evening (setting up the sound equipment and testing it for quality) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 37.8,
+          "hunger": 92.7,
+          "fun": 42.1,
+          "hygiene": 70.3,
+          "bladder": 0.0,
+          "social": 7.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "Klaus is preparing for his meeting with Wolfgang Schulz. He reviews notes and gathers materials he will need to discuss the intersection of chemistry and sociology in relation to gentrification (conversing about Klaus Mueller and Wolfgang Schulz discussing how to integrate chemical analysis with sociological research on gentrification impacts, including sharing relevant studies, exploring material changes in urban redevelopment, and planning interdisciplinary workshops or seminars.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 54.0,
+          "hunger": 87.7,
+          "fun": 19.6,
+          "hygiene": 81.4,
+          "bladder": 37.4,
+          "social": 34.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        108,
+        34
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Wolfgang Schulz discussing their potential collaboration during Maria's Twitch stream, focusing on interdisciplinary research between chemistry, sociology, and physics. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Wolfgang, I hope you're having a good day. I'm currently preparing to start my Twitch stream soon and was wondering if you'd be interested in joining me for a bit later today? It could be fun to collaborate on some creative ideas or even talk about our studies."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hi Maria, that sounds like a great idea! I'd love to chat and maybe even share some insights from my chemistry studies during your stream. Let me know when would be a good time for you."
+        ],
+        [
+          "Maria Lopez",
+          "That would be fantastic, Wolfgang! How about joining me around 7 PM when I start my main content for the day? We can also discuss potential collaboration opportunities that blend your chemistry knowledge with my physics background and streaming interests."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That works perfectly for me, Maria. I'm looking forward to it and excited about the potential collaboration opportunities we can explore together during your stream."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Wolfgang! I'll make sure to mention your upcoming guest appearance and our collaboration plans at the start of my stream. Let\u2019s connect and brainstorm some awesome ideas that can add value to both our communities and studies."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll be sure to tune in at 7 PM and we can start discussing how our respective fields intersect and collaborate during your stream. Looking forward to it!"
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, Wolfgang! I'm really excited to see what we can come up with. If you have any specific ideas or topics in mind that you'd like to bring up during the stream, feel free to let me know beforehand so we can prepare well."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sure, Maria. I'll send you a brief summary of my ideas related to interdisciplinary research between chemistry and sociology that could be interesting for your audience. Also, feel free to reach out anytime if you need more details or have any questions before our chat during the stream."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Wolfgang. I'm really looking forward to our collaboration and can't wait to see how we can connect chemistry and sociology with my physics background during the stream. If you have any more ideas or need help preparing, let me know!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks again, Maria. I'll send over my ideas later today or early tomorrow so we can maximize our collaboration during your stream. Looking forward to it!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Wolfgang. I'll be here to chat and brainstorm whenever you're ready. Have a great day!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll be sure to send over my thoughts on interdisciplinary research and how it could tie into your stream this evening. Can't wait to see where our collaboration leads!"
+        ],
+        [
+          "Maria Lopez",
+          "Great, looking forward to your ideas Wolfgang. Have a fantastic day and see you this evening during the stream!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll draft up some notes on interdisciplinary research and our potential collaboration points for your stream tonight. Looking forward to connecting more about this later!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Wolfgang. I'll be here ready to dive into our collaboration tonight! Let me know if you need any more details from my side before we go live."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I'll make sure to compile my thoughts and send them over soon. Looking forward to our collaboration tonight on your stream, Maria!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 69.1,
+          "hunger": 93.9,
+          "fun": 100.0,
+          "hygiene": 49.9,
+          "bladder": 0.0,
+          "social": 16.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\uddbc\ud83d\udc65",
+      "description": "meeting with collaborators for a feedback session on her interactive art project (presenting her interactive art project to collaborators) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.4,
+          "hunger": 95.8,
+          "fun": 44.7,
+          "hygiene": 99.4,
+          "bladder": 98.6,
+          "social": 13.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        80,
+        50
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and his father discussing Eddy's composition progress and planning to meet at Cobalt Coffee to brainstorm ideas. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hey Dad, I didn't expect to run into you here. How\u2019s your day going?"
+        ],
+        [
+          "John Lin",
+          "Hi Eddy, your timing is perfect. I was starting to feel lonely. How are you holding up? Any progress on your composition?"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks Dad, it\u2019s good to see you. My composition is coming along, but I\u2019m hitting a few creative blocks. Maybe talking things through with you could help?"
+        ],
+        [
+          "John Lin",
+          "That sounds like a great idea, Eddy. I\u2019d love to hear more about your progress and see if we can come up with some solutions together. Care to join me for coffee at Cobalt Coffee after you finish your lecture today?"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Dad. I\u2019ll meet you there right after my lecture. Maybe we can brainstorm some ideas and get a fresh perspective on my project."
+        ],
+        [
+          "John Lin",
+          "That would be wonderful, Eddy. I look forward to hearing about your lecture and getting some fresh ideas for both of our projects."
+        ],
+        [
+          "Eddy Lin",
+          "Sure, Dad. Let\u2019s meet up and see what new ideas we can come up with. I\u2019ll bring some samples of my latest work to share."
+        ],
+        [
+          "John Lin",
+          "Great, Eddy. Keep me updated if anything changes or if you need any help before we meet."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks Dad, I'll see you at Cobalt Coffee then. Looking forward to our meeting."
+        ],
+        [
+          "John Lin",
+          "Sounds like a plan, Eddy. Take care and I\u2019ll see you there."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Dad. See you later at Cobalt Coffee."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 26.8,
+          "hunger": 93.6,
+          "fun": 39.0,
+          "hygiene": 78.3,
+          "bladder": 17.5,
+          "social": 6.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and his father discussing Eddy's composition progress and planning to meet at Cobalt Coffee to brainstorm ideas. @ <persona> John Lin",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hey Dad, I didn't expect to run into you here. How\u2019s your day going?"
+        ],
+        [
+          "John Lin",
+          "Hi Eddy, your timing is perfect. I was starting to feel lonely. How are you holding up? Any progress on your composition?"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks Dad, it\u2019s good to see you. My composition is coming along, but I\u2019m hitting a few creative blocks. Maybe talking things through with you could help?"
+        ],
+        [
+          "John Lin",
+          "That sounds like a great idea, Eddy. I\u2019d love to hear more about your progress and see if we can come up with some solutions together. Care to join me for coffee at Cobalt Coffee after you finish your lecture today?"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Dad. I\u2019ll meet you there right after my lecture. Maybe we can brainstorm some ideas and get a fresh perspective on my project."
+        ],
+        [
+          "John Lin",
+          "That would be wonderful, Eddy. I look forward to hearing about your lecture and getting some fresh ideas for both of our projects."
+        ],
+        [
+          "Eddy Lin",
+          "Sure, Dad. Let\u2019s meet up and see what new ideas we can come up with. I\u2019ll bring some samples of my latest work to share."
+        ],
+        [
+          "John Lin",
+          "Great, Eddy. Keep me updated if anything changes or if you need any help before we meet."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks Dad, I'll see you at Cobalt Coffee then. Looking forward to our meeting."
+        ],
+        [
+          "John Lin",
+          "Sounds like a plan, Eddy. Take care and I\u2019ll see you there."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Dad. See you later at Cobalt Coffee."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 54.6,
+          "hunger": 100.0,
+          "fun": 87.8,
+          "hygiene": 93.0,
+          "bladder": 40.2,
+          "social": 10.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        33,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcf7\ud83c\udf3f",
+      "description": "Hailey is taking a short walk in the park near her apartment to clear her mind and seek inspiration (observing nature and taking photos for inspiration) @ the Ville:Johnson Park:park:park garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.2,
+          "hunger": 71.3,
+          "fun": 100.0,
+          "hygiene": 77.3,
+          "bladder": 47.3,
+          "social": 5.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        108,
+        35
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Wolfgang Schulz discussing their potential collaboration during Maria's Twitch stream, focusing on interdisciplinary research between chemistry, sociology, and physics. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Wolfgang, I hope you're having a good day. I'm currently preparing to start my Twitch stream soon and was wondering if you'd be interested in joining me for a bit later today? It could be fun to collaborate on some creative ideas or even talk about our studies."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hi Maria, that sounds like a great idea! I'd love to chat and maybe even share some insights from my chemistry studies during your stream. Let me know when would be a good time for you."
+        ],
+        [
+          "Maria Lopez",
+          "That would be fantastic, Wolfgang! How about joining me around 7 PM when I start my main content for the day? We can also discuss potential collaboration opportunities that blend your chemistry knowledge with my physics background and streaming interests."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That works perfectly for me, Maria. I'm looking forward to it and excited about the potential collaboration opportunities we can explore together during your stream."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Wolfgang! I'll make sure to mention your upcoming guest appearance and our collaboration plans at the start of my stream. Let\u2019s connect and brainstorm some awesome ideas that can add value to both our communities and studies."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll be sure to tune in at 7 PM and we can start discussing how our respective fields intersect and collaborate during your stream. Looking forward to it!"
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, Wolfgang! I'm really excited to see what we can come up with. If you have any specific ideas or topics in mind that you'd like to bring up during the stream, feel free to let me know beforehand so we can prepare well."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sure, Maria. I'll send you a brief summary of my ideas related to interdisciplinary research between chemistry and sociology that could be interesting for your audience. Also, feel free to reach out anytime if you need more details or have any questions before our chat during the stream."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Wolfgang. I'm really looking forward to our collaboration and can't wait to see how we can connect chemistry and sociology with my physics background during the stream. If you have any more ideas or need help preparing, let me know!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks again, Maria. I'll send over my ideas later today or early tomorrow so we can maximize our collaboration during your stream. Looking forward to it!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Wolfgang. I'll be here to chat and brainstorm whenever you're ready. Have a great day!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll be sure to send over my thoughts on interdisciplinary research and how it could tie into your stream this evening. Can't wait to see where our collaboration leads!"
+        ],
+        [
+          "Maria Lopez",
+          "Great, looking forward to your ideas Wolfgang. Have a fantastic day and see you this evening during the stream!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll draft up some notes on interdisciplinary research and our potential collaboration points for your stream tonight. Looking forward to connecting more about this later!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Wolfgang. I'll be here ready to dive into our collaboration tonight! Let me know if you need any more details from my side before we go live."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I'll make sure to compile my thoughts and send them over soon. Looking forward to our collaboration tonight on your stream, Maria!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 13.2,
+          "hunger": 81.1,
+          "fun": 16.7,
+          "hygiene": 69.3,
+          "bladder": 0.0,
+          "social": 12.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 16:14:50"
+  }
+}

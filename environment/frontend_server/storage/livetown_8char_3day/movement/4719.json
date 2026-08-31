@@ -1,0 +1,451 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez inviting Klaus Mueller to Hobbs Cafe's Valentine's Day party and discussing potential ways he can assist with the event setup or during rehearsals. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Klaus, I hope you're enjoying your meal. How are you finding everything at Hobbs Cafe today?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Isabella, yes everything is great. I heard you're organizing a Valentine's Day party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's right, Klaus! We're planning a special Valentine's Day party for our customers. It'll be on February 14th from 5pm to 7pm. Would you like to come and join us?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a fun event, Isabella. I appreciate the invite but I might have plans that day. Could you tell me more about what kind of activities will be happening at the party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, Klaus! We're planning some fun activities like live music, a photo booth with festive props, and even a mini dessert bar. Plus, we'll have special Valentine's Day treats on the menu."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds really nice, Isabella. I'm glad to hear there will be live music and a photo booth. Do you need any help with organizing the event or do you just have staff volunteers?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "We have a great team helping out, Klaus. But if you're interested in getting involved, we could really use extra hands for setting up and perhaps manning the dessert bar or taking some photos at the booth."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Isabella. While I might not be able to make it on the 14th, I'd love to help out with setup or during one of the rehearsals if you need assistance before then."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be fantastic, Klaus! I'll make sure to let you know when we need help with setup or rehearsals leading up to Valentine's Day. Thank you so much for offering your time and support!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Isabella. It was nice talking to you and I'm looking forward to hearing about how I can help out."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Klaus, it was great talking to you. I appreciate your willingness to help out. We'll definitely reach out as we finalize the details and dates for setup or rehearsals."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks again, Isabella. I'll be looking forward to your message and hope the party turns out great!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Before you go, Klaus, do let me have your contact details so we can keep in touch about any plans to help out. Would that be okay?"
+        ],
+        [
+          "Klaus Mueller",
+          "Of course, Isabella. I can give you my contact information and we'll keep in touch regarding any opportunities to help out."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Klaus. Let's exchange contacts and I'll be sure to reach out when we need your help. Have a wonderful day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Isabella. I'm looking forward to hearing from you and helping out however I can."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 64.5,
+          "hunger": 87.1,
+          "fun": 100.0,
+          "hygiene": 61.4,
+          "bladder": 47.1,
+          "social": 28.9
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        75,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez inviting Klaus Mueller to Hobbs Cafe's Valentine's Day party and discussing potential ways he can assist with the event setup or during rehearsals. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Klaus, I hope you're enjoying your meal. How are you finding everything at Hobbs Cafe today?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Isabella, yes everything is great. I heard you're organizing a Valentine's Day party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's right, Klaus! We're planning a special Valentine's Day party for our customers. It'll be on February 14th from 5pm to 7pm. Would you like to come and join us?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a fun event, Isabella. I appreciate the invite but I might have plans that day. Could you tell me more about what kind of activities will be happening at the party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, Klaus! We're planning some fun activities like live music, a photo booth with festive props, and even a mini dessert bar. Plus, we'll have special Valentine's Day treats on the menu."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds really nice, Isabella. I'm glad to hear there will be live music and a photo booth. Do you need any help with organizing the event or do you just have staff volunteers?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "We have a great team helping out, Klaus. But if you're interested in getting involved, we could really use extra hands for setting up and perhaps manning the dessert bar or taking some photos at the booth."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Isabella. While I might not be able to make it on the 14th, I'd love to help out with setup or during one of the rehearsals if you need assistance before then."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be fantastic, Klaus! I'll make sure to let you know when we need help with setup or rehearsals leading up to Valentine's Day. Thank you so much for offering your time and support!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Isabella. It was nice talking to you and I'm looking forward to hearing about how I can help out."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Klaus, it was great talking to you. I appreciate your willingness to help out. We'll definitely reach out as we finalize the details and dates for setup or rehearsals."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks again, Isabella. I'll be looking forward to your message and hope the party turns out great!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Before you go, Klaus, do let me have your contact details so we can keep in touch about any plans to help out. Would that be okay?"
+        ],
+        [
+          "Klaus Mueller",
+          "Of course, Isabella. I can give you my contact information and we'll keep in touch regarding any opportunities to help out."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Klaus. Let's exchange contacts and I'll be sure to reach out when we need your help. Have a wonderful day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Isabella. I'm looking forward to hearing from you and helping out however I can."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 69.5,
+          "hunger": 99.3,
+          "fun": 26.2,
+          "hygiene": 85.7,
+          "bladder": 66.0,
+          "social": 45.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        115,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Eddy Lin arranging a time to meet up after her study session at Hobbs Cafe. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Eddy, I'm Maria. Nice to see you here. How's your lunch going?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Maria, it\u2019s going well. Just taking a break from classes to grab some food and relax a bit. How about you?"
+        ],
+        [
+          "Maria Lopez",
+          "I'm actually heading to Hobbs Cafe now to study for a bit and work on some assignments. Maybe we could catch up more later if you're free?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds good, Maria. I'm actually finishing up lunch now but maybe we can chat during your study session if it works for you?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, that would be great! I'll finish up my study session around 3 PM. We could grab another coffee and continue chatting then?"
+        ],
+        [
+          "Eddy Lin",
+          "That works for me, Maria. I'll be here until then if you need a break from studying."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds like a plan, Eddy. See you in a bit then!"
+        ],
+        [
+          "Eddy Lin",
+          "Great, looking forward to it. Have a productive study session, Maria!"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks Eddy, you too! I'll be around if you need anything."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Maria. Enjoy your study session!"
+        ],
+        [
+          "Maria Lopez",
+          "I'll definitely take you up on that coffee offer after my study session. See you soon!"
+        ],
+        [
+          "Eddy Lin",
+          "Sure thing, Maria. I'll be here at Hobbs Cafe until 3 PM if you need any company or just someone to chat with during your break."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds perfect, Eddy. I'll catch up with you after my study session."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Maria. Enjoy your study session and I'll be here when you're ready for a break."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Eddy. I'll see you around 3 PM then!"
+        ],
+        [
+          "Eddy Lin",
+          "Sure, let's continue our chat after your study session. Have a great afternoon, Maria!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 84.5,
+          "hunger": 25.1,
+          "fun": 44.3,
+          "hygiene": 44.2,
+          "bladder": 32.2,
+          "social": 29.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udc40",
+      "description": "working on the animation project for her client (reviewing feedback from the client) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.5,
+          "hunger": 99.7,
+          "fun": 82.2,
+          "hygiene": 61.4,
+          "bladder": 56.9,
+          "social": 26.9
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\ud83d\udc81\u200d\u2642",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (attending to customer inquiries) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.5,
+          "hunger": 100.0,
+          "fun": 27.4,
+          "hygiene": 87.8,
+          "bladder": 47.1,
+          "social": 32.7
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        116,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Eddy Lin arranging a time to meet up after her study session at Hobbs Cafe. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Eddy, I'm Maria. Nice to see you here. How's your lunch going?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Maria, it\u2019s going well. Just taking a break from classes to grab some food and relax a bit. How about you?"
+        ],
+        [
+          "Maria Lopez",
+          "I'm actually heading to Hobbs Cafe now to study for a bit and work on some assignments. Maybe we could catch up more later if you're free?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds good, Maria. I'm actually finishing up lunch now but maybe we can chat during your study session if it works for you?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, that would be great! I'll finish up my study session around 3 PM. We could grab another coffee and continue chatting then?"
+        ],
+        [
+          "Eddy Lin",
+          "That works for me, Maria. I'll be here until then if you need a break from studying."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds like a plan, Eddy. See you in a bit then!"
+        ],
+        [
+          "Eddy Lin",
+          "Great, looking forward to it. Have a productive study session, Maria!"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks Eddy, you too! I'll be around if you need anything."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Maria. Enjoy your study session!"
+        ],
+        [
+          "Maria Lopez",
+          "I'll definitely take you up on that coffee offer after my study session. See you soon!"
+        ],
+        [
+          "Eddy Lin",
+          "Sure thing, Maria. I'll be here at Hobbs Cafe until 3 PM if you need any company or just someone to chat with during your break."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds perfect, Eddy. I'll catch up with you after my study session."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Maria. Enjoy your study session and I'll be here when you're ready for a break."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Eddy. I'll see you around 3 PM then!"
+        ],
+        [
+          "Eddy Lin",
+          "Sure, let's continue our chat after your study session. Have a great afternoon, Maria!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 69.5,
+          "hunger": 77.5,
+          "fun": 99.6,
+          "hygiene": 61.4,
+          "bladder": 52.0,
+          "social": 34.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        39,
+        34
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Hailey is having lunch (drinking water and resting for a bit) @ the Ville:artist's co-living space:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.5,
+          "hunger": 86.0,
+          "fun": 56.4,
+          "hygiene": 52.8,
+          "bladder": 66.7,
+          "social": 27.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        93,
+        30
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83d\udd04",
+      "description": "cleaning up his dishes and putting them in the dishwasher @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.5,
+          "hunger": 99.6,
+          "fun": 55.4,
+          "hygiene": 52.8,
+          "bladder": 25.0,
+          "social": 38.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 13:06:30"
+  }
+}

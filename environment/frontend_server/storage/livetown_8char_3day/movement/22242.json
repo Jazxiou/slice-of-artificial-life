@@ -1,0 +1,273 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella and Maria discussing their work plans, particularly Isabella's Valentine\u2019s Day setup and Maria's upcoming stream assignment, while planning a coffee meeting to brainstorm ideas and offer support. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Maria! I see you're busy planning your stream. Do you have a minute to chat? How\u2019s everything coming along?"
+        ],
+        [
+          "Maria Lopez",
+          "Hey Isabella! I'm good, thanks. Just trying to wrap up some details for tonight\u2019s stream. How are things going on your end with the Valentine\u2019s Day setup?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Everything\u2019s coming along smoothly, but there are always last-minute details to iron out. I just finished a meeting with Klaus on all the logistics. Speaking of which, I was wondering if we could meet up for coffee after work to discuss your upcoming assignment and maybe brainstorm some ideas for integrating gaming elements into our Valentine\u2019s Day event?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Isabella! Let\u2019s meet at Hobbs Cafe around 5 PM then. I\u2019d love to get your input on my assignment and also hear more about those gaming ideas for Valentine\u2019s Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Perfect, I\u2019ll see you at 5 PM then! And Maria, if you need any help or just someone to listen while you plan your stream tonight, let me know. It\u2019s the least I can do for one of my closest friends."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Isabella! It means a lot to have your support. I\u2019ll definitely reach out if I need anything tonight or during our coffee meeting."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Maria. I'll be looking forward to our meeting and your stream tonight. If anything comes up or if you need a break, just give me a call."
+        ],
+        [
+          "Maria Lopez",
+          "I will do that, Isabella. It\u2019s comforting to know you\u2019re there for me. Take care until we meet later!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, let\u2019s make sure to catch up properly at 5 PM. Take care until then and enjoy your stream!"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks again, Isabella! I'll see you at Hobbs Cafe later."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 50.1,
+          "hunger": 100.0,
+          "fun": 45.8,
+          "hygiene": 77.7,
+          "bladder": 2.8,
+          "social": 15.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udd0d\ud83d\udcda",
+      "description": "Klaus is returning to the library after lunch. He plans to continue his research on gentrification and prepare for his meeting with Wolfgang Schulz later in the afternoon (searching for additional academic articles on gentrification through the college's database) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 66.3,
+          "hunger": 100.0,
+          "fun": 21.8,
+          "hygiene": 88.8,
+          "bladder": 54.6,
+          "social": 18.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        72,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella and Maria discussing their work plans, particularly Isabella's Valentine\u2019s Day setup and Maria's upcoming stream assignment, while planning a coffee meeting to brainstorm ideas and offer support. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Maria! I see you're busy planning your stream. Do you have a minute to chat? How\u2019s everything coming along?"
+        ],
+        [
+          "Maria Lopez",
+          "Hey Isabella! I'm good, thanks. Just trying to wrap up some details for tonight\u2019s stream. How are things going on your end with the Valentine\u2019s Day setup?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Everything\u2019s coming along smoothly, but there are always last-minute details to iron out. I just finished a meeting with Klaus on all the logistics. Speaking of which, I was wondering if we could meet up for coffee after work to discuss your upcoming assignment and maybe brainstorm some ideas for integrating gaming elements into our Valentine\u2019s Day event?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Isabella! Let\u2019s meet at Hobbs Cafe around 5 PM then. I\u2019d love to get your input on my assignment and also hear more about those gaming ideas for Valentine\u2019s Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Perfect, I\u2019ll see you at 5 PM then! And Maria, if you need any help or just someone to listen while you plan your stream tonight, let me know. It\u2019s the least I can do for one of my closest friends."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Isabella! It means a lot to have your support. I\u2019ll definitely reach out if I need anything tonight or during our coffee meeting."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Maria. I'll be looking forward to our meeting and your stream tonight. If anything comes up or if you need a break, just give me a call."
+        ],
+        [
+          "Maria Lopez",
+          "I will do that, Isabella. It\u2019s comforting to know you\u2019re there for me. Take care until we meet later!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, let\u2019s make sure to catch up properly at 5 PM. Take care until then and enjoy your stream!"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks again, Isabella! I'll see you at Hobbs Cafe later."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 81.4,
+          "hunger": 100.0,
+          "fun": 57.5,
+          "hygiene": 57.3,
+          "bladder": 0.0,
+          "social": 6.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udcbb",
+      "description": "working on her interactive art project (testing the integration of interactive elements into her art piece) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.8,
+          "hunger": 92.2,
+          "fun": 41.2,
+          "hygiene": 68.7,
+          "bladder": 19.3,
+          "social": 16.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        52
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc89",
+      "description": "John is interacting with customers and filling prescriptions at Willow Market and Pharmacy. He maintains a friendly demeanor, offering assistance and advice to those who need it (providing educational materials to customers about new medications and treatments) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 39.1,
+          "hunger": 89.7,
+          "fun": 48.9,
+          "hygiene": 85.7,
+          "bladder": 34.7,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        72,
+        23
+      ],
+      "pronunciatio": "\u2615\ud83d\udcac",
+      "description": "Eddy is having lunch at Hobbs Cafe (taking a break from studying by chatting with someone at the cafe) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 66.9,
+          "hunger": 100.0,
+          "fun": 65.6,
+          "hygiene": 91.8,
+          "bladder": 0.0,
+          "social": 10.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        35,
+        26
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start outlining the structure of an upcoming episode @ <waiting> 35 26",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 81.5,
+          "hunger": 86.1,
+          "fun": 99.1,
+          "hygiene": 84.6,
+          "bladder": 64.6,
+          "social": 1.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        115,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcfa",
+      "description": "Wolfgang is attending an interdisciplinary seminar. He finds these sessions insightful and enjoys discussing chemistry's broader impacts with peers from different academic backgrounds (taking notes during the second presentation) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 25.5,
+          "hunger": 95.9,
+          "fun": 26.6,
+          "hygiene": 76.6,
+          "bladder": 0.0,
+          "social": 8.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 13:47:00"
+  }
+}

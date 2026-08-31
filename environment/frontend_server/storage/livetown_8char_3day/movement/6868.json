@@ -1,0 +1,313 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udc4d\u2728",
+      "description": "Isabella is continuing to prepare for the Valentine's Day party by arranging last-minute details and ensuring everything is ready for the evening event (making final adjustments to ensure everything is perfect before opening to guests) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 34.6,
+          "hunger": 98.1,
+          "fun": 100.0,
+          "hygiene": 43.5,
+          "bladder": 5.3,
+          "social": 28.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        131,
+        45
+      ],
+      "pronunciatio": "\ud83d\udc5f\ud83c\udfc3\u200d",
+      "description": "taking a short walk or going for a run to clear his mind and get some exercise (putting on running shoes) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 39.6,
+          "hunger": 93.8,
+          "fun": 19.9,
+          "hygiene": 67.8,
+          "bladder": 24.2,
+          "social": 53.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        126,
+        54
+      ],
+      "pronunciatio": "\ud83c\udfae\ud83d\udcac",
+      "description": "streaming games on Twitch (resuming the stream and playing another game for an hour) (continuing gameplay and answering questions from chat) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 54.6,
+          "hunger": 65.0,
+          "fun": 88.4,
+          "hygiene": 26.3,
+          "bladder": 0.0,
+          "social": 28.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udc42\ud83c\udfa7",
+      "description": "attending a virtual meeting about her project (actively listening to updates from other team members about their progress on the project) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 44.6,
+          "hunger": 100.0,
+          "fun": 88.2,
+          "hygiene": 43.5,
+          "bladder": 15.1,
+          "social": 16.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        87,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and John discussing their respective fields of music composition and pharmacy work, including plans to meet after a lecture on music and stress relief. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hey John, I see you're heading back from the pharmacy. How was your day?"
+        ],
+        [
+          "John Lin",
+          "Hi Eddy, my day was good. Just the usual helping people find their medications and answering questions about supplements. How\u2019s your composition project coming along?"
+        ],
+        [
+          "Eddy Lin",
+          "It\u2019s going well, but it\u2019s always challenging to blend different musical styles. I've been experimenting a lot lately. How about you? Anything interesting at the pharmacy today?"
+        ],
+        [
+          "John Lin",
+          "Not really, just the same old stuff. I did have an interesting chat with a customer who was curious about natural supplements for managing stress though. How are your plans shaping up for that music lecture this week?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds interesting. I\u2019m definitely looking forward to that lecture; it\u2019s supposed to cover some new research on music and stress relief too, which ties in nicely with what you were talking about."
+        ],
+        [
+          "John Lin",
+          "That\u2019s great, Eddy. I think there might be some useful insights for customers who are interested in natural ways to manage stress. Maybe we could also discuss it over coffee after the lecture?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds like a great idea, John. We could share some insights and help each other out in our respective fields."
+        ],
+        [
+          "John Lin",
+          "Sounds good, Eddy. Let\u2019s plan to meet at Hobbs Cafe right after the lecture then. I\u2019m sure we\u2019ll have plenty to talk about."
+        ],
+        [
+          "Eddy Lin",
+          "Perfect, see you there. And let\u2019s make sure to catch up on how everything was after our little chat."
+        ],
+        [
+          "John Lin",
+          "Sounds good, can't wait to hear what you learned and how it might relate to our discussions about stress management."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, John. I'll make sure to take notes during the lecture so we can have a detailed discussion later."
+        ],
+        [
+          "John Lin",
+          "That\u2019s really helpful, Eddy. I\u2019ll do the same and write down my thoughts about today's conversations at work so we can compare notes."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a plan, John. It should be interesting to see how our fields overlap in this context. See you Wednesday!"
+        ],
+        [
+          "John Lin",
+          "That sounds like a good plan, Eddy. I\u2019m looking forward to our discussion and seeing how we can help each other\u2019s work."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, John. It should be an insightful session. Catch you Wednesday!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 34.6,
+          "hunger": 99.8,
+          "fun": 15.6,
+          "hygiene": 69.9,
+          "bladder": 5.3,
+          "social": 16.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        88,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and John discussing their respective fields of music composition and pharmacy work, including plans to meet after a lecture on music and stress relief. @ <persona> John Lin",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hey John, I see you're heading back from the pharmacy. How was your day?"
+        ],
+        [
+          "John Lin",
+          "Hi Eddy, my day was good. Just the usual helping people find their medications and answering questions about supplements. How\u2019s your composition project coming along?"
+        ],
+        [
+          "Eddy Lin",
+          "It\u2019s going well, but it\u2019s always challenging to blend different musical styles. I've been experimenting a lot lately. How about you? Anything interesting at the pharmacy today?"
+        ],
+        [
+          "John Lin",
+          "Not really, just the same old stuff. I did have an interesting chat with a customer who was curious about natural supplements for managing stress though. How are your plans shaping up for that music lecture this week?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds interesting. I\u2019m definitely looking forward to that lecture; it\u2019s supposed to cover some new research on music and stress relief too, which ties in nicely with what you were talking about."
+        ],
+        [
+          "John Lin",
+          "That\u2019s great, Eddy. I think there might be some useful insights for customers who are interested in natural ways to manage stress. Maybe we could also discuss it over coffee after the lecture?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds like a great idea, John. We could share some insights and help each other out in our respective fields."
+        ],
+        [
+          "John Lin",
+          "Sounds good, Eddy. Let\u2019s plan to meet at Hobbs Cafe right after the lecture then. I\u2019m sure we\u2019ll have plenty to talk about."
+        ],
+        [
+          "Eddy Lin",
+          "Perfect, see you there. And let\u2019s make sure to catch up on how everything was after our little chat."
+        ],
+        [
+          "John Lin",
+          "Sounds good, can't wait to hear what you learned and how it might relate to our discussions about stress management."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, John. I'll make sure to take notes during the lecture so we can have a detailed discussion later."
+        ],
+        [
+          "John Lin",
+          "That\u2019s really helpful, Eddy. I\u2019ll do the same and write down my thoughts about today's conversations at work so we can compare notes."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a plan, John. It should be interesting to see how our fields overlap in this context. See you Wednesday!"
+        ],
+        [
+          "John Lin",
+          "That sounds like a good plan, Eddy. I\u2019m looking forward to our discussion and seeing how we can help each other\u2019s work."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, John. It should be an insightful session. Catch you Wednesday!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 39.6,
+          "hunger": 99.1,
+          "fun": 97.9,
+          "hygiene": 43.5,
+          "bladder": 10.2,
+          "social": 41.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        29,
+        28
+      ],
+      "pronunciatio": "\ud83d\udde3\ud83d\udc65",
+      "description": "Hailey is meeting with potential podcast guests via video call (discussing ideas and topics with the second guest for a future episode) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 54.6,
+          "hunger": 82.8,
+          "fun": 96.0,
+          "hygiene": 34.9,
+          "bladder": 24.9,
+          "social": 10.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        117,
+        51
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "preparing dinner and reviewing his study notes (preparing ingredients for dinner) @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 45.1,
+          "hunger": 68.0,
+          "fun": 46.0,
+          "hygiene": 52.1,
+          "bladder": 0.0,
+          "social": 28.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 19:04:40"
+  }
+}

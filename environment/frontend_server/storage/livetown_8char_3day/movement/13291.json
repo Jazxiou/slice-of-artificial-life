@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcc5\ud83d\udcdd",
+      "description": "taking a short break to use the bathroom and rest during her lunch hour. She feels tired but tries to stay focused on the day's tasks ahead (reviewing the day's schedule and tasks) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.4,
+          "hunger": 96.5,
+          "fun": 99.2,
+          "hygiene": 71.0,
+          "bladder": 40.6,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        29
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\ude0b",
+      "description": "Klaus is having lunch at Hobbs Cafe (eating his meal slowly, savoring each bite) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.4,
+          "hunger": 100.0,
+          "fun": 48.9,
+          "hygiene": 40.0,
+          "bladder": 0.0,
+          "social": 23.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        54
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcc5",
+      "description": "Maria is studying physics and working on assignments. Despite feeling better after her morning routine, she still wishes for some company but focuses on her studies to make up for lost time during her unexpected delay in waking up (working on an assignment due next week) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 95.9,
+          "hunger": 55.1,
+          "fun": 64.0,
+          "hygiene": 97.5,
+          "bladder": 94.3,
+          "social": 6.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "taking a short break to use the bathroom. She feels relieved after addressing her urgent need and returns to work shortly afterward, feeling more focused (reviewing notes from earlier work sessions to regain focus) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 75.4,
+          "hunger": 87.5,
+          "fun": 83.8,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        46
+      ],
+      "pronunciatio": "\ud83e\uddfa\ud83d\udd04",
+      "description": "(Tuesday February 14 -- 12:00 PM] Activity: John continues to assist customers, providing them with necessary medications and advice. He ensures that the pharmacy counter runs smoothly during lunchtime (tidying up the counter area and restocking supplies to ensure smooth operation) @ the Ville:The Willows Market and Pharmacy:store:grocery store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 51.9,
+          "hunger": 100.0,
+          "fun": 13.6,
+          "hygiene": 89.2,
+          "bladder": 92.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        83,
+        31
+      ],
+      "pronunciatio": "\ud83c\udfa7",
+      "description": "[Free time or other activities not specified] (relaxing and listening to music before heading to his next class) @ the Ville:Lin family's house:Eddy Lin's bedroom:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.7,
+          "hunger": 22.7,
+          "fun": 100.0,
+          "hygiene": 88.3,
+          "bladder": 72.8,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        67,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "meeting with a literary agent to discuss her novel and potential publishing opportunities. She hopes this meeting will bring new insights and momentum to her work (The literary agent is asking questions about the plot and characters) @ the Ville:Harvey Oak Supply Store:supply store:behind the supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 85.4,
+          "hunger": 99.3,
+          "fun": 91.2,
+          "hygiene": 94.7,
+          "bladder": 87.7,
+          "social": 10.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        121,
+        45
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83c\udf7d\ufe0f",
+      "description": "eating lunch (cleaning up his dishes) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 44.8,
+          "hunger": 100.0,
+          "fun": 0.0,
+          "hygiene": 85.3,
+          "bladder": 15.0,
+          "social": 9.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 12:55:10"
+  }
+}

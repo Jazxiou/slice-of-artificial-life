@@ -1,0 +1,581 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        83,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez and Klaus Mueller discussing potential collaborations between Hobbs Cafe and sociological research, particularly focusing on community engagement and awareness of issues like gentrification. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Klaus, I hope you're enjoying your meal. It's been so busy here today but seeing friendly faces like yours makes it all worth it."
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Isabella, I'm glad to see everything is running smoothly. Your caf\u00e9 always has such a lively atmosphere."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Klaus. It means a lot coming from someone like you. By the way, have you considered collaborating on any projects that might benefit from the unique vibe of Hobbs Cafe?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's an interesting idea, Isabella. The cafe setting could certainly provide a unique backdrop for research or events related to community engagement and sociocultural dynamics."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I think Hobbs Cafe could be perfect for something like that. Maybe we can brainstorm some ideas over coffee sometime?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Isabella. I'd love to explore how Hobbs Cafe can serve as a space for fostering dialogue around sociological issues like gentrification."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be fantastic, Klaus. I think our caf\u00e9 can offer more than just a cozy atmosphere but also serve as an inspiring venue for meaningful discussions and cultural exchanges."
+        ],
+        [
+          "Klaus Mueller",
+          "I appreciate your vision, Isabella. Perhaps we could start by discussing potential events or projects that highlight the impacts of gentrification and how Hobbs Cafe can be part of raising community awareness on these issues."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds like a wonderful start, Klaus. How about we meet next week to discuss some initial ideas and see how we can integrate your research into something that benefits our community?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like an excellent plan, Isabella. I'll look forward to our discussion next week and am excited about the potential for collaborative work that can make a positive impact in our community."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works perfectly, Klaus. I'll shoot you an email later this week to confirm a good time for us to meet and start planning. It\u2019s great knowing we can contribute positively to our community through Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Isabella. I'm really looking forward to it and believe Hobbs Cafe has a lot of potential in these kinds of initiatives. Let\u2019s make sure to capitalize on this opportunity to create meaningful change."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great, Klaus. Let\u2019s definitely keep that momentum going and see how we can weave together community engagement and sociocultural discussions at Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, Isabella. Your enthusiasm is inspiring and I believe our collaboration can be very impactful. Let\u2019s keep in touch and start planning soon."
+        ],
+        [
+          "Isabella Rodriguez",
+          "It\u2019s great to hear your enthusiasm, Klaus. I\u2019m looking forward to our meeting and seeing how we can bring this vision to life at Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks again, Isabella. I\u2019ll be in touch via email to confirm our meeting time next week."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 25.0,
+          "hunger": 97.0,
+          "fun": 82.5,
+          "hygiene": 71.2,
+          "bladder": 21.6,
+          "social": 10.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez and Klaus Mueller discussing potential collaborations between Hobbs Cafe and sociological research, particularly focusing on community engagement and awareness of issues like gentrification. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Klaus, I hope you're enjoying your meal. It's been so busy here today but seeing friendly faces like yours makes it all worth it."
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Isabella, I'm glad to see everything is running smoothly. Your caf\u00e9 always has such a lively atmosphere."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you, Klaus. It means a lot coming from someone like you. By the way, have you considered collaborating on any projects that might benefit from the unique vibe of Hobbs Cafe?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's an interesting idea, Isabella. The cafe setting could certainly provide a unique backdrop for research or events related to community engagement and sociocultural dynamics."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I think Hobbs Cafe could be perfect for something like that. Maybe we can brainstorm some ideas over coffee sometime?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Isabella. I'd love to explore how Hobbs Cafe can serve as a space for fostering dialogue around sociological issues like gentrification."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be fantastic, Klaus. I think our caf\u00e9 can offer more than just a cozy atmosphere but also serve as an inspiring venue for meaningful discussions and cultural exchanges."
+        ],
+        [
+          "Klaus Mueller",
+          "I appreciate your vision, Isabella. Perhaps we could start by discussing potential events or projects that highlight the impacts of gentrification and how Hobbs Cafe can be part of raising community awareness on these issues."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds like a wonderful start, Klaus. How about we meet next week to discuss some initial ideas and see how we can integrate your research into something that benefits our community?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like an excellent plan, Isabella. I'll look forward to our discussion next week and am excited about the potential for collaborative work that can make a positive impact in our community."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works perfectly, Klaus. I'll shoot you an email later this week to confirm a good time for us to meet and start planning. It\u2019s great knowing we can contribute positively to our community through Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Isabella. I'm really looking forward to it and believe Hobbs Cafe has a lot of potential in these kinds of initiatives. Let\u2019s make sure to capitalize on this opportunity to create meaningful change."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great, Klaus. Let\u2019s definitely keep that momentum going and see how we can weave together community engagement and sociocultural discussions at Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, Isabella. Your enthusiasm is inspiring and I believe our collaboration can be very impactful. Let\u2019s keep in touch and start planning soon."
+        ],
+        [
+          "Isabella Rodriguez",
+          "It\u2019s great to hear your enthusiasm, Klaus. I\u2019m looking forward to our meeting and seeing how we can bring this vision to life at Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks again, Isabella. I\u2019ll be in touch via email to confirm our meeting time next week."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 41.3,
+          "hunger": 99.6,
+          "fun": 22.9,
+          "hygiene": 73.7,
+          "bladder": 19.5,
+          "social": 43.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        117,
+        50
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Wolfgang Schulz discussing their upcoming interdisciplinary research collaboration focusing on gentrification, incorporating chemistry, sociology, and physics during Maria's Twitch stream this Friday. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Wolfgang, I hope you're having a great day. I heard about your interest in interdisciplinary research and was wondering if you had any ideas for our potential collaboration during my stream this Friday?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hi Maria, thanks for reaching out. I've been thinking about our collaboration and believe we could explore how chemistry intersects with sociology to address social issues like gentrification. For the stream, I can compile my thoughts and send them over before Friday. What do you think?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds fascinating, Wolfgang. I think it could really enrich our discussion on Friday. Could you also touch upon how physics might play a role in this research to make it even more interdisciplinary?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Absolutely, Maria. I can expand on how physics might contribute to our understanding of material changes in urban environments that are affected by gentrification. This could provide a unique perspective on the interdisciplinary approach we're aiming for."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Wolfgang. It would be wonderful to see how physics fits into this equation and broadens our understanding. I'll make sure to highlight your insights during the stream and encourage viewers to engage in the discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll work on putting together a comprehensive overview including chemistry, sociology, and physics components related to gentrification for our discussion this Friday. Looking forward to it!"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds excellent, Wolfgang. I appreciate your willingness to include all these disciplines and look forward to our discussion this Friday. If you need any help preparing or have any questions before then, feel free to reach out."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks again, Maria. I'll get started on compiling my thoughts and will send them over by Friday morning. If there are any specific areas you'd like me to focus on or expand upon, please let me know."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Wolfgang. I'll be looking forward to your input and will make sure everything is ready on my side for our collaboration during the stream this Friday."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I appreciate your support and look forward to our collaboration this Friday. If there\u2019s anything else you need from me beforehand, please don\u2019t hesitate to ask."
+        ],
+        [
+          "Maria Lopez",
+          "Great, Wolfgang. It sounds like we're on the same page and I'm excited to see how our collaboration unfolds this Friday. Take care of yourself in the meantime and if you have any updates or changes before then, let me know."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll make sure to compile all the necessary information and send it over before Friday. Talk to you soon!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Wolfgang. I'll be sure to promote our discussion on social media and within my Twitch community to get more people involved. Looking forward to what you come up with!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll start working on my presentation and send it over early Friday morning to give you enough time to review it before going live."
+        ],
+        [
+          "Maria Lopez",
+          "Great, Wolfgang. I appreciate your dedication to making this collaboration insightful and engaging. Have a great day!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thank you, Maria. I'll work diligently on it and ensure everything is polished before sending it over. Have a great evening!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 56.3,
+          "hunger": 99.2,
+          "fun": 100.0,
+          "hygiene": 42.2,
+          "bladder": 0.0,
+          "social": 15.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        41,
+        26
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start drinking water and taking a short break between courses @ <waiting> 41 26",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 46.7,
+          "hunger": 99.2,
+          "fun": 34.5,
+          "hygiene": 91.7,
+          "bladder": 80.7,
+          "social": 15.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        93,
+        66
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and his father discussing how Eddy's studies on music and stress management can be applied in John's work environment at the pharmacy, with plans to meet and brainstorm ideas over coffee. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hey Dad, thanks for coming home early. I was starting to feel a bit lonely and stressed from my classes today."
+        ],
+        [
+          "John Lin",
+          "Hey Eddy, I'm glad you mentioned that. How about we grab some coffee and talk more about what you're learning in your classes? Maybe there are ways we can apply music to help manage stress at work too."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Dad. I have some ideas from today\u2019s lecture that might be helpful for stress management in your work environment. Shall we meet after my next class at Cobalt Coffee?"
+        ],
+        [
+          "John Lin",
+          "Sure, Eddy. Let's meet up after your class and discuss it over coffee. I'm really looking forward to hearing about what you learned today."
+        ],
+        [
+          "Eddy Lin",
+          "Awesome, Dad. I\u2019ll make sure to jot down some key points from my lecture so we can dive into them during our meeting."
+        ],
+        [
+          "John Lin",
+          "Sounds good, Eddy. It'll be nice to catch up and see how your studies are going. Don't forget to bring any notes or examples from today\u2019s lecture."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Dad. I'll bring my notes and maybe some samples too if there are any that can illustrate how music affects stress in different settings."
+        ],
+        [
+          "John Lin",
+          "That sounds excellent, Eddy. I'm really excited to hear your insights and explore how we might integrate them into my work at the pharmacy."
+        ],
+        [
+          "Eddy Lin",
+          "Great, Dad. I'll also try to play something therapeutic during our session at Cobalt Coffee if you're comfortable with it."
+        ],
+        [
+          "John Lin",
+          "That sounds wonderful, Eddy. I think it'll be very beneficial for both of us to explore these ideas further. See you at Cobalt Coffee after your lecture."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Dad. I'll see you there and bring my guitar too."
+        ],
+        [
+          "John Lin",
+          "Thanks, Eddy. I appreciate you taking the time to share your knowledge and insights. It\u2019s going to be a great session."
+        ],
+        [
+          "Eddy Lin",
+          "I'm really looking forward to it, Dad. Maybe we can even collaborate on a small project based on what we discuss?"
+        ],
+        [
+          "John Lin",
+          "That sounds like a fantastic idea, Eddy. Collaborating on a project could be very rewarding and perhaps even beneficial for our customers at the pharmacy."
+        ],
+        [
+          "Eddy Lin",
+          "That would be amazing, Dad. Let\u2019s brainstorm some initial ideas over coffee and see where it takes us."
+        ],
+        [
+          "John Lin",
+          "That sounds like an exciting opportunity, Eddy. I can\u2019t wait to see what we come up with and how it might positively impact our customers who are dealing with stress related to managing their health conditions."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 14.0,
+          "hunger": 100.0,
+          "fun": 32.2,
+          "hygiene": 87.8,
+          "bladder": 34.1,
+          "social": 1.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        93,
+        67
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and his father discussing how Eddy's studies on music and stress management can be applied in John's work environment at the pharmacy, with plans to meet and brainstorm ideas over coffee. @ <persona> John Lin",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hey Dad, thanks for coming home early. I was starting to feel a bit lonely and stressed from my classes today."
+        ],
+        [
+          "John Lin",
+          "Hey Eddy, I'm glad you mentioned that. How about we grab some coffee and talk more about what you're learning in your classes? Maybe there are ways we can apply music to help manage stress at work too."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Dad. I have some ideas from today\u2019s lecture that might be helpful for stress management in your work environment. Shall we meet after my next class at Cobalt Coffee?"
+        ],
+        [
+          "John Lin",
+          "Sure, Eddy. Let's meet up after your class and discuss it over coffee. I'm really looking forward to hearing about what you learned today."
+        ],
+        [
+          "Eddy Lin",
+          "Awesome, Dad. I\u2019ll make sure to jot down some key points from my lecture so we can dive into them during our meeting."
+        ],
+        [
+          "John Lin",
+          "Sounds good, Eddy. It'll be nice to catch up and see how your studies are going. Don't forget to bring any notes or examples from today\u2019s lecture."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Dad. I'll bring my notes and maybe some samples too if there are any that can illustrate how music affects stress in different settings."
+        ],
+        [
+          "John Lin",
+          "That sounds excellent, Eddy. I'm really excited to hear your insights and explore how we might integrate them into my work at the pharmacy."
+        ],
+        [
+          "Eddy Lin",
+          "Great, Dad. I'll also try to play something therapeutic during our session at Cobalt Coffee if you're comfortable with it."
+        ],
+        [
+          "John Lin",
+          "That sounds wonderful, Eddy. I think it'll be very beneficial for both of us to explore these ideas further. See you at Cobalt Coffee after your lecture."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Dad. I'll see you there and bring my guitar too."
+        ],
+        [
+          "John Lin",
+          "Thanks, Eddy. I appreciate you taking the time to share your knowledge and insights. It\u2019s going to be a great session."
+        ],
+        [
+          "Eddy Lin",
+          "I'm really looking forward to it, Dad. Maybe we can even collaborate on a small project based on what we discuss?"
+        ],
+        [
+          "John Lin",
+          "That sounds like a fantastic idea, Eddy. Collaborating on a project could be very rewarding and perhaps even beneficial for our customers at the pharmacy."
+        ],
+        [
+          "Eddy Lin",
+          "That would be amazing, Dad. Let\u2019s brainstorm some initial ideas over coffee and see where it takes us."
+        ],
+        [
+          "John Lin",
+          "That sounds like an exciting opportunity, Eddy. I can\u2019t wait to see what we come up with and how it might positively impact our customers who are dealing with stress related to managing their health conditions."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 41.8,
+          "hunger": 92.0,
+          "fun": 100.0,
+          "hygiene": 85.3,
+          "bladder": 87.9,
+          "social": 16.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        41,
+        25
+      ],
+      "pronunciatio": "\ud83e\udd55\ud83c\udf3f",
+      "description": "Hailey is preparing dinner and experimenting with a new recipe from another culture she's interested in exploring (washing and chopping vegetables, then preparing spices and seasonings) @ the Ville:artist's co-living space:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 56.4,
+          "hunger": 100.0,
+          "fun": 99.5,
+          "hygiene": 69.6,
+          "bladder": 29.4,
+          "social": 10.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        122,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Wolfgang Schulz discussing their upcoming interdisciplinary research collaboration focusing on gentrification, incorporating chemistry, sociology, and physics during Maria's Twitch stream this Friday. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Wolfgang, I hope you're having a great day. I heard about your interest in interdisciplinary research and was wondering if you had any ideas for our potential collaboration during my stream this Friday?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hi Maria, thanks for reaching out. I've been thinking about our collaboration and believe we could explore how chemistry intersects with sociology to address social issues like gentrification. For the stream, I can compile my thoughts and send them over before Friday. What do you think?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds fascinating, Wolfgang. I think it could really enrich our discussion on Friday. Could you also touch upon how physics might play a role in this research to make it even more interdisciplinary?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Absolutely, Maria. I can expand on how physics might contribute to our understanding of material changes in urban environments that are affected by gentrification. This could provide a unique perspective on the interdisciplinary approach we're aiming for."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Wolfgang. It would be wonderful to see how physics fits into this equation and broadens our understanding. I'll make sure to highlight your insights during the stream and encourage viewers to engage in the discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll work on putting together a comprehensive overview including chemistry, sociology, and physics components related to gentrification for our discussion this Friday. Looking forward to it!"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds excellent, Wolfgang. I appreciate your willingness to include all these disciplines and look forward to our discussion this Friday. If you need any help preparing or have any questions before then, feel free to reach out."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks again, Maria. I'll get started on compiling my thoughts and will send them over by Friday morning. If there are any specific areas you'd like me to focus on or expand upon, please let me know."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Wolfgang. I'll be looking forward to your input and will make sure everything is ready on my side for our collaboration during the stream this Friday."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I appreciate your support and look forward to our collaboration this Friday. If there\u2019s anything else you need from me beforehand, please don\u2019t hesitate to ask."
+        ],
+        [
+          "Maria Lopez",
+          "Great, Wolfgang. It sounds like we're on the same page and I'm excited to see how our collaboration unfolds this Friday. Take care of yourself in the meantime and if you have any updates or changes before then, let me know."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll make sure to compile all the necessary information and send it over before Friday. Talk to you soon!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Wolfgang. I'll be sure to promote our discussion on social media and within my Twitch community to get more people involved. Looking forward to what you come up with!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll start working on my presentation and send it over early Friday morning to give you enough time to review it before going live."
+        ],
+        [
+          "Maria Lopez",
+          "Great, Wolfgang. I appreciate your dedication to making this collaboration insightful and engaging. Have a great day!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thank you, Maria. I'll work diligently on it and ensure everything is polished before sending it over. Have a great evening!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 0.4,
+          "hunger": 93.3,
+          "fun": 8.9,
+          "hygiene": 61.6,
+          "bladder": 0.0,
+          "social": 11.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 18:48:00"
+  }
+}

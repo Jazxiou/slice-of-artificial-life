@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83e\uddf9\ud83d\udcb0",
+      "description": "cleaning duties. She wipes down counters and surfaces, restocks the fridge with fresh ingredients for tomorrow, and organizes the cash register and counts money. @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 17.8,
+          "hunger": 85.0,
+          "fun": 84.0,
+          "hygiene": 83.7,
+          "bladder": 62.0,
+          "social": 11.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83e\udd1d\ud83d\udcca",
+      "description": "Klaus is meeting with peers for discussion and collaboration about his research paper at the college's study lounge (collaborating on data analysis techniques with Eddy Lin) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 37.8,
+          "hunger": 94.8,
+          "fun": 29.1,
+          "hygiene": 37.6,
+          "bladder": 16.9,
+          "social": 39.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        108,
+        47
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Maria is continuing her visit at Hobbs Cafe, hoping to meet up with friends or peers for a study session or casual conversation. She feels more energized after her morning routine but still misses the companionship of others and hopes to connect with someone during (ordering another round of snacks and drinks for herself as she continues waiting for friends or peers to arrive) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.3,
+          "hunger": 96.5,
+          "fun": 51.4,
+          "hygiene": 78.0,
+          "bladder": 48.6,
+          "social": 21.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        41,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail and Hailey arranging a coffee meet-up on Thursday at 2 PM and immediately brainstorming their project involving co-living artists and interactive storytelling tools at Hailey's place. @ <persona> Hailey Johnson",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hey Hailey, I hope you're having a good day. I've been trying to reach both Isabella and you guys earlier but didn't get any responses yet. I was wondering if we could catch up later today or tomorrow? Maybe grab some coffee together?"
+        ],
+        [
+          "Hailey Johnson",
+          "Hi Abigail, sorry I didn't see your messages earlier. That would be great to grab coffee and catch up. How about this Thursday afternoon?"
+        ],
+        [
+          "Abigail Chen",
+          "Sure, that sounds good. How about around 2 PM at your favorite coffee place then?"
+        ],
+        [
+          "Hailey Johnson",
+          "Perfect, looking forward to it. See you there Abigail!"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds like a plan, Hailey. I'll see you there this Thursday at 2 PM then! Have a good evening."
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks Abigail, I'll see you on Thursday. Have a great day!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks Hailey, talk to you soon! Feel free to reach out if anything comes up before Thursday."
+        ],
+        [
+          "Hailey Johnson",
+          "Abigail, before we go, I was wondering if you'd like to stop by my place for a few minutes now. It would be great to get some preliminary ideas out about our project and not wait till Thursday."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds wonderful, Hailey. I'd love to stop by and chat about our project now. Do you think there's enough time before you need to relax for the evening?"
+        ],
+        [
+          "Hailey Johnson",
+          "Sure, I can spare some time now. It wouldn't take long, just a few minutes to bounce around some initial ideas for our project involving co-living artists and interactive storytelling tools."
+        ],
+        [
+          "Abigail Chen",
+          "That works for me, Hailey. Let\u2019s meet up at your place then and start brainstorming our project."
+        ],
+        [
+          "Hailey Johnson",
+          "Great, Abigail. I'll see you in about 15 minutes at my place then."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds perfect, Hailey. I'll be there in 15 minutes."
+        ],
+        [
+          "Hailey Johnson",
+          "Great, I'll see you soon then. My apartment is on 5th street, right next to the old bookstore."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Hailey. See you at your place in 15 minutes!"
+        ],
+        [
+          "Hailey Johnson",
+          "Perfect, looking forward to our brainstorming session. See you soon!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 42.8,
+          "hunger": 100.0,
+          "fun": 99.3,
+          "hygiene": 80.8,
+          "bladder": 55.2,
+          "social": 15.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcfa\ud83c\udf3f",
+      "description": "watching TV at home. He feels a bit better after addressing his urgent needs and talking with friends earlier, but still misses the company of others (sitting down to watch TV, browsing through channels for something interesting to watch, finds a documentary about wildlife and starts watching it, pauses the TV to get a drink of water, resumes watching the documentary, feeling reflective and thinks about calling another friend for a chat, decides against it and continues to watch TV, notices an advertisement break and uses this time to stretch his legs) (finds a documentary about wildlife and starts watching it) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 22.9,
+          "hunger": 94.8,
+          "fun": 56.9,
+          "hygiene": 99.3,
+          "bladder": 98.4,
+          "social": 12.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\u270d\ufe0f\ud83d\udd04",
+      "description": "working on his composition project at Hobbs Cafe. He focuses intently, taking breaks to grab a snack and coffee (continuing work on the composition, incorporating feedback from discussions with Maria Lopez, Abigail Chen, Klaus Mueller, and his father) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 38.0,
+          "hunger": 100.0,
+          "fun": 95.6,
+          "hygiene": 68.8,
+          "bladder": 27.1,
+          "social": 19.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        40,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail and Hailey arranging a coffee meet-up on Thursday at 2 PM and immediately brainstorming their project involving co-living artists and interactive storytelling tools at Hailey's place. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hey Hailey, I hope you're having a good day. I've been trying to reach both Isabella and you guys earlier but didn't get any responses yet. I was wondering if we could catch up later today or tomorrow? Maybe grab some coffee together?"
+        ],
+        [
+          "Hailey Johnson",
+          "Hi Abigail, sorry I didn't see your messages earlier. That would be great to grab coffee and catch up. How about this Thursday afternoon?"
+        ],
+        [
+          "Abigail Chen",
+          "Sure, that sounds good. How about around 2 PM at your favorite coffee place then?"
+        ],
+        [
+          "Hailey Johnson",
+          "Perfect, looking forward to it. See you there Abigail!"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds like a plan, Hailey. I'll see you there this Thursday at 2 PM then! Have a good evening."
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks Abigail, I'll see you on Thursday. Have a great day!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks Hailey, talk to you soon! Feel free to reach out if anything comes up before Thursday."
+        ],
+        [
+          "Hailey Johnson",
+          "Abigail, before we go, I was wondering if you'd like to stop by my place for a few minutes now. It would be great to get some preliminary ideas out about our project and not wait till Thursday."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds wonderful, Hailey. I'd love to stop by and chat about our project now. Do you think there's enough time before you need to relax for the evening?"
+        ],
+        [
+          "Hailey Johnson",
+          "Sure, I can spare some time now. It wouldn't take long, just a few minutes to bounce around some initial ideas for our project involving co-living artists and interactive storytelling tools."
+        ],
+        [
+          "Abigail Chen",
+          "That works for me, Hailey. Let\u2019s meet up at your place then and start brainstorming our project."
+        ],
+        [
+          "Hailey Johnson",
+          "Great, Abigail. I'll see you in about 15 minutes at my place then."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds perfect, Hailey. I'll be there in 15 minutes."
+        ],
+        [
+          "Hailey Johnson",
+          "Great, I'll see you soon then. My apartment is on 5th street, right next to the old bookstore."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Hailey. See you at your place in 15 minutes!"
+        ],
+        [
+          "Hailey Johnson",
+          "Perfect, looking forward to our brainstorming session. See you soon!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 59.9,
+          "hunger": 100.0,
+          "fun": 87.7,
+          "hygiene": 92.3,
+          "bladder": 78.6,
+          "social": 14.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        62
+      ],
+      "pronunciatio": "\ud83c\udfa7\ud83d\ude0c",
+      "description": "resting and planning to exercise in his room later. He feels a bit better after talking with Eddy Lin earlier but remains tired and needs some downtime (listening to calming music to help him unwind for 10 minutes) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 29.7,
+          "hunger": 91.6,
+          "fun": 9.9,
+          "hygiene": 89.8,
+          "bladder": 76.2,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 19:26:40"
+  }
+}

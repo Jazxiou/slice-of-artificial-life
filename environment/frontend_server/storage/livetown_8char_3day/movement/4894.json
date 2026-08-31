@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        80,
+        21
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83c\udf7d\ufe0f",
+      "description": "taking a short lunch break (eating her lunch) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 62.0,
+          "hunger": 100.0,
+          "fun": 98.3,
+          "hygiene": 60.0,
+          "bladder": 43.7,
+          "social": 28.9
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        103,
+        31
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83e\udd1d",
+      "description": "Klaus is having lunch at Hobbs Cafe (conversing about Eddy Lin and Klaus Mueller discussing their academic interests in music and sociology, respectively, and exploring potential collaboration on a project examining the impacts of gentrification on local music scenes and communities.) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.0,
+          "hunger": 100.0,
+          "fun": 34.9,
+          "hygiene": 84.2,
+          "bladder": 62.6,
+          "social": 52.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "studying or working on assignments (reviewing her physics notes) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.0,
+          "hunger": 22.2,
+          "fun": 42.4,
+          "hygiene": 42.8,
+          "bladder": 28.8,
+          "social": 29.0
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd04",
+      "description": "working on the animation project for her client (updating the storyboard based on client feedback) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 72.0,
+          "hunger": 96.7,
+          "fun": 94.4,
+          "hygiene": 60.0,
+          "bladder": 53.5,
+          "social": 25.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc68\u200d",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (chatting with a regular customer about their health) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 62.0,
+          "hunger": 100.0,
+          "fun": 25.4,
+          "hygiene": 86.3,
+          "bladder": 43.7,
+          "social": 30.7
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83e\udd1d",
+      "description": "Eddy is having lunch at Hobbs Cafe (conversing about Eddy Lin and Klaus Mueller discussing their academic interests in music and sociology, respectively, and exploring potential collaboration on a project examining the impacts of gentrification on local music scenes and communities.) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.0,
+          "hunger": 89.6,
+          "fun": 100.0,
+          "hygiene": 60.0,
+          "bladder": 48.6,
+          "social": 41.7
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        29
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start checking emails and social media briefly @ <waiting> 36 29",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.0,
+          "hunger": 98.8,
+          "fun": 61.7,
+          "hygiene": 51.4,
+          "bladder": 63.3,
+          "social": 25.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        62
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2642",
+      "description": "taking a brief nap or using the time for mental rest to recharge before continuing with his schedule (practicing progressive muscle relaxation techniques) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 65.4,
+          "hunger": 97.9,
+          "fun": 65.9,
+          "hygiene": 51.4,
+          "bladder": 23.9,
+          "social": 36.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 13:35:40"
+  }
+}

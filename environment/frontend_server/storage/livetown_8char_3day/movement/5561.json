@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\u2764\ufe0f",
+      "description": "continuing to prepare for the Valentine's Day party by arranging last-minute details and ensuring everything is ready for the evening event (conversing about Abigail Chen and Isabella Rodriguez discussing arrangements for Valentine's Day activities, including quiet workspaces during the day and a party in the evening at Hobbs Cafe.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.8,
+          "hunger": 97.9,
+          "fun": 100.0,
+          "hygiene": 54.4,
+          "bladder": 30.8,
+          "social": 33.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        57,
+        23
+      ],
+      "pronunciatio": "\u2615\ud83c\udf70",
+      "description": "Klaus is taking a short break at the library to have some coffee and refresh his mind (ordering coffee and a snack, finding a quiet spot to sit and enjoy his coffee) @ the Ville:The Rose and Crown Pub:pub:bar customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 57.8,
+          "hunger": 100.0,
+          "fun": 31.1,
+          "hygiene": 78.7,
+          "bladder": 49.6,
+          "social": 55.7
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        55
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udca1",
+      "description": "studying or working on assignments (reviewing her physics notes) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 72.8,
+          "hunger": 39.7,
+          "fun": 34.9,
+          "hygiene": 37.2,
+          "bladder": 15.9,
+          "social": 31.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac\u2764\ufe0f",
+      "description": "working on the animation project for her client (conversing about Abigail Chen and Isabella Rodriguez discussing arrangements for Valentine's Day activities, including quiet workspaces during the day and a party in the evening at Hobbs Cafe.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 62.8,
+          "hunger": 85.6,
+          "fun": 100.0,
+          "hygiene": 54.4,
+          "bladder": 40.6,
+          "social": 24.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc68\u200d",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (chatting with a regular customer about their health) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.8,
+          "hunger": 100.0,
+          "fun": 29.0,
+          "hygiene": 80.8,
+          "bladder": 30.8,
+          "social": 29.9
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        119,
+        41
+      ],
+      "pronunciatio": "\ud83c\udfa7\ud83c\udfb6",
+      "description": "Eddy is studying music theory and exploring different musical styles at home or in a quiet study area (listening to classical compositions for analysis) @ the Ville:Dorm for Oak Hill College:garden:dorm garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 57.8,
+          "hunger": 94.7,
+          "fun": 100.0,
+          "hygiene": 54.4,
+          "bladder": 35.7,
+          "social": 41.0
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd04",
+      "description": "Hailey is writing (writing the first draft of the outlined chapter) (revising previous sections for coherence and flow) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 72.8,
+          "hunger": 93.7,
+          "fun": 84.7,
+          "hygiene": 45.8,
+          "bladder": 50.4,
+          "social": 17.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        116,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udca1",
+      "description": "studying and working on lab assignments until 3:00 pm (solving practice problems related to the current topic) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.2,
+          "hunger": 86.8,
+          "fun": 60.6,
+          "hygiene": 45.8,
+          "bladder": 12.9,
+          "social": 35.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 15:26:50"
+  }
+}

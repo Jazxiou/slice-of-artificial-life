@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc4d",
+      "description": "handling orders and serving customers. She maintains a friendly demeanor, offering recommendations for Valentine\u2019s Day specials and ensuring everyone feels welcomed and comfortable (engaging with customers to learn about their preferences and making personalized recommendations; checking on tables again to ensure all guests are satisfied and comfortable) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 27.8,
+          "hunger": 97.0,
+          "fun": 91.9,
+          "hygiene": 89.7,
+          "bladder": 76.0,
+          "social": 13.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        90,
+        32
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "Klaus is eating dinner at Hobbs Cafe (ordering food) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.8,
+          "hunger": 83.9,
+          "fun": 30.8,
+          "hygiene": 43.6,
+          "bladder": 30.9,
+          "social": 21.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\u2615\ud83d\udcac",
+      "description": "Maria is continuing her visit at Hobbs Cafe, hoping to meet up with friends or peers for a study session or casual conversation. She feels more energized after her morning routine but still misses the companionship of others and hopes to connect with someone during (discussing upcoming assignments and coursework with Isabella Rodriguez while enjoying coffee together) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.3,
+          "hunger": 100.0,
+          "fun": 59.4,
+          "hygiene": 83.9,
+          "bladder": 62.5,
+          "social": 24.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        73,
+        15
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcf1",
+      "description": "sending a text message to Isabella asking if she's available for a chat @ the Ville:Isabella Rodriguez's apartment:main room:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.8,
+          "hunger": 92.5,
+          "fun": 100.0,
+          "hygiene": 86.8,
+          "bladder": 69.2,
+          "social": 19.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        86,
+        49
+      ],
+      "pronunciatio": "\ud83d\udce6\u2705",
+      "description": "(Tuesday February 14 -- 05:00 PM] Activity: John closes the pharmacy counter and locks up the store, preparing to head home. He feels a mix of relief and exhaustion as he wraps up his day at work (organizing the inventory for any new deliveries or orders needed) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 29.2,
+          "hunger": 91.7,
+          "fun": 58.3,
+          "hygiene": 98.8,
+          "bladder": 97.3,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        74,
+        16
+      ],
+      "pronunciatio": "\ud83c\udf70\u2615\ufe0f",
+      "description": "working on his composition project at Hobbs Cafe. He focuses intently, taking breaks to grab a snack and coffee (takes a break to grab a snack and coffee) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 48.0,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 74.7,
+          "bladder": 41.1,
+          "social": 16.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        83,
+        41
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83c\udf4e\ud83e\udd66",
+      "description": "shopping for groceries to prepare dinner. She feels a little better after her meetings but still wishes she had someone to talk to about her day (browsing through produce and selecting fruits and vegetables) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 62.8,
+          "hunger": 100.0,
+          "fun": 95.7,
+          "hygiene": 81.1,
+          "bladder": 56.0,
+          "social": 11.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udde3",
+      "description": "resuming his afternoon study session on chemistry. He decides to take a short break after lunch to address his feelings of loneliness and tiredness by reaching out to Eddy Lin via text or call for some social interaction (taking notes during his conversation with Eddy Lin) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 39.7,
+          "hunger": 100.0,
+          "fun": 0.0,
+          "hygiene": 95.8,
+          "bladder": 90.2,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 17:27:00"
+  }
+}

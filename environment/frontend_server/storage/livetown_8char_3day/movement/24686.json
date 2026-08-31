@@ -1,0 +1,265 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella and Maria discussing their day at Hobbs Cafe, project progress, and plans to meet for coffee the next morning. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Maria, it's so great to see you having such a productive meeting with Eddy. I'm really glad the cafe could be the backdrop for this collaborative session. How did everything go today?"
+        ],
+        [
+          "Maria Lopez",
+          "Hey Isabella, everything went great! Eddy and I covered a lot about tuning systems and our project. Thanks for keeping Hobbs Cafe running smoothly all day for everyone celebrating Valentine\u2019s Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "It was my pleasure, Maria. I\u2019m glad to see that Eddy and you are making progress on your project. And thank you for all the support today; it really means a lot to me."
+        ],
+        [
+          "Maria Lopez",
+          "No problem at all, Isabella. It\u2019s nice to see Hobbs Cafe buzzing with such positive energy today. How are you holding up after a long day of coordinating everything?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I\u2019m feeling pretty worn out, but I\u2019m also really happy about how everything turned out. Thanks for asking, Maria. Would you like to grab a cup of coffee tomorrow morning before work and catch up more?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds wonderful, Isabella. I\u2019d love to catch up over coffee tomorrow morning. It would be great to hear more about how today went for you and chat about our upcoming assignments too."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, let\u2019s meet up at 9 AM then. I\u2019ll need some coffee to start my day anyway. See you tomorrow, Maria!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good to me, Isabella. I\u2019ll see you at 9 AM then. Have a great night!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "It was really nice seeing you today, Maria. Take care and I'll see you bright and early tomorrow."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 16.2,
+          "hunger": 100.0,
+          "fun": 75.4,
+          "hygiene": 65.9,
+          "bladder": 9.1,
+          "social": 16.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        118,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83e\uddec",
+      "description": "Klaus is taking a short break after his meeting with Wolfgang Schulz. He reflects on the discussions they had and plans to incorporate some of Wolfgang's insights into his research paper (planning how to incorporate Wolfgang's chemical perspectives into his sociological research framework) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 32.4,
+          "hunger": 96.6,
+          "fun": 15.8,
+          "hygiene": 68.4,
+          "bladder": 7.1,
+          "social": 45.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        75,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella and Maria discussing their day at Hobbs Cafe, project progress, and plans to meet for coffee the next morning. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Maria, it's so great to see you having such a productive meeting with Eddy. I'm really glad the cafe could be the backdrop for this collaborative session. How did everything go today?"
+        ],
+        [
+          "Maria Lopez",
+          "Hey Isabella, everything went great! Eddy and I covered a lot about tuning systems and our project. Thanks for keeping Hobbs Cafe running smoothly all day for everyone celebrating Valentine\u2019s Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "It was my pleasure, Maria. I\u2019m glad to see that Eddy and you are making progress on your project. And thank you for all the support today; it really means a lot to me."
+        ],
+        [
+          "Maria Lopez",
+          "No problem at all, Isabella. It\u2019s nice to see Hobbs Cafe buzzing with such positive energy today. How are you holding up after a long day of coordinating everything?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I\u2019m feeling pretty worn out, but I\u2019m also really happy about how everything turned out. Thanks for asking, Maria. Would you like to grab a cup of coffee tomorrow morning before work and catch up more?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds wonderful, Isabella. I\u2019d love to catch up over coffee tomorrow morning. It would be great to hear more about how today went for you and chat about our upcoming assignments too."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, let\u2019s meet up at 9 AM then. I\u2019ll need some coffee to start my day anyway. See you tomorrow, Maria!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good to me, Isabella. I\u2019ll see you at 9 AM then. Have a great night!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "It was really nice seeing you today, Maria. Take care and I'll see you bright and early tomorrow."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 47.5,
+          "hunger": 100.0,
+          "fun": 99.7,
+          "hygiene": 36.9,
+          "bladder": 0.0,
+          "social": 19.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "reviewing the day's progress and planning for upcoming tasks related to her interactive art project and Valentine\u2019s Day event at Hobbs Cafe. She also considers any necessary adjustments due to today\u2019s interruptions (discussing potential adjustments with Isabella Rodriguez regarding the interactive art installation and storytelling event) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 37.8,
+          "hunger": 99.3,
+          "fun": 27.4,
+          "hygiene": 98.3,
+          "bladder": 96.0,
+          "social": 20.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83e\udd14\ud83d\udcfa",
+      "description": "Watching his favorite television show to unwind after a long day at work. He enjoys the quiet evening, reflecting on the day's events and looking forward to another day ahead. (reflecting on the day's events during an ad break) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 5.2,
+          "hunger": 94.7,
+          "fun": 54.5,
+          "hygiene": 82.5,
+          "bladder": 21.7,
+          "social": 2.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        87,
+        48
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "going back to his dorm room after a long day at the college library. He feels tired but also lonely and in need of company, so he decides to send out another message to friends asking if anyone wants to hang out or grab dinner together (sitting down on his bed to rest for a moment) @ the Ville:Lin family's house:Eddy Lin's bedroom:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 33.0,
+          "hunger": 100.0,
+          "fun": 95.8,
+          "hygiene": 80.0,
+          "bladder": 75.5,
+          "social": 20.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcf1\ud83d\udcf2",
+      "description": "Hailey is messaging friends like Abigail Chen to see if anyone is available for a video chat or hangout, feeling lonely and wanting company (browsing through social media platforms for any updates from friends) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.6,
+          "hunger": 96.6,
+          "fun": 98.4,
+          "hygiene": 64.3,
+          "bladder": 17.0,
+          "social": 10.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83c\udf3f",
+      "description": "Wolfgang is studying in his room. Despite feeling increasingly tired, he continues to push himself to review his chemistry notes and prepare for upcoming exams (reviews his organic chemistry notes) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 0.0,
+          "hunger": 82.7,
+          "fun": 1.8,
+          "hygiene": 56.3,
+          "bladder": 0.0,
+          "social": 8.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 20:34:20"
+  }
+}

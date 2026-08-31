@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Isabella Rodriguez discussing arrangements for Valentine's Day activities, including quiet workspaces during the day and a party in the evening at Hobbs Cafe. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Isabella, I hope you're doing well. It looks like you have everything under control for Valentine's Day. That must be a lot of work!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Abigail! It has been a lot of work but it\u2019s also very exciting. We\u2019re doing our best to make sure everyone feels welcome and enjoys themselves."
+        ],
+        [
+          "Abigail Chen",
+          "Absolutely, I\u2019m sure everyone will have a great time. By the way, do you happen to know if there\u2019s going to be any room for someone who wants to work quietly on their laptop during the day?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Of course, Abigail! There will be plenty of space for you to work quietly on your laptop during the day. Feel free to come in whenever it suits you best and we'll make sure not to disturb you."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds great, thanks so much for letting me know. I'll definitely come in and take advantage of that space then. By the way, do you have any plans to socialize this evening?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'm planning to host the Valentine's Day party this evening at Hobbs Cafe. Would you like to join and meet some of our regular customers? It\u2019s a great opportunity for networking and meeting new people!"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds like a wonderful evening, Isabella. I would love to join and see what it\u2019s all about! What time should I come in?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "The party starts at 5pm and goes until 7pm. Come whenever you're free, Abigail! I'd love to have you there."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds perfect, Isabella. I'll make sure to be there around 5pm. Thanks for inviting me!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great to hear that, Abigail! I'm looking forward to seeing you there. If you need any help or have questions about the event beforehand, just let me know."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks again, Isabella! I appreciate your hospitality and can't wait to see everyone tonight."
+        ],
+        [
+          "Isabella Rodriguez",
+          "You're very welcome, Abigail! It's going to be a lovely evening and I think you'll enjoy it. Have a great day!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella. I'll see you this evening and make sure to come in during the day if I need a quiet space for work."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Abigail! If you have any other requests or need anything specific for your comfort during the day or evening, just let me know. Enjoy your work and see you later!"
+        ],
+        [
+          "Abigail Chen",
+          "Sure, Isabella, I'll keep that in mind. Thanks for your flexibility and support!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Have a great day working, Abigail! And I hope you enjoy the party this evening."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 53.7,
+          "hunger": 99.0,
+          "fun": 100.0,
+          "hygiene": 54.9,
+          "bladder": 32.0,
+          "social": 29.9
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        91,
+        32
+      ],
+      "pronunciatio": "\u2615\ud83d\udde3\ufe0f",
+      "description": "Klaus is taking a short break at the library to have some coffee and refresh his mind (waiting to start conversing about Klaus Mueller and Maria Lopez discussing their class assignments and planning to work together in a quiet corner while getting coffee.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 58.7,
+          "hunger": 100.0,
+          "fun": 31.8,
+          "hygiene": 79.2,
+          "bladder": 50.9,
+          "social": 56.4
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        112,
+        37
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udca1",
+      "description": "studying or working on assignments (reviewing her physics notes) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.7,
+          "hunger": 40.8,
+          "fun": 35.7,
+          "hygiene": 37.8,
+          "bladder": 17.1,
+          "social": 32.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        75,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Isabella Rodriguez discussing arrangements for Valentine's Day activities, including quiet workspaces during the day and a party in the evening at Hobbs Cafe. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Isabella, I hope you're doing well. It looks like you have everything under control for Valentine's Day. That must be a lot of work!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Abigail! It has been a lot of work but it\u2019s also very exciting. We\u2019re doing our best to make sure everyone feels welcome and enjoys themselves."
+        ],
+        [
+          "Abigail Chen",
+          "Absolutely, I\u2019m sure everyone will have a great time. By the way, do you happen to know if there\u2019s going to be any room for someone who wants to work quietly on their laptop during the day?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Of course, Abigail! There will be plenty of space for you to work quietly on your laptop during the day. Feel free to come in whenever it suits you best and we'll make sure not to disturb you."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds great, thanks so much for letting me know. I'll definitely come in and take advantage of that space then. By the way, do you have any plans to socialize this evening?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'm planning to host the Valentine's Day party this evening at Hobbs Cafe. Would you like to join and meet some of our regular customers? It\u2019s a great opportunity for networking and meeting new people!"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds like a wonderful evening, Isabella. I would love to join and see what it\u2019s all about! What time should I come in?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "The party starts at 5pm and goes until 7pm. Come whenever you're free, Abigail! I'd love to have you there."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds perfect, Isabella. I'll make sure to be there around 5pm. Thanks for inviting me!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great to hear that, Abigail! I'm looking forward to seeing you there. If you need any help or have questions about the event beforehand, just let me know."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks again, Isabella! I appreciate your hospitality and can't wait to see everyone tonight."
+        ],
+        [
+          "Isabella Rodriguez",
+          "You're very welcome, Abigail! It's going to be a lovely evening and I think you'll enjoy it. Have a great day!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella. I'll see you this evening and make sure to come in during the day if I need a quiet space for work."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Abigail! If you have any other requests or need anything specific for your comfort during the day or evening, just let me know. Enjoy your work and see you later!"
+        ],
+        [
+          "Abigail Chen",
+          "Sure, Isabella, I'll keep that in mind. Thanks for your flexibility and support!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Have a great day working, Abigail! And I hope you enjoy the party this evening."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 63.7,
+          "hunger": 86.7,
+          "fun": 100.0,
+          "hygiene": 54.9,
+          "bladder": 41.8,
+          "social": 20.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        79,
+        48
+      ],
+      "pronunciatio": "\ud83d\udc8a",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (organizing medications on the shelves) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.7,
+          "hunger": 100.0,
+          "fun": 29.7,
+          "hygiene": 81.3,
+          "bladder": 32.0,
+          "social": 30.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        119,
+        41
+      ],
+      "pronunciatio": "\ud83c\udfa7\ud83c\udfb6",
+      "description": "Eddy is studying music theory and exploring different musical styles at home or in a quiet study area (listening to classical compositions for analysis) @ the Ville:Dorm for Oak Hill College:garden:dorm garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 58.7,
+          "hunger": 95.8,
+          "fun": 100.0,
+          "hygiene": 54.9,
+          "bladder": 36.9,
+          "social": 41.7
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\u270d\ud83c\udffc\u27a1",
+      "description": "Hailey is writing (writing the first draft of the outlined chapter) (continuing to write subsequent paragraphs based on the outline) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.7,
+          "hunger": 94.8,
+          "fun": 80.1,
+          "hygiene": 46.4,
+          "bladder": 51.6,
+          "social": 18.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "studying and working on lab assignments until 3:00 pm (reviewing his notes from previous lectures) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.1,
+          "hunger": 87.9,
+          "fun": 61.3,
+          "hygiene": 46.4,
+          "bladder": 14.2,
+          "social": 35.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 15:15:50"
+  }
+}

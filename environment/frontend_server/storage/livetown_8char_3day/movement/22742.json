@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udd04\ud83d\udc40",
+      "description": "Isabella is meeting with Klaus Mueller to finalize setup arrangements for Valentine\u2019s Day. They go over last-minute details and ensure everything is ready for the evening celebration (reviewing the current status of all setup arrangements) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 43.2,
+          "hunger": 99.2,
+          "fun": 40.2,
+          "hygiene": 73.5,
+          "bladder": 0.0,
+          "social": 12.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        110,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "Klaus is preparing for his meeting with Wolfgang Schulz. He reviews notes and gathers materials he will need to discuss the intersection of chemistry and sociology in relation to gentrification (reviewing his previous notes on gentrification) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.4,
+          "hunger": 94.2,
+          "fun": 23.9,
+          "hygiene": 84.6,
+          "bladder": 44.9,
+          "social": 28.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        126,
+        54
+      ],
+      "pronunciatio": "\ud83d\udcc5",
+      "description": "studying or planning her streaming schedule (organizing her streaming schedule for the week ahead) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.5,
+          "hunger": 95.8,
+          "fun": 84.0,
+          "hygiene": 53.1,
+          "bladder": 0.0,
+          "social": 16.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        40,
+        21
+      ],
+      "pronunciatio": "\ud83d\udebb\ud83e\uddfd",
+      "description": "taking a short break to address her urgent need for the bathroom (using the restroom) @ the Ville:artist's co-living space:Abigail Chen's bathroom:toilet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.8,
+          "hunger": 99.8,
+          "fun": 46.6,
+          "hygiene": 68.6,
+          "bladder": 17.6,
+          "social": 17.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcde\ud83d\udca1",
+      "description": "John is interacting with customers and filling prescriptions at Willow Market and Pharmacy. He maintains a friendly demeanor, offering assistance and advice to those who need it (addressing a customer complaint and finding a solution) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 32.2,
+          "hunger": 97.1,
+          "fun": 43.3,
+          "hygiene": 81.5,
+          "bladder": 25.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "Eddy is continuing his studies and working on his composition project at the college library (reviewing notes from previous classes) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 60.0,
+          "hunger": 93.1,
+          "fun": 76.9,
+          "hygiene": 87.6,
+          "bladder": 0.0,
+          "social": 12.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83e\udd14",
+      "description": "Hailey is writing or brainstorming ideas for her podcast (writing down key questions to ask guests or discuss during episodes) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.6,
+          "hunger": 77.8,
+          "fun": 100.0,
+          "hygiene": 80.5,
+          "bladder": 54.8,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        110,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "attending an interdisciplinary seminar. He finds these sessions insightful and enjoys discussing chemistry's broader impacts with peers from different academic backgrounds (engaging in peer-to-peer conversations about chemistry's societal impact) @ the Ville:Oak Hill College:classroom:blackboard",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 18.6,
+          "hunger": 87.6,
+          "fun": 21.0,
+          "hygiene": 72.5,
+          "bladder": 0.0,
+          "social": 2.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 15:10:20"
+  }
+}

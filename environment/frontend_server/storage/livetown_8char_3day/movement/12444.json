@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        21
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83c\udf7d\ufe0f",
+      "description": "handling orders and serving customers. She maintains a friendly demeanor, offering recommendations for Valentine\u2019s Day specials and ensuring everyone feels welcomed and comfortable (serving the customer their food with a friendly greeting) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 62.2,
+          "hunger": 97.0,
+          "fun": 68.0,
+          "hygiene": 57.1,
+          "bladder": 10.0,
+          "social": 4.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        24
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "working on his research paper in the library (outlining the main body sections and drafting the first section) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.2,
+          "hunger": 64.1,
+          "fun": 53.5,
+          "hygiene": 47.0,
+          "bladder": 10.1,
+          "social": 14.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        131,
+        57
+      ],
+      "pronunciatio": "\ud83d\udebf\ud83e\uddfc",
+      "description": "Maria is waking up and starting her morning routine. She feels the urge to use the bathroom and decides to take a quick shower to feel refreshed before beginning her day (taking a quick shower) @ the Ville:Dorm for Oak Hill College:woman's bathroom:shower",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 98.1,
+          "hunger": 0.0,
+          "fun": 58.5,
+          "hygiene": 38.3,
+          "bladder": 76.7,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        40,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83d\udebd",
+      "description": "working on her animation project. She feels slightly distracted by the need to use the bathroom but tries to focus on her work (feels the urge to use the bathroom but tries to focus and completes one more task related to animation before taking a short break) @ the Ville:artist's co-living space:Abigail Chen's bathroom:toilet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 87.2,
+          "hunger": 90.6,
+          "fun": 53.7,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        78,
+        50
+      ],
+      "pronunciatio": "\ud83d\udc8a\u2753",
+      "description": "(Tuesday February 14 -- 10:00 AM] Activity: John is attending to customers at the pharmacy, providing them with medications and advice. He tries to make the process as smooth as possible for each customer (answering questions about side effects of medications) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.6,
+          "hunger": 91.0,
+          "fun": 23.0,
+          "hygiene": 96.2,
+          "bladder": 91.2,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        74,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\u2615",
+      "description": "[ (conversing about Eddy Lin and Klaus Mueller discussing their potential collaboration on a project that combines Eddy's musical composition reflecting gentrification with Klaus's research on the topic, planning to meet at Hobbs Cafe to brainstorm ideas.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.4,
+          "hunger": 36.8,
+          "fun": 84.3,
+          "hygiene": 95.4,
+          "bladder": 89.3,
+          "social": 3.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        29
+      ],
+      "pronunciatio": "\ud83e\uddf6\ud83d\udc55",
+      "description": "washing up, getting dressed, and having breakfast. She feels a bit restless due to her need for the bathroom but tries to focus on her morning routine (getting dressed for the day) @ the Ville:artist's co-living space:Hailey Johnson's room:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 97.2,
+          "hunger": 38.3,
+          "fun": 49.7,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        117,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcf1\ud83d\udd04",
+      "description": "taking a short break and grabbing some snacks (checking social media for updates from friends) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 56.6,
+          "hunger": 63.9,
+          "fun": 0.0,
+          "hygiene": 92.4,
+          "bladder": 31.4,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 10:34:00"
+  }
+}

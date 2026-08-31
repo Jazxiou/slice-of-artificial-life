@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcc6\ud83d\udc40",
+      "description": "meeting with Klaus Mueller to finalize setup arrangements for Valentine\u2019s Day. They go over last-minute details and ensure everything is ready for the evening celebration (covering various aspects including seating arrangement, menu options, sound system, lighting setup, schedule review, emergency procedures, decorations, inventory of supplies, staffing needs, contingency plans, promotional materials, new technology, guest feedback, post-event cleanup, budget review, special orders from regular customers, timeline for setup and breakdown of decorations, vendor arrangements or deliveries, guest list and seating chart, menu items or drink specials, marketing strategies, updates from suppliers, final checklist) (and Klaus go over the schedule review to ensure everything is on track) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.0,
+          "hunger": 100.0,
+          "fun": 52.9,
+          "hygiene": 83.0,
+          "bladder": 15.3,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        120,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Maria Lopez discussing plans to grab breakfast together before working on Klaus's research paper, including outlining sections and reviewing the introduction. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Maria, I saw you heading out. Do you want to grab some coffee together before you head over to Hobbs Cafe?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, Klaus! That would be great. I could use some company and I\u2019m actually feeling a bit peckish too."
+        ],
+        [
+          "Klaus Mueller",
+          "Awesome! How about we stop by the caf\u00e9 on campus first for breakfast and then head to Hobbs Cafe together?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds perfect, Klaus. Let\u2019s go get something to eat first then."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, let\u2019s grab some breakfast then. I\u2019ve been meaning to talk to you about our plans for working on my research paper this week."
+        ],
+        [
+          "Maria Lopez",
+          "Sure, I\u2019d love to talk about that. What did you have in mind for today?"
+        ],
+        [
+          "Klaus Mueller",
+          "I was thinking we could spend some time today going over the introduction and maybe start outlining the rest of the paper. What do you think?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like a good plan, Klaus. I think it would be helpful to lay out an outline first before diving into the details of each section. And breakfast sounds great too!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good to me, Maria. Let\u2019s make sure we allocate some time later this afternoon as well for a deeper dive into the paper. And, I\u2019m glad you\u2019re up for breakfast too!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds like a plan, Klaus. Let\u2019s meet up after breakfast to discuss the outline and then go over the introduction in more detail later this afternoon."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds great, Maria. I\u2019ll be looking forward to our discussions today and this afternoon. Let\u2019s make sure we have enough time for everything."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds perfect, Klaus. I think it\u2019s going to be really productive to work on the outline first thing after breakfast and then dive deeper into the intro this afternoon. See you soon!"
+        ],
+        [
+          "Klaus Mueller",
+          "Great, let\u2019s make sure we have all our materials ready and a quiet spot to work on. I\u2019ll see you at breakfast then!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Klaus. I\u2019ll bring some snacks and coffee for later at Hobbs Cafe to keep us fueled while we work on your paper. See you in a bit!"
+        ],
+        [
+          "Klaus Mueller",
+          "That\u2019s perfect, Maria. Thanks for bringing snacks and coffee. It\u2019ll be great to keep our energy up while we work. I\u2019m really looking forward to today."
+        ],
+        [
+          "Maria Lopez",
+          "Perfect, let\u2019s catch up at breakfast then and get started on the outline. See you soon, Klaus!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 75.2,
+          "hunger": 100.0,
+          "fun": 7.2,
+          "hygiene": 94.1,
+          "bladder": 67.0,
+          "social": 10.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Maria Lopez discussing plans to grab breakfast together before working on Klaus's research paper, including outlining sections and reviewing the introduction. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Maria, I saw you heading out. Do you want to grab some coffee together before you head over to Hobbs Cafe?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, Klaus! That would be great. I could use some company and I\u2019m actually feeling a bit peckish too."
+        ],
+        [
+          "Klaus Mueller",
+          "Awesome! How about we stop by the caf\u00e9 on campus first for breakfast and then head to Hobbs Cafe together?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds perfect, Klaus. Let\u2019s go get something to eat first then."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, let\u2019s grab some breakfast then. I\u2019ve been meaning to talk to you about our plans for working on my research paper this week."
+        ],
+        [
+          "Maria Lopez",
+          "Sure, I\u2019d love to talk about that. What did you have in mind for today?"
+        ],
+        [
+          "Klaus Mueller",
+          "I was thinking we could spend some time today going over the introduction and maybe start outlining the rest of the paper. What do you think?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like a good plan, Klaus. I think it would be helpful to lay out an outline first before diving into the details of each section. And breakfast sounds great too!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good to me, Maria. Let\u2019s make sure we allocate some time later this afternoon as well for a deeper dive into the paper. And, I\u2019m glad you\u2019re up for breakfast too!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds like a plan, Klaus. Let\u2019s meet up after breakfast to discuss the outline and then go over the introduction in more detail later this afternoon."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds great, Maria. I\u2019ll be looking forward to our discussions today and this afternoon. Let\u2019s make sure we have enough time for everything."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds perfect, Klaus. I think it\u2019s going to be really productive to work on the outline first thing after breakfast and then dive deeper into the intro this afternoon. See you soon!"
+        ],
+        [
+          "Klaus Mueller",
+          "Great, let\u2019s make sure we have all our materials ready and a quiet spot to work on. I\u2019ll see you at breakfast then!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Klaus. I\u2019ll bring some snacks and coffee for later at Hobbs Cafe to keep us fueled while we work on your paper. See you in a bit!"
+        ],
+        [
+          "Klaus Mueller",
+          "That\u2019s perfect, Maria. Thanks for bringing snacks and coffee. It\u2019ll be great to keep our energy up while we work. I\u2019m really looking forward to today."
+        ],
+        [
+          "Maria Lopez",
+          "Perfect, let\u2019s catch up at breakfast then and get started on the outline. See you soon, Klaus!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 90.3,
+          "hunger": 27.3,
+          "fun": 54.7,
+          "hygiene": 62.6,
+          "bladder": 0.0,
+          "social": 5.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        28,
+        42
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2640",
+      "description": "eating breakfast (taking a short walk around her neighborhood for fresh air) @ the Ville:Johnson Park:park:park garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 80.6,
+          "hunger": 100.0,
+          "fun": 48.3,
+          "hygiene": 74.0,
+          "bladder": 31.7,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        76,
+        49
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "John is interacting with customers and filling prescriptions at Willow Market and Pharmacy. He maintains a friendly demeanor, offering assistance and advice to those who need it (organizing the pharmacy shelves to keep them well-stocked and tidy) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 48.0,
+          "hunger": 93.8,
+          "fun": 56.0,
+          "hygiene": 91.0,
+          "bladder": 47.2,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcdd\u2705",
+      "description": "Eddy is attending classes at Oak Hill College (revising notes to ensure accuracy) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 75.8,
+          "hunger": 83.5,
+          "fun": 72.7,
+          "hygiene": 94.0,
+          "bladder": 0.6,
+          "social": 4.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        28,
+        28
+      ],
+      "pronunciatio": "\ud83c\udf73\u2615",
+      "description": "Hailey is taking a brief break to make breakfast and relax for a bit (making breakfast) @ the Ville:artist's co-living space:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 90.4,
+          "hunger": 26.9,
+          "fun": 84.0,
+          "hygiene": 90.0,
+          "bladder": 77.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "studying in his room. He feels a bit more alert now and starts to engage deeply with the material, taking detailed notes and summarizing complex concepts (reviewing his chemistry textbook for an hour) (summarizing the main points of chapter 5) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 34.4,
+          "hunger": 88.3,
+          "fun": 33.7,
+          "hygiene": 82.0,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 12:00:30"
+  }
+}

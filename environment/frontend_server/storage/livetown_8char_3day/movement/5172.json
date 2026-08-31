@@ -1,0 +1,256 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udf70",
+      "description": "having a meeting with staff to discuss details about the Valentine's Day party (discussing menu options and special Valentine's Day treats) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 58.2,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 57.6,
+          "bladder": 38.3,
+          "social": 25.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        111,
+        37
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "Klaus is returning to the library to continue working on his research paper (conversing about Klaus Mueller and Wolfgang Schulz discussing how to manage their schedules more effectively by integrating their coursework, research work, and study group meetings.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.2,
+          "hunger": 98.1,
+          "fun": 35.4,
+          "hygiene": 81.9,
+          "bladder": 57.2,
+          "social": 55.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        75,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Isabella Rodriguez conversing about grabbing coffee to discuss Valentine's Day plans and helping Maria with her assignment. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Isabella, I see you're busy planning for Valentine's Day. Any chance we could grab a quick coffee later and chat about it?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Of course, Maria! How about after 4 PM when I'm done with my staff meeting and final arrangements?"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Isabella. I'll be around then to catch up and hear all about your plans for Valentine's Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Perfect, Maria. I'm looking forward to it. In the meantime, do you need any help with your assignments or just someone to talk to over coffee?"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Isabella. Actually, I could use someone to talk to right now if you have a moment. This assignment is driving me crazy and I'm just feeling overwhelmed."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, Maria, come on over to my office or anywhere comfortable. Let's take a break from all this planning and focus on you for a bit. We'll grab some coffee and see if we can sort out those frustrations."
+        ],
+        [
+          "Maria Lopez",
+          "That would be lovely, Isabella. Let's head to your office then. I really appreciate you taking time out of your busy schedule for me."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Maria. Let's head to my office right now then. I'll get us some coffee and we can tackle those frustrations together."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Isabella. Thanks for being so understanding and supportive."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Alright, Maria, let's head to my office. I'll get us some coffee and we can work through this assignment together."
+        ],
+        [
+          "Maria Lopez",
+          "Sure, let's go. I'll follow you to your office, Isabella."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Maria. I'll get us some coffee and we can sit down and figure this out together."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Isabella. I really appreciate your help."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Let's head to my office then. I'll get us some coffee and we can tackle this assignment together, step by step."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Isabella. Let\u2019s head to your office and see if we can make some progress on this assignment."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, let's go to my office now. I'll get us some coffee and we can start working on your assignment right away."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 78.2,
+          "hunger": 17.6,
+          "fun": 39.3,
+          "hygiene": 40.5,
+          "bladder": 23.4,
+          "social": 25.9
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\u2705\ud83c\udfac",
+      "description": "working on the animation project for her client (animating key scenes according to the updated storyboard) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 68.2,
+          "hunger": 92.1,
+          "fun": 100.0,
+          "hygiene": 57.6,
+          "bladder": 48.1,
+          "social": 21.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        76,
+        46
+      ],
+      "pronunciatio": "\ud83d\udc8a",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (organizing medications on the shelves) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 58.2,
+          "hunger": 100.0,
+          "fun": 22.4,
+          "hygiene": 84.0,
+          "bladder": 38.3,
+          "social": 27.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        83,
+        42
+      ],
+      "pronunciatio": "\ud83c\udfb9\ud83d\udcaa",
+      "description": "Eddy is studying music theory and exploring different musical styles at home or in a quiet study area (practicing scales and arpeggios on the piano) @ the Ville:Lin family's house:Eddy Lin's bedroom:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.2,
+          "hunger": 99.6,
+          "fun": 97.9,
+          "hygiene": 57.6,
+          "bladder": 43.2,
+          "social": 38.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\u23f0\ud83d\udcf1",
+      "description": "Hailey is having lunch (waiting to start checking emails and social media briefly) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 78.2,
+          "hunger": 100.0,
+          "fun": 58.6,
+          "hygiene": 49.1,
+          "bladder": 57.9,
+          "social": 22.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        110,
+        37
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "studying and working on lab assignments until 2:00 pm (conversing about Klaus Mueller and Wolfgang Schulz discussing how to manage their schedules more effectively by integrating their coursework, research work, and study group meetings.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 68.6,
+          "hunger": 93.3,
+          "fun": 64.9,
+          "hygiene": 49.1,
+          "bladder": 20.5,
+          "social": 39.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 14:22:00"
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez inviting Klaus Mueller to Hobbs Cafe's Valentine's Day party and discussing potential ways he can assist with the event setup or during rehearsals. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Klaus, I hope you're enjoying your meal. How are you finding everything at Hobbs Cafe today?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Isabella, yes everything is great. I heard you're organizing a Valentine's Day party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's right, Klaus! We're planning a special Valentine's Day party for our customers. It'll be on February 14th from 5pm to 7pm. Would you like to come and join us?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a fun event, Isabella. I appreciate the invite but I might have plans that day. Could you tell me more about what kind of activities will be happening at the party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, Klaus! We're planning some fun activities like live music, a photo booth with festive props, and even a mini dessert bar. Plus, we'll have special Valentine's Day treats on the menu."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds really nice, Isabella. I'm glad to hear there will be live music and a photo booth. Do you need any help with organizing the event or do you just have staff volunteers?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "We have a great team helping out, Klaus. But if you're interested in getting involved, we could really use extra hands for setting up and perhaps manning the dessert bar or taking some photos at the booth."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Isabella. While I might not be able to make it on the 14th, I'd love to help out with setup or during one of the rehearsals if you need assistance before then."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be fantastic, Klaus! I'll make sure to let you know when we need help with setup or rehearsals leading up to Valentine's Day. Thank you so much for offering your time and support!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Isabella. It was nice talking to you and I'm looking forward to hearing about how I can help out."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Klaus, it was great talking to you. I appreciate your willingness to help out. We'll definitely reach out as we finalize the details and dates for setup or rehearsals."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks again, Isabella. I'll be looking forward to your message and hope the party turns out great!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Before you go, Klaus, do let me have your contact details so we can keep in touch about any plans to help out. Would that be okay?"
+        ],
+        [
+          "Klaus Mueller",
+          "Of course, Isabella. I can give you my contact information and we'll keep in touch regarding any opportunities to help out."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Klaus. Let's exchange contacts and I'll be sure to reach out when we need your help. Have a wonderful day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Isabella. I'm looking forward to hearing from you and helping out however I can."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 64.9,
+          "hunger": 87.7,
+          "fun": 100.0,
+          "hygiene": 61.7,
+          "bladder": 47.8,
+          "social": 26.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        75,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez inviting Klaus Mueller to Hobbs Cafe's Valentine's Day party and discussing potential ways he can assist with the event setup or during rehearsals. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Klaus, I hope you're enjoying your meal. How are you finding everything at Hobbs Cafe today?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Isabella, yes everything is great. I heard you're organizing a Valentine's Day party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's right, Klaus! We're planning a special Valentine's Day party for our customers. It'll be on February 14th from 5pm to 7pm. Would you like to come and join us?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a fun event, Isabella. I appreciate the invite but I might have plans that day. Could you tell me more about what kind of activities will be happening at the party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, Klaus! We're planning some fun activities like live music, a photo booth with festive props, and even a mini dessert bar. Plus, we'll have special Valentine's Day treats on the menu."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds really nice, Isabella. I'm glad to hear there will be live music and a photo booth. Do you need any help with organizing the event or do you just have staff volunteers?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "We have a great team helping out, Klaus. But if you're interested in getting involved, we could really use extra hands for setting up and perhaps manning the dessert bar or taking some photos at the booth."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Isabella. While I might not be able to make it on the 14th, I'd love to help out with setup or during one of the rehearsals if you need assistance before then."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be fantastic, Klaus! I'll make sure to let you know when we need help with setup or rehearsals leading up to Valentine's Day. Thank you so much for offering your time and support!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Isabella. It was nice talking to you and I'm looking forward to hearing about how I can help out."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Klaus, it was great talking to you. I appreciate your willingness to help out. We'll definitely reach out as we finalize the details and dates for setup or rehearsals."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks again, Isabella. I'll be looking forward to your message and hope the party turns out great!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Before you go, Klaus, do let me have your contact details so we can keep in touch about any plans to help out. Would that be okay?"
+        ],
+        [
+          "Klaus Mueller",
+          "Of course, Isabella. I can give you my contact information and we'll keep in touch regarding any opportunities to help out."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Klaus. Let's exchange contacts and I'll be sure to reach out when we need your help. Have a wonderful day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Isabella. I'm looking forward to hearing from you and helping out however I can."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 69.9,
+          "hunger": 99.8,
+          "fun": 23.9,
+          "hygiene": 85.9,
+          "bladder": 66.6,
+          "social": 42.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        25
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "[(ID:WpFGJE) Monday February 13 -- 01:00 PM] Activity: Maria heads to Hobbs Cafe to study and grab an afternoon snack from 1:00 pm to 3:00 (walking to Hobbs Cafe) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.9,
+          "hunger": 24.6,
+          "fun": 44.7,
+          "hygiene": 44.5,
+          "bladder": 32.9,
+          "social": 27.4
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcc5",
+      "description": "taking a lunch break (planning her afternoon tasks) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.9,
+          "hunger": 100.0,
+          "fun": 80.9,
+          "hygiene": 61.7,
+          "bladder": 57.6,
+          "social": 27.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\ud83d\udc81\u200d\u2642",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (attending to customer inquiries) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.9,
+          "hunger": 100.0,
+          "fun": 27.8,
+          "hygiene": 88.0,
+          "bladder": 47.8,
+          "social": 33.0
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        113,
+        25
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "Eddy is having lunch at Hobbs Cafe (walking to Hobbs Cafe) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.9,
+          "hunger": 77.1,
+          "fun": 99.9,
+          "hygiene": 61.7,
+          "bladder": 52.7,
+          "social": 32.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        31,
+        41
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2640",
+      "description": "Hailey is having lunch (taking a short walk around the neighborhood to clear her mind) @ the Ville:Johnson Park:park:park garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.9,
+          "hunger": 80.5,
+          "fun": 56.8,
+          "hygiene": 53.1,
+          "bladder": 67.4,
+          "social": 27.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc94",
+      "description": "eating lunch (conversing about Isabella inviting Wolfgang to her Valentine's Day party at the dessert bar and Wolfgang politely declining while keeping the door open for future events.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.9,
+          "hunger": 100.0,
+          "fun": 55.3,
+          "hygiene": 53.1,
+          "bladder": 25.6,
+          "social": 38.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 13:01:00"
+  }
+}

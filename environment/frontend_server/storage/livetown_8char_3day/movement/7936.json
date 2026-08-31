@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddf9\u2615",
+      "description": "Isabella is closing Hobbs Cafe for the day and cleaning up the premises (cleaning the coffee machines and espresso machine) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 19.8,
+          "hunger": 84.4,
+          "fun": 93.2,
+          "hygiene": 34.6,
+          "bladder": 0.0,
+          "social": 27.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udecb\ud83d\udcbb",
+      "description": "Klaus is reading related literature for his research paper at a local coffee shop (finding a comfortable spot to sit and setting up his laptop) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 24.8,
+          "hunger": 100.0,
+          "fun": 28.6,
+          "hygiene": 58.9,
+          "bladder": 3.4,
+          "social": 46.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        118,
+        51
+      ],
+      "pronunciatio": "\ud83c\udfae\ud83d\udcac",
+      "description": "connecting with friends or colleagues online (chatting about recent games and streaming experiences) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 39.8,
+          "hunger": 47.2,
+          "fun": 97.4,
+          "hygiene": 17.4,
+          "bladder": 0.0,
+          "social": 19.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udca1",
+      "description": "reviewing and refining the interactive art experiments she worked on earlier in the day (reviewing previous work to identify areas for improvement) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 29.8,
+          "hunger": 99.7,
+          "fun": 87.4,
+          "hygiene": 34.6,
+          "bladder": 0.0,
+          "social": 19.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        93,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and John planning to meet at Cobalt Coffee after a music lecture to discuss stress management theories related to music. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "John Lin",
+          "Hey Eddy, I noticed you heading out for a walk. How was your day? Have you decided if you're coming to that music lecture this week?"
+        ],
+        [
+          "Eddy Lin",
+          "Hey John, my day was pretty good. I'm definitely planning on going to the music lecture this week. Walking helps me clear my head and think about new ideas for my composition project."
+        ],
+        [
+          "John Lin",
+          "That's great to hear. I've been looking forward to it myself. Maybe we can grab coffee afterward and discuss our thoughts?"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a great idea, John. Let\u2019s definitely catch up over coffee and exchange our insights after the lecture."
+        ],
+        [
+          "John Lin",
+          "I think that would be really beneficial. I've also been interested in how music can influence stress management, and I'm sure you'll have some great perspectives to share."
+        ],
+        [
+          "Eddy Lin",
+          "Absolutely, I've been exploring some interesting theories related to that topic too. Let\u2019s plan to meet up at Cobalt Coffee after the lecture so we can dive deeper into it."
+        ],
+        [
+          "John Lin",
+          "Perfect, let\u2019s meet up at Cobalt Coffee around 3 PM then. Looking forward to hearing your thoughts on stress management and music."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds perfect, John. I'll see you at Cobalt Coffee then. It should be an interesting discussion."
+        ],
+        [
+          "John Lin",
+          "Great, I'll see you there. Have a good walk and take your time to think about our discussion."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, John. I'll do that and look forward to our meeting at Cobalt Coffee."
+        ],
+        [
+          "John Lin",
+          "Take care on your walk, Eddy. I'll be thinking about our upcoming discussion too."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, John. I'll see you at Cobalt Coffee and let's definitely dive into those stress management theories. Have a great day too."
+        ],
+        [
+          "John Lin",
+          "Sounds good, Eddy. Make sure to enjoy your walk and gather some fresh insights for our discussion."
+        ],
+        [
+          "Eddy Lin",
+          "Will do, John. See you at Cobalt Coffee and let\u2019s explore how music can help manage stress further."
+        ],
+        [
+          "John Lin",
+          "Enjoy your walk, Eddy. Looking forward to our meeting and seeing what new insights you bring."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks again, John. I'll be thinking about our discussion and can't wait to share my thoughts over coffee."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 19.8,
+          "hunger": 97.8,
+          "fun": 12.0,
+          "hygiene": 61.0,
+          "bladder": 0.0,
+          "social": 14.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        91,
+        70
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and John planning to meet at Cobalt Coffee after a music lecture to discuss stress management theories related to music. @ <persona> John Lin",
+      "chat": [
+        [
+          "John Lin",
+          "Hey Eddy, I noticed you heading out for a walk. How was your day? Have you decided if you're coming to that music lecture this week?"
+        ],
+        [
+          "Eddy Lin",
+          "Hey John, my day was pretty good. I'm definitely planning on going to the music lecture this week. Walking helps me clear my head and think about new ideas for my composition project."
+        ],
+        [
+          "John Lin",
+          "That's great to hear. I've been looking forward to it myself. Maybe we can grab coffee afterward and discuss our thoughts?"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a great idea, John. Let\u2019s definitely catch up over coffee and exchange our insights after the lecture."
+        ],
+        [
+          "John Lin",
+          "I think that would be really beneficial. I've also been interested in how music can influence stress management, and I'm sure you'll have some great perspectives to share."
+        ],
+        [
+          "Eddy Lin",
+          "Absolutely, I've been exploring some interesting theories related to that topic too. Let\u2019s plan to meet up at Cobalt Coffee after the lecture so we can dive deeper into it."
+        ],
+        [
+          "John Lin",
+          "Perfect, let\u2019s meet up at Cobalt Coffee around 3 PM then. Looking forward to hearing your thoughts on stress management and music."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds perfect, John. I'll see you at Cobalt Coffee then. It should be an interesting discussion."
+        ],
+        [
+          "John Lin",
+          "Great, I'll see you there. Have a good walk and take your time to think about our discussion."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, John. I'll do that and look forward to our meeting at Cobalt Coffee."
+        ],
+        [
+          "John Lin",
+          "Take care on your walk, Eddy. I'll be thinking about our upcoming discussion too."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, John. I'll see you at Cobalt Coffee and let's definitely dive into those stress management theories. Have a great day too."
+        ],
+        [
+          "John Lin",
+          "Sounds good, Eddy. Make sure to enjoy your walk and gather some fresh insights for our discussion."
+        ],
+        [
+          "Eddy Lin",
+          "Will do, John. See you at Cobalt Coffee and let\u2019s explore how music can help manage stress further."
+        ],
+        [
+          "John Lin",
+          "Enjoy your walk, Eddy. Looking forward to our meeting and seeing what new insights you bring."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks again, John. I'll be thinking about our discussion and can't wait to share my thoughts over coffee."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 24.8,
+          "hunger": 91.2,
+          "fun": 100.0,
+          "hygiene": 34.6,
+          "bladder": 0.0,
+          "social": 39.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\udecc\ud83d\udcad",
+      "description": "Hailey is getting ready for bed and reflecting on her day @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 39.8,
+          "hunger": 76.0,
+          "fun": 99.8,
+          "hygiene": 30.6,
+          "bladder": 4.2,
+          "social": 6.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "attending an online chemistry seminar (reviewing his notes and summarizing key points from the seminar) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 30.2,
+          "hunger": 88.4,
+          "fun": 34.2,
+          "hygiene": 43.2,
+          "bladder": 0.0,
+          "social": 19.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 22:02:40"
+  }
+}

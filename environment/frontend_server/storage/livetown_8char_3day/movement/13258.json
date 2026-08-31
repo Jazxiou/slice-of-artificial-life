@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcc5\ud83d\udcdd",
+      "description": "taking a short break to use the bathroom and rest during her lunch hour. She feels tired but tries to stay focused on the day's tasks ahead (reviewing the day's schedule and tasks) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.9,
+          "hunger": 91.0,
+          "fun": 99.6,
+          "hygiene": 61.8,
+          "bladder": 22.2,
+          "social": 0.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        45,
+        31
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "Klaus is having lunch at Hobbs Cafe (finding a table or sitting area at the cafe) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.9,
+          "hunger": 100.0,
+          "fun": 49.3,
+          "hygiene": 40.3,
+          "bladder": 0.0,
+          "social": 23.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udd25",
+      "description": "Maria is studying physics and working on assignments. Despite feeling better after her morning routine, she still wishes for some company but focuses on her studies to make up for lost time during her unexpected delay in waking up (conversing about Maria Lopez and Wolfgang Schulz discussing her difficulties in applying energy conservation principles, particularly accounting for thermal energy loss due to friction in a physics problem.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 96.4,
+          "hunger": 55.6,
+          "fun": 62.2,
+          "hygiene": 97.8,
+          "bladder": 94.9,
+          "social": 7.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        30
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "taking a short break to use the bathroom. She feels relieved after addressing her urgent need and returns to work shortly afterward, feeling more focused (organizing her workspace for continued productivity) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 75.9,
+          "hunger": 88.0,
+          "fun": 84.2,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        46
+      ],
+      "pronunciatio": "\ud83e\uddfa\ud83d\udd04",
+      "description": "(Tuesday February 14 -- 12:00 PM] Activity: John continues to assist customers, providing them with necessary medications and advice. He ensures that the pharmacy counter runs smoothly during lunchtime (tidying up the counter area and restocking supplies to ensure smooth operation) @ the Ville:The Willows Market and Pharmacy:store:grocery store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.3,
+          "hunger": 100.0,
+          "fun": 14.0,
+          "hygiene": 89.5,
+          "bladder": 92.7,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "[Free time or other activities not specified] (reviewing his notes from the second class) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.1,
+          "hunger": 23.2,
+          "fun": 99.5,
+          "hygiene": 88.6,
+          "bladder": 73.4,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        82,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "meeting with a literary agent to discuss her novel and potential publishing opportunities. She hopes this meeting will bring new insights and momentum to her work (The literary agent is asking questions about the plot and characters) @ the Ville:Harvey Oak Supply Store:supply store:behind the supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 85.9,
+          "hunger": 99.8,
+          "fun": 88.9,
+          "hygiene": 95.0,
+          "bladder": 88.4,
+          "social": 10.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udd25",
+      "description": "eating lunch (conversing about Maria Lopez and Wolfgang Schulz discussing her difficulties in applying energy conservation principles, particularly accounting for thermal energy loss due to friction in a physics problem.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 45.3,
+          "hunger": 100.0,
+          "fun": 0.0,
+          "hygiene": 85.6,
+          "bladder": 15.6,
+          "social": 9.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 12:49:40"
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        81,
+        16
+      ],
+      "pronunciatio": "\ud83d\udecf\ufe0f\ud83d\udebd",
+      "description": "completing her morning routine, which includes getting dressed and preparing for the day ahead. She feels a bit tired but remains excited about the Valentine\u2019s Day celebration at Hobbs Cafe (getting out of bed and heading to the bathroom) @ the Ville:Isabella Rodriguez's apartment:bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.5,
+          "hunger": 99.8,
+          "fun": 71.9,
+          "hygiene": 28.3,
+          "bladder": 7.2,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        131,
+        49
+      ],
+      "pronunciatio": "\ud83d\udebb\ud83e\uddfd",
+      "description": "[(ID:dQYDlX) Tuesday February 14 -- 07:00 AM] Activity: Klaus wakes up and completes his morning routine (going to the bathroom) @ the Ville:Dorm for Oak Hill College:man's bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 99.5,
+          "hunger": 57.4,
+          "fun": 49.1,
+          "hygiene": 33.7,
+          "bladder": 3.9,
+          "social": 10.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 0.0,
+          "fun": 72.3,
+          "hygiene": 0.0,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Abigail Chen's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 45.4,
+          "fun": 51.2,
+          "hygiene": 7.4,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        94,
+        75
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy needing to use the bathroom and rescheduling their chat later. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "John Lin",
+          "Good morning, Eddy. How was your night's sleep?"
+        ],
+        [
+          "Eddy Lin",
+          "Good morning, John. I had a decent sleep but need to use the bathroom urgently. Can we catch up later?"
+        ],
+        [
+          "John Lin",
+          "Sure thing, Eddy. No rush. I'll be here when you're ready to chat."
+        ],
+        [
+          "Eddy Lin",
+          "I really need to go now, John. Can we talk after I take care of this?"
+        ],
+        [
+          "John Lin",
+          "No problem, take your time. I'll be around."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, John. I'll be back soon to catch up."
+        ],
+        [
+          "John Lin",
+          "Take your time, Eddy. I'll be here when you're done."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, John. I'll head to the bathroom now and catch up with you shortly."
+        ],
+        [
+          "John Lin",
+          "No worries, Eddy. Take your time and don't rush."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, John. I'll be right back."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 80.9,
+          "hunger": 52.2,
+          "fun": 5.0,
+          "hygiene": 56.4,
+          "bladder": 10.6,
+          "social": 1.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        95,
+        74
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy needing to use the bathroom and rescheduling their chat later. @ <persona> John Lin",
+      "chat": [
+        [
+          "John Lin",
+          "Good morning, Eddy. How was your night's sleep?"
+        ],
+        [
+          "Eddy Lin",
+          "Good morning, John. I had a decent sleep but need to use the bathroom urgently. Can we catch up later?"
+        ],
+        [
+          "John Lin",
+          "Sure thing, Eddy. No rush. I'll be here when you're ready to chat."
+        ],
+        [
+          "Eddy Lin",
+          "I really need to go now, John. Can we talk after I take care of this?"
+        ],
+        [
+          "John Lin",
+          "No problem, take your time. I'll be around."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, John. I'll be back soon to catch up."
+        ],
+        [
+          "John Lin",
+          "Take your time, Eddy. I'll be here when you're done."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, John. I'll head to the bathroom now and catch up with you shortly."
+        ],
+        [
+          "John Lin",
+          "No worries, Eddy. Take your time and don't rush."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, John. I'll be right back."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 99.7,
+          "hunger": 46.6,
+          "fun": 70.1,
+          "hygiene": 55.2,
+          "bladder": 9.4,
+          "social": 5.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 21.7,
+          "fun": 63.6,
+          "hygiene": 78.7,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        44,
+        37
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "returning home from his run and getting ready for a shower (cooling down after his run) @ the Ville:Dorm for Oak Hill College:garden:dorm garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.9,
+          "hunger": 39.6,
+          "fun": 7.6,
+          "hygiene": 91.8,
+          "bladder": 21.2,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 07:06:10"
+  }
+}

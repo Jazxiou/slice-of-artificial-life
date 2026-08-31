@@ -1,0 +1,217 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udd04",
+      "description": "gathering input from regular customers and making final arrangements for the Valentine's Day party (reviewing all gathered information and making necessary adjustments to the plan) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 44.8,
+          "hunger": 99.7,
+          "fun": 100.0,
+          "hygiene": 49.6,
+          "bladder": 19.6,
+          "social": 30.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        46
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start conversing about Klaus Mueller and Wolfgang Schulz discussing strategies for managing their schedules more effectively, including setting specific time blocks and small goals within those blocks. @ <waiting> 119 46",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.8,
+          "hunger": 93.9,
+          "fun": 28.1,
+          "hygiene": 73.9,
+          "bladder": 38.4,
+          "social": 55.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        48
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez offering assistance and checking in on Wolfgang Schulz during his busy study session, with both agreeing to collaborate later when time permits. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Wolfgang, I'm Maria. It seems like you're really into your work right now. Do you need any help or just space to focus?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hi Maria, I'm actually really busy with my studies right now. Maybe we can catch up later when I have more time to chat and collaborate on our class assignments."
+        ],
+        [
+          "Maria Lopez",
+          "Sure thing, no problem at all. Let me know if you need anything though! Have a great study session."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 64.8,
+          "hunger": 48.8,
+          "fun": 43.5,
+          "hygiene": 32.4,
+          "bladder": 4.7,
+          "social": 29.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udcbb",
+      "description": "experimenting with new interactive art tools and techniques (creating a simple interactive art piece using the new tool) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 54.8,
+          "hunger": 100.0,
+          "fun": 96.4,
+          "hygiene": 49.6,
+          "bladder": 29.4,
+          "social": 17.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        76,
+        49
+      ],
+      "pronunciatio": "\ud83d\udc8a",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (various tasks including attending to customer inquiries, organizing medications on the shelves) (organizing medications on the shelves) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 44.8,
+          "hunger": 100.0,
+          "fun": 22.6,
+          "hygiene": 76.0,
+          "bladder": 19.6,
+          "social": 23.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        119,
+        49
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Eddy is preparing to leave for the day, possibly packing up materials or planning next steps @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.8,
+          "hunger": 95.2,
+          "fun": 99.8,
+          "hygiene": 49.6,
+          "bladder": 24.5,
+          "social": 42.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\u270d\ufe0f\ud83d\udcac",
+      "description": "Hailey is writing (continuing to write the first draft of the outlined chapter) (writing dialogue to bring the scene to life) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.8,
+          "hunger": 92.6,
+          "fun": 100.0,
+          "hygiene": 41.0,
+          "bladder": 39.2,
+          "social": 11.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        122,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez offering assistance and checking in on Wolfgang Schulz during his busy study session, with both agreeing to collaborate later when time permits. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Wolfgang, I'm Maria. It seems like you're really into your work right now. Do you need any help or just space to focus?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hi Maria, I'm actually really busy with my studies right now. Maybe we can catch up later when I have more time to chat and collaborate on our class assignments."
+        ],
+        [
+          "Maria Lopez",
+          "Sure thing, no problem at all. Let me know if you need anything though! Have a great study session."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 55.2,
+          "hunger": 77.2,
+          "fun": 54.2,
+          "hygiene": 41.0,
+          "bladder": 1.7,
+          "social": 35.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 17:02:40"
+  }
+}

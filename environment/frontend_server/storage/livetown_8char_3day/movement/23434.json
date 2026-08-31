@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83d\udc40\u2728",
+      "description": "preparing for the Valentine\u2019s Day celebration. She ensures that all decorations are in place and checks with Eddy Lin to confirm he will start playing at 5:00 pm as planned (checking the final decorations) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 33.6,
+          "hunger": 99.1,
+          "fun": 63.3,
+          "hygiene": 67.8,
+          "bladder": 16.2,
+          "social": 4.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        111,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83c\udfe2",
+      "description": "Meeting with Wolfgang Schulz in his office to discuss interdisciplinary approaches from chemistry and sociology related to gentrification. They exchange ideas and insights, focusing on how chemical processes can inform sociological studies of urban development and vice versa @ the Ville:Oak Hill College:classroom:blackboard",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.8,
+          "hunger": 82.6,
+          "fun": 16.2,
+          "hygiene": 78.9,
+          "bladder": 31.4,
+          "social": 31.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83d\udc65",
+      "description": "Maria is preparing to start streaming or gaming on Twitch from 4:00 PM to 10:00 PM, engaging with her community and collaborating on creative projects like interactive storytelling events (interacting with her community on social media platforms like Twitter and Discord) @ the Ville:Dorm for Oak Hill College:common room:pool table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.9,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 47.3,
+          "bladder": 0.0,
+          "social": 17.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        40,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Hailey Johnson discussing their plans to collaborate on creative projects and meet up at a coffee place to brainstorm ideas together. @ <persona> Hailey Johnson",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Hailey! I was just hoping to catch you before you came back in. How was your walk? It looks like a beautiful day for it."
+        ],
+        [
+          "Hailey Johnson",
+          "Hi Abigail, it was great. The park is so peaceful and inspiring. I've been feeling a bit lonely lately though, and a walk always helps clear my thoughts. How\u2019s your project coming along?"
+        ],
+        [
+          "Abigail Chen",
+          "It\u2019s coming along well, thanks for asking. I\u2019m actually feeling a bit lonely too sometimes, but working on my project helps distract me. Maybe we could brainstorm some ideas together sometime? It would be great to bounce thoughts off each other."
+        ],
+        [
+          "Hailey Johnson",
+          "That would be wonderful, Abigail! I have some ideas for integrating interactive elements into my novel that might work well with your art piece. Maybe we can meet up this Thursday at 2 PM and brainstorm together?"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds perfect, Hailey! Let's meet at your favorite coffee place then. I'm excited to see how we can integrate our projects and make something new together."
+        ],
+        [
+          "Hailey Johnson",
+          "Sounds fantastic, Abigail! Let\u2019s make it happen. I can't wait to see what we come up with."
+        ],
+        [
+          "Abigail Chen",
+          "Great, I'll see you there! It will be nice to spend some quality time together and collaborate on something creative."
+        ],
+        [
+          "Hailey Johnson",
+          "Absolutely, let\u2019s make Thursday at 2 PM at the coffee place. I think it will be really beneficial for both of our projects and our friendship too."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks Hailey, looking forward to it! Have a great day."
+        ],
+        [
+          "Hailey Johnson",
+          "You too, Abigail. It\u2019s going to be great collaborating and spending time together this Thursday. See you then!"
+        ],
+        [
+          "Abigail Chen",
+          "I think it will be really inspiring, Hailey. Let\u2019s make sure to bring some notes and sketches along for the meeting."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds like a great idea, Abigail. I'll make sure to come prepared with my notes and sketches too. It\u2019s going to be really exciting to see how our projects can complement each other."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Hailey. Let\u2019s make sure to bring some ideas and maybe a sketch or two of what we envision for our collaborative project. It will be great to see how they can blend together."
+        ],
+        [
+          "Hailey Johnson",
+          "Definitely, Abigail. I'll bring some initial sketches and ideas to get us started. It\u2019s going to be a fantastic meeting."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds perfect, Hailey. Let\u2019s both come prepared and see where our creativity takes us. I can't wait for Thursday."
+        ],
+        [
+          "Hailey Johnson",
+          "I'm really looking forward to it, Abigail. Let\u2019s make sure our Thursday meeting is productive and fun. See you there!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 55.2,
+          "hunger": 99.9,
+          "fun": 41.3,
+          "hygiene": 96.9,
+          "bladder": 92.7,
+          "social": 14.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83d\udc8a\u2705",
+      "description": "John is closing up the pharmacy counter and locking down the store at Willow Market and Pharmacy. He ensures that all prescriptions are filled, orders are processed, and the store is secure before heading home for the day (ensuring all prescriptions have been filled) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 22.5,
+          "hunger": 93.1,
+          "fun": 35.6,
+          "hygiene": 75.8,
+          "bladder": 11.6,
+          "social": 5.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        91,
+        56
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcbb",
+      "description": "Eddy is continuing his studies and working on his composition project in the college library. He feels a bit lonely but tries to stay focused, using breaks to reach out to friends for brief chats or calls (working on his composition project) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.4,
+          "hunger": 99.8,
+          "fun": 84.4,
+          "hygiene": 90.4,
+          "bladder": 99.8,
+          "social": 9.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        33
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Hailey Johnson discussing their plans to collaborate on creative projects and meet up at a coffee place to brainstorm ideas together. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Hailey! I was just hoping to catch you before you came back in. How was your walk? It looks like a beautiful day for it."
+        ],
+        [
+          "Hailey Johnson",
+          "Hi Abigail, it was great. The park is so peaceful and inspiring. I've been feeling a bit lonely lately though, and a walk always helps clear my thoughts. How\u2019s your project coming along?"
+        ],
+        [
+          "Abigail Chen",
+          "It\u2019s coming along well, thanks for asking. I\u2019m actually feeling a bit lonely too sometimes, but working on my project helps distract me. Maybe we could brainstorm some ideas together sometime? It would be great to bounce thoughts off each other."
+        ],
+        [
+          "Hailey Johnson",
+          "That would be wonderful, Abigail! I have some ideas for integrating interactive elements into my novel that might work well with your art piece. Maybe we can meet up this Thursday at 2 PM and brainstorm together?"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds perfect, Hailey! Let's meet at your favorite coffee place then. I'm excited to see how we can integrate our projects and make something new together."
+        ],
+        [
+          "Hailey Johnson",
+          "Sounds fantastic, Abigail! Let\u2019s make it happen. I can't wait to see what we come up with."
+        ],
+        [
+          "Abigail Chen",
+          "Great, I'll see you there! It will be nice to spend some quality time together and collaborate on something creative."
+        ],
+        [
+          "Hailey Johnson",
+          "Absolutely, let\u2019s make Thursday at 2 PM at the coffee place. I think it will be really beneficial for both of our projects and our friendship too."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks Hailey, looking forward to it! Have a great day."
+        ],
+        [
+          "Hailey Johnson",
+          "You too, Abigail. It\u2019s going to be great collaborating and spending time together this Thursday. See you then!"
+        ],
+        [
+          "Abigail Chen",
+          "I think it will be really inspiring, Hailey. Let\u2019s make sure to bring some notes and sketches along for the meeting."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds like a great idea, Abigail. I'll make sure to come prepared with my notes and sketches too. It\u2019s going to be really exciting to see how our projects can complement each other."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Hailey. Let\u2019s make sure to bring some ideas and maybe a sketch or two of what we envision for our collaborative project. It will be great to see how they can blend together."
+        ],
+        [
+          "Hailey Johnson",
+          "Definitely, Abigail. I'll bring some initial sketches and ideas to get us started. It\u2019s going to be a fantastic meeting."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds perfect, Hailey. Let\u2019s both come prepared and see where our creativity takes us. I can't wait for Thursday."
+        ],
+        [
+          "Hailey Johnson",
+          "I'm really looking forward to it, Abigail. Let\u2019s make sure our Thursday meeting is productive and fun. See you there!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 64.9,
+          "hunger": 81.1,
+          "fun": 99.4,
+          "hygiene": 74.7,
+          "bladder": 41.4,
+          "social": 6.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        124,
+        41
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Wolfgang is taking a short break after his workout. He hydrates and stretches, reflecting on the day's activities so far (cooling down with static stretching exercises) @ the Ville:Dorm for Oak Hill College:garden:dorm garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 8.9,
+          "hunger": 76.0,
+          "fun": 13.3,
+          "hygiene": 66.7,
+          "bladder": 0.0,
+          "social": 14.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 17:05:40"
+  }
+}

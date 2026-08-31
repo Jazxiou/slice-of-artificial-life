@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        19
+      ],
+      "pronunciatio": "\ud83d\udca1\u2728",
+      "description": "meeting with Klaus Mueller to finalize setup arrangements for Valentine\u2019s Day. They go over last-minute details and ensure everything is ready for the evening celebration (covering various aspects including seating arrangement, menu options, sound system, lighting setup, schedule review, emergency procedures, decorations, inventory of supplies, staffing needs, contingency plans, promotional materials, new technology, guest feedback, post-event cleanup, budget review, special orders from regular customers, timeline for setup and breakdown of decorations, vendor arrangements or deliveries, guest list and seating chart, menu items or drink specials, marketing strategies, updates from suppliers, final checklist) (They are reviewing the lighting setup and ambiance for the evening) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 60.0,
+          "hunger": 100.0,
+          "fun": 53.7,
+          "hygiene": 83.6,
+          "bladder": 16.7,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "Klaus is taking a short break to grab a coffee and stretch his legs before returning to his research. He plans to meet with Wolfgang Schulz later in the afternoon and wants to ensure he's well-rested for their discussion (conversing about Eddy Lin and Klaus Mueller discussing their upcoming project meeting on gentrification and music scenes, adjusting plans to meet briefly now to share initial ideas before their formal session next Tuesday.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.2,
+          "hunger": 100.0,
+          "fun": 6.9,
+          "hygiene": 94.7,
+          "bladder": 68.5,
+          "social": 5.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        126,
+        54
+      ],
+      "pronunciatio": "\ud83d\udcf1\ud83d\udcbb",
+      "description": "preparing to leave for Hobbs Cafe to study and network until noon (checking social media for any updates or messages from followers and friends) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 91.3,
+          "hunger": 17.4,
+          "fun": 55.5,
+          "hygiene": 63.2,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        28
+      ],
+      "pronunciatio": "\ud83d\udce7\ud83d\udcc5",
+      "description": "eating breakfast (checking emails and messages related to Valentine's Day events) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 81.7,
+          "hunger": 95.5,
+          "fun": 49.1,
+          "hygiene": 74.7,
+          "bladder": 33.2,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83d\udc68\u200d\u2695",
+      "description": "John is interacting with customers and filling prescriptions at Willow Market and Pharmacy. He maintains a friendly demeanor, offering assistance and advice to those who need it (advising customers on medication usage and side effects) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.0,
+          "hunger": 95.0,
+          "fun": 56.8,
+          "hygiene": 91.6,
+          "bladder": 48.6,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "Eddy is attending classes at Oak Hill College (conversing about Eddy Lin and Klaus Mueller discussing their upcoming project meeting on gentrification and music scenes, adjusting plans to meet briefly now to share initial ideas before their formal session next Tuesday.) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.8,
+          "hunger": 84.7,
+          "fun": 70.7,
+          "hygiene": 94.6,
+          "bladder": 2.0,
+          "social": 5.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83c\udfad",
+      "description": "Hailey is starting to write for her novel. She spends time crafting the narrative and developing characters, focusing intently on the story's progression (developing character backstories and motivations) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 91.4,
+          "hunger": 27.6,
+          "fun": 78.8,
+          "hygiene": 90.6,
+          "bladder": 78.4,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "studying in his room. He feels a bit more alert now and starts to engage deeply with the material, taking detailed notes and summarizing complex concepts (reviewing his chemistry textbook for an hour) (summarizing the main points of chapter 5) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 35.4,
+          "hunger": 89.5,
+          "fun": 34.5,
+          "hygiene": 82.6,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 11:48:10"
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83c\udfa7\u2705",
+      "description": "meeting with Klaus Mueller to finalize setup arrangements for Valentine\u2019s Day. They go over last-minute details and ensure everything is ready for the evening celebration (covering various aspects including seating arrangement, menu options, sound system, lighting setup, schedule review, emergency procedures, decorations, inventory of supplies, staffing needs, contingency plans, promotional materials, new technology, guest feedback, post-event cleanup, budget review, special orders from regular customers, timeline for setup and breakdown of decorations, vendor arrangements or deliveries, guest list and seating chart, menu items or drink specials, marketing strategies, updates from suppliers, final checklist) (checking the sound system setup to ensure it works properly) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 61.3,
+          "hunger": 100.0,
+          "fun": 54.7,
+          "hygiene": 84.4,
+          "bladder": 18.4,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        113,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Klaus Mueller discussing their upcoming project meeting on gentrification and music scenes, adjusting plans to meet briefly now to share initial ideas before their formal session next Tuesday. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hi Klaus, I'm Eddy Lin. We haven't really met before, but we've been talking about potentially working on a project together. It's great to see you here!"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Eddy, nice to meet you in person. I've been looking forward to our collaboration. What time are we meeting at Hobbs Cafe today?"
+        ],
+        [
+          "Eddy Lin",
+          "Oh, there seems to be a mix-up. We're actually supposed to meet next Tuesday at Hobbs Cafe to brainstorm ideas for our project on gentrification and music scenes. Not today though."
+        ],
+        [
+          "Klaus Mueller",
+          "Ah, my apologies for misunderstanding. That\u2019s alright though, maybe we can catch up briefly now and discuss any immediate ideas you have or confirm details for next Tuesday?"
+        ],
+        [
+          "Eddy Lin",
+          "Sure, that sounds good. I have some initial thoughts on how we might structure our project and some musical themes I've been exploring that relate to gentrification. Maybe we could chat for a bit now?"
+        ],
+        [
+          "Klaus Mueller",
+          "That would be great, Eddy. Let\u2019s grab a quick coffee and discuss your ideas."
+        ],
+        [
+          "Eddy Lin",
+          "Sure, let\u2019s head to the coffee shop nearby then. I have some sketches and notes that I think could inspire our project musically."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds fantastic, Eddy. Let\u2019s head to the coffee shop and I'll bring my notes on sociological aspects of gentrification to align them with your musical ideas."
+        ],
+        [
+          "Eddy Lin",
+          "That works perfectly, Klaus. I'm excited to see how our different perspectives can come together in this project."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, let\u2019s head over to the coffee shop then. I have some preliminary findings on how gentrification affects local communities which could complement your musical reflections. Maybe we can start by talking about those and see how they align with your compositions."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds wonderful, Klaus. I think it would be really insightful to see how your research findings and my musical compositions can intertwine. Let\u2019s meet at the coffee shop in a few minutes so we can dive into this exciting project together."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Eddy. I\u2019ll be right there after I drop my things off at the library. See you in a bit!"
+        ],
+        [
+          "Eddy Lin",
+          "Sure, I'll head over to the coffee shop and grab us some drinks. See you there in a few minutes!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Eddy. I\u2019ll head to the coffee shop as soon as I\u2019m done here at the library."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, Klaus. I'll get us some drinks and find a cozy spot to sit and work on our ideas."
+        ],
+        [
+          "Klaus Mueller",
+          "I'll meet you at the coffee shop shortly, Eddy. I need to drop off my notes and grab a quick coffee myself."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 77.5,
+          "hunger": 99.8,
+          "fun": 0.7,
+          "hygiene": 95.5,
+          "bladder": 70.2,
+          "social": 1.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        55
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "preparing to leave for Hobbs Cafe to study and network until noon (putting on makeup and styling hair) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.6,
+          "hunger": 7.9,
+          "fun": 56.5,
+          "hygiene": 64.0,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        41,
+        25
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83c\udf7d\ufe0f",
+      "description": "eating breakfast (cleaning up the kitchen after breakfast) @ the Ville:artist's co-living space:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.9,
+          "hunger": 80.6,
+          "fun": 50.1,
+          "hygiene": 75.4,
+          "bladder": 34.9,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udc8a",
+      "description": "John is interacting with customers and filling prescriptions at Willow Market and Pharmacy. He maintains a friendly demeanor, offering assistance and advice to those who need it (filling prescriptions for customers) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.2,
+          "hunger": 96.5,
+          "fun": 57.8,
+          "hygiene": 92.4,
+          "bladder": 50.3,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        112,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Klaus Mueller discussing their upcoming project meeting on gentrification and music scenes, adjusting plans to meet briefly now to share initial ideas before their formal session next Tuesday. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hi Klaus, I'm Eddy Lin. We haven't really met before, but we've been talking about potentially working on a project together. It's great to see you here!"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Eddy, nice to meet you in person. I've been looking forward to our collaboration. What time are we meeting at Hobbs Cafe today?"
+        ],
+        [
+          "Eddy Lin",
+          "Oh, there seems to be a mix-up. We're actually supposed to meet next Tuesday at Hobbs Cafe to brainstorm ideas for our project on gentrification and music scenes. Not today though."
+        ],
+        [
+          "Klaus Mueller",
+          "Ah, my apologies for misunderstanding. That\u2019s alright though, maybe we can catch up briefly now and discuss any immediate ideas you have or confirm details for next Tuesday?"
+        ],
+        [
+          "Eddy Lin",
+          "Sure, that sounds good. I have some initial thoughts on how we might structure our project and some musical themes I've been exploring that relate to gentrification. Maybe we could chat for a bit now?"
+        ],
+        [
+          "Klaus Mueller",
+          "That would be great, Eddy. Let\u2019s grab a quick coffee and discuss your ideas."
+        ],
+        [
+          "Eddy Lin",
+          "Sure, let\u2019s head to the coffee shop nearby then. I have some sketches and notes that I think could inspire our project musically."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds fantastic, Eddy. Let\u2019s head to the coffee shop and I'll bring my notes on sociological aspects of gentrification to align them with your musical ideas."
+        ],
+        [
+          "Eddy Lin",
+          "That works perfectly, Klaus. I'm excited to see how our different perspectives can come together in this project."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, let\u2019s head over to the coffee shop then. I have some preliminary findings on how gentrification affects local communities which could complement your musical reflections. Maybe we can start by talking about those and see how they align with your compositions."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds wonderful, Klaus. I think it would be really insightful to see how your research findings and my musical compositions can intertwine. Let\u2019s meet at the coffee shop in a few minutes so we can dive into this exciting project together."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Eddy. I\u2019ll be right there after I drop my things off at the library. See you in a bit!"
+        ],
+        [
+          "Eddy Lin",
+          "Sure, I'll head over to the coffee shop and grab us some drinks. See you there in a few minutes!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Eddy. I\u2019ll head to the coffee shop as soon as I\u2019m done here at the library."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, Klaus. I'll get us some drinks and find a cozy spot to sit and work on our ideas."
+        ],
+        [
+          "Klaus Mueller",
+          "I'll meet you at the coffee shop shortly, Eddy. I need to drop off my notes and grab a quick coffee myself."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 78.1,
+          "hunger": 86.2,
+          "fun": 64.5,
+          "hygiene": 95.3,
+          "bladder": 3.8,
+          "social": 0.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd04",
+      "description": "Hailey is starting to write for her novel. She spends time crafting the narrative and developing characters, focusing intently on the story's progression (editing previous scenes to ensure continuity with the new content) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.6,
+          "hunger": 29.1,
+          "fun": 72.6,
+          "hygiene": 91.3,
+          "bladder": 80.2,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "studying in his room. He feels a bit more alert now and starts to engage deeply with the material, taking detailed notes and summarizing complex concepts (reviewing his chemistry textbook for an hour) (solving practice problems related to chapter 5) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 36.6,
+          "hunger": 91.0,
+          "fun": 35.5,
+          "hygiene": 83.3,
+          "bladder": 0.0,
+          "social": 0.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 11:33:20"
+  }
+}

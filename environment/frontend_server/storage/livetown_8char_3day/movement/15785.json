@@ -1,0 +1,297 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc95",
+      "description": "securing the premises. She makes sure all doors are securely locked before leaving. (conversing about Maria Lopez and Isabella Rodriguez discussing plans for incorporating gaming elements into their Valentine\u2019s Day interactive storytelling event, including ideas for focus groups to gather feedback on game narratives and romantic scenarios.) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 15.8,
+          "hunger": 82.6,
+          "fun": 89.7,
+          "hygiene": 82.5,
+          "bladder": 59.2,
+          "social": 17.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udca1",
+      "description": "Klaus is meeting with peers for discussion and collaboration about his research paper at the college's study lounge (presenting his hypothesis and seeking feedback from peers) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 35.8,
+          "hunger": 92.4,
+          "fun": 27.4,
+          "hygiene": 36.4,
+          "bladder": 14.1,
+          "social": 37.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        75,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Maria Lopez discussing how physics intersects with music theory, focusing on instrument tuning systems like quarter-comma meantone and just intonation, ahead of their coffee meeting. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hi Maria, I've been working on my composition project here and found your discussions about physics fascinating. Could you share more about how it intersects with music theory?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, Eddy! It's really interesting how physics principles can explain aspects of music like frequency, resonance, and wave patterns. For instance, when you're tuning an instrument, understanding overtone series is crucial. Would you be interested in diving deeper into this during our coffee meeting on Thursday?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds amazing, Maria. I'm really looking forward to it. Could you recommend some readings or resources on how physics influences instrument design and tuning systems?"
+        ],
+        [
+          "Maria Lopez",
+          "Absolutely, Eddy. I can recommend some articles and books that explore those topics in depth. They should give you a good foundation to see how physics shapes the way we perceive sound and music."
+        ],
+        [
+          "Eddy Lin",
+          "That would be fantastic, Maria. I'm particularly interested in lesser-known tuning systems like quarter-comma meantone or just intonation. Could you include some resources on those too?"
+        ],
+        [
+          "Maria Lopez",
+          "Of course, Eddy. I'll send you some links and book references on quarter-comma meantone and just intonation later today so we can discuss them in more detail Thursday. They offer unique insights into how different cultural approaches to tuning affect musical expression."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Maria. I'm really excited to dive into these topics and learn more about how physics can enhance my understanding of music theory and composition. See you on Thursday!"
+        ],
+        [
+          "Maria Lopez",
+          "Great, Eddy! It will be an insightful discussion. Let\u2019s also touch base on any updates or questions you have before Thursday. Have a great day and I'll send those resources soon!"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Maria. Can't wait to chat more about these fascinating topics and see how my composition ideas evolve from this knowledge."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Eddy. I'll make sure to send you everything by tonight so you can review it before our meeting. Enjoy your composition work and talk to you soon!"
+        ],
+        [
+          "Eddy Lin",
+          "Thank you, Maria. I'll look forward to those resources and our meeting this Thursday. It's great connecting over shared interests in physics and music theory."
+        ],
+        [
+          "Maria Lopez",
+          "It was great talking to you, Eddy. I'm looking forward to our coffee session and seeing how we can connect the dots between physics and music theory in even more depth."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks again, Maria. I'll be sure to review everything you send and come prepared for our discussion on Thursday. Enjoy your day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 61.3,
+          "hunger": 100.0,
+          "fun": 57.1,
+          "hygiene": 76.8,
+          "bladder": 45.8,
+          "social": 28.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        48,
+        31
+      ],
+      "pronunciatio": "\u2615\ud83d\udcad",
+      "description": "Abigail is taking a short walk to clear her mind after reaching out to Isabella and Hailey without getting a response. She hopes they will be available later in the day for some creative collaboration (stops at a coffee shop to grab a drink and sit inside for a moment of quiet reflection) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 40.8,
+          "hunger": 100.0,
+          "fun": 97.7,
+          "hygiene": 79.6,
+          "bladder": 52.4,
+          "social": 15.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcfa\u25b6\ufe0f",
+      "description": "watching TV at home. He feels a bit better after addressing his urgent needs and talking with friends earlier, but still misses the company of others (sitting down to watch TV, browsing through channels for something interesting to watch, finds a documentary about wildlife and starts watching it, pauses the TV to get a drink of water, resumes watching the documentary, feeling reflective and thinks about calling another friend for a chat, decides against it and continues to watch TV, notices an advertisement break and uses this time to stretch his legs) (resumes watching the documentary) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 20.9,
+          "hunger": 92.4,
+          "fun": 67.0,
+          "hygiene": 98.1,
+          "bladder": 95.6,
+          "social": 10.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        76,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Maria Lopez discussing how physics intersects with music theory, focusing on instrument tuning systems like quarter-comma meantone and just intonation, ahead of their coffee meeting. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hi Maria, I've been working on my composition project here and found your discussions about physics fascinating. Could you share more about how it intersects with music theory?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, Eddy! It's really interesting how physics principles can explain aspects of music like frequency, resonance, and wave patterns. For instance, when you're tuning an instrument, understanding overtone series is crucial. Would you be interested in diving deeper into this during our coffee meeting on Thursday?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds amazing, Maria. I'm really looking forward to it. Could you recommend some readings or resources on how physics influences instrument design and tuning systems?"
+        ],
+        [
+          "Maria Lopez",
+          "Absolutely, Eddy. I can recommend some articles and books that explore those topics in depth. They should give you a good foundation to see how physics shapes the way we perceive sound and music."
+        ],
+        [
+          "Eddy Lin",
+          "That would be fantastic, Maria. I'm particularly interested in lesser-known tuning systems like quarter-comma meantone or just intonation. Could you include some resources on those too?"
+        ],
+        [
+          "Maria Lopez",
+          "Of course, Eddy. I'll send you some links and book references on quarter-comma meantone and just intonation later today so we can discuss them in more detail Thursday. They offer unique insights into how different cultural approaches to tuning affect musical expression."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Maria. I'm really excited to dive into these topics and learn more about how physics can enhance my understanding of music theory and composition. See you on Thursday!"
+        ],
+        [
+          "Maria Lopez",
+          "Great, Eddy! It will be an insightful discussion. Let\u2019s also touch base on any updates or questions you have before Thursday. Have a great day and I'll send those resources soon!"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Maria. Can't wait to chat more about these fascinating topics and see how my composition ideas evolve from this knowledge."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Eddy. I'll make sure to send you everything by tonight so you can review it before our meeting. Enjoy your composition work and talk to you soon!"
+        ],
+        [
+          "Eddy Lin",
+          "Thank you, Maria. I'll look forward to those resources and our meeting this Thursday. It's great connecting over shared interests in physics and music theory."
+        ],
+        [
+          "Maria Lopez",
+          "It was great talking to you, Eddy. I'm looking forward to our coffee session and seeing how we can connect the dots between physics and music theory in even more depth."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks again, Maria. I'll be sure to review everything you send and come prepared for our discussion on Thursday. Enjoy your day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 36.0,
+          "hunger": 100.0,
+          "fun": 94.8,
+          "hygiene": 67.6,
+          "bladder": 24.3,
+          "social": 19.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f",
+      "description": "going back to her apartment after a long day of meetings and discussions. She feels mentally stimulated but also physically drained, especially since she's still dealing with the urge to use the bathroom. She decides to take care of this before settling down for the evening (changing into more comfortable clothes) @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 57.9,
+          "hunger": 98.7,
+          "fun": 86.1,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 14.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        62
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2642",
+      "description": "resting and planning to exercise in his room later. He feels a bit better after talking with Eddy Lin earlier but remains tired and needs some downtime (meditating for 10 minutes to clear his mind and reduce stress) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 27.7,
+          "hunger": 89.2,
+          "fun": 8.9,
+          "hygiene": 88.6,
+          "bladder": 73.4,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 19:50:50"
+  }
+}

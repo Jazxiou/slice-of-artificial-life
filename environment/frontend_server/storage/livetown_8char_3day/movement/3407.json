@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        19
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83c\udf73",
+      "description": "opening Hobbs Cafe to customers (greeting early morning customers and serving them their orders) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.7,
+          "hunger": 98.7,
+          "fun": 98.1,
+          "hygiene": 72.3,
+          "bladder": 72.6,
+          "social": 37.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd11",
+      "description": "working on his research paper at the library (outlining key arguments) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 87.7,
+          "hunger": 56.7,
+          "fun": 37.1,
+          "hygiene": 96.6,
+          "bladder": 91.5,
+          "social": 37.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 18.2,
+          "fun": 37.1,
+          "hygiene": 46.6,
+          "bladder": 55.1,
+          "social": 37.1
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        41,
+        25
+      ],
+      "pronunciatio": "\ud83e\uddf9\ud83c\udf73",
+      "description": "having breakfast (cleaning up after breakfast) @ the Ville:artist's co-living space:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.7,
+          "hunger": 48.8,
+          "fun": 37.1,
+          "hygiene": 72.3,
+          "bladder": 82.4,
+          "social": 37.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "arriving at the Willow Market and Pharmacy. He opens the pharmacy counter and begins his work for the day (reviewing customer orders from the previous day to ensure everything is ready for pickup) @ the Ville:The Willows Market and Pharmacy:store:grocery store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.7,
+          "hunger": 86.4,
+          "fun": 37.1,
+          "hygiene": 98.7,
+          "bladder": 72.6,
+          "social": 39.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        95,
+        74
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcd6",
+      "description": "Eddy is preparing for class and reviewing notes at home (outlining key concepts for the upcoming class) @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 87.7,
+          "hunger": 97.3,
+          "fun": 37.1,
+          "hygiene": 72.3,
+          "bladder": 77.5,
+          "social": 39.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 18.2,
+          "fun": 37.1,
+          "hygiene": 46.6,
+          "bladder": 55.1,
+          "social": 37.1
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83c\udfa7\ud83d\udcda",
+      "description": "attending an online chemistry seminar (listening to the third lecture segment) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 77.7,
+          "hunger": 91.2,
+          "fun": 66.1,
+          "hygiene": 63.8,
+          "bladder": 50.5,
+          "social": 37.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:27:50"
+  }
+}

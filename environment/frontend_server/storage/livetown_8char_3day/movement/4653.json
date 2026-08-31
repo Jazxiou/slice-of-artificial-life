@@ -1,0 +1,241 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella inviting Wolfgang to her Valentine's Day party at the dessert bar and Wolfgang politely declining while keeping the door open for future events. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Wolfgang, I hope you're enjoying your dessert bar. I'm organizing a Valentine's Day party here tomorrow and was wondering if you'd be interested in joining?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hi Isabella, thanks for asking! I appreciate the invitation. Valentine's Day isn't really my thing, but it sounds like a fun event. Maybe next time!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's fine, Wolfgang. I understand it might not be for everyone. But if you change your mind or want to come next time, we'll definitely have a spot reserved for you!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Isabella. It was nice talking to you and I'll keep it in mind for future events."
+        ],
+        [
+          "Isabella Rodriguez",
+          "It was great talking to you, Wolfgang! I hope to see you around soon. Enjoy your dessert bar!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks again, Isabella. Have a great day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 65.4,
+          "hunger": 87.0,
+          "fun": 100.0,
+          "hygiene": 62.0,
+          "bladder": 48.4,
+          "social": 24.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\u2615\u23f0",
+      "description": "Klaus is having lunch at Hobbs Cafe (waiting for his order to be prepared) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.4,
+          "hunger": 100.0,
+          "fun": 23.3,
+          "hygiene": 86.2,
+          "bladder": 67.3,
+          "social": 41.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd0d",
+      "description": "studying physics or working on assignments (working on an assignment related to her current course topic) (reviewing the assignment requirements) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 85.4,
+          "hunger": 25.1,
+          "fun": 45.0,
+          "hygiene": 44.8,
+          "bladder": 33.5,
+          "social": 27.7
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        28
+      ],
+      "pronunciatio": "\ud83d\udce7\ud83d\udcf1",
+      "description": "taking a lunch break (checking emails and messages) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 75.4,
+          "hunger": 100.0,
+          "fun": 81.3,
+          "hygiene": 62.0,
+          "bladder": 58.2,
+          "social": 27.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcc5\ud83d\udcdd",
+      "description": "John is taking a lunch break. He grabs a quick meal and uses the time to review any prescriptions or orders that need attention upon his return to work (planning his afternoon schedule based on customer needs) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 65.4,
+          "hunger": 100.0,
+          "fun": 28.1,
+          "hygiene": 88.3,
+          "bladder": 48.4,
+          "social": 33.4
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        111,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udca1",
+      "description": "Eddy is attending a music theory class at Oak Hill College (asking questions to clarify concepts) @ the Ville:Oak Hill College:classroom:blackboard",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.4,
+          "hunger": 76.6,
+          "fun": 100.0,
+          "hygiene": 62.0,
+          "bladder": 53.3,
+          "social": 32.9
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        41,
+        26
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83c\udf7d\ufe0f",
+      "description": "Hailey is having lunch (eating her lunch) @ the Ville:artist's co-living space:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 85.4,
+          "hunger": 75.0,
+          "fun": 57.1,
+          "hygiene": 53.4,
+          "bladder": 68.0,
+          "social": 27.7
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        76,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella inviting Wolfgang to her Valentine's Day party at the dessert bar and Wolfgang politely declining while keeping the door open for future events. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Wolfgang, I hope you're enjoying your dessert bar. I'm organizing a Valentine's Day party here tomorrow and was wondering if you'd be interested in joining?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hi Isabella, thanks for asking! I appreciate the invitation. Valentine's Day isn't really my thing, but it sounds like a fun event. Maybe next time!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's fine, Wolfgang. I understand it might not be for everyone. But if you change your mind or want to come next time, we'll definitely have a spot reserved for you!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Isabella. It was nice talking to you and I'll keep it in mind for future events."
+        ],
+        [
+          "Isabella Rodriguez",
+          "It was great talking to you, Wolfgang! I hope to see you around soon. Enjoy your dessert bar!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks again, Isabella. Have a great day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 60.4,
+          "hunger": 99.9,
+          "fun": 53.0,
+          "hygiene": 53.4,
+          "bladder": 26.3,
+          "social": 37.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 12:55:30"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        62,
+        48
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83c\udf5f",
+      "description": "preparing the cafe by setting up decorations and ordering food supplies for the Valentine's Day party (ordering food supplies) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 88.8,
+          "hunger": 100.0,
+          "fun": 87.5,
+          "hygiene": 76.0,
+          "bladder": 81.2,
+          "social": 42.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        109,
+        50
+      ],
+      "pronunciatio": "\ud83d\udebb\ud83e\uddfc",
+      "description": "going to the library to start working on his research paper (going to the bathroom and washing his face) @ the Ville:Dorm for Oak Hill College:man's bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 93.8,
+          "hunger": 42.1,
+          "fun": 42.1,
+          "hygiene": 91.5,
+          "bladder": 100.0,
+          "social": 42.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 25.6,
+          "fun": 42.1,
+          "hygiene": 50.3,
+          "bladder": 57.7,
+          "social": 42.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        40,
+        21
+      ],
+      "pronunciatio": "\ud83d\udebb\ud83e\uddfd",
+      "description": "waking up and completing the morning routine (going to the bathroom to use the toilet) @ the Ville:artist's co-living space:Abigail Chen's bathroom:toilet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 98.8,
+          "hunger": 25.6,
+          "fun": 42.1,
+          "hygiene": 57.2,
+          "bladder": 70.3,
+          "social": 42.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        81,
+        52
+      ],
+      "pronunciatio": "\ud83d\uded2\u2705",
+      "description": "getting ready to leave for work. He checks the pharmacy one last time before heading out at 8:45 am (reviewing inventory levels to ensure there are no shortages before he leaves for the day) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 88.8,
+          "hunger": 93.8,
+          "fun": 42.1,
+          "hygiene": 100.0,
+          "bladder": 81.2,
+          "social": 44.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        93,
+        66
+      ],
+      "pronunciatio": "\ud83c\udf5e\ud83c\udf73",
+      "description": "having breakfast (preparing toast and eggs) @ the Ville:Lin family's house:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 93.8,
+          "hunger": 59.9,
+          "fun": 42.1,
+          "hygiene": 76.0,
+          "bladder": 86.1,
+          "social": 44.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 25.6,
+          "fun": 42.1,
+          "hygiene": 50.3,
+          "bladder": 57.7,
+          "social": 42.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcd6",
+      "description": "attending an online chemistry seminar (taking notes during the seminar introduction) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 83.8,
+          "hunger": 98.6,
+          "fun": 71.1,
+          "hygiene": 67.5,
+          "bladder": 59.1,
+          "social": 42.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 08:14:00"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udf70",
+      "description": "meeting with Klaus Mueller to finalize setup arrangements for Valentine\u2019s Day. They go over last-minute details and ensure everything is ready for the evening celebration (covering various aspects including seating arrangement, menu options, sound system, lighting setup, schedule review, emergency procedures, decorations, inventory of supplies, staffing needs, contingency plans, promotional materials, new technology, guest feedback, post-event cleanup, budget review, special orders from regular customers, timeline for setup and breakdown of decorations, vendor arrangements or deliveries, guest list and seating chart, menu items or drink specials, marketing strategies, updates from suppliers, final checklist) (They are discussing menu options and drink specials for Valentine\u2019s Day) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.4,
+          "hunger": 100.0,
+          "fun": 56.4,
+          "hygiene": 85.7,
+          "bladder": 21.4,
+          "social": 0.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        99,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Klaus is taking a short break to grab a coffee and stretch his legs before returning to his research. He plans to meet with Wolfgang Schulz later in the afternoon and wants to ensure he's well-rested for their discussion (getting up from his desk) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.6,
+          "hunger": 86.6,
+          "fun": 0.0,
+          "hygiene": 96.8,
+          "bladder": 73.2,
+          "social": 1.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        131,
+        53
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "preparing to leave for Hobbs Cafe to study and network until noon (brushing her teeth) @ the Ville:Dorm for Oak Hill College:woman's bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 94.7,
+          "hunger": 10.5,
+          "fun": 58.2,
+          "hygiene": 62.7,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        65,
+        30
+      ],
+      "pronunciatio": "\u2615\ud83c\udf73",
+      "description": "eating breakfast (making coffee and preparing breakfast) @ the Ville:artist's co-living space:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 85.0,
+          "hunger": 54.8,
+          "fun": 51.8,
+          "hygiene": 76.7,
+          "bladder": 37.9,
+          "social": 0.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        52
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "John is interacting with customers and filling prescriptions at Willow Market and Pharmacy. He maintains a friendly demeanor, offering assistance and advice to those who need it (answering customer inquiries about medications and treatments) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.4,
+          "hunger": 89.7,
+          "fun": 59.5,
+          "hygiene": 93.7,
+          "bladder": 53.4,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        108,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "Eddy is attending classes at Oak Hill College (taking notes during class) (writing down key concepts and definitions) @ the Ville:Oak Hill College:classroom:blackboard",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 80.2,
+          "hunger": 88.8,
+          "fun": 65.4,
+          "hygiene": 96.6,
+          "bladder": 6.8,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "Hailey is starting to write for her novel. She spends time crafting the narrative and developing characters, focusing intently on the story's progression (reviewing notes and outlines for her novel) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 94.8,
+          "hunger": 31.7,
+          "fun": 61.9,
+          "hygiene": 92.6,
+          "bladder": 83.2,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6",
+      "description": "studying in his room. He feels a bit more alert now and starts to engage deeply with the material, taking detailed notes and summarizing complex concepts (reviewing his chemistry textbook for an hour) (reading through chapter 5 of his chemistry textbook) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 38.8,
+          "hunger": 93.6,
+          "fun": 37.2,
+          "hygiene": 84.6,
+          "bladder": 0.0,
+          "social": 1.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 11:07:30"
+  }
+}

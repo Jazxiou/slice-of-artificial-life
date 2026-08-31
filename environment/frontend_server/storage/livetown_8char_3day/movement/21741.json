@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcc6\ud83d\udc40",
+      "description": "meeting with Klaus Mueller to finalize setup arrangements for Valentine\u2019s Day. They go over last-minute details and ensure everything is ready for the evening celebration (covering various aspects including seating arrangement, menu options, sound system, lighting setup, schedule review, emergency procedures, decorations, inventory of supplies, staffing needs, contingency plans, promotional materials, new technology, guest feedback, post-event cleanup, budget review, special orders from regular customers, timeline for setup and breakdown of decorations, vendor arrangements or deliveries, guest list and seating chart, menu items or drink specials, marketing strategies, updates from suppliers, final checklist) (and Klaus go over the schedule review to ensure everything is on track) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 57.1,
+          "hunger": 100.0,
+          "fun": 51.3,
+          "hygiene": 81.9,
+          "bladder": 12.6,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        111,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "Klaus is having lunch at Hobbs Cafe. He enjoys a leisurely meal and takes the opportunity to chat with some colleagues about their ongoing projects and recent readings in sociology (conversing about Klaus Mueller and Wolfgang Schulz discussing how to integrate chemical analysis with sociological research on gentrification, focusing on building materials, waste management, air quality, and community engagement.) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.3,
+          "hunger": 99.8,
+          "fun": 6.4,
+          "hygiene": 93.0,
+          "bladder": 64.4,
+          "social": 18.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        46
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "Maria is returning home to have lunch (setting up her dining table for lunch) @ the Ville:Dorm for Oak Hill College:kitchen:toaster",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 88.4,
+          "hunger": 50.3,
+          "fun": 53.1,
+          "hygiene": 61.5,
+          "bladder": 0.0,
+          "social": 3.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        48,
+        31
+      ],
+      "pronunciatio": "\ud83d\udcac\u2615",
+      "description": "working on her interactive art project (conversing about Abigail Chen and Hailey Johnson conversing about collaborating on integrating interactive elements into their respective projects, an art piece and a novel, with plans to meet up at a coffee place to brainstorm ideas.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 78.7,
+          "hunger": 100.0,
+          "fun": 46.8,
+          "hygiene": 72.9,
+          "bladder": 29.0,
+          "social": 6.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "John is interacting with customers and filling prescriptions at Willow Market and Pharmacy. He maintains a friendly demeanor, offering assistance and advice to those who need it (assisting customers with over-the-counter medication selection) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 46.1,
+          "hunger": 91.5,
+          "fun": 54.4,
+          "hygiene": 89.9,
+          "bladder": 44.5,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        112,
+        25
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udcac",
+      "description": "Eddy is attending classes at Oak Hill College (participating in discussions and asking questions) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.9,
+          "hunger": 81.2,
+          "fun": 71.2,
+          "hygiene": 92.8,
+          "bladder": 0.0,
+          "social": 3.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        47,
+        31
+      ],
+      "pronunciatio": "\ud83d\udcac\u2615",
+      "description": "Hailey is taking a brief break to make breakfast and relax for a bit (conversing about Abigail Chen and Hailey Johnson conversing about collaborating on integrating interactive elements into their respective projects, an art piece and a novel, with plans to meet up at a coffee place to brainstorm ideas.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 88.5,
+          "hunger": 49.9,
+          "fun": 93.5,
+          "hygiene": 88.8,
+          "bladder": 74.3,
+          "social": 6.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "having lunch. He enjoys a balanced meal to keep his energy levels up for the rest of the day (conversing about Klaus Mueller and Wolfgang Schulz discussing how to integrate chemical analysis with sociological research on gentrification, focusing on building materials, waste management, air quality, and community engagement.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 32.5,
+          "hunger": 89.4,
+          "fun": 32.1,
+          "hygiene": 80.8,
+          "bladder": 0.0,
+          "social": 8.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 12:23:30"
+  }
+}

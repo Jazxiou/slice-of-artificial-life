@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "preparing for the Valentine\u2019s Day celebration. She ensures that all decorations are in place and checks with Eddy Lin to confirm he will start playing at 5:00 pm as planned (conversing about coordinating final preparations and meeting times for an interactive art piece installation at Hobbs Cafe for Valentine\u2019s Day, with Isabella Rodriguez and Abigail Chen discussing last-minute adjustments and support needs.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 31.8,
+          "hunger": 97.0,
+          "fun": 67.4,
+          "hygiene": 66.7,
+          "bladder": 13.8,
+          "social": 8.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Eddy Lin discussing their potential collaboration on a project that combines music with research to explore the social issue of gentrification, including ideas for multimedia presentation and audience engagement. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hi Eddy, I've been reading some interesting stuff on gentrification today. Have you made any progress with your music project that relates to this topic?"
+        ],
+        [
+          "Eddy Lin",
+          "Hey Klaus, yeah I've been working on some pieces that explore the theme of change and displacement. It's a tricky balance between being artistic and also conveying real social issues like gentrification. Have you had any breakthroughs with your research?"
+        ],
+        [
+          "Klaus Mueller",
+          "It's definitely challenging to convey such complex issues, but your project sounds really intriguing. I've been looking at how different communities respond to gentrification and thinking about ways we might collaborate on a piece that combines our work. What do you think?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds amazing, Klaus! I think combining my music with your research could really highlight the human impact of gentrification in a unique way. Maybe we can start by meeting at Hobbs Cafe next Tuesday to brainstorm some ideas?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Eddy! I'm really excited about this potential collaboration. Let\u2019s meet at Hobbs Cafe next Tuesday and start brainstorming some ideas then."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, I'll see you there Klaus. Looking forward to it!"
+        ],
+        [
+          "Klaus Mueller",
+          "Awesome, let's make sure to bring some initial ideas and drafts to our meeting. I think it could be really impactful."
+        ],
+        [
+          "Eddy Lin",
+          "Perfect, I'll bring some musical sketches and we can discuss how to integrate them with your research. See you Tuesday at Hobbs Cafe then!"
+        ],
+        [
+          "Klaus Mueller",
+          "Great, I'll bring some notes from my research and we can see how they align with your music. Can't wait to see where our collaboration takes us!"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like an exciting start, Klaus. I'll make sure to prepare my musical sketches and any notes that might complement your research findings. See you at Hobbs Cafe on Tuesday!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Eddy. I'll bring some data points and theoretical frameworks from my research that could help shape our project. Looking forward to Tuesday!"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, Klaus! Let\u2019s make sure to also discuss how we can effectively communicate our message to a broader audience. I think it's crucial for people outside academia and music circles to understand the impact of gentrification."
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, Eddy. We should also think about how to make our collaboration accessible and engaging for everyone. Maybe we can brainstorm some multimedia presentation ideas or interactive elements that could help convey our message more effectively."
+        ],
+        [
+          "Eddy Lin",
+          "That\u2019s a great point, Klaus. We could consider using soundscapes and interactive installations to bring our message to life. I think those elements would help connect people emotionally to the issues we're addressing."
+        ],
+        [
+          "Klaus Mueller",
+          "I agree, Eddy. Soundscapes and interactive installations could be powerful tools to convey our message. Let\u2019s also think about how we can incorporate visuals or videos that complement the music and research. This multimedia approach might really help people connect with the emotional and social aspects of gentrification."
+        ],
+        [
+          "Eddy Lin",
+          "I think incorporating visuals and videos could be really effective, Klaus. We should brainstorm some ideas for how we can use these mediums to tell a cohesive story about gentrification through both your research and my music."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 48.0,
+          "hunger": 84.0,
+          "fun": 19.9,
+          "hygiene": 77.8,
+          "bladder": 29.0,
+          "social": 35.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc65",
+      "description": "Maria is continuing to stream or game on Twitch from 5:00 PM to 8:00 PM, engaging with her community and collaborating on creative projects like interactive storytelling events (collaborating on an interactive storytelling event) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.1,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 46.3,
+          "bladder": 0.0,
+          "social": 16.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "Abigail is preparing to head out to meet with collaborators for the feedback session on her interactive art project. Given that she needs to address an urgent need, she might take care of this before leaving or make a brief stop during travel time if necessary (conversing about coordinating final preparations and meeting times for an interactive art piece installation at Hobbs Cafe for Valentine\u2019s Day, with Isabella Rodriguez and Abigail Chen discussing last-minute adjustments and support needs.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.4,
+          "hunger": 99.0,
+          "fun": 39.9,
+          "hygiene": 95.8,
+          "bladder": 90.2,
+          "social": 20.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\uddc2",
+      "description": "John is closing up the pharmacy counter and locking down the store at Willow Market and Pharmacy. He ensures that all prescriptions are filled, orders are processed, and the store is secure before heading home for the day (processing any remaining orders and paperwork) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 20.8,
+          "hunger": 91.0,
+          "fun": 34.2,
+          "hygiene": 74.7,
+          "bladder": 9.1,
+          "social": 4.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        119,
+        27
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Eddy Lin discussing their potential collaboration on a project that combines music with research to explore the social issue of gentrification, including ideas for multimedia presentation and audience engagement. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hi Eddy, I've been reading some interesting stuff on gentrification today. Have you made any progress with your music project that relates to this topic?"
+        ],
+        [
+          "Eddy Lin",
+          "Hey Klaus, yeah I've been working on some pieces that explore the theme of change and displacement. It's a tricky balance between being artistic and also conveying real social issues like gentrification. Have you had any breakthroughs with your research?"
+        ],
+        [
+          "Klaus Mueller",
+          "It's definitely challenging to convey such complex issues, but your project sounds really intriguing. I've been looking at how different communities respond to gentrification and thinking about ways we might collaborate on a piece that combines our work. What do you think?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds amazing, Klaus! I think combining my music with your research could really highlight the human impact of gentrification in a unique way. Maybe we can start by meeting at Hobbs Cafe next Tuesday to brainstorm some ideas?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Eddy! I'm really excited about this potential collaboration. Let\u2019s meet at Hobbs Cafe next Tuesday and start brainstorming some ideas then."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, I'll see you there Klaus. Looking forward to it!"
+        ],
+        [
+          "Klaus Mueller",
+          "Awesome, let's make sure to bring some initial ideas and drafts to our meeting. I think it could be really impactful."
+        ],
+        [
+          "Eddy Lin",
+          "Perfect, I'll bring some musical sketches and we can discuss how to integrate them with your research. See you Tuesday at Hobbs Cafe then!"
+        ],
+        [
+          "Klaus Mueller",
+          "Great, I'll bring some notes from my research and we can see how they align with your music. Can't wait to see where our collaboration takes us!"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like an exciting start, Klaus. I'll make sure to prepare my musical sketches and any notes that might complement your research findings. See you at Hobbs Cafe on Tuesday!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Eddy. I'll bring some data points and theoretical frameworks from my research that could help shape our project. Looking forward to Tuesday!"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, Klaus! Let\u2019s make sure to also discuss how we can effectively communicate our message to a broader audience. I think it's crucial for people outside academia and music circles to understand the impact of gentrification."
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, Eddy. We should also think about how to make our collaboration accessible and engaging for everyone. Maybe we can brainstorm some multimedia presentation ideas or interactive elements that could help convey our message more effectively."
+        ],
+        [
+          "Eddy Lin",
+          "That\u2019s a great point, Klaus. We could consider using soundscapes and interactive installations to bring our message to life. I think those elements would help connect people emotionally to the issues we're addressing."
+        ],
+        [
+          "Klaus Mueller",
+          "I agree, Eddy. Soundscapes and interactive installations could be powerful tools to convey our message. Let\u2019s also think about how we can incorporate visuals or videos that complement the music and research. This multimedia approach might really help people connect with the emotional and social aspects of gentrification."
+        ],
+        [
+          "Eddy Lin",
+          "I think incorporating visuals and videos could be really effective, Klaus. We should brainstorm some ideas for how we can use these mediums to tell a cohesive story about gentrification through both your research and my music."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 48.6,
+          "hunger": 97.7,
+          "fun": 88.2,
+          "hygiene": 89.4,
+          "bladder": 97.4,
+          "social": 13.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        44,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcc6\u23f0",
+      "description": "Hailey is reaching out to friends such as Abigail Chen via message to plan future collaborative events or hangouts (discussing potential dates and times for upcoming collaborative workshops with Abigail) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.2,
+          "hunger": 94.8,
+          "fun": 98.0,
+          "hygiene": 73.7,
+          "bladder": 38.9,
+          "social": 7.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\ud83c\udfc3\u200d\u2642",
+      "description": "Wolfgang is taking a short break after his workout. He hydrates and stretches, reflecting on the day's activities so far (reflecting on the morning run) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 7.2,
+          "hunger": 79.4,
+          "fun": 14.3,
+          "hygiene": 65.7,
+          "bladder": 0.0,
+          "social": 12.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 17:26:40"
+  }
+}

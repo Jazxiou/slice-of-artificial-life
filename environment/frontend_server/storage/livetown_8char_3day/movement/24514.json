@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        80,
+        19
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83d\ude4f",
+      "description": "closing Hobbs Cafe for the night. She thanks her customers and staff for a successful Valentine\u2019s Day celebration, ensuring that everything is cleaned up and prepared for the next day (thanking customers as they leave) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 18.6,
+          "hunger": 97.1,
+          "fun": 77.3,
+          "hygiene": 67.3,
+          "bladder": 12.5,
+          "social": 10.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        116,
+        38
+      ],
+      "pronunciatio": "\ud83e\udd14\ud83d\udcda",
+      "description": "Klaus is taking a short break after his meeting with Wolfgang Schulz. He reflects on the discussions they had and plans to incorporate some of Wolfgang's insights into his research paper (reflecting on the discussions with Wolfgang Schulz about interdisciplinary approaches to gentrification research) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 34.8,
+          "hunger": 99.4,
+          "fun": 17.7,
+          "hygiene": 69.9,
+          "bladder": 10.4,
+          "social": 47.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "Maria is continuing to stream or game on Twitch from 8:00 PM to 9:00 PM, engaging with her community and collaborating on creative projects like interactive storytelling events (interacting with viewers through chat) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.9,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 38.3,
+          "bladder": 0.0,
+          "social": 13.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        66,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcc5",
+      "description": "reviewing the day's progress and planning for upcoming tasks related to her interactive art project and Valentine\u2019s Day event at Hobbs Cafe. She also considers any necessary adjustments due to today\u2019s interruptions @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 40.2,
+          "hunger": 99.4,
+          "fun": 29.3,
+          "hygiene": 99.7,
+          "bladder": 99.3,
+          "social": 16.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Watching his favorite television show to unwind after a long day at work. He enjoys the quiet evening, reflecting on the day's events and looking forward to another day ahead. (settling down with his favorite television show) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 7.5,
+          "hunger": 97.5,
+          "fun": 42.5,
+          "hygiene": 83.9,
+          "bladder": 25.1,
+          "social": 4.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        98,
+        54
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "going back to his dorm room after a long day at the college library. He feels tired but also lonely and in need of company, so he decides to send out another message to friends asking if anyone wants to hang out or grab dinner together (walking back to his dorm room from the college library) @ the Ville:Dorm for Oak Hill College:common room:pool table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 35.4,
+          "hunger": 100.0,
+          "fun": 97.7,
+          "hygiene": 81.4,
+          "bladder": 78.8,
+          "social": 16.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        29,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "Hailey is messaging friends like Abigail Chen to see if anyone is available for a video chat or hangout, feeling lonely and wanting company (writing a friendly message asking if Abigail is free for a chat or hangout) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.9,
+          "hunger": 99.4,
+          "fun": 99.9,
+          "hygiene": 65.7,
+          "bladder": 20.4,
+          "social": 12.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udd25",
+      "description": "Wolfgang is studying in his room. Despite feeling increasingly tired, he continues to push himself to review his chemistry notes and prepare for upcoming exams (reviewing his chemistry notes on thermodynamics) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 0.0,
+          "hunger": 85.5,
+          "fun": 3.7,
+          "hygiene": 57.7,
+          "bladder": 0.0,
+          "social": 10.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 20:05:40"
+  }
+}

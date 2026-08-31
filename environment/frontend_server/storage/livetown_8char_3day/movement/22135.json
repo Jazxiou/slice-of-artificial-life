@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Isabella Rodriguez coordinating their efforts for setting up and managing an event at Hobbs Cafe on Valentine's Day. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hello Eddy, it\u2019s nice to see you here. I hope your food is everything you hoped for. How are you preparing for Valentine\u2019s Day?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Isabella, I'm good thanks. I've been working on my setlist and planning to bring everything I need for the performance tonight. How\u2019s your preparation going?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "It\u2019s going well, but there are always last-minute details to handle. I\u2019m glad you\u2019re here for lunch; it\u2019s been busy today and nice to have someone familiar around."
+        ],
+        [
+          "Eddy Lin",
+          "Yeah, I understand. It looks like you\u2019ve got everything under control though. Do you need any help setting up or during the event?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Actually, that would be great. We could use an extra hand setting up and perhaps help manage the music area since you\u2019re familiar with it."
+        ],
+        [
+          "Eddy Lin",
+          "Sure, I can help out. Let\u2019s go over what you need specifically and make sure everything goes smoothly tonight."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be wonderful, Eddy. Once we finish here, maybe we can walk through the setup together and see what needs to be done?"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Isabella. Let\u2019s head over to Hobbs Cafe and go through the setup right after I finish my lunch."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, how about we start right after you're done eating then? I'll give you a tour of where everything needs to go and show you what we've planned."
+        ],
+        [
+          "Eddy Lin",
+          "That works for me. I'll be ready to start as soon as I finish my meal."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, let\u2019s meet back here around 1pm then. I\u2019ll have Klaus finish up and check in with me so we can start right away."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Isabella. I\u2019ll be ready to help you set up right after my lunch."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Perfect, I'll make sure everything is in place by then. Looking forward to working together and making today\u2019s event a success."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I appreciate your trust and look forward to helping out today."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Eddy. See you back here at 1pm then. And thanks again for your help today."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a plan, Isabella. I'll be here at 1pm sharp to help out."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 51.6,
+          "hunger": 99.2,
+          "fun": 47.0,
+          "hygiene": 78.6,
+          "bladder": 4.9,
+          "social": 13.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "Klaus is returning to the library after lunch. He plans to continue his research on gentrification and prepare for his meeting with Wolfgang Schulz later in the afternoon (reviewing notes from previous meetings with Wolfgang Schulz and other colleagues) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.8,
+          "hunger": 100.0,
+          "fun": 23.0,
+          "hygiene": 89.7,
+          "bladder": 56.7,
+          "social": 20.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        46
+      ],
+      "pronunciatio": "\ud83c\udf5d\ud83e\udd66",
+      "description": "Maria is returning home to have lunch (preparing a simple meal of pasta and vegetables) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.9,
+          "hunger": 100.0,
+          "fun": 53.4,
+          "hygiene": 58.2,
+          "bladder": 0.0,
+          "social": 4.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        32
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udcbb",
+      "description": "working on her interactive art project (testing the integration of interactive elements into her art piece) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.2,
+          "hunger": 94.0,
+          "fun": 42.4,
+          "hygiene": 69.6,
+          "bladder": 21.4,
+          "social": 17.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83d\udc68\u200d\ud83d\udcbc",
+      "description": "John is interacting with customers and filling prescriptions at Willow Market and Pharmacy. He maintains a friendly demeanor, offering assistance and advice to those who need it (assisting a customer with insurance questions regarding prescription costs) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 40.6,
+          "hunger": 84.9,
+          "fun": 50.0,
+          "hygiene": 86.6,
+          "bladder": 36.8,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        75,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Isabella Rodriguez coordinating their efforts for setting up and managing an event at Hobbs Cafe on Valentine's Day. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hello Eddy, it\u2019s nice to see you here. I hope your food is everything you hoped for. How are you preparing for Valentine\u2019s Day?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Isabella, I'm good thanks. I've been working on my setlist and planning to bring everything I need for the performance tonight. How\u2019s your preparation going?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "It\u2019s going well, but there are always last-minute details to handle. I\u2019m glad you\u2019re here for lunch; it\u2019s been busy today and nice to have someone familiar around."
+        ],
+        [
+          "Eddy Lin",
+          "Yeah, I understand. It looks like you\u2019ve got everything under control though. Do you need any help setting up or during the event?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Actually, that would be great. We could use an extra hand setting up and perhaps help manage the music area since you\u2019re familiar with it."
+        ],
+        [
+          "Eddy Lin",
+          "Sure, I can help out. Let\u2019s go over what you need specifically and make sure everything goes smoothly tonight."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be wonderful, Eddy. Once we finish here, maybe we can walk through the setup together and see what needs to be done?"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Isabella. Let\u2019s head over to Hobbs Cafe and go through the setup right after I finish my lunch."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, how about we start right after you're done eating then? I'll give you a tour of where everything needs to go and show you what we've planned."
+        ],
+        [
+          "Eddy Lin",
+          "That works for me. I'll be ready to start as soon as I finish my meal."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, let\u2019s meet back here around 1pm then. I\u2019ll have Klaus finish up and check in with me so we can start right away."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Isabella. I\u2019ll be ready to help you set up right after my lunch."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Perfect, I'll make sure everything is in place by then. Looking forward to working together and making today\u2019s event a success."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I appreciate your trust and look forward to helping out today."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Eddy. See you back here at 1pm then. And thanks again for your help today."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a plan, Isabella. I'll be here at 1pm sharp to help out."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 68.4,
+          "hunger": 92.2,
+          "fun": 66.8,
+          "hygiene": 92.7,
+          "bladder": 1.6,
+          "social": 11.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83e\udd14\ud83d\udcde",
+      "description": "Hailey is writing or brainstorming ideas for her podcast from 1:00 pm to 3:00 pm (brainstorming potential episode topics, interrupted by a quick call with Abigail Chen) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 83.0,
+          "hunger": 87.9,
+          "fun": 100.0,
+          "hygiene": 85.5,
+          "bladder": 66.6,
+          "social": 2.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        112,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfa7",
+      "description": "Wolfgang is attending an interdisciplinary seminar. He finds these sessions insightful and enjoys discussing chemistry's broader impacts with peers from different academic backgrounds (taking notes during the first presentation) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 27.0,
+          "hunger": 97.7,
+          "fun": 27.8,
+          "hygiene": 77.5,
+          "bladder": 0.0,
+          "social": 9.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 13:29:10"
+  }
+}

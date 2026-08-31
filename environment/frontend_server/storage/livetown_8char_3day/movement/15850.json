@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Isabella Rodriguez discussing plans for Abigail's interactive Valentine's Day art project at Hobbs Cafe, including setup requirements and promotion strategies. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Isabella, it's nice to see you here. I was hoping we could talk about some ideas for my Valentine's Day art project. Do you have a minute?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Of course, Abigail! I'd love to hear about your ideas. Let's find a quiet corner and discuss how we can make it a special part of our Valentine\u2019s celebration."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds perfect. I've been working on this interactive art piece that combines animation and user interaction. It would be amazing to have it up at Hobbs Cafe for Valentine\u2019s Day. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds incredibly innovative, Abigail. I think it would really enhance the atmosphere we're aiming for. How can we support you in setting up and promoting this piece?"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella! I was thinking we could have a setup station where people can interact directly with the art piece and maybe leave messages or drawings for their loved ones. It would also be great if you could help promote it on social media to attract more visitors on Valentine\u2019s Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Abigail! I'll make sure to share your project on our social media platforms and help people understand how they can interact with it. Let\u2019s also set up a small area where visitors can sign up for the event or learn more about the art piece. Do you need any specific materials or assistance from my team?"
+        ],
+        [
+          "Abigail Chen",
+          "That would be fantastic, Isabella. Having your team\u2019s support really helps me focus on creating something unique and engaging for everyone. I'll need a few more details about space requirements by tomorrow if possible, but otherwise, let's plan to meet again next week to go over everything in detail."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works great, Abigail. I'll assign Klaus to assist you and reach out for all the necessary details by tomorrow. Let's touch base next week as well to finalize everything. Sounds good?"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella! I really appreciate your help and support. It means a lot to me. Let\u2019s definitely catch up next week to iron out all the details."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Abigail. I look forward to our next meeting and can't wait to see your art piece come together. Have a wonderful day!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks again, Isabella. I'll make sure to send over any initial sketches or ideas for you and Klaus to review by tomorrow. Looking forward to working together!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds great, Abigail. I'll make sure to check in with Klaus and have him ready for your meeting. Take care and talk to you soon!"
+        ],
+        [
+          "Abigail Chen",
+          "Thank you, Isabella. I'll send Klaus our initial meeting notes and any preparatory materials as well. Looking forward to seeing everything come together on Valentine\u2019s Day!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds great, Abigail. I'll make sure Klaus is well-prepared for your meeting and ready to assist you with any preparations needed. Have a lovely day!"
+        ],
+        [
+          "Abigail Chen",
+          "Isabella, before we wrap up, is there anything specific you need from me by tomorrow for Klaus and the team to start preparations?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Abigail, for tomorrow it would be helpful if you could send over any specific space requirements and initial sketches or ideas so Klaus and I can review them and start organizing accordingly. That way we can make sure everything is ready for your next meeting."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 14.9,
+          "hunger": 81.5,
+          "fun": 93.1,
+          "hygiene": 82.0,
+          "bladder": 57.9,
+          "social": 17.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udca1",
+      "description": "Klaus is meeting with peers for discussion and collaboration about his research paper at the college's study lounge (presenting his hypothesis and seeking feedback from peers) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 34.9,
+          "hunger": 91.3,
+          "fun": 26.7,
+          "hygiene": 35.8,
+          "bladder": 12.8,
+          "social": 37.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        80,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb5",
+      "description": "Maria is continuing her visit at Hobbs Cafe, hoping to meet up with friends or peers for a study session or casual conversation. She feels more energized after her morning routine but still misses the companionship of others and hopes to connect with someone during (conversing about Eddy Lin and Maria Lopez discussing how physics intersects with music theory, focusing on instrument tuning systems like quarter-comma meantone and just intonation, ahead of their coffee meeting.) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 60.4,
+          "hunger": 100.0,
+          "fun": 61.6,
+          "hygiene": 76.2,
+          "bladder": 44.5,
+          "social": 33.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        75,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Isabella Rodriguez discussing plans for Abigail's interactive Valentine's Day art project at Hobbs Cafe, including setup requirements and promotion strategies. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Isabella, it's nice to see you here. I was hoping we could talk about some ideas for my Valentine's Day art project. Do you have a minute?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Of course, Abigail! I'd love to hear about your ideas. Let's find a quiet corner and discuss how we can make it a special part of our Valentine\u2019s celebration."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds perfect. I've been working on this interactive art piece that combines animation and user interaction. It would be amazing to have it up at Hobbs Cafe for Valentine\u2019s Day. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds incredibly innovative, Abigail. I think it would really enhance the atmosphere we're aiming for. How can we support you in setting up and promoting this piece?"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella! I was thinking we could have a setup station where people can interact directly with the art piece and maybe leave messages or drawings for their loved ones. It would also be great if you could help promote it on social media to attract more visitors on Valentine\u2019s Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Abigail! I'll make sure to share your project on our social media platforms and help people understand how they can interact with it. Let\u2019s also set up a small area where visitors can sign up for the event or learn more about the art piece. Do you need any specific materials or assistance from my team?"
+        ],
+        [
+          "Abigail Chen",
+          "That would be fantastic, Isabella. Having your team\u2019s support really helps me focus on creating something unique and engaging for everyone. I'll need a few more details about space requirements by tomorrow if possible, but otherwise, let's plan to meet again next week to go over everything in detail."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works great, Abigail. I'll assign Klaus to assist you and reach out for all the necessary details by tomorrow. Let's touch base next week as well to finalize everything. Sounds good?"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella! I really appreciate your help and support. It means a lot to me. Let\u2019s definitely catch up next week to iron out all the details."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Abigail. I look forward to our next meeting and can't wait to see your art piece come together. Have a wonderful day!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks again, Isabella. I'll make sure to send over any initial sketches or ideas for you and Klaus to review by tomorrow. Looking forward to working together!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds great, Abigail. I'll make sure to check in with Klaus and have him ready for your meeting. Take care and talk to you soon!"
+        ],
+        [
+          "Abigail Chen",
+          "Thank you, Isabella. I'll send Klaus our initial meeting notes and any preparatory materials as well. Looking forward to seeing everything come together on Valentine\u2019s Day!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds great, Abigail. I'll make sure Klaus is well-prepared for your meeting and ready to assist you with any preparations needed. Have a lovely day!"
+        ],
+        [
+          "Abigail Chen",
+          "Isabella, before we wrap up, is there anything specific you need from me by tomorrow for Klaus and the team to start preparations?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Abigail, for tomorrow it would be helpful if you could send over any specific space requirements and initial sketches or ideas so Klaus and I can review them and start organizing accordingly. That way we can make sure everything is ready for your next meeting."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 39.9,
+          "hunger": 99.8,
+          "fun": 96.9,
+          "hygiene": 79.1,
+          "bladder": 51.2,
+          "social": 15.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        89,
+        65
+      ],
+      "pronunciatio": "\ud83d\udcfa\ud83e\udd14",
+      "description": "watching TV at home. He feels a bit better after addressing his urgent needs and talking with friends earlier, but still misses the company of others (sitting down to watch TV, browsing through channels for something interesting to watch, finds a documentary about wildlife and starts watching it, pauses the TV to get a drink of water, resumes watching the documentary, feeling reflective and thinks about calling another friend for a chat, decides against it and continues to watch TV, notices an advertisement break and uses this time to stretch his legs) (decides against it and continues to watch TV) @ the Ville:Lin family's house:common room:shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 20.0,
+          "hunger": 91.3,
+          "fun": 71.5,
+          "hygiene": 97.6,
+          "bladder": 94.3,
+          "social": 10.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        81,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb5",
+      "description": "working on his composition project at Hobbs Cafe. He focuses intently, taking breaks to grab a snack and coffee (conversing about Eddy Lin and Maria Lopez discussing how physics intersects with music theory, focusing on instrument tuning systems like quarter-comma meantone and just intonation, ahead of their coffee meeting.) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 35.1,
+          "hunger": 100.0,
+          "fun": 99.3,
+          "hygiene": 67.0,
+          "bladder": 23.0,
+          "social": 24.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f",
+      "description": "going back to her apartment after a long day of meetings and discussions. She feels mentally stimulated but also physically drained, especially since she's still dealing with the urge to use the bathroom. She decides to take care of this before settling down for the evening (changing into more comfortable clothes) @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 57.0,
+          "hunger": 97.6,
+          "fun": 85.4,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 13.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfcb\ufe0f",
+      "description": "resting and planning to exercise in his room later. He feels a bit better after talking with Eddy Lin earlier but remains tired and needs some downtime (planning out his evening workout routine for the next hour for 10 minutes) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 26.8,
+          "hunger": 88.1,
+          "fun": 8.2,
+          "hygiene": 88.1,
+          "bladder": 72.2,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 20:01:40"
+  }
+}

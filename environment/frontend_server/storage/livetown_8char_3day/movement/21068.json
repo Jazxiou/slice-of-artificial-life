@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udc40",
+      "description": "meeting with Klaus Mueller to finalize setup arrangements for Valentine\u2019s Day. They go over last-minute details and ensure everything is ready for the evening celebration (covering various aspects including seating arrangement, menu options, sound system, lighting setup, schedule review, emergency procedures, decorations, inventory of supplies, staffing needs, contingency plans, promotional materials, new technology, guest feedback, post-event cleanup, budget review, special orders from regular customers, timeline for setup and breakdown of decorations, vendor arrangements or deliveries, guest list and seating chart, menu items or drink specials, marketing strategies, updates from suppliers, final checklist) (reviewing the seating arrangement with Klaus) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 66.4,
+          "hunger": 100.0,
+          "fun": 58.8,
+          "hygiene": 87.5,
+          "bladder": 25.7,
+          "social": 2.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcd6",
+      "description": "Klaus is studying and writing research papers in the library. He reviews recent literature on gentrification and takes detailed notes for his project (taking notes from the articles he reviewed) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.6,
+          "hunger": 85.2,
+          "fun": 0.0,
+          "hygiene": 98.6,
+          "bladder": 77.4,
+          "social": 4.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2642",
+      "description": "Maria is waking up and completing her morning routine (stretching and doing light exercises) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 97.7,
+          "hunger": 14.1,
+          "fun": 58.2,
+          "hygiene": 58.5,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcc5\ud83c\udfa8",
+      "description": "collaborating with Isabella Rodriguez on Valentine's Day event details (planning interactive art installation logistics) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 88.1,
+          "hunger": 52.4,
+          "fun": 54.2,
+          "hygiene": 78.5,
+          "bladder": 42.1,
+          "social": 2.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udd0d",
+      "description": "John is reviewing customer orders and prescriptions at Willow Market and Pharmacy. He ensures everything at the pharmacy is organized and ready for the day's customers (reviewing customer files to ensure accuracy of prescriptions) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 55.4,
+          "hunger": 91.7,
+          "fun": 61.9,
+          "hygiene": 95.5,
+          "bladder": 57.6,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        115,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcd6",
+      "description": "attending classes at Oak Hill College (taking notes during class) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 83.2,
+          "hunger": 92.4,
+          "fun": 67.8,
+          "hygiene": 98.4,
+          "bladder": 11.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        31,
+        29
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Hailey is waking up and completing her morning routine (combing her hair) @ the Ville:artist's co-living space:Hailey Johnson's bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 97.8,
+          "hunger": 29.8,
+          "fun": 58.2,
+          "hygiene": 94.4,
+          "bladder": 87.4,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        117,
+        46
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "studying in his room. He takes a short break to stretch and hydrate, then dives back into his chemistry notes and textbooks (takes a short break to stretch and hydrate) @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 41.8,
+          "hunger": 97.2,
+          "fun": 39.6,
+          "hygiene": 86.4,
+          "bladder": 0.0,
+          "social": 4.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 10:31:20"
+  }
+}

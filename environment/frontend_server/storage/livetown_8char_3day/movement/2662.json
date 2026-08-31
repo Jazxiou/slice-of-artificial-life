@@ -1,0 +1,257 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "having breakfast and reviewing plans for Valentine's Day party (eating her breakfast) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 93.0,
+          "hunger": 56.7,
+          "fun": 66.5,
+          "hygiene": 78.6,
+          "bladder": 87.1,
+          "social": 45.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        50
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "waking up and completing his morning routine (drinking a glass of water) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 98.0,
+          "hunger": 30.6,
+          "fun": 45.4,
+          "hygiene": 78.6,
+          "bladder": 92.0,
+          "social": 45.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 30.6,
+          "fun": 45.4,
+          "hygiene": 52.8,
+          "bladder": 59.5,
+          "social": 45.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Abigail Chen's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 30.6,
+          "fun": 45.4,
+          "hygiene": 52.8,
+          "bladder": 59.5,
+          "social": 45.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        93,
+        68
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and John discussing their plans for the week, including school projects and lunch plans at Hobbs Cafe. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "John Lin",
+          "Good morning, Eddy. Did you sleep well? Ready for another busy week at school?"
+        ],
+        [
+          "Eddy Lin",
+          "Good morning, John. Yeah, I slept pretty well. Looking forward to my classes today. How about you?"
+        ],
+        [
+          "John Lin",
+          "That's great to hear. Have you thought about what projects or assignments are due this week?"
+        ],
+        [
+          "Eddy Lin",
+          "Not much due this week, just working on my composition project. How was your weekend? Did you get a chance to relax?"
+        ],
+        [
+          "John Lin",
+          "It was pretty calm actually, just catching up on some online classes and reading about the upcoming mayor candidates. Did you have any specific plans for this week?"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, John. I'm planning to focus on my composition and maybe attend a music lecture this week if time allows. What do you think about grabbing lunch at Hobbs Cafe today?"
+        ],
+        [
+          "John Lin",
+          "That sounds like a lovely idea, Eddy. Let's meet there around noon then."
+        ],
+        [
+          "Eddy Lin",
+          "Perfect, I'll see you there John. Have a good day at work!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 93.0,
+          "hunger": 56.7,
+          "fun": 45.4,
+          "hygiene": 99.9,
+          "bladder": 87.1,
+          "social": 46.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        93,
+        67
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and John discussing their plans for the week, including school projects and lunch plans at Hobbs Cafe. @ <persona> John Lin",
+      "chat": [
+        [
+          "John Lin",
+          "Good morning, Eddy. Did you sleep well? Ready for another busy week at school?"
+        ],
+        [
+          "Eddy Lin",
+          "Good morning, John. Yeah, I slept pretty well. Looking forward to my classes today. How about you?"
+        ],
+        [
+          "John Lin",
+          "That's great to hear. Have you thought about what projects or assignments are due this week?"
+        ],
+        [
+          "Eddy Lin",
+          "Not much due this week, just working on my composition project. How was your weekend? Did you get a chance to relax?"
+        ],
+        [
+          "John Lin",
+          "It was pretty calm actually, just catching up on some online classes and reading about the upcoming mayor candidates. Did you have any specific plans for this week?"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, John. I'm planning to focus on my composition and maybe attend a music lecture this week if time allows. What do you think about grabbing lunch at Hobbs Cafe today?"
+        ],
+        [
+          "John Lin",
+          "That sounds like a lovely idea, Eddy. Let's meet there around noon then."
+        ],
+        [
+          "Eddy Lin",
+          "Perfect, I'll see you there John. Have a good day at work!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 98.0,
+          "hunger": 32.6,
+          "fun": 45.4,
+          "hygiene": 78.6,
+          "bladder": 92.0,
+          "social": 46.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 30.6,
+          "fun": 45.4,
+          "hygiene": 52.8,
+          "bladder": 59.5,
+          "social": 45.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        123,
+        47
+      ],
+      "pronunciatio": "\ud83c\udf73\u2615",
+      "description": "preparing breakfast and reviewing his study notes (eating breakfast) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 88.0,
+          "hunger": 73.2,
+          "fun": 74.4,
+          "hygiene": 70.0,
+          "bladder": 65.0,
+          "social": 45.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 07:23:40"
+  }
+}

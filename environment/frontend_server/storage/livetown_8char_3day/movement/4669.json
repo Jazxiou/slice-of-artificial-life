@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udc65",
+      "description": "having a meeting with staff to discuss details about the Valentine's Day party (on the way to assigns tasks to each team member based on discussion) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 65.2,
+          "hunger": 86.9,
+          "fun": 100.0,
+          "hygiene": 61.8,
+          "bladder": 48.1,
+          "social": 25.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\u2615\u23f0",
+      "description": "Klaus is having lunch at Hobbs Cafe (waiting for his order to be prepared) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.2,
+          "hunger": 100.0,
+          "fun": 23.1,
+          "hygiene": 86.1,
+          "bladder": 67.0,
+          "social": 41.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd0d",
+      "description": "studying physics or working on assignments (working on an assignment related to her current course topic) (reviewing the assignment requirements) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 85.2,
+          "hunger": 24.9,
+          "fun": 44.9,
+          "hygiene": 44.7,
+          "bladder": 33.2,
+          "social": 27.5
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcc5",
+      "description": "taking a lunch break (planning her afternoon tasks) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 75.2,
+          "hunger": 100.0,
+          "fun": 81.1,
+          "hygiene": 61.8,
+          "bladder": 57.9,
+          "social": 27.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        89,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udccb",
+      "description": "John is taking a lunch break. He grabs a quick meal and uses the time to review any prescriptions or orders that need attention upon his return to work (preparing any necessary materials for the afternoon shift) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 65.2,
+          "hunger": 100.0,
+          "fun": 27.9,
+          "hygiene": 88.2,
+          "bladder": 48.1,
+          "social": 33.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        111,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udca1",
+      "description": "Eddy is attending a music theory class at Oak Hill College (asking questions to clarify concepts) @ the Ville:Oak Hill College:classroom:blackboard",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.2,
+          "hunger": 76.3,
+          "fun": 100.0,
+          "hygiene": 61.8,
+          "bladder": 53.0,
+          "social": 32.7
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        41,
+        34
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2640",
+      "description": "Hailey is having lunch (taking a short walk around the neighborhood to clear her mind) @ the Ville:Johnson Park:park:park garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 85.2,
+          "hunger": 77.7,
+          "fun": 56.9,
+          "hygiene": 53.2,
+          "bladder": 67.7,
+          "social": 27.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc94",
+      "description": "eating lunch (conversing about Isabella inviting Wolfgang to her Valentine's Day party at the dessert bar and Wolfgang politely declining while keeping the door open for future events.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 60.2,
+          "hunger": 99.8,
+          "fun": 54.1,
+          "hygiene": 53.2,
+          "bladder": 25.9,
+          "social": 38.8
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 12:58:10"
+  }
+}

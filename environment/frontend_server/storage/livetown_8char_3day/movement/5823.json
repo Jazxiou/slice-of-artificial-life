@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac\u2764\ufe0f",
+      "description": "gathering input from regular customers and making final arrangements for the Valentine's Day party (discussing Valentine's Day specials and promotions with customer Mark) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.1,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 52.2,
+          "bladder": 25.7,
+          "social": 34.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udd0d",
+      "description": "Klaus is browsing through academic journals online @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 54.1,
+          "hunger": 99.2,
+          "fun": 31.6,
+          "hygiene": 76.5,
+          "bladder": 44.5,
+          "social": 52.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        89,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac\u2615",
+      "description": "free time (conversing about Maria Lopez and Eddy Lin discussing their respective fields of study, physics and music theory, and planning a coffee meeting to further explore each other's interests.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.1,
+          "hunger": 49.1,
+          "fun": 36.7,
+          "hygiene": 35.0,
+          "bladder": 10.8,
+          "social": 32.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        42,
+        32
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udcbb",
+      "description": "experimenting with new interactive art tools and techniques (exploring different software options for creating interactive art) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.1,
+          "hunger": 84.0,
+          "fun": 99.8,
+          "hygiene": 52.2,
+          "bladder": 35.5,
+          "social": 21.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        76,
+        48
+      ],
+      "pronunciatio": "\ud83d\udc8a",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (various tasks including attending to customer inquiries, organizing medications on the shelves) (organizing medications on the shelves) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.1,
+          "hunger": 100.0,
+          "fun": 26.1,
+          "hygiene": 78.6,
+          "bladder": 25.7,
+          "social": 27.0
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        90,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac\u2615",
+      "description": "Eddy is studying music theory and exploring different musical styles at home or in a quiet study area (conversing about Maria Lopez and Eddy Lin discussing their respective fields of study, physics and music theory, and planning a coffee meeting to further explore each other's interests.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 54.1,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 52.2,
+          "bladder": 30.6,
+          "social": 46.1
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd04",
+      "description": "Hailey is writing (editing her previous day's work) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.1,
+          "hunger": 97.9,
+          "fun": 100.0,
+          "hygiene": 43.6,
+          "bladder": 45.3,
+          "social": 14.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        29
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start reviewing his chemistry notes @ <waiting> 119 29",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.6,
+          "hunger": 82.5,
+          "fun": 57.7,
+          "hygiene": 43.6,
+          "bladder": 7.8,
+          "social": 32.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 16:10:30"
+  }
+}

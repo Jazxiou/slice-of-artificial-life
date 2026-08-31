@@ -1,0 +1,266 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 16, 2023, 00:00:00",
+  "curr_tile": [
+    80,
+    21
+  ],
+  "daily_plan_req": "Isabella Rodriguez opens Hobbs Cafe at 8am everyday, and stands at the counter until 8pm, at which point she closes the cafe.",
+  "name": "Isabella Rodriguez",
+  "first_name": "Isabella",
+  "last_name": "Rodriguez",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "Isabella Rodriguez is a cafe owner of Hobbs Cafe who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "Isabella Rodriguez, the friendly owner of Hobbs Cafe, focuses on making her customers feel welcome by ensuring the cafe remains a relaxing space for everyone, while also meticulously planning future events to maintain the caf\u00e9\u2019s vibrant atmosphere. She appreciates the support from her team, particularly Klaus Mueller, as they work together to uphold the success and charm of Hobbs Cafe.",
+  "seed_currently": "Isabella Rodriguez is planning on having a Valentine's Day party at Hobbs Cafe with her customers on February 14th, 2023 at 5pm. She is gathering party material, and is telling everyone to join the party at Hobbs Cafe on *February 14th, 2023, from 5pm to 7pm*.",
+  "drift_log": [
+    {
+      "day": "2023-02-14",
+      "drift": 0.1527748376700807,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "10:30am",
+        "3pm",
+        "8:30am"
+      ],
+      "reason": "dated",
+      "anchor_event": "upcoming",
+      "drift_after": 0.125643123425921,
+      "dated_after": []
+    },
+    {
+      "day": "2023-02-15",
+      "drift": 0.1723882049928469,
+      "threshold": 0.35,
+      "corrected": false,
+      "dated": []
+    },
+    {
+      "day": "2023-02-16",
+      "drift": 0.20990863238555202,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "february 17",
+        "friday",
+        "today"
+      ],
+      "reason": "dated",
+      "anchor_event": "past",
+      "drift_after": 0.1299624564753309,
+      "dated_after": []
+    }
+  ],
+  "needs": {
+    "sleep": 0.0,
+    "hunger": 91.0,
+    "fun": 68.46,
+    "hygiene": 55.63,
+    "bladder": 0.0,
+    "social": 9.48
+  },
+  "mood": {
+    "family": "sadness",
+    "word": "tired"
+  },
+  "relationships": {
+    "Wolfgang Schulz": {
+      "friendship": 2.0,
+      "romance": 0.0
+    },
+    "Klaus Mueller": {
+      "friendship": 11.0,
+      "romance": 0.0
+    },
+    "Maria Lopez": {
+      "friendship": 73.0,
+      "romance": 0.0
+    },
+    "Abigail Chen": {
+      "friendship": 11.0,
+      "romance": 1.0
+    },
+    "Eddy Lin": {
+      "friendship": 10.0,
+      "romance": 0.0
+    },
+    "Hailey Johnson": {
+      "friendship": 3.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 185,
+  "importance_ele_n": 21,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "open Hobbs Cafe at 8:00 am",
+    "manage cafe operations until 8:00 pm",
+    "close the cafe and clean up after closing time",
+    "head home around 9:00 pm",
+    "have a light dinner and relax at home"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "getting ready for the day by completing her morning routine. She feels a bit tired but remains cheerful, looking forward to welcoming customers at Hobbs Cafe soon",
+      60
+    ],
+    [
+      "heading to the cafe to prepare for opening. She double-checks inventory and sets up any special arrangements for the day, ensuring everything is perfect before customers arrive",
+      60
+    ],
+    [
+      "opening Hobbs Cafe. She greets the first customers with her usual warmth and hospitality, ensuring that everyone feels welcome as they start their day",
+      60
+    ],
+    [
+      "managing the cafe, interacting with customers, and ensuring that everything runs smoothly. She takes a moment to chat with regulars and new faces alike, sharing her friendly demeanor and making everyone feel at home",
+      60
+    ],
+    [
+      "Isabella is managing the cafe, ensuring that all customer needs are met with her characteristic warmth and hospitality. She takes breaks to chat with regulars and new customers, making everyone feel at home and appreciated",
+      120
+    ],
+    [
+      "managing the cafe, ensuring that all customer needs are met with her characteristic warmth and hospitality. She takes breaks to chat with regulars and new customers, making everyone feel at home and appreciated",
+      300
+    ],
+    [
+      "Isabella is managing the cafe, ensuring that all customer needs are met with her characteristic warmth and hospitality. She takes breaks to chat with regulars and new customers, making everyone feel at home and appreciated",
+      60
+    ],
+    [
+      "managing the cafe, ensuring that all customer needs are met with her characteristic warmth and hospitality. She takes breaks to chat with regulars and new customers, making everyone feel at home and appreciated",
+      60
+    ],
+    [
+      "Isabella is preparing to close Hobbs Cafe. She ensures that all customers are satisfied before saying goodbye, expressing gratitude for their patronage and inviting them back soon. She tidies up the cafe, checking that everything is in order for the next day",
+      60
+    ],
+    [
+      "closing Hobbs Cafe. She ensures that all customers are satisfied before saying goodbye, expressing gratitude for their patronage and inviting them back soon. She tidies up the cafe, checking that everything is in order for the next day",
+      60
+    ],
+    [
+      "heading home after closing the cafe. She feels tired but satisfied with another successful day at Hobbs Cafe. On her way home, she stops by a small grocery store to pick up ingredients for a light dinner",
+      60
+    ],
+    [
+      "relaxing at home after a long day. She feels tired but content as she reflects on the positive interactions with her customers and the smooth operation of Hobbs Cafe today",
+      60
+    ],
+    [
+      "Isabella is feeling the urge to use the bathroom and decides to quickly take care of it before heading to bed. She feels tired but also a sense of loneliness, wishing she had someone to talk to or share her day with. After using the restroom",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "getting ready for the day by completing her morning routine. She feels a bit tired but remains cheerful, looking forward to welcoming customers at Hobbs Cafe soon",
+      60
+    ],
+    [
+      "heading to the cafe to prepare for opening. She double-checks inventory and sets up any special arrangements for the day, ensuring everything is perfect before customers arrive",
+      60
+    ],
+    [
+      "opening Hobbs Cafe. She greets the first customers with her usual warmth and hospitality, ensuring that everyone feels welcome as they start their day",
+      60
+    ],
+    [
+      "managing the cafe, interacting with customers, and ensuring that everything runs smoothly. She takes a moment to chat with regulars and new faces alike, sharing her friendly demeanor and making everyone feel at home",
+      60
+    ],
+    [
+      "Isabella is managing the cafe, ensuring that all customer needs are met with her characteristic warmth and hospitality. She takes breaks to chat with regulars and new customers, making everyone feel at home and appreciated",
+      120
+    ],
+    [
+      "managing the cafe, ensuring that all customer needs are met with her characteristic warmth and hospitality. She takes breaks to chat with regulars and new customers, making everyone feel at home and appreciated",
+      300
+    ],
+    [
+      "Isabella is managing the cafe, ensuring that all customer needs are met with her characteristic warmth and hospitality. She takes breaks to chat with regulars and new customers, making everyone feel at home and appreciated",
+      60
+    ],
+    [
+      "managing the cafe, ensuring that all customer needs are met with her characteristic warmth and hospitality. She takes breaks to chat with regulars and new customers, making everyone feel at home and appreciated",
+      60
+    ],
+    [
+      "Isabella is preparing to close Hobbs Cafe. She ensures that all customers are satisfied before saying goodbye, expressing gratitude for their patronage and inviting them back soon. She tidies up the cafe, checking that everything is in order for the next day",
+      60
+    ],
+    [
+      "closing Hobbs Cafe. She ensures that all customers are satisfied before saying goodbye, expressing gratitude for their patronage and inviting them back soon. She tidies up the cafe, checking that everything is in order for the next day",
+      60
+    ],
+    [
+      "heading home after closing the cafe. She feels tired but satisfied with another successful day at Hobbs Cafe. On her way home, she stops by a small grocery store to pick up ingredients for a light dinner",
+      60
+    ],
+    [
+      "relaxing at home after a long day. She feels tired but content as she reflects on the positive interactions with her customers and the smooth operation of Hobbs Cafe today",
+      60
+    ],
+    [
+      "Isabella is feeling the urge to use the bathroom and decides to quickly take care of it before heading to bed. She feels tired but also a sense of loneliness, wishing she had someone to talk to or share her day with. After using the restroom",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Hobbs Cafe:cafe:cafe customer seating",
+  "act_start_time": "February 15, 2023, 23:59:00",
+  "act_duration": 5,
+  "act_description": "Isabella is calling Maria Lopez to chat and unwind after a long day. She shares stories about the Valentine\u2019s Day celebration and expresses her gratitude for having friends who support her during busy times. Despite feeling tired, she feels content knowing that Hobbs Cafe (thanks Maria for being a great friend and hangs up the phone feeling content)",
+  "act_pronunciatio": "\ud83d\udc4d\ud83d\ude0a",
+  "act_event": [
+    "Isabella Rodriguez",
+    "thanks",
+    "Maria"
+  ],
+  "act_obj_description": "occupied by Isabella Rodriguez who is chatting with Maria Lopez on her phone",
+  "act_obj_pronunciatio": "\ud83d\udcf1\ud83d\udcac",
+  "act_obj_event": [
+    "cafe customer seating",
+    "be occupied by",
+    "Isabella Rodriguez"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Wolfgang Schulz": -20453,
+    "Klaus Mueller": -1019,
+    "Maria Lopez": -413,
+    "Abigail Chen": -533,
+    "Eddy Lin": -1433,
+    "Hailey Johnson": 13
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

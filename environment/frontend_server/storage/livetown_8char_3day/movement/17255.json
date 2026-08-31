@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcd6\u270d\ufe0f",
+      "description": "Isabella is getting ready for bed. She feels tired but content with how the Valentine\u2019s Day celebration went and looks forward to some rest. Before going to sleep, she checks her messages one last time to see if there are any updates or feedback from (reading a book or journaling briefly to unwind) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 11.4,
+          "hunger": 78.8,
+          "fun": 96.3,
+          "hygiene": 100.0,
+          "bladder": 35.1,
+          "social": 12.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        116,
+        30
+      ],
+      "pronunciatio": "\ud83d\udeb6\ud83d\udc40",
+      "description": "Klaus is feeling an urgent need for the bathroom and trying to stay awake. He decides to take a quick walk around campus to clear his head before heading back to his dorm (walks past the student center and notices some posters for upcoming events related to social justice causes he cares about. This gives him motivation to continue his work) @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 20.9,
+          "hunger": 78.9,
+          "fun": 19.0,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 30.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        129,
+        51
+      ],
+      "pronunciatio": "\ud83d\udebf\ud83d\udec0",
+      "description": "Maria is feeling reflective and decides to wrap up her day by reviewing her social media messages and preparing for bed. She still feels a bit lonely but appreciates the connections she made during her Twitch streaming session earlier in the evening (taking a warm shower to relax before bedtime) @ the Ville:Dorm for Oak Hill College:woman's bathroom:shower",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 43.8,
+          "hunger": 77.6,
+          "fun": 100.0,
+          "hygiene": 67.7,
+          "bladder": 18.0,
+          "social": 29.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        31
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Abigail Chen's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 22.0,
+          "hunger": 88.4,
+          "fun": 96.6,
+          "hygiene": 67.4,
+          "bladder": 24.3,
+          "social": 27.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcbb",
+      "description": "[(ID:h9espA) Tuesday February 14 -- 11:00 PM] Activity: John reflects on his day and thinks about reaching out to more friends or community groups to combat feelings of loneliness. He considers joining a local (reviewing the local community center's bulletin board online for upcoming events and group meetings) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 3.4,
+          "hunger": 89.9,
+          "fun": 98.0,
+          "hygiene": 94.4,
+          "bladder": 67.8,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        95,
+        71
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfb5",
+      "description": "working on his theory work or composition project at home. He takes short breaks to rest and hydrate (working on a section of his composition project, focusing on developing the melody and harmony) @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 15.6,
+          "hunger": 96.9,
+          "fun": 100.0,
+          "hygiene": 63.9,
+          "bladder": 0.0,
+          "social": 19.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Hailey is getting ready for bed. She feels exhausted from her day but also content knowing she connected with friends and made progress on her novel. Before going to sleep, she quickly checks her emails and social media to see if there are any messages or (reading a few pages of a book before bed) @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.9,
+          "hunger": 93.3,
+          "fun": 100.0,
+          "hygiene": 100.0,
+          "bladder": 77.3,
+          "social": 4.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        121,
+        45
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83c\udf7d\ufe0f",
+      "description": "preparing dinner. He feels a bit more relaxed after his evening workout but still needs to address his feelings of loneliness and tiredness. He plans to reach out to Eddy Lin during their usual time slot for some social interaction, hoping it will help (cleaning up the kitchen after dinner) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 7.3,
+          "hunger": 100.0,
+          "fun": 48.5,
+          "hygiene": 76.4,
+          "bladder": 44.8,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 23:55:50"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        80,
+        21
+      ],
+      "pronunciatio": "\u2764\ufe0f\ud83c\udf70",
+      "description": "Isabella is calling Maria Lopez to chat and unwind after a long day. She shares stories about the Valentine\u2019s Day celebration and expresses her gratitude for having friends who support her during busy times. Despite feeling tired, she feels content knowing that Hobbs Cafe (shares details about today\u2019s Valentine\u2019s Day celebration at Hobbs Cafe) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 1.7,
+          "hunger": 93.1,
+          "fun": 70.6,
+          "hygiene": 57.2,
+          "bladder": 0.0,
+          "social": 11.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        124,
+        50
+      ],
+      "pronunciatio": "\ud83d\udca7",
+      "description": "Klaus is getting ready for bed. He feels a sense of accomplishment from the day's work and looks forward to continuing his research tomorrow. He sets out clothes for the next morning, brushes his teeth, and reads a few pages of a book before (getting a glass of water for the night) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 17.9,
+          "hunger": 91.5,
+          "fun": 33.2,
+          "hygiene": 100.0,
+          "bladder": 0.0,
+          "social": 33.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Maria needs to use the bathroom urgently. She quickly goes to take care of it before continuing with her regular evening routine (reading a book before bed) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 33.0,
+          "hunger": 92.8,
+          "fun": 98.2,
+          "hygiene": 75.1,
+          "bladder": 91.1,
+          "social": 17.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\ud83d\udea8\ud83d\udcac",
+      "description": "Abigail is wrapping up her day by reviewing any remaining emails and messages related to her projects. She also spends some time planning for the next day\u2019s activities, ensuring she allocates enough time for both her interactive art project and preparations for the Valentine\u2019s (responding to urgent messages) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 23.3,
+          "hunger": 81.9,
+          "fun": 22.5,
+          "hygiene": 89.6,
+          "bladder": 75.7,
+          "social": 16.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc40",
+      "description": "John is feeling a bit lonely and decides to reach out to a friend or neighbor for a brief chat, hoping to connect with someone before going to bed. He also reviews any messages from customers regarding their prescriptions or inquiries about upcoming health workshops he plans to host (chatting and reviewing customer messages for 120 minutes) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 0.0,
+          "hunger": 91.2,
+          "fun": 84.3,
+          "hygiene": 73.8,
+          "bladder": 1.4,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        95,
+        74
+      ],
+      "pronunciatio": "\u270d\ufe0f\ud83d\udcd6",
+      "description": "Eddy is feeling increasingly tired but decides to use this hour before bed to quickly reach out to friends one last time. He also spends a few minutes journaling about his day, reflecting on the progress he made and the moments of loneliness he experienced (preparing his journal by gathering pens and finding a quiet spot to write) @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 18.5,
+          "hunger": 97.2,
+          "fun": 98.1,
+          "hygiene": 71.3,
+          "bladder": 55.2,
+          "social": 13.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83e\udd14\ud83d\udc65",
+      "description": "Hailey is feeling a bit down after not connecting with anyone for company. She decides to spend some time journaling about her feelings and reflecting on ways to improve her social connections (brainstorming ways to reach out more effectively to friends) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 33.1,
+          "hunger": 94.2,
+          "fun": 99.1,
+          "hygiene": 55.6,
+          "bladder": 0.0,
+          "social": 3.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        111,
+        58
+      ],
+      "pronunciatio": "\ud83d\udcf1\ud83d\udc40",
+      "description": "Wolfgang is feeling increasingly lonely and decides to reach out to more friends, sending messages to several in hopes of finding some company. He remains hopeful that someone will respond and offer to spend time with him (checking his phone again for any replies) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:lifting weight",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 0.0,
+          "hunger": 91.6,
+          "fun": 0.0,
+          "hygiene": 47.6,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 23:28:20"
+  }
+}

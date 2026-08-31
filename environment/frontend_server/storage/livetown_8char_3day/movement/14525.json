@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin performing live music at Hobbs Cafe for Valentine\u2019s Day, including setup requirements and song suggestions from Isabella Rodriguez. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Eddy, I hope you're enjoying your time here at Hobbs Cafe. We're planning a special Valentine\u2019s Day celebration today, and we'd love to have live music if you're interested in performing between 5 and 7 pm."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Isabella! I'd love to play some music for Valentine\u2019s Day. What kind of setup will you need me to bring?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "We've got a small stage area set up already, so you just need to bring your equipment. We'll have a nice microphone and speakers ready for you. Let me know if there\u2019s anything specific you think we should prepare."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I'll make sure to bring my guitar and some extra cables just in case. Do you have any particular songs or genres in mind for today\u2019s event?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "We're aiming for something romantic and relaxing, so maybe some acoustic love songs or soft melodies would fit well. How does that sound to you?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds perfect. I can definitely put together a setlist that'll fit the vibe nicely. Looking forward to contributing to the celebration!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Eddy! Your music is going to make today extra special. Don't hesitate to reach out if you need anything before then."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I'll arrive early to set up and make sure everything goes smoothly. See you later this afternoon!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks again, Eddy. I can't wait to hear your performance this evening. Have a great day!"
+        ],
+        [
+          "Eddy Lin",
+          "I'm glad I can be part of this event, Isabella. It means a lot to contribute and make people\u2019s Valentine\u2019s Day special. See you at 5 pm!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'm sure your contribution will be wonderful, Eddy. Thanks again for coming to play at Hobbs Cafe today."
+        ],
+        [
+          "Eddy Lin",
+          "I'll do my best to make sure everyone has a great time. See you later, Isabella!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Feel free to use the space however you need, Eddy. If there\u2019s anything else I can assist you with before your performance, please let me know."
+        ],
+        [
+          "Eddy Lin",
+          "I appreciate your support, Isabella. I'll make sure to coordinate with you before setting up and during my performance if anything comes up."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That\u2019s wonderful to hear, Eddy. I\u2019ll make sure everything is ready for you when you arrive this afternoon. Enjoy your work on your composition project until then!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I'll be sure to get everything ready and touch base with you before my set. Have a great Valentine\u2019s Day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 33.3,
+          "hunger": 98.4,
+          "fun": 89.0,
+          "hygiene": 93.0,
+          "bladder": 83.7,
+          "social": 4.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        122,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcc4",
+      "description": "Klaus is working on his research paper in the library (drafting new sections of the paper) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.3,
+          "hunger": 83.9,
+          "fun": 35.2,
+          "hygiene": 29.7,
+          "bladder": 0.0,
+          "social": 26.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        79,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83d\udce7",
+      "description": "Maria is continuing her visit at Hobbs Cafe, hoping to meet up with friends or peers for a study session or casual conversation. She feels more energized after her morning routine but still misses the companionship of others and hopes to connect with someone during (sitting down with her laptop and checking emails for any study session invitations from peers) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 78.8,
+          "hunger": 99.1,
+          "fun": 50.2,
+          "hygiene": 87.3,
+          "bladder": 70.3,
+          "social": 10.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        73,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83c\udfa8",
+      "description": "Abigail is continuing her interactive art experiments. She feels more energized after addressing her earlier need and decides to explore new tools that can enhance the interactivity of her current project. Despite feeling tired, she finds renewed motivation in experimenting with technology to express (researching new interactive art tools and techniques for her project) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 58.3,
+          "hunger": 99.1,
+          "fun": 91.5,
+          "hygiene": 90.1,
+          "bladder": 76.9,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\u23f0\ud83d\ude34",
+      "description": "(Tuesday February 14 -- 04:00 PM] Activity: John continues to assist customers, maintaining his patience and kindness despite feeling increasingly tired. He takes a moment to address his urgent need for the bathroom during a brief lull @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 34.7,
+          "hunger": 98.3,
+          "fun": 62.7,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        75,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin performing live music at Hobbs Cafe for Valentine\u2019s Day, including setup requirements and song suggestions from Isabella Rodriguez. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Eddy, I hope you're enjoying your time here at Hobbs Cafe. We're planning a special Valentine\u2019s Day celebration today, and we'd love to have live music if you're interested in performing between 5 and 7 pm."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Isabella! I'd love to play some music for Valentine\u2019s Day. What kind of setup will you need me to bring?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "We've got a small stage area set up already, so you just need to bring your equipment. We'll have a nice microphone and speakers ready for you. Let me know if there\u2019s anything specific you think we should prepare."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I'll make sure to bring my guitar and some extra cables just in case. Do you have any particular songs or genres in mind for today\u2019s event?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "We're aiming for something romantic and relaxing, so maybe some acoustic love songs or soft melodies would fit well. How does that sound to you?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds perfect. I can definitely put together a setlist that'll fit the vibe nicely. Looking forward to contributing to the celebration!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Eddy! Your music is going to make today extra special. Don't hesitate to reach out if you need anything before then."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I'll arrive early to set up and make sure everything goes smoothly. See you later this afternoon!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks again, Eddy. I can't wait to hear your performance this evening. Have a great day!"
+        ],
+        [
+          "Eddy Lin",
+          "I'm glad I can be part of this event, Isabella. It means a lot to contribute and make people\u2019s Valentine\u2019s Day special. See you at 5 pm!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'm sure your contribution will be wonderful, Eddy. Thanks again for coming to play at Hobbs Cafe today."
+        ],
+        [
+          "Eddy Lin",
+          "I'll do my best to make sure everyone has a great time. See you later, Isabella!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Feel free to use the space however you need, Eddy. If there\u2019s anything else I can assist you with before your performance, please let me know."
+        ],
+        [
+          "Eddy Lin",
+          "I appreciate your support, Isabella. I'll make sure to coordinate with you before setting up and during my performance if anything comes up."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That\u2019s wonderful to hear, Eddy. I\u2019ll make sure everything is ready for you when you arrive this afternoon. Enjoy your work on your composition project until then!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I'll be sure to get everything ready and touch base with you before my set. Have a great Valentine\u2019s Day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 53.5,
+          "hunger": 98.3,
+          "fun": 100.0,
+          "hygiene": 78.1,
+          "bladder": 48.8,
+          "social": 3.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        39,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcac",
+      "description": "meeting with a freelance editor to review her manuscript. They will focus on refining the narrative structure and enhancing character development (providing context about her novel's themes and characters to the editor) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 68.3,
+          "hunger": 95.4,
+          "fun": 100.0,
+          "hygiene": 84.5,
+          "bladder": 63.7,
+          "social": 16.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcda",
+      "description": "resuming his afternoon study session on chemistry. Despite feeling a bit tired and lonely, he focuses on his work to maintain his academic rigor. He plans to reach out to Eddy Lin later for some peer support during their usual Q&A session (reading through his chemistry textbook to refresh his memory on key concepts) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 45.2,
+          "hunger": 80.3,
+          "fun": 0.0,
+          "hygiene": 99.1,
+          "bladder": 97.9,
+          "social": 1.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 16:20:50"
+  }
+}

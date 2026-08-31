@@ -1,0 +1,289 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Isabella Rodriguez discussing preparations and musical themes for Eddy's Valentine\u2019s Day performance at Hobbs Cafe. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Eddy, it's Isabella from Hobbs Cafe. I hope you're doing well and enjoying your studies. Just wanted to confirm everything is set for your performance tonight at 5:00 pm."
+        ],
+        [
+          "Eddy Lin",
+          "Hi Isabella, thanks for checking in. I'm looking forward to it and will make sure everything is ready on time. Do you have any specific song suggestions or themes you'd like me to consider?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I was thinking it would be lovely if you could play something romantic and soothing. Maybe some classics or original pieces that evoke a cozy, intimate atmosphere for our Valentine\u2019s Day guests. How does that sound?"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great! I'll definitely aim for a relaxed and romantic atmosphere. Perhaps I could include some covers of well-known love songs along with my original compositions to give it that special touch."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds wonderful, Eddy. I'm really looking forward to seeing your performance tonight. Just let me know if you need anything from us before then."
+        ],
+        [
+          "Eddy Lin",
+          "Will do, Isabella. I\u2019ll make sure to bring all necessary equipment and arrive a bit early to set everything up smoothly. And thank you for your support; it\u2019s really helpful to have such an attentive organizer like yourself on board."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That\u2019s perfect, Eddy. If you need any assistance setting up or anything else at all, just let me know. I\u2019ll be around to ensure everything goes smoothly tonight."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I appreciate your help and flexibility. Let\u2019s touch base just before my set to go over anything we might need to adjust or confirm."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Eddy. Have a great day and I'll see you here around 4:30 pm to go over everything one last time before your performance."
+        ],
+        [
+          "Eddy Lin",
+          "Perfect, Isabella. I'll be there around 4:30 pm as well to finalize our plans and make sure everything runs smoothly. See you then!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Eddy. Have a productive day and I look forward to working together tonight."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks again, Isabella. I'll make sure everything is perfect for tonight. Talk to you soon!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 30.3,
+          "hunger": 95.3,
+          "fun": 74.7,
+          "hygiene": 65.8,
+          "bladder": 11.7,
+          "social": 10.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        79,
+        26
+      ],
+      "pronunciatio": "\ud83d\uddc2\ufe0f\ud83d\udcdd",
+      "description": "Klaus is heading back to the library and continues working on his gentrification project until dinner time at 5:00 pm. He reviews more literature, updates his notes with new insights, and drafts additional sections of his research paper (organizing his notes and categorizing them by topic) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 46.6,
+          "hunger": 98.0,
+          "fun": 27.1,
+          "hygiene": 76.9,
+          "bladder": 26.9,
+          "social": 36.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcac",
+      "description": "Maria is continuing to stream or game on Twitch from 5:00 PM to 8:00 PM, engaging with her community and collaborating on creative projects like interactive storytelling events (continuing the interactive storytelling event) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 61.6,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 45.4,
+          "bladder": 0.0,
+          "social": 15.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udde3",
+      "description": "Abigail is preparing to head out to meet with collaborators for the feedback session on her interactive art project. Given that she needs to address an urgent need, she might take care of this before leaving or make a brief stop during travel time if necessary (making notes for discussion points) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.0,
+          "hunger": 97.2,
+          "fun": 38.8,
+          "hygiene": 94.9,
+          "bladder": 88.2,
+          "social": 19.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        92,
+        49
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "John is closing up the pharmacy counter and locking down the store at Willow Market and Pharmacy. He ensures that all prescriptions are filled, orders are processed, and the store is secure before heading home for the day (checking inventory levels for restocking needs) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 19.3,
+          "hunger": 89.2,
+          "fun": 33.0,
+          "hygiene": 73.8,
+          "bladder": 7.1,
+          "social": 3.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        80,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Isabella Rodriguez discussing preparations and musical themes for Eddy's Valentine\u2019s Day performance at Hobbs Cafe. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Eddy, it's Isabella from Hobbs Cafe. I hope you're doing well and enjoying your studies. Just wanted to confirm everything is set for your performance tonight at 5:00 pm."
+        ],
+        [
+          "Eddy Lin",
+          "Hi Isabella, thanks for checking in. I'm looking forward to it and will make sure everything is ready on time. Do you have any specific song suggestions or themes you'd like me to consider?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I was thinking it would be lovely if you could play something romantic and soothing. Maybe some classics or original pieces that evoke a cozy, intimate atmosphere for our Valentine\u2019s Day guests. How does that sound?"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great! I'll definitely aim for a relaxed and romantic atmosphere. Perhaps I could include some covers of well-known love songs along with my original compositions to give it that special touch."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds wonderful, Eddy. I'm really looking forward to seeing your performance tonight. Just let me know if you need anything from us before then."
+        ],
+        [
+          "Eddy Lin",
+          "Will do, Isabella. I\u2019ll make sure to bring all necessary equipment and arrive a bit early to set everything up smoothly. And thank you for your support; it\u2019s really helpful to have such an attentive organizer like yourself on board."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That\u2019s perfect, Eddy. If you need any assistance setting up or anything else at all, just let me know. I\u2019ll be around to ensure everything goes smoothly tonight."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I appreciate your help and flexibility. Let\u2019s touch base just before my set to go over anything we might need to adjust or confirm."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Eddy. Have a great day and I'll see you here around 4:30 pm to go over everything one last time before your performance."
+        ],
+        [
+          "Eddy Lin",
+          "Perfect, Isabella. I'll be there around 4:30 pm as well to finalize our plans and make sure everything runs smoothly. See you then!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Eddy. Have a productive day and I look forward to working together tonight."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks again, Isabella. I'll make sure everything is perfect for tonight. Talk to you soon!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 47.1,
+          "hunger": 96.0,
+          "fun": 95.5,
+          "hygiene": 88.5,
+          "bladder": 95.3,
+          "social": 17.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        39,
+        28
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83c\udfa8",
+      "description": "Hailey is reaching out to friends such as Abigail Chen via message to plan future collaborative events or hangouts (suggesting ideas for new interactive art projects to integrate into their events) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 61.7,
+          "hunger": 93.0,
+          "fun": 96.9,
+          "hygiene": 72.8,
+          "bladder": 36.9,
+          "social": 6.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        62
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Wolfgang is taking a short break after his workout. He hydrates and stretches, reflecting on the day's activities so far (stretching his back and neck) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 5.7,
+          "hunger": 88.7,
+          "fun": 13.2,
+          "hygiene": 64.8,
+          "bladder": 0.0,
+          "social": 11.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 17:44:20"
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udce6",
+      "description": "taking a short break to use the bathroom and rest during her lunch hour. She feels tired but tries to stay focused on the day's tasks ahead (checking the inventory levels of supplies) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 46.3,
+          "hunger": 100.0,
+          "fun": 95.9,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 1.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        113,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Wolfgang Schulz and Klaus Mueller discussing how to integrate chemical perspectives with sociological research on gentrification, planning to meet at Hobbs Cafe to share insights and materials from their respective fields. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Wolfgang Schulz",
+          "Hi Klaus, I hope you're doing well. I'm actually heading back to my room now but I heard about your research on gentrification and wondered if there might be any insights we could share by looking at it through a chemical perspective."
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Wolfgang, that sounds really interesting. Would you be available to discuss it more in-depth at Hobbs Cafe later today perhaps?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds great, Klaus. Let\u2019s meet there at 3 PM then."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, I'll see you there. Looking forward to our discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Perfect, I'll make sure to bring some relevant materials from my chemistry studies to our meeting. See you at 3 PM."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, I'll bring some notes from my sociology studies to complement your insights. See you later then."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds perfect, Klaus. I'm looking forward to our discussion as well. Have a great day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Wolfgang. It should be an insightful meeting."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I think it could be quite enlightening to combine our fields. I'll start preparing some key concepts and theories from my coursework that might relate."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Wolfgang. I'll do the same and bring some of my findings on gentrification in local communities to frame our discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Excellent, let\u2019s make sure to cover as much ground as possible. I\u2019ll review my notes on environmental impacts and chemical processes that could be relevant to your research."
+        ],
+        [
+          "Klaus Mueller",
+          "That works for me, Wolfgang. I\u2019m eager to learn more about how chemistry can intersect with my research on social issues like gentrification."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I think that would be productive, Klaus. I'll also look into any chemical studies on urban environments that might offer new perspectives. See you at 3 PM."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like we have a lot to cover, Wolfgang. I'll be sure to prepare some case studies to illustrate how gentrification impacts local communities on a social level."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds great, Klaus. I'll be sure to review some literature on urban chemistry that might connect our fields more closely. See you at Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Wolfgang. I'm really looking forward to our meeting and learning more about how chemistry can provide new insights into gentrification."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 66.3,
+          "hunger": 99.5,
+          "fun": 45.6,
+          "hygiene": 37.5,
+          "bladder": 0.0,
+          "social": 31.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        88,
+        37
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Maria is taking a short break for lunch, feeling more refreshed after her morning routine but still craving some company. She decides to eat at Hobbs Cafe where she hopes to run into friends or acquaintances from college (eating her lunch slowly, savoring each bite and discussing plans with Klaus) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 91.8,
+          "hunger": 94.9,
+          "fun": 60.7,
+          "hygiene": 95.1,
+          "bladder": 88.5,
+          "social": 8.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\ud83c\udfad",
+      "description": "continuing her animation project. She feels more focused after addressing her urgent need earlier and decides to make the most of this productive period (refining character movements and expressions) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.3,
+          "hunger": 82.5,
+          "fun": 100.0,
+          "hygiene": 97.9,
+          "bladder": 95.1,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        83,
+        49
+      ],
+      "pronunciatio": "\ud83d\udc75\ud83c\udffc\ud83d\udc8a",
+      "description": "(Tuesday February 14 -- 01:00 PM] Activity: John continues to assist customers, ensuring they have all the medications and information needed. He maintains a friendly demeanor despite feeling tired and lonely (assisting an elderly customer who needs help understanding their medication schedule) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.7,
+          "hunger": 95.9,
+          "fun": 10.3,
+          "hygiene": 86.7,
+          "bladder": 86.3,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        95,
+        74
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfa7",
+      "description": "[(ID:FuCQSy) Tuesday February 14 -- 12:00 PM] Activity: Eddy is attending his third class at Oak Hill College (taking notes during the lecture) @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 66.5,
+          "hunger": 17.7,
+          "fun": 97.0,
+          "hygiene": 85.9,
+          "bladder": 67.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        39,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83d\udde3\ufe0f",
+      "description": "meeting with Abigail Chen to further discuss integrating interactive tools into her storytelling. They plan to explore how technology can enhance the reader's experience and engagement (They discuss potential technologies that can be used to enhance reader engagement) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 81.3,
+          "hunger": 94.3,
+          "fun": 98.9,
+          "hygiene": 92.3,
+          "bladder": 82.0,
+          "social": 6.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        111,
+        31
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Wolfgang Schulz and Klaus Mueller discussing how to integrate chemical perspectives with sociological research on gentrification, planning to meet at Hobbs Cafe to share insights and materials from their respective fields. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Wolfgang Schulz",
+          "Hi Klaus, I hope you're doing well. I'm actually heading back to my room now but I heard about your research on gentrification and wondered if there might be any insights we could share by looking at it through a chemical perspective."
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Wolfgang, that sounds really interesting. Would you be available to discuss it more in-depth at Hobbs Cafe later today perhaps?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds great, Klaus. Let\u2019s meet there at 3 PM then."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, I'll see you there. Looking forward to our discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Perfect, I'll make sure to bring some relevant materials from my chemistry studies to our meeting. See you at 3 PM."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, I'll bring some notes from my sociology studies to complement your insights. See you later then."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds perfect, Klaus. I'm looking forward to our discussion as well. Have a great day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Wolfgang. It should be an insightful meeting."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I think it could be quite enlightening to combine our fields. I'll start preparing some key concepts and theories from my coursework that might relate."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Wolfgang. I'll do the same and bring some of my findings on gentrification in local communities to frame our discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Excellent, let\u2019s make sure to cover as much ground as possible. I\u2019ll review my notes on environmental impacts and chemical processes that could be relevant to your research."
+        ],
+        [
+          "Klaus Mueller",
+          "That works for me, Wolfgang. I\u2019m eager to learn more about how chemistry can intersect with my research on social issues like gentrification."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I think that would be productive, Klaus. I'll also look into any chemical studies on urban environments that might offer new perspectives. See you at 3 PM."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like we have a lot to cover, Wolfgang. I'll be sure to prepare some case studies to illustrate how gentrification impacts local communities on a social level."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds great, Klaus. I'll be sure to review some literature on urban chemistry that might connect our fields more closely. See you at Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Wolfgang. I'm really looking forward to our meeting and learning more about how chemistry can provide new insights into gentrification."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 40.7,
+          "hunger": 95.9,
+          "fun": 0.0,
+          "hygiene": 99.0,
+          "bladder": 26.4,
+          "social": 6.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 13:44:40"
+  }
+}

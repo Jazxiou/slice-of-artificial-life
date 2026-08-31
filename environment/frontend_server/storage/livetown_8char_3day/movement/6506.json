@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcdd\u2705",
+      "description": "having a meeting with staff to discuss details about the Valentine's Day party (wraps up the meeting by summarizing key points and confirming final preparations) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 39.6,
+          "hunger": 94.6,
+          "fun": 100.0,
+          "hygiene": 46.5,
+          "bladder": 12.4,
+          "social": 26.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        131,
+        45
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f",
+      "description": "changing into more comfortable clothes @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 44.6,
+          "hunger": 99.9,
+          "fun": 24.0,
+          "hygiene": 70.8,
+          "bladder": 31.2,
+          "social": 57.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        127,
+        54
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83c\udfae",
+      "description": "streaming games on Twitch (resuming streaming gameplay and continues engaging with the chat) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.6,
+          "hunger": 54.6,
+          "fun": 63.3,
+          "hygiene": 29.4,
+          "bladder": 0.0,
+          "social": 32.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83d\udd12",
+      "description": "attending a virtual meeting about her project (logging into the virtual meeting platform) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.6,
+          "hunger": 94.4,
+          "fun": 92.2,
+          "hygiene": 46.5,
+          "bladder": 22.2,
+          "social": 20.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        86,
+        44
+      ],
+      "pronunciatio": "\ud83c\udfe0\ud83d\udc8a",
+      "description": "returning home after closing the pharmacy. He heads straight into the kitchen to help prepare dinner with his wife, Mei Lin (heading home from the pharmacy) @ the Ville:Lin family's house:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 39.6,
+          "hunger": 94.3,
+          "fun": 18.5,
+          "hygiene": 72.9,
+          "bladder": 12.4,
+          "social": 19.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        93,
+        66
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udf72",
+      "description": "Eddy is eating dinner (preparing his meal) @ the Ville:Lin family's house:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 44.6,
+          "hunger": 100.0,
+          "fun": 95.7,
+          "hygiene": 46.5,
+          "bladder": 17.3,
+          "social": 38.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83e\udd14",
+      "description": "Hailey is meeting with potential podcast guests via video call (preparing her notes and questions for the first guest) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.6,
+          "hunger": 88.9,
+          "fun": 100.0,
+          "hygiene": 37.9,
+          "bladder": 32.0,
+          "social": 14.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        110,
+        30
+      ],
+      "pronunciatio": "\ud83c\udfcb\ufe0f\u200d",
+      "description": "working out in his room until 7:00 pm (doing a warm-up routine) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:lifting weight",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.1,
+          "hunger": 71.1,
+          "fun": 50.1,
+          "hygiene": 37.9,
+          "bladder": 0.0,
+          "social": 32.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 18:04:20"
+  }
+}

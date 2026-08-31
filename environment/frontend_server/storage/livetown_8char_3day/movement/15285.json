@@ -1,0 +1,297 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "preparing for closing. She ensures all tables are cleaned and organized, restocks supplies as needed, and prepares the cafe for the next day. @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 22.7,
+          "hunger": 91.0,
+          "fun": 87.9,
+          "hygiene": 86.7,
+          "bladder": 68.9,
+          "social": 15.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udcda",
+      "description": "Klaus is eating dinner at Hobbs Cafe (conversing about John Lin and Klaus Mueller discussing the impact of gentrification on mental health in their community and planning an information session at Willow Market Pharmacy to raise awareness and provide resources.) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.7,
+          "hunger": 100.0,
+          "fun": 33.0,
+          "hygiene": 40.5,
+          "bladder": 23.8,
+          "social": 43.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\u2615\ud83d\udcac",
+      "description": "Maria is continuing her visit at Hobbs Cafe, hoping to meet up with friends or peers for a study session or casual conversation. She feels more energized after her morning routine but still misses the companionship of others and hopes to connect with someone during (discussing upcoming assignments and coursework with Isabella Rodriguez while enjoying coffee together) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 68.2,
+          "hunger": 100.0,
+          "fun": 55.3,
+          "hygiene": 80.9,
+          "bladder": 55.5,
+          "social": 25.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        41,
+        26
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udf72",
+      "description": "Abigail is preparing for her lunch. She feels the urge to reach out to Isabella or Hailey via text message during this time to see if they are available for a quick chat. After sending the messages, she decides to take a short walk (cooking her meal) @ the Ville:artist's co-living space:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.7,
+          "hunger": 100.0,
+          "fun": 96.0,
+          "hygiene": 83.8,
+          "bladder": 62.1,
+          "social": 15.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        79,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and his father discussing Eddy's composition project that incorporates stress management techniques, planning to meet at Cobalt Coffee to discuss further ideas and progress. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hey Dad, nice to see you here. I've been working on my composition project and trying to figure out how to incorporate some of the stress management techniques we talked about last time."
+        ],
+        [
+          "John Lin",
+          "Hi Eddy, that sounds interesting. I'd love to hear more about how you're incorporating stress management into your music. Maybe we can discuss it over coffee after you finish here?"
+        ],
+        [
+          "Eddy Lin",
+          "Sure, Dad. I'm actually heading to Cobalt Coffee after this too. We could catch up there and maybe even work on some ideas together for my composition project."
+        ],
+        [
+          "John Lin",
+          "That would be great, Eddy. See you at Cobalt Coffee then."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Dad. I'll be there straight after I finish up here at Hobbs Cafe."
+        ],
+        [
+          "John Lin",
+          "Great, looking forward to hearing about your progress and any new insights from your lecture."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Dad. It would be nice to have your input on how stress management and music can work together in my project."
+        ],
+        [
+          "John Lin",
+          "I appreciate your enthusiasm and can't wait to see how you apply what you learned. Let's make sure to have that coffee together."
+        ],
+        [
+          "Eddy Lin",
+          "Sure thing, Dad. I'll bring some sample pieces to show you how I'm integrating those techniques. Looking forward to our talk at Cobalt Coffee."
+        ],
+        [
+          "John Lin",
+          "That sounds wonderful, Eddy. I'll be waiting for you at Cobalt Coffee. Have a great rest of your day and enjoy your composition work."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Dad. I'll make sure to have my notes and samples ready for our meeting at Cobalt Coffee."
+        ],
+        [
+          "John Lin",
+          "Take your time and do well on your lecture, Eddy. Can't wait to hear about it."
+        ],
+        [
+          "Eddy Lin",
+          "Will do, Dad. I'll see you at Cobalt Coffee later."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 27.8,
+          "hunger": 100.0,
+          "fun": 54.3,
+          "hygiene": 99.1,
+          "bladder": 97.9,
+          "social": 16.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        78,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and his father discussing Eddy's composition project that incorporates stress management techniques, planning to meet at Cobalt Coffee to discuss further ideas and progress. @ <persona> John Lin",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hey Dad, nice to see you here. I've been working on my composition project and trying to figure out how to incorporate some of the stress management techniques we talked about last time."
+        ],
+        [
+          "John Lin",
+          "Hi Eddy, that sounds interesting. I'd love to hear more about how you're incorporating stress management into your music. Maybe we can discuss it over coffee after you finish here?"
+        ],
+        [
+          "Eddy Lin",
+          "Sure, Dad. I'm actually heading to Cobalt Coffee after this too. We could catch up there and maybe even work on some ideas together for my composition project."
+        ],
+        [
+          "John Lin",
+          "That would be great, Eddy. See you at Cobalt Coffee then."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Dad. I'll be there straight after I finish up here at Hobbs Cafe."
+        ],
+        [
+          "John Lin",
+          "Great, looking forward to hearing about your progress and any new insights from your lecture."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Dad. It would be nice to have your input on how stress management and music can work together in my project."
+        ],
+        [
+          "John Lin",
+          "I appreciate your enthusiasm and can't wait to see how you apply what you learned. Let's make sure to have that coffee together."
+        ],
+        [
+          "Eddy Lin",
+          "Sure thing, Dad. I'll bring some sample pieces to show you how I'm integrating those techniques. Looking forward to our talk at Cobalt Coffee."
+        ],
+        [
+          "John Lin",
+          "That sounds wonderful, Eddy. I'll be waiting for you at Cobalt Coffee. Have a great rest of your day and enjoy your composition work."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Dad. I'll make sure to have my notes and samples ready for our meeting at Cobalt Coffee."
+        ],
+        [
+          "John Lin",
+          "Take your time and do well on your lecture, Eddy. Can't wait to hear about it."
+        ],
+        [
+          "Eddy Lin",
+          "Will do, Dad. I'll see you at Cobalt Coffee later."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 43.0,
+          "hunger": 100.0,
+          "fun": 99.5,
+          "hygiene": 71.7,
+          "bladder": 34.0,
+          "social": 23.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        89,
+        49
+      ],
+      "pronunciatio": "\ud83d\uded2\u2744\ufe0f",
+      "description": "shopping for groceries to prepare dinner. She feels a little better after her meetings but still wishes she had someone to talk to about her day (checking out the frozen food section for snacks) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.9,
+          "hunger": 100.0,
+          "fun": 91.6,
+          "hygiene": 78.1,
+          "bladder": 51.0,
+          "social": 14.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2642",
+      "description": "going to the gym for weight training and strength exercises to maintain his physical fitness (warming up with stretching exercises and light cardio for 10 minutes) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 34.6,
+          "hunger": 97.6,
+          "fun": 0.0,
+          "hygiene": 92.8,
+          "bladder": 83.1,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 18:27:30"
+  }
+}

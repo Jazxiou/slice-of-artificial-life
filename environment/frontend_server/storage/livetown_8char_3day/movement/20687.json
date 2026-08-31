@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        19
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83d\udce6",
+      "description": "managing the cafe operations. She ensures that all orders are being handled efficiently and maintains a welcoming atmosphere for her customers (checking inventory levels to ensure sufficient supplies for the day) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.7,
+          "hunger": 93.3,
+          "fun": 63.0,
+          "hygiene": 90.7,
+          "bladder": 33.1,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "getting ready to leave for the library. He packs his backpack with books and notes, ensuring he has everything needed for a productive day of research and writing (conversing about Klaus Mueller and Wolfgang Schulz discussing how to integrate chemical analysis with sociological studies to understand gentrification impacts, including building materials changes, air quality effects, waste management shifts, and community engagement strategies.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 87.9,
+          "hunger": 80.6,
+          "fun": 0.0,
+          "hygiene": 100.0,
+          "bladder": 84.9,
+          "social": 8.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 20.4,
+          "fun": 62.4,
+          "hygiene": 53.1,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        73,
+        19
+      ],
+      "pronunciatio": "\ud83d\udce7\ud83d\udccb",
+      "description": "checking email and responding to urgent work messages related to the Valentine\u2019s Day event at Hobbs Cafe (drafting a response to an email about venue setup for the event) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 93.3,
+          "hunger": 58.7,
+          "fun": 58.5,
+          "hygiene": 81.7,
+          "bladder": 49.5,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        85,
+        52
+      ],
+      "pronunciatio": "\ud83d\ude97\ud83d\uded2",
+      "description": "John is on his way to Willow Market and Pharmacy to open the pharmacy counter (driving to Willow Market and Pharmacy) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 60.7,
+          "hunger": 98.0,
+          "fun": 64.7,
+          "hygiene": 98.7,
+          "bladder": 65.0,
+          "social": 2.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        95,
+        74
+      ],
+      "pronunciatio": "\ud83c\udf92\ud83e\uddf3",
+      "description": "Eddy is getting ready for the day by packing his bag and preparing for class (organizing his bag with all necessary materials) @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 88.5,
+          "hunger": 98.7,
+          "fun": 72.1,
+          "hygiene": 87.9,
+          "bladder": 18.4,
+          "social": 2.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 36.1,
+          "fun": 62.5,
+          "hygiene": 71.9,
+          "bladder": 57.3,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "having breakfast. He takes a moment to enjoy his meal, which helps him feel more energized for the day ahead (conversing about Klaus Mueller and Wolfgang Schulz discussing how to integrate chemical analysis with sociological studies to understand gentrification impacts, including building materials changes, air quality effects, waste management shifts, and community engagement strategies.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.1,
+          "hunger": 100.0,
+          "fun": 41.4,
+          "hygiene": 89.6,
+          "bladder": 2.6,
+          "social": 8.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 09:27:50"
+  }
+}

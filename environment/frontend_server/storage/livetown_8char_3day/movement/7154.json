@@ -1,0 +1,257 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83e\udea5",
+      "description": "closing Hobbs Cafe for the day and cleaning up the premises (wiping down counters and surfaces) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 30.6,
+          "hunger": 93.4,
+          "fun": 96.9,
+          "hygiene": 41.1,
+          "bladder": 0.0,
+          "social": 25.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        26,
+        49
+      ],
+      "pronunciatio": "\ud83c\udfc3\u200d\u2642",
+      "description": "taking a short walk or going for a run to clear his mind and get some exercise (resuming the run with renewed energy) @ the Ville:Johnson Park:park:park garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 35.6,
+          "hunger": 94.6,
+          "fun": 16.8,
+          "hygiene": 65.4,
+          "bladder": 18.6,
+          "social": 50.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        116,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Wolfgang Schulz discussing their respective commitments, streaming and studies, and planning a potential meetup during one of Maria's streams. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Wolfgang, I'm just taking a break from streaming. How's it going with your studies?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hi Maria, I'm doing okay. Just trying to balance my studies and training for my competition. How about you?"
+        ],
+        [
+          "Maria Lopez",
+          "It can be tough, right? I'm trying to finish up some assignments and keep my streams going. By the way, have you had a chance to catch any of my streams lately?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "I haven't had time to catch any streams, but I've been meaning to. Your streaming seems pretty engaging based on what I hear from others."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks! I really enjoy connecting with people through my streams. Maybe you can stop by next time and say hi?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds like fun, Maria. I'll try to catch one of your streams when I have some downtime. Right now, I should probably get back to my notes though."
+        ],
+        [
+          "Maria Lopez",
+          "Sure thing, let's catch up another time. I'll be streaming again tomorrow if you want to check it out then."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds great, Maria. Have a good one and I'll catch you later."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 50.6,
+          "hunger": 60.3,
+          "fun": 100.0,
+          "hygiene": 24.0,
+          "bladder": 0.0,
+          "social": 25.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83e\udd14",
+      "description": "attending a virtual meeting about her project (The team discusses potential solutions to problems identified during the meeting) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 40.6,
+          "hunger": 100.0,
+          "fun": 85.0,
+          "hygiene": 41.1,
+          "bladder": 9.6,
+          "social": 13.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udc65",
+      "description": "spending time at home with his family after dinner. He talks about the day's events and discusses local politics or upcoming candidates for mayor with his wife, Mei Lin (They discuss potential impacts of the election on their community) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 30.6,
+          "hunger": 100.0,
+          "fun": 16.4,
+          "hygiene": 67.5,
+          "bladder": 0.0,
+          "social": 18.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        95,
+        74
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfe0",
+      "description": "Eddy is working on his composition project at home. He spends this time refining specific sections of the piece. @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 35.6,
+          "hunger": 94.4,
+          "fun": 97.4,
+          "hygiene": 41.1,
+          "bladder": 4.7,
+          "social": 43.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcde\ud83d\udc64",
+      "description": "Hailey is meeting with potential podcast guests via video call (initiating the video call with the third potential podcast guest) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.6,
+          "hunger": 78.1,
+          "fun": 92.8,
+          "hygiene": 32.5,
+          "bladder": 19.4,
+          "social": 7.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        121,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Wolfgang Schulz discussing their respective commitments, streaming and studies, and planning a potential meetup during one of Maria's streams. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Wolfgang, I'm just taking a break from streaming. How's it going with your studies?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hi Maria, I'm doing okay. Just trying to balance my studies and training for my competition. How about you?"
+        ],
+        [
+          "Maria Lopez",
+          "It can be tough, right? I'm trying to finish up some assignments and keep my streams going. By the way, have you had a chance to catch any of my streams lately?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "I haven't had time to catch any streams, but I've been meaning to. Your streaming seems pretty engaging based on what I hear from others."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks! I really enjoy connecting with people through my streams. Maybe you can stop by next time and say hi?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds like fun, Maria. I'll try to catch one of your streams when I have some downtime. Right now, I should probably get back to my notes though."
+        ],
+        [
+          "Maria Lopez",
+          "Sure thing, let's catch up another time. I'll be streaming again tomorrow if you want to check it out then."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds great, Maria. Have a good one and I'll catch you later."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 41.1,
+          "hunger": 100.0,
+          "fun": 42.9,
+          "hygiene": 49.7,
+          "bladder": 0.0,
+          "social": 25.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 19:52:20"
+  }
+}

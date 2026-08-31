@@ -1,0 +1,266 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 16, 2023, 00:00:00",
+  "curr_tile": [
+    39,
+    28
+  ],
+  "daily_plan_req": "",
+  "name": "Abigail Chen",
+  "first_name": "Abigail",
+  "last_name": "Chen",
+  "age": 25,
+  "innate": "open-minded, curious, determined",
+  "learned": "Abigail Chen is a digital artist and animator who loves to explore how technology can be used to express ideas. She is always looking for new ways to combine art and technology.",
+  "currently": "Abigail Chen continues to work on her animation project for a client while also experimenting with interactive art tools. She collaborates closely with Hailey Johnson and Isabella Rodriguez, finding new ways to integrate technology into storytelling and event planning, respectively, all the while balancing her creative endeavors with personal well-being.",
+  "seed_currently": "Abigail Chen is working on an animation project for a client. She is also experimenting with different tools and techniques to create interactive art.",
+  "drift_log": [
+    {
+      "day": "2023-02-14",
+      "drift": 0.36435166220065396,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "february 14",
+        "tuesday",
+        "2pm",
+        "5pm"
+      ],
+      "reason": "distance>0.35+dated",
+      "anchor_event": null,
+      "drift_after": 0.18905578601930328,
+      "dated_after": []
+    },
+    {
+      "day": "2023-02-15",
+      "drift": 0.3732486652060689,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "thursday",
+        "tomorrow",
+        "19pm",
+        "2pm"
+      ],
+      "reason": "distance>0.35+dated",
+      "anchor_event": null,
+      "drift_after": 0.29041800341559976,
+      "dated_after": []
+    },
+    {
+      "day": "2023-02-16",
+      "drift": 0.292589668522945,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "today"
+      ],
+      "reason": "dated",
+      "anchor_event": null,
+      "drift_after": 0.19213774823504148,
+      "dated_after": []
+    }
+  ],
+  "needs": {
+    "sleep": 20.67,
+    "hunger": 78.7,
+    "fun": 20.39,
+    "hygiene": 88.0,
+    "bladder": 72.0,
+    "social": 14.56
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Hailey Johnson": {
+      "friendship": 19.0,
+      "romance": 0.0
+    },
+    "Isabella Rodriguez": {
+      "friendship": 11.0,
+      "romance": 0.0
+    },
+    "Maria Lopez": {
+      "friendship": 8.0,
+      "romance": 0.0
+    },
+    "Eddy Lin": {
+      "friendship": 6.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Abigail Chen goes to bed around midnight, awakes up around 8am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Abigail Chen's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 125,
+  "importance_ele_n": 59,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "focus on finishing a few tasks for her client's animation project between 9:00 am and 12:00 pm",
+    "have lunch at 12:00 pm",
+    "from 1:00 pm to 2:00 pm",
+    "collaborate with Hailey Johnson on integrating interactive art tools into their project from 3:00 pm to 5:00 pm",
+    "have dinner at 6:00 pm",
+    "watch a documentary or engage in relaxing activities from 7:00 pm to 8:00 pm",
+    "reach out to a friend for casual conversation and company from 8:00 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "working on finishing tasks for her client's animation project",
+      120
+    ],
+    [
+      "Abigail is taking a short break to refresh her mind before continuing work on the animation project",
+      60
+    ],
+    [
+      "Abigail is having lunch",
+      60
+    ],
+    [
+      "Abigail is taking a short break to refresh her mind before continuing work on the animation project",
+      60
+    ],
+    [
+      "collaborating with Hailey Johnson on integrating interactive art tools into their project",
+      120
+    ],
+    [
+      "Abigail is collaborating with Hailey Johnson on integrating interactive art tools into their project",
+      120
+    ],
+    [
+      "Abigail is having dinner",
+      60
+    ],
+    [
+      "watching a documentary or engaging in relaxing activities to unwind after a busy day. She feels that this will help her clear her mind before reaching out to a friend later on",
+      60
+    ],
+    [
+      "reaching out to a friend for casual conversation and company to alleviate her feelings of loneliness and tiredness",
+      60
+    ],
+    [
+      "Abigail is reaching out to a friend for casual conversation and company to alleviate her feelings of loneliness and tiredness",
+      60
+    ],
+    [
+      "Abigail is reflecting on her day, considering how she can continue to balance her creative work with personal connections and relaxation. She feels a bit more rejuvenated after talking to her friend but still needs time to unwind before going to bed",
+      60
+    ],
+    [
+      "Abigail is preparing for bed, reflecting on her day and planning how she can maintain a healthy balance between work and personal life moving forward. She feels slightly more energized after connecting with her friend but knows rest is necessary to keep up with her creative",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "working on finishing tasks for her client's animation project",
+      120
+    ],
+    [
+      "Abigail is taking a short break to refresh her mind before continuing work on the animation project",
+      60
+    ],
+    [
+      "Abigail is having lunch",
+      60
+    ],
+    [
+      "Abigail is taking a short break to refresh her mind before continuing work on the animation project",
+      60
+    ],
+    [
+      "collaborating with Hailey Johnson on integrating interactive art tools into their project",
+      120
+    ],
+    [
+      "Abigail is collaborating with Hailey Johnson on integrating interactive art tools into their project",
+      120
+    ],
+    [
+      "Abigail is having dinner",
+      60
+    ],
+    [
+      "watching a documentary or engaging in relaxing activities to unwind after a busy day. She feels that this will help her clear her mind before reaching out to a friend later on",
+      60
+    ],
+    [
+      "reaching out to a friend for casual conversation and company to alleviate her feelings of loneliness and tiredness",
+      60
+    ],
+    [
+      "Abigail is reaching out to a friend for casual conversation and company to alleviate her feelings of loneliness and tiredness",
+      60
+    ],
+    [
+      "Abigail is reflecting on her day, considering how she can continue to balance her creative work with personal connections and relaxation. She feels a bit more rejuvenated after talking to her friend but still needs time to unwind before going to bed",
+      60
+    ],
+    [
+      "Abigail is preparing for bed, reflecting on her day and planning how she can maintain a healthy balance between work and personal life moving forward. She feels slightly more energized after connecting with her friend but knows rest is necessary to keep up with her creative",
+      60
+    ]
+  ],
+  "act_address": "the Ville:artist's co-living space:common room:common room table",
+  "act_start_time": "February 15, 2023, 23:55:00",
+  "act_duration": 10,
+  "act_description": "Abigail is wrapping up her day by reviewing any remaining emails and messages related to her projects. She also spends some time planning for the next day\u2019s activities, ensuring she allocates enough time for both her interactive art project and preparations for the Valentine\u2019s (scheduling time for Valentine\u2019s Day preparations)",
+  "act_pronunciatio": "\ud83d\udcc6\u2764\ufe0f",
+  "act_event": [
+    "Abigail Chen",
+    "schedule",
+    "time"
+  ],
+  "act_obj_description": "cluttered with Abigail's work materials such as her laptop, notebooks, and a cup of coffee or tea, alongside some Valentine\u2019s Day preparation items like wrapping paper and cards",
+  "act_obj_pronunciatio": "\ud83d\udcbb\ud83d\udce6",
+  "act_obj_event": [
+    "common room table",
+    "be cluttered with",
+    "Abigail's work materials"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Hailey Johnson": -707,
+    "Isabella Rodriguez": -533,
+    "Maria Lopez": -173,
+    "Eddy Lin": -3131
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

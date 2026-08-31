@@ -1,0 +1,265 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Isabella Rodriguez discussing their Valentine's Day plans, with Eddy inviting himself to Isabella's cafe between 5 and 7 pm for live music and company. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hi Isabella, I couldn't help but notice all the preparations for tonight. It looks amazing! How is everything coming along?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you so much, Eddy! We're trying to make it a cozy and romantic evening for everyone. How about you? Are you doing anything special for Valentine's Day?"
+        ],
+        [
+          "Eddy Lin",
+          "Not really, I usually keep it low-key. Maybe just some quiet time to work on my music or read a book. How about you?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds like a peaceful way to spend it. I'll be busy here at the cafe, but it's going to be fun organizing everything for our customers. Maybe you can drop by later and enjoy some of the music we've got lined up?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Isabella. I'd love to check it out if you have room for one more. Maybe catch a set or two?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Eddy! We'd be delighted to have you. Feel free to come anytime between 5 and 7 pm for some good company and live music. Enjoy your quiet time until then!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I'll definitely try to make it over there between 5 and 7 for some live music then. Have a great evening here at the cafe! "
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure thing, Eddy! And if you need any recommendations for spots to quietly work on your music, feel free to ask. I hope you enjoy the evening!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks again, Isabella. I appreciate it. Have a wonderful Valentine's Day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 50.9,
+          "hunger": 95.9,
+          "fun": 100.0,
+          "hygiene": 53.3,
+          "bladder": 28.1,
+          "social": 32.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        59,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcc5\u23f0",
+      "description": "Klaus is taking a short break at the library to have some coffee and refresh his mind (planning his afternoon work schedule) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 55.9,
+          "hunger": 100.0,
+          "fun": 33.0,
+          "hygiene": 77.5,
+          "bladder": 47.0,
+          "social": 54.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udca1",
+      "description": "studying or working on assignments (solving practice problems related to the course material) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.9,
+          "hunger": 37.4,
+          "fun": 33.4,
+          "hygiene": 36.1,
+          "bladder": 13.2,
+          "social": 29.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "working on the animation project for her client (testing the animation for playback quality) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 60.9,
+          "hunger": 83.4,
+          "fun": 100.0,
+          "hygiene": 53.3,
+          "bladder": 37.9,
+          "social": 22.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        79,
+        49
+      ],
+      "pronunciatio": "\ud83d\udc81\u200d\u2642",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (attending to customer inquiries) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.9,
+          "hunger": 100.0,
+          "fun": 27.5,
+          "hygiene": 79.6,
+          "bladder": 28.1,
+          "social": 28.4
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        75,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Isabella Rodriguez discussing their Valentine's Day plans, with Eddy inviting himself to Isabella's cafe between 5 and 7 pm for live music and company. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hi Isabella, I couldn't help but notice all the preparations for tonight. It looks amazing! How is everything coming along?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you so much, Eddy! We're trying to make it a cozy and romantic evening for everyone. How about you? Are you doing anything special for Valentine's Day?"
+        ],
+        [
+          "Eddy Lin",
+          "Not really, I usually keep it low-key. Maybe just some quiet time to work on my music or read a book. How about you?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds like a peaceful way to spend it. I'll be busy here at the cafe, but it's going to be fun organizing everything for our customers. Maybe you can drop by later and enjoy some of the music we've got lined up?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Isabella. I'd love to check it out if you have room for one more. Maybe catch a set or two?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Eddy! We'd be delighted to have you. Feel free to come anytime between 5 and 7 pm for some good company and live music. Enjoy your quiet time until then!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I'll definitely try to make it over there between 5 and 7 for some live music then. Have a great evening here at the cafe! "
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure thing, Eddy! And if you need any recommendations for spots to quietly work on your music, feel free to ask. I hope you enjoy the evening!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks again, Isabella. I appreciate it. Have a wonderful Valentine's Day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 55.9,
+          "hunger": 92.5,
+          "fun": 100.0,
+          "hygiene": 53.3,
+          "bladder": 33.0,
+          "social": 40.1
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        32,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd04",
+      "description": "Hailey is writing (editing her previous day's work) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.9,
+          "hunger": 100.0,
+          "fun": 94.0,
+          "hygiene": 44.7,
+          "bladder": 47.7,
+          "social": 16.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        113,
+        54
+      ],
+      "pronunciatio": "\ud83e\udd64\ud83e\uddd8\u200d",
+      "description": "studying and working on lab assignments until 3:00 pm (taking a short break and hydrating) @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 61.3,
+          "hunger": 84.6,
+          "fun": 59.1,
+          "hygiene": 44.7,
+          "bladder": 10.3,
+          "social": 33.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 15:49:20"
+  }
+}

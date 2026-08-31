@@ -1,0 +1,256 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        19
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83d\udc4c",
+      "description": "Isabella is managing the cafe during the Valentine\u2019s Day celebration. She ensures that all customers are enjoying themselves and coordinates with her staff to keep everything running smoothly (checking on customer orders and ensuring they are satisfied with their food and drinks) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 28.3,
+          "hunger": 94.4,
+          "fun": 82.1,
+          "hygiene": 64.6,
+          "bladder": 8.8,
+          "social": 10.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        80,
+        37
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Klaus is eating dinner. He feels more energized after having a good meal and plans to head back to the library soon to continue his work on the gentrification project (finding a seat and settling down to eat) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 44.5,
+          "hunger": 100.0,
+          "fun": 25.4,
+          "hygiene": 75.7,
+          "bladder": 24.0,
+          "social": 34.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "streaming or gaming on Twitch from 6:00 PM to 10:00 PM, engaging with her community and collaborating on creative projects like interactive storytelling events (engaging with her community and answering questions) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.5,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 44.2,
+          "bladder": 0.0,
+          "social": 13.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        41,
+        28
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udf74",
+      "description": "having dinner (preparing food if cooking at home or traveling to the chosen restaurant) @ the Ville:artist's co-living space:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.9,
+          "hunger": 100.0,
+          "fun": 37.1,
+          "hygiene": 93.7,
+          "bladder": 85.2,
+          "social": 18.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        92,
+        57
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "John is returning home and preparing dinner. He feels a sense of relief as he steps into his quiet house, looking forward to some time alone to unwind after a busy day at the pharmacy (walking to his house from Willow Market and Pharmacy) @ the Ville:Lin family's house:garden:house garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 17.2,
+          "hunger": 96.0,
+          "fun": 31.4,
+          "hygiene": 72.6,
+          "bladder": 4.1,
+          "social": 1.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcac",
+      "description": "Eddy continues to work on his composition project and sends texts to friends checking their availability for later meetings. @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 45.0,
+          "hunger": 93.5,
+          "fun": 99.6,
+          "hygiene": 87.3,
+          "bladder": 92.4,
+          "social": 18.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        74,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Hailey Johnson and Klaus Mueller discussing how to collaborate on exploring the impact of gentrification on cultural cuisines and traditions, potentially integrating their findings into Hailey's novel and Klaus's research. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Hailey Johnson",
+          "Hi Klaus, I hope you're enjoying your dinner. I'm experimenting with a new recipe from another culture tonight. Maybe you could give me some insights on how gentrification affects cultural cuisine too?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Hailey, that sounds fascinating. While I mainly focus on the social impacts of gentrification, it would be interesting to examine how it influences cultural cuisines and traditions. Maybe our conversations could inspire you to incorporate some socio-cultural themes into your novel?"
+        ],
+        [
+          "Hailey Johnson",
+          "That\u2019s a great idea, Klaus. Maybe we could even collaborate on this aspect of my novel. How does gentrification change the ways in which communities share and preserve their culinary traditions?"
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, Hailey. It would be fantastic to explore how gentrification reshapes local food scenes and culinary practices. Perhaps we could look at specific case studies or interview community members who have experienced these changes firsthand."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds like an amazing approach, Klaus. I think interviewing people who have lived through these changes could provide rich insights for my novel and your research. Perhaps we can set up a time to discuss this further?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds wonderful, Hailey. I think combining our perspectives could result in some valuable insights and a unique narrative approach. Maybe we can plan to meet next week to start brainstorming together?"
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds fantastic, Klaus. Let\u2019s plan to meet next Wednesday at your favorite cafe around 2pm to start brainstorming. I\u2019m really excited about this opportunity to explore these themes together."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a great plan, Hailey. Let\u2019s make sure to bring our notes and any relevant articles or interviews that could help us get started. I\u2019m looking forward to it!"
+        ],
+        [
+          "Hailey Johnson",
+          "That works for me, Klaus. I\u2019ll bring some ideas from my research and we can start mapping out how to integrate these perspectives into both your project and my novel."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, Hailey. I\u2019ll make sure to prepare some material that could be useful for our meeting next Wednesday. Looking forward to working on this exciting project together!"
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Klaus. I'll gather some materials and we can share our findings at the cafe next Wednesday. It\u2019s going to be a great collaboration."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Hailey. I'll make sure to bring some initial thoughts and data on how gentrification affects cultural cuisines for our meeting next Wednesday at 2pm."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds perfect, Klaus. I\u2019m looking forward to our meeting and seeing how we can blend different aspects of gentrification into both your research and my novel. It\u2019s great to have someone knowledgeable about this topic to collaborate with."
+        ],
+        [
+          "Klaus Mueller",
+          "It\u2019s really exciting to see how our different areas of expertise can come together to create something meaningful, Hailey. I\u2019ll make sure to review some recent studies on gentrification and cultural cuisines before next Wednesday."
+        ],
+        [
+          "Hailey Johnson",
+          "It would be great to dive deep into this, Klaus. I'll prepare some questions and topics for discussion as well. Can't wait to see how our ideas intertwine and evolve."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Hailey. I think it would be beneficial to gather as much information and diverse perspectives as possible for our discussion next Wednesday. Let\u2019s aim to create a comprehensive yet nuanced understanding of how gentrification influences cultural cuisines and traditions."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 59.6,
+          "hunger": 100.0,
+          "fun": 95.2,
+          "hygiene": 71.5,
+          "bladder": 33.9,
+          "social": 4.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        116,
+        42
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2642",
+      "description": "Wolfgang is taking a short break after his workout. He hydrates and stretches, reflecting on the day's activities so far (taking a moment to rest on the floor) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 3.6,
+          "hunger": 86.2,
+          "fun": 11.5,
+          "hygiene": 63.5,
+          "bladder": 0.0,
+          "social": 9.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 18:09:30"
+  }
+}

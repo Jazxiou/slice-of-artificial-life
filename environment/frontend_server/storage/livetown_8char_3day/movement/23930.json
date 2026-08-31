@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83e\uddf9",
+      "description": "Isabella is managing the cafe during the Valentine\u2019s Day celebration. She ensures that all customers are enjoying themselves and coordinates with her staff to keep everything running smoothly (ensuring that all tables are clean and ready for new customers) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 26.7,
+          "hunger": 99.0,
+          "fun": 80.8,
+          "hygiene": 63.6,
+          "bladder": 6.6,
+          "social": 9.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        75,
+        24
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start conversing about Hailey Johnson and Klaus Mueller discussing how to collaborate on exploring the impact of gentrification on cultural cuisines and traditions, potentially integrating their findings into Hailey's novel and Klaus's research. @ <waiting> 75 24",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.9,
+          "hunger": 99.9,
+          "fun": 24.2,
+          "hygiene": 74.7,
+          "bladder": 21.8,
+          "social": 42.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc65",
+      "description": "streaming or gaming on Twitch from 6:00 PM to 10:00 PM, engaging with her community and collaborating on creative projects like interactive storytelling events (collaborating on an interactive storytelling event) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 58.0,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 43.2,
+          "bladder": 0.0,
+          "social": 12.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        41,
+        26
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "having dinner (waiting for food to be served or prepared if cooking at home) @ the Ville:artist's co-living space:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 48.3,
+          "hunger": 100.0,
+          "fun": 35.8,
+          "hygiene": 92.7,
+          "bladder": 83.0,
+          "social": 16.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        98,
+        65
+      ],
+      "pronunciatio": "\ud83d\udebb\ud83e\uddfc",
+      "description": "John is returning home and preparing dinner. He feels a sense of relief as he steps into his quiet house, looking forward to some time alone to unwind after a busy day at the pharmacy (going to the bathroom for personal hygiene) @ the Ville:Lin family's house:bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 15.7,
+          "hunger": 100.0,
+          "fun": 32.5,
+          "hygiene": 75.6,
+          "bladder": 10.0,
+          "social": 0.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcac",
+      "description": "Eddy continues to work on his composition project and sends texts to friends checking their availability for later meetings. @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 43.5,
+          "hunger": 91.6,
+          "fun": 98.4,
+          "hygiene": 86.3,
+          "bladder": 90.2,
+          "social": 17.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        59,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "Hailey is preparing dinner and experimenting with a new recipe from another culture she's interested in exploring (conversing about Hailey Johnson and Klaus Mueller discussing how to collaborate on exploring the impact of gentrification on cultural cuisines and traditions, potentially integrating their findings into Hailey's novel and Klaus's research.) @ the Ville:artist's co-living space:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 58.1,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 70.6,
+          "bladder": 31.7,
+          "social": 11.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        45
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2642",
+      "description": "Wolfgang is taking a short break after his workout. He hydrates and stretches, reflecting on the day's activities so far (stretching his entire body thoroughly) @ the Ville:Dorm for Oak Hill College:garden:dorm garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 2.1,
+          "hunger": 95.3,
+          "fun": 10.2,
+          "hygiene": 62.6,
+          "bladder": 0.0,
+          "social": 8.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 18:28:20"
+  }
+}

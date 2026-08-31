@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83c\udf7d\ufe0f",
+      "description": "Isabella is closing Hobbs Cafe for the evening. She thanks her last customers and makes sure everything is clean and organized before locking up (washing dishes and putting them away) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 11.8,
+          "hunger": 77.8,
+          "fun": 90.6,
+          "hygiene": 80.1,
+          "bladder": 53.6,
+          "social": 22.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc69\u200d",
+      "description": "Klaus is meeting with peers for discussion and collaboration about his research paper at the college's study lounge (engaging in a Q&A session about methodology with Maria Lopez) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 31.8,
+          "hunger": 87.6,
+          "fun": 24.3,
+          "hygiene": 34.0,
+          "bladder": 8.5,
+          "social": 34.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        26
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start conversing about Maria Lopez and Abigail Chen discussing plans to collaborate on Valentine\u2019s Day events, including an interactive art piece with gaming elements and an interactive storytelling event, and arranging a meeting at Hobbs Cafe to brainstorm further. @ <waiting> 76 26",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 57.3,
+          "hunger": 97.3,
+          "fun": 77.0,
+          "hygiene": 74.4,
+          "bladder": 40.2,
+          "social": 38.0
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        81,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Eddy Lin discussing the integration of interactive art tools, specifically an Audience Engagement Tool, into Eddy's Valentine\u2019s Day performance at Isabella's cafe. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Eddy! I hope you're doing well. I've been working on some interactive art tools and thought they might be interesting for your performance this Valentine\u2019s Day at Isabella's cafe. Could we talk more about integrating them?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Abigail, I appreciate you reaching out. That sounds really intriguing! Could you tell me more about what kind of tools we could use and how they would work during my performance?"
+        ],
+        [
+          "Abigail Chen",
+          "Of course, Eddy! I've been experimenting with an 'Audience Engagement Tool' that allows real-time interaction through sound and visuals. For instance, during your performance, audience members could use their smartphones to influence the music or visual effects on a screen behind you. Would you like me to set up a demo for us to test out this weekend?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds amazing, Abigail. I'd love to see how it works in action and discuss more about incorporating it into my performance. Let's meet up this weekend at Hobbs Cafe to try out the demo."
+        ],
+        [
+          "Abigail Chen",
+          "Great, Eddy! I'll make sure to bring my laptop and all the necessary equipment. How about we meet on Saturday at 2 PM? That way, we have time to work through any technical issues before your performance."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Abigail. I'll make sure to bring my guitar and any other equipment we might need. See you at 2 PM on Saturday!"
+        ],
+        [
+          "Abigail Chen",
+          "Perfect, Eddy. I'll send you an email later today with a list of things to bring and any other details we might need to consider beforehand. Looking forward to seeing how it all comes together!"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, Abigail. I'll make sure everything is ready and let you know if I need to bring anything extra."
+        ],
+        [
+          "Abigail Chen",
+          "That works for me. I'll start setting everything up and will reach out if there are any updates or questions before our meeting."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. I'll prepare everything on my end and keep an eye out for your email. Have a great day!"
+        ],
+        [
+          "Abigail Chen",
+          "Awesome, Eddy! If you have any specific ideas or preferences for how you want to interact with the audience during your performance, let me know. It will help us tailor the setup better."
+        ],
+        [
+          "Eddy Lin",
+          "Sure, Abigail. I'll think about some specific ideas and let you know by tomorrow. Thanks again for helping me with this exciting project!"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Eddy. I'm looking forward to seeing your ideas and working together on this. Have a great evening!"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Abigail. I'll start brainstorming some ideas for audience interaction and let you know tomorrow. Thanks again!"
+        ],
+        [
+          "Abigail Chen",
+          "Fantastic, Eddy! I'll be eager to hear your ideas and we can fine-tune everything for a seamless performance. Take care and have a wonderful night!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. I'll send you my thoughts on audience interaction ideas by tomorrow afternoon."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 36.8,
+          "hunger": 96.1,
+          "fun": 99.2,
+          "hygiene": 77.2,
+          "bladder": 46.8,
+          "social": 29.9
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        69
+      ],
+      "pronunciatio": "\ud83e\uddcd\ufe0f",
+      "description": "(Tuesday February 14 -- 08:00 PM] Activity: John continues to watch TV and reads some articles about the mayoral election. He feels more relaxed but still wishes for company (taking a short break to stretch and get a glass of water) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 16.9,
+          "hunger": 87.6,
+          "fun": 86.9,
+          "hygiene": 95.7,
+          "bladder": 90.0,
+          "social": 7.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        79,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Eddy Lin discussing the integration of interactive art tools, specifically an Audience Engagement Tool, into Eddy's Valentine\u2019s Day performance at Isabella's cafe. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Eddy! I hope you're doing well. I've been working on some interactive art tools and thought they might be interesting for your performance this Valentine\u2019s Day at Isabella's cafe. Could we talk more about integrating them?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Abigail, I appreciate you reaching out. That sounds really intriguing! Could you tell me more about what kind of tools we could use and how they would work during my performance?"
+        ],
+        [
+          "Abigail Chen",
+          "Of course, Eddy! I've been experimenting with an 'Audience Engagement Tool' that allows real-time interaction through sound and visuals. For instance, during your performance, audience members could use their smartphones to influence the music or visual effects on a screen behind you. Would you like me to set up a demo for us to test out this weekend?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds amazing, Abigail. I'd love to see how it works in action and discuss more about incorporating it into my performance. Let's meet up this weekend at Hobbs Cafe to try out the demo."
+        ],
+        [
+          "Abigail Chen",
+          "Great, Eddy! I'll make sure to bring my laptop and all the necessary equipment. How about we meet on Saturday at 2 PM? That way, we have time to work through any technical issues before your performance."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Abigail. I'll make sure to bring my guitar and any other equipment we might need. See you at 2 PM on Saturday!"
+        ],
+        [
+          "Abigail Chen",
+          "Perfect, Eddy. I'll send you an email later today with a list of things to bring and any other details we might need to consider beforehand. Looking forward to seeing how it all comes together!"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds great, Abigail. I'll make sure everything is ready and let you know if I need to bring anything extra."
+        ],
+        [
+          "Abigail Chen",
+          "That works for me. I'll start setting everything up and will reach out if there are any updates or questions before our meeting."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. I'll prepare everything on my end and keep an eye out for your email. Have a great day!"
+        ],
+        [
+          "Abigail Chen",
+          "Awesome, Eddy! If you have any specific ideas or preferences for how you want to interact with the audience during your performance, let me know. It will help us tailor the setup better."
+        ],
+        [
+          "Eddy Lin",
+          "Sure, Abigail. I'll think about some specific ideas and let you know by tomorrow. Thanks again for helping me with this exciting project!"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Eddy. I'm looking forward to seeing your ideas and working together on this. Have a great evening!"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Abigail. I'll start brainstorming some ideas for audience interaction and let you know tomorrow. Thanks again!"
+        ],
+        [
+          "Abigail Chen",
+          "Fantastic, Eddy! I'll be eager to hear your ideas and we can fine-tune everything for a seamless performance. Take care and have a wonderful night!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. I'll send you my thoughts on audience interaction ideas by tomorrow afternoon."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 32.0,
+          "hunger": 99.5,
+          "fun": 98.2,
+          "hygiene": 65.2,
+          "bladder": 18.7,
+          "social": 24.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83e\udd14\ud83c\udfa7",
+      "description": "working on her project involving co-living artists and interactive storytelling tools at home. Hailey reviews notes from earlier conversations with Abigail, refines ideas, and plans next steps. (organizing her thoughts and ideas for the podcast) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.9,
+          "hunger": 93.9,
+          "fun": 82.9,
+          "hygiene": 98.5,
+          "bladder": 96.5,
+          "social": 11.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        109,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "preparing to exercise in his room. He feels more energized after interacting with Eddy earlier but still needs some time to rest and rejuvenate before his evening workout (drinking water to stay hydrated before exercising) @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 23.7,
+          "hunger": 84.4,
+          "fun": 5.7,
+          "hygiene": 86.2,
+          "bladder": 67.8,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 20:38:40"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        80,
+        19
+      ],
+      "pronunciatio": "\ud83d\udccb\ud83c\udf89",
+      "description": "reviewing the day's activities and preparing for the upcoming Valentine's Day party. She is organizing any last-minute tasks or adjustments needed before the event (preparing promotional materials for the event) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 10.8,
+          "hunger": 80.6,
+          "fun": 100.0,
+          "hygiene": 29.2,
+          "bladder": 0.0,
+          "social": 20.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Klaus is planning his evening schedule and considering what activities he wants to do after his walk or run. He decides to spend some extra time reading related literature for his research paper at a local coffee shop from 8:00 pm to 1 (settling into his spot at the coffee shop and ordering drinks) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 15.8,
+          "hunger": 100.0,
+          "fun": 73.3,
+          "hygiene": 53.5,
+          "bladder": 0.0,
+          "social": 39.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        54
+      ],
+      "pronunciatio": "\ud83d\udc57\u23f0",
+      "description": "preparing for bed and going to sleep at midnight (setting out her outfit for tomorrow morning) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.2,
+          "hunger": 36.5,
+          "fun": 95.4,
+          "hygiene": 20.7,
+          "bladder": 0.0,
+          "social": 12.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcdd",
+      "description": "Abigail is reviewing and refining the interactive art experiments she worked on earlier in the day (integrating user feedback into her designs) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 20.8,
+          "hunger": 89.0,
+          "fun": 80.2,
+          "hygiene": 29.2,
+          "bladder": 0.0,
+          "social": 12.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        75
+      ],
+      "pronunciatio": "\ud83e\uddfa",
+      "description": "John is preparing for bed and reflecting on the day's events. He considers any new information he learned about potential mayoral candidates and how it might affect his community. After a moment of thought, he sets his alarm for the next morning and gets ready (organizing his clothes for the next day) @ the Ville:Lin family's house:Mei and John Lin's bedroom:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 10.8,
+          "hunger": 95.3,
+          "fun": 34.0,
+          "hygiene": 64.2,
+          "bladder": 0.0,
+          "social": 7.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        97,
+        65
+      ],
+      "pronunciatio": "\ud83d\udca7\ud83e\uddfc",
+      "description": "Eddy is getting ready for bed and reflecting on the day's progress with his composition project. He feels satisfied with what he accomplished but knows there's still much work to do. As he prepares for sleep, he sets his alarm for 7: (washing his face) @ the Ville:Lin family's house:bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 20.8,
+          "hunger": 90.2,
+          "fun": 99.2,
+          "hygiene": 49.6,
+          "bladder": 0.0,
+          "social": 32.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\udecc\ud83d\udcad",
+      "description": "Hailey is getting ready for bed and reflecting on her day @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 30.8,
+          "hunger": 65.3,
+          "fun": 92.7,
+          "hygiene": 100.0,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        62
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2642",
+      "description": "Wolfgang is preparing for bed and completing his evening routine (stretching and doing a quick cool-down exercise routine) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 21.3,
+          "hunger": 77.7,
+          "fun": 27.0,
+          "hygiene": 80.7,
+          "bladder": 0.0,
+          "social": 12.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 23:49:50"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcc5",
+      "description": "having breakfast and reviewing plans for Valentine's Day party (reviewing the guest list for the Valentine's Day party) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.8,
+          "hunger": 59.5,
+          "fun": 67.7,
+          "hygiene": 78.4,
+          "bladder": 86.8,
+          "social": 45.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        131,
+        45
+      ],
+      "pronunciatio": "\ud83e\uddf6\ud83d\udc55",
+      "description": "waking up and completing his morning routine (getting dressed for the day) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:closet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 97.8,
+          "hunger": 30.3,
+          "fun": 45.2,
+          "hygiene": 78.4,
+          "bladder": 91.7,
+          "social": 45.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 30.3,
+          "fun": 45.2,
+          "hygiene": 52.7,
+          "bladder": 59.4,
+          "social": 45.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Abigail Chen's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 30.3,
+          "fun": 45.2,
+          "hygiene": 52.7,
+          "bladder": 59.4,
+          "social": 45.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        93,
+        66
+      ],
+      "pronunciatio": "\ud83c\udf73\u2615",
+      "description": "John is preparing breakfast and getting ready for the day. He reviews his schedule for the day, ensuring he has everything he needs before heading to work (eating breakfast) @ the Ville:Lin family's house:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.8,
+          "hunger": 59.5,
+          "fun": 45.2,
+          "hygiene": 100.0,
+          "bladder": 86.8,
+          "social": 47.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        91,
+        67
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "wake up and completes the morning routine (conversing about Eddy and John discussing their plans for the week, including school projects and lunch plans at Hobbs Cafe.) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 97.8,
+          "hunger": 35.5,
+          "fun": 45.2,
+          "hygiene": 78.4,
+          "bladder": 91.7,
+          "social": 47.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 30.3,
+          "fun": 45.2,
+          "hygiene": 52.7,
+          "bladder": 59.4,
+          "social": 45.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        123,
+        47
+      ],
+      "pronunciatio": "\ud83c\udf73\u2615",
+      "description": "preparing breakfast and reviewing his study notes (eating breakfast) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 87.8,
+          "hunger": 76.0,
+          "fun": 74.2,
+          "hygiene": 69.8,
+          "bladder": 64.6,
+          "social": 45.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 07:26:30"
+  }
+}

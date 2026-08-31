@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella and Abigail discussing their preparations and plans for an upcoming Valentine\u2019s Day event, including interactive art pieces and menu ideas. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Abigail, I hope you're doing well. It's great to see you getting things ready for Valentine\u2019s Day. How are the preparations going on your side?"
+        ],
+        [
+          "Abigail Chen",
+          "Hi Isabella, thanks for asking. Preparations are going well, but I'm feeling a bit lonely working on this by myself. It would be great to have someone around to bounce ideas off of and make the process more enjoyable."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I completely understand, Abigail. It can get lonely sometimes when you're so deep in planning something special like this. I've been feeling a bit of that too. Maybe we could grab coffee together later and talk more about your ideas? Your interactive art piece sounds really unique and I'd love to hear more about it."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds wonderful, Isabella. Let\u2019s plan to meet at 4 PM today then. I have a few new ideas for interactive elements that I think would fit perfectly with Valentine\u2019s Day and could use your input."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds great, Abigail! I'll see you at 4 PM. Looking forward to hearing more about your ideas and seeing how we can make Valentine\u2019s Day even more special."
+        ],
+        [
+          "Abigail Chen",
+          "Perfect, I'll see you there. Thanks for your support, Isabella. It means a lot to have someone to collaborate with on this project."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, I'll be looking forward to it. If you need anything before then, just let me know."
+        ],
+        [
+          "Abigail Chen",
+          "Thank you, Isabella. I appreciate your willingness to help and chat about these ideas. It will definitely make the planning process more fun."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be lovely, Abigail. I'll clear my schedule for 4 PM to make sure we have enough time to go over everything."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella. I'll make sure to have all my notes ready for our meeting. See you later!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Abigail. I'll make sure to bring some samples of our Valentine\u2019s Day menu too so you can get a taste and share your thoughts on how it pairs with the art piece."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds great, Isabella. I'm really looking forward to our meeting and seeing how we can blend your delicious Valentine\u2019s Day menu with my interactive art piece. See you at 4 PM!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works perfectly, Abigail. I'll make sure everything is ready for our meeting and can't wait to see how we can enhance the Valentine\u2019s Day experience together."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks again, Isabella. I'll see you then and we can make this Valentine\u2019s Day event truly memorable."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds fantastic, Abigail. I'll make sure everything is set up nicely for our meeting and let you know if anything comes up before then."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella. I'll be here bright and early at 4 PM then. Looking forward to it!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 70.7,
+          "hunger": 92.1,
+          "fun": 62.2,
+          "hygiene": 90.1,
+          "bladder": 31.7,
+          "social": 5.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        129,
+        50
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "getting ready to leave for the library. He packs his backpack with books and notes, ensuring he has everything needed for a productive day of research and writing (organizing his backpack to ensure everything fits neatly) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 86.9,
+          "hunger": 86.9,
+          "fun": 0.0,
+          "hygiene": 100.0,
+          "bladder": 83.5,
+          "social": 7.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 19.2,
+          "fun": 61.6,
+          "hygiene": 52.5,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella and Abigail discussing their preparations and plans for an upcoming Valentine\u2019s Day event, including interactive art pieces and menu ideas. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Abigail, I hope you're doing well. It's great to see you getting things ready for Valentine\u2019s Day. How are the preparations going on your side?"
+        ],
+        [
+          "Abigail Chen",
+          "Hi Isabella, thanks for asking. Preparations are going well, but I'm feeling a bit lonely working on this by myself. It would be great to have someone around to bounce ideas off of and make the process more enjoyable."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I completely understand, Abigail. It can get lonely sometimes when you're so deep in planning something special like this. I've been feeling a bit of that too. Maybe we could grab coffee together later and talk more about your ideas? Your interactive art piece sounds really unique and I'd love to hear more about it."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds wonderful, Isabella. Let\u2019s plan to meet at 4 PM today then. I have a few new ideas for interactive elements that I think would fit perfectly with Valentine\u2019s Day and could use your input."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds great, Abigail! I'll see you at 4 PM. Looking forward to hearing more about your ideas and seeing how we can make Valentine\u2019s Day even more special."
+        ],
+        [
+          "Abigail Chen",
+          "Perfect, I'll see you there. Thanks for your support, Isabella. It means a lot to have someone to collaborate with on this project."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, I'll be looking forward to it. If you need anything before then, just let me know."
+        ],
+        [
+          "Abigail Chen",
+          "Thank you, Isabella. I appreciate your willingness to help and chat about these ideas. It will definitely make the planning process more fun."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be lovely, Abigail. I'll clear my schedule for 4 PM to make sure we have enough time to go over everything."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella. I'll make sure to have all my notes ready for our meeting. See you later!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Abigail. I'll make sure to bring some samples of our Valentine\u2019s Day menu too so you can get a taste and share your thoughts on how it pairs with the art piece."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds great, Isabella. I'm really looking forward to our meeting and seeing how we can blend your delicious Valentine\u2019s Day menu with my interactive art piece. See you at 4 PM!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works perfectly, Abigail. I'll make sure everything is ready for our meeting and can't wait to see how we can enhance the Valentine\u2019s Day experience together."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks again, Isabella. I'll see you then and we can make this Valentine\u2019s Day event truly memorable."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds fantastic, Abigail. I'll make sure everything is set up nicely for our meeting and let you know if anything comes up before then."
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella. I'll be here bright and early at 4 PM then. Looking forward to it!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 92.3,
+          "hunger": 57.5,
+          "fun": 57.7,
+          "hygiene": 81.1,
+          "bladder": 48.1,
+          "social": 5.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udeaa",
+      "description": "John is on his way to Willow Market and Pharmacy to open the pharmacy counter (turning on the lights and opening the store) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.7,
+          "hunger": 96.8,
+          "fun": 65.3,
+          "hygiene": 98.1,
+          "bladder": 63.6,
+          "social": 1.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        98,
+        65
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Eddy is getting ready for the day by packing his bag and preparing for class (brushing his teeth and washing his face) @ the Ville:Lin family's house:bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 87.5,
+          "hunger": 97.5,
+          "fun": 71.3,
+          "hygiene": 100.0,
+          "bladder": 17.0,
+          "social": 1.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 34.9,
+          "fun": 61.7,
+          "hygiene": 71.3,
+          "bladder": 56.8,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        115,
+        51
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2642",
+      "description": "having breakfast. He takes a moment to enjoy his meal, which helps him feel more energized for the day ahead (taking a moment to relax and enjoy the quiet morning atmosphere) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 46.1,
+          "hunger": 100.0,
+          "fun": 41.5,
+          "hygiene": 89.0,
+          "bladder": 1.2,
+          "social": 7.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 09:39:50"
+  }
+}

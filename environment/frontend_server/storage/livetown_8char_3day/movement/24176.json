@@ -1,0 +1,281 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "Isabella is managing the cafe during the Valentine\u2019s Day celebration. She ensures that all customers are enjoying themselves and coordinates with her staff to keep everything running smoothly (conversing about Isabella Rodriguez and Klaus Mueller discussing potential collaborations between Hobbs Cafe and sociological research, particularly focusing on community engagement and awareness of issues like gentrification.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 23.3,
+          "hunger": 94.9,
+          "fun": 81.1,
+          "hygiene": 70.2,
+          "bladder": 19.1,
+          "social": 14.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        79,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and John Lin discussing plans to meet and continue their discussion on the impact of gentrification on mental health access in their community. @ <persona> John Lin",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hi John, I hope you had a good day. I'm Klaus from Oak Hill College. We've been talking about the impact of gentrification on our community and how it affects access to mental health services. It would be great if we could continue that discussion sometime."
+        ],
+        [
+          "John Lin",
+          "Hi Klaus, yes, I had a good day and would love to discuss gentrification further. It\u2019s such an important issue for our community, especially in regards to mental health access. Are you free sometime this week?"
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, John, that sounds good. How about we meet at Willow Market Pharmacy this Thursday after work? That way you can share more insights from your observations there and I can discuss my research findings."
+        ],
+        [
+          "John Lin",
+          "That works for me, Klaus. I look forward to sharing my observations and learning more from your research. See you at Willow Market Pharmacy this Thursday."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, I'll see you there then. Let\u2019s make sure to plan a time that works well for both of us and perhaps we can coordinate our schedules via email or message beforehand."
+        ],
+        [
+          "John Lin",
+          "Sounds like a plan, Klaus. I'll shoot you an email later today to confirm the details and suggest some times that work for me. Looking forward to our meeting."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds perfect, John. I'll be waiting for your email and looking forward to our meeting."
+        ],
+        [
+          "John Lin",
+          "It was nice chatting with you, Klaus. I\u2019ll send that email shortly."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, John. I\u2019ll be on the lookout for your email and we can finalize the details then."
+        ],
+        [
+          "John Lin",
+          "It was nice chatting with you, Klaus. I\u2019ll send that email shortly."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, John. Take care until then."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 39.5,
+          "hunger": 99.6,
+          "fun": 21.4,
+          "hygiene": 72.7,
+          "bladder": 17.0,
+          "social": 49.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "Maria is continuing to stream or game on Twitch from 7:00 PM to 8:00 PM, engaging with her community and collaborating on creative projects like interactive storytelling events (engaging with her community and answering questions) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 54.6,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 41.2,
+          "bladder": 0.0,
+          "social": 17.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        41,
+        26
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start drinking water and taking a short break between courses @ <waiting> 41 26",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 44.9,
+          "hunger": 97.1,
+          "fun": 33.1,
+          "hygiene": 90.7,
+          "bladder": 78.3,
+          "social": 14.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        79,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and John Lin discussing plans to meet and continue their discussion on the impact of gentrification on mental health access in their community. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hi John, I hope you had a good day. I'm Klaus from Oak Hill College. We've been talking about the impact of gentrification on our community and how it affects access to mental health services. It would be great if we could continue that discussion sometime."
+        ],
+        [
+          "John Lin",
+          "Hi Klaus, yes, I had a good day and would love to discuss gentrification further. It\u2019s such an important issue for our community, especially in regards to mental health access. Are you free sometime this week?"
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, John, that sounds good. How about we meet at Willow Market Pharmacy this Thursday after work? That way you can share more insights from your observations there and I can discuss my research findings."
+        ],
+        [
+          "John Lin",
+          "That works for me, Klaus. I look forward to sharing my observations and learning more from your research. See you at Willow Market Pharmacy this Thursday."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, I'll see you there then. Let\u2019s make sure to plan a time that works well for both of us and perhaps we can coordinate our schedules via email or message beforehand."
+        ],
+        [
+          "John Lin",
+          "Sounds like a plan, Klaus. I'll shoot you an email later today to confirm the details and suggest some times that work for me. Looking forward to our meeting."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds perfect, John. I'll be waiting for your email and looking forward to our meeting."
+        ],
+        [
+          "John Lin",
+          "It was nice chatting with you, Klaus. I\u2019ll send that email shortly."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, John. I\u2019ll be on the lookout for your email and we can finalize the details then."
+        ],
+        [
+          "John Lin",
+          "It was nice chatting with you, Klaus. I\u2019ll send that email shortly."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, John. Take care until then."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 12.2,
+          "hunger": 99.6,
+          "fun": 39.2,
+          "hygiene": 86.7,
+          "bladder": 31.6,
+          "social": 6.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83d\udcde\ud83c\udfb6\u2615",
+      "description": "Eddy discusses with his father via phone call about how his musical studies and techniques for managing stress can be beneficial in John's work environment at the pharmacy. They plan to meet later to brainstorm ideas over coffee. @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 40.1,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 84.3,
+          "bladder": 85.4,
+          "social": 20.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        41,
+        25
+      ],
+      "pronunciatio": "\ud83e\udd55\ud83c\udf3f",
+      "description": "Hailey is preparing dinner and experimenting with a new recipe from another culture she's interested in exploring (washing and chopping vegetables, then preparing spices and seasonings) @ the Ville:artist's co-living space:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 54.6,
+          "hunger": 100.0,
+          "fun": 98.0,
+          "hygiene": 68.5,
+          "bladder": 27.0,
+          "social": 9.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcfa",
+      "description": "Wolfgang is dedicating this time to conversing about Maria Lopez and Wolfgang Schulz discussing their potential collaboration during Maria's Twitch stream, focusing on interdisciplinary research between chemistry, sociology, and physics. (on the way to Wolfgang is dedicating this time to conversing about Maria Lopez and Wolfgang Schulz discussing their potential collaboration during Maria's Twitch stream, focusing on interdisciplinary research between chemistry, sociology, and physics) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 0.0,
+          "hunger": 91.2,
+          "fun": 7.5,
+          "hygiene": 60.5,
+          "bladder": 0.0,
+          "social": 13.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 19:09:20"
+  }
+}

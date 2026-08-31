@@ -1,0 +1,281 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Isabella Rodriguez discussing Eddy's musical performance plans for Valentine's Day, including song suggestions and the atmosphere he aims to create. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Eddy, I'm just closing up for the night. Are you still working on your composition here?"
+        ],
+        [
+          "Eddy Lin",
+          "Yeah, I'm almost done. Just wrapping up some final touches. You're closing already? Did everything go well today?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Yes, everything went well today. I'm just glad it\u2019s all over now. But your music tonight will be a nice touch to finish off Valentine's Day."
+        ],
+        [
+          "Eddy Lin",
+          "I'm glad to hear everything went well. I've been looking forward to playing tonight and adding a musical touch to Valentine's Day too."
+        ],
+        [
+          "Isabella Rodriguez",
+          "It was nice seeing you here today. I hope your composition turns out great for tonight\u2019s performance."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I've put a lot of thought into it and can't wait to see how it sounds live. By the way, do you have any song suggestions or preferences for tonight?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I think something soft and romantic would be perfect. Maybe 'Moon River' or 'My Funny Valentine'. What do you think?"
+        ],
+        [
+          "Eddy Lin",
+          "Those are great suggestions, Isabella. 'Moon River' and 'My Funny Valentine' would definitely set a romantic mood. I'll also include some original pieces I wrote that have a similar vibe. Thanks for your input!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds wonderful, Eddy. I think your music will definitely help create a cozy and romantic atmosphere tonight. Can't wait to hear it!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I appreciate your confidence in my music and the suggestions you gave. It means a lot to me that you're excited about tonight\u2019s performance."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Well, I should get going. It was nice chatting with you, Eddy. See you tonight at the performance!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 10.0,
+          "hunger": 76.1,
+          "fun": 89.4,
+          "hygiene": 79.1,
+          "bladder": 51.2,
+          "social": 20.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        101,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "Klaus is meeting with peers for discussion and collaboration about his research paper at the college's study lounge (continuing the discussion on case studies with Eddy Lin) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 30.0,
+          "hunger": 85.6,
+          "fun": 22.9,
+          "hygiene": 32.9,
+          "bladder": 6.1,
+          "social": 37.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        91,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "Maria is starting her scheduled Twitch streaming session. She feels more energized after her morning routine and has adjusted her plans to spend extra time at Hobbs Cafe earlier in the day, hoping to meet friends and alleviate her loneliness. Now that she's back (reviewing the topics she plans to discuss during the stream) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 55.5,
+          "hunger": 95.3,
+          "fun": 85.7,
+          "hygiene": 73.3,
+          "bladder": 37.8,
+          "social": 36.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        76,
+        19
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Abigail is reflecting on her day so far, feeling satisfied that she has made progress with Hailey and excited about their upcoming meet-up. She decides to send a message to Isabella to update her on the plans (deciding to reach out to other friends or colleagues for potential collaboration opportunities) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 35.0,
+          "hunger": 94.0,
+          "fun": 97.8,
+          "hygiene": 76.2,
+          "bladder": 44.4,
+          "social": 32.7
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "(Tuesday February 14 -- 08:00 PM] Activity: John continues to watch TV and reads some articles about the mayoral election. He feels more relaxed but still wishes for company (reading through comments on social media about the mayoral election to gauge public opinion) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 15.1,
+          "hunger": 85.6,
+          "fun": 95.6,
+          "hygiene": 94.7,
+          "bladder": 87.6,
+          "social": 6.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        79,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Isabella Rodriguez discussing Eddy's musical performance plans for Valentine's Day, including song suggestions and the atmosphere he aims to create. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Eddy, I'm just closing up for the night. Are you still working on your composition here?"
+        ],
+        [
+          "Eddy Lin",
+          "Yeah, I'm almost done. Just wrapping up some final touches. You're closing already? Did everything go well today?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Yes, everything went well today. I'm just glad it\u2019s all over now. But your music tonight will be a nice touch to finish off Valentine's Day."
+        ],
+        [
+          "Eddy Lin",
+          "I'm glad to hear everything went well. I've been looking forward to playing tonight and adding a musical touch to Valentine's Day too."
+        ],
+        [
+          "Isabella Rodriguez",
+          "It was nice seeing you here today. I hope your composition turns out great for tonight\u2019s performance."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I've put a lot of thought into it and can't wait to see how it sounds live. By the way, do you have any song suggestions or preferences for tonight?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I think something soft and romantic would be perfect. Maybe 'Moon River' or 'My Funny Valentine'. What do you think?"
+        ],
+        [
+          "Eddy Lin",
+          "Those are great suggestions, Isabella. 'Moon River' and 'My Funny Valentine' would definitely set a romantic mood. I'll also include some original pieces I wrote that have a similar vibe. Thanks for your input!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds wonderful, Eddy. I think your music will definitely help create a cozy and romantic atmosphere tonight. Can't wait to hear it!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I appreciate your confidence in my music and the suggestions you gave. It means a lot to me that you're excited about tonight\u2019s performance."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Well, I should get going. It was nice chatting with you, Eddy. See you tonight at the performance!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 30.3,
+          "hunger": 100.0,
+          "fun": 97.1,
+          "hygiene": 64.1,
+          "bladder": 16.3,
+          "social": 27.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\u270d\ufe0f",
+      "description": "working on her project involving co-living artists and interactive storytelling tools at home. Hailey reviews notes from earlier conversations with Abigail, refines ideas, and plans next steps. (drafting a script for an interactive storytelling segment) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.2,
+          "hunger": 91.9,
+          "fun": 81.5,
+          "hygiene": 97.5,
+          "bladder": 94.1,
+          "social": 9.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        110,
+        58
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2642",
+      "description": "preparing to exercise in his room. He feels more energized after interacting with Eddy earlier but still needs some time to rest and rejuvenate before his evening workout (mentally preparing himself for the workout ahead) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:lifting weight",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 22.0,
+          "hunger": 82.4,
+          "fun": 4.3,
+          "hygiene": 85.2,
+          "bladder": 65.4,
+          "social": 3.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 20:59:30"
+  }
+}

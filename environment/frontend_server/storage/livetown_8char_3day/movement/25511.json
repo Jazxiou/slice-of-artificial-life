@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\u2764\ufe0f\ud83d\ude4f",
+      "description": "reflecting on the day. She takes a moment to appreciate the support from her friends and customers despite feeling lonely. Isabella decides to call Maria Lopez for a chat, looking forward to sharing stories about today's celebration (sharing details of the Valentine\u2019s Day celebration and thanking Maria for her support) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 4.7,
+          "hunger": 96.7,
+          "fun": 73.0,
+          "hygiene": 59.0,
+          "bladder": 0.0,
+          "social": 14.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        115,
+        47
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "Klaus is wrapping up his work for the day. He reviews his notes one last time and saves all his updated documents on his computer. Feeling satisfied with his progress, he packs his belongings and heads back to his residence (taking a short walk around the library to clear his mind) @ the Ville:Oak Hill College:library:bookshelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 20.9,
+          "hunger": 95.1,
+          "fun": 35.6,
+          "hygiene": 61.6,
+          "bladder": 0.0,
+          "social": 36.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Going to bed after a long day of studying, streaming, and planning new collaborations. She feels tired but satisfied with her accomplishments for the day. @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 36.0,
+          "hunger": 96.4,
+          "fun": 100.0,
+          "hygiene": 30.0,
+          "bladder": 0.0,
+          "social": 20.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcc6\u2705",
+      "description": "reviewing and adjusting her schedule to ensure she can manage her tasks effectively for the remainder of the evening. She also considers any additional preparations needed for upcoming events or projects (planning specific steps to address any delays or issues identified earlier) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 26.3,
+          "hunger": 85.5,
+          "fun": 24.9,
+          "hygiene": 91.4,
+          "bladder": 80.0,
+          "social": 19.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc40",
+      "description": "John is feeling a bit lonely and decides to reach out to a friend or neighbor for a brief chat, hoping to connect with someone before going to bed. He also reviews any messages from customers regarding their prescriptions or inquiries about upcoming health workshops he plans to host (chatting and reviewing customer messages for 120 minutes) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 0.0,
+          "hunger": 94.8,
+          "fun": 86.7,
+          "hygiene": 75.6,
+          "bladder": 5.7,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        88,
+        46
+      ],
+      "pronunciatio": "\ud83c\udfb5\ud83e\udd1d",
+      "description": "Eddy heads to Cobalt Coffee where he meets John Lin to discuss how music studies can be applied to manage stress in their work environment at the pharmacy. (sharing his latest composition project with John) @ the Ville:The Willows Market and Pharmacy:store:grocery store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 21.5,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 73.1,
+          "bladder": 59.4,
+          "social": 16.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcc6\ud83d\udcdd",
+      "description": "Hailey uses this time to prepare for the upcoming week by reviewing her notes from today\u2019s conversation and planning out next steps. She also considers how she can continue to foster collaboration with Isabella and other friends moving forward (organizing action items, setting reminders for Monday's meeting, drafting a brief summary of today's discussion) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 36.1,
+          "hunger": 97.8,
+          "fun": 98.5,
+          "hygiene": 57.4,
+          "bladder": 1.0,
+          "social": 6.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        114,
+        52
+      ],
+      "pronunciatio": "\ud83d\ude14\ud83d\ude22",
+      "description": "Wolfgang is waiting for a response from his friend. He checks his phone frequently, hoping someone will reply and offer some company. As the minutes pass without an answer, he feels increasingly isolated and begins to wonder if it\u2019s worth continuing with his (feeling increasingly lonely and starts wondering if he should continue trying to reach out) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 0.0,
+          "hunger": 95.2,
+          "fun": 0.0,
+          "hygiene": 49.4,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 22:51:50"
+  }
+}

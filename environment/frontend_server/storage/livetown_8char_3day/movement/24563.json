@@ -1,0 +1,451 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Isabella Rodriguez discussing plans for both their work project meeting on Thursday at 2 PM and a dinner date on Friday night. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Thanks for everything today, Isabella. It wouldn't have been possible without your help. Do you want to grab a coffee together sometime and chat more about our collaboration?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great, Abigail. How about we meet up next week at your convenience? I'd love to continue working on our plans and discuss any feedback you have from today\u2019s event."
+        ],
+        [
+          "Abigail Chen",
+          "Sure, let's aim for Thursday at 2 PM then. I'll bring some ideas and we can brainstorm further improvements for our project. Do you still need any changes made or adjustments discussed in the meantime?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works for me, Abigail. I'll make sure everything is ready by then and we can take it from there. See you on Thursday!"
+        ],
+        [
+          "Abigail Chen",
+          "Great, looking forward to it. And if you need anything before then, just let me know. Have a good evening, Isabella!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Abigail. I appreciate your flexibility and support. Have a great evening!"
+        ],
+        [
+          "Abigail Chen",
+          "I hope we can catch up more outside of work too. Maybe grab dinner sometime this week?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds nice, Abigail. How about we grab dinner on Friday night?"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds perfect, let's meet at that Italian place you recommended. See you on Friday!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds wonderful, Abigail. I'll see you on Friday then!"
+        ],
+        [
+          "Abigail Chen",
+          "Great, I'm looking forward to it. Have a lovely evening, Isabella!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks again, Abigail. I'll see you on Friday for dinner and Thursday at 2 PM to discuss our project further."
+        ],
+        [
+          "Abigail Chen",
+          "See you soon then, Isabella! Enjoy your evening."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Abigail. I'll see you on Friday and Thursday too!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella. It was great working together today and I'm excited about both our dinner and project meetings this week."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds perfect, Abigail. I'll see you on Friday for dinner and at our meeting Thursday to continue our great work."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 17.9,
+          "hunger": 100.0,
+          "fun": 76.8,
+          "hygiene": 66.9,
+          "bladder": 11.5,
+          "social": 13.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        131,
+        46
+      ],
+      "pronunciatio": "\ud83e\udd14\ud83d\udcda",
+      "description": "Klaus is taking a short break after his meeting with Wolfgang Schulz. He reflects on the discussions they had and plans to incorporate some of Wolfgang's insights into his research paper (reflecting on the discussions with Wolfgang Schulz about interdisciplinary approaches to gentrification research) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 34.1,
+          "hunger": 98.6,
+          "fun": 17.1,
+          "hygiene": 69.5,
+          "bladder": 9.5,
+          "social": 46.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        117,
+        50
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Eddy Lin planning to meet at Hobbs Cafe to discuss tuning systems, physics, and collaborate on their next project while having dinner or coffee. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Eddy, I just saw you walking back to your dorm. Did you finish up at the library okay? Maybe we could grab something to eat or hang out a bit before you head in?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Maria! Yeah, I just finished up some work and was feeling a bit lonely. It would be great to grab dinner or maybe even head over to your place if you're still streaming?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, Eddy! I'm actually wrapping up my stream in about an hour if you're free to chat or grab something. Let\u2019s meet at Hobbs Cafe around 9:30 PM?"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Maria! See you at Hobbs Cafe then. Looking forward to it."
+        ],
+        [
+          "Maria Lopez",
+          "Great, I'll see you there then! Feel free to let me know if you need anything in particular from the cafe."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Maria! I'll see you at Hobbs Cafe then. Maybe we can continue our discussion about tuning systems and physics over some coffee?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, that sounds fun! I'm always up for diving deeper into those topics. See you in a bit at Hobbs Cafe."
+        ],
+        [
+          "Eddy Lin",
+          "Awesome, looking forward to that. Maybe we can also discuss any ideas you have for our next collaboration on tuning systems and physics?"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds like a plan, Eddy. I have some notes from our last meeting that we can review too. See you soon!"
+        ],
+        [
+          "Eddy Lin",
+          "That would be great, Maria. I'll bring my notes as well and we can brainstorm some more ideas together at Hobbs Cafe."
+        ],
+        [
+          "Maria Lopez",
+          "Great, Eddy! I'll make sure to organize my thoughts and notes before we meet. See you in a bit!"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Maria. I'll make sure to bring my laptop so we can look up some references or diagrams for our discussion on tuning systems and physics. See you then!"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds perfect, Eddy. I'll make sure to bring my sketchbook if we want to jot down any new ideas or diagrams during our discussion. See you soon at Hobbs Cafe!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Maria. It will be great to continue our discussion and explore more about tuning systems and physics. See you at Hobbs Cafe!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Eddy! I'll bring my laptop too so we can both look up any additional resources we might need. Can't wait to connect over some coffee and delve deeper into our interests!"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds fantastic, Maria. I\u2019ll make sure to bring my notes and any resources that might be helpful for our discussion on tuning systems and physics. See you at Hobbs Cafe!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 49.2,
+          "hunger": 100.0,
+          "fun": 99.8,
+          "hygiene": 37.9,
+          "bladder": 0.0,
+          "social": 15.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        75,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Isabella Rodriguez discussing plans for both their work project meeting on Thursday at 2 PM and a dinner date on Friday night. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Thanks for everything today, Isabella. It wouldn't have been possible without your help. Do you want to grab a coffee together sometime and chat more about our collaboration?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great, Abigail. How about we meet up next week at your convenience? I'd love to continue working on our plans and discuss any feedback you have from today\u2019s event."
+        ],
+        [
+          "Abigail Chen",
+          "Sure, let's aim for Thursday at 2 PM then. I'll bring some ideas and we can brainstorm further improvements for our project. Do you still need any changes made or adjustments discussed in the meantime?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works for me, Abigail. I'll make sure everything is ready by then and we can take it from there. See you on Thursday!"
+        ],
+        [
+          "Abigail Chen",
+          "Great, looking forward to it. And if you need anything before then, just let me know. Have a good evening, Isabella!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Abigail. I appreciate your flexibility and support. Have a great evening!"
+        ],
+        [
+          "Abigail Chen",
+          "I hope we can catch up more outside of work too. Maybe grab dinner sometime this week?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds nice, Abigail. How about we grab dinner on Friday night?"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds perfect, let's meet at that Italian place you recommended. See you on Friday!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds wonderful, Abigail. I'll see you on Friday then!"
+        ],
+        [
+          "Abigail Chen",
+          "Great, I'm looking forward to it. Have a lovely evening, Isabella!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks again, Abigail. I'll see you on Friday for dinner and Thursday at 2 PM to discuss our project further."
+        ],
+        [
+          "Abigail Chen",
+          "See you soon then, Isabella! Enjoy your evening."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Abigail. I'll see you on Friday and Thursday too!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella. It was great working together today and I'm excited about both our dinner and project meetings this week."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds perfect, Abigail. I'll see you on Friday for dinner and at our meeting Thursday to continue our great work."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 39.5,
+          "hunger": 100.0,
+          "fun": 28.8,
+          "hygiene": 99.3,
+          "bladder": 98.4,
+          "social": 19.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        67
+      ],
+      "pronunciatio": "\ud83d\udcfa\ud83c\udf7f",
+      "description": "Watching his favorite television show to unwind after a long day at work. He enjoys the quiet evening, reflecting on the day's events and looking forward to another day ahead. (watching the first segment of the show) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 6.9,
+          "hunger": 96.7,
+          "fun": 45.9,
+          "hygiene": 83.5,
+          "bladder": 24.1,
+          "social": 4.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        117,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Eddy Lin planning to meet at Hobbs Cafe to discuss tuning systems, physics, and collaborate on their next project while having dinner or coffee. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Eddy, I just saw you walking back to your dorm. Did you finish up at the library okay? Maybe we could grab something to eat or hang out a bit before you head in?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Maria! Yeah, I just finished up some work and was feeling a bit lonely. It would be great to grab dinner or maybe even head over to your place if you're still streaming?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, Eddy! I'm actually wrapping up my stream in about an hour if you're free to chat or grab something. Let\u2019s meet at Hobbs Cafe around 9:30 PM?"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Maria! See you at Hobbs Cafe then. Looking forward to it."
+        ],
+        [
+          "Maria Lopez",
+          "Great, I'll see you there then! Feel free to let me know if you need anything in particular from the cafe."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Maria! I'll see you at Hobbs Cafe then. Maybe we can continue our discussion about tuning systems and physics over some coffee?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, that sounds fun! I'm always up for diving deeper into those topics. See you in a bit at Hobbs Cafe."
+        ],
+        [
+          "Eddy Lin",
+          "Awesome, looking forward to that. Maybe we can also discuss any ideas you have for our next collaboration on tuning systems and physics?"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds like a plan, Eddy. I have some notes from our last meeting that we can review too. See you soon!"
+        ],
+        [
+          "Eddy Lin",
+          "That would be great, Maria. I'll bring my notes as well and we can brainstorm some more ideas together at Hobbs Cafe."
+        ],
+        [
+          "Maria Lopez",
+          "Great, Eddy! I'll make sure to organize my thoughts and notes before we meet. See you in a bit!"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Maria. I'll make sure to bring my laptop so we can look up some references or diagrams for our discussion on tuning systems and physics. See you then!"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds perfect, Eddy. I'll make sure to bring my sketchbook if we want to jot down any new ideas or diagrams during our discussion. See you soon at Hobbs Cafe!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Maria. It will be great to continue our discussion and explore more about tuning systems and physics. See you at Hobbs Cafe!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Eddy! I'll bring my laptop too so we can both look up any additional resources we might need. Can't wait to connect over some coffee and delve deeper into our interests!"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds fantastic, Maria. I\u2019ll make sure to bring my notes and any resources that might be helpful for our discussion on tuning systems and physics. See you at Hobbs Cafe!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 34.7,
+          "hunger": 100.0,
+          "fun": 97.1,
+          "hygiene": 81.0,
+          "bladder": 77.9,
+          "social": 17.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        30
+      ],
+      "pronunciatio": "\ud83d\udce8\ud83d\udcac",
+      "description": "Hailey is messaging friends like Abigail Chen to see if anyone is available for a video chat or hangout, feeling lonely and wanting company (sending the message to Abigail and waiting for a response) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.3,
+          "hunger": 98.6,
+          "fun": 99.7,
+          "hygiene": 65.3,
+          "bladder": 19.4,
+          "social": 11.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udd25",
+      "description": "Wolfgang is studying in his room. Despite feeling increasingly tired, he continues to push himself to review his chemistry notes and prepare for upcoming exams (reviewing his chemistry notes on thermodynamics) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 0.0,
+          "hunger": 84.7,
+          "fun": 3.2,
+          "hygiene": 57.3,
+          "bladder": 0.0,
+          "social": 9.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 20:13:50"
+  }
+}

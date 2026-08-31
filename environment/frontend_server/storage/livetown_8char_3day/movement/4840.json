@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        80,
+        21
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83c\udf7d\ufe0f",
+      "description": "taking a short lunch break (eating her lunch) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 62.8,
+          "hunger": 100.0,
+          "fun": 98.9,
+          "hygiene": 60.4,
+          "bladder": 44.8,
+          "social": 29.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Klaus Mueller discussing their academic interests in music and sociology, respectively, and exploring potential collaboration on a project examining the impacts of gentrification on local music scenes and communities. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hi Klaus, I'm Eddy Lin. How are you enjoying your meal today?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Eddy, nice to meet you. I'm doing well, thanks for asking. How about you?"
+        ],
+        [
+          "Eddy Lin",
+          "It's nice to meet you too. I'm enjoying my lunch here at Hobbs Cafe. Have we met before or are you new around campus?"
+        ],
+        [
+          "Klaus Mueller",
+          "No, we haven't met before. I'm a sociology student here at Oak Hill College and I've been working on a research paper about gentrification in low-income communities."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds like an interesting topic. I'm studying music here, but it's always fascinating to learn about how different disciplines approach social issues. What inspired your interest in gentrification?"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, I appreciate that. My interest stems from seeing firsthand how changes in my neighborhood have affected long-time residents and local businesses. It's a complex issue that touches on economics, culture, and social justice."
+        ],
+        [
+          "Eddy Lin",
+          "It definitely is. I've been trying to understand how urban development and music scenes intersect, so there are some parallels in our work. Have you found any particular challenges in your research?"
+        ],
+        [
+          "Klaus Mueller",
+          "Yes, one challenge is balancing the need for economic growth with preserving community identity and supporting residents who have lived there for a long time. It\u2019s tough to find policies that can address both sides effectively."
+        ],
+        [
+          "Eddy Lin",
+          "I agree, finding that balance is crucial. In music too, we see how cultural preservation can clash with modernization and commercial interests. Have you considered exploring any musical aspects of gentrification as part of your research?"
+        ],
+        [
+          "Klaus Mueller",
+          "That\u2019s an intriguing idea, Eddy. I haven\u2019t delved into the musical aspects yet, but it could add another layer of understanding to my research. Perhaps we could even look at how music venues and local artists are impacted by gentrification in our community."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds like an exciting angle to explore. Maybe we could collaborate on a project that combines our interests and looks at how music venues and artists are affected by gentrification in our city. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds incredibly interesting, Eddy. I think incorporating music into my research could provide unique insights and a fresh perspective on gentrification\u2019s impacts. Let's definitely explore this idea further."
+        ],
+        [
+          "Eddy Lin",
+          "Great, I think we could really make something impactful together. Let's exchange information and start planning our next steps over coffee this week."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds fantastic, Eddy. Let\u2019s grab coffee this Wednesday afternoon and start brainstorming our ideas. I think bringing together sociology and music could shed light on some overlooked aspects of gentrification."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a plan, Klaus. I look forward to our meeting this Wednesday and seeing where our collaboration takes us."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Eddy. I\u2019ll be looking forward to our meeting this Wednesday."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 67.8,
+          "hunger": 99.0,
+          "fun": 31.2,
+          "hygiene": 84.7,
+          "bladder": 63.6,
+          "social": 51.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "studying or working on assignments (reviewing her physics notes) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.8,
+          "hunger": 23.1,
+          "fun": 43.0,
+          "hygiene": 43.2,
+          "bladder": 29.9,
+          "social": 29.6
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd04",
+      "description": "working on the animation project for her client (updating the storyboard based on client feedback) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 72.8,
+          "hunger": 97.6,
+          "fun": 90.7,
+          "hygiene": 60.4,
+          "bladder": 54.6,
+          "social": 25.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        76,
+        45
+      ],
+      "pronunciatio": "\ud83d\udc8a",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (organizing medications on the shelves) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 62.8,
+          "hunger": 100.0,
+          "fun": 26.0,
+          "hygiene": 86.8,
+          "bladder": 44.8,
+          "social": 31.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        76,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Klaus Mueller discussing their academic interests in music and sociology, respectively, and exploring potential collaboration on a project examining the impacts of gentrification on local music scenes and communities. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hi Klaus, I'm Eddy Lin. How are you enjoying your meal today?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Eddy, nice to meet you. I'm doing well, thanks for asking. How about you?"
+        ],
+        [
+          "Eddy Lin",
+          "It's nice to meet you too. I'm enjoying my lunch here at Hobbs Cafe. Have we met before or are you new around campus?"
+        ],
+        [
+          "Klaus Mueller",
+          "No, we haven't met before. I'm a sociology student here at Oak Hill College and I've been working on a research paper about gentrification in low-income communities."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds like an interesting topic. I'm studying music here, but it's always fascinating to learn about how different disciplines approach social issues. What inspired your interest in gentrification?"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, I appreciate that. My interest stems from seeing firsthand how changes in my neighborhood have affected long-time residents and local businesses. It's a complex issue that touches on economics, culture, and social justice."
+        ],
+        [
+          "Eddy Lin",
+          "It definitely is. I've been trying to understand how urban development and music scenes intersect, so there are some parallels in our work. Have you found any particular challenges in your research?"
+        ],
+        [
+          "Klaus Mueller",
+          "Yes, one challenge is balancing the need for economic growth with preserving community identity and supporting residents who have lived there for a long time. It\u2019s tough to find policies that can address both sides effectively."
+        ],
+        [
+          "Eddy Lin",
+          "I agree, finding that balance is crucial. In music too, we see how cultural preservation can clash with modernization and commercial interests. Have you considered exploring any musical aspects of gentrification as part of your research?"
+        ],
+        [
+          "Klaus Mueller",
+          "That\u2019s an intriguing idea, Eddy. I haven\u2019t delved into the musical aspects yet, but it could add another layer of understanding to my research. Perhaps we could even look at how music venues and local artists are impacted by gentrification in our community."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds like an exciting angle to explore. Maybe we could collaborate on a project that combines our interests and looks at how music venues and artists are affected by gentrification in our city. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds incredibly interesting, Eddy. I think incorporating music into my research could provide unique insights and a fresh perspective on gentrification\u2019s impacts. Let's definitely explore this idea further."
+        ],
+        [
+          "Eddy Lin",
+          "Great, I think we could really make something impactful together. Let's exchange information and start planning our next steps over coffee this week."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds fantastic, Eddy. Let\u2019s grab coffee this Wednesday afternoon and start brainstorming our ideas. I think bringing together sociology and music could shed light on some overlooked aspects of gentrification."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a plan, Klaus. I look forward to our meeting this Wednesday and seeing where our collaboration takes us."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Eddy. I\u2019ll be looking forward to our meeting this Wednesday."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 67.8,
+          "hunger": 84.3,
+          "fun": 100.0,
+          "hygiene": 60.4,
+          "bladder": 49.7,
+          "social": 40.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        29
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start checking emails and social media briefly @ <waiting> 36 29",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.8,
+          "hunger": 99.7,
+          "fun": 62.3,
+          "hygiene": 51.8,
+          "bladder": 64.4,
+          "social": 25.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        114,
+        53
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2640",
+      "description": "taking a brief nap or using the time for mental rest to recharge before continuing with his schedule (visualizing a peaceful scene to aid relaxation) @ the Ville:Dorm for Oak Hill College:garden:dorm garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.5,
+          "hunger": 98.8,
+          "fun": 62.1,
+          "hygiene": 51.8,
+          "bladder": 24.2,
+          "social": 36.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 13:26:40"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        81,
+        14
+      ],
+      "pronunciatio": "\ud83c\udfa7\ud83d\udc68\u200d",
+      "description": "Isabella is managing the cafe during the Valentine\u2019s Day celebration. She ensures that all customers are enjoying themselves and coordinates with her staff to keep everything running smoothly (checking on live music setup with Eddy Lin) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 25.9,
+          "hunger": 98.0,
+          "fun": 80.2,
+          "hygiene": 71.7,
+          "bladder": 22.7,
+          "social": 8.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "Klaus is eating dinner. He feels more energized after having a good meal and plans to head back to the library soon to continue his work on the gentrification project (conversing about Hailey Johnson and Klaus Mueller discussing how to collaborate on exploring the impact of gentrification on cultural cuisines and traditions, potentially integrating their findings into Hailey's novel and Klaus's research.) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.1,
+          "hunger": 100.0,
+          "fun": 23.5,
+          "hygiene": 74.2,
+          "bladder": 20.6,
+          "social": 41.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        131,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcac",
+      "description": "streaming or gaming on Twitch from 6:00 PM to 10:00 PM, engaging with her community and collaborating on creative projects like interactive storytelling events (continuing the interactive storytelling event) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 57.2,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 42.7,
+          "bladder": 0.0,
+          "social": 11.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        41,
+        27
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83c\udf74",
+      "description": "having dinner (eating her first course or starter dish) @ the Ville:artist's co-living space:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.5,
+          "hunger": 100.0,
+          "fun": 35.2,
+          "hygiene": 92.2,
+          "bladder": 81.9,
+          "social": 16.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        93,
+        68
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "John is returning home and preparing dinner. He feels a sense of relief as he steps into his quiet house, looking forward to some time alone to unwind after a busy day at the pharmacy (preparing ingredients for dinner) @ the Ville:Lin family's house:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 14.8,
+          "hunger": 100.0,
+          "fun": 31.9,
+          "hygiene": 88.3,
+          "bladder": 35.3,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        103,
+        32
+      ],
+      "pronunciatio": "\ud83c\udfb5\ud83d\udcbb",
+      "description": "Eddy takes a short break to send a text message to a friend asking if they are available later (working on composing music for his project) @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.7,
+          "hunger": 90.6,
+          "fun": 99.7,
+          "hygiene": 85.8,
+          "bladder": 89.0,
+          "social": 16.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "Hailey is preparing dinner and experimenting with a new recipe from another culture she's interested in exploring (conversing about Hailey Johnson and Klaus Mueller discussing how to collaborate on exploring the impact of gentrification on cultural cuisines and traditions, potentially integrating their findings into Hailey's novel and Klaus's research.) @ the Ville:artist's co-living space:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 57.2,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 70.1,
+          "bladder": 30.6,
+          "social": 11.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        120,
+        41
+      ],
+      "pronunciatio": "\ud83e\udd14\ud83d\udcaa",
+      "description": "Wolfgang is taking a short break after his workout. He hydrates and stretches, reflecting on the day's activities so far (reflecting on the strength training session) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:lifting weight",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 1.2,
+          "hunger": 94.3,
+          "fun": 9.6,
+          "hygiene": 62.1,
+          "bladder": 0.0,
+          "social": 7.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 18:38:10"
+  }
+}

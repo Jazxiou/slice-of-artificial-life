@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        19
+      ],
+      "pronunciatio": "\u26a0\ufe0f\ud83d\udde3",
+      "description": "having a meeting with staff to discuss details about the Valentine's Day party (discusses contingency plans and emergency procedures) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.4,
+          "hunger": 89.4,
+          "fun": 100.0,
+          "hygiene": 63.2,
+          "bladder": 51.2,
+          "social": 24.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        79,
+        48
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83c\udfe5",
+      "description": "Klaus is having lunch at Hobbs Cafe (conversing about Klaus Mueller and John Lin discussing how gentrification affects access to mental health services in their community, including trends observed by John at Willow Market Pharmacy and effective local support groups.) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 72.4,
+          "hunger": 79.6,
+          "fun": 24.9,
+          "hygiene": 87.4,
+          "bladder": 70.1,
+          "social": 43.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udcda",
+      "description": "studying physics or working on assignments (working on an assignment related to her current course topic) (solving physics problems) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 87.4,
+          "hunger": 27.5,
+          "fun": 45.8,
+          "hygiene": 46.0,
+          "bladder": 36.3,
+          "social": 29.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        41,
+        28
+      ],
+      "pronunciatio": "\ud83c\udf74\ud83c\udf7d\ufe0f",
+      "description": "taking a lunch break (eating her lunch) @ the Ville:artist's co-living space:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 77.4,
+          "hunger": 100.0,
+          "fun": 82.9,
+          "hygiene": 63.2,
+          "bladder": 61.0,
+          "social": 29.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        76,
+        45
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83c\udfe5",
+      "description": "John is taking a lunch break. He grabs a quick meal and uses the time to review any prescriptions or orders that need attention upon his return to work (conversing about Klaus Mueller and John Lin discussing how gentrification affects access to mental health services in their community, including trends observed by John at Willow Market Pharmacy and effective local support groups.) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.4,
+          "hunger": 100.0,
+          "fun": 29.7,
+          "hygiene": 89.5,
+          "bladder": 51.2,
+          "social": 35.0
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        112,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfa7",
+      "description": "Eddy is attending a music theory class at Oak Hill College (taking notes on the lecture) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 72.4,
+          "hunger": 79.0,
+          "fun": 91.4,
+          "hygiene": 63.2,
+          "bladder": 56.1,
+          "social": 34.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        37,
+        25
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start eating her lunch @ <waiting> 37 25",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 87.4,
+          "hunger": 50.8,
+          "fun": 58.7,
+          "hygiene": 54.6,
+          "bladder": 70.8,
+          "social": 29.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        62
+      ],
+      "pronunciatio": "\ud83e\udd57\ud83d\ude0b",
+      "description": "eating lunch (eating his salad) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 62.4,
+          "hunger": 100.0,
+          "fun": 53.9,
+          "hygiene": 54.6,
+          "bladder": 29.1,
+          "social": 38.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 12:31:20"
+  }
+}

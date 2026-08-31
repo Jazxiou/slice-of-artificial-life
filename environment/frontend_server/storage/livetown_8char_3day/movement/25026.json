@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf70\u2615",
+      "description": "Isabella is feeling tired but satisfied with how today's Valentine\u2019s Day celebration at Hobbs Cafe went. She takes a moment to reflect on the day and appreciates the support from her friends and customers. Despite being alone, she feels a sense of (preparing a light snack for herself) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 11.5,
+          "hunger": 94.7,
+          "fun": 74.0,
+          "hygiene": 63.1,
+          "bladder": 2.5,
+          "social": 14.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        131,
+        46
+      ],
+      "pronunciatio": "\ud83e\udd14\ud83d\udcad",
+      "description": "Klaus is taking a short break after dinner to relax and recharge. He spends some time browsing through recent articles on social justice and urban development, reflecting on the day's discussions with Wolfgang Schulz and integrating new ideas into his research framework (reflecting on the day's discussions with Wolfgang Schulz) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 27.7,
+          "hunger": 100.0,
+          "fun": 25.5,
+          "hygiene": 65.6,
+          "bladder": 0.5,
+          "social": 41.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        24
+      ],
+      "pronunciatio": "\ud83d\udc69\u200d\ud83c\udf73",
+      "description": "Maria is preparing her meal while catching up with Eddy after the discussion with Abigail. @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.8,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 34.1,
+          "bladder": 0.0,
+          "social": 25.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udcbb",
+      "description": "reviewing the day's progress and planning for upcoming tasks related to her interactive art project and Valentine\u2019s Day event at Hobbs Cafe. She also considers any necessary adjustments due to today\u2019s interruptions (brainstorming new ideas for integrating technology into her upcoming projects) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 33.1,
+          "hunger": 93.6,
+          "fun": 30.3,
+          "hygiene": 95.4,
+          "bladder": 89.4,
+          "social": 24.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        68
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and John Lin discussing plans to meet at Cobalt Coffee after Eddy's lecture to discuss how music studies can be applied to manage stress in their work environment at the pharmacy. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "John Lin",
+          "Eddy, I've been feeling a bit lonely today. It would be great to catch up and maybe even discuss how your music studies could help manage stress in our work environment at the pharmacy."
+        ],
+        [
+          "Eddy Lin",
+          "Hi Dad, I've been feeling the same way. It would be great to catch up and talk about my music studies. Maybe after my lecture today we can meet at Cobalt Coffee and discuss how it could help with stress management in your work environment?"
+        ],
+        [
+          "John Lin",
+          "That sounds like a wonderful idea, Eddy. I look forward to hearing about your lecture and how we can apply what you're learning in our work environment."
+        ],
+        [
+          "Eddy Lin",
+          "Great, let's make sure to meet right after my lecture then. I'll send you a reminder later today."
+        ],
+        [
+          "John Lin",
+          "Sounds good, son. I'll be there right after you finish your lecture."
+        ],
+        [
+          "Eddy Lin",
+          "Awesome, Dad. I'm looking forward to sharing my insights with you and seeing how we can integrate music into our daily routines for better stress management."
+        ],
+        [
+          "John Lin",
+          "That sounds like a fantastic plan, Eddy. I'm really excited to see what you've been working on and how we can make these ideas work at Willow Market and Pharmacy."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Dad. It'll be nice to spend some quality time together and brainstorm some ideas that could benefit us both."
+        ],
+        [
+          "John Lin",
+          "I agree, Eddy. Let\u2019s make sure to leave some time after your lecture for a relaxed discussion and maybe even start planning some initial steps we can take at the pharmacy."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a plan, Dad. I'll send you an email later to confirm the details and any updates from my lecture."
+        ],
+        [
+          "John Lin",
+          "That sounds perfect, Eddy. I'll be sure to read through your email and we can finalize our plans then."
+        ],
+        [
+          "Eddy Lin",
+          "Cool, Dad. I'll see you at Cobalt Coffee right after my lecture then. Looking forward to it!"
+        ],
+        [
+          "John Lin",
+          "That sounds great, Eddy. I'll make sure to leave early from work and head straight there after I close up at the pharmacy."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Dad. Have a great day and see you there!"
+        ],
+        [
+          "John Lin",
+          "I'm looking forward to it, Eddy. Have a great lecture and I'll see you afterwards."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Dad. Talk to you later then!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 0.4,
+          "hunger": 100.0,
+          "fun": 78.1,
+          "hygiene": 79.7,
+          "bladder": 15.1,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        93,
+        70
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and John Lin discussing plans to meet at Cobalt Coffee after Eddy's lecture to discuss how music studies can be applied to manage stress in their work environment at the pharmacy. @ <persona> John Lin",
+      "chat": [
+        [
+          "John Lin",
+          "Eddy, I've been feeling a bit lonely today. It would be great to catch up and maybe even discuss how your music studies could help manage stress in our work environment at the pharmacy."
+        ],
+        [
+          "Eddy Lin",
+          "Hi Dad, I've been feeling the same way. It would be great to catch up and talk about my music studies. Maybe after my lecture today we can meet at Cobalt Coffee and discuss how it could help with stress management in your work environment?"
+        ],
+        [
+          "John Lin",
+          "That sounds like a wonderful idea, Eddy. I look forward to hearing about your lecture and how we can apply what you're learning in our work environment."
+        ],
+        [
+          "Eddy Lin",
+          "Great, let's make sure to meet right after my lecture then. I'll send you a reminder later today."
+        ],
+        [
+          "John Lin",
+          "Sounds good, son. I'll be there right after you finish your lecture."
+        ],
+        [
+          "Eddy Lin",
+          "Awesome, Dad. I'm looking forward to sharing my insights with you and seeing how we can integrate music into our daily routines for better stress management."
+        ],
+        [
+          "John Lin",
+          "That sounds like a fantastic plan, Eddy. I'm really excited to see what you've been working on and how we can make these ideas work at Willow Market and Pharmacy."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Dad. It'll be nice to spend some quality time together and brainstorm some ideas that could benefit us both."
+        ],
+        [
+          "John Lin",
+          "I agree, Eddy. Let\u2019s make sure to leave some time after your lecture for a relaxed discussion and maybe even start planning some initial steps we can take at the pharmacy."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a plan, Dad. I'll send you an email later to confirm the details and any updates from my lecture."
+        ],
+        [
+          "John Lin",
+          "That sounds perfect, Eddy. I'll be sure to read through your email and we can finalize our plans then."
+        ],
+        [
+          "Eddy Lin",
+          "Cool, Dad. I'll see you at Cobalt Coffee right after my lecture then. Looking forward to it!"
+        ],
+        [
+          "John Lin",
+          "That sounds great, Eddy. I'll make sure to leave early from work and head straight there after I close up at the pharmacy."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Dad. Have a great day and see you there!"
+        ],
+        [
+          "John Lin",
+          "I'm looking forward to it, Eddy. Have a great lecture and I'll see you afterwards."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Dad. Talk to you later then!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 28.3,
+          "hunger": 97.6,
+          "fun": 100.0,
+          "hygiene": 77.2,
+          "bladder": 68.8,
+          "social": 16.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        41,
+        32
+      ],
+      "pronunciatio": "\ud83d\udc42\ud83e\udd14",
+      "description": "Hailey is reaching out to Isabella Rodriguez through a video call to discuss potential projects and storytelling techniques they can integrate into their collaborative work. She hopes this conversation will help them brainstorm creative ideas for future events and enhance their storytelling skills together (listening to Isabella's thoughts and suggestions on the same topic) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.8,
+          "hunger": 100.0,
+          "fun": 94.6,
+          "hygiene": 61.4,
+          "bladder": 10.4,
+          "social": 6.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Wolfgang is feeling increasingly lonely and decides to reach out to a friend for some company. He sends a quick message asking if anyone wants to grab dinner or just hang out in the dorms (considering reaching out to another friend who might be available) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 0.0,
+          "hunger": 100.0,
+          "fun": 0.0,
+          "hygiene": 53.4,
+          "bladder": 0.0,
+          "social": 4.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 21:31:00"
+  }
+}

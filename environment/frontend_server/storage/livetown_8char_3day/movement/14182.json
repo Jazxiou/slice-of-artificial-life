@@ -1,0 +1,297 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Hailey Johnson and Isabella Rodriguez discussing plans to meet on Thursday afternoon to chat over coffee, share ideas for a Valentine\u2019s Day event, and discuss Hailey's novel. @ <persona> Hailey Johnson",
+      "chat": [
+        [
+          "Hailey Johnson",
+          "Hi Isabella, I hope you're having a great day! It\u2019s such a cozy and inviting atmosphere here at Hobbs Cafe. By the way, my name is Hailey Johnson. Are you enjoying working here today?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hi Hailey, it\u2019s lovely to meet you! I\u2019m really enjoying my day here at Hobbs Cafe. The Valentine\u2019s Day decorations are finally coming together and I hope everyone can relax in this cozy setting today."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds wonderful, Isabella. The decorations are really adding to the ambiance. By any chance, do you have some downtime for a quick chat or maybe grab a coffee together sometime this week?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Of course, Hailey! I'd love to catch up over a coffee. How about Thursday afternoon after work? We can also discuss your novel and maybe get some ideas for my Valentine\u2019s Day event."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds perfect, Isabella. I look forward to our chat and sharing some ideas for your event. See you on Thursday!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Thursday works for me. I\u2019ll make sure to have some of our special Valentine\u2019s Day treats ready for us to enjoy then."
+        ],
+        [
+          "Hailey Johnson",
+          "Thank you, Isabella. I'll make sure to bring some feedback for your event too. Have a wonderful day!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks again, Hailey. I'm really looking forward to our meeting on Thursday. Have a great day!"
+        ],
+        [
+          "Hailey Johnson",
+          "I'm excited about Thursday, Isabella. It should be a lovely afternoon."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'll see you then, Hailey. Enjoy your meeting with the graphic designer and I look forward to our time together on Thursday."
+        ],
+        [
+          "Hailey Johnson",
+          "It will be great to share some thoughts and ideas. Have a fantastic day, Isabella."
+        ],
+        [
+          "Isabella Rodriguez",
+          "It was nice meeting you, Hailey. I can't wait to hear more about your novel and see what ideas we come up with for my Valentine\u2019s Day event."
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Isabella. I'll see you on Thursday and we can chat more then."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 38.0,
+          "hunger": 96.9,
+          "fun": 89.3,
+          "hygiene": 95.9,
+          "bladder": 90.4,
+          "social": 2.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        122,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\uddc2",
+      "description": "Klaus is working on his research paper in the library (reviewing previous notes and sources) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 58.0,
+          "hunger": 89.6,
+          "fun": 39.0,
+          "hygiene": 32.6,
+          "bladder": 0.0,
+          "social": 29.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        81,
+        30
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "Maria is adjusting her plans after lunch, deciding to spend more time at Hobbs Cafe to meet friends and alleviate her loneliness. She feels energized but misses the companionship of others and hopes to connect with someone during this period (walking to Hobbs Cafe) @ the Ville:Dorm for Oak Hill College:garden:dorm garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 83.5,
+          "hunger": 100.0,
+          "fun": 54.1,
+          "hygiene": 90.1,
+          "bladder": 76.9,
+          "social": 5.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "taking a short break and preparing for lunch. She feels tired but decides to address her need for company by reaching out to Isabella or Hailey via text message to see if they are available for a quick chat during her lunch break (sending a text message to Hailey asking if she's available for a quick chat during lunch break) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.0,
+          "hunger": 100.0,
+          "fun": 95.3,
+          "hygiene": 93.0,
+          "bladder": 83.6,
+          "social": 0.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb5",
+      "description": " (conversing about Eddy and his father John planning to meet at Cobalt Coffee after Eddy's music lecture to discuss stress management techniques and how music can be used in managing stress, with John expressing interest in hearing insights from the lecture.) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 39.5,
+          "hunger": 100.0,
+          "fun": 47.0,
+          "hygiene": 81.8,
+          "bladder": 74.7,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb5",
+      "description": "[ (conversing about Eddy and his father John planning to meet at Cobalt Coffee after Eddy's music lecture to discuss stress management techniques and how music can be used in managing stress, with John expressing interest in hearing insights from the lecture.) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 58.3,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 80.9,
+          "bladder": 55.5,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        75,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Hailey Johnson and Isabella Rodriguez discussing plans to meet on Thursday afternoon to chat over coffee, share ideas for a Valentine\u2019s Day event, and discuss Hailey's novel. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Hailey Johnson",
+          "Hi Isabella, I hope you're having a great day! It\u2019s such a cozy and inviting atmosphere here at Hobbs Cafe. By the way, my name is Hailey Johnson. Are you enjoying working here today?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hi Hailey, it\u2019s lovely to meet you! I\u2019m really enjoying my day here at Hobbs Cafe. The Valentine\u2019s Day decorations are finally coming together and I hope everyone can relax in this cozy setting today."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds wonderful, Isabella. The decorations are really adding to the ambiance. By any chance, do you have some downtime for a quick chat or maybe grab a coffee together sometime this week?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Of course, Hailey! I'd love to catch up over a coffee. How about Thursday afternoon after work? We can also discuss your novel and maybe get some ideas for my Valentine\u2019s Day event."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds perfect, Isabella. I look forward to our chat and sharing some ideas for your event. See you on Thursday!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Thursday works for me. I\u2019ll make sure to have some of our special Valentine\u2019s Day treats ready for us to enjoy then."
+        ],
+        [
+          "Hailey Johnson",
+          "Thank you, Isabella. I'll make sure to bring some feedback for your event too. Have a wonderful day!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks again, Hailey. I'm really looking forward to our meeting on Thursday. Have a great day!"
+        ],
+        [
+          "Hailey Johnson",
+          "I'm excited about Thursday, Isabella. It should be a lovely afternoon."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'll see you then, Hailey. Enjoy your meeting with the graphic designer and I look forward to our time together on Thursday."
+        ],
+        [
+          "Hailey Johnson",
+          "It will be great to share some thoughts and ideas. Have a fantastic day, Isabella."
+        ],
+        [
+          "Isabella Rodriguez",
+          "It was nice meeting you, Hailey. I can't wait to hear more about your novel and see what ideas we come up with for my Valentine\u2019s Day event."
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Isabella. I'll see you on Thursday and we can chat more then."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 73.0,
+          "hunger": 99.4,
+          "fun": 100.0,
+          "hygiene": 87.3,
+          "bladder": 70.4,
+          "social": 9.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        29
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\uddc2",
+      "description": "preparing for his afternoon study session and organizing his notes. He feels a bit more energized after his walk around campus but remains slightly tired due to the lack of sleep from needing to use the bathroom in the middle of the night. Wolfgang plans to (organizing his study materials on his desk) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 38.5,
+          "hunger": 86.0,
+          "fun": 0.0,
+          "hygiene": 100.0,
+          "bladder": 86.2,
+          "social": 4.9
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 15:23:40"
+  }
+}

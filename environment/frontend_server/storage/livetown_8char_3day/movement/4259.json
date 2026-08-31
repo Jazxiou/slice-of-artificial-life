@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83c\udfe0",
+      "description": "having a meeting with staff to discuss details about the Valentine's Day party (talks about decorations and ambiance setup) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.8,
+          "hunger": 93.5,
+          "fun": 100.0,
+          "hygiene": 65.2,
+          "bladder": 56.1,
+          "social": 27.7
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        118,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Wolfgang Schulz and Klaus Mueller discussing strategies for managing coursework, labs, and research papers more efficiently and planning to meet up after lunch to exchange ideas and notes. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Wolfgang Schulz",
+          "Hi Klaus, I noticed you're working on your research paper. I'm actually trying to figure out how to manage my coursework and labs more efficiently. Do you have any tips?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Wolfgang, sure, managing multiple projects can be tough. I find it helpful to set clear goals and break tasks into smaller chunks. Also, staying organized with a schedule really helps me keep track of deadlines."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds like solid advice, Klaus. I'll try to apply it to my upcoming lab assignments and seminar prep. Do you usually work on your research paper every day or do you have specific times set aside for it?"
+        ],
+        [
+          "Klaus Mueller",
+          "I try to dedicate time every day for my research paper, usually in the morning when I'm more focused. It helps me stay consistent and makes it easier to make progress each day."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That makes sense, Klaus. I might try scheduling a specific time each day for my labs and seminars too. It sounds like it helps you stay on track. Thanks for the advice!"
+        ],
+        [
+          "Klaus Mueller",
+          "No problem, Wolfgang. And if you ever need help or want to brainstorm ideas for your projects, feel free to reach out. It can be really useful to bounce thoughts off someone else."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I'll definitely take you up on that, Klaus. It sounds like having a consistent routine really benefits your work. Maybe we can even exchange some notes or ideas sometime if it wouldn't be too much trouble."
+        ],
+        [
+          "Klaus Mueller",
+          "That would be great, Wolfgang. Maybe after we're both done for today, we could grab some coffee and chat about how to streamline our study schedules?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds like a good plan, Klaus. Let's meet up after we finish for today and see how we can help each other out."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds great, Wolfgang. I'll be around after lunch if you are free to discuss further."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks Klaus, I'll look forward to that. See you after lunch then."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Wolfgang. See you later at Hobbs Cafe."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Great, I'll meet you at Hobbs Cafe after lunch then. See you there!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, see you there Wolfgang. Have a productive lunch!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks Klaus, looking forward to it. See you at Hobbs Cafe!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, let\u2019s meet up after lunch to discuss our schedules and see if we can help each other out."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 75.8,
+          "hunger": 53.1,
+          "fun": 27.7,
+          "hygiene": 89.5,
+          "bladder": 74.9,
+          "social": 37.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        113,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "studying physics or working on assignments (working on an assignment related to her current course topic) (reviewing class notes) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 90.8,
+          "hunger": 31.7,
+          "fun": 34.9,
+          "hygiene": 48.1,
+          "bladder": 41.2,
+          "social": 32.1
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        30
+      ],
+      "pronunciatio": "\ud83c\udfa7",
+      "description": "working on the animation project for her client (adding sound effects to the animation clips) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 80.8,
+          "hunger": 70.0,
+          "fun": 80.8,
+          "hygiene": 65.2,
+          "bladder": 65.9,
+          "social": 27.7
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        52
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (organizing the prescription area to ensure everything is ready for the afternoon rush) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.8,
+          "hunger": 100.0,
+          "fun": 32.5,
+          "hygiene": 91.6,
+          "bladder": 56.1,
+          "social": 29.9
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        112,
+        21
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udcda",
+      "description": "Eddy is attending a music theory seminar at Oak Hill College (participating in class discussions) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 75.8,
+          "hunger": 83.1,
+          "fun": 74.1,
+          "hygiene": 65.2,
+          "bladder": 61.0,
+          "social": 37.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd04",
+      "description": "writing for two hours (editing what she has written so far) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 90.8,
+          "hunger": 20.5,
+          "fun": 56.6,
+          "hygiene": 56.7,
+          "bladder": 75.7,
+          "social": 27.7
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Wolfgang Schulz and Klaus Mueller discussing strategies for managing coursework, labs, and research papers more efficiently and planning to meet up after lunch to exchange ideas and notes. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Wolfgang Schulz",
+          "Hi Klaus, I noticed you're working on your research paper. I'm actually trying to figure out how to manage my coursework and labs more efficiently. Do you have any tips?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Wolfgang, sure, managing multiple projects can be tough. I find it helpful to set clear goals and break tasks into smaller chunks. Also, staying organized with a schedule really helps me keep track of deadlines."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds like solid advice, Klaus. I'll try to apply it to my upcoming lab assignments and seminar prep. Do you usually work on your research paper every day or do you have specific times set aside for it?"
+        ],
+        [
+          "Klaus Mueller",
+          "I try to dedicate time every day for my research paper, usually in the morning when I'm more focused. It helps me stay consistent and makes it easier to make progress each day."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That makes sense, Klaus. I might try scheduling a specific time each day for my labs and seminars too. It sounds like it helps you stay on track. Thanks for the advice!"
+        ],
+        [
+          "Klaus Mueller",
+          "No problem, Wolfgang. And if you ever need help or want to brainstorm ideas for your projects, feel free to reach out. It can be really useful to bounce thoughts off someone else."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I'll definitely take you up on that, Klaus. It sounds like having a consistent routine really benefits your work. Maybe we can even exchange some notes or ideas sometime if it wouldn't be too much trouble."
+        ],
+        [
+          "Klaus Mueller",
+          "That would be great, Wolfgang. Maybe after we're both done for today, we could grab some coffee and chat about how to streamline our study schedules?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds like a good plan, Klaus. Let's meet up after we finish for today and see how we can help each other out."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds great, Wolfgang. I'll be around after lunch if you are free to discuss further."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks Klaus, I'll look forward to that. See you after lunch then."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Wolfgang. See you later at Hobbs Cafe."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Great, I'll meet you at Hobbs Cafe after lunch then. See you there!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, see you there Wolfgang. Have a productive lunch!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks Klaus, looking forward to it. See you at Hobbs Cafe!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, let\u2019s meet up after lunch to discuss our schedules and see if we can help each other out."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 65.8,
+          "hunger": 100.0,
+          "fun": 56.7,
+          "hygiene": 56.7,
+          "bladder": 33.9,
+          "social": 40.4
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 11:49:50"
+  }
+}

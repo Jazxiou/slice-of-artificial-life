@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc4d",
+      "description": "handling orders and serving customers. She maintains a friendly demeanor, offering recommendations for Valentine\u2019s Day specials and ensuring everyone feels welcomed and comfortable (engaging with customers to learn about their preferences and making personalized recommendations; checking on tables again to ensure all guests are satisfied and comfortable) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 25.8,
+          "hunger": 94.6,
+          "fun": 90.3,
+          "hygiene": 88.5,
+          "bladder": 73.2,
+          "social": 11.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        72,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac\u2615",
+      "description": "Klaus is eating dinner at Hobbs Cafe (conversing about Eddy Lin and Klaus Mueller discussing their potential collaboration on a project that combines Eddy's music composition related to gentrification with Klaus's sociological research, planning to meet at Hobbs Cafe next Tuesday to discuss further.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 45.8,
+          "hunger": 95.1,
+          "fun": 34.9,
+          "hygiene": 42.4,
+          "bladder": 28.1,
+          "social": 31.4
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\u2615\ud83d\udcac",
+      "description": "Maria is continuing her visit at Hobbs Cafe, hoping to meet up with friends or peers for a study session or casual conversation. She feels more energized after her morning routine but still misses the companionship of others and hopes to connect with someone during (discussing upcoming assignments and coursework with Isabella Rodriguez while enjoying coffee together) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.3,
+          "hunger": 100.0,
+          "fun": 57.8,
+          "hygiene": 82.7,
+          "bladder": 59.7,
+          "social": 27.7
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        45,
+        31
+      ],
+      "pronunciatio": "\u23f0\ud83d\udce7",
+      "description": "waiting for a response from Hailey @ the Ville:artist's co-living space:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.8,
+          "hunger": 90.1,
+          "fun": 98.4,
+          "hygiene": 85.6,
+          "bladder": 66.4,
+          "social": 18.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83d\udcac",
+      "description": "John returns home and takes a moment to address his urgent need for the bathroom. He then calls a friend or neighbor to chat and alleviate some of his loneliness (catching up with the friend or neighbor about their day, discussing recent community news or events) (greeting and catching up with the friend or neighbor about their day) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 30.9,
+          "hunger": 98.9,
+          "fun": 56.7,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 5.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        73,
+        22
+      ],
+      "pronunciatio": "\ud83c\udfb6\ud83d\udcdd",
+      "description": "working on his composition project at Hobbs Cafe. He focuses intently, taking breaks to grab a snack and coffee (working on harmonizing the melody) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 46.0,
+          "hunger": 98.8,
+          "fun": 100.0,
+          "hygiene": 73.5,
+          "bladder": 38.3,
+          "social": 21.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        76,
+        45
+      ],
+      "pronunciatio": "\ud83c\udf3f\ud83d\udcac",
+      "description": "shopping for groceries to prepare dinner. She feels a little better after her meetings but still wishes she had someone to talk to about her day (conversing about natural supplements for stress and sleep management, as well as plans to meet up next week to discuss experiences and explore creative living spaces.) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.6,
+          "hunger": 100.0,
+          "fun": 94.1,
+          "hygiene": 79.9,
+          "bladder": 55.1,
+          "social": 17.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        118,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcac",
+      "description": "resuming his afternoon study session on chemistry. He decides to take a short break after lunch to address his feelings of loneliness and tiredness by reaching out to Eddy Lin via text or call for some social interaction (reviewing the solved problems and discussing any difficulties with Eddy Lin) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 37.7,
+          "hunger": 100.0,
+          "fun": 0.0,
+          "hygiene": 94.6,
+          "bladder": 87.4,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 17:51:00"
+  }
+}

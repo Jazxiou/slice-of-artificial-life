@@ -1,0 +1,360 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 16, 2023, 00:00:00",
+  "curr_tile": [
+    35,
+    29
+  ],
+  "daily_plan_req": "",
+  "name": "Hailey Johnson",
+  "first_name": "Hailey",
+  "last_name": "Johnson",
+  "age": 30,
+  "innate": "imaginative, energetic, resourceful",
+  "learned": "Hailey Johnson is a writer who is always looking for new ways to tell stories. She loves to immerse herself in different cultures and explore their literature.",
+  "currently": "Hailey Johnson continues to work on her novel about artists living in a co-living space and plans to start a podcast. She frequently meets with collaborators like Abigail Chen and Isabella Rodriguez to brainstorm ideas for storytelling projects and events.",
+  "seed_currently": "Hailey Johnson is writing a novel about a group of artists living in a co-living space. She is also planning to start a podcast.",
+  "drift_log": [
+    {
+      "day": "2023-02-14",
+      "drift": 0.3953210622228285,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "february 14",
+        "tuesday"
+      ],
+      "reason": "distance>0.35+dated",
+      "anchor_event": null,
+      "drift_after": 0.28204775899158496,
+      "dated_after": []
+    },
+    {
+      "day": "2023-02-15",
+      "drift": 0.48373762139533205,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "thursday"
+      ],
+      "reason": "distance>0.35+dated",
+      "anchor_event": null,
+      "drift_after": 0.2903463767745512,
+      "dated_after": []
+    },
+    {
+      "day": "2023-02-16",
+      "drift": 0.361626049061218,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "thursday",
+        "2pm",
+        "3pm"
+      ],
+      "reason": "distance>0.35+dated",
+      "anchor_event": null,
+      "drift_after": 0.2544659075415163,
+      "dated_after": []
+    }
+  ],
+  "needs": {
+    "sleep": 30.42,
+    "hunger": 91.0,
+    "fun": 99.0,
+    "hygiene": 54.0,
+    "bladder": 0.0,
+    "social": 1.47
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Abigail Chen": {
+      "friendship": 23.0,
+      "romance": 0.0
+    },
+    "Klaus Mueller": {
+      "friendship": 3.0,
+      "romance": 0.0
+    },
+    "Isabella Rodriguez": {
+      "friendship": 2.0,
+      "romance": 0.0
+    },
+    "Maria Lopez": {
+      "friendship": 3.0,
+      "romance": 0.0
+    },
+    "John Lin": {
+      "friendship": 5.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Hailey Johnson goes to bed around 2am, awakes up around 10am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Hailey Johnson's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 86,
+  "importance_ele_n": 62,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 10:00 am",
+    "meet with Abigail Chen for breakfast brainstorming session at 11:30 am",
+    "head back home and start working on novel revisions at 1:00 pm",
+    "take a quick break to use the bathroom and grab lunch around 3:30 pm",
+    "join an online workshop on storytelling techniques from 5:00 pm to 6:30 pm",
+    "eat dinner at 7:00 pm",
+    "after dinner, call or video chat with Isabella Rodriguez for late-night brainstorming and companionship around 8:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      600
+    ],
+    [
+      "Hailey wakes up and completes her morning routine (waking up and stretching)",
+      5
+    ],
+    [
+      "Hailey wakes up and completes her morning routine (going to the bathroom)",
+      10
+    ],
+    [
+      "Hailey wakes up and completes her morning routine (brushing her teeth)",
+      5
+    ],
+    [
+      "Hailey wakes up and completes her morning routine (washing her face)",
+      5
+    ],
+    [
+      "Hailey wakes up and completes her morning routine (moisturizing and applying sunscreen)",
+      10
+    ],
+    [
+      "Hailey wakes up and completes her morning routine (putting on deodorant)",
+      5
+    ],
+    [
+      "Hailey wakes up and completes her morning routine (choosing an outfit for the day)",
+      10
+    ],
+    [
+      "Hailey wakes up and completes her morning routine (getting dressed)",
+      10
+    ],
+    [
+      "Hailey meets Abigail Chen for a breakfast brainstorming session at a nearby caf\u00e9",
+      60
+    ],
+    [
+      "Hailey is working on her novel revisions at home",
+      60
+    ],
+    [
+      "Hailey is taking a break to use the bathroom and grab lunch",
+      120
+    ],
+    [
+      "Hailey is taking a quick break to use the bathroom and grab lunch",
+      60
+    ],
+    [
+      "Hailey is preparing to attend an online workshop on storytelling techniques that starts at 5:00 PM. She is organizing her notes and materials for the session",
+      60
+    ],
+    [
+      "Hailey is attending an online workshop on storytelling techniques. She is actively participating in discussions and taking detailed notes for future reference",
+      60
+    ],
+    [
+      "Hailey is attending an online workshop on storytelling techniques. She is actively participating in discussions and taking detailed notes for future reference (continuing from the previous entry)",
+      60
+    ],
+    [
+      "Hailey is eating dinner at home. She feels better after using the bathroom earlier but still wishes for some company",
+      60
+    ],
+    [
+      "Hailey is calling Isabella Rodriguez for a video chat to discuss ideas and enjoy each other's company. She feels lonely after spending the day mostly by herself and wants some late-night brainstorming and companionship",
+      60
+    ],
+    [
+      "Hailey is wrapping up her day by calling Isabella Rodriguez for a video chat to discuss ideas and enjoy each other's company. She feels lonely after spending the day mostly by herself and wants some late-night brainstorming and companionship",
+      120
+    ],
+    [
+      "Hailey is wrapping up her conversation with Isabella Rodriguez and reflecting on the day's discussions. She feels more energized by their brainstorming session but still needs some quiet time before going to bed",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      600
+    ],
+    [
+      "Hailey wakes up and completes her morning routine",
+      60
+    ],
+    [
+      "Hailey meets Abigail Chen for a breakfast brainstorming session at a nearby caf\u00e9",
+      60
+    ],
+    [
+      "Hailey is working on her novel revisions at home",
+      60
+    ],
+    [
+      "Hailey is taking a break to use the bathroom and grab lunch",
+      120
+    ],
+    [
+      "Hailey is taking a quick break to use the bathroom and grab lunch",
+      60
+    ],
+    [
+      "Hailey is preparing to attend an online workshop on storytelling techniques that starts at 5:00 PM. She is organizing her notes and materials for the session",
+      60
+    ],
+    [
+      "Hailey is attending an online workshop on storytelling techniques. She is actively participating in discussions and taking detailed notes for future reference",
+      60
+    ],
+    [
+      "Hailey is attending an online workshop on storytelling techniques. She is actively participating in discussions and taking detailed notes for future reference (continuing from the previous entry)",
+      60
+    ],
+    [
+      "Hailey is eating dinner at home. She feels better after using the bathroom earlier but still wishes for some company",
+      60
+    ],
+    [
+      "Hailey is calling Isabella Rodriguez for a video chat to discuss ideas and enjoy each other's company. She feels lonely after spending the day mostly by herself and wants some late-night brainstorming and companionship",
+      60
+    ],
+    [
+      "Hailey is wrapping up her day by calling Isabella Rodriguez for a video chat to discuss ideas and enjoy each other's company. She feels lonely after spending the day mostly by herself and wants some late-night brainstorming and companionship",
+      120
+    ],
+    [
+      "Hailey is wrapping up her conversation with Isabella Rodriguez and reflecting on the day's discussions. She feels more energized by their brainstorming session but still needs some quiet time before going to bed",
+      60
+    ]
+  ],
+  "act_address": "the Ville:artist's co-living space:Hailey Johnson's room:bed",
+  "act_start_time": "February 16, 2023, 00:00:00",
+  "act_duration": 600,
+  "act_description": "sleeping",
+  "act_pronunciatio": "\ud83d\ude34",
+  "act_event": [
+    "Hailey Johnson",
+    "sleep",
+    "sleep"
+  ],
+  "act_obj_description": "occupied",
+  "act_obj_pronunciatio": "\ud83d\udcc2\ud83d\udcbb",
+  "act_obj_event": [
+    "bed",
+    "be_occupied",
+    ""
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Abigail Chen": -707,
+    "Klaus Mueller": -1211,
+    "Isabella Rodriguez": 13,
+    "Maria Lopez": -10763,
+    "John Lin": -2087
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      34,
+      28
+    ],
+    [
+      34,
+      27
+    ],
+    [
+      34,
+      26
+    ],
+    [
+      33,
+      26
+    ],
+    [
+      32,
+      26
+    ],
+    [
+      31,
+      26
+    ],
+    [
+      30,
+      26
+    ],
+    [
+      29,
+      26
+    ],
+    [
+      29,
+      27
+    ],
+    [
+      29,
+      28
+    ],
+    [
+      28,
+      28
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      26,
+      28
+    ],
+    [
+      26,
+      29
+    ],
+    [
+      26,
+      30
+    ],
+    [
+      26,
+      31
+    ],
+    [
+      26,
+      32
+    ]
+  ]
+}

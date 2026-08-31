@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        80,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfe0",
+      "description": "meeting with Klaus Mueller to finalize setup arrangements for Valentine\u2019s Day. They go over last-minute details and ensure everything is ready for the evening celebration (conversing about Isabella and Maria discussing their work plans, particularly Isabella's Valentine\u2019s Day setup and Maria's upcoming stream assignment, while planning a coffee meeting to brainstorm ideas and offer support.) (They discuss the layout of tables and chairs for Valentine\u2019s Day) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 48.1,
+          "hunger": 100.0,
+          "fun": 44.2,
+          "hygiene": 76.5,
+          "bladder": 0.1,
+          "social": 16.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\u2615\ud83d\udcda",
+      "description": "Klaus is returning to the library after lunch. He plans to continue his research on gentrification and prepare for his meeting with Wolfgang Schulz later in the afternoon (taking a short break to grab a drink from the library caf\u00e9) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.3,
+          "hunger": 100.0,
+          "fun": 20.2,
+          "hygiene": 87.6,
+          "bladder": 51.8,
+          "social": 17.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        79,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "studying or planning her streaming schedule (conversing about Maria Lopez and Abigail Chen discussing their potential collaboration on an interactive Valentine\u2019s Day event combining gaming and art elements, planning a meeting at Hobbs Cafe to brainstorm ideas.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.4,
+          "hunger": 98.6,
+          "fun": 65.5,
+          "hygiene": 56.1,
+          "bladder": 0.0,
+          "social": 13.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "working on her interactive art project (conversing about Maria Lopez and Abigail Chen discussing their potential collaboration on an interactive Valentine\u2019s Day event combining gaming and art elements, planning a meeting at Hobbs Cafe to brainstorm ideas.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.8,
+          "hunger": 89.8,
+          "fun": 46.6,
+          "hygiene": 67.5,
+          "bladder": 16.5,
+          "social": 21.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        81,
+        52
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "John is interacting with customers and filling prescriptions at Willow Market and Pharmacy. He maintains a friendly demeanor, offering assistance and advice to those who need it (taking a short break for lunch) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 37.1,
+          "hunger": 100.0,
+          "fun": 47.3,
+          "hygiene": 84.5,
+          "bladder": 32.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        119,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "Eddy is studying and working on his composition project at the college library (reviewing notes from previous classes) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.9,
+          "hunger": 99.0,
+          "fun": 64.0,
+          "hygiene": 90.6,
+          "bladder": 0.0,
+          "social": 8.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udd0d",
+      "description": "Hailey is writing or brainstorming ideas for her podcast (reviewing notes and previous research on potential topics) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.5,
+          "hunger": 83.7,
+          "fun": 100.0,
+          "hygiene": 83.5,
+          "bladder": 61.8,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        111,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcd6",
+      "description": "attending an interdisciplinary seminar. He finds these sessions insightful and enjoys discussing chemistry's broader impacts with peers from different academic backgrounds (taking notes on the seminar topics) @ the Ville:Oak Hill College:classroom:blackboard",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 23.5,
+          "hunger": 93.5,
+          "fun": 25.0,
+          "hygiene": 75.5,
+          "bladder": 0.0,
+          "social": 6.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 14:10:50"
+  }
+}

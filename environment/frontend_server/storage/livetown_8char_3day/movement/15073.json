@@ -1,0 +1,244 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc4d",
+      "description": "handling orders and serving customers. She maintains a friendly demeanor, offering recommendations for Valentine\u2019s Day specials and ensuring everyone feels welcomed and comfortable (engaging with customers to learn about their preferences and making personalized recommendations; checking on tables again to ensure all guests are satisfied and comfortable) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 25.7,
+          "hunger": 94.5,
+          "fun": 90.3,
+          "hygiene": 88.4,
+          "bladder": 73.0,
+          "social": 11.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        72,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller offering and coordinating his assistance with Isabella Rodriguez for setting up and helping during the Valentine\u2019s Day event at their workplace. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Isabella, I've been meaning to ask you about the Valentine\u2019s Day event. Eddy mentioned it and said they could use some help setting things up. I'm happy to lend a hand if there's anything specific you need."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hi Klaus, it\u2019s great to see you. I\u2019d love your help setting up; there are a few things that could use an extra pair of hands. Also, if you can stay for the event with us, that would be wonderful!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, I'd be glad to help out and stay for the event. When would you like me to come in tomorrow?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be fantastic, Klaus. How about coming around mid-morning when there are fewer customers? We can start by going through some of the preparations and decorations together."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Isabella. I'll be there around 10 AM then. Let me know if anything changes or if you need help with anything specific before then."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works for me, Klaus. I'll have some supplies and decorations ready by then. And if you could stay a bit longer to help with last-minute touches before we open, that would be really helpful."
+        ],
+        [
+          "Klaus Mueller",
+          "Sure thing, Isabella. I'll make sure to be there early and stay as long as needed. See you tomorrow!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thank you so much, Klaus. Your help will really make a difference. Have a good evening and I'll see you bright and early tomorrow."
+        ],
+        [
+          "Klaus Mueller",
+          "No problem, Isabella. I'll bring some extra decorations or supplies if you think we might need them. Talk to you tomorrow!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be wonderful, Klaus. Thanks for being so accommodating and bringing extra supplies if you can. I\u2019m looking forward to working with you tomorrow."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds great, Isabella. I'll make sure to bring some supplies and decorations tomorrow morning. Have a nice evening!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "It means a lot to me, Klaus. Your support really helps lighten my load."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Isabella. I\u2019ll see you at 10 AM tomorrow to start setting everything up. Have a great night!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 45.7,
+          "hunger": 96.2,
+          "fun": 35.4,
+          "hygiene": 42.3,
+          "bladder": 27.9,
+          "social": 31.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\u2615\ud83d\udcac",
+      "description": "Maria is continuing her visit at Hobbs Cafe, hoping to meet up with friends or peers for a study session or casual conversation. She feels more energized after her morning routine but still misses the companionship of others and hopes to connect with someone during (discussing upcoming assignments and coursework with Isabella Rodriguez while enjoying coffee together) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.2,
+          "hunger": 100.0,
+          "fun": 57.7,
+          "hygiene": 82.7,
+          "bladder": 59.6,
+          "social": 27.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        32
+      ],
+      "pronunciatio": "\u23f0\ud83d\udce7",
+      "description": "waiting for a response from Hailey @ the Ville:artist's co-living space:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.7,
+          "hunger": 90.0,
+          "fun": 98.3,
+          "hygiene": 85.5,
+          "bladder": 66.3,
+          "social": 17.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83d\udcac",
+      "description": "John returns home and takes a moment to address his urgent need for the bathroom. He then calls a friend or neighbor to chat and alleviate some of his loneliness (catching up with the friend or neighbor about their day, discussing recent community news or events) (greeting and catching up with the friend or neighbor about their day) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 30.8,
+          "hunger": 98.8,
+          "fun": 56.6,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 5.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        80,
+        22
+      ],
+      "pronunciatio": "\ud83c\udfb6\ud83d\udcdd",
+      "description": "working on his composition project at Hobbs Cafe. He focuses intently, taking breaks to grab a snack and coffee (working on harmonizing the melody) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 45.9,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 73.5,
+          "bladder": 38.1,
+          "social": 21.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        78,
+        45
+      ],
+      "pronunciatio": "\ud83e\udd5a\ud83e\udd5b",
+      "description": "shopping for groceries to prepare dinner. She feels a little better after her meetings but still wishes she had someone to talk to about her day (picking up dairy products and eggs) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.8,
+          "hunger": 100.0,
+          "fun": 94.0,
+          "hygiene": 79.9,
+          "bladder": 55.1,
+          "social": 17.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcac",
+      "description": "resuming his afternoon study session on chemistry. He decides to take a short break after lunch to address his feelings of loneliness and tiredness by reaching out to Eddy Lin via text or call for some social interaction (reviewing the solved problems and discussing any difficulties with Eddy Lin) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 37.6,
+          "hunger": 100.0,
+          "fun": 0.0,
+          "hygiene": 94.5,
+          "bladder": 87.3,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 17:52:10"
+  }
+}

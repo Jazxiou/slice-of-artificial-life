@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        14
+      ],
+      "pronunciatio": "\ud83d\udce6",
+      "description": "taking a short break to use the bathroom and rest during her lunch hour. She feels tired but tries to stay focused on the day's tasks ahead (checking the inventory levels of supplies) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 46.6,
+          "hunger": 100.0,
+          "fun": 96.2,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 2.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        113,
+        39
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd0d",
+      "description": "Klaus is returning to the library to continue working on his research paper (checking his notes and materials for any missing items, resuming after conversation) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 66.6,
+          "hunger": 100.0,
+          "fun": 45.9,
+          "hygiene": 37.7,
+          "bladder": 0.0,
+          "social": 31.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        114,
+        37
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Maria is taking a short break for lunch, feeling more refreshed after her morning routine but still craving some company. She decides to eat at Hobbs Cafe where she hopes to run into friends or acquaintances from college (eating her lunch slowly, savoring each bite and discussing plans with Klaus) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 92.1,
+          "hunger": 90.5,
+          "fun": 60.9,
+          "hygiene": 95.3,
+          "bladder": 89.0,
+          "social": 9.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\ud83c\udfad",
+      "description": "continuing her animation project. She feels more focused after addressing her urgent need earlier and decides to make the most of this productive period (refining character movements and expressions) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.6,
+          "hunger": 83.0,
+          "fun": 98.8,
+          "hygiene": 98.1,
+          "bladder": 95.6,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        82,
+        49
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "(Tuesday February 14 -- 01:00 PM] Activity: John continues to assist customers, ensuring they have all the medications and information needed. He maintains a friendly demeanor despite feeling tired and lonely (restocking shelves with new inventory received earlier in the day) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 48.1,
+          "hunger": 96.4,
+          "fun": 10.6,
+          "hygiene": 86.9,
+          "bladder": 86.8,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        95,
+        74
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfa7",
+      "description": "[(ID:FuCQSy) Tuesday February 14 -- 12:00 PM] Activity: Eddy is attending his third class at Oak Hill College (taking notes during the lecture) @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 66.9,
+          "hunger": 18.2,
+          "fun": 97.3,
+          "hygiene": 86.1,
+          "bladder": 67.5,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcbb",
+      "description": "meeting with Abigail Chen to further discuss integrating interactive tools into her storytelling. They plan to explore how technology can enhance the reader's experience and engagement (and Abigail are reviewing the goals for integrating interactive tools into her storytelling) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 81.6,
+          "hunger": 94.8,
+          "fun": 99.2,
+          "hygiene": 92.5,
+          "bladder": 82.5,
+          "social": 7.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        118,
+        32
+      ],
+      "pronunciatio": "\ud83d\udeb6\ud83c\udfeb",
+      "description": "walking around campus to clear his head @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 41.1,
+          "hunger": 96.4,
+          "fun": 0.0,
+          "hygiene": 99.2,
+          "bladder": 26.9,
+          "social": 6.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 13:40:20"
+  }
+}

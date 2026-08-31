@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udce6\ud83d\udcc5",
+      "description": "meeting with Klaus Mueller to finalize setup arrangements for Valentine\u2019s Day. They go over last-minute details and ensure everything is ready for the evening celebration (covering various aspects including seating arrangement, menu options, sound system, lighting setup, schedule review, emergency procedures, decorations, inventory of supplies, staffing needs, contingency plans, promotional materials, new technology, guest feedback, post-event cleanup, budget review, special orders from regular customers, timeline for setup and breakdown of decorations, vendor arrangements or deliveries, guest list and seating chart, menu items or drink specials, marketing strategies, updates from suppliers, final checklist) (checks the inventory of supplies needed for Valentine\u2019s Day) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.0,
+          "hunger": 100.0,
+          "fun": 48.0,
+          "hygiene": 79.4,
+          "bladder": 6.8,
+          "social": 10.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "Klaus is having lunch at Hobbs Cafe. He enjoys a leisurely meal and takes the opportunity to chat with some colleagues about their ongoing projects and recent readings in sociology (chatting with colleagues about their ongoing projects) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.2,
+          "hunger": 100.0,
+          "fun": 22.1,
+          "hygiene": 90.5,
+          "bladder": 58.6,
+          "social": 21.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        46
+      ],
+      "pronunciatio": "\ud83c\udf5d\ud83e\udd66",
+      "description": "Maria is returning home to have lunch (preparing a simple meal of pasta and vegetables) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.3,
+          "hunger": 89.0,
+          "fun": 54.5,
+          "hygiene": 59.0,
+          "bladder": 0.0,
+          "social": 6.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        75,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcf1",
+      "description": "working on her interactive art project (conversing about Eddy Lin and Abigail Chen discussing plans to integrate interactive technology, specifically an Audience Engagement Tool, into Eddy's Valentine\u2019s Day performance at Isabella's cafe.) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 74.6,
+          "hunger": 95.6,
+          "fun": 43.5,
+          "hygiene": 70.4,
+          "bladder": 23.3,
+          "social": 19.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        83,
+        49
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83d\udccb",
+      "description": "John is interacting with customers and filling prescriptions at Willow Market and Pharmacy. He maintains a friendly demeanor, offering assistance and advice to those who need it (taking inventory of stock levels and placing orders for low items) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.0,
+          "hunger": 86.5,
+          "fun": 51.1,
+          "hygiene": 87.4,
+          "bladder": 38.7,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        74,
+        26
+      ],
+      "pronunciatio": "\ud83c\udf54",
+      "description": "Eddy is having lunch at Hobbs Cafe (ordering his food) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.8,
+          "hunger": 84.8,
+          "fun": 67.9,
+          "hygiene": 93.5,
+          "bladder": 3.5,
+          "social": 7.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83c\udfa7",
+      "description": "Hailey is writing or brainstorming ideas for her podcast from 1:00 pm to 3:00 pm (reviewing notes and outlines for the podcast) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.3,
+          "hunger": 89.5,
+          "fun": 100.0,
+          "hygiene": 86.4,
+          "bladder": 68.5,
+          "social": 3.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        112,
+        27
+      ],
+      "pronunciatio": "\ud83c\udfa7\ud83d\udce3",
+      "description": "Wolfgang is attending an interdisciplinary seminar. He finds these sessions insightful and enjoys discussing chemistry's broader impacts with peers from different academic backgrounds (listening to introductory remarks, taking notes during presentations, participating in Q&A sessions, and discussing with peers) (listening to introductory remarks) @ the Ville:Oak Hill College:classroom:classroom podium",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 28.3,
+          "hunger": 99.3,
+          "fun": 28.8,
+          "hygiene": 78.4,
+          "bladder": 0.0,
+          "social": 10.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 13:12:50"
+  }
+}

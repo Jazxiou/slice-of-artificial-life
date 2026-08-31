@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "preparing for closing. She ensures all tables are cleaned and organized, restocks supplies as needed, and prepares the cafe for the next day. @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 22.3,
+          "hunger": 90.5,
+          "fun": 87.6,
+          "hygiene": 86.4,
+          "bladder": 68.4,
+          "social": 14.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udcda",
+      "description": "Klaus is eating dinner at Hobbs Cafe (conversing about John Lin and Klaus Mueller discussing the impact of gentrification on mental health in their community and planning an information session at Willow Market Pharmacy to raise awareness and provide resources.) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.3,
+          "hunger": 100.0,
+          "fun": 32.7,
+          "hygiene": 40.3,
+          "bladder": 23.3,
+          "social": 42.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\u2615\ud83d\udcac",
+      "description": "Maria is continuing her visit at Hobbs Cafe, hoping to meet up with friends or peers for a study session or casual conversation. She feels more energized after her morning routine but still misses the companionship of others and hopes to connect with someone during (discussing upcoming assignments and coursework with Isabella Rodriguez while enjoying coffee together) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.8,
+          "hunger": 100.0,
+          "fun": 55.0,
+          "hygiene": 80.7,
+          "bladder": 55.0,
+          "social": 25.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        41,
+        26
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udf72",
+      "description": "Abigail is preparing for her lunch. She feels the urge to reach out to Isabella or Hailey via text message during this time to see if they are available for a quick chat. After sending the messages, she decides to take a short walk (cooking her meal) @ the Ville:artist's co-living space:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.3,
+          "hunger": 100.0,
+          "fun": 95.7,
+          "hygiene": 83.5,
+          "bladder": 61.6,
+          "social": 15.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        83,
+        43
+      ],
+      "pronunciatio": "\ud83d\udcac\u2615",
+      "description": "John returns home and takes a moment to address his urgent need for the bathroom. He then calls a friend or neighbor to chat and alleviate some of his loneliness (conversing about Eddy and his father discussing Eddy's composition project that incorporates stress management techniques, planning to meet at Cobalt Coffee to discuss further ideas and progress.) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 27.4,
+          "hunger": 100.0,
+          "fun": 54.0,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 16.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfb6",
+      "description": "working on his composition project at Hobbs Cafe. He focuses intently, taking breaks to grab a snack and coffee (refining the composition by adding dynamics and articulations) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.6,
+          "hunger": 100.0,
+          "fun": 99.2,
+          "hygiene": 71.5,
+          "bladder": 33.5,
+          "social": 23.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        89,
+        49
+      ],
+      "pronunciatio": "\ud83d\uded2\u2744\ufe0f",
+      "description": "shopping for groceries to prepare dinner. She feels a little better after her meetings but still wishes she had someone to talk to about her day (checking out the frozen food section for snacks) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.5,
+          "hunger": 100.0,
+          "fun": 91.3,
+          "hygiene": 77.9,
+          "bladder": 50.4,
+          "social": 14.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2642",
+      "description": "going to the gym for weight training and strength exercises to maintain his physical fitness (warming up with stretching exercises and light cardio for 10 minutes) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 34.3,
+          "hunger": 97.1,
+          "fun": 0.0,
+          "hygiene": 92.5,
+          "bladder": 82.6,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 18:32:00"
+  }
+}

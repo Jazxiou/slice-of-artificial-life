@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        19
+      ],
+      "pronunciatio": "\ud83d\ude0c\u2728",
+      "description": "Isabella is taking some time to unwind after closing the cafe. She feels tired but satisfied with how the Valentine\u2019s Day celebration went. She calls Klaus and Eddy to thank them for their help and discuss any final details or feedback from the event (takes a moment to reflect on the day's events and feels content with how everything went) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 4.5,
+          "hunger": 84.4,
+          "fun": 91.5,
+          "hygiene": 75.8,
+          "bladder": 43.5,
+          "social": 20.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        109,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac\u2615",
+      "description": "Klaus is finishing up last-minute details of his research paper at the library before heading back to his dorm. He feels a sense of accomplishment but also exhaustion from the day's work (conversing about Klaus and Maria discussing their plans to meet at Hobbs Cafe to discuss physics concepts related to music theory and brainstorm ideas for Klaus's research paper on gentrification.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 24.5,
+          "hunger": 78.9,
+          "fun": 23.8,
+          "hygiene": 29.6,
+          "bladder": 0.0,
+          "social": 37.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        110,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac\u2615",
+      "description": "socializing and engaging in relaxation activities on her Twitch channel after her streaming session. She feels more connected with her audience but still misses the companionship of friends she could meet in person. She plans to continue this activity until midnight (conversing about Klaus and Maria discussing their plans to meet at Hobbs Cafe to discuss physics concepts related to music theory and brainstorm ideas for Klaus's research paper on gentrification.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.0,
+          "hunger": 88.6,
+          "fun": 100.0,
+          "hygiene": 70.0,
+          "bladder": 30.0,
+          "social": 37.0
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcf2",
+      "description": "Abigail is feeling increasingly lonely and tired as she hasn't heard back from Isabella or Hailey. She decides to take a short walk around her neighborhood in hopes of finding some inspiration and clearing her mind. Despite the cold, she finds that moving (reaching out to Isabella and Hailey via text or social media) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 29.5,
+          "hunger": 99.4,
+          "fun": 93.4,
+          "hygiene": 72.9,
+          "bladder": 36.7,
+          "social": 28.3
+        },
+        "mood": {
+          "family": "fear",
+          "word": "anxious"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "(Tuesday February 14 -- 09:00 PM] Activity: John tidies up his home and prepares for bed, feeling a bit more relaxed after the day's activities but still wishing for company. He considers reaching out to friends (taking a moment to sit down and reflect on his day while considering reaching out to friends for company) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 9.6,
+          "hunger": 89.9,
+          "fun": 100.0,
+          "hygiene": 91.4,
+          "bladder": 79.9,
+          "social": 1.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb6",
+      "description": "preparing for the Valentine\u2019s Day performance at Hobbs Cafe with Isabella Rodriguez (discussing logistics and finalizing song list) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 24.8,
+          "hunger": 98.5,
+          "fun": 96.5,
+          "hygiene": 60.8,
+          "bladder": 8.6,
+          "social": 26.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83d\udcdd",
+      "description": "continues working on her project by drafting an outline of the interactive storytelling tool and planning how to integrate it with co-living spaces. @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 46.7,
+          "hunger": 98.8,
+          "fun": 94.0,
+          "hygiene": 94.2,
+          "bladder": 86.4,
+          "social": 5.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        123,
+        45
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83c\udf73",
+      "description": "Wolfgang is feeling a bit more relaxed after his evening workout and plans to prepare dinner. He considers reaching out to Eddy Lin for some social interaction during their usual time slot, as talking with him earlier helped improve his mood. Despite still feeling (gathering ingredients from the kitchen) @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 16.4,
+          "hunger": 100.0,
+          "fun": 2.6,
+          "hygiene": 81.9,
+          "bladder": 57.7,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 22:05:40"
+  }
+}

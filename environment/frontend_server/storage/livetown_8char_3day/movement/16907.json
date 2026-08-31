@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        20
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2642",
+      "description": "relaxing at home, feeling tired but content with how the Valentine\u2019s Day celebration went. She reflects on the day and appreciates the support from her friends Klaus and Eddy (taking a few moments to stretch and move around after sitting down for so long) @ the Ville:Johnson Park:park:park garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 0.2,
+          "hunger": 84.6,
+          "fun": 100.0,
+          "hygiene": 73.2,
+          "bladder": 37.4,
+          "social": 16.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        107,
+        50
+      ],
+      "pronunciatio": "\ud83d\udebf\ud83e\uddfc",
+      "description": "Klaus is taking a quick shower in preparation for sleep, reflecting on the day\u2019s accomplishments and looking forward to rest (showering) @ the Ville:Dorm for Oak Hill College:man's bathroom:shower",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 21.3,
+          "hunger": 73.7,
+          "fun": 22.9,
+          "hygiene": 100.0,
+          "bladder": 49.3,
+          "social": 34.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83c\udffc\ud83d\udc4d",
+      "description": "socializing and engaging in relaxation activities on her Twitch channel after her streaming session. She feels more connected with her audience but still misses the companionship of friends she could meet in person. She plans to continue this activity until midnight (wrapping up the session by thanking viewers and signing off) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 45.7,
+          "hunger": 83.4,
+          "fun": 100.0,
+          "hygiene": 67.4,
+          "bladder": 24.0,
+          "social": 33.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "Abigail is feeling increasingly lonely and tired as she hasn't heard back from Isabella or Hailey. She decides to take a short walk around her neighborhood in hopes of finding some inspiration and clearing her mind. Despite the cold, she finds that moving (conversing about Abigail Chen and Hailey Johnson discussing their plans to integrate interactive art tools into storytelling for a novel and animations, setting up a meeting to brainstorm ideas and share resources.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 25.2,
+          "hunger": 94.2,
+          "fun": 98.0,
+          "hygiene": 70.3,
+          "bladder": 30.6,
+          "social": 31.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        90,
+        74
+      ],
+      "pronunciatio": "\ud83c\udfe0\ud83e\uddf9",
+      "description": "(Tuesday February 14 -- 10:00 PM] Activity: John tidies up his living space and prepares for bed, feeling a sense of accomplishment from the day's activities but still yearning for companionship. He reflects on (checking his bedroom to ensure everything is neat and ready for sleep) @ the Ville:Lin family's house:Mei and John Lin's bedroom:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 8.2,
+          "hunger": 95.5,
+          "fun": 97.0,
+          "hygiene": 88.8,
+          "bladder": 74.6,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        81,
+        30
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "[(ID:75WSSb) Tuesday February 14 -- 07:00 PM] Activity: Eddy is heading home from Hobbs Cafe to take a break and relax before continuing his work on compositions or theory (walking back home from Hobbs Cafe) @ the Ville:Lin family's house:garden:house garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 20.4,
+          "hunger": 99.7,
+          "fun": 94.4,
+          "hygiene": 58.2,
+          "bladder": 2.5,
+          "social": 23.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "finalizes the day's work by reviewing all notes and plans made during the evening. She saves everything on her computer and prepares for bed. (conversing about Abigail Chen and Hailey Johnson discussing their plans to integrate interactive art tools into storytelling for a novel and animations, setting up a meeting to brainstorm ideas and share resources.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.3,
+          "hunger": 93.6,
+          "fun": 98.7,
+          "hygiene": 91.6,
+          "bladder": 80.3,
+          "social": 8.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        123,
+        47
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "Wolfgang is feeling a bit more relaxed after his evening workout and plans to prepare dinner. He considers reaching out to Eddy Lin for some social interaction during their usual time slot, as talking with him earlier helped improve his mood. Despite still feeling (setting the table for dinner) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 12.1,
+          "hunger": 100.0,
+          "fun": 24.4,
+          "hygiene": 79.3,
+          "bladder": 51.6,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 22:57:50"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcb0\ud83d\udcb3",
+      "description": "handling orders and serving customers. She maintains a friendly demeanor, offering recommendations for Valentine\u2019s Day specials and ensuring everyone feels welcomed and comfortable (handling another customer's payment and providing them with their receipt or change; taking an order from a new customer entering the cafe; preparing another set of orders while ensuring previous customers are still satisfied) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 30.8,
+          "hunger": 95.5,
+          "fun": 94.4,
+          "hygiene": 91.5,
+          "bladder": 80.3,
+          "social": 12.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        122,
+        22
+      ],
+      "pronunciatio": "\ud83d\udd0d\ud83d\udcbb",
+      "description": "Klaus is working on his research paper in the library (conducting additional research online) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.8,
+          "hunger": 81.0,
+          "fun": 33.3,
+          "hygiene": 28.2,
+          "bladder": 0.0,
+          "social": 24.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        80,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Isabella Rodriguez planning to meet at Hobbs Cafe to discuss Maria's upcoming assignment and enjoy coffee together. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Isabella! It's so nice to see you. I was actually hoping we could meet up later today, maybe grab some coffee and discuss my upcoming assignment?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hi Maria! That sounds great. I was just closing up soon, but maybe we could meet after for a quick coffee and chat about your assignment?"
+        ],
+        [
+          "Maria Lopez",
+          "That works for me! How about we meet at Hobbs Cafe in an hour then?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Maria. I'll be looking forward to it."
+        ],
+        [
+          "Maria Lopez",
+          "Perfect! See you there, Isabella. I'll be looking forward to it too!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, see you soon Maria. I'll make sure to have your favorite drink ready for you."
+        ],
+        [
+          "Maria Lopez",
+          "That would be lovely, Isabella. I\u2019ll head over there in an hour then."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'll be here waiting for you, Maria. Enjoy your day until then!"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Isabella! Looking forward to catching up and getting some help with my assignment."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'll have your cappuccino ready and we can sit in our usual spot. Take your time, Maria!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds perfect, Isabella. I'll see you in an hour then!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Have a wonderful day until we meet, Maria! I'll make sure everything is in place for our catch-up session."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks again, Isabella! I'll be there soon. See you later!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 76.3,
+          "hunger": 100.0,
+          "fun": 61.8,
+          "hygiene": 85.8,
+          "bladder": 66.8,
+          "social": 23.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc95",
+      "description": "Abigail is continuing her interactive art experiments. She feels more energized after addressing her earlier need and decides to explore new tools that can enhance the interactivity of her current project. Despite feeling tired, she finds renewed motivation in experimenting with technology to express (conversing about Abigail Chen and Isabella Rodriguez discussing the setup and support needed for Abigail's interactive art installation at Hobbs Cafe for Valentine's Day.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 55.8,
+          "hunger": 96.2,
+          "fun": 97.0,
+          "hygiene": 88.6,
+          "bladder": 73.5,
+          "social": 13.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\u23f0\ud83d\ude34",
+      "description": "(Tuesday February 14 -- 04:00 PM] Activity: John continues to assist customers, maintaining his patience and kindness despite feeling increasingly tired. He takes a moment to address his urgent need for the bathroom during a brief lull @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 32.3,
+          "hunger": 95.4,
+          "fun": 60.8,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "[(ID:rzuQMe) Tuesday February 14 -- 03:00 PM] Activity: Eddy is studying at Hobbs Cafe and working on his composition project @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 51.1,
+          "hunger": 99.9,
+          "fun": 99.9,
+          "hygiene": 76.6,
+          "bladder": 45.4,
+          "social": 10.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\u2615\ud83e\udd14",
+      "description": "taking a short break to gather thoughts @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 65.8,
+          "hunger": 92.5,
+          "fun": 98.1,
+          "hygiene": 83.0,
+          "bladder": 60.3,
+          "social": 14.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        114,
+        52
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcc5",
+      "description": "resuming his afternoon study session on chemistry. Despite feeling a bit tired and lonely, he focuses on his work to maintain his academic rigor. He plans to reach out to Eddy Lin later for some peer support during their usual Q&A session (reviewing his previous day's notes for continuity) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.7,
+          "hunger": 77.4,
+          "fun": 0.0,
+          "hygiene": 97.6,
+          "bladder": 94.5,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 16:50:10"
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 16, 2023, 00:00:00",
+  "curr_tile": [
+    127,
+    46
+  ],
+  "daily_plan_req": "Klaus Mueller goes to the library at Oak Hill College early in the morning, spends his days writing, and eats at Hobbs Cafe.",
+  "name": "Klaus Mueller",
+  "first_name": "Klaus",
+  "last_name": "Mueller",
+  "age": 20,
+  "innate": "kind, inquisitive, passionate",
+  "learned": "Klaus Mueller is a student at Oak Hill College studying sociology. He is passionate about social justice and loves to explore different perspectives.",
+  "currently": "Klaus Mueller continues his research on the effects of gentrification in low-income communities, collaborating with Maria Lopez and other local organizations to gather feedback for a proposal aimed at promoting meaningful social change. He remains passionate about exploring interdisciplinary approaches to address issues like mental health access within the context of urban development.",
+  "seed_currently": "Klaus Mueller is writing a research paper on the effects of gentrification in low-income communities.",
+  "drift_log": [
+    {
+      "day": "2023-02-14",
+      "drift": 0.5157014120343326,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "february 14",
+        "tuesday"
+      ],
+      "reason": "distance>0.35+dated",
+      "anchor_event": null,
+      "drift_after": 0.3241069458974175,
+      "dated_after": []
+    },
+    {
+      "day": "2023-02-15",
+      "drift": 0.3916708022430967,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "friday",
+        "today"
+      ],
+      "reason": "distance>0.35+dated",
+      "anchor_event": null,
+      "drift_after": 0.3416964382395212,
+      "dated_after": []
+    },
+    {
+      "day": "2023-02-16",
+      "drift": 0.42876779331416837,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [],
+      "reason": "distance>0.35",
+      "anchor_event": null,
+      "drift_after": 0.45109807992007633,
+      "dated_after": []
+    }
+  ],
+  "needs": {
+    "sleep": 15.83,
+    "hunger": 88.3,
+    "fun": 38.32,
+    "hygiene": 100.0,
+    "bladder": 0.0,
+    "social": 31.66
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Maria Lopez": {
+      "friendship": 80.0,
+      "romance": 42.0
+    },
+    "Wolfgang Schulz": {
+      "friendship": 13.0,
+      "romance": 0.0
+    },
+    "John Lin": {
+      "friendship": 5.0,
+      "romance": 0.0
+    },
+    "Isabella Rodriguez": {
+      "friendship": 11.0,
+      "romance": 0.0
+    },
+    "Eddy Lin": {
+      "friendship": 10.0,
+      "romance": 0.0
+    },
+    "Hailey Johnson": {
+      "friendship": 4.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "Klaus Mueller goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 230,
+  "importance_ele_n": 17,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "go to the library at Oak Hill College at 9:00 am",
+    "write and research until noon",
+    "have lunch at Hobbs Cafe at 12:00 pm",
+    "continue writing and researching from 1:00 pm to 5:00 pm",
+    "eat dinner at 5:00 pm",
+    "meet with Maria Lopez for a discussion about the proposal at 6:30 pm",
+    "work on proposal until 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "[(ID:8CIU5Q) Thursday February 16 -- 07:00 AM] Activity: Klaus wakes up and completes his morning routine",
+      60
+    ],
+    [
+      "[(ID:wRkx8J) Thursday February 16 -- 07:00 AM] Activity: Klaus wakes up and completes his morning routine",
+      60
+    ],
+    [
+      "[(ID:YnPwtK) Thursday February 16 -- 09:00 AM] Activity: Klaus goes to the library at Oak Hill College",
+      60
+    ],
+    [
+      "writing and researching in the library at Oak Hill College",
+      120
+    ],
+    [
+      "Klaus is having lunch at Hobbs Cafe",
+      60
+    ],
+    [
+      "writing and researching in the library at Oak Hill College",
+      240
+    ],
+    [
+      "Klaus is writing and researching in the library at Oak Hill College",
+      60
+    ],
+    [
+      "Klaus is meeting with Maria Lopez for a discussion about the proposal",
+      60
+    ],
+    [
+      "Klaus is meeting with Maria Lopez for a discussion about the proposal at 6:30 pm, so he has some time before that to review his notes and prepare. He spends this hour going over his research findings and organizing his thoughts for the",
+      60
+    ],
+    [
+      "Klaus is working on his proposal after meeting with Maria Lopez. He reviews the feedback and makes necessary adjustments",
+      60
+    ],
+    [
+      "working on his proposal until 9:00 pm",
+      60
+    ],
+    [
+      "relaxing and decompressing after a long day of work. He takes some time to unwind before heading to bed",
+      60
+    ],
+    [
+      "Klaus is feeling urgent need to use the bathroom and decides to quickly go before heading to bed",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "[(ID:8CIU5Q) Thursday February 16 -- 07:00 AM] Activity: Klaus wakes up and completes his morning routine",
+      60
+    ],
+    [
+      "[(ID:wRkx8J) Thursday February 16 -- 07:00 AM] Activity: Klaus wakes up and completes his morning routine",
+      60
+    ],
+    [
+      "[(ID:YnPwtK) Thursday February 16 -- 09:00 AM] Activity: Klaus goes to the library at Oak Hill College",
+      60
+    ],
+    [
+      "writing and researching in the library at Oak Hill College",
+      120
+    ],
+    [
+      "Klaus is having lunch at Hobbs Cafe",
+      60
+    ],
+    [
+      "writing and researching in the library at Oak Hill College",
+      240
+    ],
+    [
+      "Klaus is writing and researching in the library at Oak Hill College",
+      60
+    ],
+    [
+      "Klaus is meeting with Maria Lopez for a discussion about the proposal",
+      60
+    ],
+    [
+      "Klaus is meeting with Maria Lopez for a discussion about the proposal at 6:30 pm, so he has some time before that to review his notes and prepare. He spends this hour going over his research findings and organizing his thoughts for the",
+      60
+    ],
+    [
+      "Klaus is working on his proposal after meeting with Maria Lopez. He reviews the feedback and makes necessary adjustments",
+      60
+    ],
+    [
+      "working on his proposal until 9:00 pm",
+      60
+    ],
+    [
+      "relaxing and decompressing after a long day of work. He takes some time to unwind before heading to bed",
+      60
+    ],
+    [
+      "Klaus is feeling urgent need to use the bathroom and decides to quickly go before heading to bed",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+  "act_start_time": "February 15, 2023, 23:58:00",
+  "act_duration": 5,
+  "act_description": "Klaus is getting ready for bed. He feels a sense of accomplishment from the day's work and looks forward to continuing his research tomorrow. He sets out clothes for the next morning, brushes his teeth, and reads a few pages of a book before (turning off the lights and getting into bed)",
+  "act_pronunciatio": "\ud83d\ude0b",
+  "act_event": [
+    "Klaus Mueller",
+    "turn off",
+    "lights"
+  ],
+  "act_obj_description": "occupied and ready for sleep",
+  "act_obj_pronunciatio": "\ud83d\ude0b",
+  "act_obj_event": [
+    "bed",
+    "be_occupied_and_ready_for",
+    "sleep"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Maria Lopez": -2555,
+    "Wolfgang Schulz": -2027,
+    "John Lin": -923,
+    "Isabella Rodriguez": -1019,
+    "Eddy Lin": -1541,
+    "Hailey Johnson": -1211
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

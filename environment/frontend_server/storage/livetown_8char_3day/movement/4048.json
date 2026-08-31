@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udf89",
+      "description": "having a meeting with staff to discuss details about the Valentine's Day party (outlines the goals of the Valentine's Day party) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.8,
+          "hunger": 97.0,
+          "fun": 100.0,
+          "hygiene": 67.0,
+          "bladder": 60.2,
+          "social": 30.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\u270d\ufe0f\ud83d\udcdd",
+      "description": "Klaus is working on his research paper at the library (writing the introduction of the paper) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 78.8,
+          "hunger": 46.0,
+          "fun": 30.0,
+          "hygiene": 91.3,
+          "bladder": 79.0,
+          "social": 30.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        47
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83c\udf5e",
+      "description": "[(ID:xqSFZh) Monday February 13 -- 11:00 AM] Activity: Maria has breakfast (preparing eggs and toast) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 93.8,
+          "hunger": 23.7,
+          "fun": 30.0,
+          "hygiene": 49.8,
+          "bladder": 45.3,
+          "social": 30.0
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\ufe0f\u27a1\ufe0f",
+      "description": "working on the animation project for her client (animating key scenes from the updated storyboard) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 83.8,
+          "hunger": 73.5,
+          "fun": 66.1,
+          "hygiene": 67.0,
+          "bladder": 70.0,
+          "social": 30.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83d\udce6\ud83c\udff7",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (organizing and labeling new medications that have arrived) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.8,
+          "hunger": 100.0,
+          "fun": 34.8,
+          "hygiene": 93.4,
+          "bladder": 60.2,
+          "social": 32.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        110,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcd6",
+      "description": "Eddy is attending a music theory seminar at Oak Hill College (taking notes on the seminar topic) @ the Ville:Oak Hill College:classroom:blackboard",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 78.8,
+          "hunger": 86.6,
+          "fun": 65.6,
+          "hygiene": 67.0,
+          "bladder": 65.1,
+          "social": 32.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "writing for two hours (reviewing her notes and outlines) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 93.8,
+          "hunger": 24.0,
+          "fun": 41.9,
+          "hygiene": 58.4,
+          "bladder": 79.8,
+          "social": 30.0
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "Wolfgang is studying and working on lab assignments until lunch at noon (reviewing his notes from the morning seminar) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 68.8,
+          "hunger": 96.7,
+          "fun": 59.0,
+          "hygiene": 58.4,
+          "bladder": 38.0,
+          "social": 30.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 11:14:40"
+  }
+}

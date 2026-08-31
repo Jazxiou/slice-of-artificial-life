@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez inviting Klaus Mueller to Hobbs Cafe's Valentine's Day party and discussing potential ways he can assist with the event setup or during rehearsals. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Klaus, I hope you're enjoying your meal. How are you finding everything at Hobbs Cafe today?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Isabella, yes everything is great. I heard you're organizing a Valentine's Day party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's right, Klaus! We're planning a special Valentine's Day party for our customers. It'll be on February 14th from 5pm to 7pm. Would you like to come and join us?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a fun event, Isabella. I appreciate the invite but I might have plans that day. Could you tell me more about what kind of activities will be happening at the party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, Klaus! We're planning some fun activities like live music, a photo booth with festive props, and even a mini dessert bar. Plus, we'll have special Valentine's Day treats on the menu."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds really nice, Isabella. I'm glad to hear there will be live music and a photo booth. Do you need any help with organizing the event or do you just have staff volunteers?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "We have a great team helping out, Klaus. But if you're interested in getting involved, we could really use extra hands for setting up and perhaps manning the dessert bar or taking some photos at the booth."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Isabella. While I might not be able to make it on the 14th, I'd love to help out with setup or during one of the rehearsals if you need assistance before then."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be fantastic, Klaus! I'll make sure to let you know when we need help with setup or rehearsals leading up to Valentine's Day. Thank you so much for offering your time and support!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Isabella. It was nice talking to you and I'm looking forward to hearing about how I can help out."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Klaus, it was great talking to you. I appreciate your willingness to help out. We'll definitely reach out as we finalize the details and dates for setup or rehearsals."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks again, Isabella. I'll be looking forward to your message and hope the party turns out great!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Before you go, Klaus, do let me have your contact details so we can keep in touch about any plans to help out. Would that be okay?"
+        ],
+        [
+          "Klaus Mueller",
+          "Of course, Isabella. I can give you my contact information and we'll keep in touch regarding any opportunities to help out."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Klaus. Let's exchange contacts and I'll be sure to reach out when we need your help. Have a wonderful day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Isabella. I'm looking forward to hearing from you and helping out however I can."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 65.0,
+          "hunger": 87.8,
+          "fun": 100.0,
+          "hygiene": 61.7,
+          "bladder": 47.9,
+          "social": 25.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        75,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez inviting Klaus Mueller to Hobbs Cafe's Valentine's Day party and discussing potential ways he can assist with the event setup or during rehearsals. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Klaus, I hope you're enjoying your meal. How are you finding everything at Hobbs Cafe today?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Isabella, yes everything is great. I heard you're organizing a Valentine's Day party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's right, Klaus! We're planning a special Valentine's Day party for our customers. It'll be on February 14th from 5pm to 7pm. Would you like to come and join us?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a fun event, Isabella. I appreciate the invite but I might have plans that day. Could you tell me more about what kind of activities will be happening at the party?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, Klaus! We're planning some fun activities like live music, a photo booth with festive props, and even a mini dessert bar. Plus, we'll have special Valentine's Day treats on the menu."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds really nice, Isabella. I'm glad to hear there will be live music and a photo booth. Do you need any help with organizing the event or do you just have staff volunteers?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "We have a great team helping out, Klaus. But if you're interested in getting involved, we could really use extra hands for setting up and perhaps manning the dessert bar or taking some photos at the booth."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Isabella. While I might not be able to make it on the 14th, I'd love to help out with setup or during one of the rehearsals if you need assistance before then."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be fantastic, Klaus! I'll make sure to let you know when we need help with setup or rehearsals leading up to Valentine's Day. Thank you so much for offering your time and support!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Isabella. It was nice talking to you and I'm looking forward to hearing about how I can help out."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Klaus, it was great talking to you. I appreciate your willingness to help out. We'll definitely reach out as we finalize the details and dates for setup or rehearsals."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks again, Isabella. I'll be looking forward to your message and hope the party turns out great!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Before you go, Klaus, do let me have your contact details so we can keep in touch about any plans to help out. Would that be okay?"
+        ],
+        [
+          "Klaus Mueller",
+          "Of course, Isabella. I can give you my contact information and we'll keep in touch regarding any opportunities to help out."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Klaus. Let's exchange contacts and I'll be sure to reach out when we need your help. Have a wonderful day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Isabella. I'm looking forward to hearing from you and helping out however I can."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 70.0,
+          "hunger": 99.9,
+          "fun": 23.5,
+          "hygiene": 86.0,
+          "bladder": 66.7,
+          "social": 41.9
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd0d",
+      "description": "studying physics or working on assignments (working on an assignment related to her current course topic) (reviewing the assignment requirements) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 85.0,
+          "hunger": 24.7,
+          "fun": 44.7,
+          "hygiene": 44.6,
+          "bladder": 33.0,
+          "social": 27.4
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcc5",
+      "description": "taking a lunch break (planning her afternoon tasks) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 75.0,
+          "hunger": 100.0,
+          "fun": 81.0,
+          "hygiene": 61.7,
+          "bladder": 57.7,
+          "social": 27.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        89,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udccb",
+      "description": "John is taking a lunch break. He grabs a quick meal and uses the time to review any prescriptions or orders that need attention upon his return to work (preparing any necessary materials for the afternoon shift) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 65.0,
+          "hunger": 100.0,
+          "fun": 27.8,
+          "hygiene": 88.1,
+          "bladder": 47.9,
+          "social": 33.1
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        112,
+        20
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "Eddy is having lunch at Hobbs Cafe (walking to Hobbs Cafe) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.0,
+          "hunger": 76.1,
+          "fun": 100.0,
+          "hygiene": 61.7,
+          "bladder": 52.8,
+          "social": 32.6
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        32,
+        36
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2640",
+      "description": "Hailey is having lunch (taking a short walk around the neighborhood to clear her mind) @ the Ville:Johnson Park:park:park garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 85.0,
+          "hunger": 79.5,
+          "fun": 56.8,
+          "hygiene": 53.2,
+          "bladder": 67.5,
+          "social": 27.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc94",
+      "description": "eating lunch (conversing about Isabella inviting Wolfgang to her Valentine's Day party at the dessert bar and Wolfgang politely declining while keeping the door open for future events.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 60.0,
+          "hunger": 100.0,
+          "fun": 54.9,
+          "hygiene": 53.2,
+          "bladder": 25.7,
+          "social": 38.7
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 13:00:00"
+  }
+}

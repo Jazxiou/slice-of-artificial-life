@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83d\udd12\ud83d\udca1",
+      "description": "final checks before closing. She ensures all equipment is turned off, locks up the cafe, and turns off lights. @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 17.1,
+          "hunger": 84.3,
+          "fun": 83.5,
+          "hygiene": 83.3,
+          "bladder": 61.1,
+          "social": 10.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83e\udd1d\ud83d\udcca",
+      "description": "Klaus is meeting with peers for discussion and collaboration about his research paper at the college's study lounge (collaborating on data analysis techniques with Eddy Lin) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 37.1,
+          "hunger": 94.1,
+          "fun": 28.5,
+          "hygiene": 37.2,
+          "bladder": 16.0,
+          "social": 38.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        33
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Maria is continuing her visit at Hobbs Cafe, hoping to meet up with friends or peers for a study session or casual conversation. She feels more energized after her morning routine but still misses the companionship of others and hopes to connect with someone during (ordering another round of snacks and drinks for herself as she continues waiting for friends or peers to arrive) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 62.6,
+          "hunger": 100.0,
+          "fun": 50.9,
+          "hygiene": 77.6,
+          "bladder": 47.7,
+          "social": 20.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac\u2615",
+      "description": "Abigail is taking a short walk to clear her mind after reaching out to Isabella and Hailey without getting a response. She hopes they will be available later in the day for some creative collaboration (conversing about Abigail and Hailey arranging a coffee meet-up on Thursday at 2 PM and immediately brainstorming their project involving co-living artists and interactive storytelling tools at Hailey's place.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.1,
+          "hunger": 100.0,
+          "fun": 98.8,
+          "hygiene": 80.4,
+          "bladder": 54.3,
+          "social": 16.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcfa\ud83c\udf3f",
+      "description": "watching TV at home. He feels a bit better after addressing his urgent needs and talking with friends earlier, but still misses the company of others (sitting down to watch TV, browsing through channels for something interesting to watch, finds a documentary about wildlife and starts watching it, pauses the TV to get a drink of water, resumes watching the documentary, feeling reflective and thinks about calling another friend for a chat, decides against it and continues to watch TV, notices an advertisement break and uses this time to stretch his legs) (finds a documentary about wildlife and starts watching it) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 22.2,
+          "hunger": 94.1,
+          "fun": 60.1,
+          "hygiene": 98.9,
+          "bladder": 97.5,
+          "social": 11.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\u270d\ufe0f\ud83d\udd04",
+      "description": "working on his composition project at Hobbs Cafe. He focuses intently, taking breaks to grab a snack and coffee (continuing work on the composition, incorporating feedback from discussions with Maria Lopez, Abigail Chen, Klaus Mueller, and his father) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 37.4,
+          "hunger": 100.0,
+          "fun": 95.1,
+          "hygiene": 68.4,
+          "bladder": 26.2,
+          "social": 19.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac\u2615",
+      "description": "going back to her apartment after a long day of meetings and discussions. She feels mentally stimulated but also physically drained, especially since she's still dealing with the urge to use the bathroom. She decides to take care of this before settling down for the evening (conversing about Abigail and Hailey arranging a coffee meet-up on Thursday at 2 PM and immediately brainstorming their project involving co-living artists and interactive storytelling tools at Hailey's place.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.3,
+          "hunger": 100.0,
+          "fun": 87.2,
+          "hygiene": 100.0,
+          "bladder": 96.1,
+          "social": 15.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        62
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2642",
+      "description": "resting and planning to exercise in his room later. He feels a bit better after talking with Eddy Lin earlier but remains tired and needs some downtime (stretching on the floor for 10 minutes to loosen up his muscles before exercising later) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 29.1,
+          "hunger": 90.9,
+          "fun": 10.0,
+          "hygiene": 89.4,
+          "bladder": 75.3,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 19:34:20"
+  }
+}

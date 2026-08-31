@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        22
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start conversing about Eddy Lin and Isabella Rodriguez discussing Eddy's participation in Hobbs Cafe's Valentine\u2019s Day event with live music performances. @ <waiting> 73 22",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 51.6,
+          "hunger": 84.5,
+          "fun": 100.0,
+          "hygiene": 50.8,
+          "bladder": 0.0,
+          "social": 0.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        35,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "Klaus is having lunch at Hobbs Cafe (conversing about Hailey Johnson and Klaus Mueller discussing how gentrification impacts creative communities and artists living in co-living spaces, potentially informing Hailey's novel.) @ the Ville:artist's co-living space:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.6,
+          "hunger": 100.0,
+          "fun": 49.9,
+          "hygiene": 40.7,
+          "bladder": 0.0,
+          "social": 24.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udd25",
+      "description": "Maria is studying physics and working on assignments. Despite feeling better after her morning routine, she still wishes for some company but focuses on her studies to make up for lost time during her unexpected delay in waking up (conversing about Maria Lopez and Wolfgang Schulz discussing her difficulties in applying energy conservation principles, particularly accounting for thermal energy loss due to friction in a physics problem.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 97.1,
+          "hunger": 56.5,
+          "fun": 58.7,
+          "hygiene": 98.2,
+          "bladder": 95.9,
+          "social": 7.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        35,
+        30
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "taking a short break to use the bathroom. She feels relieved after addressing her urgent need and returns to work shortly afterward, feeling more focused (sitting down and taking a few deep breaths before resuming work) @ the Ville:artist's co-living space:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.6,
+          "hunger": 86.9,
+          "fun": 84.7,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        76,
+        48
+      ],
+      "pronunciatio": "\ud83e\udd30\ud83d\udc8a",
+      "description": "(Tuesday February 14 -- 12:00 PM] Activity: John continues to assist customers, providing them with necessary medications and advice. He ensures that the pharmacy counter runs smoothly during lunchtime (helping a new mother choose the right vitamins for her newborn baby) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.0,
+          "hunger": 100.0,
+          "fun": 14.5,
+          "hygiene": 89.9,
+          "bladder": 93.7,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac\u2615",
+      "description": "[ (conversing about Eddy Lin and Klaus Mueller discussing their potential collaboration on a project that combines Eddy's musical composition reflecting gentrification with Klaus's research on the topic, planning to meet at Hobbs Cafe to brainstorm ideas.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.8,
+          "hunger": 24.1,
+          "fun": 100.0,
+          "hygiene": 89.0,
+          "bladder": 74.4,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        87,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "meeting with a literary agent to discuss her novel and potential publishing opportunities. She hopes this meeting will bring new insights and momentum to her work (conversing about Hailey Johnson and Klaus Mueller discussing how gentrification impacts creative communities and artists living in co-living spaces, potentially informing Hailey's novel.) @ the Ville:Giorgio Rossi's apartment:main room:blackboard",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 86.6,
+          "hunger": 99.1,
+          "fun": 85.3,
+          "hygiene": 95.4,
+          "bladder": 89.4,
+          "social": 11.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udd25",
+      "description": "eating lunch (conversing about Maria Lopez and Wolfgang Schulz discussing her difficulties in applying energy conservation principles, particularly accounting for thermal energy loss due to friction in a physics problem.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 46.0,
+          "hunger": 100.0,
+          "fun": 0.0,
+          "hygiene": 86.0,
+          "bladder": 16.6,
+          "social": 10.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 12:41:10"
+  }
+}

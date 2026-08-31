@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddf9",
+      "description": "closing Hobbs Cafe for the day and cleaning up the premises (sweeping the floor) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 29.9,
+          "hunger": 92.5,
+          "fun": 96.3,
+          "hygiene": 40.7,
+          "bladder": 0.0,
+          "social": 24.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        34,
+        37
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "taking a short walk or going for a run to clear his mind and get some exercise (cooling down by walking back home) @ the Ville:Dorm for Oak Hill College:garden:dorm garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 34.9,
+          "hunger": 93.7,
+          "fun": 16.2,
+          "hygiene": 64.9,
+          "bladder": 17.6,
+          "social": 49.7
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\ud83c\udf1f\ud83c\udf0a",
+      "description": "streaming games on Twitch (taking a break to stretch and hydrate herself) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.9,
+          "hunger": 59.4,
+          "fun": 100.0,
+          "hygiene": 23.5,
+          "bladder": 0.0,
+          "social": 27.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        41,
+        25
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udd0d",
+      "description": "Abigail is experimenting with new interactive art tools and techniques (exploring different software options for interactive art) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 39.9,
+          "hunger": 99.4,
+          "fun": 84.5,
+          "hygiene": 40.7,
+          "bladder": 8.5,
+          "social": 13.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        67
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc8a",
+      "description": "spending time at home with his family after dinner. He talks about the day's events and discusses local politics or upcoming candidates for mayor with his wife, Mei Lin (shares insights from his online classes about new medications and treatments) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 29.9,
+          "hunger": 100.0,
+          "fun": 15.9,
+          "hygiene": 67.0,
+          "bladder": 0.0,
+          "social": 17.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        95,
+        74
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfe0",
+      "description": "Eddy is working on his composition project at home. He spends this time refining specific sections of the piece. @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 34.9,
+          "hunger": 93.5,
+          "fun": 96.8,
+          "hygiene": 40.7,
+          "bladder": 3.6,
+          "social": 42.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcde\ud83d\udc64",
+      "description": "Hailey is meeting with potential podcast guests via video call (initiating the video call with the third potential podcast guest) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.9,
+          "hunger": 77.2,
+          "fun": 92.2,
+          "hygiene": 32.1,
+          "bladder": 18.3,
+          "social": 6.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "preparing dinner and reviewing his study notes (reviewing his study notes) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 40.4,
+          "hunger": 100.0,
+          "fun": 42.3,
+          "hygiene": 49.3,
+          "bladder": 0.0,
+          "social": 27.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 20:01:10"
+  }
+}

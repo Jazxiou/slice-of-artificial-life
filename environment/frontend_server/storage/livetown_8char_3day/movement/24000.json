@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\ud83c\udfa7\ud83d\udc68\u200d",
+      "description": "Isabella is managing the cafe during the Valentine\u2019s Day celebration. She ensures that all customers are enjoying themselves and coordinates with her staff to keep everything running smoothly (checking on live music setup with Eddy Lin) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 25.7,
+          "hunger": 97.8,
+          "fun": 81.0,
+          "hygiene": 71.6,
+          "bladder": 22.5,
+          "social": 8.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "Klaus is eating dinner. He feels more energized after having a good meal and plans to head back to the library soon to continue his work on the gentrification project (conversing about Hailey Johnson and Klaus Mueller discussing how to collaborate on exploring the impact of gentrification on cultural cuisines and traditions, potentially integrating their findings into Hailey's novel and Klaus's research.) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 41.9,
+          "hunger": 100.0,
+          "fun": 23.4,
+          "hygiene": 74.1,
+          "bladder": 20.4,
+          "social": 41.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        120,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Wolfgang Schulz discussing their upcoming interdisciplinary research collaboration focusing on gentrification, incorporating chemistry, sociology, and physics during Maria's Twitch stream this Friday. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Wolfgang, I hope you're having a great day. I heard about your interest in interdisciplinary research and was wondering if you had any ideas for our potential collaboration during my stream this Friday?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hi Maria, thanks for reaching out. I've been thinking about our collaboration and believe we could explore how chemistry intersects with sociology to address social issues like gentrification. For the stream, I can compile my thoughts and send them over before Friday. What do you think?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds fascinating, Wolfgang. I think it could really enrich our discussion on Friday. Could you also touch upon how physics might play a role in this research to make it even more interdisciplinary?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Absolutely, Maria. I can expand on how physics might contribute to our understanding of material changes in urban environments that are affected by gentrification. This could provide a unique perspective on the interdisciplinary approach we're aiming for."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Wolfgang. It would be wonderful to see how physics fits into this equation and broadens our understanding. I'll make sure to highlight your insights during the stream and encourage viewers to engage in the discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll work on putting together a comprehensive overview including chemistry, sociology, and physics components related to gentrification for our discussion this Friday. Looking forward to it!"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds excellent, Wolfgang. I appreciate your willingness to include all these disciplines and look forward to our discussion this Friday. If you need any help preparing or have any questions before then, feel free to reach out."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks again, Maria. I'll get started on compiling my thoughts and will send them over by Friday morning. If there are any specific areas you'd like me to focus on or expand upon, please let me know."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Wolfgang. I'll be looking forward to your input and will make sure everything is ready on my side for our collaboration during the stream this Friday."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I appreciate your support and look forward to our collaboration this Friday. If there\u2019s anything else you need from me beforehand, please don\u2019t hesitate to ask."
+        ],
+        [
+          "Maria Lopez",
+          "Great, Wolfgang. It sounds like we're on the same page and I'm excited to see how our collaboration unfolds this Friday. Take care of yourself in the meantime and if you have any updates or changes before then, let me know."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll make sure to compile all the necessary information and send it over before Friday. Talk to you soon!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Wolfgang. I'll be sure to promote our discussion on social media and within my Twitch community to get more people involved. Looking forward to what you come up with!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll start working on my presentation and send it over early Friday morning to give you enough time to review it before going live."
+        ],
+        [
+          "Maria Lopez",
+          "Great, Wolfgang. I appreciate your dedication to making this collaboration insightful and engaging. Have a great day!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thank you, Maria. I'll work diligently on it and ensure everything is polished before sending it over. Have a great evening!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 57.0,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 42.6,
+          "bladder": 0.0,
+          "social": 11.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        41,
+        26
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "having dinner (drinking water and taking a short break between courses) @ the Ville:artist's co-living space:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.3,
+          "hunger": 100.0,
+          "fun": 35.0,
+          "hygiene": 92.1,
+          "bladder": 81.7,
+          "social": 16.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        93,
+        68
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "John is returning home and preparing dinner. He feels a sense of relief as he steps into his quiet house, looking forward to some time alone to unwind after a busy day at the pharmacy (preparing ingredients for dinner) @ the Ville:Lin family's house:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 14.7,
+          "hunger": 100.0,
+          "fun": 31.7,
+          "hygiene": 88.2,
+          "bladder": 35.1,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        98,
+        38
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd04",
+      "description": "Eddy reviews the feedback from his mentor on previous work and makes adjustments accordingly. @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.5,
+          "hunger": 90.4,
+          "fun": 99.9,
+          "hygiene": 85.7,
+          "bladder": 88.8,
+          "social": 16.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        37,
+        25
+      ],
+      "pronunciatio": "\ud83e\udd55\ud83c\udf3f",
+      "description": "Hailey is preparing dinner and experimenting with a new recipe from another culture she's interested in exploring (washing and chopping vegetables, then preparing spices and seasonings) @ the Ville:artist's co-living space:kitchen:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 57.1,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 70.0,
+          "bladder": 30.4,
+          "social": 11.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        45
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Wolfgang Schulz discussing their upcoming interdisciplinary research collaboration focusing on gentrification, incorporating chemistry, sociology, and physics during Maria's Twitch stream this Friday. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Wolfgang, I hope you're having a great day. I heard about your interest in interdisciplinary research and was wondering if you had any ideas for our potential collaboration during my stream this Friday?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hi Maria, thanks for reaching out. I've been thinking about our collaboration and believe we could explore how chemistry intersects with sociology to address social issues like gentrification. For the stream, I can compile my thoughts and send them over before Friday. What do you think?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds fascinating, Wolfgang. I think it could really enrich our discussion on Friday. Could you also touch upon how physics might play a role in this research to make it even more interdisciplinary?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Absolutely, Maria. I can expand on how physics might contribute to our understanding of material changes in urban environments that are affected by gentrification. This could provide a unique perspective on the interdisciplinary approach we're aiming for."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Wolfgang. It would be wonderful to see how physics fits into this equation and broadens our understanding. I'll make sure to highlight your insights during the stream and encourage viewers to engage in the discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll work on putting together a comprehensive overview including chemistry, sociology, and physics components related to gentrification for our discussion this Friday. Looking forward to it!"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds excellent, Wolfgang. I appreciate your willingness to include all these disciplines and look forward to our discussion this Friday. If you need any help preparing or have any questions before then, feel free to reach out."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks again, Maria. I'll get started on compiling my thoughts and will send them over by Friday morning. If there are any specific areas you'd like me to focus on or expand upon, please let me know."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Wolfgang. I'll be looking forward to your input and will make sure everything is ready on my side for our collaboration during the stream this Friday."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I appreciate your support and look forward to our collaboration this Friday. If there\u2019s anything else you need from me beforehand, please don\u2019t hesitate to ask."
+        ],
+        [
+          "Maria Lopez",
+          "Great, Wolfgang. It sounds like we're on the same page and I'm excited to see how our collaboration unfolds this Friday. Take care of yourself in the meantime and if you have any updates or changes before then, let me know."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll make sure to compile all the necessary information and send it over before Friday. Talk to you soon!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Wolfgang. I'll be sure to promote our discussion on social media and within my Twitch community to get more people involved. Looking forward to what you come up with!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Maria. I'll start working on my presentation and send it over early Friday morning to give you enough time to review it before going live."
+        ],
+        [
+          "Maria Lopez",
+          "Great, Wolfgang. I appreciate your dedication to making this collaboration insightful and engaging. Have a great day!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thank you, Maria. I'll work diligently on it and ensure everything is polished before sending it over. Have a great evening!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 1.1,
+          "hunger": 94.1,
+          "fun": 9.4,
+          "hygiene": 62.0,
+          "bladder": 0.0,
+          "social": 7.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 18:40:00"
+  }
+}

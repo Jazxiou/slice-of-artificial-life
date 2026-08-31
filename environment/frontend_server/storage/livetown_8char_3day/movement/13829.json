@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\uded2\u2764\ufe0f",
+      "description": "Isabella is handling orders and serving customers. She maintains a friendly demeanor, offering recommendations for Valentine\u2019s Day specials and ensuring everyone feels welcomed and comfortable (taking another order from a customer and recommending Valentine's Day specials) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.9,
+          "hunger": 97.6,
+          "fun": 93.2,
+          "hygiene": 98.8,
+          "bladder": 97.2,
+          "social": 2.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\u270d\ufe0f\ud83d\udcdd",
+      "description": "Klaus is returning to the library to continue working on his research paper (writing the introduction of the next section of his research paper) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 62.9,
+          "hunger": 95.5,
+          "fun": 43.0,
+          "hygiene": 35.5,
+          "bladder": 0.0,
+          "social": 33.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        89,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcdd\u2615",
+      "description": "Maria is heading back to the library after lunch, feeling more energized after her morning routine but still craves some company to brighten her day. She decides to meet up with Klaus for their planned study session (arriving at the library and working on Klaus's research paper together while enjoying snacks and coffee) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 88.4,
+          "hunger": 100.0,
+          "fun": 58.0,
+          "hygiene": 93.1,
+          "bladder": 83.8,
+          "social": 9.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        41,
+        28
+      ],
+      "pronunciatio": "\ud83e\udd57\ud83c\udf7d\ufe0f",
+      "description": "taking a short break and preparing for lunch. She feels tired but decides to address her need for company by reaching out to Isabella or Hailey via text message to see if they are available for a quick chat during her lunch break (preparing a simple lunch for herself) @ the Ville:artist's co-living space:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.9,
+          "hunger": 91.5,
+          "fun": 99.2,
+          "hygiene": 95.9,
+          "bladder": 90.5,
+          "social": 4.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb5",
+      "description": " (conversing about Eddy and his father John planning to meet at Cobalt Coffee after Eddy's music lecture to discuss stress management techniques and how music can be used in managing stress, with John expressing interest in hearing insights from the lecture.) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 44.4,
+          "hunger": 100.0,
+          "fun": 22.5,
+          "hygiene": 84.7,
+          "bladder": 81.6,
+          "social": 0.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb5",
+      "description": "[ (conversing about Eddy and his father John planning to meet at Cobalt Coffee after Eddy's music lecture to discuss stress management techniques and how music can be used in managing stress, with John expressing interest in hearing insights from the lecture.) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.2,
+          "hunger": 42.0,
+          "fun": 100.0,
+          "hygiene": 83.9,
+          "bladder": 62.3,
+          "social": 1.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        35,
+        30
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "break for coffee or tea (relaxing and discussing progress so far) @ the Ville:artist's co-living space:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 77.9,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 90.3,
+          "bladder": 77.3,
+          "social": 11.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        124,
+        33
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "taking a brief walk around campus to clear his head and address his need for company, as he feels lonely. He plans to return shortly to prepare for the afternoon study session (walking around the quad area) @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 37.3,
+          "hunger": 91.9,
+          "fun": 0.0,
+          "hygiene": 97.0,
+          "bladder": 21.8,
+          "social": 8.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 14:24:50"
+  }
+}

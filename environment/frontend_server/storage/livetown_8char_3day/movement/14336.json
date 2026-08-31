@@ -1,0 +1,305 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcb0\ud83d\udcb3",
+      "description": "handling orders and serving customers. She maintains a friendly demeanor, offering recommendations for Valentine\u2019s Day specials and ensuring everyone feels welcomed and comfortable (handling a customer's payment and providing them with their receipt or change) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 35.9,
+          "hunger": 99.6,
+          "fun": 87.6,
+          "hygiene": 94.6,
+          "bladder": 87.4,
+          "social": 2.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        122,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\uddc2",
+      "description": "Klaus is working on his research paper in the library (reviewing previous notes and sources) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 55.9,
+          "hunger": 87.1,
+          "fun": 37.3,
+          "hygiene": 31.3,
+          "bladder": 0.0,
+          "social": 28.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Hailey Johnson and Maria Lopez discussing potential collaborations on interactive storytelling events and workshops, including ideas for Valentine\u2019s Day. @ <persona> Hailey Johnson",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Hailey, I see you're working on some exciting stuff for your novel. The cover designs look amazing! Do you have a minute to chat?"
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Maria! I'm glad you like them. I've been working on this novel for a while and it feels great to be getting closer to finishing touches like these covers. Do you have something similar in mind or are you just here having some coffee?"
+        ],
+        [
+          "Maria Lopez",
+          "I'm actually here to work on some assignments and catch up with friends. But I couldn't help but notice how dedicated you are to your project! It\u2019s inspiring. Are you planning any events or readings around the release of your book?"
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Maria! Actually, I'm thinking about hosting some events and workshops to engage with readers in a more interactive way. I was talking to Abigail Chen about incorporating interactive tools into my storytelling. Maybe we could brainstorm together on how to make such events more engaging?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds really interesting, Hailey! I'm always up for brainstorming ideas. Maybe I could help you think through some of the physics principles that might apply to interactive tools or even just share my thoughts on engaging with audiences online as a Twitch streamer. What do you think?"
+        ],
+        [
+          "Hailey Johnson",
+          "That would be fantastic, Maria! I think your insights could add a lot of value. How about we plan to meet later this week and discuss some ideas over coffee? We can also talk more about your Twitch streaming experience and how it intersects with interactive storytelling."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Hailey! Let\u2019s aim for Thursday afternoon. I\u2019ll be free then and it should give us enough time to explore some creative ideas together. See you then!"
+        ],
+        [
+          "Hailey Johnson",
+          "That works for me, Maria! I'm really looking forward to our meeting on Thursday. Thanks so much for your willingness to collaborate and share your insights. Have a great day!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds perfect, Hailey. I'll make sure to bring some fresh ideas and we can see where our discussion takes us. See you on Thursday!"
+        ],
+        [
+          "Hailey Johnson",
+          "Before we wrap up, Maria, do you have any immediate plans for Valentine\u2019s Day that I should be aware of when planning my events and workshops?"
+        ],
+        [
+          "Maria Lopez",
+          "Not really, Hailey. I don't have any specific Valentine\u2019s Day plans at the moment. How about you? If you need any assistance or if there are ways I can contribute to your events, just let me know."
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Maria. I appreciate your flexibility and openness to collaboration. It's nice to have someone knowledgeable about interactive media to bounce ideas off of. As for Valentine\u2019s Day, maybe we could incorporate some collaborative elements into our workshops or events. Let me think more on it and reach out with specific suggestions if that sounds good to you."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like a fantastic idea, Hailey. Let\u2019s definitely consider incorporating collaborative elements into your events to make them even more engaging. I'm excited to see how we can blend interactive media and storytelling for a unique Valentine's Day experience. Looking forward to our meeting on Thursday!"
+        ],
+        [
+          "Hailey Johnson",
+          "Great, Maria! I think combining our skills and interests could really make for some unique and engaging events. Let\u2019s chat more about specific ideas on Thursday. Have a wonderful day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 81.4,
+          "hunger": 98.9,
+          "fun": 52.3,
+          "hygiene": 88.8,
+          "bladder": 73.9,
+          "social": 10.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        65,
+        44
+      ],
+      "pronunciatio": "\ud83d\udee0\ufe0f\ud83d\udd0d",
+      "description": "working on her interactive art experiments. She feels more energized after addressing her earlier need and decides to explore new tools that can enhance the interactivity of her current project. Despite feeling tired, she finds renewed motivation in experimenting with technology to express creative ideas (selecting a new tool to experiment with based on her project needs) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 60.9,
+          "hunger": 100.0,
+          "fun": 93.6,
+          "hygiene": 91.7,
+          "bladder": 80.6,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb5",
+      "description": " (conversing about Eddy and his father John planning to meet at Cobalt Coffee after Eddy's music lecture to discuss stress management techniques and how music can be used in managing stress, with John expressing interest in hearing insights from the lecture.) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 37.3,
+          "hunger": 100.0,
+          "fun": 57.7,
+          "hygiene": 80.5,
+          "bladder": 71.7,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb5",
+      "description": "[ (conversing about Eddy and his father John planning to meet at Cobalt Coffee after Eddy's music lecture to discuss stress management techniques and how music can be used in managing stress, with John expressing interest in hearing insights from the lecture.) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 56.1,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 79.6,
+          "bladder": 52.5,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        76,
+        31
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Hailey Johnson and Maria Lopez discussing potential collaborations on interactive storytelling events and workshops, including ideas for Valentine\u2019s Day. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Hailey, I see you're working on some exciting stuff for your novel. The cover designs look amazing! Do you have a minute to chat?"
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Maria! I'm glad you like them. I've been working on this novel for a while and it feels great to be getting closer to finishing touches like these covers. Do you have something similar in mind or are you just here having some coffee?"
+        ],
+        [
+          "Maria Lopez",
+          "I'm actually here to work on some assignments and catch up with friends. But I couldn't help but notice how dedicated you are to your project! It\u2019s inspiring. Are you planning any events or readings around the release of your book?"
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Maria! Actually, I'm thinking about hosting some events and workshops to engage with readers in a more interactive way. I was talking to Abigail Chen about incorporating interactive tools into my storytelling. Maybe we could brainstorm together on how to make such events more engaging?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds really interesting, Hailey! I'm always up for brainstorming ideas. Maybe I could help you think through some of the physics principles that might apply to interactive tools or even just share my thoughts on engaging with audiences online as a Twitch streamer. What do you think?"
+        ],
+        [
+          "Hailey Johnson",
+          "That would be fantastic, Maria! I think your insights could add a lot of value. How about we plan to meet later this week and discuss some ideas over coffee? We can also talk more about your Twitch streaming experience and how it intersects with interactive storytelling."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Hailey! Let\u2019s aim for Thursday afternoon. I\u2019ll be free then and it should give us enough time to explore some creative ideas together. See you then!"
+        ],
+        [
+          "Hailey Johnson",
+          "That works for me, Maria! I'm really looking forward to our meeting on Thursday. Thanks so much for your willingness to collaborate and share your insights. Have a great day!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds perfect, Hailey. I'll make sure to bring some fresh ideas and we can see where our discussion takes us. See you on Thursday!"
+        ],
+        [
+          "Hailey Johnson",
+          "Before we wrap up, Maria, do you have any immediate plans for Valentine\u2019s Day that I should be aware of when planning my events and workshops?"
+        ],
+        [
+          "Maria Lopez",
+          "Not really, Hailey. I don't have any specific Valentine\u2019s Day plans at the moment. How about you? If you need any assistance or if there are ways I can contribute to your events, just let me know."
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Maria. I appreciate your flexibility and openness to collaboration. It's nice to have someone knowledgeable about interactive media to bounce ideas off of. As for Valentine\u2019s Day, maybe we could incorporate some collaborative elements into our workshops or events. Let me think more on it and reach out with specific suggestions if that sounds good to you."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like a fantastic idea, Hailey. Let\u2019s definitely consider incorporating collaborative elements into your events to make them even more engaging. I'm excited to see how we can blend interactive media and storytelling for a unique Valentine's Day experience. Looking forward to our meeting on Thursday!"
+        ],
+        [
+          "Hailey Johnson",
+          "Great, Maria! I think combining our skills and interests could really make for some unique and engaging events. Let\u2019s chat more about specific ideas on Thursday. Have a wonderful day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 70.9,
+          "hunger": 98.6,
+          "fun": 99.3,
+          "hygiene": 86.0,
+          "bladder": 67.4,
+          "social": 16.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        116,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udd01",
+      "description": "preparing for his afternoon study session and organizing his notes. He feels a bit more energized after his walk around campus but remains slightly tired due to the lack of sleep from needing to use the bathroom in the middle of the night. Wolfgang plans to (reviewing past exam questions to reinforce understanding) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 43.8,
+          "hunger": 83.5,
+          "fun": 0.0,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 3.2
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 15:49:20"
+  }
+}

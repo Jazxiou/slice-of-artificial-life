@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddf9",
+      "description": "closing Hobbs Cafe for the day and cleaning up the premises (mopping the floors) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 27.9,
+          "hunger": 90.1,
+          "fun": 99.7,
+          "hygiene": 39.5,
+          "bladder": 0.0,
+          "social": 29.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        26,
+        42
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "Klaus is taking a short walk or going for a run to clear his mind and get some exercise (increasing pace to a light run) @ the Ville:Johnson Park:park:park garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 32.9,
+          "hunger": 91.3,
+          "fun": 14.6,
+          "hygiene": 63.7,
+          "bladder": 14.8,
+          "social": 48.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        126,
+        54
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83c\udfae\ud83d\udc4b",
+      "description": "streaming games on Twitch (resuming the stream, playing another game for an hour, wrapping up session by thanking viewers and signing off, organizing notes and preparing for next day's activities, cleaning workspace and shutting down equipment) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.9,
+          "hunger": 57.0,
+          "fun": 100.0,
+          "hygiene": 22.3,
+          "bladder": 0.0,
+          "social": 25.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac\u2764\ufe0f",
+      "description": "Abigail is experimenting with new interactive art tools and techniques (conversing about Abigail Chen and Isabella Rodriguez discussing Abigail's interactive art piece for Valentine's Day party, including setup, support during the event, and feedback.) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 37.9,
+          "hunger": 97.0,
+          "fun": 90.6,
+          "hygiene": 39.5,
+          "bladder": 5.7,
+          "social": 18.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        67
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc4b",
+      "description": "John is spending quality time at home with his family. He talks about the day's events and discusses local politics or upcoming candidates for mayor with his wife, Mei Lin (asking Mei Lin about her day) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 27.9,
+          "hunger": 97.8,
+          "fun": 14.3,
+          "hygiene": 65.8,
+          "bladder": 0.0,
+          "social": 16.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        95,
+        74
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfb6",
+      "description": "Eddy is working on his composition project at home. He continues to refine specific sections, focusing on integrating different musical styles and experimenting with new techniques. @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 32.9,
+          "hunger": 91.1,
+          "fun": 96.2,
+          "hygiene": 39.5,
+          "bladder": 0.8,
+          "social": 41.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcfa",
+      "description": "Hailey is relaxing and unwinding by reading or perhaps watching TV (starting to read or watching an episode/show) @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.9,
+          "hunger": 74.8,
+          "fun": 100.0,
+          "hygiene": 30.9,
+          "bladder": 15.5,
+          "social": 5.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        109,
+        61
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc65",
+      "description": "attending an online chemistry seminar (attending the introduction of the seminar) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:game console",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 38.4,
+          "hunger": 98.2,
+          "fun": 40.7,
+          "hygiene": 48.1,
+          "bladder": 0.0,
+          "social": 25.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 20:25:10"
+  }
+}

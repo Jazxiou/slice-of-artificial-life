@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Isabella Rodriguez discussing plans for both their work project meeting on Thursday at 2 PM and a dinner date on Friday night. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Thanks for everything today, Isabella. It wouldn't have been possible without your help. Do you want to grab a coffee together sometime and chat more about our collaboration?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great, Abigail. How about we meet up next week at your convenience? I'd love to continue working on our plans and discuss any feedback you have from today\u2019s event."
+        ],
+        [
+          "Abigail Chen",
+          "Sure, let's aim for Thursday at 2 PM then. I'll bring some ideas and we can brainstorm further improvements for our project. Do you still need any changes made or adjustments discussed in the meantime?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works for me, Abigail. I'll make sure everything is ready by then and we can take it from there. See you on Thursday!"
+        ],
+        [
+          "Abigail Chen",
+          "Great, looking forward to it. And if you need anything before then, just let me know. Have a good evening, Isabella!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Abigail. I appreciate your flexibility and support. Have a great evening!"
+        ],
+        [
+          "Abigail Chen",
+          "I hope we can catch up more outside of work too. Maybe grab dinner sometime this week?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds nice, Abigail. How about we grab dinner on Friday night?"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds perfect, let's meet at that Italian place you recommended. See you on Friday!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds wonderful, Abigail. I'll see you on Friday then!"
+        ],
+        [
+          "Abigail Chen",
+          "Great, I'm looking forward to it. Have a lovely evening, Isabella!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks again, Abigail. I'll see you on Friday for dinner and Thursday at 2 PM to discuss our project further."
+        ],
+        [
+          "Abigail Chen",
+          "See you soon then, Isabella! Enjoy your evening."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Abigail. I'll see you on Friday and Thursday too!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella. It was great working together today and I'm excited about both our dinner and project meetings this week."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds perfect, Abigail. I'll see you on Friday for dinner and at our meeting Thursday to continue our great work."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 18.3,
+          "hunger": 97.1,
+          "fun": 77.1,
+          "hygiene": 67.2,
+          "bladder": 12.2,
+          "social": 10.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        123,
+        47
+      ],
+      "pronunciatio": "\ud83e\udd14\ud83d\udcda",
+      "description": "Klaus is taking a short break after his meeting with Wolfgang Schulz. He reflects on the discussions they had and plans to incorporate some of Wolfgang's insights into his research paper (reflecting on the discussions with Wolfgang Schulz about interdisciplinary approaches to gentrification research) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 34.6,
+          "hunger": 99.2,
+          "fun": 17.5,
+          "hygiene": 69.7,
+          "bladder": 10.1,
+          "social": 47.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        117,
+        50
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc65",
+      "description": "Maria is continuing to stream or game on Twitch from 8:00 PM to 9:00 PM, engaging with her community and collaborating on creative projects like interactive storytelling events (starting an interactive storytelling event) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.6,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 38.2,
+          "bladder": 0.0,
+          "social": 13.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        75,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Isabella Rodriguez discussing plans for both their work project meeting on Thursday at 2 PM and a dinner date on Friday night. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Thanks for everything today, Isabella. It wouldn't have been possible without your help. Do you want to grab a coffee together sometime and chat more about our collaboration?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great, Abigail. How about we meet up next week at your convenience? I'd love to continue working on our plans and discuss any feedback you have from today\u2019s event."
+        ],
+        [
+          "Abigail Chen",
+          "Sure, let's aim for Thursday at 2 PM then. I'll bring some ideas and we can brainstorm further improvements for our project. Do you still need any changes made or adjustments discussed in the meantime?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works for me, Abigail. I'll make sure everything is ready by then and we can take it from there. See you on Thursday!"
+        ],
+        [
+          "Abigail Chen",
+          "Great, looking forward to it. And if you need anything before then, just let me know. Have a good evening, Isabella!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Abigail. I appreciate your flexibility and support. Have a great evening!"
+        ],
+        [
+          "Abigail Chen",
+          "I hope we can catch up more outside of work too. Maybe grab dinner sometime this week?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds nice, Abigail. How about we grab dinner on Friday night?"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds perfect, let's meet at that Italian place you recommended. See you on Friday!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds wonderful, Abigail. I'll see you on Friday then!"
+        ],
+        [
+          "Abigail Chen",
+          "Great, I'm looking forward to it. Have a lovely evening, Isabella!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks again, Abigail. I'll see you on Friday for dinner and Thursday at 2 PM to discuss our project further."
+        ],
+        [
+          "Abigail Chen",
+          "See you soon then, Isabella! Enjoy your evening."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Abigail. I'll see you on Friday and Thursday too!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella. It was great working together today and I'm excited about both our dinner and project meetings this week."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds perfect, Abigail. I'll see you on Friday for dinner and at our meeting Thursday to continue our great work."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 40.0,
+          "hunger": 99.4,
+          "fun": 29.2,
+          "hygiene": 99.6,
+          "bladder": 99.0,
+          "social": 16.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        67
+      ],
+      "pronunciatio": "\ud83d\udcfa\ud83c\udf7f",
+      "description": "Watching his favorite television show to unwind after a long day at work. He enjoys the quiet evening, reflecting on the day's events and looking forward to another day ahead. (watching the first segment of the show) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 7.3,
+          "hunger": 97.3,
+          "fun": 43.6,
+          "hygiene": 83.8,
+          "bladder": 24.8,
+          "social": 4.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        107,
+        47
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "going back to his dorm room after a long day at the college library. He feels tired but also lonely and in need of company, so he decides to send out another message to friends asking if anyone wants to hang out or grab dinner together (walking back to his dorm room from the college library) @ the Ville:Dorm for Oak Hill College:common room:pool table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 35.1,
+          "hunger": 100.0,
+          "fun": 97.5,
+          "hygiene": 81.3,
+          "bladder": 78.5,
+          "social": 16.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "Hailey is messaging friends like Abigail Chen to see if anyone is available for a video chat or hangout, feeling lonely and wanting company (writing a friendly message asking if Abigail is free for a chat or hangout) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.7,
+          "hunger": 99.2,
+          "fun": 100.0,
+          "hygiene": 65.6,
+          "bladder": 20.1,
+          "social": 11.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udd25",
+      "description": "Wolfgang is studying in his room. Despite feeling increasingly tired, he continues to push himself to review his chemistry notes and prepare for upcoming exams (reviewing his chemistry notes on thermodynamics) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 0.0,
+          "hunger": 85.3,
+          "fun": 3.6,
+          "hygiene": 57.6,
+          "bladder": 0.0,
+          "social": 10.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 20:08:20"
+  }
+}

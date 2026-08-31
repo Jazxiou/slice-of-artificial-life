@@ -1,0 +1,297 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Isabella Rodriguez planning to meet at Hobbs Cafe to discuss Maria's upcoming assignment and enjoy coffee together. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Isabella! It's so nice to see you. I was actually hoping we could meet up later today, maybe grab some coffee and discuss my upcoming assignment?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hi Maria! That sounds great. I was just closing up soon, but maybe we could meet after for a quick coffee and chat about your assignment?"
+        ],
+        [
+          "Maria Lopez",
+          "That works for me! How about we meet at Hobbs Cafe in an hour then?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Maria. I'll be looking forward to it."
+        ],
+        [
+          "Maria Lopez",
+          "Perfect! See you there, Isabella. I'll be looking forward to it too!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, see you soon Maria. I'll make sure to have your favorite drink ready for you."
+        ],
+        [
+          "Maria Lopez",
+          "That would be lovely, Isabella. I\u2019ll head over there in an hour then."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'll be here waiting for you, Maria. Enjoy your day until then!"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Isabella! Looking forward to catching up and getting some help with my assignment."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'll have your cappuccino ready and we can sit in our usual spot. Take your time, Maria!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds perfect, Isabella. I'll see you in an hour then!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Have a wonderful day until we meet, Maria! I'll make sure everything is in place for our catch-up session."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks again, Isabella! I'll be there soon. See you later!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 30.5,
+          "hunger": 99.5,
+          "fun": 94.1,
+          "hygiene": 91.3,
+          "bladder": 79.8,
+          "social": 14.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        122,
+        22
+      ],
+      "pronunciatio": "\ud83d\udd0d\ud83d\udcbb",
+      "description": "Klaus is working on his research paper in the library (conducting additional research online) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.5,
+          "hunger": 80.6,
+          "fun": 33.0,
+          "hygiene": 28.0,
+          "bladder": 0.0,
+          "social": 23.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        77,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Isabella Rodriguez planning to meet at Hobbs Cafe to discuss Maria's upcoming assignment and enjoy coffee together. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Isabella! It's so nice to see you. I was actually hoping we could meet up later today, maybe grab some coffee and discuss my upcoming assignment?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hi Maria! That sounds great. I was just closing up soon, but maybe we could meet after for a quick coffee and chat about your assignment?"
+        ],
+        [
+          "Maria Lopez",
+          "That works for me! How about we meet at Hobbs Cafe in an hour then?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Maria. I'll be looking forward to it."
+        ],
+        [
+          "Maria Lopez",
+          "Perfect! See you there, Isabella. I'll be looking forward to it too!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, see you soon Maria. I'll make sure to have your favorite drink ready for you."
+        ],
+        [
+          "Maria Lopez",
+          "That would be lovely, Isabella. I\u2019ll head over there in an hour then."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'll be here waiting for you, Maria. Enjoy your day until then!"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Isabella! Looking forward to catching up and getting some help with my assignment."
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'll have your cappuccino ready and we can sit in our usual spot. Take your time, Maria!"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds perfect, Isabella. I'll see you in an hour then!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Have a wonderful day until we meet, Maria! I'll make sure everything is in place for our catch-up session."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks again, Isabella! I'll be there soon. See you later!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 76.0,
+          "hunger": 100.0,
+          "fun": 61.6,
+          "hygiene": 85.6,
+          "bladder": 66.4,
+          "social": 25.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc95",
+      "description": "Abigail is continuing her interactive art experiments. She feels more energized after addressing her earlier need and decides to explore new tools that can enhance the interactivity of her current project. Despite feeling tired, she finds renewed motivation in experimenting with technology to express (conversing about Abigail Chen and Isabella Rodriguez discussing the setup and support needed for Abigail's interactive art installation at Hobbs Cafe for Valentine's Day.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 55.5,
+          "hunger": 95.8,
+          "fun": 96.7,
+          "hygiene": 88.4,
+          "bladder": 73.0,
+          "social": 13.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\u23f0\ud83d\ude34",
+      "description": "(Tuesday February 14 -- 04:00 PM] Activity: John continues to assist customers, maintaining his patience and kindness despite feeling increasingly tired. He takes a moment to address his urgent need for the bathroom during a brief lull @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 31.9,
+          "hunger": 95.0,
+          "fun": 60.5,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "[(ID:rzuQMe) Tuesday February 14 -- 03:00 PM] Activity: Eddy is studying at Hobbs Cafe and working on his composition project @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.7,
+          "hunger": 99.5,
+          "fun": 99.7,
+          "hygiene": 76.4,
+          "bladder": 44.9,
+          "social": 10.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\u2615\ud83e\udd14",
+      "description": "taking a short break to gather thoughts @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 65.5,
+          "hunger": 92.1,
+          "fun": 97.9,
+          "hygiene": 82.8,
+          "bladder": 59.8,
+          "social": 14.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "resuming his afternoon study session on chemistry. Despite feeling a bit tired and lonely, he focuses on his work to maintain his academic rigor. He plans to reach out to Eddy Lin later for some peer support during their usual Q&A session (working on summarizing the key points of today\u2019s study session) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.4,
+          "hunger": 77.0,
+          "fun": 0.0,
+          "hygiene": 97.4,
+          "bladder": 94.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 16:54:10"
+  }
+}

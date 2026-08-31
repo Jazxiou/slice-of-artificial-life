@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        22
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start conversing about Eddy Lin and Isabella Rodriguez discussing Eddy's participation in Hobbs Cafe's Valentine\u2019s Day event with live music performances. @ <waiting> 73 22",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 55.5,
+          "hunger": 89.2,
+          "fun": 100.0,
+          "hygiene": 53.1,
+          "bladder": 0.7,
+          "social": 3.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        90,
+        30
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f\ud83d\ude0c",
+      "description": "Klaus is taking a short break in the library to grab some coffee and refresh himself before continuing with his work (finding a comfortable seat to relax) @ the Ville:Oak Hill College:library:library sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 75.5,
+          "hunger": 93.4,
+          "fun": 50.4,
+          "hygiene": 43.1,
+          "bladder": 0.8,
+          "social": 15.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        49
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83d\udce7",
+      "description": "Maria is eating a late breakfast and catching up on emails or messages she missed while sleeping. She feels better after using the bathroom and showering but still wishes for some company to start her day @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 47.5,
+          "fun": 53.2,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        37,
+        21
+      ],
+      "pronunciatio": "\ud83d\udc4d\ud83d\udd04",
+      "description": "Abigail is still working on her animation project but feels the urgent need to use the bathroom. She decides to take a short break and address this before continuing with her work (resumes animating the specific scene she was working on before taking a break) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 80.5,
+          "hunger": 82.7,
+          "fun": 80.9,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 2.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        76,
+        50
+      ],
+      "pronunciatio": "\ud83d\udccb\ufe0f",
+      "description": "(Tuesday February 14 -- 11:00 AM] Activity: John continues to assist customers, ensuring they have all the information and support needed for their medication needs. He takes a short break around this time to address his urgent need (assisting customer D with filling out necessary paperwork for a new prescription and explaining insurance coverage details) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 57.0,
+          "hunger": 88.6,
+          "fun": 17.7,
+          "hygiene": 92.3,
+          "bladder": 99.2,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac\u2615",
+      "description": "[ (conversing about Eddy Lin and Klaus Mueller discussing their potential collaboration on a project that combines Eddy's musical composition reflecting gentrification with Klaus's research on the topic, planning to meet at Hobbs Cafe to brainstorm ideas.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 75.8,
+          "hunger": 28.9,
+          "fun": 100.0,
+          "hygiene": 91.4,
+          "bladder": 80.0,
+          "social": 2.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\u270d\ud83c\udffc\ud83d\udcd6",
+      "description": "working on her novel in a nearby caf\u00e9, taking advantage of the quiet atmosphere for deep thinking and writing. She feels relieved to be out of the house but still misses having someone around to share ideas with (outlining the next chapter of her novel, focusing on key scenes and dialogue) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 90.5,
+          "hunger": 56.4,
+          "fun": 65.5,
+          "hygiene": 97.8,
+          "bladder": 94.9,
+          "social": 2.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcc5",
+      "description": "studying chemistry (reading ahead in his textbook for next week's class) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 50.0,
+          "hunger": 87.9,
+          "fun": 0.0,
+          "hygiene": 88.4,
+          "bladder": 22.2,
+          "social": 4.3
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 11:53:30"
+  }
+}

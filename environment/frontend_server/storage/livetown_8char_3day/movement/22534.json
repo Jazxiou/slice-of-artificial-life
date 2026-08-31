@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83c\udfa7",
+      "description": "meeting with Klaus Mueller to finalize setup arrangements for Valentine\u2019s Day. They go over last-minute details and ensure everything is ready for the evening celebration (conversing about Isabella and Maria discussing their work plans, particularly Isabella's Valentine\u2019s Day setup and Maria's upcoming stream assignment, while planning a coffee meeting to brainstorm ideas and offer support.) (Klaus provides feedback on lighting and sound setup) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 46.1,
+          "hunger": 100.0,
+          "fun": 42.5,
+          "hygiene": 75.3,
+          "bladder": 0.0,
+          "social": 14.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        109,
+        37
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Maria Lopez discussing plans to collaborate on their research paper, brainstorm interactive content for her streams, and prepare for his meeting with Wolfgang, while also expressing mutual support and excitement for their joint efforts. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Maria, I've been thinking about our research paper and wanted to run some ideas by you. Also, have you had a chance to think about grabbing breakfast together tomorrow morning before we dive into work?"
+        ],
+        [
+          "Maria Lopez",
+          "Hi Klaus, that sounds great! I'll definitely be there. Maybe we can also brainstorm some interactive content for my streams based on your research paper to engage more viewers in sociological topics like gentrification?"
+        ],
+        [
+          "Klaus Mueller",
+          "That\u2019s an amazing idea, Maria! I think it could really help bring attention to these important issues. Plus, discussing it live might give us some fresh perspectives we haven\u2019t thought of yet."
+        ],
+        [
+          "Maria Lopez",
+          "Absolutely, let\u2019s see how we can make it happen. Also, do you need any help preparing for your meeting with Wolfgang later? I\u2019m here if you want to go over some notes or just chat."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks for offering to help, Maria. I really appreciate it. Maybe we could go over some key points and discuss how your insights might relate to Wolfgang\u2019s field of chemistry?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, let's do that. I'd love to see how our ideas might connect across different fields. And while we're at it, if you feel up for it, maybe we could discuss some of the interactive elements for my stream too?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds perfect, Maria. Let\u2019s aim to cover both aspects\u2014preparing for my meeting and brainstorming ideas for your streams. It would be great to integrate our work in such a meaningful way."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds wonderful, Klaus. Let\u2019s plan to meet up around 9 am tomorrow at Hobbs Cafe so we can start early and work through some of these ideas together."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Maria. I\u2019ll be there bright and early at 9 am. Can\u2019t wait to see how our work intersects."
+        ],
+        [
+          "Maria Lopez",
+          "Great, see you at 9 then! And don't hesitate to reach out if you need help anytime before tomorrow. I\u2019m looking forward to our collaboration and can\u2019t wait to see how we blend different perspectives on gentrification."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks again, Maria. Your support means a lot to me, and I\u2019m excited about how our work can impact awareness on gentrification. See you bright and early tomorrow!"
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, Klaus! Let\u2019s make sure to cover all our bases tomorrow. I think combining your research with interactive elements for my streams could really amplify the message and engage more people in these discussions. See you then!"
+        ],
+        [
+          "Klaus Mueller",
+          "Definitely, Maria. Let\u2019s make it productive and engaging for everyone involved. I think combining our approaches could lead to some innovative insights."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds fantastic, Klaus. I\u2019m excited about our meeting tomorrow and can\u2019t wait to see what we come up with together!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. Let's catch up later today if you have a moment to go over some of the key points for Wolfgang and start thinking about how we can intertwine our plans more effectively."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Klaus! Let's aim to touch base later today and maybe find a quiet spot on campus where we can go over everything thoroughly. I think it will be beneficial for both of our projects."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 62.3,
+          "hunger": 97.6,
+          "fun": 26.2,
+          "hygiene": 86.4,
+          "bladder": 48.9,
+          "social": 27.3
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        109,
+        37
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Maria Lopez discussing plans to collaborate on their research paper, brainstorm interactive content for her streams, and prepare for his meeting with Wolfgang, while also expressing mutual support and excitement for their joint efforts. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Maria, I've been thinking about our research paper and wanted to run some ideas by you. Also, have you had a chance to think about grabbing breakfast together tomorrow morning before we dive into work?"
+        ],
+        [
+          "Maria Lopez",
+          "Hi Klaus, that sounds great! I'll definitely be there. Maybe we can also brainstorm some interactive content for my streams based on your research paper to engage more viewers in sociological topics like gentrification?"
+        ],
+        [
+          "Klaus Mueller",
+          "That\u2019s an amazing idea, Maria! I think it could really help bring attention to these important issues. Plus, discussing it live might give us some fresh perspectives we haven\u2019t thought of yet."
+        ],
+        [
+          "Maria Lopez",
+          "Absolutely, let\u2019s see how we can make it happen. Also, do you need any help preparing for your meeting with Wolfgang later? I\u2019m here if you want to go over some notes or just chat."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks for offering to help, Maria. I really appreciate it. Maybe we could go over some key points and discuss how your insights might relate to Wolfgang\u2019s field of chemistry?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, let's do that. I'd love to see how our ideas might connect across different fields. And while we're at it, if you feel up for it, maybe we could discuss some of the interactive elements for my stream too?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds perfect, Maria. Let\u2019s aim to cover both aspects\u2014preparing for my meeting and brainstorming ideas for your streams. It would be great to integrate our work in such a meaningful way."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds wonderful, Klaus. Let\u2019s plan to meet up around 9 am tomorrow at Hobbs Cafe so we can start early and work through some of these ideas together."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Maria. I\u2019ll be there bright and early at 9 am. Can\u2019t wait to see how our work intersects."
+        ],
+        [
+          "Maria Lopez",
+          "Great, see you at 9 then! And don't hesitate to reach out if you need help anytime before tomorrow. I\u2019m looking forward to our collaboration and can\u2019t wait to see how we blend different perspectives on gentrification."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks again, Maria. Your support means a lot to me, and I\u2019m excited about how our work can impact awareness on gentrification. See you bright and early tomorrow!"
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, Klaus! Let\u2019s make sure to cover all our bases tomorrow. I think combining your research with interactive elements for my streams could really amplify the message and engage more people in these discussions. See you then!"
+        ],
+        [
+          "Klaus Mueller",
+          "Definitely, Maria. Let\u2019s make it productive and engaging for everyone involved. I think combining our approaches could lead to some innovative insights."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds fantastic, Klaus. I\u2019m excited about our meeting tomorrow and can\u2019t wait to see what we come up with together!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. Let's catch up later today if you have a moment to go over some of the key points for Wolfgang and start thinking about how we can intertwine our plans more effectively."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Klaus! Let's aim to touch base later today and maybe find a quiet spot on campus where we can go over everything thoroughly. I think it will be beneficial for both of our projects."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 77.4,
+          "hunger": 99.2,
+          "fun": 72.1,
+          "hygiene": 54.8,
+          "bladder": 0.0,
+          "social": 16.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83c\udfa8",
+      "description": "working on her interactive art project (refining the user interface for interactivity) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.7,
+          "hunger": 87.4,
+          "fun": 48.9,
+          "hygiene": 66.3,
+          "bladder": 13.6,
+          "social": 20.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\ud83d\udc81\u200d\u2642",
+      "description": "John is interacting with customers and filling prescriptions at Willow Market and Pharmacy. He maintains a friendly demeanor, offering assistance and advice to those who need it (continuing to assist with customer inquiries post-lunch) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 35.0,
+          "hunger": 100.0,
+          "fun": 45.6,
+          "hygiene": 83.3,
+          "bladder": 29.1,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        91,
+        59
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb5",
+      "description": "Eddy is studying and working on his composition project at the college library (conversing about Eddy Lin and Klaus Mueller discussing their potential collaboration on a musical composition that reflects the sociological impacts of gentrification in their community, including meeting plans and material preparation.) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 62.9,
+          "hunger": 96.5,
+          "fun": 73.7,
+          "hygiene": 89.4,
+          "bladder": 0.0,
+          "social": 14.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        29,
+        28
+      ],
+      "pronunciatio": "\ud83e\udd14\ud83d\udcfa",
+      "description": "Hailey is writing or brainstorming ideas for her podcast (brainstorming episode ideas based on recent cultural events) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 77.4,
+          "hunger": 81.2,
+          "fun": 100.0,
+          "hygiene": 82.2,
+          "bladder": 58.9,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        112,
+        21
+      ],
+      "pronunciatio": "\ud83d\udde3\ud83d\udc65",
+      "description": "attending an interdisciplinary seminar. He finds these sessions insightful and enjoys discussing chemistry's broader impacts with peers from different academic backgrounds (participating in group discussions) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 21.4,
+          "hunger": 91.0,
+          "fun": 23.3,
+          "hygiene": 74.2,
+          "bladder": 0.0,
+          "social": 5.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 14:35:40"
+  }
+}

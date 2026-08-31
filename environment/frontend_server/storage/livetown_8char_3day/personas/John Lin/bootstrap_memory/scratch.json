@@ -1,0 +1,343 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 16, 2023, 00:00:00",
+  "curr_tile": [
+    91,
+    69
+  ],
+  "daily_plan_req": "John Lin goes to the Willow Market and Pharmacy around 9am to open the pharmacy counter. He stands behind the counter until 5pm and returns home.",
+  "name": "John Lin",
+  "first_name": "John",
+  "last_name": "Lin",
+  "age": 45,
+  "innate": "patient, kind, organized",
+  "learned": "John Lin is a pharmacy shop keeper at the Willow Market and Pharmacy who loves to help people. He is always looking for ways to make the process of getting medication easier for his customers.",
+  "currently": "John Lin operates Willow Market Pharmacy, where he helps customers with their medication needs and seeks ways to improve the shopping experience. He continues his online classes to stay informed about new medications and treatments, while also inquiring about local politics and upcoming mayor candidates.",
+  "seed_currently": "John Lin is living with his wife, Mei Lin, and son, Eddy Lin, and is shop keeping a pharmacy at the Willow Market and Pharmacy. He is also taking online classes to stay up to date on new medications and treatments. John is also curious about who will be running for the local mayor election next month and he is asking everyone he meets about who will be running in the election.",
+  "drift_log": [
+    {
+      "day": "2023-02-14",
+      "drift": 0.528556296100219,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "february 14",
+        "tuesday",
+        "12:30pm",
+        "12pm"
+      ],
+      "reason": "distance>0.35+dated",
+      "anchor_event": null,
+      "drift_after": 0.26148551628860583,
+      "dated_after": []
+    },
+    {
+      "day": "2023-02-15",
+      "drift": 0.313802803410849,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "thursday",
+        "wednesday",
+        "5:15pm",
+        "5:30pm",
+        "5pm",
+        "6am",
+        "7:45am",
+        "9am"
+      ],
+      "reason": "dated",
+      "anchor_event": null,
+      "drift_after": 0.20383684141864566,
+      "dated_after": []
+    },
+    {
+      "day": "2023-02-16",
+      "drift": 0.2819717684962185,
+      "threshold": 0.35,
+      "corrected": true,
+      "dated": [
+        "today",
+        "5:30pm",
+        "5pm",
+        "6am"
+      ],
+      "reason": "dated",
+      "anchor_event": null,
+      "drift_after": 0.1825140098739938,
+      "dated_after": []
+    }
+  ],
+  "needs": {
+    "sleep": 0.0,
+    "hunger": 88.0,
+    "fun": 82.18,
+    "hygiene": 72.22,
+    "bladder": 0.0,
+    "social": 0.0
+  },
+  "mood": {
+    "family": "joy",
+    "word": "content"
+  },
+  "relationships": {
+    "Eddy Lin": {
+      "friendship": 99.0,
+      "romance": 0.0
+    },
+    "Klaus Mueller": {
+      "friendship": 5.0,
+      "romance": 0.0
+    },
+    "Hailey Johnson": {
+      "friendship": 5.0,
+      "romance": 0.0
+    }
+  },
+  "lifestyle": "John Lin goes to bed around 10pm, awakes up around 6am, eats dinner around 5pm.",
+  "living_area": "the Ville:Lin family's house:Mei and John Lin's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 145,
+  "importance_ele_n": 46,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "go to Willow Market Pharmacy around 9:00 am to open for customers",
+    "tend to customers until 5:00 pm when the pharmacy closes",
+    "return home at 5:15 pm and have dinner at 5:45 pm",
+    "spend some time researching new medications or local politics online from 6:30 pm to 8:00 pm",
+    "watch TV from 8:00 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing his morning routine. He feels a bit tired but manages to get ready for the day (getting out of bed and stretching)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine. He feels a bit tired but manages to get ready for the day (going to the bathroom to use the toilet and wash his face)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine. He feels a bit tired but manages to get ready for the day (brushing his teeth)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine. He feels a bit tired but manages to get ready for the day (washing his hands thoroughly)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine. He feels a bit tired but manages to get ready for the day (getting dressed for the day)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine. He feels a bit tired but manages to get ready for the day (putting on deodorant and aftershave)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine. He feels a bit tired but manages to get ready for the day (combing his hair)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine. He feels a bit tired but manages to get ready for the day (checking the weather forecast for the day)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine. He feels a bit tired but manages to get ready for the day (putting on a light jacket if necessary based on the temperature outside)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine. He feels a bit tired but manages to get ready for the day (preparing to leave for breakfast and reviewing his schedule one last time before heading out)",
+      5
+    ],
+    [
+      "preparing breakfast and reviewing his schedule for the day. He feels a bit more awake but still somewhat tired from lack of sleep",
+      60
+    ],
+    [
+      "heading out for a quick walk around the neighborhood. He hopes that some fresh air will help him feel more awake and ready for his day at the pharmacy",
+      60
+    ],
+    [
+      "John is on his way to the Willow Market and Pharmacy to open for customers. Despite feeling tired, he ensures that he arrives promptly at 9:00 am to prepare the pharmacy counter and be ready to assist his first customer of the day",
+      60
+    ],
+    [
+      "John is attending to customers at Willow Market and Pharmacy. He feels increasingly tired but remains patient and kind, ensuring each customer receives the attention they need",
+      360
+    ],
+    [
+      "John is attending to customers at Willow Market and Pharmacy. He feels increasingly tired but remains patient and kind, ensuring each customer receives the attention they need. Despite his fatigue, he continues to prioritize customer service and makes a mental note to take a break as",
+      60
+    ],
+    [
+      "John is preparing to close the pharmacy. Despite feeling tired and needing a bathroom break, he ensures that everything is organized for the next day before heading home. He tidies up the counter, restocks any necessary items, and checks that all paperwork is",
+      60
+    ],
+    [
+      "heading home after closing the pharmacy. He feels relieved that his day at the shop is over but still needs a bathroom break and some rest. Despite feeling tired, he makes sure to lock up securely before leaving",
+      60
+    ],
+    [
+      "John is relaxing at home after a long day at the pharmacy. He feels relieved but still quite tired and decides to take things easy before dinner. He considers taking a short nap or having some light snacks while planning his evening activities",
+      60
+    ],
+    [
+      "watching TV after dinner. Despite feeling tired and lonely, he finds solace in the routine of watching his favorite shows. He hopes that this will help him feel more relaxed before going to bed",
+      60
+    ],
+    [
+      "John is taking a break and using the bathroom. He feels relieved to have taken care of his immediate needs but remains tired and somewhat lonely, hoping for some company or at least a phone call from a friend",
+      60
+    ],
+    [
+      "John is reflecting on his day and feeling a bit lonely. He considers reaching out to friends or family for a chat but decides against it at the moment, hoping that tomorrow might bring new opportunities for social interaction. He feels tired but tries to stay positive",
+      60
+    ],
+    [
+      "John is reflecting on his day and feeling a bit lonely. He considers reaching out to friends or family for a chat but decides against it at the moment, hoping that tomorrow might bring new opportunities for social interaction. Despite feeling tired, he tries to stay",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing his morning routine. He feels a bit tired but manages to get ready for the day",
+      60
+    ],
+    [
+      "preparing breakfast and reviewing his schedule for the day. He feels a bit more awake but still somewhat tired from lack of sleep",
+      60
+    ],
+    [
+      "heading out for a quick walk around the neighborhood. He hopes that some fresh air will help him feel more awake and ready for his day at the pharmacy",
+      60
+    ],
+    [
+      "John is on his way to the Willow Market and Pharmacy to open for customers. Despite feeling tired, he ensures that he arrives promptly at 9:00 am to prepare the pharmacy counter and be ready to assist his first customer of the day",
+      60
+    ],
+    [
+      "John is attending to customers at Willow Market and Pharmacy. He feels increasingly tired but remains patient and kind, ensuring each customer receives the attention they need",
+      360
+    ],
+    [
+      "John is attending to customers at Willow Market and Pharmacy. He feels increasingly tired but remains patient and kind, ensuring each customer receives the attention they need. Despite his fatigue, he continues to prioritize customer service and makes a mental note to take a break as",
+      60
+    ],
+    [
+      "John is preparing to close the pharmacy. Despite feeling tired and needing a bathroom break, he ensures that everything is organized for the next day before heading home. He tidies up the counter, restocks any necessary items, and checks that all paperwork is",
+      60
+    ],
+    [
+      "heading home after closing the pharmacy. He feels relieved that his day at the shop is over but still needs a bathroom break and some rest. Despite feeling tired, he makes sure to lock up securely before leaving",
+      60
+    ],
+    [
+      "John is relaxing at home after a long day at the pharmacy. He feels relieved but still quite tired and decides to take things easy before dinner. He considers taking a short nap or having some light snacks while planning his evening activities",
+      60
+    ],
+    [
+      "watching TV after dinner. Despite feeling tired and lonely, he finds solace in the routine of watching his favorite shows. He hopes that this will help him feel more relaxed before going to bed",
+      60
+    ],
+    [
+      "John is taking a break and using the bathroom. He feels relieved to have taken care of his immediate needs but remains tired and somewhat lonely, hoping for some company or at least a phone call from a friend",
+      60
+    ],
+    [
+      "John is reflecting on his day and feeling a bit lonely. He considers reaching out to friends or family for a chat but decides against it at the moment, hoping that tomorrow might bring new opportunities for social interaction. He feels tired but tries to stay positive",
+      60
+    ],
+    [
+      "John is reflecting on his day and feeling a bit lonely. He considers reaching out to friends or family for a chat but decides against it at the moment, hoping that tomorrow might bring new opportunities for social interaction. Despite feeling tired, he tries to stay",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Lin family's house:Mei and John Lin's bedroom:bed",
+  "act_start_time": "February 16, 2023, 00:00:00",
+  "act_duration": 360,
+  "act_description": "sleeping",
+  "act_pronunciatio": "\ud83d\ude34",
+  "act_event": [
+    "John Lin",
+    "sleep",
+    "sleep"
+  ],
+  "act_obj_description": "occupied",
+  "act_obj_pronunciatio": "\ud83d\udcc2\ud83d\udcbb",
+  "act_obj_event": [
+    "bed",
+    "be_occupied",
+    ""
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Eddy Lin": -41,
+    "Klaus Mueller": -923,
+    "Hailey Johnson": -2087
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      89,
+      69
+    ],
+    [
+      88,
+      69
+    ],
+    [
+      88,
+      70
+    ],
+    [
+      88,
+      71
+    ],
+    [
+      88,
+      72
+    ],
+    [
+      88,
+      73
+    ],
+    [
+      89,
+      73
+    ],
+    [
+      90,
+      73
+    ],
+    [
+      90,
+      74
+    ]
+  ]
+}

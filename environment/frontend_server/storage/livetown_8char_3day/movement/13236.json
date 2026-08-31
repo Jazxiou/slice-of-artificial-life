@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        83,
+        14
+      ],
+      "pronunciatio": "\ud83d\udebb\ud83e\uddfd",
+      "description": "taking a short break to use the bathroom and rest during her lunch hour. She feels tired but tries to stay focused on the day's tasks ahead (using the restroom) @ the Ville:Isabella Rodriguez's apartment:bathroom:toilet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 51.2,
+          "hunger": 87.3,
+          "fun": 99.8,
+          "hygiene": 55.7,
+          "bladder": 10.0,
+          "social": 0.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        35,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "Klaus is having lunch at Hobbs Cafe (conversing about Hailey Johnson and Klaus Mueller discussing how gentrification impacts creative communities and artists living in co-living spaces, potentially informing Hailey's novel.) @ the Ville:artist's co-living space:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.2,
+          "hunger": 100.0,
+          "fun": 49.6,
+          "hygiene": 40.4,
+          "bladder": 0.0,
+          "social": 24.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        122,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udd25",
+      "description": "Maria is studying physics and working on assignments. Despite feeling better after her morning routine, she still wishes for some company but focuses on her studies to make up for lost time during her unexpected delay in waking up (conversing about Maria Lopez and Wolfgang Schulz discussing her difficulties in applying energy conservation principles, particularly accounting for thermal energy loss due to friction in a physics problem.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 96.7,
+          "hunger": 56.0,
+          "fun": 60.7,
+          "hygiene": 98.0,
+          "bladder": 95.3,
+          "social": 7.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        30
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "taking a short break to use the bathroom. She feels relieved after addressing her urgent need and returns to work shortly afterward, feeling more focused (organizing her workspace for continued productivity) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 76.2,
+          "hunger": 88.4,
+          "fun": 84.4,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        86,
+        45
+      ],
+      "pronunciatio": "\ud83e\uddfa\ud83d\udd04",
+      "description": "(Tuesday February 14 -- 12:00 PM] Activity: John continues to assist customers, providing them with necessary medications and advice. He ensures that the pharmacy counter runs smoothly during lunchtime (tidying up the counter area and restocking supplies to ensure smooth operation) @ the Ville:The Willows Market and Pharmacy:store:grocery store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.6,
+          "hunger": 100.0,
+          "fun": 14.2,
+          "hygiene": 89.6,
+          "bladder": 93.1,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        75,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "[Free time or other activities not specified] (reviewing his notes from the second class) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 71.4,
+          "hunger": 23.6,
+          "fun": 99.7,
+          "hygiene": 88.8,
+          "bladder": 73.9,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        87,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcda",
+      "description": "meeting with a literary agent to discuss her novel and potential publishing opportunities. She hopes this meeting will bring new insights and momentum to her work (conversing about Hailey Johnson and Klaus Mueller discussing how gentrification impacts creative communities and artists living in co-living spaces, potentially informing Hailey's novel.) @ the Ville:Giorgio Rossi's apartment:main room:blackboard",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 86.2,
+          "hunger": 100.0,
+          "fun": 87.3,
+          "hygiene": 95.2,
+          "bladder": 88.8,
+          "social": 10.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udd25",
+      "description": "eating lunch (conversing about Maria Lopez and Wolfgang Schulz discussing her difficulties in applying energy conservation principles, particularly accounting for thermal energy loss due to friction in a physics problem.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 45.6,
+          "hunger": 100.0,
+          "fun": 0.0,
+          "hygiene": 85.8,
+          "bladder": 16.0,
+          "social": 9.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 12:46:00"
+  }
+}

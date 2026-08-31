@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfa8",
+      "description": "meeting with Klaus Mueller to finalize setup arrangements for Valentine\u2019s Day. They go over last-minute details and ensure everything is ready for the evening celebration (conversing about Abigail Chen and Isabella Rodriguez discussing the placement and integration of Abigail's interactive art piece in the cafe for Valentine\u2019s Day, including lighting and sound considerations.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.4,
+          "hunger": 98.0,
+          "fun": 48.4,
+          "hygiene": 79.7,
+          "bladder": 7.4,
+          "social": 10.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "Klaus is having lunch at Hobbs Cafe. He enjoys a leisurely meal and takes the opportunity to chat with some colleagues about their ongoing projects and recent readings in sociology (chatting with colleagues about their ongoing projects) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.6,
+          "hunger": 100.0,
+          "fun": 19.9,
+          "hygiene": 90.8,
+          "bladder": 59.2,
+          "social": 21.5
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        46
+      ],
+      "pronunciatio": "\ud83c\udf5d\ud83e\udd66",
+      "description": "Maria is returning home to have lunch (preparing a simple meal of pasta and vegetables) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.7,
+          "hunger": 83.9,
+          "fun": 54.8,
+          "hygiene": 59.2,
+          "bladder": 0.0,
+          "social": 6.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        100,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcf1",
+      "description": "working on her interactive art project (conversing about Eddy Lin and Abigail Chen discussing plans to integrate interactive technology, specifically an Audience Engagement Tool, into Eddy's Valentine\u2019s Day performance at Isabella's cafe.) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 75.0,
+          "hunger": 96.2,
+          "fun": 43.8,
+          "hygiene": 70.7,
+          "bladder": 23.9,
+          "social": 19.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc69\u200d",
+      "description": "John is interacting with customers and filling prescriptions at Willow Market and Pharmacy. He maintains a friendly demeanor, offering assistance and advice to those who need it (interacting with a regular customer who needs advice on managing chronic conditions) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.4,
+          "hunger": 87.0,
+          "fun": 51.5,
+          "hygiene": 87.7,
+          "bladder": 39.3,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        99,
+        32
+      ],
+      "pronunciatio": "\ud83d\udc40\ud83c\udf7d\ufe0f",
+      "description": "Eddy is having lunch at Hobbs Cafe (looking at the menu and deciding what to order) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.2,
+          "hunger": 79.7,
+          "fun": 68.2,
+          "hygiene": 93.8,
+          "bladder": 4.1,
+          "social": 8.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83c\udfa7",
+      "description": "Hailey is writing or brainstorming ideas for her podcast from 1:00 pm to 3:00 pm (reviewing notes and outlines for the podcast) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 84.8,
+          "hunger": 90.0,
+          "fun": 100.0,
+          "hygiene": 86.6,
+          "bladder": 69.1,
+          "social": 3.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        113,
+        47
+      ],
+      "pronunciatio": "\ud83c\udfa7\ud83d\udce3",
+      "description": "Wolfgang is attending an interdisciplinary seminar. He finds these sessions insightful and enjoys discussing chemistry's broader impacts with peers from different academic backgrounds (listening to introductory remarks, taking notes during presentations, participating in Q&A sessions, and discussing with peers) (listening to introductory remarks) @ the Ville:Oak Hill College:classroom:classroom podium",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 28.8,
+          "hunger": 99.8,
+          "fun": 29.2,
+          "hygiene": 78.6,
+          "bladder": 0.0,
+          "social": 11.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 13:07:40"
+  }
+}

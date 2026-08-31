@@ -1,0 +1,451 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Isabella Rodriguez conversing about grabbing coffee to discuss Valentine's Day plans and helping Maria with her assignment. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Isabella, I see you're busy planning for Valentine's Day. Any chance we could grab a quick coffee later and chat about it?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Of course, Maria! How about after 4 PM when I'm done with my staff meeting and final arrangements?"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Isabella. I'll be around then to catch up and hear all about your plans for Valentine's Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Perfect, Maria. I'm looking forward to it. In the meantime, do you need any help with your assignments or just someone to talk to over coffee?"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Isabella. Actually, I could use someone to talk to right now if you have a moment. This assignment is driving me crazy and I'm just feeling overwhelmed."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, Maria, come on over to my office or anywhere comfortable. Let's take a break from all this planning and focus on you for a bit. We'll grab some coffee and see if we can sort out those frustrations."
+        ],
+        [
+          "Maria Lopez",
+          "That would be lovely, Isabella. Let's head to your office then. I really appreciate you taking time out of your busy schedule for me."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Maria. Let's head to my office right now then. I'll get us some coffee and we can tackle those frustrations together."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Isabella. Thanks for being so understanding and supportive."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Alright, Maria, let's head to my office. I'll get us some coffee and we can work through this assignment together."
+        ],
+        [
+          "Maria Lopez",
+          "Sure, let's go. I'll follow you to your office, Isabella."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Maria. I'll get us some coffee and we can sit down and figure this out together."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Isabella. I really appreciate your help."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Let's head to my office then. I'll get us some coffee and we can tackle this assignment together, step by step."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Isabella. Let\u2019s head to your office and see if we can make some progress on this assignment."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, let's go to my office now. I'll get us some coffee and we can start working on your assignment right away."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 57.5,
+          "hunger": 100.0,
+          "fun": 99.5,
+          "hygiene": 57.2,
+          "bladder": 37.4,
+          "social": 29.9
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "Klaus is returning to the library to continue working on his research paper (conversing about Klaus Mueller and Wolfgang Schulz discussing how to manage their schedules more effectively by integrating their coursework, research work, and study group meetings.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 62.5,
+          "hunger": 97.3,
+          "fun": 34.9,
+          "hygiene": 81.5,
+          "bladder": 56.2,
+          "social": 55.0
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        75,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Isabella Rodriguez conversing about grabbing coffee to discuss Valentine's Day plans and helping Maria with her assignment. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Isabella, I see you're busy planning for Valentine's Day. Any chance we could grab a quick coffee later and chat about it?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Of course, Maria! How about after 4 PM when I'm done with my staff meeting and final arrangements?"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Isabella. I'll be around then to catch up and hear all about your plans for Valentine's Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Perfect, Maria. I'm looking forward to it. In the meantime, do you need any help with your assignments or just someone to talk to over coffee?"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Isabella. Actually, I could use someone to talk to right now if you have a moment. This assignment is driving me crazy and I'm just feeling overwhelmed."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, Maria, come on over to my office or anywhere comfortable. Let's take a break from all this planning and focus on you for a bit. We'll grab some coffee and see if we can sort out those frustrations."
+        ],
+        [
+          "Maria Lopez",
+          "That would be lovely, Isabella. Let's head to your office then. I really appreciate you taking time out of your busy schedule for me."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Maria. Let's head to my office right now then. I'll get us some coffee and we can tackle those frustrations together."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Isabella. Thanks for being so understanding and supportive."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Alright, Maria, let's head to my office. I'll get us some coffee and we can work through this assignment together."
+        ],
+        [
+          "Maria Lopez",
+          "Sure, let's go. I'll follow you to your office, Isabella."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Maria. I'll get us some coffee and we can sit down and figure this out together."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Isabella. I really appreciate your help."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Let's head to my office then. I'll get us some coffee and we can tackle this assignment together, step by step."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Isabella. Let\u2019s head to your office and see if we can make some progress on this assignment."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure, let's go to my office now. I'll get us some coffee and we can start working on your assignment right away."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 77.5,
+          "hunger": 25.7,
+          "fun": 38.7,
+          "hygiene": 40.1,
+          "bladder": 22.5,
+          "social": 30.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\u2705\ud83c\udfac",
+      "description": "working on the animation project for her client (animating key scenes according to the updated storyboard) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.5,
+          "hunger": 91.3,
+          "fun": 100.0,
+          "hygiene": 57.2,
+          "bladder": 47.2,
+          "social": 21.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        80,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and John discussing their weekend activities, Eddy's progress in music theory, natural supplements, and plans to attend a music lecture together with the intention of sharing insights afterward over coffee. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "John Lin",
+          "Hey Eddy, how\u2019s your music theory coming along?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi John, it\u2019s going well! I\u2019ve been exploring some new styles and trying to incorporate them into my composition project. How was your weekend?"
+        ],
+        [
+          "John Lin",
+          "It was pretty quiet, actually. I spent some time catching up on some online classes and helping out at the pharmacy. Speaking of which, have you considered trying any new supplements or medications lately?"
+        ],
+        [
+          "Eddy Lin",
+          "Not really, John. I tend to stick with natural supplements and healthy habits rather than medications. How about you? Any new products you\u2019re excited about at work?"
+        ],
+        [
+          "John Lin",
+          "That\u2019s great, Eddy. I\u2019ve been looking into some new natural remedies myself, actually. They seem to be gaining popularity among my customers who prefer more holistic approaches. How do you feel about attending that music lecture this week? Might give us both a chance to learn something new."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds interesting, John. I might drop by for the lecture and see what insights they share on music theory and composition. It could be beneficial for my project too."
+        ],
+        [
+          "John Lin",
+          "That\u2019s perfect, Eddy. Let's catch up after the lecture and see if we can both get some inspiration from it."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, John. I'll make sure to take some notes and maybe even bring them back for a study session. See you at the lecture!"
+        ],
+        [
+          "John Lin",
+          "Great idea, Eddy. It'll be nice to have some fresh insights and maybe even bump into new people who share our interests. See you there!"
+        ],
+        [
+          "Eddy Lin",
+          "Looking forward to it, John. Maybe we can grab a coffee afterward and discuss what we learned?"
+        ],
+        [
+          "John Lin",
+          "That sounds like a plan, Eddy. Let\u2019s make sure to find some time for coffee and a good chat afterward."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, John. I\u2019ll see you at the lecture then. Can\u2019t wait to hear what new things they have to say about composition."
+        ],
+        [
+          "John Lin",
+          "Sure thing, Eddy. It\u2019ll be great to see you there and chat more about what we both learn."
+        ],
+        [
+          "Eddy Lin",
+          "Likewise, John. I think it\u2019ll be really interesting to see how these theoretical concepts can inspire our work in different fields. Talk to you soon!"
+        ],
+        [
+          "John Lin",
+          "Absolutely, Eddy. It should be a great opportunity for both of us to expand our knowledge and maybe find some new sources of inspiration."
+        ],
+        [
+          "Eddy Lin",
+          "Definitely, John. Let\u2019s make sure to stay in touch about what we discover at the lecture and perhaps share any notes or insights that might be helpful for each other."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 57.5,
+          "hunger": 100.0,
+          "fun": 25.6,
+          "hygiene": 83.6,
+          "bladder": 37.4,
+          "social": 31.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        79,
+        44
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy and John discussing their weekend activities, Eddy's progress in music theory, natural supplements, and plans to attend a music lecture together with the intention of sharing insights afterward over coffee. @ <persona> John Lin",
+      "chat": [
+        [
+          "John Lin",
+          "Hey Eddy, how\u2019s your music theory coming along?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi John, it\u2019s going well! I\u2019ve been exploring some new styles and trying to incorporate them into my composition project. How was your weekend?"
+        ],
+        [
+          "John Lin",
+          "It was pretty quiet, actually. I spent some time catching up on some online classes and helping out at the pharmacy. Speaking of which, have you considered trying any new supplements or medications lately?"
+        ],
+        [
+          "Eddy Lin",
+          "Not really, John. I tend to stick with natural supplements and healthy habits rather than medications. How about you? Any new products you\u2019re excited about at work?"
+        ],
+        [
+          "John Lin",
+          "That\u2019s great, Eddy. I\u2019ve been looking into some new natural remedies myself, actually. They seem to be gaining popularity among my customers who prefer more holistic approaches. How do you feel about attending that music lecture this week? Might give us both a chance to learn something new."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds interesting, John. I might drop by for the lecture and see what insights they share on music theory and composition. It could be beneficial for my project too."
+        ],
+        [
+          "John Lin",
+          "That\u2019s perfect, Eddy. Let's catch up after the lecture and see if we can both get some inspiration from it."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, John. I'll make sure to take some notes and maybe even bring them back for a study session. See you at the lecture!"
+        ],
+        [
+          "John Lin",
+          "Great idea, Eddy. It'll be nice to have some fresh insights and maybe even bump into new people who share our interests. See you there!"
+        ],
+        [
+          "Eddy Lin",
+          "Looking forward to it, John. Maybe we can grab a coffee afterward and discuss what we learned?"
+        ],
+        [
+          "John Lin",
+          "That sounds like a plan, Eddy. Let\u2019s make sure to find some time for coffee and a good chat afterward."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, John. I\u2019ll see you at the lecture then. Can\u2019t wait to hear what new things they have to say about composition."
+        ],
+        [
+          "John Lin",
+          "Sure thing, Eddy. It\u2019ll be great to see you there and chat more about what we both learn."
+        ],
+        [
+          "Eddy Lin",
+          "Likewise, John. I think it\u2019ll be really interesting to see how these theoretical concepts can inspire our work in different fields. Talk to you soon!"
+        ],
+        [
+          "John Lin",
+          "Absolutely, Eddy. It should be a great opportunity for both of us to expand our knowledge and maybe find some new sources of inspiration."
+        ],
+        [
+          "Eddy Lin",
+          "Definitely, John. Let\u2019s make sure to stay in touch about what we discover at the lecture and perhaps share any notes or insights that might be helpful for each other."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 62.5,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 57.2,
+          "bladder": 42.3,
+          "social": 42.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcd6",
+      "description": "Hailey is writing (outlining her next chapter) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 77.5,
+          "hunger": 99.4,
+          "fun": 61.0,
+          "hygiene": 48.6,
+          "bladder": 57.0,
+          "social": 21.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "studying and working on lab assignments until 2:00 pm (conversing about Klaus Mueller and Wolfgang Schulz discussing how to manage their schedules more effectively by integrating their coursework, research work, and study group meetings.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.9,
+          "hunger": 92.5,
+          "fun": 64.3,
+          "hygiene": 48.6,
+          "bladder": 19.5,
+          "social": 38.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 14:30:10"
+  }
+}

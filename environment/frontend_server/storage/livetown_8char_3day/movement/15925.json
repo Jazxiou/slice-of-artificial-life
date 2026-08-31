@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Isabella is closing Hobbs Cafe for the evening. She thanks her last customers and makes sure everything is clean and organized before locking up (cleaning the tables and chairs) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 13.8,
+          "hunger": 80.3,
+          "fun": 92.2,
+          "hygiene": 81.3,
+          "bladder": 56.5,
+          "social": 23.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        110,
+        37
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc69\u200d",
+      "description": "Klaus is meeting with peers for discussion and collaboration about his research paper at the college's study lounge (engaging in a Q&A session about methodology with Maria Lopez) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 33.8,
+          "hunger": 90.1,
+          "fun": 25.9,
+          "hygiene": 35.2,
+          "bladder": 11.4,
+          "social": 36.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        83,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc95",
+      "description": "Maria is continuing her visit at Hobbs Cafe, hoping to meet up with friends or peers for a study session or casual conversation. She feels more energized after her morning routine but still misses the companionship of others and hopes to connect with someone during (conversing about Maria Lopez and Isabella Rodriguez discussing plans for incorporating gaming elements into their Valentine\u2019s Day interactive storytelling event, including ideas for focus groups to gather feedback on game narratives and romantic scenarios.) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.3,
+          "hunger": 99.8,
+          "fun": 66.8,
+          "hygiene": 75.6,
+          "bladder": 43.0,
+          "social": 32.4
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83e\udd14\ud83d\udcac",
+      "description": "Abigail is reflecting on her day so far, feeling satisfied that she has made progress with Hailey and excited about their upcoming meet-up. She decides to send a message to Isabella to update her on the plans (reflecting on her day, considering how to inform Isabella of the new arrangement) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 38.8,
+          "hunger": 98.5,
+          "fun": 96.1,
+          "hygiene": 78.4,
+          "bladder": 49.7,
+          "social": 21.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcfa",
+      "description": "(Tuesday February 14 -- 08:00 PM] Activity: John continues to watch TV and reads some articles about the mayoral election. He feels more relaxed but still wishes for company (watching a news segment on television regarding the mayoral election candidates and their platforms) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 18.9,
+          "hunger": 90.1,
+          "fun": 76.7,
+          "hygiene": 96.9,
+          "bladder": 92.9,
+          "social": 9.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        83,
+        26
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udc4c",
+      "description": "working on his composition project at Hobbs Cafe. He focuses intently, taking breaks to grab a snack and coffee (finalizing the piece by adding final touches and preparing for upcoming performances) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 34.1,
+          "hunger": 100.0,
+          "fun": 99.9,
+          "hygiene": 66.4,
+          "bladder": 21.6,
+          "social": 23.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcd6",
+      "description": "working on her project involving co-living artists and interactive storytelling tools at home. Hailey reviews notes from earlier conversations with Abigail, refines ideas, and plans next steps. (reviewing notes from her meetings with Abigail Chen) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 56.0,
+          "hunger": 96.4,
+          "fun": 84.5,
+          "hygiene": 99.7,
+          "bladder": 99.4,
+          "social": 12.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        62
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "preparing to exercise in his room. He feels more energized after interacting with Eddy earlier but still needs some time to rest and rejuvenate before his evening workout (resting on the bed for a few moments to gather energy) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 25.7,
+          "hunger": 86.9,
+          "fun": 7.3,
+          "hygiene": 87.4,
+          "bladder": 70.7,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 20:14:10"
+  }
+}

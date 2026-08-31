@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        71,
+        30
+      ],
+      "pronunciatio": "\ud83d\udecc\ud83d\udcad",
+      "description": "taking a short lunch break (resting on a nearby bench to relax and gather thoughts) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.7,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 58.5,
+          "bladder": 40.4,
+          "social": 27.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        21
+      ],
+      "pronunciatio": "\ud83c\udf92\ud83d\udcbb",
+      "description": "Klaus is returning to the library to continue working on his research paper (packing up his notes and laptop) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.7,
+          "hunger": 99.9,
+          "fun": 36.6,
+          "hygiene": 82.8,
+          "bladder": 59.3,
+          "social": 50.7
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        55
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udca1",
+      "description": "studying or working on assignments (solving practice problems from her textbook) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.7,
+          "hunger": 19.4,
+          "fun": 40.5,
+          "hygiene": 41.4,
+          "bladder": 25.5,
+          "social": 27.1
+        },
+        "mood": {
+          "family": "anger",
+          "word": "irritable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\u2705\ud83c\udfac",
+      "description": "working on the animation project for her client (animating key scenes according to the updated storyboard) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.7,
+          "hunger": 93.9,
+          "fun": 100.0,
+          "hygiene": 58.5,
+          "bladder": 50.2,
+          "social": 23.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\ud83d\udc81\u200d\u2642",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (attending to customer inquiries) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.7,
+          "hunger": 100.0,
+          "fun": 23.6,
+          "hygiene": 84.9,
+          "bladder": 40.4,
+          "social": 28.8
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        79,
+        25
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "Eddy is having lunch at Hobbs Cafe (eating his lunch and enjoying the cafe atmosphere) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.7,
+          "hunger": 100.0,
+          "fun": 98.6,
+          "hygiene": 58.5,
+          "bladder": 45.3,
+          "social": 39.8
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\u23f0\ud83d\udcf1",
+      "description": "Hailey is having lunch (waiting to start checking emails and social media briefly) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 79.7,
+          "hunger": 100.0,
+          "fun": 59.8,
+          "hygiene": 50.0,
+          "bladder": 60.0,
+          "social": 23.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        108,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6",
+      "description": "studying and working on lab assignments until 2:00 pm (reviewing his chemistry notes) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.1,
+          "hunger": 95.1,
+          "fun": 66.1,
+          "hygiene": 50.0,
+          "bladder": 22.6,
+          "social": 34.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 14:03:50"
+  }
+}

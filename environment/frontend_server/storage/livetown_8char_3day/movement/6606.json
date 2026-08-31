@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Isabella Rodriguez discussing preparations and setup requirements for an event, including decorations, seating arrangements, menu items, drinks, and music equipment. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hi Isabella, I hope everything is going well for tonight\u2019s event. It looks quite busy over here."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hello Eddy, yes everything is coming together nicely. I appreciate you stopping by to see how things are going."
+        ],
+        [
+          "Eddy Lin",
+          "It must be a lot of work, but it looks great. I was wondering if there\u2019s anything you need help with before everything starts?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Actually, we could use some help setting up the final decorations and making sure everything is in place for tonight. Would you mind lending a hand?"
+        ],
+        [
+          "Eddy Lin",
+          "Sure, Isabella. I'd be happy to help set up if you need me to."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, thank you Eddy. Let me show you what needs to be done and where things are located."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds good, Isabella. Let\u2019s start by checking if we have enough chairs and tables for the evening."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Alright, let's head over to the back storage room first. We should count the chairs and tables and make sure we have enough for tonight's turnout."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a plan, Isabella. Let\u2019s make sure we have enough seating for everyone and that everything is set up just right."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Perfect, Eddy. Also, could you check if we have enough candles and heart-shaped decorations for each table?"
+        ],
+        [
+          "Eddy Lin",
+          "Sure thing, Isabella. Let\u2019s take stock of all the candles and heart-shaped decorations to make sure every table has a romantic touch."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Let's also make sure we have enough special Valentine's Day menu items prepared and ready to serve. Could you help me check on that as well, Eddy?"
+        ],
+        [
+          "Eddy Lin",
+          "Of course, Isabella. Let\u2019s start by checking on the Valentine's Day menu items to ensure everything is prepared and ready for tonight."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Eddy. Your help is really appreciated. Let\u2019s also make sure all the drinks and special cocktails are ready to go. Do you mind checking on that as well?"
+        ],
+        [
+          "Eddy Lin",
+          "Absolutely, Isabella. I'll make sure all drinks and special cocktails are ready for tonight. Let\u2019s start by checking on them now."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be wonderful, Eddy. Also, could you please ensure that all music equipment is set up and ready to go for the live performance?"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 38.3,
+          "hunger": 99.0,
+          "fun": 100.0,
+          "hygiene": 45.7,
+          "bladder": 10.4,
+          "social": 28.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        131,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83c\udfe0",
+      "description": "reviewing his day's work and notes at home @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 43.3,
+          "hunger": 98.2,
+          "fun": 22.9,
+          "hygiene": 69.9,
+          "bladder": 29.3,
+          "social": 56.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        45
+      ],
+      "pronunciatio": "\ud83c\udf70\u2615",
+      "description": "streaming games on Twitch (taking a short break from streaming and having a snack) @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 58.3,
+          "hunger": 57.3,
+          "fun": 70.2,
+          "hygiene": 28.5,
+          "bladder": 0.0,
+          "social": 31.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        37,
+        22
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83c\udffc\ud83d\udc4d",
+      "description": "attending a virtual meeting about her project (greeting colleagues as they enter the virtual room) @ the Ville:artist's co-living space:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 48.3,
+          "hunger": 92.7,
+          "fun": 91.1,
+          "hygiene": 45.7,
+          "bladder": 20.2,
+          "social": 19.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        89,
+        65
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "returning home after closing the pharmacy. He heads straight into the kitchen to help prepare dinner with his wife, Mei Lin (changing into more comfortable clothes for dinner preparation) @ the Ville:Lin family's house:common room:shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 38.3,
+          "hunger": 100.0,
+          "fun": 17.4,
+          "hygiene": 72.0,
+          "bladder": 10.4,
+          "social": 18.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        75,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Isabella Rodriguez discussing preparations and setup requirements for an event, including decorations, seating arrangements, menu items, drinks, and music equipment. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hi Isabella, I hope everything is going well for tonight\u2019s event. It looks quite busy over here."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Hello Eddy, yes everything is coming together nicely. I appreciate you stopping by to see how things are going."
+        ],
+        [
+          "Eddy Lin",
+          "It must be a lot of work, but it looks great. I was wondering if there\u2019s anything you need help with before everything starts?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Actually, we could use some help setting up the final decorations and making sure everything is in place for tonight. Would you mind lending a hand?"
+        ],
+        [
+          "Eddy Lin",
+          "Sure, Isabella. I'd be happy to help set up if you need me to."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, thank you Eddy. Let me show you what needs to be done and where things are located."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds good, Isabella. Let\u2019s start by checking if we have enough chairs and tables for the evening."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Alright, let's head over to the back storage room first. We should count the chairs and tables and make sure we have enough for tonight's turnout."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a plan, Isabella. Let\u2019s make sure we have enough seating for everyone and that everything is set up just right."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Perfect, Eddy. Also, could you check if we have enough candles and heart-shaped decorations for each table?"
+        ],
+        [
+          "Eddy Lin",
+          "Sure thing, Isabella. Let\u2019s take stock of all the candles and heart-shaped decorations to make sure every table has a romantic touch."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Let's also make sure we have enough special Valentine's Day menu items prepared and ready to serve. Could you help me check on that as well, Eddy?"
+        ],
+        [
+          "Eddy Lin",
+          "Of course, Isabella. Let\u2019s start by checking on the Valentine's Day menu items to ensure everything is prepared and ready for tonight."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Eddy. Your help is really appreciated. Let\u2019s also make sure all the drinks and special cocktails are ready to go. Do you mind checking on that as well?"
+        ],
+        [
+          "Eddy Lin",
+          "Absolutely, Isabella. I'll make sure all drinks and special cocktails are ready for tonight. Let\u2019s start by checking on them now."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be wonderful, Eddy. Also, could you please ensure that all music equipment is set up and ready to go for the live performance?"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 43.3,
+          "hunger": 100.0,
+          "fun": 97.3,
+          "hygiene": 45.7,
+          "bladder": 15.3,
+          "social": 40.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcde\ud83d\udc64",
+      "description": "Hailey is meeting with potential podcast guests via video call (initiating the video call with the first potential podcast guest) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 58.3,
+          "hunger": 87.2,
+          "fun": 98.9,
+          "hygiene": 37.1,
+          "bladder": 30.0,
+          "social": 13.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        111,
+        58
+      ],
+      "pronunciatio": "\ud83c\udfcb\ufe0f",
+      "description": "working out in his room until 7:00 pm (lifting weights) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:lifting weight",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 48.7,
+          "hunger": 69.4,
+          "fun": 49.0,
+          "hygiene": 37.1,
+          "bladder": 0.0,
+          "social": 31.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 18:21:00"
+  }
+}

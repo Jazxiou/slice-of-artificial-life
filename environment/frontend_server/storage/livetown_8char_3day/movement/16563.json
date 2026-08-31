@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        19
+      ],
+      "pronunciatio": "\ud83d\ude0c\u2728",
+      "description": "Isabella is taking some time to unwind after closing the cafe. She feels tired but satisfied with how the Valentine\u2019s Day celebration went. She calls Klaus and Eddy to thank them for their help and discuss any final details or feedback from the event (takes a moment to reflect on the day's events and feels content with how everything went) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 5.0,
+          "hunger": 84.9,
+          "fun": 91.8,
+          "hygiene": 76.0,
+          "bladder": 44.1,
+          "social": 20.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus and Maria discussing their plans to meet at Hobbs Cafe to discuss physics concepts related to music theory and brainstorm ideas for Klaus's research paper on gentrification. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Maria, I just finished organizing my bibliography. It feels good to cross that off my list. Do you need any help with your physics topics or want to grab a coffee together?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Klaus! Actually, I was just thinking about some physics concepts involving wave interference and how they might relate to music theory. Would you like to discuss it over coffee while we relax a bit?"
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, Maria! I\u2019d love to hear about how physics concepts connect to music. Let\u2019s grab a coffee and chat about it in more detail at Hobbs Cafe."
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, let's head over then. Maybe we can also brainstorm some more ideas for your research paper while we're there?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds fantastic, Maria. Let\u2019s head to Hobbs Cafe and see if we can find some insights that bridge both your physics ideas and my research on gentrification."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds like a plan, Klaus! I'm excited to see how our different areas of study might intersect. Let\u2019s meet at Hobbs Cafe in about half an hour?"
+        ],
+        [
+          "Klaus Mueller",
+          "Great, see you in half an hour then. I look forward to our discussion at Hobbs Cafe."
+        ],
+        [
+          "Maria Lopez",
+          "Perfect, I'll see you there. Looking forward to our chat!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Maria. I'll be there on time."
+        ],
+        [
+          "Maria Lopez",
+          "Great, I'll see you soon then. Have a good walk to Hobbs Cafe!"
+        ],
+        [
+          "Klaus Mueller",
+          "See you soon, Maria. I'm looking forward to our discussion."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Klaus! I'll be there shortly as well. See you at Hobbs Cafe!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Maria. I'll be heading over now and will see you there."
+        ],
+        [
+          "Maria Lopez",
+          "That's perfect, Klaus. I'll meet you there and we can start brainstorming right away."
+        ],
+        [
+          "Klaus Mueller",
+          "See you soon, Maria. I'll be there in about 20 minutes."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Klaus. I'll be there in about 15 minutes, see you at Hobbs Cafe!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 25.0,
+          "hunger": 79.5,
+          "fun": 21.6,
+          "hygiene": 29.9,
+          "bladder": 0.0,
+          "social": 36.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus and Maria discussing their plans to meet at Hobbs Cafe to discuss physics concepts related to music theory and brainstorm ideas for Klaus's research paper on gentrification. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Maria, I just finished organizing my bibliography. It feels good to cross that off my list. Do you need any help with your physics topics or want to grab a coffee together?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Klaus! Actually, I was just thinking about some physics concepts involving wave interference and how they might relate to music theory. Would you like to discuss it over coffee while we relax a bit?"
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, Maria! I\u2019d love to hear about how physics concepts connect to music. Let\u2019s grab a coffee and chat about it in more detail at Hobbs Cafe."
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, let's head over then. Maybe we can also brainstorm some more ideas for your research paper while we're there?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds fantastic, Maria. Let\u2019s head to Hobbs Cafe and see if we can find some insights that bridge both your physics ideas and my research on gentrification."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds like a plan, Klaus! I'm excited to see how our different areas of study might intersect. Let\u2019s meet at Hobbs Cafe in about half an hour?"
+        ],
+        [
+          "Klaus Mueller",
+          "Great, see you in half an hour then. I look forward to our discussion at Hobbs Cafe."
+        ],
+        [
+          "Maria Lopez",
+          "Perfect, I'll see you there. Looking forward to our chat!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Maria. I'll be there on time."
+        ],
+        [
+          "Maria Lopez",
+          "Great, I'll see you soon then. Have a good walk to Hobbs Cafe!"
+        ],
+        [
+          "Klaus Mueller",
+          "See you soon, Maria. I'm looking forward to our discussion."
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Klaus! I'll be there shortly as well. See you at Hobbs Cafe!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Maria. I'll be heading over now and will see you there."
+        ],
+        [
+          "Maria Lopez",
+          "That's perfect, Klaus. I'll meet you there and we can start brainstorming right away."
+        ],
+        [
+          "Klaus Mueller",
+          "See you soon, Maria. I'll be there in about 20 minutes."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Klaus. I'll be there in about 15 minutes, see you at Hobbs Cafe!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 50.5,
+          "hunger": 89.2,
+          "fun": 100.0,
+          "hygiene": 70.3,
+          "bladder": 30.6,
+          "social": 35.9
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        34,
+        36
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcf2",
+      "description": "Abigail is feeling increasingly lonely and tired as she hasn't heard back from Isabella or Hailey. She decides to take a short walk around her neighborhood in hopes of finding some inspiration and clearing her mind. Despite the cold, she finds that moving (reaching out to Isabella and Hailey via text or social media) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 30.0,
+          "hunger": 100.0,
+          "fun": 93.8,
+          "hygiene": 73.1,
+          "bladder": 37.3,
+          "social": 28.6
+        },
+        "mood": {
+          "family": "fear",
+          "word": "anxious"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "(Tuesday February 14 -- 09:00 PM] Activity: John tidies up his home and prepares for bed, feeling a bit more relaxed after the day's activities but still wishing for company. He considers reaching out to friends (taking a moment to sit down and reflect on his day while considering reaching out to friends for company) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 10.1,
+          "hunger": 90.5,
+          "fun": 100.0,
+          "hygiene": 91.6,
+          "bladder": 80.5,
+          "social": 2.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb6",
+      "description": "preparing for the Valentine\u2019s Day performance at Hobbs Cafe with Isabella Rodriguez (discussing logistics and finalizing song list) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 25.2,
+          "hunger": 99.1,
+          "fun": 96.8,
+          "hygiene": 61.1,
+          "bladder": 9.2,
+          "social": 26.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83d\udcdd",
+      "description": "continues working on her project by drafting an outline of the interactive storytelling tool and planning how to integrate it with co-living spaces. @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.1,
+          "hunger": 99.4,
+          "fun": 94.4,
+          "hygiene": 94.4,
+          "bladder": 87.0,
+          "social": 5.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        116,
+        42
+      ],
+      "pronunciatio": "\ud83c\udf7d\ud83e\udd14",
+      "description": "Wolfgang is feeling a bit more relaxed after his evening workout and plans to prepare dinner. He considers reaching out to Eddy Lin for some social interaction during their usual time slot, as talking with him earlier helped improve his mood. Despite still feeling (considering what to cook for dinner) @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 16.9,
+          "hunger": 100.0,
+          "fun": 0.5,
+          "hygiene": 82.1,
+          "bladder": 58.3,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 22:00:30"
+  }
+}

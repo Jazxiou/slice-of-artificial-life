@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "meeting with Klaus Mueller to finalize setup arrangements for Valentine\u2019s Day. They go over last-minute details and ensure everything is ready for the evening celebration (conversing about Eddy Lin and Isabella Rodriguez coordinating their efforts for setting up and managing an event at Hobbs Cafe on Valentine's Day.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 51.0,
+          "hunger": 98.5,
+          "fun": 46.5,
+          "hygiene": 78.2,
+          "bladder": 4.1,
+          "social": 14.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udc40",
+      "description": "Klaus is returning to the library after lunch. He plans to continue his research on gentrification and prepare for his meeting with Wolfgang Schulz later in the afternoon (reviewing notes from previous meetings with Wolfgang Schulz and other colleagues) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.3,
+          "hunger": 100.0,
+          "fun": 22.6,
+          "hygiene": 89.3,
+          "bladder": 55.9,
+          "social": 19.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        98,
+        46
+      ],
+      "pronunciatio": "\ud83c\udf70\u2615",
+      "description": "studying or planning her streaming schedule (taking a break to have a snack) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.3,
+          "hunger": 100.0,
+          "fun": 54.9,
+          "hygiene": 57.8,
+          "bladder": 0.0,
+          "social": 4.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udcbb",
+      "description": "working on her interactive art project (testing the integration of interactive elements into her art piece) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 72.7,
+          "hunger": 93.3,
+          "fun": 41.9,
+          "hygiene": 69.3,
+          "bladder": 20.6,
+          "social": 17.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83d\udc68\u200d\ud83d\udcbc",
+      "description": "John is interacting with customers and filling prescriptions at Willow Market and Pharmacy. He maintains a friendly demeanor, offering assistance and advice to those who need it (assisting a customer with insurance questions regarding prescription costs) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 40.0,
+          "hunger": 84.2,
+          "fun": 49.6,
+          "hygiene": 86.2,
+          "bladder": 36.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "Eddy is having lunch at Hobbs Cafe (conversing about Eddy Lin and Isabella Rodriguez coordinating their efforts for setting up and managing an event at Hobbs Cafe on Valentine's Day.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 67.8,
+          "hunger": 98.1,
+          "fun": 66.3,
+          "hygiene": 92.3,
+          "bladder": 0.8,
+          "social": 11.3
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        35,
+        26
+      ],
+      "pronunciatio": "\u231b",
+      "description": "waiting to start outlining the structure of an upcoming episode @ <waiting> 35 26",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 82.4,
+          "hunger": 87.2,
+          "fun": 99.9,
+          "hygiene": 85.2,
+          "bladder": 65.8,
+          "social": 1.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        112,
+        22
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udcbb",
+      "description": "Wolfgang is attending an interdisciplinary seminar. He finds these sessions insightful and enjoys discussing chemistry's broader impacts with peers from different academic backgrounds (participating in Q&A session after the first presentation) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 26.4,
+          "hunger": 97.0,
+          "fun": 27.3,
+          "hygiene": 77.2,
+          "bladder": 0.0,
+          "social": 9.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 13:36:00"
+  }
+}

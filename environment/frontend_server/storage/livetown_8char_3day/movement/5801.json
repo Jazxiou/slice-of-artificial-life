@@ -1,0 +1,265 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        23
+      ],
+      "pronunciatio": "\u2764\ufe0f\u2728",
+      "description": "continuing to prepare for the Valentine's Day party by arranging last-minute details and ensuring everything is ready for the evening event (setting up decorations and ambiance to create a romantic atmosphere) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.4,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 52.4,
+          "bladder": 26.1,
+          "social": 34.4
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udd0d",
+      "description": "Klaus is browsing through academic journals online @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 54.4,
+          "hunger": 99.5,
+          "fun": 31.8,
+          "hygiene": 76.7,
+          "bladder": 45.0,
+          "social": 53.0
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        105,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Eddy Lin discussing their respective fields of study, physics and music theory, and planning a coffee meeting to further explore each other's interests. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Eddy, I see you're really into music theory. That sounds fascinating! Are you working on anything specific right now?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Maria! Thanks, I am really diving deep into some contemporary trends right now. It's quite exciting to see how different cultures are influencing each other in music these days. Are you here for a study break or working on something?"
+        ],
+        [
+          "Maria Lopez",
+          "I'm actually here for a study break. I've been working on some physics problems and just needed to recharge a bit. It's great to see what you're up to though, very inspiring!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks Maria! Physics can be quite challenging. I'm working on understanding how different rhythms and melodies interact in modern compositions. Maybe we could grab a coffee later this week to discuss our respective fields further?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like an interesting idea, Eddy! I'd love to learn more about your work in music theory. How about we meet up for coffee this Thursday after my study session at Hobbs Cafe?"
+        ],
+        [
+          "Eddy Lin",
+          "That works for me, Maria. I'll look forward to it! If you need any help with physics problems or just want to take a break from them, feel free to reach out."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Eddy. I'll see you on Thursday then! Have a good day and keep researching those fascinating music trends."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks Maria, I'll be looking forward to our coffee and discussion this Thursday. Have a great day and enjoy your recharge break!"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Eddy! I'll definitely consider reaching out if I need help or just want to chat. Talk to you on Thursday."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 69.4,
+          "hunger": 45.4,
+          "fun": 35.2,
+          "hygiene": 35.2,
+          "bladder": 11.2,
+          "social": 32.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd0d",
+      "description": "working on the animation project for her client (making final adjustments based on test results) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.4,
+          "hunger": 81.6,
+          "fun": 100.0,
+          "hygiene": 52.4,
+          "bladder": 35.9,
+          "social": 21.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        76,
+        50
+      ],
+      "pronunciatio": "\u2728",
+      "description": "John is attending to customers and organizing medications at the pharmacy counter. He also takes a moment to chat with regular customers about their health and any new treatments they might be interested in trying (various tasks including attending to customer inquiries, organizing medications on the shelves) (attending to a customer's medication refill request) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 49.4,
+          "hunger": 100.0,
+          "fun": 26.3,
+          "hygiene": 78.8,
+          "bladder": 26.1,
+          "social": 27.2
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        106,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Eddy Lin discussing their respective fields of study, physics and music theory, and planning a coffee meeting to further explore each other's interests. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Eddy, I see you're really into music theory. That sounds fascinating! Are you working on anything specific right now?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Maria! Thanks, I am really diving deep into some contemporary trends right now. It's quite exciting to see how different cultures are influencing each other in music these days. Are you here for a study break or working on something?"
+        ],
+        [
+          "Maria Lopez",
+          "I'm actually here for a study break. I've been working on some physics problems and just needed to recharge a bit. It's great to see what you're up to though, very inspiring!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks Maria! Physics can be quite challenging. I'm working on understanding how different rhythms and melodies interact in modern compositions. Maybe we could grab a coffee later this week to discuss our respective fields further?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like an interesting idea, Eddy! I'd love to learn more about your work in music theory. How about we meet up for coffee this Thursday after my study session at Hobbs Cafe?"
+        ],
+        [
+          "Eddy Lin",
+          "That works for me, Maria. I'll look forward to it! If you need any help with physics problems or just want to take a break from them, feel free to reach out."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds great, Eddy. I'll see you on Thursday then! Have a good day and keep researching those fascinating music trends."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks Maria, I'll be looking forward to our coffee and discussion this Thursday. Have a great day and enjoy your recharge break!"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks, Eddy! I'll definitely consider reaching out if I need help or just want to chat. Talk to you on Thursday."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 54.4,
+          "hunger": 97.5,
+          "fun": 100.0,
+          "hygiene": 52.4,
+          "bladder": 31.0,
+          "social": 45.7
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd04",
+      "description": "Hailey is writing (editing her previous day's work) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 69.4,
+          "hunger": 98.2,
+          "fun": 100.0,
+          "hygiene": 43.8,
+          "bladder": 45.7,
+          "social": 15.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        116,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6",
+      "description": "studying and working on lab assignments until 4:00 pm (reviewing his chemistry notes) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.9,
+          "hunger": 82.8,
+          "fun": 57.9,
+          "hygiene": 43.8,
+          "bladder": 8.3,
+          "social": 32.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 16:06:50"
+  }
+}

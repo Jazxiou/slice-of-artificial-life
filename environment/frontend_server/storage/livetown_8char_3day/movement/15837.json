@@ -1,0 +1,427 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Isabella Rodriguez discussing plans for Abigail's interactive Valentine's Day art project at Hobbs Cafe, including setup requirements and promotion strategies. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Isabella, it's nice to see you here. I was hoping we could talk about some ideas for my Valentine's Day art project. Do you have a minute?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Of course, Abigail! I'd love to hear about your ideas. Let's find a quiet corner and discuss how we can make it a special part of our Valentine\u2019s celebration."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds perfect. I've been working on this interactive art piece that combines animation and user interaction. It would be amazing to have it up at Hobbs Cafe for Valentine\u2019s Day. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds incredibly innovative, Abigail. I think it would really enhance the atmosphere we're aiming for. How can we support you in setting up and promoting this piece?"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella! I was thinking we could have a setup station where people can interact directly with the art piece and maybe leave messages or drawings for their loved ones. It would also be great if you could help promote it on social media to attract more visitors on Valentine\u2019s Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Abigail! I'll make sure to share your project on our social media platforms and help people understand how they can interact with it. Let\u2019s also set up a small area where visitors can sign up for the event or learn more about the art piece. Do you need any specific materials or assistance from my team?"
+        ],
+        [
+          "Abigail Chen",
+          "That would be fantastic, Isabella. Having your team\u2019s support really helps me focus on creating something unique and engaging for everyone. I'll need a few more details about space requirements by tomorrow if possible, but otherwise, let's plan to meet again next week to go over everything in detail."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works great, Abigail. I'll assign Klaus to assist you and reach out for all the necessary details by tomorrow. Let's touch base next week as well to finalize everything. Sounds good?"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella! I really appreciate your help and support. It means a lot to me. Let\u2019s definitely catch up next week to iron out all the details."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Abigail. I look forward to our next meeting and can't wait to see your art piece come together. Have a wonderful day!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks again, Isabella. I'll make sure to send over any initial sketches or ideas for you and Klaus to review by tomorrow. Looking forward to working together!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds great, Abigail. I'll make sure to check in with Klaus and have him ready for your meeting. Take care and talk to you soon!"
+        ],
+        [
+          "Abigail Chen",
+          "Thank you, Isabella. I'll send Klaus our initial meeting notes and any preparatory materials as well. Looking forward to seeing everything come together on Valentine\u2019s Day!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds great, Abigail. I'll make sure Klaus is well-prepared for your meeting and ready to assist you with any preparations needed. Have a lovely day!"
+        ],
+        [
+          "Abigail Chen",
+          "Isabella, before we wrap up, is there anything specific you need from me by tomorrow for Klaus and the team to start preparations?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Abigail, for tomorrow it would be helpful if you could send over any specific space requirements and initial sketches or ideas so Klaus and I can review them and start organizing accordingly. That way we can make sure everything is ready for your next meeting."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 15.0,
+          "hunger": 81.8,
+          "fun": 93.2,
+          "hygiene": 82.1,
+          "bladder": 58.2,
+          "social": 16.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udca1",
+      "description": "Klaus is meeting with peers for discussion and collaboration about his research paper at the college's study lounge (presenting his hypothesis and seeking feedback from peers) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 35.0,
+          "hunger": 91.6,
+          "fun": 26.9,
+          "hygiene": 35.9,
+          "bladder": 13.1,
+          "social": 37.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        75,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Maria Lopez discussing how physics intersects with music theory, focusing on instrument tuning systems like quarter-comma meantone and just intonation, ahead of their coffee meeting. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hi Maria, I've been working on my composition project here and found your discussions about physics fascinating. Could you share more about how it intersects with music theory?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, Eddy! It's really interesting how physics principles can explain aspects of music like frequency, resonance, and wave patterns. For instance, when you're tuning an instrument, understanding overtone series is crucial. Would you be interested in diving deeper into this during our coffee meeting on Thursday?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds amazing, Maria. I'm really looking forward to it. Could you recommend some readings or resources on how physics influences instrument design and tuning systems?"
+        ],
+        [
+          "Maria Lopez",
+          "Absolutely, Eddy. I can recommend some articles and books that explore those topics in depth. They should give you a good foundation to see how physics shapes the way we perceive sound and music."
+        ],
+        [
+          "Eddy Lin",
+          "That would be fantastic, Maria. I'm particularly interested in lesser-known tuning systems like quarter-comma meantone or just intonation. Could you include some resources on those too?"
+        ],
+        [
+          "Maria Lopez",
+          "Of course, Eddy. I'll send you some links and book references on quarter-comma meantone and just intonation later today so we can discuss them in more detail Thursday. They offer unique insights into how different cultural approaches to tuning affect musical expression."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Maria. I'm really excited to dive into these topics and learn more about how physics can enhance my understanding of music theory and composition. See you on Thursday!"
+        ],
+        [
+          "Maria Lopez",
+          "Great, Eddy! It will be an insightful discussion. Let\u2019s also touch base on any updates or questions you have before Thursday. Have a great day and I'll send those resources soon!"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Maria. Can't wait to chat more about these fascinating topics and see how my composition ideas evolve from this knowledge."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Eddy. I'll make sure to send you everything by tonight so you can review it before our meeting. Enjoy your composition work and talk to you soon!"
+        ],
+        [
+          "Eddy Lin",
+          "Thank you, Maria. I'll look forward to those resources and our meeting this Thursday. It's great connecting over shared interests in physics and music theory."
+        ],
+        [
+          "Maria Lopez",
+          "It was great talking to you, Eddy. I'm looking forward to our coffee session and seeing how we can connect the dots between physics and music theory in even more depth."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks again, Maria. I'll be sure to review everything you send and come prepared for our discussion on Thursday. Enjoy your day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 60.5,
+          "hunger": 100.0,
+          "fun": 60.7,
+          "hygiene": 76.3,
+          "bladder": 44.8,
+          "social": 32.6
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        75,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Isabella Rodriguez discussing plans for Abigail's interactive Valentine's Day art project at Hobbs Cafe, including setup requirements and promotion strategies. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Isabella, it's nice to see you here. I was hoping we could talk about some ideas for my Valentine's Day art project. Do you have a minute?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Of course, Abigail! I'd love to hear about your ideas. Let's find a quiet corner and discuss how we can make it a special part of our Valentine\u2019s celebration."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds perfect. I've been working on this interactive art piece that combines animation and user interaction. It would be amazing to have it up at Hobbs Cafe for Valentine\u2019s Day. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds incredibly innovative, Abigail. I think it would really enhance the atmosphere we're aiming for. How can we support you in setting up and promoting this piece?"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella! I was thinking we could have a setup station where people can interact directly with the art piece and maybe leave messages or drawings for their loved ones. It would also be great if you could help promote it on social media to attract more visitors on Valentine\u2019s Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Abigail! I'll make sure to share your project on our social media platforms and help people understand how they can interact with it. Let\u2019s also set up a small area where visitors can sign up for the event or learn more about the art piece. Do you need any specific materials or assistance from my team?"
+        ],
+        [
+          "Abigail Chen",
+          "That would be fantastic, Isabella. Having your team\u2019s support really helps me focus on creating something unique and engaging for everyone. I'll need a few more details about space requirements by tomorrow if possible, but otherwise, let's plan to meet again next week to go over everything in detail."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works great, Abigail. I'll assign Klaus to assist you and reach out for all the necessary details by tomorrow. Let's touch base next week as well to finalize everything. Sounds good?"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Isabella! I really appreciate your help and support. It means a lot to me. Let\u2019s definitely catch up next week to iron out all the details."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Abigail. I look forward to our next meeting and can't wait to see your art piece come together. Have a wonderful day!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks again, Isabella. I'll make sure to send over any initial sketches or ideas for you and Klaus to review by tomorrow. Looking forward to working together!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds great, Abigail. I'll make sure to check in with Klaus and have him ready for your meeting. Take care and talk to you soon!"
+        ],
+        [
+          "Abigail Chen",
+          "Thank you, Isabella. I'll send Klaus our initial meeting notes and any preparatory materials as well. Looking forward to seeing everything come together on Valentine\u2019s Day!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds great, Abigail. I'll make sure Klaus is well-prepared for your meeting and ready to assist you with any preparations needed. Have a lovely day!"
+        ],
+        [
+          "Abigail Chen",
+          "Isabella, before we wrap up, is there anything specific you need from me by tomorrow for Klaus and the team to start preparations?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Abigail, for tomorrow it would be helpful if you could send over any specific space requirements and initial sketches or ideas so Klaus and I can review them and start organizing accordingly. That way we can make sure everything is ready for your next meeting."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 40.0,
+          "hunger": 100.0,
+          "fun": 97.1,
+          "hygiene": 79.2,
+          "bladder": 51.4,
+          "social": 14.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        89,
+        65
+      ],
+      "pronunciatio": "\ud83d\udcfa\ud83e\udd14",
+      "description": "watching TV at home. He feels a bit better after addressing his urgent needs and talking with friends earlier, but still misses the company of others (sitting down to watch TV, browsing through channels for something interesting to watch, finds a documentary about wildlife and starts watching it, pauses the TV to get a drink of water, resumes watching the documentary, feeling reflective and thinks about calling another friend for a chat, decides against it and continues to watch TV, notices an advertisement break and uses this time to stretch his legs) (decides against it and continues to watch TV) @ the Ville:Lin family's house:common room:shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 20.1,
+          "hunger": 91.6,
+          "fun": 70.6,
+          "hygiene": 97.7,
+          "bladder": 94.6,
+          "social": 10.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        76,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Maria Lopez discussing how physics intersects with music theory, focusing on instrument tuning systems like quarter-comma meantone and just intonation, ahead of their coffee meeting. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hi Maria, I've been working on my composition project here and found your discussions about physics fascinating. Could you share more about how it intersects with music theory?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, Eddy! It's really interesting how physics principles can explain aspects of music like frequency, resonance, and wave patterns. For instance, when you're tuning an instrument, understanding overtone series is crucial. Would you be interested in diving deeper into this during our coffee meeting on Thursday?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds amazing, Maria. I'm really looking forward to it. Could you recommend some readings or resources on how physics influences instrument design and tuning systems?"
+        ],
+        [
+          "Maria Lopez",
+          "Absolutely, Eddy. I can recommend some articles and books that explore those topics in depth. They should give you a good foundation to see how physics shapes the way we perceive sound and music."
+        ],
+        [
+          "Eddy Lin",
+          "That would be fantastic, Maria. I'm particularly interested in lesser-known tuning systems like quarter-comma meantone or just intonation. Could you include some resources on those too?"
+        ],
+        [
+          "Maria Lopez",
+          "Of course, Eddy. I'll send you some links and book references on quarter-comma meantone and just intonation later today so we can discuss them in more detail Thursday. They offer unique insights into how different cultural approaches to tuning affect musical expression."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Maria. I'm really excited to dive into these topics and learn more about how physics can enhance my understanding of music theory and composition. See you on Thursday!"
+        ],
+        [
+          "Maria Lopez",
+          "Great, Eddy! It will be an insightful discussion. Let\u2019s also touch base on any updates or questions you have before Thursday. Have a great day and I'll send those resources soon!"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Maria. Can't wait to chat more about these fascinating topics and see how my composition ideas evolve from this knowledge."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Eddy. I'll make sure to send you everything by tonight so you can review it before our meeting. Enjoy your composition work and talk to you soon!"
+        ],
+        [
+          "Eddy Lin",
+          "Thank you, Maria. I'll look forward to those resources and our meeting this Thursday. It's great connecting over shared interests in physics and music theory."
+        ],
+        [
+          "Maria Lopez",
+          "It was great talking to you, Eddy. I'm looking forward to our coffee session and seeing how we can connect the dots between physics and music theory in even more depth."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks again, Maria. I'll be sure to review everything you send and come prepared for our discussion on Thursday. Enjoy your day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 35.3,
+          "hunger": 100.0,
+          "fun": 98.4,
+          "hygiene": 67.1,
+          "bladder": 23.3,
+          "social": 23.4
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\udecb\ufe0f",
+      "description": "going back to her apartment after a long day of meetings and discussions. She feels mentally stimulated but also physically drained, especially since she's still dealing with the urge to use the bathroom. She decides to take care of this before settling down for the evening (changing into more comfortable clothes) @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 57.2,
+          "hunger": 97.9,
+          "fun": 85.5,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 13.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfcb\ufe0f",
+      "description": "resting and planning to exercise in his room later. He feels a bit better after talking with Eddy Lin earlier but remains tired and needs some downtime (planning out his evening workout routine for the next hour for 10 minutes) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 27.0,
+          "hunger": 88.4,
+          "fun": 8.3,
+          "hygiene": 88.2,
+          "bladder": 72.4,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 19:59:30"
+  }
+}

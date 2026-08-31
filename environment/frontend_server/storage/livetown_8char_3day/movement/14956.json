@@ -1,0 +1,451 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc4d",
+      "description": "handling orders and serving customers. She maintains a friendly demeanor, offering recommendations for Valentine\u2019s Day specials and ensuring everyone feels welcomed and comfortable (engaging with customers to learn about their preferences and making personalized recommendations; checking on tables again to ensure all guests are satisfied and comfortable) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 27.3,
+          "hunger": 96.4,
+          "fun": 91.6,
+          "hygiene": 89.4,
+          "bladder": 75.3,
+          "social": 13.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        74,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Maria Lopez discussing plans to work on Klaus's research paper while enjoying dinner together. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Maria, I saw you were here earlier too. It\u2019s been a busy day for me working on my research paper. Want to grab some dinner and catch up?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, Klaus! I\u2019d love to catch up. And maybe we can work on your research paper a bit too?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Maria. I could use some new perspectives on it anyway."
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, let\u2019s head to a quiet corner and start discussing. I\u2019m excited to see how we can enhance your research paper together!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, let\u2019s find somewhere cozy and settle in. I think your input could really help clarify some of my thoughts."
+        ],
+        [
+          "Maria Lopez",
+          "Great, I\u2019ll go grab us some snacks and coffee too. Let\u2019s make this a productive yet enjoyable night!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. That sounds perfect. I really appreciate your help and company."
+        ],
+        [
+          "Maria Lopez",
+          "Absolutely, I\u2019ll get us some yummy snacks and coffee. How about we start right after?"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Maria. I\u2019ll wait here and we can get started as soon as you\u2019re back."
+        ],
+        [
+          "Maria Lopez",
+          "Sure thing, Klaus! I'll be back in a minute. Can't wait to dive into this together."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. I'll be here when you get back, looking forward to it."
+        ],
+        [
+          "Maria Lopez",
+          "I'll grab something delicious and be right back, Klaus. See you in a moment!"
+        ],
+        [
+          "Klaus Mueller",
+          "Looking forward to our chat and some good food, Maria. Enjoy getting the snacks!"
+        ],
+        [
+          "Maria Lopez",
+          "I just ordered us some delicious pizza and coffee, Klaus. It should be here soon!"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds perfect, Maria. I can't wait to dig into this and enjoy some good food too."
+        ],
+        [
+          "Maria Lopez",
+          "The pizza and coffee just arrived, Klaus! Let's head to that quiet corner now and get started."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 47.3,
+          "hunger": 89.6,
+          "fun": 30.4,
+          "hygiene": 43.3,
+          "bladder": 30.2,
+          "social": 22.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Maria Lopez discussing plans to work on Klaus's research paper while enjoying dinner together. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Maria, I saw you were here earlier too. It\u2019s been a busy day for me working on my research paper. Want to grab some dinner and catch up?"
+        ],
+        [
+          "Maria Lopez",
+          "Sure, Klaus! I\u2019d love to catch up. And maybe we can work on your research paper a bit too?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great, Maria. I could use some new perspectives on it anyway."
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, let\u2019s head to a quiet corner and start discussing. I\u2019m excited to see how we can enhance your research paper together!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, let\u2019s find somewhere cozy and settle in. I think your input could really help clarify some of my thoughts."
+        ],
+        [
+          "Maria Lopez",
+          "Great, I\u2019ll go grab us some snacks and coffee too. Let\u2019s make this a productive yet enjoyable night!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. That sounds perfect. I really appreciate your help and company."
+        ],
+        [
+          "Maria Lopez",
+          "Absolutely, I\u2019ll get us some yummy snacks and coffee. How about we start right after?"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds like a plan, Maria. I\u2019ll wait here and we can get started as soon as you\u2019re back."
+        ],
+        [
+          "Maria Lopez",
+          "Sure thing, Klaus! I'll be back in a minute. Can't wait to dive into this together."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. I'll be here when you get back, looking forward to it."
+        ],
+        [
+          "Maria Lopez",
+          "I'll grab something delicious and be right back, Klaus. See you in a moment!"
+        ],
+        [
+          "Klaus Mueller",
+          "Looking forward to our chat and some good food, Maria. Enjoy getting the snacks!"
+        ],
+        [
+          "Maria Lopez",
+          "I just ordered us some delicious pizza and coffee, Klaus. It should be here soon!"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds perfect, Maria. I can't wait to dig into this and enjoy some good food too."
+        ],
+        [
+          "Maria Lopez",
+          "The pizza and coffee just arrived, Klaus! Let's head to that quiet corner now and get started."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 72.8,
+          "hunger": 100.0,
+          "fun": 59.0,
+          "hygiene": 83.7,
+          "bladder": 61.9,
+          "social": 25.4
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\u23f0\ud83d\udce7",
+      "description": "waiting for a response from Isabella @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 52.3,
+          "hunger": 91.9,
+          "fun": 99.6,
+          "hygiene": 86.5,
+          "bladder": 68.5,
+          "social": 19.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        84,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about natural supplements for stress and sleep management, as well as plans to meet up next week to discuss experiences and explore creative living spaces. @ <persona> Hailey Johnson",
+      "chat": [
+        [
+          "Hailey Johnson",
+          "Hi John, I hope you had a good day. Is there anything interesting in your inventory that you're excited about?"
+        ],
+        [
+          "John Lin",
+          "Hi Hailey, thanks for asking! Actually, there are some new natural supplements that just came in today. They're supposed to help manage stress and sleep better. I was curious about them myself since they seem quite popular lately."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds interesting, John. With my schedule, I often struggle to get enough sleep. Have you tried them yourself?"
+        ],
+        [
+          "John Lin",
+          "Not yet, Hailey. I was planning to try them out soon since they caught my attention too. Have you heard any good reviews about similar supplements?"
+        ],
+        [
+          "Hailey Johnson",
+          "I haven't tried these particular ones, but I've been thinking about trying something to help with my sleep. Maybe we could share our experiences once you give them a try?"
+        ],
+        [
+          "John Lin",
+          "That sounds like a great idea, Hailey. I'll start taking them and let you know how it goes. Maybe we can catch up over coffee sometime to discuss?"
+        ],
+        [
+          "Hailey Johnson",
+          "That would be great, John. Let\u2019s plan to meet up next week sometime. In the meantime, if you need any recommendations for books or stories about creative living spaces, I'd love to share my thoughts."
+        ],
+        [
+          "John Lin",
+          "Sure, Hailey, that sounds like a wonderful plan. I'd really appreciate your advice on creative living spaces too. Maybe we can find some cozy spots for our coffee meet-up."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds perfect, John. I'll start looking for some good spots that fit our discussion theme. Maybe we can also touch base on your supplement experiences before we meet?"
+        ],
+        [
+          "John Lin",
+          "That sounds fantastic, Hailey. I look forward to our chat and exploring those cozy spots together. And yes, I will definitely update you on how the supplements are working for me."
+        ],
+        [
+          "Hailey Johnson",
+          "Sounds great, John. Let\u2019s aim for mid-week next week and I\u2019ll keep an eye out for good spots to meet. Looking forward to hearing about your supplement experience and catching up properly."
+        ],
+        [
+          "John Lin",
+          "Thanks, Hailey. That works well for me. I'll start on the supplements and keep notes of my progress. Looking forward to our chat next week. Have a great evening!"
+        ],
+        [
+          "Hailey Johnson",
+          "Sounds good, John. Take care and have a restful evening while you try out the new supplements."
+        ],
+        [
+          "John Lin",
+          "Thanks again, Hailey. I'll definitely keep you updated on how things go with the supplements and look forward to our meeting next week."
+        ],
+        [
+          "Hailey Johnson",
+          "Sure, John. I'll be looking forward to hearing about your progress with the supplements and our meeting spot next week. Take care!"
+        ],
+        [
+          "John Lin",
+          "It was nice chatting with you, Hailey. I appreciate your interest and support. Have a great evening!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 30.2,
+          "hunger": 96.8,
+          "fun": 57.9,
+          "hygiene": 98.6,
+          "bladder": 97.1,
+          "social": 2.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        73,
+        19
+      ],
+      "pronunciatio": "\ud83c\udf70\u2615\ufe0f",
+      "description": "working on his composition project at Hobbs Cafe. He focuses intently, taking breaks to grab a snack and coffee (takes a break to grab a snack and coffee) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 47.5,
+          "hunger": 100.0,
+          "fun": 99.6,
+          "hygiene": 74.5,
+          "bladder": 40.4,
+          "social": 16.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        86,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about natural supplements for stress and sleep management, as well as plans to meet up next week to discuss experiences and explore creative living spaces. @ <persona> John Lin",
+      "chat": [
+        [
+          "Hailey Johnson",
+          "Hi John, I hope you had a good day. Is there anything interesting in your inventory that you're excited about?"
+        ],
+        [
+          "John Lin",
+          "Hi Hailey, thanks for asking! Actually, there are some new natural supplements that just came in today. They're supposed to help manage stress and sleep better. I was curious about them myself since they seem quite popular lately."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds interesting, John. With my schedule, I often struggle to get enough sleep. Have you tried them yourself?"
+        ],
+        [
+          "John Lin",
+          "Not yet, Hailey. I was planning to try them out soon since they caught my attention too. Have you heard any good reviews about similar supplements?"
+        ],
+        [
+          "Hailey Johnson",
+          "I haven't tried these particular ones, but I've been thinking about trying something to help with my sleep. Maybe we could share our experiences once you give them a try?"
+        ],
+        [
+          "John Lin",
+          "That sounds like a great idea, Hailey. I'll start taking them and let you know how it goes. Maybe we can catch up over coffee sometime to discuss?"
+        ],
+        [
+          "Hailey Johnson",
+          "That would be great, John. Let\u2019s plan to meet up next week sometime. In the meantime, if you need any recommendations for books or stories about creative living spaces, I'd love to share my thoughts."
+        ],
+        [
+          "John Lin",
+          "Sure, Hailey, that sounds like a wonderful plan. I'd really appreciate your advice on creative living spaces too. Maybe we can find some cozy spots for our coffee meet-up."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds perfect, John. I'll start looking for some good spots that fit our discussion theme. Maybe we can also touch base on your supplement experiences before we meet?"
+        ],
+        [
+          "John Lin",
+          "That sounds fantastic, Hailey. I look forward to our chat and exploring those cozy spots together. And yes, I will definitely update you on how the supplements are working for me."
+        ],
+        [
+          "Hailey Johnson",
+          "Sounds great, John. Let\u2019s aim for mid-week next week and I\u2019ll keep an eye out for good spots to meet. Looking forward to hearing about your supplement experience and catching up properly."
+        ],
+        [
+          "John Lin",
+          "Thanks, Hailey. That works well for me. I'll start on the supplements and keep notes of my progress. Looking forward to our chat next week. Have a great evening!"
+        ],
+        [
+          "Hailey Johnson",
+          "Sounds good, John. Take care and have a restful evening while you try out the new supplements."
+        ],
+        [
+          "John Lin",
+          "Thanks again, Hailey. I'll definitely keep you updated on how things go with the supplements and look forward to our meeting next week."
+        ],
+        [
+          "Hailey Johnson",
+          "Sure, John. I'll be looking forward to hearing about your progress with the supplements and our meeting spot next week. Take care!"
+        ],
+        [
+          "John Lin",
+          "It was nice chatting with you, Hailey. I appreciate your interest and support. Have a great evening!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 63.8,
+          "hunger": 100.0,
+          "fun": 95.3,
+          "hygiene": 80.9,
+          "bladder": 55.8,
+          "social": 14.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udde3",
+      "description": "resuming his afternoon study session on chemistry. He decides to take a short break after lunch to address his feelings of loneliness and tiredness by reaching out to Eddy Lin via text or call for some social interaction (taking notes during his conversation with Eddy Lin) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 39.2,
+          "hunger": 100.0,
+          "fun": 0.0,
+          "hygiene": 95.5,
+          "bladder": 89.5,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 17:32:40"
+  }
+}

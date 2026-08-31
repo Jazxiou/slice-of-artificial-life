@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        19
+      ],
+      "pronunciatio": "\ud83d\udc4d\ud83d\udd27",
+      "description": "opening Hobbs Cafe for the Valentine\u2019s Day celebration. She greets her first customers with warmth and enthusiasm, setting a welcoming tone for the day (checking that all equipment is functioning properly) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.9,
+          "hunger": 99.1,
+          "fun": 67.4,
+          "hygiene": 64.2,
+          "bladder": 26.4,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        108,
+        42
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Wolfgang Schulz conversing about planning their meeting to exchange ideas on research and coursework management, including preparation and scheduling. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hi Wolfgang, I hope you don't mind me saying this, but it looks like you're really into your studies. I'm Klaus Mueller by the way, working on my research paper about gentrification. Maybe we could chat sometime and exchange some ideas?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hello Klaus, nice to meet you. I appreciate the offer, that sounds great. Let\u2019s plan to meet up after lunch when we both have some free time to exchange ideas and notes."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Wolfgang. I'm looking forward to it. In the meantime, if you have any tips on managing time for research and coursework, I\u2019d love to hear them."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sure, Klaus. I find it helpful to create a detailed schedule that includes specific time blocks for different tasks like studying and researching. This way, you can ensure you're making progress on everything without feeling overwhelmed."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a smart approach, Wolfgang. I'll definitely give that a try. Thanks for sharing! Maybe we can touch base after lunch to see if you have any more insights to share?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Absolutely, Klaus. Let\u2019s aim to meet up around 2 pm after lunch. I\u2019ll bring some notes and ideas I\u2019ve gathered this morning for our discussion."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, 2 pm works for me. See you then!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I'll see you at 2 pm then. Have a great day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks again, Wolfgang. I'm really looking forward to our meeting this afternoon."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Looking forward to our discussion as well, Klaus. Have a productive day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Wolfgang. I'll be prepared with some points for discussion too."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds great, Klaus. I'll make sure to have some specific examples and strategies ready for our meeting. Looking forward to it!"
+        ],
+        [
+          "Klaus Mueller",
+          "That\u2019s perfect, Wolfgang. I\u2019ll review my schedule and notes before our meeting to make sure we can have a productive discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I'll review my notes as well and bring along any relevant materials for our discussion at 2 pm."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds perfect, Wolfgang. I'll make sure to have my notes ready and some questions prepared for our discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I'll be looking forward to our discussion and hope we can both gain some valuable insights from each other."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 93.9,
+          "hunger": 78.2,
+          "fun": 44.6,
+          "hygiene": 54.1,
+          "bladder": 26.6,
+          "social": 8.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 0.0,
+          "fun": 67.9,
+          "hygiene": 0.0,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        40,
+        21
+      ],
+      "pronunciatio": "\ud83d\udecf\ud83d\udebd",
+      "description": "waking up and completing her morning routine. She feels the urgent need to use the bathroom but tries to finish getting ready first (getting out of bed and heading to the bathroom to use the toilet urgently) @ the Ville:artist's co-living space:Abigail Chen's bathroom:toilet",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 98.9,
+          "hunger": 38.7,
+          "fun": 46.7,
+          "hygiene": 26.4,
+          "bladder": 43.3,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        93,
+        66
+      ],
+      "pronunciatio": "\u2705\ud83c\udfc3\u200d",
+      "description": "preparing breakfast and reviewing his schedule for the day. He feels a bit restless due to his urgent need for the bathroom but tries to focus on getting ready (finishing up any remaining tasks before heading out) @ the Ville:Lin family's house:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 75.4,
+          "hunger": 100.0,
+          "fun": 0.5,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        95,
+        74
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcdd",
+      "description": "[ (conversing about Eddy needing to use the bathroom and rescheduling their chat later.) (reviewing notes for upcoming classes) @ the Ville:Lin family's house:Eddy Lin's bedroom:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 94.2,
+          "hunger": 50.9,
+          "fun": 65.7,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 1.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:artist's co-living space:Hailey Johnson's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 15.0,
+          "fun": 59.1,
+          "hygiene": 75.3,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        108,
+        41
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Wolfgang Schulz conversing about planning their meeting to exchange ideas on research and coursework management, including preparation and scheduling. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hi Wolfgang, I hope you don't mind me saying this, but it looks like you're really into your studies. I'm Klaus Mueller by the way, working on my research paper about gentrification. Maybe we could chat sometime and exchange some ideas?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hello Klaus, nice to meet you. I appreciate the offer, that sounds great. Let\u2019s plan to meet up after lunch when we both have some free time to exchange ideas and notes."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Wolfgang. I'm looking forward to it. In the meantime, if you have any tips on managing time for research and coursework, I\u2019d love to hear them."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sure, Klaus. I find it helpful to create a detailed schedule that includes specific time blocks for different tasks like studying and researching. This way, you can ensure you're making progress on everything without feeling overwhelmed."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a smart approach, Wolfgang. I'll definitely give that a try. Thanks for sharing! Maybe we can touch base after lunch to see if you have any more insights to share?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Absolutely, Klaus. Let\u2019s aim to meet up around 2 pm after lunch. I\u2019ll bring some notes and ideas I\u2019ve gathered this morning for our discussion."
+        ],
+        [
+          "Klaus Mueller",
+          "Great, 2 pm works for me. See you then!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I'll see you at 2 pm then. Have a great day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks again, Wolfgang. I'm really looking forward to our meeting this afternoon."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Looking forward to our discussion as well, Klaus. Have a productive day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Wolfgang. I'll be prepared with some points for discussion too."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds great, Klaus. I'll make sure to have some specific examples and strategies ready for our meeting. Looking forward to it!"
+        ],
+        [
+          "Klaus Mueller",
+          "That\u2019s perfect, Wolfgang. I\u2019ll review my schedule and notes before our meeting to make sure we can have a productive discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I'll review my notes as well and bring along any relevant materials for our discussion at 2 pm."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds perfect, Wolfgang. I'll make sure to have my notes ready and some questions prepared for our discussion."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I'll be looking forward to our discussion and hope we can both gain some valuable insights from each other."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 68.3,
+          "hunger": 43.9,
+          "fun": 3.2,
+          "hygiene": 99.4,
+          "bladder": 47.9,
+          "social": 2.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 08:13:00"
+  }
+}

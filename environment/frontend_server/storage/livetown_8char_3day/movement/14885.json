@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcb0\ud83d\udcb3",
+      "description": "handling orders and serving customers. She maintains a friendly demeanor, offering recommendations for Valentine\u2019s Day specials and ensuring everyone feels welcomed and comfortable (handling another customer's payment and providing them with their receipt or change; taking an order from a new customer entering the cafe; preparing another set of orders while ensuring previous customers are still satisfied) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 28.3,
+          "hunger": 97.6,
+          "fun": 92.4,
+          "hygiene": 90.0,
+          "bladder": 76.7,
+          "social": 13.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd04",
+      "description": "Klaus is working on his research paper in the library (revising earlier sections of the paper for coherence) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 48.3,
+          "hunger": 77.9,
+          "fun": 31.2,
+          "hygiene": 43.9,
+          "bladder": 31.6,
+          "social": 22.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\u2615\ud83d\udcac",
+      "description": "Maria is continuing her visit at Hobbs Cafe, hoping to meet up with friends or peers for a study session or casual conversation. She feels more energized after her morning routine but still misses the companionship of others and hopes to connect with someone during (discussing upcoming assignments and coursework with Isabella Rodriguez while enjoying coffee together) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 73.8,
+          "hunger": 100.0,
+          "fun": 59.8,
+          "hygiene": 84.3,
+          "bladder": 63.3,
+          "social": 24.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb6",
+      "description": "revisiting previous parts of her project to ensure consistency with the new additions (conversing about Abigail Chen and Eddy Lin discussing how to integrate interactive technology into Eddy's live music performance at Isabella's cafe for Valentine\u2019s Day.) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.3,
+          "hunger": 93.1,
+          "fun": 100.0,
+          "hygiene": 87.1,
+          "bladder": 69.9,
+          "social": 20.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        86,
+        49
+      ],
+      "pronunciatio": "\ud83d\udce6\u2705",
+      "description": "(Tuesday February 14 -- 05:00 PM] Activity: John closes the pharmacy counter and locks up the store, preparing to head home. He feels a mix of relief and exhaustion as he wraps up his day at work (organizing the inventory for any new deliveries or orders needed) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 29.7,
+          "hunger": 92.3,
+          "fun": 58.7,
+          "hygiene": 99.2,
+          "bladder": 98.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfb6",
+      "description": "working on his composition project at Hobbs Cafe. He focuses intently, taking breaks to grab a snack and coffee (conversing about Abigail Chen and Eddy Lin discussing how to integrate interactive technology into Eddy's live music performance at Isabella's cafe for Valentine\u2019s Day.) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 48.5,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 75.1,
+          "bladder": 41.8,
+          "social": 17.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        67,
+        44
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "shopping for groceries to prepare dinner. She feels a little better after her meetings but still wishes she had someone to talk to about her day (walking to the grocery store) @ the Ville:Harvey Oak Supply Store:supply store:behind the supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.3,
+          "hunger": 100.0,
+          "fun": 96.1,
+          "hygiene": 81.5,
+          "bladder": 56.7,
+          "social": 12.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        62
+      ],
+      "pronunciatio": "\ud83d\udcde\ud83d\udcda",
+      "description": "resuming his afternoon study session on chemistry. He decides to take a short break after lunch to address his feelings of loneliness and tiredness by reaching out to Eddy Lin via text or call for some social interaction (discussing chemistry concepts with Eddy Lin over the phone) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 40.2,
+          "hunger": 93.9,
+          "fun": 0.0,
+          "hygiene": 96.1,
+          "bladder": 90.9,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 17:20:50"
+  }
+}

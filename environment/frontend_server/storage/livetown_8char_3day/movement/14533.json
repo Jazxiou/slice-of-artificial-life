@@ -1,0 +1,451 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin performing live music at Hobbs Cafe for Valentine\u2019s Day, including setup requirements and song suggestions from Isabella Rodriguez. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Eddy, I hope you're enjoying your time here at Hobbs Cafe. We're planning a special Valentine\u2019s Day celebration today, and we'd love to have live music if you're interested in performing between 5 and 7 pm."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Isabella! I'd love to play some music for Valentine\u2019s Day. What kind of setup will you need me to bring?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "We've got a small stage area set up already, so you just need to bring your equipment. We'll have a nice microphone and speakers ready for you. Let me know if there\u2019s anything specific you think we should prepare."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I'll make sure to bring my guitar and some extra cables just in case. Do you have any particular songs or genres in mind for today\u2019s event?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "We're aiming for something romantic and relaxing, so maybe some acoustic love songs or soft melodies would fit well. How does that sound to you?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds perfect. I can definitely put together a setlist that'll fit the vibe nicely. Looking forward to contributing to the celebration!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Eddy! Your music is going to make today extra special. Don't hesitate to reach out if you need anything before then."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I'll arrive early to set up and make sure everything goes smoothly. See you later this afternoon!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks again, Eddy. I can't wait to hear your performance this evening. Have a great day!"
+        ],
+        [
+          "Eddy Lin",
+          "I'm glad I can be part of this event, Isabella. It means a lot to contribute and make people\u2019s Valentine\u2019s Day special. See you at 5 pm!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'm sure your contribution will be wonderful, Eddy. Thanks again for coming to play at Hobbs Cafe today."
+        ],
+        [
+          "Eddy Lin",
+          "I'll do my best to make sure everyone has a great time. See you later, Isabella!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Feel free to use the space however you need, Eddy. If there\u2019s anything else I can assist you with before your performance, please let me know."
+        ],
+        [
+          "Eddy Lin",
+          "I appreciate your support, Isabella. I'll make sure to coordinate with you before setting up and during my performance if anything comes up."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That\u2019s wonderful to hear, Eddy. I\u2019ll make sure everything is ready for you when you arrive this afternoon. Enjoy your work on your composition project until then!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I'll be sure to get everything ready and touch base with you before my set. Have a great Valentine\u2019s Day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 33.2,
+          "hunger": 98.3,
+          "fun": 89.6,
+          "hygiene": 92.9,
+          "bladder": 83.5,
+          "social": 5.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        122,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udc65",
+      "description": "Klaus is working on his research paper in the library (integrating feedback from peers) @ the Ville:Oak Hill College:library:library table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.2,
+          "hunger": 83.8,
+          "fun": 35.1,
+          "hygiene": 29.6,
+          "bladder": 0.0,
+          "social": 25.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Abigail Chen discussing potential collaboration on an interactive event combining elements of gaming and art for Valentine\u2019s Day, including sharing ideas and meeting to brainstorm further. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Abigail! I noticed you're working on some interesting projects here. I'm Maria by the way, and I'm really into interactive storytelling for my gaming streams. Do you think there might be ways we could collaborate or share ideas?"
+        ],
+        [
+          "Abigail Chen",
+          "Hi Maria, it's great to meet you! I'm actually working on an interactive art piece for Valentine's Day. Your background in gaming sounds fascinating. Perhaps we could exchange some insights on how technology can enhance storytelling through different mediums?"
+        ],
+        [
+          "Maria Lopez",
+          "That would be fantastic, Abigail! Could you tell me more about your interactive art piece and how you envision using technology to enhance it?"
+        ],
+        [
+          "Abigail Chen",
+          "Sure, Maria! My interactive art piece for Valentine's Day involves audience participation through digital tools. I'm using a combination of projection mapping and real-time user input to create an immersive experience. The idea is to make the viewer part of the artwork itself."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds amazing, Abigail! I'm really interested in how we can use technology to make storytelling more engaging. Do you think there could be a way for us to combine elements of interactive art and gaming to create something unique for Valentine's Day?"
+        ],
+        [
+          "Abigail Chen",
+          "I think there's huge potential, Maria. What if we could create an interactive experience where viewers can influence the storyline and visuals in real-time, similar to how players interact in games?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like an incredible idea, Abigail! We could create an event where people can experience a blend of interactive art and gaming. How about we brainstorm some more on this and maybe start planning something together for Valentine\u2019s Day?"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds fantastic, Maria. Let\u2019s start by scheduling a time to discuss this further and maybe sketch out some initial ideas for our collaborative project."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Abigail. How about we meet up next week sometime to dive deeper into planning our interactive event for Valentine\u2019s Day? I can bring some ideas from my gaming side and you can share more about your art techniques."
+        ],
+        [
+          "Abigail Chen",
+          "That works for me, Maria. How about we meet up at Hobbs Cafe next Wednesday around 4 PM to brainstorm more on our collaborative project?"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds perfect, Abigail! I'm really excited about this collaboration. See you next Wednesday at 4 PM then!"
+        ],
+        [
+          "Abigail Chen",
+          "Great, I'm looking forward to it too, Maria! Let\u2019s make sure to bring our best ideas and maybe some sketches or prototypes if possible. See you next Wednesday!"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds wonderful, Abigail. I'll start thinking about some initial ideas and maybe even prepare a rough sketch or concept for our interactive event. See you next Wednesday at 4 PM!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Maria! I'll come prepared to share my thoughts on interactive art and bring some initial sketches for our collaborative project. Looking forward to seeing your gaming ideas too!"
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, Abigail! Let's make sure to utilize our respective expertise to create something truly special for Valentine\u2019s Day. I can't wait to see how we blend interactive art and gaming."
+        ],
+        [
+          "Abigail Chen",
+          "Before we part ways today, Maria, do you have any favorite interactive art or gaming experiences that inspire your work and could potentially spark some ideas for our Valentine\u2019s Day project?"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 78.7,
+          "hunger": 99.0,
+          "fun": 50.2,
+          "hygiene": 87.2,
+          "bladder": 70.1,
+          "social": 10.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        74,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Abigail Chen discussing potential collaboration on an interactive event combining elements of gaming and art for Valentine\u2019s Day, including sharing ideas and meeting to brainstorm further. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hi Abigail! I noticed you're working on some interesting projects here. I'm Maria by the way, and I'm really into interactive storytelling for my gaming streams. Do you think there might be ways we could collaborate or share ideas?"
+        ],
+        [
+          "Abigail Chen",
+          "Hi Maria, it's great to meet you! I'm actually working on an interactive art piece for Valentine's Day. Your background in gaming sounds fascinating. Perhaps we could exchange some insights on how technology can enhance storytelling through different mediums?"
+        ],
+        [
+          "Maria Lopez",
+          "That would be fantastic, Abigail! Could you tell me more about your interactive art piece and how you envision using technology to enhance it?"
+        ],
+        [
+          "Abigail Chen",
+          "Sure, Maria! My interactive art piece for Valentine's Day involves audience participation through digital tools. I'm using a combination of projection mapping and real-time user input to create an immersive experience. The idea is to make the viewer part of the artwork itself."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds amazing, Abigail! I'm really interested in how we can use technology to make storytelling more engaging. Do you think there could be a way for us to combine elements of interactive art and gaming to create something unique for Valentine's Day?"
+        ],
+        [
+          "Abigail Chen",
+          "I think there's huge potential, Maria. What if we could create an interactive experience where viewers can influence the storyline and visuals in real-time, similar to how players interact in games?"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like an incredible idea, Abigail! We could create an event where people can experience a blend of interactive art and gaming. How about we brainstorm some more on this and maybe start planning something together for Valentine\u2019s Day?"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds fantastic, Maria. Let\u2019s start by scheduling a time to discuss this further and maybe sketch out some initial ideas for our collaborative project."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds great, Abigail. How about we meet up next week sometime to dive deeper into planning our interactive event for Valentine\u2019s Day? I can bring some ideas from my gaming side and you can share more about your art techniques."
+        ],
+        [
+          "Abigail Chen",
+          "That works for me, Maria. How about we meet up at Hobbs Cafe next Wednesday around 4 PM to brainstorm more on our collaborative project?"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds perfect, Abigail! I'm really excited about this collaboration. See you next Wednesday at 4 PM then!"
+        ],
+        [
+          "Abigail Chen",
+          "Great, I'm looking forward to it too, Maria! Let\u2019s make sure to bring our best ideas and maybe some sketches or prototypes if possible. See you next Wednesday!"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds wonderful, Abigail. I'll start thinking about some initial ideas and maybe even prepare a rough sketch or concept for our interactive event. See you next Wednesday at 4 PM!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Maria! I'll come prepared to share my thoughts on interactive art and bring some initial sketches for our collaborative project. Looking forward to seeing your gaming ideas too!"
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, Abigail! Let's make sure to utilize our respective expertise to create something truly special for Valentine\u2019s Day. I can't wait to see how we blend interactive art and gaming."
+        ],
+        [
+          "Abigail Chen",
+          "Before we part ways today, Maria, do you have any favorite interactive art or gaming experiences that inspire your work and could potentially spark some ideas for our Valentine\u2019s Day project?"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 58.2,
+          "hunger": 99.0,
+          "fun": 91.5,
+          "hygiene": 90.0,
+          "bladder": 76.8,
+          "social": 0.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        44
+      ],
+      "pronunciatio": "\u23f0\ud83d\ude34",
+      "description": "(Tuesday February 14 -- 04:00 PM] Activity: John continues to assist customers, maintaining his patience and kindness despite feeling increasingly tired. He takes a moment to address his urgent need for the bathroom during a brief lull @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 34.6,
+          "hunger": 98.2,
+          "fun": 62.6,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        75,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin performing live music at Hobbs Cafe for Valentine\u2019s Day, including setup requirements and song suggestions from Isabella Rodriguez. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Eddy, I hope you're enjoying your time here at Hobbs Cafe. We're planning a special Valentine\u2019s Day celebration today, and we'd love to have live music if you're interested in performing between 5 and 7 pm."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Isabella! I'd love to play some music for Valentine\u2019s Day. What kind of setup will you need me to bring?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "We've got a small stage area set up already, so you just need to bring your equipment. We'll have a nice microphone and speakers ready for you. Let me know if there\u2019s anything specific you think we should prepare."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I'll make sure to bring my guitar and some extra cables just in case. Do you have any particular songs or genres in mind for today\u2019s event?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "We're aiming for something romantic and relaxing, so maybe some acoustic love songs or soft melodies would fit well. How does that sound to you?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds perfect. I can definitely put together a setlist that'll fit the vibe nicely. Looking forward to contributing to the celebration!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, Eddy! Your music is going to make today extra special. Don't hesitate to reach out if you need anything before then."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I'll arrive early to set up and make sure everything goes smoothly. See you later this afternoon!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks again, Eddy. I can't wait to hear your performance this evening. Have a great day!"
+        ],
+        [
+          "Eddy Lin",
+          "I'm glad I can be part of this event, Isabella. It means a lot to contribute and make people\u2019s Valentine\u2019s Day special. See you at 5 pm!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I'm sure your contribution will be wonderful, Eddy. Thanks again for coming to play at Hobbs Cafe today."
+        ],
+        [
+          "Eddy Lin",
+          "I'll do my best to make sure everyone has a great time. See you later, Isabella!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Feel free to use the space however you need, Eddy. If there\u2019s anything else I can assist you with before your performance, please let me know."
+        ],
+        [
+          "Eddy Lin",
+          "I appreciate your support, Isabella. I'll make sure to coordinate with you before setting up and during my performance if anything comes up."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That\u2019s wonderful to hear, Eddy. I\u2019ll make sure everything is ready for you when you arrive this afternoon. Enjoy your work on your composition project until then!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Isabella. I'll be sure to get everything ready and touch base with you before my set. Have a great Valentine\u2019s Day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 53.4,
+          "hunger": 98.2,
+          "fun": 100.0,
+          "hygiene": 78.0,
+          "bladder": 48.6,
+          "social": 4.4
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcdd",
+      "description": "meeting with a freelance editor to review her manuscript. They will focus on refining the narrative structure and enhancing character development (discussing specific scenes that need refinement with the editor) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 68.2,
+          "hunger": 95.3,
+          "fun": 100.0,
+          "hygiene": 84.4,
+          "bladder": 63.6,
+          "social": 16.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\udcda",
+      "description": "resuming his afternoon study session on chemistry. Despite feeling a bit tired and lonely, he focuses on his work to maintain his academic rigor. He plans to reach out to Eddy Lin later for some peer support during their usual Q&A session (reading through his chemistry textbook to refresh his memory on key concepts) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 45.1,
+          "hunger": 80.2,
+          "fun": 0.0,
+          "hygiene": 99.0,
+          "bladder": 97.8,
+          "social": 1.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 16:22:10"
+  }
+}

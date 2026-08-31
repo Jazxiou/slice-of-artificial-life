@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddf9",
+      "description": "Isabella is closing Hobbs Cafe for the evening. She thanks her last customers and makes sure everything is clean and organized before locking up (mopping the floor) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 11.1,
+          "hunger": 77.0,
+          "fun": 90.1,
+          "hygiene": 79.7,
+          "bladder": 52.7,
+          "social": 21.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "tired"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        116,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Wolfgang Schulz agreeing to meet at Hobbs Cafe on Friday at 3 PM to discuss how chemistry and sociology intersect regarding gentrification for Klaus's research paper. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hi Wolfgang, I'm Klaus from sociology. We were thinking about how chemistry and sociology intersect regarding gentrification for my research paper. Maybe we could meet at Hobbs Cafe to discuss it sometime?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds interesting, Klaus. I'd love to meet and discuss how our fields can contribute to a better understanding of gentrification. How about this Friday at 3 PM?"
+        ],
+        [
+          "Klaus Mueller",
+          "Great, Friday at 3 PM works for me. I'll see you there, Wolfgang."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Looking forward to it, Klaus. Have a great day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Wolfgang. See you there!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Klaus. Let's definitely exchange some thoughts on how we can merge our knowledge to shed light on gentrification from different angles."
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, let\u2019s make it happen. I think your insights could really enhance my research."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I'm really excited about our upcoming meeting, Klaus. If you have any materials or ideas to share beforehand, feel free to reach out."
+        ],
+        [
+          "Klaus Mueller",
+          "I'll send you an email later this week with some preliminary thoughts and research I've gathered. Thanks again for agreeing to meet, Wolfgang!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds great, Klaus. I'll look forward to your email and our meeting on Friday."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Wolfgang. I'll make sure to send over my thoughts by Wednesday if that works for you."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds perfect, Klaus. I'll be looking forward to your email and our discussion on Friday."
+        ],
+        [
+          "Klaus Mueller",
+          "That works for me, Wolfgang. Have a great day!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I'm looking forward to your email and our meeting on Friday. Have a great day!"
+        ],
+        [
+          "Klaus Mueller",
+          "I'll start putting together my thoughts and send them over by Wednesday. Thanks again, Wolfgang!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I'll be waiting for your email and we can dive deeper into our ideas on Friday."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 31.1,
+          "hunger": 86.8,
+          "fun": 23.7,
+          "hygiene": 33.6,
+          "bladder": 7.6,
+          "social": 37.8
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "Maria is starting her scheduled Twitch streaming session. She feels more energized after her morning routine and has adjusted her plans to spend extra time at Hobbs Cafe earlier in the day, hoping to meet friends and alleviate her loneliness. Now that she's back (waiting to start conversing about Maria Lopez and Abigail Chen discussing plans to collaborate on Valentine\u2019s Day events, including an interactive art piece with gaming elements and an interactive storytelling event, and arranging a meeting at Hobbs Cafe to brainstorm further.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 56.6,
+          "hunger": 96.5,
+          "fun": 80.4,
+          "hygiene": 74.0,
+          "bladder": 39.2,
+          "social": 37.4
+        },
+        "mood": {
+          "family": "joy",
+          "word": "inspired"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        75,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfa8",
+      "description": "Abigail is reflecting on her day so far, feeling satisfied that she has made progress with Hailey and excited about their upcoming meet-up. She decides to send a message to Isabella to update her on the plans (conversing about Abigail Chen and Eddy Lin discussing the integration of interactive art tools, specifically an Audience Engagement Tool, into Eddy's Valentine\u2019s Day performance at Isabella's cafe.) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 36.1,
+          "hunger": 95.3,
+          "fun": 98.7,
+          "hygiene": 76.8,
+          "bladder": 45.9,
+          "social": 33.5
+        },
+        "mood": {
+          "family": "joy",
+          "word": "content"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        67
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "(Tuesday February 14 -- 08:00 PM] Activity: John continues to watch TV and reads some articles about the mayoral election. He feels more relaxed but still wishes for company (watching an interview with another candidate discussing their vision for the city's future) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 16.2,
+          "hunger": 86.8,
+          "fun": 90.3,
+          "hygiene": 95.3,
+          "bladder": 89.1,
+          "social": 7.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udc4c",
+      "description": "working on his composition project at Hobbs Cafe. He focuses intently, taking breaks to grab a snack and coffee (finalizing the piece by adding final touches and preparing for upcoming performances) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 31.3,
+          "hunger": 99.6,
+          "fun": 97.7,
+          "hygiene": 64.8,
+          "bladder": 17.8,
+          "social": 27.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfa7",
+      "description": "working on her project involving co-living artists and interactive storytelling tools at home. Hailey reviews notes from earlier conversations with Abigail, refines ideas, and plans next steps. (outlining the structure of the next episode of her podcast) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.2,
+          "hunger": 93.1,
+          "fun": 82.3,
+          "hygiene": 98.1,
+          "bladder": 95.6,
+          "social": 10.6
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        117,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Wolfgang Schulz agreeing to meet at Hobbs Cafe on Friday at 3 PM to discuss how chemistry and sociology intersect regarding gentrification for Klaus's research paper. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hi Wolfgang, I'm Klaus from sociology. We were thinking about how chemistry and sociology intersect regarding gentrification for my research paper. Maybe we could meet at Hobbs Cafe to discuss it sometime?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds interesting, Klaus. I'd love to meet and discuss how our fields can contribute to a better understanding of gentrification. How about this Friday at 3 PM?"
+        ],
+        [
+          "Klaus Mueller",
+          "Great, Friday at 3 PM works for me. I'll see you there, Wolfgang."
+        ],
+        [
+          "Wolfgang Schulz",
+          "Looking forward to it, Klaus. Have a great day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Wolfgang. See you there!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Thanks, Klaus. Let's definitely exchange some thoughts on how we can merge our knowledge to shed light on gentrification from different angles."
+        ],
+        [
+          "Klaus Mueller",
+          "Sure, let\u2019s make it happen. I think your insights could really enhance my research."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I'm really excited about our upcoming meeting, Klaus. If you have any materials or ideas to share beforehand, feel free to reach out."
+        ],
+        [
+          "Klaus Mueller",
+          "I'll send you an email later this week with some preliminary thoughts and research I've gathered. Thanks again for agreeing to meet, Wolfgang!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds great, Klaus. I'll look forward to your email and our meeting on Friday."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Wolfgang. I'll make sure to send over my thoughts by Wednesday if that works for you."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds perfect, Klaus. I'll be looking forward to your email and our discussion on Friday."
+        ],
+        [
+          "Klaus Mueller",
+          "That works for me, Wolfgang. Have a great day!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I'm looking forward to your email and our meeting on Friday. Have a great day!"
+        ],
+        [
+          "Klaus Mueller",
+          "I'll start putting together my thoughts and send them over by Wednesday. Thanks again, Wolfgang!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Sounds good, Klaus. I'll be waiting for your email and we can dive deeper into our ideas on Friday."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 23.0,
+          "hunger": 83.6,
+          "fun": 5.2,
+          "hygiene": 85.8,
+          "bladder": 66.9,
+          "social": 3.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 20:46:50"
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        73,
+        19
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\udc65",
+      "description": "having a meeting with staff to discuss details about the Valentine's Day party (discusses menu planning with the kitchen staff) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 43.4,
+          "hunger": 99.1,
+          "fun": 100.0,
+          "hygiene": 48.8,
+          "bladder": 17.7,
+          "social": 29.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        48
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Klaus Mueller discussing their plans to meet at 3 PM in the common room to work on optimizing his schedule and balancing research with other commitments, while Maria offers to bring coffee and snacks. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I was just getting ready to start my stream. How was your day? Also, I'm glad we can work on the research paper together tomorrow at Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria, my day was pretty productive. I managed to make some progress on my research paper, thanks for offering help earlier. See you tomorrow at Hobbs Cafe then!"
+        ],
+        [
+          "Maria Lopez",
+          "Great to hear that! I'll be there around 1 PM. By the way, do you need any help setting up your schedule or planning time blocks for research today?"
+        ],
+        [
+          "Klaus Mueller",
+          "That would be really helpful, Maria. I\u2019ve been trying to manage my time better and setting specific goals for each study session."
+        ],
+        [
+          "Maria Lopez",
+          "Sure, Klaus! I can help you figure out how to allocate time for different tasks. Maybe we could also discuss how to balance your research and other commitments like our class assignments and social activities. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a great idea, Maria. Balancing everything is tough, and I think having some guidance from you would really help me stay on track."
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, Klaus! Let\u2019s meet up at 3 PM today in the common room. We can go over your schedule and brainstorm some strategies together. Is that okay for you?"
+        ],
+        [
+          "Klaus Mueller",
+          "That works for me, Maria. I'll see you at 3 PM in the common room then."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Klaus. I'll be here in the common room at 3 PM sharp. Looking forward to helping you out and figuring this all out together."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. I appreciate your support and can't wait to see how we can optimize my schedule together."
+        ],
+        [
+          "Maria Lopez",
+          "I\u2019ll bring some coffee and snacks for us too, Klaus. That way we don\u2019t have to worry about getting something to eat or drink during our meeting."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds perfect, Maria. I\u2019ll make sure to have all my notes and schedule ready for our meeting this afternoon."
+        ],
+        [
+          "Maria Lopez",
+          "Great, see you at 3 PM then. And don't worry about anything else, just focus on bringing your notes and schedule. I\u2019ll take care of everything else."
+        ],
+        [
+          "Klaus Mueller",
+          "That\u2019s wonderful, Maria. I look forward to our meeting and working on strategies that will help me manage my time better."
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, Klaus! See you later then. Have a good evening and don't stress too much about everything."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. I'll be ready and have everything organized for our meeting this afternoon."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 48.4,
+          "hunger": 93.1,
+          "fun": 27.0,
+          "hygiene": 73.1,
+          "bladder": 36.6,
+          "social": 54.7
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "calm"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        119,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Klaus Mueller discussing their plans to meet at 3 PM in the common room to work on optimizing his schedule and balancing research with other commitments, while Maria offers to bring coffee and snacks. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I was just getting ready to start my stream. How was your day? Also, I'm glad we can work on the research paper together tomorrow at Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria, my day was pretty productive. I managed to make some progress on my research paper, thanks for offering help earlier. See you tomorrow at Hobbs Cafe then!"
+        ],
+        [
+          "Maria Lopez",
+          "Great to hear that! I'll be there around 1 PM. By the way, do you need any help setting up your schedule or planning time blocks for research today?"
+        ],
+        [
+          "Klaus Mueller",
+          "That would be really helpful, Maria. I\u2019ve been trying to manage my time better and setting specific goals for each study session."
+        ],
+        [
+          "Maria Lopez",
+          "Sure, Klaus! I can help you figure out how to allocate time for different tasks. Maybe we could also discuss how to balance your research and other commitments like our class assignments and social activities. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a great idea, Maria. Balancing everything is tough, and I think having some guidance from you would really help me stay on track."
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, Klaus! Let\u2019s meet up at 3 PM today in the common room. We can go over your schedule and brainstorm some strategies together. Is that okay for you?"
+        ],
+        [
+          "Klaus Mueller",
+          "That works for me, Maria. I'll see you at 3 PM in the common room then."
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Klaus. I'll be here in the common room at 3 PM sharp. Looking forward to helping you out and figuring this all out together."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. I appreciate your support and can't wait to see how we can optimize my schedule together."
+        ],
+        [
+          "Maria Lopez",
+          "I\u2019ll bring some coffee and snacks for us too, Klaus. That way we don\u2019t have to worry about getting something to eat or drink during our meeting."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds perfect, Maria. I\u2019ll make sure to have all my notes and schedule ready for our meeting this afternoon."
+        ],
+        [
+          "Maria Lopez",
+          "Great, see you at 3 PM then. And don't worry about anything else, just focus on bringing your notes and schedule. I\u2019ll take care of everything else."
+        ],
+        [
+          "Klaus Mueller",
+          "That\u2019s wonderful, Maria. I look forward to our meeting and working on strategies that will help me manage my time better."
+        ],
+        [
+          "Maria Lopez",
+          "Awesome, Klaus! See you later then. Have a good evening and don't stress too much about everything."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. I'll be ready and have everything organized for our meeting this afternoon."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 63.4,
+          "hunger": 47.8,
+          "fun": 49.2,
+          "hygiene": 31.6,
+          "bladder": 2.8,
+          "social": 29.6
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83c\udfa8",
+      "description": "Abigail is experimenting with new interactive art tools and techniques (reviewing different software options for interactive art) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.4,
+          "hunger": 98.9,
+          "fun": 95.3,
+          "hygiene": 48.8,
+          "bladder": 27.5,
+          "social": 16.7
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        85,
+        49
+      ],
+      "pronunciatio": "\ud83d\udce6\u2705",
+      "description": "closing up the pharmacy counter and preparing to end his workday at the Willow Market and Pharmacy. He ensures all medications are properly stored, cleans the workspace, and updates any necessary records before leaving at 5:00 pm (organizing the inventory to ensure everything is accounted for) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 43.4,
+          "hunger": 98.5,
+          "fun": 21.5,
+          "hygiene": 75.2,
+          "bladder": 17.7,
+          "social": 22.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        110,
+        47
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "Eddy is preparing to leave for Isabella's cafe @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 48.4,
+          "hunger": 93.6,
+          "fun": 98.8,
+          "hygiene": 48.8,
+          "bladder": 22.6,
+          "social": 41.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd0d",
+      "description": "Hailey is writing (continuing to write the first draft of the outlined chapter) (editing and refining the written content for clarity and flow) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 63.4,
+          "hunger": 91.0,
+          "fun": 100.0,
+          "hygiene": 40.2,
+          "bladder": 37.3,
+          "social": 10.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        57
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcbb",
+      "description": "studying and working on lab assignments until 5:00 pm (solving practice problems related to the lab assignment) @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.9,
+          "hunger": 75.6,
+          "fun": 53.1,
+          "hygiene": 40.2,
+          "bladder": 0.0,
+          "social": 35.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 17:18:40"
+  }
+}

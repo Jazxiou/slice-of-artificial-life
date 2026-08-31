@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfa8",
+      "description": "meeting with Klaus Mueller to finalize setup arrangements for Valentine\u2019s Day. They go over last-minute details and ensure everything is ready for the evening celebration (conversing about Abigail Chen and Isabella Rodriguez discussing the placement and integration of Abigail's interactive art piece in the cafe for Valentine\u2019s Day, including lighting and sound considerations.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 53.8,
+          "hunger": 98.5,
+          "fun": 48.7,
+          "hygiene": 79.9,
+          "bladder": 8.1,
+          "social": 11.2
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "Klaus is having lunch at Hobbs Cafe. He enjoys a leisurely meal and takes the opportunity to chat with some colleagues about their ongoing projects and recent readings in sociology (chatting with colleagues about their ongoing projects) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 70.1,
+          "hunger": 100.0,
+          "fun": 17.7,
+          "hygiene": 91.0,
+          "bladder": 59.8,
+          "social": 21.9
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        46
+      ],
+      "pronunciatio": "\ud83c\udf5d\ud83e\udd66",
+      "description": "Maria is returning home to have lunch (preparing a simple meal of pasta and vegetables) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 85.1,
+          "hunger": 78.5,
+          "fun": 55.2,
+          "hygiene": 59.5,
+          "bladder": 0.0,
+          "social": 6.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        116,
+        31
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Abigail Chen discussing plans to integrate interactive technology, specifically an Audience Engagement Tool, into Eddy's Valentine\u2019s Day performance at Isabella's cafe. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Eddy, I'm Abigail. I've heard you're working on a performance at Isabella's cafe for Valentine\u2019s Day. I\u2019m part of the planning team and we\u2019re considering integrating some interactive technology to enhance the event. Have you thought about what kind of tech might work well?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Abigail, nice to meet you. I really like the idea of using interactive technology for Valentine\u2019s Day at Isabella's cafe. The Audience Engagement Tool sounds quite innovative and could be a great way to connect with the audience during my performance."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds perfect, Eddy! How about we set up a quick demo after your classes today to see how it works with your guitar? We can find out what features might be best for engaging the audience during your performance."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Abigail. Let\u2019s meet up at 4pm outside Isabella's cafe so we can set everything up and test it out before the actual event. I\u2019m looking forward to seeing how this technology works with my music."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Eddy. I\u2019ll come prepared with my laptop and all necessary equipment to make sure we can test everything smoothly. Looking forward to it!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. I'll bring my guitar and extra cables just in case. And if everything goes well today, we might be able to make a real impact on Valentine\u2019s Day at Isabella's cafe."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds like a plan, Eddy. I'll make sure everything is ready for our test session at 4pm. It\u2019s great to work on such an exciting project together!"
+        ],
+        [
+          "Eddy Lin",
+          "Perfect, Abigail. I\u2019ll see you at 4pm then. If there\u2019s anything else we need to prepare or discuss before that, let me know. It feels great to be part of something so innovative and creative."
+        ],
+        [
+          "Abigail Chen",
+          "I'll make sure everything is set for our test at 4pm. If you have any specific ideas or preferences about how you want to interact with your audience, let me know so we can tailor the setup accordingly."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. I'll think about some specific ideas for interacting with the audience and let you know before our meeting. See you at 4pm!"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Eddy. I'll be thinking about how we can best use this technology to enhance your performance and will bring along any additional software or tools that might help us achieve our goals. Looking forward to seeing how it all comes together!"
+        ],
+        [
+          "Eddy Lin",
+          "Great, Abigail. I'll bring along some sample songs and we can discuss how to best integrate them with the Audience Engagement Tool. See you later!"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds fantastic, Eddy. I'll make sure to bring along any necessary software and tools to help us test out your songs. Let\u2019s aim for a thorough run-through so we can fine-tune the setup before Valentine's Day."
+        ],
+        [
+          "Eddy Lin",
+          "That works for me, Abigail. I'll make sure to bring some of my compositions and we can walk through how they work with the Audience Engagement Tool. See you at 4pm!"
+        ],
+        [
+          "Abigail Chen",
+          "Great, looking forward to our session today and seeing how these tools can enhance your performance. Have a great day until then!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. I'll see you at 4pm then and we can make sure everything is ready for Valentine\u2019s Day. Have a great day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 75.5,
+          "hunger": 96.7,
+          "fun": 44.2,
+          "hygiene": 70.9,
+          "bladder": 24.5,
+          "social": 18.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc69\u200d",
+      "description": "John is interacting with customers and filling prescriptions at Willow Market and Pharmacy. He maintains a friendly demeanor, offering assistance and advice to those who need it (interacting with a regular customer who needs advice on managing chronic conditions) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 42.8,
+          "hunger": 87.6,
+          "fun": 51.8,
+          "hygiene": 87.9,
+          "bladder": 40.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        116,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Abigail Chen discussing plans to integrate interactive technology, specifically an Audience Engagement Tool, into Eddy's Valentine\u2019s Day performance at Isabella's cafe. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hi Eddy, I'm Abigail. I've heard you're working on a performance at Isabella's cafe for Valentine\u2019s Day. I\u2019m part of the planning team and we\u2019re considering integrating some interactive technology to enhance the event. Have you thought about what kind of tech might work well?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Abigail, nice to meet you. I really like the idea of using interactive technology for Valentine\u2019s Day at Isabella's cafe. The Audience Engagement Tool sounds quite innovative and could be a great way to connect with the audience during my performance."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds perfect, Eddy! How about we set up a quick demo after your classes today to see how it works with your guitar? We can find out what features might be best for engaging the audience during your performance."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Abigail. Let\u2019s meet up at 4pm outside Isabella's cafe so we can set everything up and test it out before the actual event. I\u2019m looking forward to seeing how this technology works with my music."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Eddy. I\u2019ll come prepared with my laptop and all necessary equipment to make sure we can test everything smoothly. Looking forward to it!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. I'll bring my guitar and extra cables just in case. And if everything goes well today, we might be able to make a real impact on Valentine\u2019s Day at Isabella's cafe."
+        ],
+        [
+          "Abigail Chen",
+          "Sounds like a plan, Eddy. I'll make sure everything is ready for our test session at 4pm. It\u2019s great to work on such an exciting project together!"
+        ],
+        [
+          "Eddy Lin",
+          "Perfect, Abigail. I\u2019ll see you at 4pm then. If there\u2019s anything else we need to prepare or discuss before that, let me know. It feels great to be part of something so innovative and creative."
+        ],
+        [
+          "Abigail Chen",
+          "I'll make sure everything is set for our test at 4pm. If you have any specific ideas or preferences about how you want to interact with your audience, let me know so we can tailor the setup accordingly."
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. I'll think about some specific ideas for interacting with the audience and let you know before our meeting. See you at 4pm!"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good, Eddy. I'll be thinking about how we can best use this technology to enhance your performance and will bring along any additional software or tools that might help us achieve our goals. Looking forward to seeing how it all comes together!"
+        ],
+        [
+          "Eddy Lin",
+          "Great, Abigail. I'll bring along some sample songs and we can discuss how to best integrate them with the Audience Engagement Tool. See you later!"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds fantastic, Eddy. I'll make sure to bring along any necessary software and tools to help us test out your songs. Let\u2019s aim for a thorough run-through so we can fine-tune the setup before Valentine's Day."
+        ],
+        [
+          "Eddy Lin",
+          "That works for me, Abigail. I'll make sure to bring some of my compositions and we can walk through how they work with the Audience Engagement Tool. See you at 4pm!"
+        ],
+        [
+          "Abigail Chen",
+          "Great, looking forward to our session today and seeing how these tools can enhance your performance. Have a great day until then!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Abigail. I'll see you at 4pm then and we can make sure everything is ready for Valentine\u2019s Day. Have a great day!"
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 70.6,
+          "hunger": 77.3,
+          "fun": 68.6,
+          "hygiene": 94.0,
+          "bladder": 4.8,
+          "social": 6.9
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        40,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcf1\ud83d\udcf0",
+      "description": "Hailey is taking a brief break to make breakfast and relax for a bit (browsing social media or reading news articles briefly) @ the Ville:artist's co-living space:kitchen:toaster",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 85.2,
+          "hunger": 88.7,
+          "fun": 100.0,
+          "hygiene": 86.9,
+          "bladder": 69.8,
+          "social": 4.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udcc5",
+      "description": "having lunch. He enjoys a balanced meal to keep his energy levels up for the rest of the day (conversing about Maria Lopez and Wolfgang Schulz discussing their busy schedules, interests in streaming and studies, and planning a collaboration during Maria's Twitch stream this Friday evening.) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 29.2,
+          "hunger": 100.0,
+          "fun": 29.5,
+          "hygiene": 78.9,
+          "bladder": 0.0,
+          "social": 11.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 13:02:20"
+  }
+}

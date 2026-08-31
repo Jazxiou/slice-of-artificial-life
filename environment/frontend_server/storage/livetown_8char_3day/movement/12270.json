@@ -1,0 +1,321 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udde3\ufe0f",
+      "description": "handling orders and serving customers. She maintains a friendly demeanor, offering recommendations for Valentine\u2019s Day specials and ensuring everyone feels welcomed and comfortable (taking orders from customers and writing them down) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 64.6,
+          "hunger": 99.9,
+          "fun": 59.9,
+          "hygiene": 58.6,
+          "bladder": 13.4,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        101,
+        39
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Klaus Mueller discussing their potential collaboration on a project that combines Eddy's musical composition reflecting gentrification with Klaus's research on the topic, planning to meet at Hobbs Cafe to brainstorm ideas. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Eddy, I noticed you were going over some notes. How's your composition project coming along?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Klaus, yeah things are going well. I'm actually really excited about a potential collaboration we could work on together involving my composition project and your research on gentrification. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds interesting, Eddy. Can you tell me more about how you see our projects intersecting?"
+        ],
+        [
+          "Eddy Lin",
+          "Sure, I've been looking into how music can reflect and respond to changes in communities due to gentrification. I think we could create a piece that captures the essence of these transitions through various musical styles, and perhaps even present it alongside your research findings."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a fascinating approach, Eddy. I think combining your musical interpretation of gentrification\u2019s impact with my research could provide a powerful perspective. Let's definitely plan to meet up this Wednesday afternoon to start brainstorming ideas and see how we can make this project work."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Klaus. I really look forward to diving into this project with you and seeing where our ideas take us. See you at Hobbs Cafe around 3?"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds perfect, Eddy. I\u2019ll be there at 3 sharp. Looking forward to our collaboration."
+        ],
+        [
+          "Eddy Lin",
+          "Great, I'll see you there. Looking forward to our meeting and seeing how we can blend music and sociology in a meaningful way."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Eddy. It\u2019s going to be an exciting collaboration. See you then!"
+        ],
+        [
+          "Eddy Lin",
+          "I think we have a lot to talk about and I'm excited to start planning. See you at Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, let\u2019s make sure to bring some initial ideas and notes so we can get started right away. See you on Wednesday!"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Klaus. I'll gather some thoughts on how my composition can highlight the aspects of gentrification you're researching and bring them to our meeting. See you then!"
+        ],
+        [
+          "Klaus Mueller",
+          "That works for me, Eddy. I'll do the same and bring some initial ideas from my research side to see how we can connect them with your composition project."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a great plan, Klaus. I'll see you at 3 then and let's really dive into this project together. Looking forward to it!"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds fantastic, Eddy. I'll make sure to review my notes and think about how we can best integrate your musical insights with my research on gentrification. See you at 3!"
+        ],
+        [
+          "Eddy Lin",
+          "Cool, let\u2019s both come prepared to share our initial thoughts and sketches. I\u2019ll bring some musical samples too if that works for you."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 84.6,
+          "hunger": 67.0,
+          "fun": 41.4,
+          "hygiene": 48.5,
+          "bladder": 13.5,
+          "social": 9.2
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 100.0,
+          "hunger": 0.0,
+          "fun": 60.4,
+          "hygiene": 0.0,
+          "bladder": 0.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        28
+      ],
+      "pronunciatio": "\ud83d\udc69\u200d\ud83d\udcbb",
+      "description": "working on her animation project. She feels slightly distracted by the need to use the bathroom but tries to focus on her work (working on animating a character's movements for her project) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 89.6,
+          "hunger": 93.5,
+          "fun": 41.7,
+          "hygiene": 100.0,
+          "bladder": 100.0,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        87,
+        47
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83c\udffc\ud83e\udd14",
+      "description": "(Tuesday February 14 -- 10:00 AM] Activity: John is attending to customers at the pharmacy, providing them with medications and advice. He tries to make the process as smooth as possible for each customer (greeting a customer and asking about their needs) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 66.0,
+          "hunger": 93.9,
+          "fun": 24.9,
+          "hygiene": 97.7,
+          "bladder": 94.6,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        108,
+        33
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Klaus Mueller discussing their potential collaboration on a project that combines Eddy's musical composition reflecting gentrification with Klaus's research on the topic, planning to meet at Hobbs Cafe to brainstorm ideas. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Eddy, I noticed you were going over some notes. How's your composition project coming along?"
+        ],
+        [
+          "Eddy Lin",
+          "Hi Klaus, yeah things are going well. I'm actually really excited about a potential collaboration we could work on together involving my composition project and your research on gentrification. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds interesting, Eddy. Can you tell me more about how you see our projects intersecting?"
+        ],
+        [
+          "Eddy Lin",
+          "Sure, I've been looking into how music can reflect and respond to changes in communities due to gentrification. I think we could create a piece that captures the essence of these transitions through various musical styles, and perhaps even present it alongside your research findings."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a fascinating approach, Eddy. I think combining your musical interpretation of gentrification\u2019s impact with my research could provide a powerful perspective. Let's definitely plan to meet up this Wednesday afternoon to start brainstorming ideas and see how we can make this project work."
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great, Klaus. I really look forward to diving into this project with you and seeing where our ideas take us. See you at Hobbs Cafe around 3?"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds perfect, Eddy. I\u2019ll be there at 3 sharp. Looking forward to our collaboration."
+        ],
+        [
+          "Eddy Lin",
+          "Great, I'll see you there. Looking forward to our meeting and seeing how we can blend music and sociology in a meaningful way."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Eddy. It\u2019s going to be an exciting collaboration. See you then!"
+        ],
+        [
+          "Eddy Lin",
+          "I think we have a lot to talk about and I'm excited to start planning. See you at Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, let\u2019s make sure to bring some initial ideas and notes so we can get started right away. See you on Wednesday!"
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good, Klaus. I'll gather some thoughts on how my composition can highlight the aspects of gentrification you're researching and bring them to our meeting. See you then!"
+        ],
+        [
+          "Klaus Mueller",
+          "That works for me, Eddy. I'll do the same and bring some initial ideas from my research side to see how we can connect them with your composition project."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds like a great plan, Klaus. I'll see you at 3 then and let's really dive into this project together. Looking forward to it!"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds fantastic, Eddy. I'll make sure to review my notes and think about how we can best integrate your musical insights with my research on gentrification. See you at 3!"
+        ],
+        [
+          "Eddy Lin",
+          "Cool, let\u2019s both come prepared to share our initial thoughts and sketches. I\u2019ll bring some musical samples too if that works for you."
+        ]
+      ],
+      "world": {
+        "needs": {
+          "sleep": 84.8,
+          "hunger": 39.7,
+          "fun": 72.2,
+          "hygiene": 96.8,
+          "bladder": 92.6,
+          "social": 4.5
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        31,
+        28
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "washing up, getting dressed, and having breakfast. She feels a bit restless due to her need for the bathroom but tries to focus on her morning routine (washing her face and brushing her teeth) @ the Ville:artist's co-living space:Hailey Johnson's bathroom:bathroom sink",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 99.6,
+          "hunger": 9.3,
+          "fun": 51.7,
+          "hygiene": 78.3,
+          "bladder": 16.7,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        112,
+        47
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "taking a short break and grabbing some snacks (deciding what snacks to have) @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 59.0,
+          "hunger": 34.9,
+          "fun": 0.0,
+          "hygiene": 93.8,
+          "bladder": 34.8,
+          "social": 0.0
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 10:05:00"
+  }
+}

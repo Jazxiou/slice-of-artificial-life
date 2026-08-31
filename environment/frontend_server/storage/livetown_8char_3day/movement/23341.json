@@ -1,0 +1,191 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        82,
+        26
+      ],
+      "pronunciatio": "\ud83c\udfb6\ud83d\udccb",
+      "description": "Isabella is ensuring that the live music performance by Eddy Lin is set up between 4:00 pm to 5:00 pm, coordinating with him and setting up sound equipment for a smooth evening (preparing a playlist of background music to play before and after the live performance) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 34.9,
+          "hunger": 98.2,
+          "fun": 56.8,
+          "hygiene": 68.5,
+          "bladder": 0.0,
+          "social": 5.5
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Klaus Mueller": {
+      "movement": [
+        111,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83c\udfe2",
+      "description": "Meeting with Wolfgang Schulz in his office to discuss interdisciplinary approaches from chemistry and sociology related to gentrification. They exchange ideas and insights, focusing on how chemical processes can inform sociological studies of urban development and vice versa @ the Ville:Oak Hill College:classroom:blackboard",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 51.1,
+          "hunger": 84.2,
+          "fun": 17.3,
+          "hygiene": 79.6,
+          "bladder": 33.2,
+          "social": 32.1
+        },
+        "mood": {
+          "family": "neutral",
+          "word": "bored"
+        }
+      }
+    },
+    "Maria Lopez": {
+      "movement": [
+        127,
+        54
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udccb",
+      "description": "Maria is preparing to start streaming or gaming on Twitch from 4:00 PM to 10:00 PM, engaging with her community and collaborating on creative projects like interactive storytelling events (creating a list of topics to discuss during the stream or game session) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 66.2,
+          "hunger": 100.0,
+          "fun": 100.0,
+          "hygiene": 48.1,
+          "bladder": 0.0,
+          "social": 18.7
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83e\udd1d",
+      "description": "meeting with collaborators for a feedback session on her interactive art project (addressing questions and concerns raised by collaborators) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 56.5,
+          "hunger": 92.3,
+          "fun": 42.4,
+          "hygiene": 97.6,
+          "bladder": 94.5,
+          "social": 11.1
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "John Lin": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83d\udd12\ud83d\udeaa",
+      "description": "John is interacting with customers and filling prescriptions at Willow Market and Pharmacy. He maintains a friendly demeanor, offering assistance and advice to those who need it (closing up the pharmacy counter and locking down the store) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 23.8,
+          "hunger": 94.6,
+          "fun": 36.6,
+          "hygiene": 76.5,
+          "bladder": 13.4,
+          "social": 6.8
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Eddy Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83d\udcf1\ud83d\udcac",
+      "description": "Eddy is taking a short break from his studies to use the restroom and grab a snack, feeling tired but needing to recharge before continuing his work on his composition project (checking his phone for messages or calls from friends) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 51.7,
+          "hunger": 100.0,
+          "fun": 85.4,
+          "hygiene": 91.2,
+          "bladder": 100.0,
+          "social": 10.3
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Hailey Johnson": {
+      "movement": [
+        31,
+        42
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "Hailey is taking a short walk in the park near her apartment to clear her mind and seek inspiration (talking to a fellow park-goer about their creative projects) @ the Ville:Johnson Park:park:park garden",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 66.2,
+          "hunger": 69.1,
+          "fun": 100.0,
+          "hygiene": 75.5,
+          "bladder": 43.2,
+          "social": 2.9
+        },
+        "mood": {
+          "family": "sadness",
+          "word": "lonely"
+        }
+      }
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        85,
+        37
+      ],
+      "pronunciatio": "\ud83d\udcaa",
+      "description": "Wolfgang is dedicating this time to strength training and other physical exercises at the gym. He focuses on building endurance and maintaining his fitness level, which is crucial for both his academic performance and athletic pursuits (doing pull-ups to work on back and arm muscles) @ the Ville:Harvey Oak Supply Store:supply store:behind the supply store counter",
+      "chat": null,
+      "world": {
+        "needs": {
+          "sleep": 10.2,
+          "hunger": 77.6,
+          "fun": 14.4,
+          "hygiene": 67.5,
+          "bladder": 0.0,
+          "social": 15.1
+        },
+        "mood": {
+          "family": "disgust",
+          "word": "uncomfortable"
+        }
+      }
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 2023, 16:50:10"
+  }
+}
