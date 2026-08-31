@@ -1,0 +1,711 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 2023, 23:59:50",
+  "curr_tile": [
+    127,
+    46
+  ],
+  "daily_plan_req": "Klaus Mueller goes to the library at Oak Hill College early in the morning, spends his days writing, and eats at Hobbs Cafe.",
+  "name": "Klaus Mueller",
+  "first_name": "Klaus",
+  "last_name": "Mueller",
+  "age": 20,
+  "innate": "kind, inquisitive, passionate",
+  "learned": "Klaus Mueller is a student at Oak Hill College studying sociology. He is passionate about social justice and loves to explore different perspectives.",
+  "currently": "Klaus Mueller began his day by checking emails and messages related to research at 7:00 am, then proceeded to the library at Oak Hill College by 8:00 am for writing and researching until noon. He had lunch from 12:00 pm to 1:00 pm before conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez. His deep commitment to his research is evident as he continues to refine methodologies and expand his network within the affected communities.",
+  "seed_currently": "Klaus Mueller is writing a research paper on the effects of gentrification in low-income communities.",
+  "lifestyle": "Klaus Mueller goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.99,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 85,
+  "importance_ele_n": 43,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "check emails and messages related to research at 8:00 am",
+    "proceed to the library at Oak Hill College by 9:00 am for writing and researching until noon",
+    "have lunch from 12:00 pm to 1:00 pm",
+    "conduct interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm",
+    "continue refining methodologies based on gathered data in the evening",
+    "eat dinner around 5:00 pm",
+    "review and analyze interview notes from 6:00 pm to 7:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine (getting out of bed)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (going to the bathroom to use the toilet and wash his face)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (brushing his teeth)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (drinking a glass of water)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (getting dressed for the day)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (making his bed)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (checking his phone for any urgent messages or notifications)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (preparing a light breakfast of cereal and milk)",
+      15
+    ],
+    [
+      "checking emails and messages related to research (reviewing his inbox for any urgent messages)",
+      5
+    ],
+    [
+      "checking emails and messages related to research (categorizing emails into folders based on urgency and relevance to research)",
+      10
+    ],
+    [
+      "checking emails and messages related to research (responding to quick queries from peers and advisors)",
+      10
+    ],
+    [
+      "checking emails and messages related to research (drafting a detailed response to an advisor's feedback on his latest paper draft)",
+      15
+    ],
+    [
+      "checking emails and messages related to research (scheduling a meeting with his research mentor for later this week)",
+      5
+    ],
+    [
+      "checking emails and messages related to research (organizing notes from previous meetings and emails into a digital folder)",
+      10
+    ],
+    [
+      "checking emails and messages related to research (taking a short break to stretch and hydrate)",
+      5
+    ],
+    [
+      "proceeding to the library at Oak Hill College for writing and researching until noon (walking to the library)",
+      15
+    ],
+    [
+      "proceeding to the library at Oak Hill College for writing and researching until noon (setting up his workspace at the library)",
+      5
+    ],
+    [
+      "proceeding to the library at Oak Hill College for writing and researching until noon (reviewing notes from previous research sessions)",
+      10
+    ],
+    [
+      "proceeding to the library at Oak Hill College for writing and researching until noon (organizing materials for today's work)",
+      5
+    ],
+    [
+      "proceeding to the library at Oak Hill College for writing and researching until noon (drafting an outline for his next section of writing)",
+      10
+    ],
+    [
+      "proceeding to the library at Oak Hill College for writing and researching until noon (conducting literature review and taking notes)",
+      10
+    ],
+    [
+      "proceeding to the library at Oak Hill College for writing and researching until noon (taking a short break to hydrate and stretch)",
+      5
+    ],
+    [
+      "Klaus is in the library at Oak Hill College, writing and researching until noon (reviewing his notes)",
+      15
+    ],
+    [
+      "Klaus is in the library at Oak Hill College, writing and researching until noon (organizing research materials)",
+      15
+    ],
+    [
+      "Klaus is in the library at Oak Hill College, writing and researching until noon (writing a literature review section)",
+      30
+    ],
+    [
+      "Klaus is in the library at Oak Hill College, writing and researching until noon (taking notes from academic journals)",
+      20
+    ],
+    [
+      "Klaus is in the library at Oak Hill College, writing and researching until noon (formulating research questions)",
+      15
+    ],
+    [
+      "Klaus is in the library at Oak Hill College, writing and researching until noon (conducting online surveys for data collection)",
+      20
+    ],
+    [
+      "Klaus is in the library at Oak Hill College, writing and researching until noon (taking a short break to hydrate and stretch)",
+      5
+    ],
+    [
+      "Klaus is having lunch (selecting food items at Hobbs Cafe)",
+      15
+    ],
+    [
+      "Klaus is having lunch (on the way to finding a quiet spot to eat lunch)",
+      0
+    ],
+    [
+      "Klaus is having lunch (conversing about reviewing interviews on gentrification perspectives and challenges between long-time and newer residents with Isabella Rodriguez and Klaus Mueller.)",
+      12
+    ],
+    [
+      "Klaus is having lunch (on the way to eating his meal and drinking water)",
+      0
+    ],
+    [
+      "Klaus is having lunch (conversing about Maria Lopez setting up a meeting between Klaus Mueller and community members at Hobbs Cafe to gather diverse perspectives on gentrification for his research, with the meetup scheduled for Wednesday after Maria's Twitch stream.)",
+      5
+    ],
+    [
+      "Klaus is having lunch (eating his meal and drinking water)",
+      8
+    ],
+    [
+      "Klaus is having lunch (taking notes on any insights from conversations overheard during lunch)",
+      10
+    ],
+    [
+      "Klaus is having lunch (reviewing interview questions for the afternoon session)",
+      10
+    ],
+    [
+      "conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez (meeting Isabella Rodriguez at Hobbs Cafe to start the interviews)",
+      15
+    ],
+    [
+      "conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez (conducting an interview with Isabella Rodriguez about her experiences related to gentrification)",
+      30
+    ],
+    [
+      "conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez (taking notes and recording the conversation during the interview)",
+      30
+    ],
+    [
+      "conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez (meeting Maria Lopez for the next interview at Hobbs Cafe)",
+      15
+    ],
+    [
+      "conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez (conducting an interview with Maria Lopez about her perspective on gentrification impacts)",
+      30
+    ],
+    [
+      "conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez (taking notes and recording the conversation during the interview with Maria Lopez)",
+      30
+    ],
+    [
+      "conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez (on the way to meeting another community member introduced by Isabella Rodriguez for an interview at Hobbs Cafe)",
+      0
+    ],
+    [
+      "conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez (conversing about setting up interviews at a cafe on Saturday afternoon to discuss perspectives on gentrification with long-time residents and new business owners, with Isabella Rodriguez assisting Klaus Mueller.)",
+      10
+    ],
+    [
+      "conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez (conducting an interview with another community member about their views on gentrification)",
+      20
+    ],
+    [
+      "Klaus is conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez (setting up his recording equipment and preparing interview questions)",
+      15
+    ],
+    [
+      "Klaus is conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez (greeting Isabella Rodriguez and starting the first interview)",
+      30
+    ],
+    [
+      "Klaus is conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez (on the way to wrapping up the conversation with Isabella and preparing for the next interview)",
+      0
+    ],
+    [
+      "Klaus is conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez (waiting to start greeting Isabella Rodriguez and starting the first interview)",
+      42
+    ],
+    [
+      "Klaus is conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez (on the way to wrapping up the conversation with Isabella and preparing for the next interview)",
+      0
+    ],
+    [
+      "Klaus is conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez (waiting to start waiting to start greeting Isabella Rodriguez and starting the first interview)",
+      29
+    ],
+    [
+      "Klaus is eating dinner around 5:00 pm (ordering food at Hobbs Cafe)",
+      10
+    ],
+    [
+      "Klaus is eating dinner around 5:00 pm (finding a quiet spot to eat)",
+      5
+    ],
+    [
+      "Klaus is eating dinner around 5:00 pm (unwrapping and setting up his meal)",
+      5
+    ],
+    [
+      "Klaus is eating dinner around 5:00 pm (taking the first few bites of his food)",
+      5
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (reviewing the first set of interview notes, taking detailed notes on key points)",
+      30
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (on the way to categorizing themes and patterns from the interviews)",
+      0
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (conversing about Klaus Mueller and Isabella Rodriguez discussing his research on gentrification, common themes from interviews, plans for a community event at Hobbs Cafe, and strategies to engage more people in the discussion.)",
+      13
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (categorizing themes and patterns from the interviews)",
+      32
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (comparing findings with previous research literature)",
+      30
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (conducting a qualitative analysis of interview transcripts) (reviewing the first set of interview notes)",
+      15
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (conducting a qualitative analysis of interview transcripts) (making detailed notes from the reviewed notes)",
+      10
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (on the way to organizing findings and categorizing data points)",
+      0
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (conversing about Klaus Mueller and Maria Lopez discussing how to facilitate a community meetup on the impacts of gentrification, focusing on sharing insights from interviews and personal experiences.)",
+      14
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (organizing findings and categorizing data points)",
+      6
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (reviewing the second set of interview notes)",
+      15
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (on the way to making detailed notes from the reviewed notes)",
+      0
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (conversing about planning a community event that addresses gentrification and its impact on long-time residents versus newcomers, with Isabella Rodriguez and Klaus Mueller discussing the inclusion of diverse perspectives and informational materials.)",
+      18
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (synthesizing data from interviews into a comprehensive report)",
+      42
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (refining research methodologies based on new insights gained)",
+      15
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (organizing findings and preparing for the next day's tasks)",
+      15
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (reviewing his notes one last time before heading to bed)",
+      15
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further (packing up his materials and preparing to leave Hobbs Cafe)",
+      15
+    ],
+    [
+      "Klaus is preparing for bed and reflecting on the day's activities. He is organizing his notes and planning for the next day's research tasks before going to sleep at 11:00 pm (reviewing today\u2019s interview notes)",
+      15
+    ],
+    [
+      "Klaus is preparing for bed and reflecting on the day's activities. He is organizing his notes and planning for the next day's research tasks before going to sleep at 11:00 pm (organizing his findings and categorizing data)",
+      15
+    ],
+    [
+      "Klaus is preparing for bed and reflecting on the day's activities. He is organizing his notes and planning for the next day's research tasks before going to sleep at 11:00 pm (refining research methodologies based on new insights)",
+      10
+    ],
+    [
+      "Klaus is preparing for bed and reflecting on the day's activities. He is organizing his notes and planning for the next day's research tasks before going to sleep at 11:00 pm (planning the next day\u2019s interview schedule)",
+      5
+    ],
+    [
+      "Klaus is preparing for bed and reflecting on the day's activities. He is organizing his notes and planning for the next day's research tasks before going to sleep at 11:00 pm (reflecting on the day's activities and personal growth)",
+      10
+    ],
+    [
+      "Klaus is preparing for bed and reflecting on the day's activities. He is organizing his notes and planning for the next day's research tasks before going to sleep at 11:00 pm (preparing his bed for a good night's sleep)",
+      5
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -27
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      21
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "checking emails and messages related to research",
+      60
+    ],
+    [
+      "proceeding to the library at Oak Hill College for writing and researching until noon",
+      60
+    ],
+    [
+      "Klaus is in the library at Oak Hill College, writing and researching until noon",
+      120
+    ],
+    [
+      "Klaus is having lunch",
+      60
+    ],
+    [
+      "conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez",
+      180
+    ],
+    [
+      "Klaus is conducting interviews at Hobbs Cafe starting from 1:00 pm to 6:00 pm, focusing on gathering qualitative data on gentrification impacts through discussions with community members introduced by Isabella Rodriguez and Maria Lopez",
+      60
+    ],
+    [
+      "Klaus is eating dinner around 5:00 pm",
+      60
+    ],
+    [
+      "reviewing and analyzing interview notes from the day's interviews at Hobbs Cafe. He is making detailed notes and organizing his findings to refine his research methodologies further",
+      300
+    ],
+    [
+      "Klaus is preparing for bed and reflecting on the day's activities. He is organizing his notes and planning for the next day's research tasks before going to sleep at 11:00 pm",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+  "act_start_time": "February 15, 2023, 23:55:00",
+  "act_duration": 10,
+  "act_description": "Klaus is preparing for bed and reflecting on the day's activities. He is organizing his notes and planning for the next day's research tasks before going to sleep at 11:00 pm (reflecting on the day's activities and personal growth)",
+  "act_pronunciatio": "\ud83e\udd14\ud83c\udf31",
+  "act_event": [
+    "Klaus Mueller",
+    "reflect",
+    "day's activities and personal growth"
+  ],
+  "act_obj_description": "occupied with Klaus and his belongings",
+  "act_obj_pronunciatio": "\ud83e\uddf3\ud83d\udc68\u200d",
+  "act_obj_event": [
+    "bed",
+    "occupy",
+    "bed"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Maria Lopez": -418,
+    "Isabella Rodriguez": -160
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

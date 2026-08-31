@@ -1,0 +1,132 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller seeking interview subjects for his research and Isabella Rodriguez offering assistance by introducing him to long-time cafe patrons Mr. Johnson and Mrs. Garcia. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Klaus, glad to see you enjoying your lunch here. How\u2019s your research coming along?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Isabella, thanks for asking. I'm making good progress but have hit a few bumps in terms of finding interview subjects. That's where Maria Lopez came in to help out yesterday and suggested some regulars here at Hobbs might be interested in speaking with me."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That\u2019s great news, Klaus. I\u2019m happy to help too. Let me introduce you to a few people who might be willing to share their thoughts. Plus, Maria and I can assist in setting up the interview space here at Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "That would be fantastic, Isabella. I'm looking for diverse perspectives from long-time residents and business owners too if possible. Do you think you could introduce me to someone who falls into those categories?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Klaus. Let me introduce you to Mr. Johnson who has been a regular here since we opened and Mrs. Garcia, one of our longest-standing local customers. They both have great insights on the area\u2019s changes over time."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds perfect Isabella, I\u2019d really appreciate it if you could introduce me to Mr. Johnson and Mrs. Garcia later today or tomorrow. Their long-term presence in the community would provide great depth to my research."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure thing, Klaus. I'll introduce you to both Mr. Johnson and Mrs. Garcia as soon as they come in today or tomorrow morning before the cafe gets too busy. They should be here any time now actually."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks so much, Isabella. I'm really looking forward to speaking with them and learning more about their experiences."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works well for me, Klaus. I\u2019ll make sure to introduce you both as soon as they arrive. If you need any assistance setting up your interviews or anything else, let me know."
+        ],
+        [
+          "Klaus Mueller",
+          "I appreciate your help, Isabella. It means a lot to have someone as knowledgeable and connected within the community assisting me like this."
+        ],
+        [
+          "Isabella Rodriguez",
+          "No problem at all, Klaus. I'm glad to help support your research too in any way I can. Enjoy the rest of your lunch here today!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks again, Isabella. I\u2019ll be here later if they come in before you do. Have a great day!"
+        ]
+      ]
+    },
+    "Maria Lopez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\udcac",
+      "description": "having lunch with a friend at Hobbs Cafe. She takes a short break to refuel and socialize before returning to her preparations for the Valentine's Day event (eating her meal while chatting with her friend) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        76,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller seeking interview subjects for his research and Isabella Rodriguez offering assistance by introducing him to long-time cafe patrons Mr. Johnson and Mrs. Garcia. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hi Klaus, glad to see you enjoying your lunch here. How\u2019s your research coming along?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Isabella, thanks for asking. I'm making good progress but have hit a few bumps in terms of finding interview subjects. That's where Maria Lopez came in to help out yesterday and suggested some regulars here at Hobbs might be interested in speaking with me."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That\u2019s great news, Klaus. I\u2019m happy to help too. Let me introduce you to a few people who might be willing to share their thoughts. Plus, Maria and I can assist in setting up the interview space here at Hobbs Cafe."
+        ],
+        [
+          "Klaus Mueller",
+          "That would be fantastic, Isabella. I'm looking for diverse perspectives from long-time residents and business owners too if possible. Do you think you could introduce me to someone who falls into those categories?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Klaus. Let me introduce you to Mr. Johnson who has been a regular here since we opened and Mrs. Garcia, one of our longest-standing local customers. They both have great insights on the area\u2019s changes over time."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds perfect Isabella, I\u2019d really appreciate it if you could introduce me to Mr. Johnson and Mrs. Garcia later today or tomorrow. Their long-term presence in the community would provide great depth to my research."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure thing, Klaus. I'll introduce you to both Mr. Johnson and Mrs. Garcia as soon as they come in today or tomorrow morning before the cafe gets too busy. They should be here any time now actually."
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks so much, Isabella. I'm really looking forward to speaking with them and learning more about their experiences."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That works well for me, Klaus. I\u2019ll make sure to introduce you both as soon as they arrive. If you need any assistance setting up your interviews or anything else, let me know."
+        ],
+        [
+          "Klaus Mueller",
+          "I appreciate your help, Isabella. It means a lot to have someone as knowledgeable and connected within the community assisting me like this."
+        ],
+        [
+          "Isabella Rodriguez",
+          "No problem at all, Klaus. I'm glad to help support your research too in any way I can. Enjoy the rest of your lunch here today!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks again, Isabella. I\u2019ll be here later if they come in before you do. Have a great day!"
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 12:43:00"
+  }
+}

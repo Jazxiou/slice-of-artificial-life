@@ -1,0 +1,116 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella and Maria discussing preparations for interviews regarding gentrification impacts, with Isabella offering assistance in setting up for the next day's schedule. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Maria, I saw you were going over some notes. Everything set for our interviews tomorrow about gentrification impacts?"
+        ],
+        [
+          "Maria Lopez",
+          "Hi Isabella! Yeah, I'm just going over Klaus's research to make sure I have everything organized for our interview schedule. How was your lunch break?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "It was good, thanks. I saw you're still working on Klaus's project. Do we need any help setting up for tomorrow\u2019s interviews?"
+        ],
+        [
+          "Maria Lopez",
+          "Actually, Isabella, we could really use your help setting up. Klaus is excited to start these interviews and it would be great if everything was ready for him when he gets here tomorrow morning."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure thing, Maria. I can come in early tomorrow to help set up and make sure everything runs smoothly for Klaus. Let me know what needs to be done."
+        ],
+        [
+          "Maria Lopez",
+          "That would be fantastic, Isabella! I'll send you an email later today outlining what we need and how we\u2019re planning to set everything up. Thanks so much for your help!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Maria. I'll be here early to help out as needed. Have a great afternoon!"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks again, Isabella. I really appreciate your support on this project."
+        ],
+        [
+          "Isabella Rodriguez",
+          "No problem, Maria. I'll make sure everything is ready for Klaus. If you think of anything else you need before tomorrow, just let me know! Have a great rest of your day."
+        ],
+        [
+          "Maria Lopez",
+          "Will do, Isabella. Talk to you tomorrow then!"
+        ]
+      ]
+    },
+    "Maria Lopez": {
+      "movement": [
+        75,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella and Maria discussing preparations for interviews regarding gentrification impacts, with Isabella offering assistance in setting up for the next day's schedule. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Maria, I saw you were going over some notes. Everything set for our interviews tomorrow about gentrification impacts?"
+        ],
+        [
+          "Maria Lopez",
+          "Hi Isabella! Yeah, I'm just going over Klaus's research to make sure I have everything organized for our interview schedule. How was your lunch break?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "It was good, thanks. I saw you're still working on Klaus's project. Do we need any help setting up for tomorrow\u2019s interviews?"
+        ],
+        [
+          "Maria Lopez",
+          "Actually, Isabella, we could really use your help setting up. Klaus is excited to start these interviews and it would be great if everything was ready for him when he gets here tomorrow morning."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sure thing, Maria. I can come in early tomorrow to help set up and make sure everything runs smoothly for Klaus. Let me know what needs to be done."
+        ],
+        [
+          "Maria Lopez",
+          "That would be fantastic, Isabella! I'll send you an email later today outlining what we need and how we\u2019re planning to set everything up. Thanks so much for your help!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds good, Maria. I'll be here early to help out as needed. Have a great afternoon!"
+        ],
+        [
+          "Maria Lopez",
+          "Thanks again, Isabella. I really appreciate your support on this project."
+        ],
+        [
+          "Isabella Rodriguez",
+          "No problem, Maria. I'll make sure everything is ready for Klaus. If you think of anything else you need before tomorrow, just let me know! Have a great rest of your day."
+        ],
+        [
+          "Maria Lopez",
+          "Will do, Isabella. Talk to you tomorrow then!"
+        ]
+      ]
+    },
+    "Klaus Mueller": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udc65",
+      "description": "Klaus is having lunch at Hobbs Cafe near Oak Hill College. He enjoys the quiet ambiance and takes this time to relax before returning to his research work (discussing with Isabella Rodriguez about potential interview questions for Mr. Johnson and Mrs. Garcia) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 13:08:20"
+  }
+}

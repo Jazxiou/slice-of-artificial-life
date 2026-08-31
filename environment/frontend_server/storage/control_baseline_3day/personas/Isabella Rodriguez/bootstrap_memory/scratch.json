@@ -1,0 +1,946 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 2023, 23:59:50",
+  "curr_tile": [
+    73,
+    14
+  ],
+  "daily_plan_req": "Isabella Rodriguez opens Hobbs Cafe at 8am everyday, and works at the counter until 8pm, at which point she closes the cafe.",
+  "name": "Isabella Rodriguez",
+  "first_name": "Isabella",
+  "last_name": "Rodriguez",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "Isabella Rodriguez is a cafe owner of Hobbs Cafe who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "After a successful Valentine's Day event on Tuesday, February 14th, Isabella Rodriguez begins her day by meeting with Maria Lopez at Hobbs Cafe to discuss post-event evaluations and plan for future collaborations. This meeting starts at 9:00 am, focusing on debriefing about the previous day\u2019s activities and setting clear goals for upcoming events. Throughout Wednesday, Isabella schedules time to review customer feedback and address any issues that arose during Valentine's Day. She also ensures there are brief intervals in her schedule dedicated to rest and reflection to maintain energy levels. By evening, Isabella plans to go grocery shopping around 10:00 pm to prepare for the following day\u2019s operations at Hobbs Cafe.",
+  "seed_currently": "Isabella Rodriguez is planning on having a Valentine's Day party at Hobbs Cafe with her customers on February 14th, 2023 at 5pm. She is gathering party material, and is telling everyone to join the party at Hobbs Cafe on February 14th, 2023, from 5pm to 7pm.",
+  "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 45,
+  "importance_ele_n": 87,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "meet with Maria Lopez at Hobbs Cafe for post-event evaluation starting at 9:00 am",
+    "open Hobbs Cafe at 8:00 am after her meeting",
+    "review customer feedback and schedule maintenance tasks from 11:00 am to 12:00 pm",
+    "take a break for lunch around 12:30 pm",
+    "go grocery shopping at approximately 10:00 pm to prepare for the next day's operations",
+    "continue working until she closes Hobbs Cafe at 8:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing her morning routine (getting out of bed)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (going to the bathroom to use the toilet and wash her face)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (brushing her teeth)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (drinking a glass of water)",
+      5
+    ],
+    [
+      "waking up and completing her morning routine (stretching and doing some light morning exercises)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (getting dressed for the day)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (putting on makeup and styling her hair)",
+      10
+    ],
+    [
+      "waking up and completing her morning routine (checking her phone for any messages or emails related to work)",
+      5
+    ],
+    [
+      "preparing breakfast and planning her day (making coffee)",
+      5
+    ],
+    [
+      "preparing breakfast and planning her day (preparing eggs and toast)",
+      10
+    ],
+    [
+      "preparing breakfast and planning her day (setting the table for breakfast)",
+      5
+    ],
+    [
+      "preparing breakfast and planning her day (eating breakfast)",
+      10
+    ],
+    [
+      "preparing breakfast and planning her day (reviewing customer feedback from Valentine's Day event)",
+      10
+    ],
+    [
+      "preparing breakfast and planning her day (planning the menu for today)",
+      10
+    ],
+    [
+      "preparing breakfast and planning her day (organizing supplies and ingredients needed for the day)",
+      5
+    ],
+    [
+      "preparing breakfast and planning her day (checking inventory levels)",
+      5
+    ],
+    [
+      "opening Hobbs Cafe and welcoming customers. She will start her day officially as the cafe owner, interacting with early morning patrons and ensuring everything is set up for a smooth operation (arriving at Hobbs Cafe)",
+      5
+    ],
+    [
+      "opening Hobbs Cafe and welcoming customers. She will start her day officially as the cafe owner, interacting with early morning patrons and ensuring everything is set up for a smooth operation (unlocking the cafe and turning on lights)",
+      5
+    ],
+    [
+      "opening Hobbs Cafe and welcoming customers. She will start her day officially as the cafe owner, interacting with early morning patrons and ensuring everything is set up for a smooth operation (checking that all equipment is functioning properly)",
+      10
+    ],
+    [
+      "opening Hobbs Cafe and welcoming customers. She will start her day officially as the cafe owner, interacting with early morning patrons and ensuring everything is set up for a smooth operation (setting up coffee machines and brewing a fresh pot of coffee)",
+      10
+    ],
+    [
+      "opening Hobbs Cafe and welcoming customers. She will start her day officially as the cafe owner, interacting with early morning patrons and ensuring everything is set up for a smooth operation (arranging pastries and other breakfast items on display)",
+      10
+    ],
+    [
+      "opening Hobbs Cafe and welcoming customers. She will start her day officially as the cafe owner, interacting with early morning patrons and ensuring everything is set up for a smooth operation (organizing the seating area to ensure it's clean and inviting)",
+      10
+    ],
+    [
+      "opening Hobbs Cafe and welcoming customers. She will start her day officially as the cafe owner, interacting with early morning patrons and ensuring everything is set up for a smooth operation (greeting early morning customers with a warm welcome)",
+      5
+    ],
+    [
+      "opening Hobbs Cafe and welcoming customers. She will start her day officially as the cafe owner, interacting with early morning patrons and ensuring everything is set up for a smooth operation (taking orders from early customers and serving them)",
+      5
+    ],
+    [
+      "meeting with Maria Lopez to discuss post-event evaluations and plan for future collaborations (greeting Maria and getting settled)",
+      5
+    ],
+    [
+      "meeting with Maria Lopez to discuss post-event evaluations and plan for future collaborations (reviewing the previous day's event summary)",
+      10
+    ],
+    [
+      "meeting with Maria Lopez to discuss post-event evaluations and plan for future collaborations (discussing customer feedback from Valentine's Day)",
+      10
+    ],
+    [
+      "meeting with Maria Lopez to discuss post-event evaluations and plan for future collaborations (evaluating staff performance during the event)",
+      10
+    ],
+    [
+      "meeting with Maria Lopez to discuss post-event evaluations and plan for future collaborations (brainstorming ideas for future events)",
+      10
+    ],
+    [
+      "meeting with Maria Lopez to discuss post-event evaluations and plan for future collaborations (planning logistics and budget for upcoming collaborations)",
+      10
+    ],
+    [
+      "meeting with Maria Lopez to discuss post-event evaluations and plan for future collaborations (setting clear goals and action items for the next event)",
+      5
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (reviewing written customer feedback)",
+      30
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (checking social media reviews and comments)",
+      20
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (categorizing common issues from the feedback)",
+      15
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (on the way to scheduling a maintenance check for the coffee machines)",
+      0
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (conversing about setting up focus groups during quieter cafe hours to gather diverse perspectives on gentrification and customer feedback, with Maria Lopez and Isabella Rodriguez discussing plans and coordination with Klaus)",
+      15
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (booking an appointment with a cleaning service)",
+      10
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (organizing a list of necessary supplies based on customer feedback)",
+      15
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (scheduling a meeting with the cafe's supplier to discuss new products)",
+      15
+    ],
+    [
+      "taking a break for lunch (packing her lunch)",
+      5
+    ],
+    [
+      "taking a break for lunch (sitting down at a table to eat)",
+      10
+    ],
+    [
+      "taking a break for lunch (on the way to enjoying her meal and reflecting on the day's progress)",
+      0
+    ],
+    [
+      "taking a break for lunch (conversing about reviewing interviews on gentrification perspectives and challenges between long-time and newer residents with Isabella Rodriguez and Klaus Mueller.)",
+      12
+    ],
+    [
+      "taking a break for lunch (finishing her meal)",
+      3
+    ],
+    [
+      "taking a break for lunch (chatting with a friend who stopped by for lunch)",
+      10
+    ],
+    [
+      "taking a break for lunch (taking a short walk around the cafe to stretch her legs and clear her mind)",
+      5
+    ],
+    [
+      "taking a break for lunch (drinking water and finishing up any remaining food)",
+      5
+    ],
+    [
+      "taking a break for lunch (cleaning up after lunch)",
+      5
+    ],
+    [
+      "taking a break for lunch (preparing for the afternoon by reviewing notes and organizing tasks)",
+      5
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (reviewing written customer feedback) (sorting through customer feedback forms)",
+      20
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (reviewing written customer feedback) (reading and categorizing positive comments)",
+      15
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (reviewing written customer feedback) (addressing negative comments and identifying areas for improvement)",
+      15
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (reviewing written customer feedback) (scheduling maintenance tasks based on feedback)",
+      10
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (analyzing positive comments to understand what worked well)",
+      30
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (addressing negative comments and planning improvements)",
+      45
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (on the way to scheduling a meeting with the maintenance team)",
+      0
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (conversing about setting up interviews at a cafe on Saturday afternoon to discuss perspectives on gentrification with long-time residents and new business owners, with Isabella Rodriguez assisting Klaus Mueller.)",
+      10
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (scheduling a meeting with the maintenance team)",
+      5
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (discussing feedback and upcoming tasks with the maintenance team)",
+      30
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (reviewing inventory levels and placing orders for supplies)",
+      45
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (updating the cafe's social media platforms based on customer feedback)",
+      30
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe (taking a break to rest and reflect)",
+      45
+    ],
+    [
+      "working at the counter serving customers and managing cafe operations (welcoming customers as they enter the cafe)",
+      5
+    ],
+    [
+      "working at the counter serving customers and managing cafe operations (taking customer orders and preparing drinks)",
+      10
+    ],
+    [
+      "working at the counter serving customers and managing cafe operations (serving coffee to a regular customer)",
+      5
+    ],
+    [
+      "working at the counter serving customers and managing cafe operations (managing inventory levels and restocking supplies)",
+      5
+    ],
+    [
+      "working at the counter serving customers and managing cafe operations (cleaning tables and wiping down counters)",
+      10
+    ],
+    [
+      "working at the counter serving customers and managing cafe operations (on the way to addressing customer complaints and providing solutions)",
+      0
+    ],
+    [
+      "working at the counter serving customers and managing cafe operations (conversing about Klaus Mueller and Isabella Rodriguez discussing his research on gentrification, common themes from interviews, plans for a community event at Hobbs Cafe, and strategies to engage more people in the discussion.)",
+      13
+    ],
+    [
+      "working at the counter serving customers and managing cafe operations (addressing customer complaints and providing solutions)",
+      2
+    ],
+    [
+      "working at the counter serving customers and managing cafe operations (preparing food orders for customers)",
+      7
+    ],
+    [
+      "working at the counter serving customers and managing cafe operations (checking on the cafe's social media accounts to respond to messages)",
+      5
+    ],
+    [
+      "working at the counter serving customers and managing cafe operations (closing out cash registers and counting money)",
+      5
+    ],
+    [
+      "preparing to close the cafe and locking up for the night. She ensures all equipment is turned off, tables are cleared, and the place is clean before leaving (reviewing the cafe's closing checklist)",
+      8
+    ],
+    [
+      "preparing to close the cafe and locking up for the night. She ensures all equipment is turned off, tables are cleared, and the place is clean before leaving (turning off coffee machines and other kitchen equipment)",
+      10
+    ],
+    [
+      "preparing to close the cafe and locking up for the night. She ensures all equipment is turned off, tables are cleared, and the place is clean before leaving (wiping down counters and surfaces)",
+      10
+    ],
+    [
+      "preparing to close the cafe and locking up for the night. She ensures all equipment is turned off, tables are cleared, and the place is clean before leaving (cleaning the dining area tables and chairs)",
+      10
+    ],
+    [
+      "preparing to close the cafe and locking up for the night. She ensures all equipment is turned off, tables are cleared, and the place is clean before leaving (sweeping and mopping the floors)",
+      5
+    ],
+    [
+      "preparing to close the cafe and locking up for the night. She ensures all equipment is turned off, tables are cleared, and the place is clean before leaving (checking that all trash has been taken out)",
+      5
+    ],
+    [
+      "preparing to close the cafe and locking up for the night. She ensures all equipment is turned off, tables are cleared, and the place is clean before leaving (locking up any food supplies securely and ensuring the front door and windows are locked)",
+      5
+    ],
+    [
+      "closing down Hobbs Cafe, locking up the place, and ensuring everything is secure for the night. She checks that all equipment is turned off, tables are cleared, and the cafe is clean before leaving (turning off all electrical appliances and ensuring they are unplugged)",
+      15
+    ],
+    [
+      "closing down Hobbs Cafe, locking up the place, and ensuring everything is secure for the night. She checks that all equipment is turned off, tables are cleared, and the cafe is clean before leaving (on the way to wiping down the counters and surfaces to clean them thoroughly)",
+      0
+    ],
+    [
+      "closing down Hobbs Cafe, locking up the place, and ensuring everything is secure for the night. She checks that all equipment is turned off, tables are cleared, and the cafe is clean before leaving (conversing about Maria Lopez and Isabella Rodriguez discussing their day's work accomplishments and plans for an evening get-together, expressing gratitude and support towards each other.)",
+      4
+    ],
+    [
+      "closing down Hobbs Cafe, locking up the place, and ensuring everything is secure for the night. She checks that all equipment is turned off, tables are cleared, and the cafe is clean before leaving (wiping down counters and surfaces to clean them thoroughly)",
+      6
+    ],
+    [
+      "closing down Hobbs Cafe, locking up the place, and ensuring everything is secure for the night. She checks that all equipment is turned off, tables are cleared, and the cafe is clean before leaving (clearing and stacking all dishes and cutlery in the dishwasher)",
+      10
+    ],
+    [
+      "closing down Hobbs Cafe, locking up the place, and ensuring everything is secure for the night. She checks that all equipment is turned off, tables are cleared, and the cafe is clean before leaving (sweeping and mopping the floors to ensure they are clean)",
+      10
+    ],
+    [
+      "closing down Hobbs Cafe, locking up the place, and ensuring everything is secure for the night. She checks that all equipment is turned off, tables are cleared, and the cafe is clean before leaving (checking that all windows and doors are securely locked)",
+      5
+    ],
+    [
+      "closing down Hobbs Cafe, locking up the place, and ensuring everything is secure for the night. She checks that all equipment is turned off, tables are cleared, and the cafe is clean before leaving (reviewing security cameras to confirm there are no blind spots or issues)",
+      5
+    ],
+    [
+      "closing down Hobbs Cafe, locking up the place, and ensuring everything is secure for the night. She checks that all equipment is turned off, tables are cleared, and the cafe is clean before leaving (ensuring the cash register is balanced and all money is safely stored)",
+      5
+    ],
+    [
+      "preparing to leave the cafe after a successful day of work and ensuring everything is in order for the next day. She takes a moment to reflect on her accomplishments and looks forward to spending time with Maria later (locking up any remaining items and securing the premises)",
+      2
+    ],
+    [
+      "Isabella is reviewing customer feedback and scheduling maintenance tasks for the cafe. She adjusts her schedule to ensure all necessary work is completed efficiently while maintaining a balance between productivity and rest (reviewing customer feedback forms and online reviews)",
+      30
+    ],
+    [
+      "Isabella is reviewing customer feedback and scheduling maintenance tasks for the cafe. She adjusts her schedule to ensure all necessary work is completed efficiently while maintaining a balance between productivity and rest (on the way to noting down common issues and suggestions from customers)",
+      0
+    ],
+    [
+      "Isabella is reviewing customer feedback and scheduling maintenance tasks for the cafe. She adjusts her schedule to ensure all necessary work is completed efficiently while maintaining a balance between productivity and rest (conversing about planning a community event that addresses gentrification and its impact on long-time residents versus newcomers, with Isabella Rodriguez and Klaus Mueller discussing the inclusion of diverse perspectives and informational materials.)",
+      18
+    ],
+    [
+      "Isabella is reviewing customer feedback and scheduling maintenance tasks for the cafe. She adjusts her schedule to ensure all necessary work is completed efficiently while maintaining a balance between productivity and rest (scheduling maintenance tasks based on the noted issues)",
+      7
+    ],
+    [
+      "Isabella is reviewing customer feedback and scheduling maintenance tasks for the cafe. She adjusts her schedule to ensure all necessary work is completed efficiently while maintaining a balance between productivity and rest (setting reminders for upcoming events and tasks)",
+      5
+    ],
+    [
+      "going grocery shopping to prepare for the next day's operations at Hobbs Cafe (driving to the nearest grocery store)",
+      5
+    ],
+    [
+      "going grocery shopping to prepare for the next day's operations at Hobbs Cafe (parking her car and entering the store)",
+      5
+    ],
+    [
+      "going grocery shopping to prepare for the next day's operations at Hobbs Cafe (making a list of necessary items for the cafe's operations tomorrow)",
+      10
+    ],
+    [
+      "going grocery shopping to prepare for the next day's operations at Hobbs Cafe (heading to the produce section to pick up fresh fruits and vegetables)",
+      10
+    ],
+    [
+      "going grocery shopping to prepare for the next day's operations at Hobbs Cafe (moving on to the bakery aisle for bread and pastries)",
+      10
+    ],
+    [
+      "going grocery shopping to prepare for the next day's operations at Hobbs Cafe (going to the dairy section to get milk and other essentials)",
+      10
+    ],
+    [
+      "going grocery shopping to prepare for the next day's operations at Hobbs Cafe (checking off items on her list as she goes through each aisle)",
+      5
+    ],
+    [
+      "going grocery shopping to prepare for the next day's operations at Hobbs Cafe (heading to the checkout line with her groceries)",
+      3
+    ],
+    [
+      "Isabella is returning home from grocery shopping and preparing for bed to ensure she gets enough rest before another busy day ahead (walking back home with the groceries)",
+      15
+    ],
+    [
+      "Isabella is returning home from grocery shopping and preparing for bed to ensure she gets enough rest before another busy day ahead (putting away groceries and organizing them in the fridge and pantry)",
+      15
+    ],
+    [
+      "Isabella is returning home from grocery shopping and preparing for bed to ensure she gets enough rest before another busy day ahead (cleaning up any spills or mess from grocery shopping)",
+      5
+    ],
+    [
+      "Isabella is returning home from grocery shopping and preparing for bed to ensure she gets enough rest before another busy day ahead (taking a quick shower to freshen up before bed)",
+      15
+    ],
+    [
+      "Isabella is returning home from grocery shopping and preparing for bed to ensure she gets enough rest before another busy day ahead (brushing her teeth and getting ready for sleep)",
+      5
+    ],
+    [
+      "Isabella is returning home from grocery shopping and preparing for bed to ensure she gets enough rest before another busy day ahead (settling into bed and preparing mentally for rest)",
+      5
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -2
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      2
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "preparing breakfast and planning her day",
+      60
+    ],
+    [
+      "opening Hobbs Cafe and welcoming customers. She will start her day officially as the cafe owner, interacting with early morning patrons and ensuring everything is set up for a smooth operation",
+      60
+    ],
+    [
+      "meeting with Maria Lopez to discuss post-event evaluations and plan for future collaborations",
+      60
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe",
+      120
+    ],
+    [
+      "taking a break for lunch",
+      60
+    ],
+    [
+      "reviewing customer feedback and scheduling maintenance tasks for the cafe",
+      300
+    ],
+    [
+      "working at the counter serving customers and managing cafe operations",
+      60
+    ],
+    [
+      "preparing to close the cafe and locking up for the night. She ensures all equipment is turned off, tables are cleared, and the place is clean before leaving",
+      60
+    ],
+    [
+      "closing down Hobbs Cafe, locking up the place, and ensuring everything is secure for the night. She checks that all equipment is turned off, tables are cleared, and the cafe is clean before leaving",
+      60
+    ],
+    [
+      "Isabella is reviewing customer feedback and scheduling maintenance tasks for the cafe. She adjusts her schedule to ensure all necessary work is completed efficiently while maintaining a balance between productivity and rest",
+      60
+    ],
+    [
+      "going grocery shopping to prepare for the next day's operations at Hobbs Cafe",
+      60
+    ],
+    [
+      "Isabella is returning home from grocery shopping and preparing for bed to ensure she gets enough rest before another busy day ahead",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Isabella Rodriguez's apartment:main room:bed",
+  "act_start_time": "February 15, 2023, 23:55:00",
+  "act_duration": 5,
+  "act_description": "Isabella is returning home from grocery shopping and preparing for bed to ensure she gets enough rest before another busy day ahead (settling into bed and preparing mentally for rest)",
+  "act_pronunciatio": "\ud83d\udecf\ud83d\ude34",
+  "act_event": [
+    "Isabella Rodriguez",
+    "settle",
+    "bed"
+  ],
+  "act_obj_description": "occupied and prepared for rest",
+  "act_obj_pronunciatio": "\ud83d\udecf\ufe0f\ud83d\ude34",
+  "act_obj_event": [
+    "bed",
+    "be_occupied_and_prepared_for",
+    "rest"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Maria Lopez": -616,
+    "Klaus Mueller": -160
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

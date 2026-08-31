@@ -1,0 +1,881 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 2023, 23:59:50",
+  "curr_tile": [
+    123,
+    57
+  ],
+  "daily_plan_req": "Maria Lopez spends at least 3 hours a day Twitch streaming or gaming.",
+  "name": "Maria Lopez",
+  "first_name": "Maria",
+  "last_name": "Lopez",
+  "age": 21,
+  "innate": "energetic, enthusiastic, inquisitive",
+  "learned": "Maria Lopez is a student at Oak Hill College studying physics and a part time Twitch game streamer who loves to connect with people and explore new ideas.",
+  "currently": "Maria wakes up at 9:00 am on Wednesday February 15 to start her morning routine. She plans to head over to Hobbs Cafe around 10:30 am for continued community involvement and support of ongoing activities there. At noon, she intends to have a light meal either back at the cafe or grab something quick while out. In the afternoon, Maria will continue discussions with Klaus Mueller on his research about gentrification impacts, meeting around 1:30 pm to analyze data from recent interviews and prepare a summary report. From 3:00 pm until 6:00 pm, she will be Twitch streaming games as part of her regular schedule, which also helps keep her connected with the community online. For dinner, Maria has plans for a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. Later in the evening, once decorations from Valentine's Day have been taken down following the event, she will assist in packing them up before settling in for some downtime starting from 9:00 pm. She feels enthusiastic and fulfilled by her full engagement in both academic pursuits and community involvement this week, finding unique opportunities to contribute meaningfully while fostering connections and making a positive impact wherever possible.",
+  "seed_currently": "Maria Lopez is working on her physics degree and streaming games on Twitch to make some extra money. She visits Hobbs Cafe for studying and eating just about everyday.",
+  "lifestyle": "Maria Lopez goes to bed around 2am, awakes up around 9am, eats dinner around 6pm. She likes to hang out at Hobbs Cafe if it's before 6pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Maria Lopez's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.99,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 76,
+  "importance_ele_n": 54,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 9:00 am",
+    "head over to Hobbs Cafe around 10:30 am for continued community involvement and support of ongoing activities there",
+    "have a light meal back at the cafe or grab something quick while out at noon",
+    "meet with Klaus Mueller to analyze data from recent interviews related to his research about gentrification impacts at 1:30 pm",
+    "continue discussions on preparing a summary report after her meeting with Klaus until around 2:30 pm",
+    "start her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      540
+    ],
+    [
+      "Maria is waking up and completing her morning routine (getting out of bed)",
+      5
+    ],
+    [
+      "Maria is waking up and completing her morning routine (brushing her teeth)",
+      5
+    ],
+    [
+      "Maria is waking up and completing her morning routine (washing her face)",
+      5
+    ],
+    [
+      "Maria is waking up and completing her morning routine (drinking a glass of water)",
+      5
+    ],
+    [
+      "Maria is waking up and completing her morning routine (making her bed)",
+      5
+    ],
+    [
+      "Maria is waking up and completing her morning routine (putting on comfortable clothes for the day)",
+      10
+    ],
+    [
+      "Maria is waking up and completing her morning routine (checking her phone for any messages or notifications)",
+      5
+    ],
+    [
+      "Maria is waking up and completing her morning routine (planning out her day and making a to-do list)",
+      10
+    ],
+    [
+      "Maria is waking up and completing her morning routine (preparing breakfast)",
+      10
+    ],
+    [
+      "Maria is getting ready to head over to Hobbs Cafe for continued community involvement and support of ongoing activities there. She plans to arrive at 10:30 am as scheduled (getting out of bed)",
+      5
+    ],
+    [
+      "Maria is getting ready to head over to Hobbs Cafe for continued community involvement and support of ongoing activities there. She plans to arrive at 10:30 am as scheduled (brushing her teeth and washing her face)",
+      10
+    ],
+    [
+      "Maria is getting ready to head over to Hobbs Cafe for continued community involvement and support of ongoing activities there. She plans to arrive at 10:30 am as scheduled (putting on clothes for the day)",
+      10
+    ],
+    [
+      "Maria is getting ready to head over to Hobbs Cafe for continued community involvement and support of ongoing activities there. She plans to arrive at 10:30 am as scheduled (making breakfast)",
+      15
+    ],
+    [
+      "Maria is getting ready to head over to Hobbs Cafe for continued community involvement and support of ongoing activities there. She plans to arrive at 10:30 am as scheduled (eating breakfast and drinking coffee)",
+      15
+    ],
+    [
+      "Maria is getting ready to head over to Hobbs Cafe for continued community involvement and support of ongoing activities there. She plans to arrive at 10:30 am as scheduled (cleaning up the kitchen after breakfast)",
+      5
+    ],
+    [
+      "Maria is at Hobbs Cafe, engaging in community activities and supporting ongoing events. She is networking and participating in discussions that enhance her understanding of local issues and community dynamics (on the way to networking with other cafe patrons to learn about upcoming community events)",
+      0
+    ],
+    [
+      "Maria is at Hobbs Cafe, engaging in community activities and supporting ongoing events. She is networking and participating in discussions that enhance her understanding of local issues and community dynamics (conversing about setting up focus groups during quieter cafe hours to gather diverse perspectives on gentrification and customer feedback, with Maria Lopez and Isabella Rodriguez discussing plans and coordination with Klaus)",
+      15
+    ],
+    [
+      "Maria is at Hobbs Cafe, engaging in community activities and supporting ongoing events. She is networking and participating in discussions that enhance her understanding of local issues and community dynamics (participating in a discussion group on gentrification impacts and local development projects)",
+      15
+    ],
+    [
+      "Maria is at Hobbs Cafe, engaging in community activities and supporting ongoing events. She is networking and participating in discussions that enhance her understanding of local issues and community dynamics (taking notes during the discussion to gather insights for her research with Klaus Mueller)",
+      10
+    ],
+    [
+      "Maria is at Hobbs Cafe, engaging in community activities and supporting ongoing events. She is networking and participating in discussions that enhance her understanding of local issues and community dynamics (engaging in a Q&A session about her Twitch streaming and how it connects her with the community online)",
+      10
+    ],
+    [
+      "Maria is at Hobbs Cafe, engaging in community activities and supporting ongoing events. She is networking and participating in discussions that enhance her understanding of local issues and community dynamics (taking a short break to grab a drink from the cafe counter)",
+      5
+    ],
+    [
+      "Maria is at Hobbs Cafe, engaging in community activities and supporting ongoing events. She is networking and participating in discussions that enhance her understanding of local issues and community dynamics (reviewing her notes and planning next steps for her research discussion with Klaus Mueller later in the day)",
+      5
+    ],
+    [
+      "Maria is having a light meal at Hobbs Cafe or grabbing something quick nearby (choosing what to eat and drink)",
+      5
+    ],
+    [
+      "Maria is having a light meal at Hobbs Cafe or grabbing something quick nearby (ordering her meal at the counter or placing an order for takeout)",
+      5
+    ],
+    [
+      "Maria is having a light meal at Hobbs Cafe or grabbing something quick nearby (waiting for her food to be prepared or picking it up if she ordered takeout)",
+      10
+    ],
+    [
+      "Maria is having a light meal at Hobbs Cafe or grabbing something quick nearby (finding a seat at Hobbs Cafe and settling down with her meal)",
+      5
+    ],
+    [
+      "Maria is having a light meal at Hobbs Cafe or grabbing something quick nearby (on the way to eating her light meal and drinking her beverage)",
+      0
+    ],
+    [
+      "Maria is having a light meal at Hobbs Cafe or grabbing something quick nearby (conversing about Maria Lopez setting up a meeting between Klaus Mueller and community members at Hobbs Cafe to gather diverse perspectives on gentrification for his research, with the meetup scheduled for Wednesday after Maria's Twitch stream.)",
+      5
+    ],
+    [
+      "Maria is having a light meal at Hobbs Cafe or grabbing something quick nearby (eating her light meal and drinking her beverage)",
+      15
+    ],
+    [
+      "Maria is having a light meal at Hobbs Cafe or grabbing something quick nearby (engaging in casual conversations with other patrons or cafe staff)",
+      10
+    ],
+    [
+      "Maria is having a light meal at Hobbs Cafe or grabbing something quick nearby (finishing up her meal and cleaning her area if she ate at the cafe)",
+      5
+    ],
+    [
+      "Maria is meeting with Klaus Mueller to analyze data from recent interviews related to his research about gentrification impacts. They are working on preparing a summary report together (reviewing the interview notes and organizing them into categories based on themes related to gentrification impacts)",
+      15
+    ],
+    [
+      "Maria is meeting with Klaus Mueller to analyze data from recent interviews related to his research about gentrification impacts. They are working on preparing a summary report together (discussing key findings with Klaus Mueller and identifying important points for the summary report)",
+      10
+    ],
+    [
+      "Maria is meeting with Klaus Mueller to analyze data from recent interviews related to his research about gentrification impacts. They are working on preparing a summary report together (taking notes during discussions and summarizing main ideas)",
+      10
+    ],
+    [
+      "Maria is meeting with Klaus Mueller to analyze data from recent interviews related to his research about gentrification impacts. They are working on preparing a summary report together (analyzing data trends and patterns related to gentrification impacts)",
+      10
+    ],
+    [
+      "Maria is meeting with Klaus Mueller to analyze data from recent interviews related to his research about gentrification impacts. They are working on preparing a summary report together (drafting initial sections of the summary report based on their analysis)",
+      10
+    ],
+    [
+      "Maria is meeting with Klaus Mueller to analyze data from recent interviews related to his research about gentrification impacts. They are working on preparing a summary report together (reviewing drafted sections with Klaus Mueller for accuracy and completeness)",
+      5
+    ],
+    [
+      "Maria is continuing discussions with Klaus Mueller on preparing a summary report after their meeting until around 2:30 pm (reviewing the data collected from recent interviews)",
+      15
+    ],
+    [
+      "Maria is continuing discussions with Klaus Mueller on preparing a summary report after their meeting until around 2:30 pm (discussing key findings with Klaus Mueller)",
+      10
+    ],
+    [
+      "Maria is continuing discussions with Klaus Mueller on preparing a summary report after their meeting until around 2:30 pm (organizing notes and categorizing information)",
+      10
+    ],
+    [
+      "Maria is continuing discussions with Klaus Mueller on preparing a summary report after their meeting until around 2:30 pm (drafting an outline for the summary report)",
+      10
+    ],
+    [
+      "Maria is continuing discussions with Klaus Mueller on preparing a summary report after their meeting until around 2:30 pm (filling in details under each section of the outline)",
+      15
+    ],
+    [
+      "Maria is preparing to start her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online. She spends at least three hours each (setting up her streaming equipment and checking audio and video quality)",
+      10
+    ],
+    [
+      "Maria is preparing to start her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online. She spends at least three hours each (reviewing the game she plans to stream and preparing any necessary materials or mods)",
+      10
+    ],
+    [
+      "Maria is preparing to start her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online. She spends at least three hours each (engaging with her community on social media platforms to build anticipation for the stream)",
+      5
+    ],
+    [
+      "Maria is preparing to start her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online. She spends at least three hours each (creating a brief outline of topics and activities she will cover during the stream)",
+      5
+    ],
+    [
+      "Maria is preparing to start her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online. She spends at least three hours each (setting up her streaming software and configuring settings for optimal performance)",
+      10
+    ],
+    [
+      "Maria is preparing to start her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online. She spends at least three hours each (preparing a welcome message to greet viewers at the start of the stream)",
+      5
+    ],
+    [
+      "Maria is preparing to start her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online. She spends at least three hours each (checking notifications and responding to any urgent messages from her community)",
+      5
+    ],
+    [
+      "Maria is preparing to start her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online. She spends at least three hours each (taking a quick break to stretch and hydrate before starting the live stream)",
+      5
+    ],
+    [
+      "Maria is preparing to start her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online. She spends at least three hours each (finalizing all preparations and getting ready to go live at 3:00 pm sharp)",
+      5
+    ],
+    [
+      "Maria is continuing her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online (interacting with chat and answering questions)",
+      15
+    ],
+    [
+      "Maria is continuing her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online (playing a game segment)",
+      30
+    ],
+    [
+      "Maria is continuing her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online (taking a short break to hydrate and stretch)",
+      5
+    ],
+    [
+      "Maria is continuing her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online (interacting with chat and answering questions)",
+      10
+    ],
+    [
+      "Maria is continuing her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online (playing another game segment)",
+      30
+    ],
+    [
+      "Maria is continuing her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online (taking a short break to hydrate and stretch)",
+      5
+    ],
+    [
+      "Maria is continuing her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online (interacting with chat and answering questions)",
+      25
+    ],
+    [
+      "Maria is finishing up her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online (wrapping up current game session)",
+      15
+    ],
+    [
+      "Maria is finishing up her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online (responding to chat messages and thanking viewers for watching)",
+      10
+    ],
+    [
+      "Maria is finishing up her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online (sharing her social media handles and encouraging followers to follow her)",
+      5
+    ],
+    [
+      "Maria is finishing up her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online (playing a quick trivia game with the community)",
+      10
+    ],
+    [
+      "Maria is finishing up her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online (giving away virtual items as rewards for active viewers)",
+      5
+    ],
+    [
+      "Maria is finishing up her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online (discussing upcoming streams and games she plans to play next week)",
+      10
+    ],
+    [
+      "Maria is finishing up her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online (signing off from the stream and saying goodbye to her community)",
+      5
+    ],
+    [
+      "Maria is getting ready to attend a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community (getting dressed for the get-together)",
+      15
+    ],
+    [
+      "Maria is getting ready to attend a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community (applying makeup and styling hair)",
+      10
+    ],
+    [
+      "Maria is getting ready to attend a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community (gathering her belongings such as phone, wallet, keys, and any necessary items for the get-together)",
+      5
+    ],
+    [
+      "Maria is getting ready to attend a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community (checking social media to see if there are updates or messages from friends about the event)",
+      5
+    ],
+    [
+      "Maria is getting ready to attend a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community (walking to Hobbs Cafe)",
+      10
+    ],
+    [
+      "Maria is getting ready to attend a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community (greeting friends and colleagues upon arrival at Hobbs Cafe)",
+      5
+    ],
+    [
+      "Maria is getting ready to attend a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community (ordering dinner from the cafe menu)",
+      5
+    ],
+    [
+      "Maria is getting ready to attend a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community (socializing with friends while waiting for food to arrive)",
+      5
+    ],
+    [
+      "Maria is attending a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community until around 9 (socializing and catching up with friends over appetizers)",
+      15
+    ],
+    [
+      "Maria is attending a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community until around 9 (on the way to ordering dinner from the cafe menu)",
+      0
+    ],
+    [
+      "Maria is attending a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community until around 9 (conversing about Maria Lopez and Isabella Rodriguez discussing their day's work accomplishments and plans for an evening get-together, expressing gratitude and support towards each other.)",
+      4
+    ],
+    [
+      "Maria is attending a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community until around 9 (enjoying her meal while engaging in conversations)",
+      16
+    ],
+    [
+      "Maria is attending a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community until around 9 (on the way to participating in a trivia game organized by Hobbs Cafe)",
+      0
+    ],
+    [
+      "Maria is attending a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community until around 9 (conversing about Klaus Mueller and Maria Lopez discussing how to facilitate a community meetup on the impacts of gentrification, focusing on sharing insights from interviews and personal experiences.)",
+      14
+    ],
+    [
+      "Maria is attending a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community until around 9 (on the way to playing board games with friends and colleagues)",
+      0
+    ],
+    [
+      "Maria is attending a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community until around 9 (waiting to start conversing about Klaus Mueller and Maria Lopez discussing how to facilitate a community meetup on the impacts of gentrification, focusing on sharing insights from interviews and personal experiences.)",
+      8
+    ],
+    [
+      "Maria is attending a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community until around 9 (playing board games with friends and colleagues)",
+      3
+    ],
+    [
+      "Maria is assisting in packing up Valentine's Day decorations at Hobbs Cafe before settling in for some downtime starting from 9:00 pm (gathering all the remaining Valentine's Day decorations)",
+      15
+    ],
+    [
+      "Maria is assisting in packing up Valentine's Day decorations at Hobbs Cafe before settling in for some downtime starting from 9:00 pm (sorting decorations into categories for storage or disposal)",
+      10
+    ],
+    [
+      "Maria is assisting in packing up Valentine's Day decorations at Hobbs Cafe before settling in for some downtime starting from 9:00 pm (packing up balloons and streamers)",
+      10
+    ],
+    [
+      "Maria is assisting in packing up Valentine's Day decorations at Hobbs Cafe before settling in for some downtime starting from 9:00 pm (organizing heart-shaped tableware and wrapping paper)",
+      10
+    ],
+    [
+      "Maria is assisting in packing up Valentine's Day decorations at Hobbs Cafe before settling in for some downtime starting from 9:00 pm (taking a short break to stretch her legs)",
+      5
+    ],
+    [
+      "Maria is assisting in packing up Valentine's Day decorations at Hobbs Cafe before settling in for some downtime starting from 9:00 pm (packing up the remaining decorations into boxes for storage)",
+      10
+    ],
+    [
+      "Maria is settling in for some downtime after assisting in packing up Valentine's Day decorations at Hobbs Cafe. She plans to relax and recharge before going to bed around 2 am (on the way to taking a moment to stretch and relax after packing up decorations)",
+      0
+    ],
+    [
+      "Maria is settling in for some downtime after assisting in packing up Valentine's Day decorations at Hobbs Cafe. She plans to relax and recharge before going to bed around 2 am (waiting to start packing up the remaining decorations into boxes for storage)",
+      26
+    ],
+    [
+      "Maria is settling in for some downtime after assisting in packing up Valentine's Day decorations at Hobbs Cafe. She plans to relax and recharge before going to bed around 2 am (grabbing a light snack or beverage from the cafe)",
+      4
+    ],
+    [
+      "Maria is settling in for some downtime after assisting in packing up Valentine's Day decorations at Hobbs Cafe. She plans to relax and recharge before going to bed around 2 am (checking her phone for messages or notifications)",
+      10
+    ],
+    [
+      "Maria is settling in for some downtime after assisting in packing up Valentine's Day decorations at Hobbs Cafe. She plans to relax and recharge before going to bed around 2 am (reflecting on the day's events and planning for tomorrow)",
+      10
+    ],
+    [
+      "Maria is settling in for some downtime after assisting in packing up Valentine's Day decorations at Hobbs Cafe. She plans to relax and recharge before going to bed around 2 am (selecting a book to read for relaxation)",
+      10
+    ],
+    [
+      "Maria is settling down for some personal time and relaxation before heading to bed around 2 am. She might read a book, watch a movie, or engage in another leisure activity that helps her unwind after a busy day (selecting a relaxation activity)",
+      5
+    ],
+    [
+      "Maria is settling down for some personal time and relaxation before heading to bed around 2 am. She might read a book, watch a movie, or engage in another leisure activity that helps her unwind after a busy day (reading the first chapter of her book)",
+      15
+    ],
+    [
+      "Maria is settling down for some personal time and relaxation before heading to bed around 2 am. She might read a book, watch a movie, or engage in another leisure activity that helps her unwind after a busy day (taking a short break to stretch and hydrate)",
+      5
+    ],
+    [
+      "Maria is settling down for some personal time and relaxation before heading to bed around 2 am. She might read a book, watch a movie, or engage in another leisure activity that helps her unwind after a busy day (continuing to read her book)",
+      20
+    ],
+    [
+      "Maria is settling down for some personal time and relaxation before heading to bed around 2 am. She might read a book, watch a movie, or engage in another leisure activity that helps her unwind after a busy day (watching the first episode of a TV show or movie)",
+      15
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      540
+    ],
+    [
+      "Maria is waking up and completing her morning routine",
+      60
+    ],
+    [
+      "Maria is getting ready to head over to Hobbs Cafe for continued community involvement and support of ongoing activities there. She plans to arrive at 10:30 am as scheduled",
+      60
+    ],
+    [
+      "Maria is at Hobbs Cafe, engaging in community activities and supporting ongoing events. She is networking and participating in discussions that enhance her understanding of local issues and community dynamics",
+      60
+    ],
+    [
+      "Maria is having a light meal at Hobbs Cafe or grabbing something quick nearby",
+      60
+    ],
+    [
+      "Maria is meeting with Klaus Mueller to analyze data from recent interviews related to his research about gentrification impacts. They are working on preparing a summary report together",
+      60
+    ],
+    [
+      "Maria is continuing discussions with Klaus Mueller on preparing a summary report after their meeting until around 2:30 pm",
+      60
+    ],
+    [
+      "Maria is preparing to start her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online. She spends at least three hours each",
+      60
+    ],
+    [
+      "Maria is continuing her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online",
+      120
+    ],
+    [
+      "Maria is finishing up her Twitch streaming session for games from 3:00 pm until 6:00 pm as part of her regular schedule, which also helps keep her connected with the community online",
+      60
+    ],
+    [
+      "Maria is getting ready to attend a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community",
+      60
+    ],
+    [
+      "Maria is attending a get-together at Hobbs Cafe starting around 6:00 pm with colleagues and friends to unwind after a busy day. She is socializing, enjoying dinner, and participating in various activities with her community until around 9",
+      60
+    ],
+    [
+      "Maria is assisting in packing up Valentine's Day decorations at Hobbs Cafe before settling in for some downtime starting from 9:00 pm",
+      60
+    ],
+    [
+      "Maria is settling in for some downtime after assisting in packing up Valentine's Day decorations at Hobbs Cafe. She plans to relax and recharge before going to bed around 2 am",
+      60
+    ],
+    [
+      "Maria is settling down for some personal time and relaxation before heading to bed around 2 am. She might read a book, watch a movie, or engage in another leisure activity that helps her unwind after a busy day",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+  "act_start_time": "February 15, 2023, 23:47:00",
+  "act_duration": 15,
+  "act_description": "Maria is settling down for some personal time and relaxation before heading to bed around 2 am. She might read a book, watch a movie, or engage in another leisure activity that helps her unwind after a busy day (watching the first episode of a TV show or movie)",
+  "act_pronunciatio": "\ud83d\udcfa\ud83c\udf7f",
+  "act_event": [
+    "Maria Lopez",
+    "watch",
+    "episode"
+  ],
+  "act_obj_description": "unoccupied but prepared for use, with covers neatly arranged and pillows placed comfortably",
+  "act_obj_pronunciatio": "\ud83d\udecf\ufe0f\ud83d\ude0c",
+  "act_obj_event": [
+    "bed",
+    "be",
+    "unoccupied"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Isabella Rodriguez": -616,
+    "Klaus Mueller": -418
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

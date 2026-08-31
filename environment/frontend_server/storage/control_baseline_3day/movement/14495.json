@@ -1,0 +1,68 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Isabella Rodriguez checking on the progress and success of Valentine's Day decorations and event setup at a venue, expressing gratitude towards each other for their collaborative efforts. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Isabella, everything looks great! I just wanted to make sure all the heart-shaped banners and balloons are up before I head home. How\u2019s the day going for you?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Maria! The day has been going well. So far, everything is running smoothly and all our hard work is really paying off with customers\u2019 reactions today. I appreciate your help earlier too, setting up was a breeze thanks to you."
+        ],
+        [
+          "Maria Lopez",
+          "I'm glad to hear that! It was fun working together. I've double-checked all the decorations and they look fantastic. Is there anything else you need help with before I head off?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "No, it looks perfect as usual. I just wanted to thank you again for all your help today and yesterday. Take care on your way home, Maria!"
+        ]
+      ]
+    },
+    "Maria Lopez": {
+      "movement": [
+        75,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Isabella Rodriguez checking on the progress and success of Valentine's Day decorations and event setup at a venue, expressing gratitude towards each other for their collaborative efforts. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Isabella, everything looks great! I just wanted to make sure all the heart-shaped banners and balloons are up before I head home. How\u2019s the day going for you?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Maria! The day has been going well. So far, everything is running smoothly and all our hard work is really paying off with customers\u2019 reactions today. I appreciate your help earlier too, setting up was a breeze thanks to you."
+        ],
+        [
+          "Maria Lopez",
+          "I'm glad to hear that! It was fun working together. I've double-checked all the decorations and they look fantastic. Is there anything else you need help with before I head off?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "No, it looks perfect as usual. I just wanted to thank you again for all your help today and yesterday. Take care on your way home, Maria!"
+        ]
+      ]
+    },
+    "Klaus Mueller": {
+      "movement": [
+        121,
+        30
+      ],
+      "pronunciatio": "\ud83d\ude0b",
+      "description": "Klaus is continuing his research at the library. He reviews additional sources, takes detailed notes, and integrates new insights into his paper on gentrification (taking a short break to stretch and hydrate) @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 16:15:50"
+  }
+}

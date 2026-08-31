@@ -1,0 +1,132 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udde3",
+      "description": "working at the counter serving customers and ensuring a welcoming atmosphere (taking customer orders) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        99,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Klaus Mueller discussing plans to organize interviews at Hobbs Cafe for Klaus's gentrification study research. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I saw you were in the middle of working on your research paper. How\u2019s it going?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Maria, I'm making good progress. Actually, your suggestions on doing interviews really helped me refine my approach to gathering qualitative data for my gentrification study."
+        ],
+        [
+          "Maria Lopez",
+          "That's great to hear! I'm excited to see how the interviews go. Have you scheduled any yet?"
+        ],
+        [
+          "Klaus Mueller",
+          "Yes, I have a few scheduled for tomorrow. Isabella actually suggested we could use Hobbs Cafe as a location to conduct some interviews too."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like a great idea! Hobbs Cafe is such a lively place and people might feel more comfortable sharing their stories here. I can help organize it if you want."
+        ],
+        [
+          "Klaus Mueller",
+          "That would be fantastic, Maria. Your help organizing it will definitely make a big difference. Thanks so much!"
+        ],
+        [
+          "Maria Lopez",
+          "Awesome! Let\u2019s set up a day and time that works best for both of us to start planning. I can also reach out to some people who might be interested in participating."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great. How about we plan to meet at Hobbs Cafe tomorrow afternoon to discuss details and perhaps start reaching out to potential interviewees?"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds perfect! Let\u2019s meet around 2 pm then. I\u2019ll start reaching out to some folks and see who\u2019s available. Can\u2019t wait for our meeting!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Maria. I'll bring some ideas for interview questions and we can discuss how to make this a smooth process."
+        ],
+        [
+          "Maria Lopez",
+          "Great, looking forward to our meeting! See you tomorrow at 2 pm. Have a great rest of your day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. I'll be there at 2 pm sharp. See you tomorrow!"
+        ]
+      ]
+    },
+    "Klaus Mueller": {
+      "movement": [
+        98,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Klaus Mueller discussing plans to organize interviews at Hobbs Cafe for Klaus's gentrification study research. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey Klaus, I saw you were in the middle of working on your research paper. How\u2019s it going?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hi Maria, I'm making good progress. Actually, your suggestions on doing interviews really helped me refine my approach to gathering qualitative data for my gentrification study."
+        ],
+        [
+          "Maria Lopez",
+          "That's great to hear! I'm excited to see how the interviews go. Have you scheduled any yet?"
+        ],
+        [
+          "Klaus Mueller",
+          "Yes, I have a few scheduled for tomorrow. Isabella actually suggested we could use Hobbs Cafe as a location to conduct some interviews too."
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like a great idea! Hobbs Cafe is such a lively place and people might feel more comfortable sharing their stories here. I can help organize it if you want."
+        ],
+        [
+          "Klaus Mueller",
+          "That would be fantastic, Maria. Your help organizing it will definitely make a big difference. Thanks so much!"
+        ],
+        [
+          "Maria Lopez",
+          "Awesome! Let\u2019s set up a day and time that works best for both of us to start planning. I can also reach out to some people who might be interested in participating."
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great. How about we plan to meet at Hobbs Cafe tomorrow afternoon to discuss details and perhaps start reaching out to potential interviewees?"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds perfect! Let\u2019s meet around 2 pm then. I\u2019ll start reaching out to some folks and see who\u2019s available. Can\u2019t wait for our meeting!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Maria. I'll bring some ideas for interview questions and we can discuss how to make this a smooth process."
+        ],
+        [
+          "Maria Lopez",
+          "Great, looking forward to our meeting! See you tomorrow at 2 pm. Have a great rest of your day!"
+        ],
+        [
+          "Klaus Mueller",
+          "Thanks, Maria. I'll be there at 2 pm sharp. See you tomorrow!"
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 10:08:20"
+  }
+}

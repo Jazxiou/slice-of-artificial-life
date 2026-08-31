@@ -1,0 +1,84 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez and Maria Lopez agreeing to meet for lunch at Hobbs Cafe on Thursday to catch up after a community meeting. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Maria, thank you so much for all your help today and for setting up the community meeting earlier. It wouldn't have been possible without your support."
+        ],
+        [
+          "Maria Lopez",
+          "You're very welcome, Isabella. It was great working together and seeing everyone contribute today. Are you free to grab a coffee or quick bite sometime this week to catch up more?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be wonderful, Maria. How about lunch on Thursday?"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Isabella. Let's meet around noon at Hobbs Cafe then. See you there!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, looking forward to it. And thanks again for everything today, Maria."
+        ],
+        [
+          "Maria Lopez",
+          "Sure, I'll see you there Isabella. Have a great day!"
+        ]
+      ]
+    },
+    "Maria Lopez": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez and Maria Lopez agreeing to meet for lunch at Hobbs Cafe on Thursday to catch up after a community meeting. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Maria, thank you so much for all your help today and for setting up the community meeting earlier. It wouldn't have been possible without your support."
+        ],
+        [
+          "Maria Lopez",
+          "You're very welcome, Isabella. It was great working together and seeing everyone contribute today. Are you free to grab a coffee or quick bite sometime this week to catch up more?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be wonderful, Maria. How about lunch on Thursday?"
+        ],
+        [
+          "Maria Lopez",
+          "Sounds good, Isabella. Let's meet around noon at Hobbs Cafe then. See you there!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great, looking forward to it. And thanks again for everything today, Maria."
+        ],
+        [
+          "Maria Lopez",
+          "Sure, I'll see you there Isabella. Have a great day!"
+        ]
+      ]
+    },
+    "Klaus Mueller": {
+      "movement": [
+        104,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd0d",
+      "description": "Klaus is reviewing his notes and outlining his research goals for the next day. He spends time organizing his thoughts and planning how to structure the upcoming sections of his paper on gentrification (reviewing notes from Isabella's party for relevant insights) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2023, 21:05:00"
+  }
+}
