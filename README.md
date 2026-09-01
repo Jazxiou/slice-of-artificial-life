@@ -69,6 +69,7 @@ saved state under `environment/frontend_server/storage/<name>/`, its evaluation 
    [Ollama](https://ollama.com) serving Qwen2.5 14B:
 
        ollama pull qwen2.5:14b
+       ollama serve
 
    The template points at `http://localhost:11434/v1` by default. Embeddings are computed locally
    with sentence-transformers (`all-MiniLM-L6-v2`), downloaded automatically on first use. No API
